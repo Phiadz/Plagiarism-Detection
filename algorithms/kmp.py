@@ -1,45 +1,82 @@
-from __future__ import annotations
+import re
+import time
 
+# ===============================
+# Chuẩn hóa text
+# ===============================
+def normalize(text):
+    return re.sub(r'\s+', ' ', text.lower()).strip()
 
-def _build_lps(pattern: str) -> list[int]:
+# ===============================
+# KMP - build LPS
+# ===============================
+def build_lps(pattern):
     lps = [0] * len(pattern)
-    length = 0
-    i = 1
+    j = 0
 
-    while i < len(pattern):
-        if pattern[i] == pattern[length]:
-            length += 1
-            lps[i] = length
-            i += 1
-        elif length > 0:
-            length = lps[length - 1]
-        else:
-            lps[i] = 0
-            i += 1
+    for i in range(1, len(pattern)):
+        while j > 0 and pattern[i] != pattern[j]:
+            j = lps[j - 1]
+
+        if pattern[i] == pattern[j]:
+            j += 1
+            lps[i] = j
 
     return lps
 
-
-def search(pattern: str, text: str) -> list[int]:
-    """Return all start indices where pattern appears in text (KMP)."""
-    if not pattern or not text or len(pattern) > len(text):
+# ===============================
+# KMP - search
+# ===============================
+def kmp_search(pattern, text):
+    if not pattern or len(pattern) > len(text):
         return []
 
-    lps = _build_lps(pattern)
-    matches: list[int] = []
-
-    i = 0
+    lps = build_lps(pattern)
+    result = []
     j = 0
-    while i < len(text):
-        if text[i] == pattern[j]:
-            i += 1
-            j += 1
-            if j == len(pattern):
-                matches.append(i - j)
-                j = lps[j - 1]
-        elif j > 0:
-            j = lps[j - 1]
-        else:
-            i += 1
 
-    return matches
+    for i in range(len(text)):
+        while j > 0 and text[i] != pattern[j]:
+            j = lps[j - 1]
+
+        if text[i] == pattern[j]:
+            j += 1
+
+        if j == len(pattern):
+            result.append(i - j + 1)
+            j = lps[j - 1]
+
+    return result
+
+# ===============================
+# HÀM CHẠY CHUNG
+# ===============================
+def run_kmp(text, pattern):
+    text = normalize(text)
+    pattern = normalize(pattern)
+
+    start = time.perf_counter()
+    result = kmp_search(pattern, text)
+    end = time.perf_counter()
+
+    return result, end - start
+
+# ===============================
+# MAIN
+# ===============================
+if __name__ == "__main__":
+    print("===== PHÁT HIỆN ĐẠO VĂN (KMP) =====")
+
+    text = input("Nhập văn bản: ")
+    pattern = input("Nhập đoạn nghi ngờ: ")
+
+    result, t = run_kmp(text, pattern)
+
+    print("\nKết quả:", result)
+    print("Số lần:", len(result))
+
+    for pos in result:
+        print(f"- \"{text[pos:pos+len(pattern)]}\"")
+
+    print(f"Thời gian: {t:.6f}s")
+
