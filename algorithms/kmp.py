@@ -79,4 +79,3 @@ if __name__ == "__main__":
         print(f"- \"{text[pos:pos+len(pattern)]}\"")
 
     print(f"Thời gian: {t:.6f}s")
-
