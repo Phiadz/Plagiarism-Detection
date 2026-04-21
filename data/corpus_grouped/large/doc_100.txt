@@ -1,0 +1,106 @@
+
+
+information is an abstract concept that refers to something which has the power to inform at the most fundamental level it pertains to the interpretation perhaps formally of that which may be sensed or their abstractions any natural process that is not completely random and any observable pattern in any medium can be said to convey some amount of information whereas digital signals and other data use discrete signs to convey information other phenomena and artifacts such as analogue signals poems pictures music or other sounds and currents convey information in a more continuous form information is not knowledge itself but the meaning that may be derived from a representation through interpretation
+
+the concept of information is relevant to and connected with various concepts including constraint communication control data form education knowledge meaning understanding mental stimuli pattern perception proposition representation and entropy
+
+information is often processed iteratively data available at one step are processed into information to be interpreted and processed at the next step for example in written text each symbol or letter conveys information relevant to the word it is part of each word conveys information relevant to the phrase it is part of each phrase conveys information relevant to the sentence it is part of and so on until at the final step information is interpreted and becomes knowledge in a given domain in a digital signal bits may be interpreted into the symbols letters numbers or structures that convey the information available at the next level up the key characteristic of information is that it is subject to interpretation and processing
+
+the derivation of information from a signal or message may be thought of as the resolution of ambiguity or uncertainty that arises during the interpretation of patterns within the signal or message
+
+information may be structured as data redundant data can be compressed up to an optimal size which is the theoretical limit of compression
+
+the information available through a collection of data may be derived by analysis for example a restaurant collects data from every customer order that information may be analyzed to produce knowledge that is put to use when the business subsequently wants to identify the most popular or least popular dish citation needed
+
+information can be transmitted in time via data storage and space via communication and telecommunication information is expressed either as the content of a message or through direct or indirect observation that which is perceived can be construed as a message in its own right and in that sense all information is always conveyed as the content of a message
+
+information can be encoded into various forms for transmission and interpretation for example information may be encoded into a sequence of signs or transmitted via a signal it can also be encrypted for safe storage and communication
+
+the uncertainty of an event is measured by its probability of occurrence uncertainty is proportional to the negative logarithm of the probability of occurrence information theory takes advantage of this by concluding that more uncertain events require more information to resolve their uncertainty the bit is the standard unit of information it is that which reduces uncertainty by half other units such as the nat may be used for example the information encoded in one fair coin flip is log2 2 1 1 bit and in two fair coin flips is log2 4 1 2 bits a 2011 science article estimates that 97 of technologically stored information was already in digital bits in 2007 and that the year 2002 was the beginning of the digital age for information storage with digital storage capacity bypassing analogue for the first time
+
+the english word information comes from middle french enformacion informacion information a criminal investigation and its etymon latin informatiō n conception teaching creation
+
+in english information is an uncountable mass noun
+
+references on formation or molding of the mind or character training instruction teaching date from the 14th century in both english according to oxford english dictionary and other european languages
+in the transition from middle ages to modernity the use of the concept of information reflected a fundamental turn in epistemological basis from giving a substantial form to matter to communicating something to someone peters 1988 pp 12 13 concludes
+
+in the modern era the most important influence on the concept of information is derived from the information theory developed by claude shannon and others this theory however reflects a fundamental contradiction northrup 1993 wrote
+
+in their seminal book the study of information interdisciplinary messages almach and mansfield 1983 collected key views on the interdisciplinary controversy in computer science artificial intelligence library and information science linguistics psychology and physics as well as in the social sciences almach 1983 p 660 himself disagrees with the use of the concept of information in the context of signal transmission the basic senses of information in his view all referring to telling something or to the something that is being told information is addressed to human minds and is received by human minds all other senses including its use with regard to nonhuman organisms as well to society as a whole are according to machlup metaphoric and as in the case of cybernetics anthropomorphic
+
+hjørland 2007 describes the fundamental difference between objective and subjective views of information and argues that the subjective view has been supported by among others bateson yovits span hansen brier buckland goguen and hjørland hjørland provided the following example
+
+information theory is the scientific study of the quantification storage and communication of information the field itself was fundamentally established by the work of claude shannon in the 1940s with earlier contributions by harry nyquist and ralph hartley in the 1920s the field is at the intersection of probability theory statistics computer science statistical mechanics information engineering and electrical engineering
+
+a key measure in information theory is entropy entropy quantifies the amount of uncertainty involved in the value of a random variable or the outcome of a random process for example identifying the outcome of a fair coin flip with two equally likely outcomes provides less information lower entropy than specifying the outcome from a roll of a die with six equally likely outcomes some other important measures in information theory are mutual information channel capacity error exponents and relative entropy important sub fields of information theory include source coding algorithmic complexity theory algorithmic information theory and information theoretic security citation needed
+
+applications of fundamental topics of information theory include source coding data compression e g for zip files and channel coding error detection and correction e g for dsl its impact has been crucial to the success of the voyager missions to deep space the invention of the compact disc the feasibility of mobile phones and the development of the internet the theory has also found applications in other areas including statistical inference cryptography neurobiology perception linguistics the evolution and function of molecular codes bioinformatics thermal physics quantum computing black holes information retrieval intelligence gathering plagiarism detection pattern recognition anomaly detection and even art creation
+
+often information can be viewed as a type of input to an organism or system inputs are of two kinds some inputs are important to the function of the organism for example food or system energy by themselves in his book sensory ecology biophysicist david b dusenbery called these causal inputs other inputs information are important only because they are associated with causal inputs and can be used to predict the occurrence of a causal input at a later time and perhaps another place some information is important because of association with other information but eventually there must be a connection to a causal input
+
+in practice information is usually carried by weak stimuli that must be detected by specialized sensory systems and amplified by energy inputs before they can be functional to the organism or system for example light is mainly but not only e g plants can grow in the direction of the light source a causal input to plants but for animals it only provides information the colored light reflected from a flower is too weak for photosynthesis but the visual system of the bee detects it and the bee s nervous system uses the information to guide the bee to the flower where the bee often finds nectar or pollen which are causal inputs a nutritional function
+
+information is any type of pattern that influences the formation or transformation of other patterns in this sense there is no need for a conscious mind to perceive much less appreciate the pattern consider for example dna the sequence of nucleotides is a pattern that influences the formation and development of an organism without any need for a conscious mind one might argue though that for a human to consciously define a pattern for example a nucleotide naturally involves conscious information processing however the existence of unicellular and multicellular organisms with the complex biochemistry that leads among other events to the existence of enzymes and polynucleotides that interact maintaining the biological order and participating in the development of multicellular organisms precedes by millions of years the emergence of human consciousness and the creation of the scientific culture that produced the chemical nomenclature
+
+systems theory at times seems to refer to information in this sense assuming information does not necessarily involve any conscious mind and patterns circulating due to feedback in the system can be called information in other words it can be said that information in this sense is something potentially perceived as representation though not created or presented for that purpose for example gregory bateson defines information as a difference that makes a difference
+
+if however the premise of influence implies that information has been perceived by a conscious mind and also interpreted by it the specific context associated with this interpretation may cause the transformation of the information into knowledge complex definitions of both information and knowledge make such semantic and logical analysis difficult but the condition of transformation is an important point in the study of information as it relates to knowledge especially in the business discipline of knowledge management in this practice tools and processes are used to assist a knowledge worker in performing research and making decisions including steps such as
+
+stewart 2001 argues that transformation of information into knowledge is critical lying at the core of value creation and competitive advantage for the modern enterprise
+
+in a biological framework mizraji has described information as an entity emerging from the interaction of patterns with receptor systems e g in molecular or neural receptors capable of interacting with specific patterns information emerges from those interactions in addition he has incorporated the idea of information catalysts structures where emerging information promotes the transition from pattern recognition to goal directed action for example the specific transformation of a substrate into a product by an enzyme or auditory reception of words and the production of an oral response
+
+the danish dictionary of information terms argues that information only provides an answer to a posed question whether the answer provides knowledge depends on the informed person so a generalized definition of the concept should be information an answer to a specific question
+
+when marshall mcluhan speaks of media and their effects on human cultures he refers to the structure of artifacts that in turn shape our behaviors and mindsets also pheromones are often said to be information in this sense
+
+these sections are using measurements of data rather than information as information cannot be directly measured
+
+it is estimated that the world s technological capacity to store information grew from 2 6 optimally compressed exabytes in 1986 which is the informational equivalent to less than one 730 mb cd rom per person 539 mb per person to 295 optimally compressed exabytes in 2007 this is the informational equivalent of almost 61 cd rom per person in 2007
+
+the world s combined technological capacity to receive information through one way broadcast networks was the informational equivalent of 174 newspapers per person per day in 2007
+
+the world s combined effective capacity to exchange information through two way telecommunication networks was the informational equivalent of 6 newspapers per person per day in 2007
+
+as of 2007 an estimated 90 of all new information is digital mostly stored on hard drives
+
+the total amount of data created captured copied and consumed globally is forecast to increase rapidly reaching 64 2 zettabytes in 2020 over the next five years up to 2025 global data creation is projected to grow to more than 180 zettabytes
+
+records are specialized forms of information essentially records are information produced consciously or as by products of business activities or transactions and retained because of their value primarily their value is as evidence of the activities of the organization but they may also be retained for their informational value sound records management ensures that the integrity of records is preserved for as long as they are required citation needed
+
+the international standard on records management iso 15489 defines records as information created received and maintained as evidence and information by an organization or person in pursuance of legal obligations or in the transaction of business the international committee on archives ica committee on electronic records defined a record as recorded information produced or received in the initiation conduct or completion of an institutional or individual activity and that comprises content context and structure sufficient to provide evidence of the activity
+
+records may be maintained to retain corporate memory of the organization or to meet legal fiscal or accountability requirements imposed on the organization willis expressed the view that sound management of business records and information delivered six key requirements for good corporate governance transparency accountability due process compliance meeting statutory and common law requirements and security of personal and corporate information
+
+michael buckland has classified information in terms of its uses information as process information as knowledge and information as thing
+
+beynon davies explains the multi faceted concept of information in terms of signs and signal sign systems signs themselves can be considered in terms of four inter dependent levels layers or branches of semiotics pragmatics semantics syntax and empirics these four layers serve to connect the social world on the one hand with the physical or technical world on the other
+
+pragmatics is concerned with the purpose of communication pragmatics links the issue of signs with the context within which signs are used the focus of pragmatics is on the intentions of living agents underlying communicative behaviour in other words pragmatics link language to action
+
+semantics is concerned with the meaning of a message conveyed in a communicative act semantics considers the content of communication semantics is the study of the meaning of signs the association between signs and behaviour semantics can be considered as the study of the link between symbols and their referents or concepts particularly the way that signs relate to human behavior
+
+syntax is concerned with the formalism used to represent a message syntax as an area studies the form of communication in terms of the logic and grammar of sign systems syntax is devoted to the study of the form rather than the content of signs and sign systems
+
+nielsen 2008 discusses the relationship between semiotics and information in relation to dictionaries he introduces the concept of lexicographic information costs and refers to the effort a user of a dictionary must make to first find and then understand data so that they can generate information
+
+communication normally exists within the context of some social situation the social situation sets the context for the intentions conveyed pragmatics and the form of communication in a communicative situation intentions are expressed through messages that comprise collections of inter related signs taken from a language mutually understood by the agents involved in the communication mutual understanding implies that agents involved understand the chosen language in terms of its agreed syntax and semantics the sender codes the message in the language and sends the message as signals along some communication channel empirics the chosen communication channel has inherent properties that determine outcomes such as the speed at which communication can take place and over what distance
+
+the existence of information about a closed system is a major concept in both classical physics and quantum mechanics encompassing the ability real or theoretical of an agent to predict the future state of a system based on knowledge gathered during its past and present determinism is a philosophical theory holding that causal determination can predict all future events positing a fully predictable universe described by classical physicist pierre simon laplace as the effect of its past and the cause of its future
+
+quantum physics instead encodes information as a wave function a mathematical description of a system from which the probabilities of measurement outcomes can be computed a fundamental feature of quantum theory is that the predictions it makes are probabilistic prior to the publication of bell s theorem determinists reconciled with this behavior using hidden variable theories which argued that the information necessary to predict the future of a function must exist even if it is not accessible for humans a view expressed by albert einstein with the assertion that god does not play dice
+
+modern astronomy cites the mechanical sense of information in the black hole information paradox positing that because the complete evaporation of a black hole into hawking radiation leaves nothing except an expanding cloud of homogeneous particles this results in the irrecoverability of any information about the matter to have originally crossed the event horizon violating both classical and quantum assertions against the ability to destroy information
+
+the information cycle addressed as a whole or in its distinct components is of great concern to information technology information systems as well as information science these fields deal with those processes and techniques pertaining to information capture through sensors and generation through computation formulation or composition processing including encoding encryption compression packaging transmission including all telecommunication methods presentation including visualization display methods storage such as magnetic or optical including holographic methods etc
+
+information visualization shortened as infovis depends on the computation and digital representation of data and assists users in pattern recognition and anomaly detection
+
+information security shortened as infosec is the ongoing process of exercising due diligence to protect information and information systems from unauthorized access use disclosure destruction modification disruption or distribution through algorithms and procedures focused on monitoring and detection as well as incident response and repair
+
+information analysis is the process of inspecting transforming and modeling information by converting raw data into actionable knowledge in support of the decision making process
+
+information quality shortened as infoq is the potential of a dataset to achieve a specific scientific or practical goal using a given empirical analysis method
+
+information communication represents the convergence of informatics telecommunication and audio visual media content

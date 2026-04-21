@@ -1,0 +1,13 @@
+a dynamic bayesian network dbn is a bayesian network bn which relates variables to each other over adjacent time steps
+
+a dynamic bayesian network dbn is often called a two timeslice bn 2tbn because it says that at any point in time t the value of a variable can be calculated from the internal regressors and the immediate prior value time t 1 dbns were developed by paul dagum in the early 1990s at stanford university s section on medical informatics dagum developed dbns to unify and extend traditional linear state space models such as kalman filters linear and normal forecasting models such as arma and simple dependency models such as hidden markov models into a general probabilistic representation and inference mechanism for arbitrary nonlinear and non normal time dependent domains
+
+today dbns are common in robotics and have shown potential for a wide range of data mining applications for example they have been used in speech recognition digital forensics protein sequencing and bioinformatics dbn is a generalization of hidden markov models and kalman filters
+
+dbns are conceptually related to probabilistic boolean networks and can similarly be used to model dynamical systems at steady state
+
+
+
+
+
+this statistics related article is a stub you can help wikipedia by adding missing information

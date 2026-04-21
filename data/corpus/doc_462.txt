@@ -1,0 +1,73 @@
+multimodal learning is a type of deep learning that integrates and processes multiple types of data referred to as modalities such as text audio images or video this integration allows for a more holistic understanding of complex data improving model performance in tasks like visual question answering cross modal retrieval text to image generation aesthetic ranking and image captioning
+
+multimodal learning was proposed in 2011 at the beginning of the deep learning period large multimodal models such as google gemini and gpt 4o have become increasingly popular since 2023 enabling increased versatility and a broader understanding of real world phenomena
+
+data usually comes with different modalities which carry different information for example it is very common to caption an image to convey the information not presented in the image itself similarly sometimes it is more straightforward to use an image to describe information which may not be obvious from text as a result if different words appear in similar images then these words likely describe the same thing conversely if a word is used to describe seemingly dissimilar images then these images may represent the same object thus in cases dealing with multi modal data it is important to use a model which is able to jointly represent the information such that the model can capture the combined information from different modalities
+
+multimodality means having multiple modalities where a modality refers to a type of input or output such as video image audio text proprioception etc for example google palm model was fine tuned into a multimodal model and applied to robotic control llama models have also been turned multimodal using the tokenization method to allow image inputs and video inputs gpt 4o can process and generate text audio and images
+
+a common method to create multimodal models out of an llm is to tokenize the output of a trained encoder concretely one can construct an llm that can understand images as follows take a trained llm and take a trained image encoder
+
+
+
+e
+
+
+displaystyle e
+
+make a small multilayer perceptron
+
+
+
+f
+
+
+displaystyle f
+
+so that for any image
+
+
+
+y
+
+
+displaystyle y
+
+the post processed vector
+
+
+
+f
+
+e
+
+y
+
+
+
+
+displaystyle f e y
+
+has the same dimensions as an encoded token that is an image token then one can interleave text tokens and image tokens the compound model is then fine tuned on an image text dataset this basic construction can be applied with more sophistication to improve the model the image encoder may be frozen to improve stability this type of method where embeddings from multiple modalities are fused and the predictor is trained on the combined embeddings is called early fusion
+
+another method called intermediate fusion involves each modality being first processed independently to obtain modality specific representations then these intermediate representations are fused together in general cross attention is used for integrating information from different modalities as an example the flamingo model uses cross attention layers to inject visual information into its pre trained language model
+
+transformers can also be used adapted for modalities input or output beyond just text usually by finding a way to tokenize the modality
+
+multimodal models can either be trained from scratch or by finetuning a 2022 study found that transformers pretrained only on natural language can be finetuned on only 0 03 of parameters and become competitive with lstms on a variety of logical and visual tasks demonstrating transfer learning the llava was a vision language model composed of a language model vicuna 13b and a vision model vit l 14 connected by a linear layer only the linear layer is finetuned
+
+vision transformers adapt the transformer to computer vision by breaking down input images as a series of patches turning them into vectors and treating them like embedding vector of tokens in a standard transformer
+
+conformer and later whisper follow the same pattern for speech recognition first turning the speech signal into a spectrogram which is then treated like an image i e broken down into a series of patches turned into vectors and treated like embedding vector of tokens in a standard transformer
+
+perceivers are a variant of transformers designed for multimodality
+
+for image generation notable architectures are dall e 1 2021 parti 2022 phenaki 2023 and muse 2023 unlike later models dall e is not a diffusion model instead it uses a decoder only transformer that autoregressively generates a text followed by the token representation of an image which is then converted by a variational autoencoder to an image parti is an encoder decoder transformer where the encoder processes a text prompt and the decoder generates a token representation of an image muse is an encoder only transformer that is trained to predict masked image tokens from unmasked image tokens during generation all input tokens are masked and the highest confidence predictions are included for the next iteration until all tokens are predicted phenaki is a text to video model it is a bidirectional masked transformer conditioned on pre computed text tokens the generated tokens are then decoded to a video
+
+models such as clip contrastive language image pretraining learn joint representations of images and text by optimizing contrastive objectives allowing the model to match images with their corresponding textual descriptions
+
+a boltzmann machine is a type of stochastic neural network invented by geoffrey hinton and terry sejnowski in 1985 boltzmann machines can be seen as the stochastic generative counterpart of hopfield nets they are named after the boltzmann distribution in statistical mechanics the units in boltzmann machines are divided into two groups visible units and hidden units each unit is like a neuron with a binary output that represents whether it is activated or not general boltzmann machines allow connection between any units however learning is impractical using general boltzmann machines because the computational time is exponential to the size of the machine citation needed a more efficient architecture is called restricted boltzmann machine where connection is only allowed between hidden unit and visible unit which is described in the next section
+
+multimodal deep boltzmann machines can process and learn from different types of information such as images and text simultaneously this can notably be done by having a separate deep boltzmann machine for each modality for example one for images and one for text joined at an additional top hidden layer
+
+multimodal machine learning has numerous applications across various domains

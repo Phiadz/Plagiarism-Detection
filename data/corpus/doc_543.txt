@@ -1,0 +1,520 @@
+topological deep learning tdl is a research field that extends deep learning to handle complex non euclidean data structures traditional deep learning models such as convolutional neural networks cnns and recurrent neural networks rnns excel in processing data on regular grids and sequences however scientific and real world data often exhibit more intricate data domains encountered in scientific computations including point clouds meshes time series scalar fields graphs or general topological spaces like simplicial complexes and cw complexes tdl addresses this by incorporating topological concepts to process data with higher order relationships such as interactions among multiple entities and complex hierarchies this approach leverages structures like simplicial complexes and hypergraphs to capture global dependencies and qualitative spatial properties offering a more nuanced representation of data tdl also encompasses methods from computational and algebraic topology that permit studying properties of neural networks and their training process such as their predictive performance or generalization properties
+the mathematical foundations of tdl are algebraic topology differential topology and geometric topology therefore tdl can be generalized for data on differentiable manifolds knots links tangles curves etc
+
+traditional techniques from deep learning often operate under the assumption that a dataset is residing in a highly structured space like images where convolutional neural networks exhibit outstanding performance over alternative methods or a euclidean space the prevalence of new types of data in particular graphs meshes and molecules resulted in the development of new techniques culminating in the field of geometric deep learning which originally proposed a signal processing perspective for treating such data types while originally confined to graphs where connectivity is defined based on nodes and edges follow up work extended concepts to a larger variety of data types including simplicial complexes and cw complexes with recent work proposing a unified perspective of message passing on general combinatorial complexes
+
+an independent perspective on different types of data originated from topological data analysis which proposed a new framework for describing structural information of data i e their shape that is inherently aware of multiple scales in data ranging from local information to global information while at first restricted to smaller datasets subsequent work developed new descriptors that efficiently summarized topological information of datasets to make them available for traditional machine learning techniques such as support vector machines or random forests such descriptors ranged from new techniques for feature engineering over new ways of providing suitable coordinates for topological descriptors or the creation of more efficient dissimilarity measures
+
+contemporary research in this field is largely concerned with either integrating information about the underlying data topology into existing deep learning models or obtaining novel ways of training on topological domains
+
+focusing on topology in the sense of point set topology an active branch of tdl is concerned with learning on topological spaces that is on different topological domains
+
+one of the core concepts in topological deep learning is the domain upon which this data is defined and supported in case of euclidean data such as images this domain is a grid upon which the pixel value of the image is supported in a more general setting this domain might be a topological domain next we introduce the most common topological domains that are encountered in a deep learning setting these domains include but not limited to graphs simplicial complexes cell complexes combinatorial complexes and hypergraphs
+
+given a finite set s of abstract entities a neighborhood function
+
+
+
+
+
+n
+
+
+
+
+displaystyle mathcal n
+
+on s is an assignment that attach to every point
+
+
+
+x
+
+
+displaystyle x
+
+in s a subset of s or a relation such a function can be induced by equipping s with an auxiliary structure edges provide one way of defining relations among the entities of s more specifically edges in a graph allow one to define the notion of neighborhood using for instance the one hop neighborhood notion edges however limited in their modeling capacity as they can only be used to model binary relations among entities of s since every edge is connected typically to two entities in many applications it is desirable to permit relations that incorporate more than two entities the idea of using relations that involve more than two entities is central to topological domains such higher order relations allow for a broader range of neighborhood functions to be defined on s to capture multi way interactions among entities of s
+
+next we review the main properties advantages and disadvantages of some commonly studied topological domains in the context of deep learning including abstract simplicial complexes regular cell complexes hypergraphs and combinatorial complexes
+
+each of the enumerated topological domains has its own characteristics advantages and limitations
+
+the properties of simplicial complexes cell complexes and hypergraphs give rise to two main features of relations on higher order domains namely hierarchies of relations and set type relations
+
+a rank function on a higher order domain x is an order preserving function rk x z where rk x attaches a non negative integer value to each relation x in x preserving set inclusion in x cell and simplicial complexes are common examples of higher order domains equipped with rank functions and therefore with hierarchies of relations
+
+relations in a higher order domain are called set type relations if the existence of a relation is not implied by another relation in the domain hypergraphs constitute examples of higher order domains equipped with set type relations given the modeling limitations of simplicial complexes cell complexes and hypergraphs we develop the combinatorial complex a higher order domain that features both hierarchies of relations and set type relations
+
+the learning tasks in tdl can be broadly classified into three categories
+
+in practice to perform the aforementioned tasks deep learning models designed for specific topological spaces must be constructed and implemented these models known as topological neural networks are tailored to operate effectively within these spaces
+
+central to tdl are topological neural networks tnns specialized architectures designed to operate on data structured in topological domains unlike traditional neural networks tailored for grid like structures tnns are adept at handling more intricate data representations such as graphs simplicial complexes and cell complexes by harnessing the inherent topology of the data tnns can capture both local and global relationships enabling nuanced analysis and interpretation
+
+in a general topological domain higher order message passing involves exchanging messages among entities and cells using a set of neighborhood functions
+
+definition higher order message passing on a general topological domain
+
+let
+
+
+
+
+
+x
+
+
+
+
+displaystyle mathcal x
+
+be a topological domain we define a set of neighborhood functions
+
+
+
+
+
+n
+
+
+
+
+
+
+
+n
+
+
+
+1
+
+
+
+
+
+
+
+
+n
+
+
+
+n
+
+
+
+
+
+displaystyle mathcal n mathcal n _ 1 ldots mathcal n _ n
+
+on
+
+
+
+
+
+x
+
+
+
+
+displaystyle mathcal x
+
+consider a cell
+
+
+
+x
+
+
+displaystyle x
+
+and let
+
+
+
+y
+
+
+
+
+n
+
+
+
+k
+
+
+
+x
+
+
+
+displaystyle y in mathcal n _ k x
+
+for some
+
+
+
+
+
+
+n
+
+
+
+k
+
+
+
+
+
+n
+
+
+
+
+displaystyle mathcal n _ k in mathcal n
+
+a message
+
+
+
+
+m
+
+x
+
+y
+
+
+
+
+displaystyle m_ x y
+
+between cells
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+y
+
+
+displaystyle y
+
+is a computation dependent on these two cells or the data supported on them denote
+
+
+
+
+
+n
+
+
+
+x
+
+
+
+displaystyle mathcal n x
+
+as the multi set
+
+
+
+
+
+
+
+
+
+
+n
+
+
+
+1
+
+
+
+x
+
+
+
+
+
+
+
+n
+
+
+
+n
+
+
+
+x
+
+
+
+
+
+
+
+displaystyle mathcal n _ 1 x ldots mathcal n _ n x
+
+and let
+
+
+
+
+
+h
+
+
+x
+
+
+
+l
+
+
+
+
+
+displaystyle mathbf h _ x l
+
+represent some data supported on cell
+
+
+
+x
+
+
+displaystyle x
+
+at layer
+
+
+
+l
+
+
+displaystyle l
+
+higher order message passing on
+
+
+
+
+
+x
+
+
+
+
+displaystyle mathcal x
+
+induced by
+
+
+
+
+
+n
+
+
+
+
+displaystyle mathcal n
+
+is defined by the following four update rules
+
+some remarks on definition above are as follows
+
+first equation 1 describes how messages are computed between cells
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+y
+
+
+displaystyle y
+
+the message
+
+
+
+
+m
+
+x
+
+y
+
+
+
+
+displaystyle m_ x y
+
+is influenced by both the data
+
+
+
+
+
+h
+
+
+x
+
+
+
+l
+
+
+
+
+
+displaystyle mathbf h _ x l
+
+and
+
+
+
+
+
+h
+
+
+y
+
+
+
+l
+
+
+
+
+
+displaystyle mathbf h _ y l
+
+associated with cells
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+y
+
+
+displaystyle y
+
+respectively additionally it incorporates characteristics specific to the cells themselves such as orientation in the case of cell complexes this allows for a richer representation of spatial relationships compared to traditional graph based message passing frameworks
+
+second equation 2 defines how messages from neighboring cells are aggregated within each neighborhood the function
+
+
+
+
+
+
+displaystyle bigoplus
+
+aggregates these messages allowing information to be exchanged effectively between adjacent cells within the same neighborhood
+
+third equation 3 outlines the process of combining messages from different neighborhoods the function
+
+
+
+
+
+
+displaystyle bigotimes
+
+aggregates messages across various neighborhoods facilitating communication between cells that may not be directly connected but share common neighborhood relationships
+
+fourth equation 4 specifies how the aggregated messages influence the state of a cell in the next layer here the function
+
+
+
+β
+
+
+displaystyle beta
+
+updates the state of cell
+
+
+
+x
+
+
+displaystyle x
+
+based on its current state
+
+
+
+
+
+h
+
+
+x
+
+
+
+l
+
+
+
+
+
+displaystyle mathbf h _ x l
+
+and the aggregated message
+
+
+
+
+m
+
+x
+
+
+
+
+displaystyle m_ x
+
+obtained from neighboring cells
+
+while the majority of tnns follow the message passing paradigm from graph learning several models have been suggested that do not follow this approach for instance maggs et al leverage geometric information from embedded simplicial complexes i e simplicial complexes with high dimensional features attached to their vertices this offers interpretability and geometric consistency without relying on message passing furthermore in a contrastive loss based method was suggested to learn the simplicial representation
+
+motivated by the modular nature of deep neural networks initial work in tdl drew inspiration from topological data analysis and aimed to make the resulting descriptors amenable to integration into deep learning models this led to work defining new layers for deep neural networks pioneering work by hofer et al for instance introduced a layer that permitted topological descriptors like persistence diagrams or persistence barcodes to be integrated into a deep neural network this was achieved by means of end to end trainable projection functions permitting topological features to be used to solve shape classification tasks for instance follow up work expanded more on the theoretical properties of such descriptors and integrated them into the field of representation learning other such topological layers include layers based on extended persistent homology descriptors persistence landscapes or coordinate functions in parallel persistent homology also found applications in graph learning tasks noteworthy examples include new algorithms for learning task specific filtration functions for graph classification or node classification tasks
+
+tdl is rapidly finding new applications across different domains including data compression enhancing the expressivity and predictive performance of graph neural networks action recognition and trajectory prediction

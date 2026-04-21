@@ -1,0 +1,28 @@
+in the context of combinatorial game theory a game tree is a graph representing all possible game states within a sequential game that has perfect information such games include chess checkers go and tic tac toe
+
+a game tree can be used to measure the complexity of a game as it represents all the possible ways that the game can pan out due to the large game trees of complex games such as chess algorithms that are designed to play this class of games will use partial game trees which makes computation feasible on modern computers various methods exist to solve game trees if a complete game tree can be generated a deterministic algorithm such as backward induction or retrograde analysis can be used randomized algorithms and minmax algorithms such as mcts can be used in cases where a complete game tree is not feasible
+
+to better understand the game tree it can be thought of as a technique for analyzing adversarial games which determine the actions that player takes to win the game in game theory a game tree is a directed graph whose nodes are positions in a game e g the arrangement of the pieces in a board game and whose edges are moves e g to move pieces from one position on a board to another
+
+the complete game tree for a game is the game tree starting at the initial position and containing all possible moves from each position the complete tree is the same tree as that obtained from the extensive form game representation to be more specific the complete game is a norm for the game in game theory which can clearly express many important aspects for example the sequence of actions that stakeholders may take their choices at each decision point information about actions taken by other stakeholders when each stakeholder makes a decision and the benefits of all possible game results
+
+the number of leaf nodes in the complete game tree is the number of possible different ways the game can be played for example the game tree for tic tac toe has 255 168 leaf nodes
+
+game trees are important in artificial intelligence because one way to pick the best move in a game is to search the game tree using any of numerous tree search algorithms combined with minimax like rules to prune the tree the game tree for tic tac toe is easily searchable but the complete game trees for larger games like chess are much too large to search instead a chess playing program searches a partial game tree typically as many plies from the current position as it can search in the time available except for the case of pathological game trees which seem to be quite rare in practice increasing the search depth i e the number of plies searched generally improves the chance of picking the best move
+
+two person games can also be represented as and or trees for the first player to win a game there must exist a winning move for all moves of the second player this is represented in the and or tree by using disjunction to represent the first player s alternative moves and using conjunction to represent all of the second player s moves
+
+with a complete game tree it is possible to solve the game that is to say find a sequence of moves that either the first or second player can follow that will guarantee the best possible outcome for that player usually a win or a tie the deterministic algorithm which is generally called backward induction or retrograde analysis can be described recursively as follows
+
+the diagram shows a game tree for an arbitrary game colored using the above algorithm
+
+it is usually possible to solve a game in this technical sense of solve using only a subset of the game tree since in many games a move need not be analyzed if there is another move that is better for the same player for example alpha beta pruning can be used in many deterministic games
+
+any subtree that can be used to solve the game is known as a decision tree and the sizes of decision trees of various shapes are used as measures of game complexity
+
+randomized algorithms can be used in solving game trees there are two main advantages in this type of implementation speed and practicality whereas a deterministic version of solving game trees can be done in ο n the following randomized algorithm has an expected run time of θ n0 792 if every node in the game tree has degree 2 moreover it is practical because randomized algorithms are capable of foiling an enemy meaning an opponent cannot beat the system of game trees by knowing the algorithm used to solve the game tree because the order of solving is random
+
+the following is an implementation of randomized game tree solution algorithm
+
+the algorithm makes use of the idea of short circuiting if the root node is considered an or operator then once one true is found the root is classified as true conversely if the root node is considered an and operator then once one false is found the root is classified as false
+

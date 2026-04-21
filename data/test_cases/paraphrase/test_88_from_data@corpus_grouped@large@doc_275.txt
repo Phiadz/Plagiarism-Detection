@@ -1,0 +1,1 @@
+0 38 1044 with a 95 confidence level with a game tree complexity of approximately 10123 the game tree complexity of chess was first calculated by claude shannon as 10120 a number known as the shannon number an average position typically has thirty to forty possible moves but there may be as few as z

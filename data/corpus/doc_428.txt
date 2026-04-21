@@ -1,0 +1,121 @@
+in computer science pattern matching is the act of checking a given sequence of tokens for the presence of the constituents of some pattern in contrast to pattern recognition the match usually must be exact either it will or will not be a match the patterns generally have the form of either sequences or tree structures uses of pattern matching include outputting the locations if any of a pattern within a token sequence to output some component of the matched pattern and to substitute the matching pattern with some other token sequence i e search and replace
+
+sequence patterns e g a text string are often described using regular expressions and matched using techniques such as backtracking
+
+tree patterns are used in some programming languages as a general tool to process data based on its structure e g c f haskell java ml python racket ruby rust scala swift and the symbolic mathematics language mathematica have special syntax for expressing tree patterns and a language construct for conditional execution and value retrieval based on it
+
+often it is possible to give alternative patterns that are tried one by one which yields a powerful conditional programming construct pattern matching sometimes includes support for guards citation needed
+
+early programming languages with pattern matching constructs include comit 1957 snobol 1962 refal 1968 with tree based pattern matching prolog 1972 st andrews static language sasl 1976 npl 1977 and kent recursive calculator krc 1981
+
+the pattern matching feature of function arguments in the language ml 1973 and its dialect standard ml 1983 has been carried over to some other functional programming languages that were influenced by them such as haskell 1990 scala 2004 and f 2005 the pattern matching construct with the match keyword that was introduced in the ml dialect caml 1985 was followed by languages such as ocaml 1996 f 2005 f 2011 and rust 2015
+
+many text editors support pattern matching of various kinds the qed editor supports regular expression search and some versions of teco support the or operator in searches
+
+computer algebra systems generally support pattern matching on algebraic expressions
+
+pattern matching involves specialized terminology
+
+while some concepts are relatively common to many pattern languages other pattern languages include unique or unusual extensions
+
+the simplest pattern in pattern matching is an explicit value or a variable for an example consider a simple function definition in haskell syntax function parameters are not in parentheses but are separated by spaces is not assignment but definition
+
+here 0 is a single value pattern now whenever f is given 0 as argument the pattern matches and the function returns 1 with any other argument the matching and thus the function fail as the syntax supports alternative patterns in function definitions we can continue the definition extending it to take more generic arguments
+
+here the first n is a single variable pattern which will match absolutely any argument and bind it to name n to be used in the rest of the definition in haskell unlike at least hope patterns are tried in order so the first definition still applies in the very specific case of the input being 0 while for any other argument the function returns n f n 1 with n being the argument
+
+the wildcard pattern often written as _ is also simple like a variable name it matches any value but does not bind the value to any name algorithms for matching wildcards in simple string matching situations have been developed in a number of recursive and non recursive varieties
+
+more complex patterns can be built from the primitive ones of the previous section usually in the same way as values are built by combining other values the difference then is that with variable and wildcard parts a pattern does not build into a single value but matches a group of values that are the combination of the concrete elements and the elements that are allowed to vary within the structure of the pattern
+
+a tree pattern describes a part of a tree by starting with a node and specifying some branches and nodes and leaving some unspecified with a variable or wildcard pattern it may help to think of the abstract syntax tree of a programming language and algebraic data types
+
+in haskell the following line defines an algebraic data type color that has a single data constructor colorconstructor that wraps an integer and a string
+
+the constructor is a node in a tree and the integer and string are leaves in branches
+
+when we want to write functions to make color an abstract data type we wish to write functions to interface with the data type and thus we want to extract some data from the data type for example just the string or just the integer part of color
+
+if we pass a variable that is of type color how can we get the data out of this variable for example for a function to get the integer part of color we can use a simple tree pattern and write
+
+as well
+
+the creations of these functions can be automated by haskell s data record syntax
+
+this ocaml example which defines a red black tree and a function to re balance it after element insertion shows how to match on a more complex structure generated by a recursive data type the compiler verifies at compile time that the list of cases is exhaustive and none are redundant
+
+pattern matching can be used to filter data of a certain structure for instance in haskell a list comprehension could be used for this kind of filtering
+
+evaluates to
+
+in mathematica the only structure that exists is the tree which is populated by symbols in the haskell syntax used thus far this could be defined as
+
+an example tree could then look like
+
+in the traditional more suitable syntax the symbols are written as they are and the levels of the tree are represented using so that for instance a b c is a tree with a as the parent and b and c as the children
+
+a pattern in mathematica involves putting _ at positions in that tree for instance the pattern
+
+will match elements such as a a or more generally a x where x is any entity in this case a is the concrete element while _ denotes the piece of tree that can be varied a symbol prepended to _ binds the match to that variable name while a symbol appended to _ restricts the matches to nodes of that symbol note that even blanks themselves are internally represented as blank for _ and blank x for _x
+
+the mathematica function cases filters elements of the first argument that match the pattern in the second argument
+
+evaluates to
+
+pattern matching applies to the structure of expressions in the example below
+
+returns
+
+because only these elements will match the pattern a b _ _ above
+
+in mathematica it is also possible to extract structures as they are created in the course of computation regardless of how or where they appear the function trace can be used to monitor a computation and return the elements that arise which match a pattern for example we can define the fibonacci sequence as
+
+then we can ask the question given fib what is the sequence of recursive fibonacci calls
+
+returns a structure that represents the occurrences of the pattern fib _ in the computational structure
+
+in symbolic programming languages it is easy to have patterns as arguments to functions or as elements of data structures a consequence of this is the ability to use patterns to declaratively make statements about pieces of data and to flexibly instruct functions how to operate
+
+for instance the mathematica function compile can be used to make more efficient versions of the code in the following example the details do not particularly matter what matters is that the subexpression com _ integer instructs compile that expressions of the form com _ can be assumed to be integers for the purposes of compilation
+
+mailboxes in erlang also work this way
+
+the curry howard correspondence between proofs and programs relates ml style pattern matching to case analysis and proof by exhaustion
+
+by far the most common form of pattern matching involves strings of characters in many programming languages a particular syntax of strings is used to represent regular expressions which are patterns describing string characters
+
+however it is possible to perform some string pattern matching within the same framework that has been discussed throughout this article
+
+in mathematica strings are represented as trees of root stringexpression and all the characters in order as children of the root thus to match any amount of trailing characters a new wildcard ___ is needed in contrast to _ that would match only a single character
+
+in haskell and functional programming languages in general strings are represented as functional lists of characters a functional list is defined as an empty list or an element constructed on an existing list in haskell syntax
+
+the structure for a list with some elements is thus element list when pattern matching we assert that a certain piece of data is equal to a certain pattern for example in the function
+
+we assert that the first element of head s argument is called element and the function returns this we know that this is the first element because of the way lists are defined a single element constructed onto a list this single element must be the first the empty list would not match the pattern at all as an empty list does not have a head the first element that is constructed
+
+in the example we have no use for list so we can disregard it and thus write the function
+
+the equivalent mathematica transformation is expressed as
+
+in mathematica for instance
+
+will match a string that has two characters and begins with a
+
+the same pattern in haskell
+
+symbolic entities can be introduced to represent many different classes of relevant features of a string for instance
+
+will match a string that consists of a letter first and then a number
+
+in haskell guards could be used to achieve the same matches
+
+the main advantage of symbolic string manipulation is that it can be completely integrated with the rest of the programming language rather than being a separate special purpose subunit the entire power of the language can be leveraged to build up the patterns themselves or analyze and transform the programs that contain them
+
+snobol string oriented and symbolic language is a computer programming language developed between 1962 and 1967 at at t bell laboratories by david j farber ralph e griswold and ivan p polonsky
+
+snobol4 stands apart from most programming languages by having patterns as a first class data type i e a data type whose values can be manipulated in all ways permitted to any other data type in the programming language and by providing operators for pattern concatenation and alternation strings generated during execution can be treated as programs and executed
+
+snobol was quite widely taught in larger us universities in the late 1960s and early 1970s and was widely used in the 1970s and 1980s as a text manipulation language in the humanities
+
+since snobol s creation newer languages such as awk and perl have made string manipulation by means of regular expressions fashionable snobol4 patterns however subsume backus naur form bnf grammars which are equivalent to context free grammars and more powerful than regular expressions

@@ -1,0 +1,78 @@
+a thesaurus pl thesauri or thesauruses sometimes called a synonym dictionary or dictionary of synonyms is a reference work which arranges words by their meanings or in simpler terms a book where one can find different words with similar meanings to other words sometimes as a hierarchy of broader and narrower terms sometimes simply as lists of synonyms and antonyms they are often used by writers to help find the best word to express an idea
+
+to find the word or words by which an idea may be most fitly and aptly expressed
+peter mark roget 1852
+synonym dictionaries have a long history the word thesaurus was used in 1852 by peter mark roget for his roget s thesaurus
+
+while some works called thesauri such as roget s thesaurus group words in a hierarchical hypernymic taxonomy of concepts others are organised alphabetically or in some other way
+
+most thesauri do not include definitions but many dictionaries include listings of synonyms
+
+some thesauri and dictionary synonym notes characterise the distinctions between similar words with notes on their connotations and varying shades of meaning some synonym dictionaries are primarily concerned with differentiating synonyms by meaning and usage usage manuals such as fowler s dictionary of modern english usage or garner s modern english usage often prescribe the usage of synonyms
+
+writers sometimes use thesauri to avoid repetition of words elegant variation which is often criticised by usage manuals writers sometimes use them not just to vary their vocabularies but to dress them up too much
+
+the word thesaurus comes from latin thēsaurus which in turn comes from ancient greek θησαυρός thēsauros treasure treasury storehouse the word thēsauros is of uncertain etymology
+
+until the 19th century a thesaurus was any dictionary or encyclopedia as in the thesaurus linguae latinae dictionary of the latin language 1532 and the thesaurus linguae graecae dictionary of the greek language 1572 it was roget who introduced the meaning collection of words arranged according to sense in 1852
+
+the ancient greek author philo of byblos in classical antiquity authored the first text that could now be called a thesaurus
+
+in sanskrit the amarakosha is a thesaurus in verse form written in the 4th century
+
+the study of synonyms became an important theme in 18th century philosophy and étienne bonnot de condillac wrote but never published a dictionary of synonyms
+
+some early synonym dictionaries include
+
+roget s thesaurus first compiled in 1805 by peter mark roget and published in 1852 follows john wilkins semantic arrangement of 1668 unlike earlier synonym dictionaries it does not include definitions or aim to help the user choose among synonyms it has been continuously in print since 1852 and remains widely used across the english speaking world roget described his thesaurus in the foreword to the first edition
+
+it is now nearly fifty years since i first projected a system of verbal classification similar to that on which the present work is founded conceiving that such a compilation might help to supply my deficiencies i had in the year 1805 completed a classed catalogue of words on a small scale but on the same principle and nearly in the same form as the thesaurus now published
+
+roget s original thesaurus was organized into 1000 conceptual heads e g 806 debt organized into a four level taxonomy for example debt is classed under v ii iv
+
+each head includes direct synonyms debt obligation liability related concepts interest usance usury related persons debtor debitor defaulter 808 verbs to be in debt to owe see borrow 788 phrases to run up a bill or score and adjectives in debt indebted owing numbers in parentheses are cross references to other heads
+
+the book starts with a tabular synopsis of categories laying out the hierarchy then the main body of the thesaurus listed by the head and then an alphabetical index listing the different heads under which a word may be found liable subject to 177 debt 806 duty 926
+
+some recent versions have kept the same organisation though often with more detail under each head others have made modest changes such as eliminating the four level taxonomy and adding new heads one has 1075 heads in fifteen classes
+
+some non english thesauri have also adopted this model
+
+in addition to its taxonomic organisation the historical thesaurus of english 2009 includes the date when each word came to have a given meaning it has the novel and unique goal of charting the semantic development of the huge and varied vocabulary of english
+
+different senses of a word are listed separately for example three different senses of debt are listed in three different places in the taxonomy
+a sum of money that is owed or due a liability or obligation to pay
+
+an immaterial debt is an obligation to do something
+
+an offence requiring expiation figurative biblical
+
+other thesauri and synonym dictionaries are organised alphabetically
+
+most repeat the list of synonyms under each word
+
+some designate a principal entry for each concept and cross reference it
+
+a third system interfiles words and conceptual headings francis march s thesaurus dictionary gives for liability contingency credit debt duty dereliction liberty subjection money each of which is a conceptual heading the credit debt article has multiple subheadings including nouns of agent verbs verbal expressions etc under each are listed synonyms with brief definitions e g credit transference of property on promise of future payment the conceptual headings are not organized into a taxonomy
+
+benjamin lafaye s synonymes français 1841 is organised around morphologically related families of synonyms e g logis logement and his dictionnaire des synonymes de la langue française 1858 is mostly alphabetical but also includes a section on morphologically related synonyms which is organised by prefix suffix or construction
+
+before roget most thesauri and dictionary synonym notes included discussions of the differences among near synonyms as do some modern ones
+
+merriam webster s dictionary of synonyms is a stand alone modern english synonym dictionary that does discuss differences in addition many general english dictionaries include synonym notes
+
+several modern synonym dictionaries in french are primarily devoted to discussing the precise demarcations among synonyms
+
+some include short definitions
+
+some give illustrative phrases
+
+some include lists of objects within the category hyponyms e g breeds of dogs
+
+bilingual synonym dictionaries are designed for language learners one such dictionary gives various french words listed alphabetically with an english translation and an example of use another one is organised taxonomically with examples translations and some usage notes
+
+in library and information science a thesaurus is a kind of controlled vocabulary
+
+a thesaurus can form part of an ontology and be represented in the simple knowledge organization system skos
+
+thesauri are used in natural language processing for word sense disambiguation and text simplification for machine translation systems

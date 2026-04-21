@@ -1,0 +1,18 @@
+
+alberto ciaramella born 1947 is an italian computer engineer and scientist he is notable for extensive pioneering contributions in the field of speech technologies and applied natural language processing most of them at cselt and loquendo with the amount of 40 papers and four patents
+
+ciaramella obtained the laurea in electronic engineering and the post laurea in 1969 at la sapienza university in rome with prof antonio ruberti as supervisor of his thesis then he joined cselt as a research engineer
+
+in 1975 he patented at cselt one of the first architecture independent bootstrap devices that allowed the gruppi speciali the first electronic italian telephone switch and the most advanced project in italian in the seventies to start up by pushing a single button from a rom memory in case of failure
+
+during the 80s ciaramella took part in some european projects esprit p26 sundial in the pioneering field of speech recognition and dialogue systems on many european languages such as italian during which he proposed a method to evaluate the quality of the dialogue systems by comparing the meanings
+
+in 1983 he co authored one of the first international patents on speaker recognition a new research field at that time applied commercially in a speech recognition software licensed by cselt
+
+in 1990 he co authored one of the first international patents of a real time speech recognition system integrated in a microprocessor suitable for being used by a telecommunications company the microprocessor was named ripac riconoscitore di parlato connesso as stated in the patent description itself
+
+extensive research was conducted on the hidden markov model aimed at speech recognition tasks by using small such as big dictionaries and applied to many cases e g the recognition of the children s voice or browser navigation by voice other contributions include tests and proposals in international communication standards such as voicexml
+
+in 2001 the cselt s voice technology group became loquendo and alberto ciaramella became competitive intelligence supervisor of the company
+
+in 2005 ciaramella founded intellisemantic at the incubator of politecnico di torino an innovative company that works in the field of competitive business intelligence also within his present company he continues the research in the field of applied language technologies in 2010 he co authored a paper about his view on the application of the emerging semantic technologies to patent analysis which became popular in the field of patent informatics and took part in the topas european project focused on patent summarisation

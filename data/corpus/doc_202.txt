@@ -1,0 +1,42 @@
+
+
+natural language processing nlp is the processing of natural language information by a computer nlp is a subfield of computer science and is closely associated with artificial intelligence nlp is also related to information retrieval knowledge representation computational linguistics and linguistics more broadly
+
+major processing tasks in an nlp system include speech recognition text classification natural language understanding and natural language generation
+
+natural language processing has its roots in the 1950s already in 1950 alan turing published an article titled computing machinery and intelligence which proposed what is now called the turing test as a criterion of intelligence though at the time that was not articulated as a problem separate from artificial intelligence the proposed test includes a task that involves the automated interpretation and generation of natural language
+
+the premise of symbolic nlp is often illustrated using john searle s chinese room thought experiment given a collection of rules e g a chinese phrasebook with questions and matching answers the computer emulates natural language understanding or other nlp tasks by applying those rules to the data it confronts
+
+up until the 1980s most natural language processing systems were based on complex sets of hand written rules starting in the late 1980s however there was a revolution in natural language processing with the introduction of machine learning algorithms for language processing this shift was influenced by increasing computational power see moore s law and a decline in the dominance of chomskyan linguistic theories e g transformational grammar whose theoretical underpinnings discouraged the sort of corpus linguistics that underlies the machine learning approach to language processing
+
+symbolic approach i e the hand coding of a set of rules for manipulating symbols coupled with a dictionary lookup was historically the first approach used both by ai in general and by nlp in particular such as by writing grammars or devising heuristic rules for stemming
+
+machine learning approaches which include both statistical and neural networks on the other hand have many advantages over the symbolic approach
+
+rule based systems are commonly used
+
+in the late 1980s and mid 1990s the statistical approach ended a period of ai winter which was caused by the inefficiencies of the rule based approaches
+
+the earliest decision trees producing systems of hard if then rules were still very similar to the old rule based approaches
+only the introduction of hidden markov models applied to part of speech tagging announced the end of the old rule based approach
+
+a major drawback of statistical methods is that they require elaborate feature engineering since 2015 neural network based methods have increasingly replaced traditional statistical approaches using semantic networks and word embeddings to capture semantic properties of words
+
+intermediate tasks e g part of speech tagging and dependency parsing are not needed anymore
+
+neural machine translation based on then newly invented sequence to sequence transformations made obsolete the intermediate steps such as word alignment previously necessary for statistical machine translation
+
+the following is a list of some of the most commonly researched tasks in natural language processing some of these tasks have direct real world applications while others more commonly serve as subtasks that are used to aid in solving larger tasks
+
+though natural language processing tasks are closely intertwined they can be subdivided into categories for convenience a coarse division is given below
+
+based on long standing trends in the field it is possible to extrapolate future directions of nlp as of 2020 three trends among the topics of the long standing series of conll shared tasks can be observed
+
+most higher level nlp applications involve aspects that emulate intelligent behavior and apparent comprehension of natural language more broadly speaking the technical operationalization of increasingly advanced aspects of cognitive behavior represents one of the developmental trajectories of nlp see trends among conll shared tasks above
+
+cognition refers to the mental action or process of acquiring knowledge and understanding through thought experience and the senses cognitive science is the interdisciplinary scientific study of the mind and its processes cognitive linguistics is an interdisciplinary branch of linguistics combining knowledge and research from both psychology and linguistics especially during the age of symbolic nlp the area of computational linguistics maintained strong ties with cognitive studies
+
+as an example george lakoff offers a methodology to build natural language processing nlp algorithms through the perspective of cognitive science along with the findings of cognitive linguistics with two defining aspects
+
+ties with cognitive linguistics are part of the historical heritage of nlp but they have been less frequently addressed since the statistical turn during the 1990s nevertheless approaches to develop cognitive models towards technically operationalizable frameworks have been pursued in the context of various frameworks e g of cognitive grammar functional grammar construction grammar computational psycholinguistics and cognitive neuroscience e g act r however with limited uptake in mainstream nlp as measured by presence on major conferences of the acl more recently ideas of cognitive nlp have been revived as an approach to achieve explainability e g under the notion of cognitive ai likewise ideas of cognitive nlp are inherent to neural models multimodal nlp although rarely made explicit and developments in artificial intelligence specifically tools and technologies using large language model approaches and new directions in artificial general intelligence based on the free energy principle by british neuroscientist and theoretician at university college london karl j friston

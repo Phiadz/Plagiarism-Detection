@@ -1,0 +1,46 @@
+in mathematical logic and logic programming a horn clause is a logical formula of a particular rule like form that gives it useful properties for use in logic programming formal specification universal algebra and model theory horn clauses are named for the logician alfred horn who first pointed out their significance in 1951
+
+a horn clause is a disjunctive clause a disjunction of literals with at most one positive i e unnegated literal
+
+conversely a disjunction of literals with at most one negated literal is called a dual horn clause
+
+a horn clause with exactly one positive literal is a definite clause or a strict horn clause a definite clause with no negative literals is a unit clause and a unit clause without variables is a fact
+a horn clause without a positive literal is a goal clause
+the empty clause consisting of no literals which is equivalent to false is a goal clause
+these three kinds of horn clauses are illustrated in the following propositional example
+
+all variables in a clause are implicitly universally quantified with the scope being the entire clause thus for example
+
+stands for
+
+which is logically equivalent to
+
+horn clauses play a basic role in constructive logic and computational logic they are important in automated theorem proving by first order resolution because the resolvent of two horn clauses is itself a horn clause and the resolvent of a goal clause and a definite clause is a goal clause these properties of horn clauses can lead to greater efficiency of proving a theorem the goal clause is the negation of this theorem see goal clause in the above table intuitively if we wish to prove φ we assume φ the goal and check whether such assumption leads to a contradiction if so then φ must hold this way a mechanical proving tool needs to maintain only one set of formulas assumptions rather than two sets assumptions and sub goals
+
+propositional horn clauses are also of interest in computational complexity the problem of finding truth value assignments to make a conjunction of propositional horn clauses true is known as hornsat this problem is p complete and solvable in linear time in contrast the unrestricted boolean satisfiability problem is an np complete problem
+
+in universal algebra definite horn clauses are generally called quasi identities classes of algebras definable by a set of quasi identities are called quasivarieties and enjoy some of the good properties of the more restrictive notion of a variety i e an equational class from the model theoretical point of view horn sentences are important since they are exactly up to logical equivalence those sentences preserved under reduced products in particular they are preserved under direct products on the other hand there are sentences that are not horn but are nevertheless preserved under arbitrary direct products
+
+horn clauses are also the basis of logic programming where it is common to write definite clauses in the form of an implication
+
+in fact the resolution of a goal clause with a definite clause to produce a new goal clause is the basis of the sld resolution inference rule used in implementation of the logic programming language prolog
+
+in logic programming a definite clause behaves as a goal reduction procedure for example the horn clause written above behaves as the procedure
+
+to emphasize this reverse use of the clause it is often written in the reverse form
+
+in prolog this is written as
+
+in logic programming a goal clause which has the logical form
+
+represents the negation of a problem to be solved the problem itself is an existentially quantified conjunction of positive literals
+
+the prolog notation does not have explicit quantifiers and is written in the form
+
+this notation is ambiguous in the sense that it can be read either as a statement of the problem or as a statement of the denial of the problem however both readings are correct in both cases solving the problem amounts to deriving the empty clause in prolog notation this is equivalent to deriving
+
+if the top level goal clause is read as the denial of the problem then the empty clause represents false and the proof of the empty clause is a refutation of the denial of the problem if the top level goal clause is read as the problem itself then the empty clause represents true and the proof of the empty clause is a proof that the problem has a solution
+
+the solution of the problem is a substitution of terms for the variables x in the top level goal clause which can be extracted from the resolution proof used in this way goal clauses are similar to conjunctive queries in relational databases and horn clause logic is equivalent in computational power to a universal turing machine
+
+van emden and kowalski 1976 investigated the model theoretic properties of horn clauses in the context of logic programming showing that every set of definite clauses d has a unique minimal model m an atomic formula a is logically implied by d if and only if a is true in m it follows that a problem p represented by an existentially quantified conjunction of positive literals is logically implied by d if and only if p is true in m the minimal model semantics of horn clauses is the basis for the stable model semantics of logic programs

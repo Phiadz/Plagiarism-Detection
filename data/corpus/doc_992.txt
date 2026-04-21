@@ -1,0 +1,14 @@
+sigplan is the association for computing machinery s special interest group sig on programming languages this sig explores programming language concepts and tools focusing on design implementation practice and theory its members are programming language developers educators implementers researchers theoreticians and users
+
+recognizes an individual or individuals who has made a significant and lasting contribution to the field of programming languages
+
+
+recognizes outstanding contributions by young researchers in the area of programming languages the award is named after the computer scientist robin milner
+
+given to an institution or individual s to recognize the development of a software system that has had a significant impact on programming language research implementations and tools
+
+the full name of this award is the john c reynolds doctoral dissertation award after the computer scientist john c reynolds it is presented annually to the author of the outstanding doctoral dissertation in the area of programming languages
+
+given to the authors of a paper presented at pldi 10 years prior to the award year in recognition of its influence over the past decade
+
+given to the authors of a paper presented at popl 10 years prior to the award year in recognition of its influence over the past decade

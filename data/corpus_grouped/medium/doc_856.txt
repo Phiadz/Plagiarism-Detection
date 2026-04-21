@@ -1,0 +1,50 @@
+
+
+irving john good 9 december 1916 5 april 2009
+was a british mathematician who worked as a cryptologist at bletchley park with alan turing after the second world war good continued to work with turing on the design of computers and bayesian statistics at the university of manchester good moved to the united states where he was a professor at virginia tech
+
+he was born isadore jacob gudak to a polish jewish family in london he later anglicised his name to irving john good and signed his publications i j good
+
+an originator of the concept known as the intelligence explosion good served as consultant on supercomputers to stanley kubrick director of the 1968 film 2001 a space odyssey
+
+good was born isadore jacob gudak to polish jewish parents in london his father was a watchmaker who later managed and owned a successful fashionable jewellery shop and was also a notable yiddish writer writing under the pen name of moshe oved good was educated at the haberdashers aske s boys school at the time in hampstead in northwest london where according to dan van der vat good effortlessly outpaced the mathematics curriculum
+
+good studied mathematics at jesus college cambridge graduating in 1938 and winning the smith s prize in 1940 he did research under g h hardy and abram besicovitch before moving to bletchley park in 1941 on completing his doctorate
+
+on 27 may 1941 having just obtained his doctorate at cambridge good walked into hut 8 bletchley s facility for breaking german naval ciphers for his first shift this was the day that britain s royal navy destroyed the german battleship bismarck after it had sunk the royal navy s hms hood bletchley had contributed to bismarck s destruction by discovering through wireless traffic analysis that the german flagship was sailing for brest france rather than wilhelmshaven from which she had set out
+hut 8 had not however been able to decrypt on a current basis the 22 german naval enigma messages that had been sent to bismarck the german navy s enigma cyphers were considerably more secure than those of the german army or air force which had been well penetrated by 1940 naval messages were taking three to seven days to decrypt which usually made them operationally useless for the british this was about to change however with good s help
+
+alan turing had caught good sleeping on the floor while on duty during his first night shift at first turing thought good was ill but he was cross when good explained that he was just taking a short nap because he was tired for days afterwards turing would not deign to speak to good and he left the room if good walked in the new recruit only won turing s respect after he solved the bigram tables problem during a subsequent night shift when there was no more work to be done it dawned on good that there might be another chink in the german indicating system the german telegraphists had to add dummy letters to the trigrams which they selected out of the kenngruppenbuch good wondered if their choice of dummy letters was random or whether there was a bias towards particular letters after inspecting some messages which had been broken he discovered that there was a tendency to use some letters more than others that being the case all the codebreakers had to do was to work back from the indicators given at the beginning of each message and apply each bigram table in turn in the same way as joan clarke had done before the bigram table which produced one of the popular dummy letters was probably the correct one when good mentioned his discovery to alan turing turing was very embarrassed and said i could have sworn that i tried that it quickly became an important part of the banburismus procedure
+jack good s refusal to go on working when tired was vindicated by a subsequent incident during another long night shift he had been baffled by his failure to break a doubly enciphered offizier message this was one of the messages which was supposed to be enciphered initially with the enigma set up in accordance with the offizier settings and subsequently with the general enigma settings in place however while he was sleeping before returning for another shift he dreamed that the order had been reversed the general settings had been applied before the offizier settings next day he found that the message had yet to be read so he applied the theory which had come to him during the night it worked he had broken the code in his sleep
+good served with turing for nearly two years subsequently he worked with donald michie in max newman s group on the fish ciphers leading to the development of the colossus computer
+
+good was a member of the bletchley chess club which defeated the oxford university chess club 8 4 in a twelve board team match held on 2 december 1944 good played fourth board for bletchley park with conel hugh o donel alexander harry golombek and james macrae aitken in the top three spots he won his game against sir robert robinson
+
+in 1947 newman invited good to join him and turing at manchester university there for three years good lectured in mathematics and researched computers including the manchester mark 1
+
+in 1948 good was recruited back to the government communications headquarters gchq he remained there until 1959 while also taking up a brief associate professorship at princeton university and a short consultancy with ibm
+
+from 1959 until he moved to the us in 1967 good held government funded positions and from 1964 a senior research fellowship at trinity college oxford and the atlas computer laboratory where he continued his interests in computing statistics and chess he later left oxford declaring it a little stiff
+
+in 1967 good moved to the united states where he was appointed a research professor of statistics at virginia polytechnic institute and state university in 1969 he was appointed a university distinguished professor at virginia tech and in 1994 emeritus university distinguished professor
+in 1973 he was elected as a fellow of the american statistical association
+
+he later said about his arrival in virginia from britain in 1967 to start teaching at vpi where he taught from 1967 to 1994
+
+i arrived in blacksburg in the seventh hour of the seventh day of the seventh month of the year seven in the seventh decade and i was put in apartment 7 of block 7 all by chance
+good s published work ran to over three million words
+he was known for his work on bayesian statistics kass and raftery credit good and in turn turing with coining the term bayes factor he is the first known person in a document to use the term baby for the manchester baby
+good published a number of books on probability theory in 1958 he published an early version of what later became known as the fast fourier transform but it did not become widely known he played chess to county standard and helped popularise go an asian boardgame through a 1965 article in new scientist he had learned the rules from alan turing in 1965 he originated the concept now known as intelligence explosion or the technological singularity which anticipates the eventual advent of superhuman intelligence
+
+let an ultraintelligent machine be defined as a machine that can far surpass all the intellectual activities of any man however clever since the design of machines is one of these intellectual activities an ultraintelligent machine could design even better machines there would then unquestionably be an intelligence explosion and the intelligence of man would be left far behind thus the first ultraintelligent machine is the last invention that man need ever make provided that the machine is docile enough to tell us how to keep it under control it is curious that this point is made so seldom outside of science fiction it is sometimes worthwhile to take science fiction seriously
+good s authorship of treatises such as his 1965 speculations concerning the first ultraintelligent machine and logic of man and machine made him the obvious person for stanley kubrick to consult when filming 2001 a space odyssey 1968 one of whose principal characters was the paranoid hal 9000 supercomputer in 1995 good was elected a member of the academy of motion picture arts and sciences graphcore s proposed foundation model 600m computer that uses human centered artificial intelligence which will have the potential capacity of running programs with 500trn parameters was named to honor good s intellectual heritage notes 1 according to the economist graphcore aims to take the first step towards creating i j good s imagined ultraintelligent machine
+
+according to his assistant leslie pendleton in 1998 good wrote in an unpublished autobiographical statement that he suspected an ultraintelligent machine would lead to the extinction of man
+
+good published a paper under the names ij good and k caj doog the latter his own nickname spelled backwards in a 1988 paper he introduced its subject by saying many people have contributed to this topic but i shall mainly review the writings of i j good because i have read them all carefully in virginia he chose as his vanity licence plate 007ijg in subtle reference to his second world war intelligence work
+
+good never married after going through ten assistants in his first thirteen years at virginia tech he hired leslie pendleton who proved up to the task of managing his quirks he wanted to marry her but she refused although there was speculation they were never more than friends but she was his assistant companion and friend for the rest of his life
+
+good died on 5 april 2009 of natural causes in radford virginia aged 92
+
+good i j explicativity corroboration and the relative odds of hypotheses synthese 30 1975 39 73

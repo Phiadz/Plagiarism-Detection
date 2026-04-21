@@ -1,0 +1,7 @@
+extract load transform elt is an alternative to extract transform load etl used with data lake implementations in contrast to etl in elt models the data is not transformed on entry to the data lake but stored in its original raw format this enables faster loading times however elt requires sufficient processing power within the data processing engine to carry out the transformation on demand to return the results in a timely manner since the data is not processed on entry to the data lake the query and schema do not need to be defined a priori although often the schema will be available during load since many data sources are extracts from databases or similar structured data systems and hence have an associated schema elt is a data pipeline model
+
+some of the benefits of an elt process include speed and the ability to handle both structured and unstructured data
+
+
+
+this computing article is a stub you can help wikipedia by adding missing information

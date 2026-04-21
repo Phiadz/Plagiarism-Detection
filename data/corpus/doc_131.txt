@@ -1,0 +1,26 @@
+data cleansing or data cleaning is the process of identifying and correcting or removing corrupt inaccurate or irrelevant records from a dataset table or database it involves detecting incomplete incorrect or inaccurate parts of the data and then replacing modifying or deleting the affected data data cleansing can be performed interactively using data wrangling tools or through batch processing often via scripts or a data quality firewall
+
+after cleansing a data set should be consistent with other similar data sets in the system the inconsistencies detected or removed may have been originally caused by user entry errors by corruption in transmission or storage or by different data dictionary definitions of similar entities in different stores data cleaning differs from data validation in that validation almost invariably means data is rejected from the system at entry and is performed at the time of entry rather than on batches of data
+
+the actual process of data cleansing may involve removing typographical errors or validating and correcting values against a known list of entities the validation may be strict such as rejecting any address that does not have a valid postal code or with fuzzy or approximate string matching such as correcting records that partially match existing known records some data cleansing solutions will clean data by cross checking with a validated data set a common data cleansing practice is data enhancement where data is made more complete by adding related information for example appending addresses with any phone numbers related to that address data cleansing may also involve harmonization or normalization of data which is the process of bringing together data of varying file formats naming conventions and columns and transforming it into one cohesive data set a simple example is the expansion of abbreviations st rd etc to street road etcetera
+
+administratively incorrect inconsistent data can lead to false conclusions and misdirect investments on both public and private scales for instance the government may want to analyze population census figures to decide which regions require further spending and investment on infrastructure and services in this case it will be important to have access to reliable data to avoid erroneous fiscal decisions in the business world incorrect data can be costly many companies use customer information databases that record data like contact information addresses and preferences for instance if the addresses are inconsistent the company will suffer the cost of resending mail or even losing customers
+
+high quality data needs to pass a set of quality criteria those include
+
+the term integrity encompasses accuracy consistency and some aspects of validation see also data integrity but is rarely used by itself in data cleansing contexts because it is insufficiently specific for example referential integrity is a term used to refer to the enforcement of foreign key constraints above
+
+good quality source data has to do with data quality culture and must be initiated at the top of the organization it is not just a matter of implementing strong validation checks on input screens because almost no matter how strong these checks are they can often still be circumvented by the users there is a nine step guide for organizations that wish to improve data quality
+
+others include
+
+the essential job of this system is to find a balance between fixing dirty data and maintaining the data as close as possible to the original data from the source production system this is a challenge for the extract transform load architect the system should offer an architecture that can cleanse data record quality events and measure control the quality of data in the data warehouse a good start is to perform a thorough data profiling analysis that will help define the required complexity of the data cleansing system and also give an idea of the current data quality in the source system s
+
+part of the data cleansing system is a set of diagnostic filters known as quality screens they each implement a test in the data flow that if it fails records an error in the error event schema quality screens are divided into three categories
+
+when a quality screen records an error it can either stop the dataflow process send the faulty data somewhere else than the target system or tag the data
+the latter option is considered the best solution because the first option requires that someone has to manually deal with the issue each time it occurs and the second implies that data are missing from the target system integrity and it is often unclear what should happen to these data
+
+most data cleansing tools have limitations in usability
+
+the error event schema holds records of all error events thrown by the quality screens it consists of an error event fact table with foreign keys to three dimension tables that represent a date when batch job where and screen who produced error it also holds information about exactly when the error occurred and the severity of the error also there is an error event detail fact table with a foreign key to the main table that contains detailed information about in which table record and field the error occurred and the error condition

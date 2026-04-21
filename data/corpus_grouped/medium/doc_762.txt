@@ -1,0 +1,31 @@
+the framework convention on artificial intelligence and human rights democracy and the rule of law also called framework convention on artificial intelligence or ai convention is an international treaty on artificial intelligence it was adopted under the auspices of the council of europe coe and signed on 5 september 2024 the treaty aims to ensure that the development and use of ai technologies align with fundamental human rights democratic values and the rule of law addressing risks such as misinformation algorithmic discrimination and threats to public institutions
+
+more than 50 countries including the eu member states have endorsed the framework convention on artificial intelligence
+
+the development of the framework convention on ai emerged in response to growing concerns over the ethical legal and societal impacts of artificial intelligence the council of europe which has historically played a key role in setting human rights standards across europe initiated discussions on ai governance in 2020 leading to the drafting of a binding legal framework
+
+the process of creating the framework convention began in 2019 with the ad hoc committee on artificial intelligence cahai assessing the feasibility of the instrument in 2022 the committee on artificial intelligence cai took over the process drafting and negotiating the text of the convention
+
+the treaty is designed to complement existing international human rights instruments including the european convention on human rights and the convention for the protection of individuals with regard to automatic processing of personal data
+
+the convention establishes fundamental principles for ai governance including transparency accountability non discrimination and human rights protection through eight chapters and 26 articles adopted in 2024 this landmark treaty addresses ai governance through seven core principles and detailed implementation mechanisms it mandates risk and impact assessments to mitigate potential harms and provides safeguards such as the right to challenge ai driven decisions it applies to public authorities and private entities acting on their behalf but excludes national security and defense activities implementation is overseen by a conference of the parties ensuring compliance and international cooperation
+
+activities within the ai system lifecycle must adhere to seven fundamental principles ensuring compliance with human rights democracy and the rule of law the treaty also establishes remedies procedural rights and safeguards and risk and impact management requirements to promote accountability transparency and responsible ai development
+
+the treaty consists of five chapters chapter i contains general provisions chapter ii states the general obligation to protect human rights and the integrity of democratic processes and respect of the rule of law the main principles and rights are contained in chapter iii which consists of articles 6 to 13 chapter iv articles 14 to 15 sets up the legal remedies chapter v states the risk and impact management framework chapter vi facilitates the implementation criteria of the treaty chapter vii sets the co operation and oversight mechanisms chapter viii contains various concluding clauses
+
+article 1 declares the objectives of the treaty to ensure that activities within the lifecycle of artificial intelligence systems are fully consistent with human rights democracy and the rule of law
+
+the treaty will enter into force on the first day of the month following the expiration of a period of three months after the date on which five ratification made by five countries including three member states of the council of europe
+
+while the coe s ai convention represents a multilateral effort to regulate ai through a human rights based approach alternative frameworks have also been proposed one notable example is the munich draft for a convention on ai data and human rights an initiative led by legal scholars and policymakers in germany the munich draft advocates for stronger safeguards against ai related risks emphasizing stricter data protection measures accountability for ai developers and explicit prohibitions on high risk ai applications such as mass surveillance and autonomous lethal weapons unlike the coe convention which focuses on balancing innovation with regulation the munich draft takes a more precautionary stance calling for tighter controls over ai deployment in sensitive domains
+
+other competing international efforts include the oecd s ai principles the gpai global partnership on ai and the european union s ai act each of which offers different regulatory strategies to govern ai at regional and global levels
+
+signatories include andorra canada the european union georgia iceland israel japan liechtenstein the republic of moldova montenegro norway san marino switzerland ukraine the united kingdom the united states and uruguay
+
+the treaty was widely endorsed by leading ai policy experts including stuart j russell virginia dignum emma ruttkamp bloem pascal pichonnaz maria helen murphy angella ndaka hannes werthner katja langenbucher gry hasselbalch ricardo baeza yates kutoma wakunuma gianclaudio malgieri oreste pollicino nagla rizk giovanni sartor lee tiedrich ingrid schneider eduardo bertoni garry kasparov merve hikcok and marc rotenberg
+
+the treaty was also endorsed by notable political leaders including theodoros roussopoulos president of the parliamentart assembly in the council of europe and christopher holmes member of the house of lords of the united kingdom and by the international bar association iba and personally by almudena arpón de mendívil president of the iba
+
+the center for ai and digital policy caidp has been carrying out a campaign to promote endorsement of the treaty by urging various countries to sign and ratify the treaty the caidp further urged the countries to make a clear and firm commitment to ensure the full inclusion of the private sector under the treaty s provisions

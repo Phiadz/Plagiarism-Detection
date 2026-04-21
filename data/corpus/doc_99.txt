@@ -1,0 +1,13 @@
+
+
+arvind narayanan is an american computer scientist and a professor at princeton university narayanan is recognized for his research in the de anonymization of data he is currently the director of princeton s center for information technology policy
+
+narayanan received technical degrees from the indian institute of technology madras in 2004 his advisor was c pandu rangan narayanan received his phd in computer science from the university of texas at austin in 2009 under vitaly shmatikov he worked briefly as a post doctoral researcher at stanford university working closely with dan boneh narayanan moved to princeton university as an assistant professor in september 2012 he was promoted to associate professor in 2014 and to professor in 2022
+
+in 2006 netflix began the netflix prize competition for better recommendation algorithms in order to facilitate the competition netflix released anonymized viewership information however narayanan and advisor vitaly shmatikov showed possibilities for de anonymizing this information by linking this anonymized data to publicly available imdb user accounts narayanan later de anonymized graphs from social networking and writings from blogs
+
+in mid 2010 narayanan and jonathan mayer argued in favor of do not track in http headers they built prototypes of do not track for clients and servers working with mozilla they wrote the influential internet engineering task force internet draft of do not track
+
+narayanan has written extensively about software cultures he has argued for more substantial teaching of ethics in computer science education and cryptography
+
+in 2024 narayanan collaborated with fellow scholar sayash kapoor to write ai snake oil debunking theories about ai and exploring its possible future

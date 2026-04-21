@@ -1,0 +1,47 @@
+julia angwin is an american investigative journalist author and entrepreneur she co founded and was editor in chief of the markup a nonprofit newsroom that investigates the impact of technology on society she was a staff reporter at the new york bureau of the wall street journal from 2000 to 2013 during which time she was on a team that won the pulitzer prize in journalism she worked as a senior reporter at propublica from 2014 to april 2018 during which time she was a finalist for the pulitzer prize
+
+angwin is the author of two non fiction books stealing myspace the battle to control the most popular website in america 2009 and dragnet nation 2014
+
+julia angwin was born in champaign illinois to university professor parents who moved to silicon valley in 1974 to work in the emerging personal computer industry she grew up in palo alto where she learned to code in the 5th grade during summers she worked at the hewlett packard demo center in cupertino angwin graduated from the university of chicago in 1992 with a b a in mathematics she was named a knight bagehot fellow at columbia journalism school in 1998 she then completed her mba at columbia university with a concentration in accounting in 1999
+
+angwin got her start in journalism as an undergrad at the university of chicago where she served as editor in chief of the college newspaper the chicago maroon from 1991 to 1992 upon graduation she moved to california where she worked briefly as a business writer for the contra costa times she then moved to washington d c to work as a reporter for states news service covering congress for regional newspapers
+
+in 1996 she joined the san francisco chronicle as a technology reporter where her coverage of the software industry included several stories of the justice department lawsuit against microsoft she also led an investigation that revealed how few blacks and latinos were employed in silicon valley companies and that many leading tech firms had been cited by the u s department of labor for affirmative action violations
+
+in 2000 the wall street journal hired her as a staff reporter covering business and technology from their new york bureau during her 13 years at the journal angwin broke stories led important investigations and published numerous exposes into the growing tech sector
+
+a november 23 2009 article by angwin and geoffrey a fowler entitled volunteers log off as wikipedia ages on the unprecedented numbers of the millions of wikipedia editors that were quitting was featured on the front page
+
+from 2010 to 2013 she led an investigative team that published the wall street journal s groundbreaking what they know series which exposed how privacy was being eroded with most people completely unaware that it was happening
+
+in 2014 angwin left the wall street journal to join the investigative nonprofit newsroom propublica as a senior reporter and investigative journalist in 2016 angwin was lead author of an article revealing machine bias against black people in criminal risk assessment that used machine learning systems
+
+in a 2016 article entitled google has quietly dropped ban on personally identifiable web tracking angwin revealed that google had changed its privacy policy allowing google to merge users personally identifiable information following publication of her article google announced that this precluded advertisement targeting through gmail keywords
+
+in april 2018 angwin and jeff larson left propublica to found the markup described on their website as a nonpartisan nonprofit newsroom that will produce data centered journalism to uncover societal harms of technology they were joined by sue gardner as a co founder and several propublica staff members harvard university based niemanlab described angwin and larson as a journalist programmer team at propublica who uncovered stories such as how algorithms are biased
+
+in support of the markup s mission to investigate technology and its effect on society craig newmark committed 20 million to the publication alongside philanthropic gifts from the john s and james l knight foundation the ford foundation the john d and catherine t macarthur foundation and the ethics and governance of artificial intelligence initiative a joint project of the mit media lab and the harvard berkman klein center for internet and society
+
+in april 2019 she was dismissed from the markup five of the seven editorial staff immediately resigned in support of her and over 145 journalists and researchers signed a letter of support in august she was reinstated in her role as editor in chief and the markup was reformed with the original editorial staff
+
+in the following months angwin was joined by a new leadership team including public radio veteran evelyn larrubia as managing editor and free speech lawyer nabiha syed as president the markup began publishing on february 25 2020 with a staff of 17 reporters editors and engineers since its launch the site has published numerous investigations examining issues like data privacy disinformation and algorithmic bias and the role that the internet s most powerful platforms play in facilitating those harms and it has developed and launched sophisticated custom forensic tools in service of investigating issues that would otherwise remain hidden including blacklight a privacy inspector and citizen browser a project to inspect facebook s algorithms
+
+in 2022 angwin was replaced by sisi wei as editor in chief
+
+in february 2023 angwin left the markup
+
+angwin is the author of stealing myspace the battle to control the most popular website in america and dragnet nation in his new york times sunday book review of stealing myspace michael agger described angwin s meticulously detailed description of rupert murdoch s purchase of myspace in 2005 from intermix media despite competition from news corp and viacom as so granular that it passes through boring into surreal the washington post s scott rosenberg compared stealing myspace to kara swisher s there must be a pony in here somewhere the aol time warner debacle and the quest for the digital future the economist kirkus reviews and the los angeles times gave dragnet nation favorable reviews
+
+in a 2014 interview with bill moyers about dragnet nation angwin described reporters as prime targets for internet snooping and the canary in the coal mine of internet privacy the first to feel the impact of total surveillance she said that as watch dogs for democracy journalists need to protect their sources in a 2014 interview with kirkus reviews s neha sharma angwin said that she had become aware of data scraping while researching stealing myspace to protect her own digital content she began using tails
+
+in 2003 angwin was one of the wall street journal s staff reporters whose stories on the history and impact of corporate scandals in the united states were acknowledged with a pulitzer prize for explanatory reporting
+
+she shared the 2011 gerald loeb award for online enterprise for the story what they know
+
+in 2017 angwin was awarded a scripps howard award for digital innovation alongside four colleagues at propublica for their investigative series entitled machine bias which examined how computer generated algorithms used to predict criminality perpetuate racial biases angwin graduated from the university of chicago in 1992 with a b a in mathematics
+
+in 2018 angwin and her team s work on her automating hate series at propublica won the loeb award for beat reporting that series uncovered secret guidelines used by facebook to inconsistently distinguish between hate speech and political expression
+
+she shared the 2018 gerald loeb award for beat reporting for the story automating hate
+
+angwin lives in new york city with her husband vijay modi a professor of mechanical engineering at columbia university and two children her daughter started a cryptography business as a middle school student called diceware passwords focused on selling secure handwritten passwords

@@ -1,0 +1,23 @@
+photos is a photo management and editing application developed by apple it was released as a bundled app in iphone os 1 and released as a bundled app to os x yosemite users in the 10 10 3 update on april 8 2015 replacing iphoto and aperture it was released for tvos 10 on september 13 2016 with the introduction of the apple vision pro at wwdc 2023 on june 5 2023 the photos app came to visionos
+
+in june 2014 apple announced its plan to discontinue the applications iphoto and aperture to be replaced by a new application photos in 2015 the app was included with os x yosemite 10 10 3 released as a free update to users on april 8 2015
+
+on september 13 2016 the app was later included in tvos 10
+
+with the introduction of the apple vision pro on the wwdc 2023 on june 5 2023 the photos app came to visionos
+
+with ios 18 and ipados 18 the photos app received a comprehensive redesign at wwdc 2024 marking its biggest feature update since its introduction the goal of the redesign was to improve usability simplify library organization and provide new ai powered features the previous structure with separate tabs such as library albums and for you was replaced by a unified scrollable view when users open the app they first see their entire library in a compact grid as they scroll further automatically generated collections appear organized thematically by people pets locations or events these collections can be individually customized sorted or pinned the search function has been significantly improved and now supports natural language input such as me with ice cream or cat in a box both photos and videos are searched with specific scenes within videos being identifiable because of the integration with apple intelligence enhanced editing tools are available these include a new clean up tool that removes distracting objects from images as well as a feature that automatically creates memories from photos and videos based on simple descriptive text
+
+photos is intended to be less complex than its professional predecessor aperture through version 4 0 released with macos 10 14 mojave the photos app organized photos by moment as determined using combination of the time and location metadata attached to the photo starting in version 5 0 released in 2019 with macos 10 15 catalina photos can instead be browsed by year month or day
+
+by default iphones save photos in the heif high efficiency image file format which is a space saving format with a heic file extension heif offers smaller file sizes and high quality whereas jpeg provides wider compatibility with older devices and software heif photos can be exported as jpeg files
+
+photos includes robust editing functions that are utilized with simple controls such as a one click auto enhance button
+
+icloud photo library is heavily integrated into the app keeping photos and videos in sync with various apple devices designated by the user such as macs iphones and ipads including edits and album structures icloud integration is still optional but it is much more central to photos as compared to iphoto
+
+like its predecessors photos initially included a number of options for professional printing of photos which could then optionally be turned into books or calendars and mailed to an address with photos apple added new types of prints including square sizes and the ability to print panoramas in july 2018 apple announced via a pop up message in photos that they would be discontinuing these services adding that users should submit any final orders by september 30 2018
+
+icloud photo sharing allows sharing photos with others others can view like or comment existing shared photos or contribute new photos to the shared album other ways of sharing includes e mail social platform that integrates through ios extensions or apple s peer to peer airdrop technology
+
+critics noted the loss of functionality in photos as compared to its predecessors for example images could no longer be ordered as events but were either automatically ordered chronologically into moments or had to be put into albums the latter did not allow for automatic sorting and it was necessary to configure smart albums with customized user defined rules to do so customers who had been using the aperture application abandoned by apple on the release of photos were particularly angry about loss of professional standard functionality apple customers who upgraded to os x 10 11 el capitan which was launched in 2015 found that if they had not first obtained the most recent version of iphoto before upgrading they were locked out of the application without warning since iphoto had been removed from the mac app store they had no alternative but to use photos

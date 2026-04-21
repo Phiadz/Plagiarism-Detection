@@ -1,0 +1,330 @@
+
+
+a sigmoid function is any mathematical function whose graph has a characteristic s shaped or sigmoid curve
+
+a common example of a sigmoid function is the logistic function which is defined by the formula
+
+other sigmoid functions are given in the examples section in some fields most notably in the context of artificial neural networks the term sigmoid function is used as a synonym for logistic function
+
+special cases of the sigmoid function include the gompertz curve used in modeling systems that saturate at large values of x and the ogee curve used in the spillway of some dams sigmoid functions have domain of all real numbers with return response value commonly monotonically increasing but could be decreasing sigmoid functions most often show a return value y axis in the range 0 to 1 another commonly used range is from 1 to 1
+
+there is also the heaviside step function which instantaneously transitions between 0 and 1
+
+a wide variety of sigmoid functions including the logistic and hyperbolic tangent functions have been used as the activation function of artificial neurons sigmoid curves are also common in statistics as cumulative distribution functions which go from 0 to 1 such as the integrals of the logistic density the normal density and student s t probability density functions the logistic sigmoid function is invertible and its inverse is the logit function
+
+a sigmoid function is a bounded differentiable real function that is defined for all real input values and has a positive derivative at each point
+
+in general a sigmoid function is monotonic and has a first derivative which is bell shaped conversely the integral of any continuous non negative bell shaped function with one local maximum and no local minimum unless degenerate will be sigmoidal thus the cumulative distribution functions for many common probability distributions are sigmoidal one such example is the error function which is related to the cumulative distribution function of a normal distribution another is the arctan function which is related to the cumulative distribution function of a cauchy distribution
+
+a sigmoid function is constrained by a pair of horizontal asymptotes as
+
+
+
+x
+
+
+
+
+
+displaystyle x rightarrow pm infty
+
+
+
+a sigmoid function is convex for values less than a particular point and it is concave for values greater than that point in many of the examples here that point is 0
+
+
+
+
+
+
+
+
+
+f
+
+x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+
+1
+
+
+e
+
+
+2
+m
+
+
+x
+
+1
+
+
+x
+
+2
+
+
+
+
+
+
+
+
+
+
+
+1
+
+
+
+
+
+
+
+
+x
+
+
+
+
+1
+
+
+
+
+
+
+
+sgn
+
+
+x
+
+
+
+
+
+
+x
+
+
+
+
+1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tanh
+
+
+
+
+m
+
+
+x
+
+1
+
+
+x
+
+2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+x
+
+
+
+
+1
+
+
+
+
+
+
+
+sgn
+
+
+x
+
+
+
+
+
+
+x
+
+
+
+
+1
+
+
+
+
+
+
+
+
+
+
+
+
+displaystyle begin aligned f x begin cases displaystyle frac 2 1 e 2m frac x 1 x 2 1 x 1 operatorname sgn x x geq 1 end cases begin cases displaystyle tanh left m frac x 1 x 2 right x 1 operatorname sgn x x geq 1 end cases end aligned
+
+using the hyperbolic tangent mentioned above here
+
+
+
+m
+
+
+displaystyle m
+
+is a free parameter encoding the slope at
+
+
+
+x
+
+0
+
+
+displaystyle x 0
+
+which must be greater than or equal to
+
+
+
+
+
+3
+
+
+
+
+displaystyle sqrt 3
+
+because any smaller value will result in a function with multiple inflection points which is therefore not a true sigmoid this function is unusual because it actually attains the limiting values of 1 and 1 within a finite range meaning that its value is constant at 1 for all
+
+
+
+x
+
+
+1
+
+
+displaystyle x leq 1
+
+and at 1 for all
+
+
+
+x
+
+1
+
+
+displaystyle x geq 1
+
+nonetheless it is smooth infinitely differentiable
+
+
+
+
+c
+
+
+
+
+
+
+displaystyle c infty
+
+everywhere including at
+
+
+
+x
+
+
+1
+
+
+displaystyle x pm 1
+
+
+
+many natural processes such as those of complex systems learning curves exhibit a progression from small beginnings that accelerates and approaches a climax over time when a specific mathematical model is lacking a sigmoid function is often used
+
+the van genuchten gupta model is based on an inverted s curve and applied to the response of crop yield to soil salinity
+
+examples of the application of the logistic s curve to the response of crop yield wheat to both the soil salinity and depth to water table in the soil are shown in modeling crop response in agriculture
+
+in artificial neural networks non smooth functions are sometimes used for efficiency these are known as hard sigmoids
+
+in audio signal processing sigmoid functions are used as waveshaper transfer functions to emulate the sound of analog circuitry clipping
+
+in digital signal processing in general sigmoid functions due to their higher order of continuity have much faster asymptotic rolloff in the frequency domain than a heavyside step function and therefore are useful to smooth discontinuities before sampling to reduce aliasing this is for example used to generate square waves in many kinds of digital synthesizer
+
+in biochemistry and pharmacology the hill and hill langmuir equations are sigmoid functions
+
+in computer graphics and real time rendering sigmoid functions are used to blend colors or geometry between two values producing smooth transitions without visible seams or discontinuities
+
+titration curves between strong acids and strong bases have a sigmoid shape due to the logarithmic nature of the ph scale
+
+the logistic function can be calculated efficiently by utilizing type iii unums
+
+a hierarchy of sigmoid growth models with increasing complexity number of parameters was built with the primary goal to re analyze kinetic data the so called n t curves from heterogeneous nucleation experiments in electrochemistry the hierarchy includes at present three models with 1 2 and 3 parameters if not counting the maximal number of nuclei nmax respectively a tanh2 based model called α21 originally devised to describe diffusion limited crystal growth not aggregation in 2d the johnson mehl avrami kolmogorov jmak model and the richards model it was shown that for the concrete purpose even the simplest model works and thus it was implied that the experiments revisited are an example of two step nucleation with the first step being the growth of the metastable phase in which the nuclei of the stable phase form

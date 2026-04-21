@@ -1,0 +1,83 @@
+an alternating decision tree adtree is a machine learning method for classification it generalizes decision trees and has connections to boosting
+
+an adtree consists of an alternation of decision nodes which specify a predicate condition and prediction nodes which contain a single number an instance is classified by an adtree by following all paths for which all decision nodes are true and summing any prediction nodes that are traversed
+
+adtrees were introduced by yoav freund and llew mason however the algorithm as presented had several typographical errors clarifications and optimizations were later presented by bernhard pfahringer geoffrey holmes and richard kirkby implementations are available in weka and jboost
+
+original boosting algorithms typically used either decision stumps
+or decision trees as weak hypotheses as an example boosting decision stumps creates
+a set of
+
+
+
+t
+
+
+displaystyle t
+
+weighted decision stumps where
+
+
+
+t
+
+
+displaystyle t
+
+
+is the number of boosting iterations which then vote on the final classification according to their weights individual decision stumps are weighted according to their ability to classify the data
+
+boosting a simple learner results in an unstructured set of
+
+
+
+t
+
+
+displaystyle t
+
+hypotheses making it difficult to infer correlations between attributes alternating decision trees introduce structure to the set of hypotheses by requiring that they build off a hypothesis that was produced in an earlier iteration the resulting set of hypotheses can be visualized in a tree based on the relationship between a hypothesis and its parent
+
+another important feature of boosted algorithms is that the data is given a different distribution at each iteration instances that are misclassified are given a larger weight while accurately classified instances are given reduced weight
+
+an alternating decision tree consists of decision nodes and prediction nodes decision nodes specify a predicate condition prediction nodes contain a single number adtrees always have prediction nodes as both root and leaves an instance is classified by an adtree by following all paths for which all decision nodes are true and summing any prediction nodes that are traversed this is different from binary classification trees such as cart classification and regression tree or c4 5 in which an instance follows only one path through the tree
+
+the following tree was constructed using jboost on the spambase dataset available from the uci machine learning repository in this example spam is coded as 1 and regular email is coded as 1
+
+the following table contains part of the information for a single instance
+
+the instance is scored by summing all of the prediction nodes through which it passes in the case of the instance above the score is
+calculated as
+
+the final score of 0 657 is positive so the instance is classified as spam the magnitude of the value is a measure of confidence in the prediction the original authors list three potential levels of interpretation for the set of attributes identified by an adtree
+
+care must be taken when interpreting individual nodes as the scores reflect a re weighting of the data in each iteration
+
+the inputs to the alternating decision tree algorithm are
+
+the fundamental element of the adtree algorithm is the rule a single
+rule consists of a precondition a condition and two scores a
+condition is a predicate of the form attribute comparison value
+a precondition is simply a logical conjunction of conditions
+evaluation of a rule involves a pair of nested if statements
+
+several auxiliary functions are also required by the algorithm
+
+the algorithm is as follows
+
+the set
+
+
+
+
+
+p
+
+
+
+
+displaystyle mathcal p
+
+grows by two preconditions in each iteration and it is possible to derive the tree structure of a set of rules by making note of the precondition that is used in each successive rule
+
+figure 6 in the original paper demonstrates that adtrees are typically as robust as boosted decision trees and boosted decision stumps typically equivalent accuracy can be achieved with a much simpler tree structure than recursive partitioning algorithms

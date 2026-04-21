@@ -1,0 +1,89 @@
+
+
+andrew yan tak ng chinese 吳恩達 born april 18 1976 is a british american computer scientist and technology entrepreneur focusing on machine learning and artificial intelligence ai ng was a cofounder and head of google brain and was the former chief scientist at baidu
+
+ng is an adjunct professor at stanford university formerly associate professor and director of its stanford ai lab or sail ng has also worked in online education cofounding coursera and deeplearning ai he has spearheaded many efforts to democratize deep learning teaching over 8 million students through his online courses ng is renowned globally in computer science recognized in time magazine s 100 most influential people in 2012 and fast company s most creative people in 2014 his influence extends to being named in the time100 ai most influential people in 2023
+
+in 2018 he launched and currently heads the ai fund initially a 175 million investment fund for backing artificial intelligence startups he has founded landing ai which provides ai powered saas products on april 11 2024 amazon announced ng s appointment to its board of directors
+
+andrew yan tak ng was born in london in 1976 to ronald paul ng a hematologist and lecturer at ucl medical school and tisa ho an arts administrator working at the london film festival his parents were both immigrants from hong kong in 1984 he and his family moved to singapore
+
+ng attended and graduated from raffles institution
+
+in 1997 he earned his undergraduate degree with a triple major in computer science statistics and economics from carnegie mellon university in pittsburgh pennsylvania between 1996 and 1998 he also conducted research on reinforcement learning model selection and feature selection at the at t bell labs
+
+in 1998 ng earned his master s degree in electrical engineering and computer science from the massachusetts institute of technology mit in cambridge massachusetts at mit he built the first publicly available automatically indexed web search engine for research papers on the web it was a precursor to citeseerx researchindex but specialized in machine learning
+
+in 2002 he received his doctor of philosophy ph d in computer science from the university of california berkeley under the supervision of michael i jordan his thesis is titled shaping and policy search in reinforcement learning and is well cited to this day
+
+ng started working as an assistant professor at stanford university in 2002 and as an associate professor in 2009
+
+ng is a professor at stanford university departments of computer science and electrical engineering he served as the director of the stanford artificial intelligence laboratory sail where he taught students and undertook research related to data mining big data and machine learning his machine learning course cs229 at stanford is the most popular course offered on campus with over 1 000 students enrolling some years as of 2020 three of the most popular courses on coursera are ng s machine learning 1 ai for everyone 5 neural networks and deep learning 6
+
+in 2008 his group at stanford was one of the first in the us to start advocating the use of gpus in deep learning citation needed the rationale was that an efficient computation infrastructure could speed up statistical model training by orders of magnitude ameliorating some of the scaling issues associated with big data at the time it was a controversial and risky decision but since then and following ng s lead gpus have become a cornerstone in the field since 2017 ng has been advocating the shift to high performance computing hpc for scaling up deep learning and accelerating progress in the field citation needed
+
+in 2012 along with stanford computer scientist daphne koller he cofounded and was ceo of coursera a website that offers free online courses to everyone failed verification it took off with over 100 000 students registered for ng s popular cs229a course today several million people have enrolled in coursera courses making the site one of the leading massive open online courses moocs in the world
+
+from 2011 to 2012 he worked at google where he founded and directed the google brain deep learning project with jeff dean greg corrado and rajat monga
+
+in 2014 he joined baidu as chief scientist and carried out research related to big data and ai there he set up several research teams for things like facial recognition and melody an ai chatbot for healthcare he also developed for the company the ai platform called dueros and other technologies that positioned baidu ahead of google in the discourse and development of ai in march 2017 he announced his resignation from baidu
+
+he soon afterward launched deeplearning ai an online series of deep learning courses including the ai for good specialization then ng launched landingai which provides ai powered saas products
+
+in january 2018 ng unveiled the ai fund raising 175 million to invest in new startups in november 2021 landingai secured a 57 million round of series a funding led by mcrock capital to help enterprises adopt ai
+
+in october 2024 ng s ai fund made its first investment in india backing ai healthcare startup jivi which uses ai for diagnoses treatment recommendations and administrative tasks the investment highlights the growth of india s ai sector expected to reach 22 billion by 2027
+
+ng researches primarily in machine learning deep learning machine perception computer vision and natural language processing and is one of the world s most famous and influential computer scientists he s frequently won best paper awards at academic conferences and has had a huge impact on the field of ai computer vision and robotics
+
+during graduate school together with david m blei and michael i jordan ng co authored the influential paper that introduced latent dirichlet allocation lda for his thesis on reinforcement learning for drones
+
+his early work includes the stanford autonomous helicopter project which developed one of the most capable autonomous helicopters in the world he was the leading scientist and principal investigator on the stair stanford artificial intelligence robot project which resulted in robot operating system ros a widely used open source software robotics platform his vision to build an ai robot and put a robot in every home inspired scott hassan to back him and create willow garage he is also one of the founding team members for the stanford wordnet project which uses machine learning to expand the princeton wordnet database created by christiane fellbaum
+
+in 2011 ng founded the google brain project at google which developed large scale artificial neural networks using google s distributed computing infrastructure among its notable results was a neural network trained using deep learning algorithms on 16 000 cpu cores which learned to recognize cats after watching only youtube videos and without ever having been told what a cat is the project s technology is also currently used in the android operating system s speech recognition system
+
+ng thinks that the real threat is contemplating the future of work rather than being distracted by evil killer robots the challenge to labor caused by these machines is a conversation that academia and industry and government should have he has emphasized the importance of expanding access to ai education stating that empowering people around the world to use ai tools is essential to building ai applications
+
+in a december 2023 financial times interview ng highlighted concerns regarding the impact of potential regulations on open source ai emphasizing how reporting licensing and liability risks could unfairly burden smaller firms and stifle innovation he argued that regulating basic technologies like open source models could hinder progress without markedly enhancing safety ng advocated for carefully designed regulations to prevent obstacles to the development and distribution of beneficial ai technologies
+
+in a june 2024 interview with the financial times ng expressed concerns about proposed ai legislation in california that would have required developers to implement safety mechanisms such as a kill switch for advanced models he described the bill as creating massive liabilities for science fiction risks and said it stokes fear in anyone daring to innovate other critics argued the bill would impose burdens on open source developers and smaller ai companies the bill was ultimately vetoed by governor gavin newsom in september 2024
+
+in 2011 stanford launched a total of three massive open online course moocs on machine learning cs229a databases and ai taught by ng peter norvig sebastian thrun and jennifer widom this has led to the modern mooc movement ng taught machine learning and widom taught databases the course on ai taught by thrun led to the genesis of udacity
+
+the seeds of massive open online courses moocs go back a few years before the founding of coursera in 2012 two themes emphasized in the founding of modern moocs were scale and availability
+
+by 2023 ng has notably expanded access to ai education with an estimated 8 million individuals worldwide taking his courses via platforms like deeplearning ai and coursera
+
+ng started the stanford engineering everywhere see program which in 2008 published a number of stanford courses online for free ng taught one of these courses machine learning which includes his video lectures along with the student materials used in the stanford cs229 class it offered a similar experience to mit opencourseware except it aimed at providing a more complete course experience equipped with lectures course materials problems and solutions etc the see videos were viewed by the millions and inspired ng to develop and iterate new versions of online tech
+
+within stanford they include daphne koller with her blended learning experiences and codesigning a peer grading system john mitchell courseware a learning management system dan boneh using machine learning to sync videos later teaching cryptography on coursera bernd girod classx and others outside stanford ng and thrun credit sal khan of khan academy as a huge source of inspiration ng was also inspired by lynda com and the design of the forums of stack overflow
+
+widom ng and others were ardent advocates of khan styled tablet recordings and between 2009 and 2011 several hundred hours of lecture videos recorded by stanford instructors were recorded and uploaded ng tested some of the original designs with a local high school to figure the best practices for recording lessons
+
+in october 2011 the applied version of the stanford class cs229a was hosted on ml class org and launched with over 100 000 students registered for its first edition the course featured quizzes and graded programming assignments and became one of the first and most successful massive open online courses moocs created by a stanford professor
+
+two other courses on databases db class org and ai ai class org were launched the ml class and db class ran on a platform developed by students including frank chen jiquan ngiam chuan yu foo and yifan mai word spread through social media and popular press the three courses were 10 weeks long and over 40 000 statements of accomplishment were awarded
+
+his work subsequently led to his founding of coursera with koller in 2012 as of 2019 the two most popular courses on the platform were taught and designed by ng machine learning 1 and neural networks and deep learning 2
+
+in 2019 ng launched a new course ai for everyone this is a non technical course designed to help people understand ai s impact on society and its benefits and costs for companies as well as how they can navigate through this technological revolution
+
+ng is the chair of the board for woebot labs a psychological clinic that uses data science to provide cognitive behavioral therapy it provides a therapy chatbot to help treat depression among other things
+
+he is also a member of the board of directors for drive ai which uses ai for self driving cars and was acquired by apple in 2019
+
+through landingai he also focuses on democratizing ai technology and lowering the barrier for entrance to businesses and developers
+
+ng is also the author or co author of over 300 publications in robotics and related fields his work in computer vision and deep learning has been featured often in press releases and reviews
+
+he has corefereed hundreds of ai publications in journals like neurips he has also been the editor of the journal of artificial intelligence research jair associate editor for the ieee robotics and automation society conference editorial board icra and much more
+
+he has given invited talks at nasa google microsoft lockheed martin the max planck society stanford princeton upenn cornell mit uc berkeley and dozens of other universities outside of the us he has lectured in spain germany israel china korea and canada
+
+he has also written for harvard business review huffpost slate apple news and quora sessions twitter citation needed he also writes a weekly digital newsletter called the batch
+
+ng currently lives in los altos hills california in 2014 he married carol e reiley they have two children a daughter born in 2019 and a son born in 2021 the mit technology review named ng and reiley an ai power couple as of 2024 update his wife filed for a divorce
+
+ng also wrote a book machine learning yearning a practical guide for those interested in machine learning which he distributed for free in december 2018 he wrote a sequel called ai transformation playbook
+
+ng contributed one chapter to architects of intelligence the truth about ai from the people building it 2018 by the american futurist martin ford

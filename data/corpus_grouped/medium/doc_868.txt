@@ -1,0 +1,43 @@
+edward fredkin october 2 1934 june 13 2023 was an american computer scientist physicist and businessman who was an early pioneer of digital physics
+
+fredkin s primary contributions included work on reversible computing and cellular automata while konrad zuse s book calculating space 1969 mentioned the importance of reversible computation the fredkin gate represented the essential breakthrough in more recent work he used the term digital philosophy dp
+
+during his career fredkin was a professor of computer science at the massachusetts institute of technology a fairchild distinguished scholar at caltech a distinguished career professor at carnegie mellon university and a research professor of physics at boston university
+
+fredkin s mother and father were both russian jewish immigrants who met in los angeles and he was the youngest child of four his mother was a concert pianist although she did not perform professionally she died from cancer when he was 11 his father was a businessman but had lost everything in the 1929 stock market crash and as a result the family was relatively poor at times he lived with other families or with his older sister eventually his father remarried and he and his sister moved back in as a child he was both entrepreneurial and interested in science and how things work he did various weekend and after school things to earn money eventually handling a large newspaper delivery route at age 10 he bought chemistry supplies and made his own fireworks which were then illegal in los angeles he did poorly in school because he didn t do homework he graduated from john marshall high school a semester early so that he could earn money for caltech tuition and living expenses caltech later told him he had been admitted with the worst high school grades they had ever seen he quit caltech partway through his sophomore year
+
+in 1952 he joined the united states air force usaf to become a fighter pilot to avoid being drafted into the korean war his computer career started in 1956 when the air force assigned him to mit lincoln laboratory where he worked on the sage computer
+
+fredkin worked with a number of companies in the computer field and held academic positions at a number of universities he was a computer programmer a pilot an advisor to businesses and governments and a physicist his main interests concerned digital computer like models of basic processes in physics
+
+fredkin s initial focus was physics however he became involved with computers in 1956 when he was sent by the air force where he had trained as a jet pilot to the mit lincoln laboratory on completing his service in 1958 fredkin was hired by j c r licklider to work at the research firm bolt beranek newman bbn after seeing the pdp 1 computer prototype at the eastern joint computer conference in boston in december 1959 fredkin recommended that bbn purchase the very first pdp 1 to support research projects at bbn the new hardware was initially delivered with no software whatsoever
+
+fredkin wrote a pdp 1 assembler language called frap free of rules assembly program also sometimes called fredkin s assembly program and its first operating system os he organized and founded the digital equipment computer users society decus in 1961 and participated in its early projects working directly with ben gurley the designer of the pdp 1 fredkin designed significant modifications to the hardware to support time sharing via the bbn time sharing system he invented and designed the first modern interrupt system which digital called the sequence break citation needed he went on to become a contributor in the field of artificial intelligence ai
+
+in 1962 he founded information international inc an early computer technology company which developed high precision film to digital scanners as well as other leading edge hardware the company became publicly traded and fredkin became a millionaire
+
+in 1968 marvin minsky who he had met at bbn recruited fredkin to work at the massachusetts institute of technology mit as a full professor despite the fact that he had never graduated from college from 1971 to 1974 fredkin was the director of project mac at mit project mac was renamed the mit laboratory for computer science in 1976 he spent a year at caltech as a fairchild distinguished scholar teaching nobel prize winning physicist richard feynman about computing and learning quantum mechanics from him then he was a professor of physics at boston university for six years
+
+fredkin had formal and informal associations with carnegie mellon university cmu over several decades his later when academic interests were in the area of digital mechanics which is the study of discrete models of fundamental process in physics fredkin had been a distinguished career professor of computer science at cmu and also a visiting scientist at mit media laboratory as of 2022 update he was distinguished career professor of robotics at cmu
+
+fredkin served as the founder or ceo of a diverse set of companies including information international three rivers computer corporation new england television corporation owner of boston s then cbs affiliate wnev on channel 7 and the reliable water company manufacturer of advanced sea water desalination plants
+
+fredkin was broadly interested in computation including hardware and software he invented the trie data structure independently of rené de la briandais who published a year earlier as well as radio transponders for vehicle identification the concept of computer navigation for automobiles the fredkin gate and the billiard ball computer model for reversible computing he had also been involved in computer vision chess and other areas of artificial intelligence research
+
+fredkin also worked at the intersection of theoretical issues in the physics of computation with computational models of physics he invented the salt cellular automata family citation needed dan miller designed and programmed the busy boxes implementation of salt with assistance from suresh kumar devanathan the early salt models are 2 1 dimensional quasi physical reversible universal cellular automata that are second order in time and that follow rules that model cpt reversibility
+
+digital philosophy dp is one type of digital physics pancomputationalism a school of philosophy which claims that all the physical processes of nature are forms of computation or information processing at the most fundamental level of reality pancomputationalism is related to several larger schools of philosophy atomism determinism mechanism monism naturalism philosophical realism reductionism and scientific empiricism
+
+pancomputationalists believe that biology reduces to chemistry which reduces to physics which reduces to the computation of information fredkin s career and achievements had much of their motivation in digital philosophy a particular type of pancomputationalism described in fredkin s papers including introduction to digital philosophy on the soul finite nature a new cosmogony and digital mechanics
+
+fredkin s digital philosophy contains several fundamental ideas citation needed
+
+fredkin chaired the pdp 1 restoration project which was able to restore and reactivate the computer history museum s pdp 1 computer after seven months of work
+
+fredkin died in brookline massachusetts on june 13 2023 at the age of 88
+
+in 1984 fredkin was awarded the carnegie mellon university dickson prize in science given annually to the person who has been judged to have made the most progress in a scientific field in the united states during that year in 1999 cmu established the fredkin professorship
+
+a profile of fredkin along with a readable explanation of some of his theories can be found in the first part of three scientists and their gods by robert wright 1988 the section of the book covering fredkin was excerpted in the atlantic monthly in april 1988
+
+according to biographer robert wright the character stephen falken in the film wargames was modeled after fredkin

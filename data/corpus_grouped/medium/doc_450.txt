@@ -1,0 +1,79 @@
+
+
+
+
+these datasets are used in machine learning ml research and have been cited in peer reviewed academic journals datasets are an integral part of the field of machine learning major advances in this field can result from advances in learning algorithms such as deep learning computer hardware and less intuitively the availability of high quality training datasets high quality labeled training datasets for supervised and semi supervised machine learning algorithms are usually difficult and expensive to produce because of the large amount of time needed to label the data although they do not need to be labeled high quality unlabeled datasets for unsupervised learning can also be difficult and costly to produce
+
+many organizations including governments publish and share their datasets often using common metadata formats such as croissant the datasets are classified based on the licenses into two groups open data and non open data
+
+the datasets from various governmental bodies are presented in list of open government data sites the datasets are ported on open data portals they are made available for searching depositing and accessing through interfaces like open api citation needed the datasets are made available as various sorted types and subtypes citation needed
+
+the data portal is classified based on its type of license the open source license based data portals are known as open data portals which are used by many government organizations and academic institutions
+
+https github com sebneu ckan_instances blob master instances csv
+
+https dataverse org metrics
+
+the data portal sometimes lists a wide variety of subtypes of datasets pertaining to many machine learning applications
+
+the data portals which are suitable for a specific subtype of machine learning application are listed in the subsequent sections
+
+these datasets consist primarily of text for tasks such as natural language processing sentiment analysis translation and cluster analysis
+
+categorization
+
+citation analysis
+
+these datasets consist of sounds and sound features used for tasks such as speech recognition and speech synthesis
+
+wav
+
+datasets containing electric signal information requiring some sort of signal processing for further analysis
+
+datasets from physical systems
+
+openreact chon efh open reaction dataset of atomic configurations comprising c h o and n with energies forces and hessians is a 2025 open access benchmark for machine learning interatomic potentials
+
+the collection underpins the study does hessian data improve the performance of machine learning potentials and was used to train and benchmark the machine learning interatomic potentials reported therein
+
+the dataset itself is distributed under a cc licence via figshare
+
+datasets from physical systems
+
+datasets from biological systems
+
+dataset
+
+
+
+
+
+
+last updated 2020
+
+this section includes datasets that deals with structured data
+
+further details are provided in the project s github repository and respective hugging face dataset card
+
+this section includes datasets that contains multi turn text with at least two actors a user and an agent the user makes requests for the agent which performs the request
+
+3 conversation id utterances vertical scenario instructions
+
+mechanisms of attack
+domains of attack
+
+software development
+hardware design permanent dead link research concepts
+
+2009 2010
+2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022
+
+data files can also be downloaded here
+
+data is also available here
+
+alternate list of reports
+
+workshops
+
+as datasets come in myriad formats and can sometimes be difficult to use there has been considerable work put into curating and standardizing the format of datasets to make them easier to use for machine learning research

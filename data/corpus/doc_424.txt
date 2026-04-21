@@ -1,0 +1,4130 @@
+
+
+in statistics and control theory kalman filtering also known as linear quadratic estimation is an algorithm that uses a series of measurements observed over time including statistical noise and other inaccuracies to produce estimates of unknown variables that tend to be more accurate than those based on a single measurement by estimating a joint probability distribution over the variables for each time step the filter is constructed as a mean squared error minimiser but an alternative derivation of the filter is also provided showing how the filter relates to maximum likelihood statistics the filter is named after rudolf e kálmán
+
+kalman filtering has numerous technological applications a common application is for guidance navigation and control of vehicles particularly aircraft spacecraft and ships positioned dynamically furthermore kalman filtering is much applied in time series analysis tasks such as signal processing and econometrics kalman filtering is also important for robotic motion planning and control and can be used for trajectory optimization kalman filtering also works for modeling the central nervous system s control of movement due to the time delay between issuing motor commands and receiving sensory feedback the use of kalman filters provides a realistic model for making estimates of the current state of a motor system and issuing updated commands
+
+the algorithm works via a two phase process a prediction phase and an update phase in the prediction phase the kalman filter produces estimates of the current state variables including their uncertainties once the outcome of the next measurement necessarily corrupted with some error including random noise is observed these estimates are updated using a weighted average with more weight given to estimates with greater certainty the algorithm is recursive it can operate in real time using only the present input measurements and the state calculated previously and its uncertainty matrix no additional past information is required
+
+optimality of kalman filtering assumes that errors have a normal gaussian distribution in the words of rudolf e kálmán the following assumptions are made about random processes physical random phenomena may be thought of as due to primary random sources exciting dynamic systems the primary sources are assumed to be independent gaussian random processes with zero mean the dynamic systems will be linear regardless of gaussianity however if the process and measurement covariances are known then the kalman filter is the best possible linear estimator in the minimum mean square error sense although there may be better nonlinear estimators it is a common misconception perpetuated in the literature that the kalman filter cannot be rigorously applied unless all noise processes are assumed to be gaussian
+
+extensions and generalizations of the method have also been developed such as the extended kalman filter and the unscented kalman filter which work on nonlinear systems the basis is a hidden markov model such that the state space of the latent variables is continuous and all latent and observed variables have gaussian distributions kalman filtering has been used successfully in multi sensor fusion and distributed sensor networks to develop distributed or consensus kalman filtering
+
+the filtering method is named for hungarian émigré rudolf e kálmán although thorvald nicolai thiele and peter swerling developed a similar algorithm earlier richard s bucy of the johns hopkins applied physics laboratory contributed to the theory causing it to be known sometimes as kalman bucy filtering kalman was inspired to derive the kalman filter by applying state variables to the wiener filtering problem
+stanley f schmidt is generally credited with developing the first implementation of a kalman filter he realized that the filter could be divided into two distinct parts with one part for time periods between sensor outputs and another part for incorporating measurements it was during a visit by kálmán to the nasa ames research center that schmidt saw the applicability of kálmán s ideas to the nonlinear problem of trajectory estimation for the apollo program resulting in its incorporation in the apollo navigation computer 16
+
+this digital filter is sometimes termed the stratonovich kalman bucy filter because it is a special case of a more general nonlinear filter developed by the soviet mathematician ruslan stratonovich in fact some of the special case linear filter s equations appeared in papers by stratonovich that were published before the summer of 1961 when kalman met with stratonovich during a conference in moscow
+
+this kalman filtering was first described and developed partially in technical papers by swerling 1958 kalman 1960 and kalman and bucy 1961
+
+the apollo computer used 2k of magnetic core ram and 36k wire rope the cpu was built from ics clock speed was under 100 khz the fact that the mit engineers were able to pack such good software one of the very first applications of the kalman filter into such a tiny computer is truly remarkable
+interview with jack crenshaw by matthew reed trs 80 org 2009
+kalman filters have been vital in the implementation of the navigation systems of u s navy nuclear ballistic missile submarines and in the guidance and navigation systems of cruise missiles such as the u s navy s tomahawk missile and the u s air force s air launched cruise missile they are also used in the guidance and navigation systems of reusable launch vehicles and the attitude control and navigation systems of spacecraft which dock at the international space station
+
+kalman filtering uses a system s dynamic model e g physical laws of motion known control inputs to that system and multiple sequential measurements such as from sensors to form an estimate of the system s varying quantities its state that is better than the estimate obtained by using only one measurement alone as such it is a common sensor fusion and data fusion algorithm
+
+noisy sensor data approximations in the equations that describe the system evolution and external factors that are not accounted for all limit how well it is possible to determine the system s state the kalman filter deals effectively with the uncertainty due to noisy sensor data and to some extent with random external factors the kalman filter produces an estimate of the state of the system as an average of the system s predicted state and of the new measurement using a weighted average the purpose of the weights is that values with better i e smaller estimated uncertainty are trusted more the weights are calculated from the covariance a measure of the estimated uncertainty of the prediction of the system s state the result of the weighted average is a new state estimate that lies between the predicted and measured state and has a better estimated uncertainty than either alone this process is repeated at every time step with the new estimate and its covariance informing the prediction used in the following iteration this means that kalman filter works recursively and requires only the last best guess rather than the entire history of a system s state to calculate a new state
+
+the measurements certainty grading and current state estimate are important considerations it is common to discuss the filter s response in terms of the kalman filter s gain the kalman gain is the weight given to the measurements and current state estimate and can be tuned to achieve a particular performance with a high gain the filter places more weight on the most recent measurements and thus conforms to them more responsively with a low gain the filter conforms to the model predictions more closely at the extremes a high gain close to one will result in a more jumpy estimated trajectory while a low gain close to zero will smooth out noise but decrease the responsiveness
+
+when performing the actual calculations for the filter as discussed below the state estimate and covariances are coded into matrices because of the multiple dimensions involved in a single set of calculations this allows for a representation of linear relationships between different state variables such as position velocity and acceleration in any of the transition models or covariances
+
+as an example application consider the problem of determining the precise location of a truck the truck can be equipped with a gps unit that provides an estimate of the position within a few meters the gps estimate is likely to be noisy readings jump around rapidly though remaining within a few meters of the real position in addition since the truck is expected to follow the laws of physics its position can also be estimated by integrating its velocity over time determined by keeping track of wheel revolutions and the angle of the steering wheel this is a technique known as dead reckoning typically the dead reckoning will provide a very smooth estimate of the truck s position but it will drift over time as small errors accumulate
+
+for this example the kalman filter can be thought of as operating in two distinct phases predict and update in the prediction phase the truck s old position will be modified according to the physical laws of motion the dynamic or state transition model not only will a new position estimate be calculated but also a new covariance will be calculated as well perhaps the covariance is proportional to the speed of the truck because we are more uncertain about the accuracy of the dead reckoning position estimate at high speeds but very certain about the position estimate at low speeds next in the update phase a measurement of the truck s position is taken from the gps unit along with this measurement comes some amount of uncertainty and its covariance relative to that of the prediction from the previous phase determines how much the new measurement will affect the updated prediction ideally as the dead reckoning estimates tend to drift away from the real position the gps measurement should pull the position estimate back toward the real position but not disturb it to the point of becoming noisy and rapidly jumping
+
+the kalman filter is an efficient recursive filter estimating the internal state of a linear dynamic system from a series of noisy measurements it is used in a wide range of engineering and econometric applications from radar and computer vision to estimation of structural macroeconomic models and is an important topic in control theory and control systems engineering together with the linear quadratic regulator lqr the kalman filter solves the linear quadratic gaussian control problem lqg the kalman filter the linear quadratic regulator and the linear quadratic gaussian controller are solutions to what arguably are the most fundamental problems of control theory
+
+in most applications the internal state is much larger has more degrees of freedom than the few observable parameters which are measured however by combining a series of measurements the kalman filter can estimate the entire internal state
+
+for the dempster shafer theory each state equation or observation is considered a special case of a linear belief function and the kalman filtering is a special case of combining linear belief functions on a join tree or markov tree additional methods include belief filtering which use bayes or evidential updates to the state equations
+
+a wide variety of kalman filters exists by now kalman s original formulation now termed the simple kalman filter the kalman bucy filter schmidt s extended filter the information filter and a variety of square root filters that were developed by bierman thornton and many others perhaps the most commonly used type of very simple kalman filter is the phase locked loop which is now ubiquitous in radios especially frequency modulation fm radios television sets satellite communications receivers outer space communications systems and nearly any other electronic communications equipment
+
+kalman filtering is based on linear dynamic systems discretized in the time domain they are modeled on a markov chain built on linear operators perturbed by errors that may include gaussian noise the state of the target system refers to the ground truth yet hidden system configuration of interest which is represented as a vector of real numbers at each discrete time increment a linear operator is applied to the state to generate the new state with some noise mixed in and optionally some information from the controls on the system if they are known then another linear operator mixed with more noise generates the measurable outputs i e observation from the true hidden state the kalman filter may be regarded as analogous to the hidden markov model with the difference that the hidden state variables have values in a continuous space as opposed to a discrete state space as for the hidden markov model there is a strong analogy between the equations of a kalman filter and those of the hidden markov model a review of this and other models is given in roweis and ghahramani 1999 and hamilton 1994 chapter 13
+
+in order to use the kalman filter to estimate the internal state of a process given only a sequence of noisy observations one must model the process in accordance with the following framework this means specifying the matrices for each time step
+
+
+
+k
+
+
+displaystyle k
+
+following
+
+as seen below it is common in many applications that the matrices
+
+
+
+
+f
+
+
+
+displaystyle mathbf f
+
+
+
+
+
+
+h
+
+
+
+displaystyle mathbf h
+
+
+
+
+
+
+q
+
+
+
+displaystyle mathbf q
+
+
+
+
+
+
+r
+
+
+
+displaystyle mathbf r
+
+and
+
+
+
+
+b
+
+
+
+displaystyle mathbf b
+
+are constant across time in which case their
+
+
+
+k
+
+
+displaystyle k
+
+index may be dropped
+
+the kalman filter model assumes the true state at time
+
+
+
+k
+
+
+displaystyle k
+
+is evolved from the state at
+
+
+
+k
+
+1
+
+
+displaystyle k 1
+
+according to
+
+where
+
+if
+
+
+
+
+q
+
+
+
+displaystyle mathbf q
+
+is independent of time one may following roweis and ghahramani 307 write
+
+
+
+
+
+w
+
+
+
+
+
+
+
+displaystyle mathbf w _ bullet
+
+instead of
+
+
+
+
+
+w
+
+
+k
+
+
+
+
+displaystyle mathbf w _ k
+
+to emphasize that the noise has no explicit knowledge of time
+
+at time
+
+
+
+k
+
+
+displaystyle k
+
+an observation or measurement
+
+
+
+
+
+z
+
+
+k
+
+
+
+
+displaystyle mathbf z _ k
+
+of the true state
+
+
+
+
+
+x
+
+
+k
+
+
+
+
+displaystyle mathbf x _ k
+
+is made according to
+
+where
+
+analogously to the situation for
+
+
+
+
+
+w
+
+
+k
+
+
+
+
+displaystyle mathbf w _ k
+
+one may write
+
+
+
+
+
+v
+
+
+
+
+
+
+
+displaystyle mathbf v _ bullet
+
+instead of
+
+
+
+
+
+v
+
+
+k
+
+
+
+
+displaystyle mathbf v _ k
+
+if
+
+
+
+
+r
+
+
+
+displaystyle mathbf r
+
+is independent of time
+
+the initial state and the noise vectors at each step
+
+
+
+
+
+
+x
+
+
+0
+
+
+
+
+
+w
+
+
+1
+
+
+
+
+
+
+
+w
+
+
+k
+
+
+
+
+
+v
+
+
+1
+
+
+
+
+
+
+
+v
+
+
+k
+
+
+
+
+
+displaystyle mathbf x _ 0 mathbf w _ 1 dots mathbf w _ k mathbf v _ 1 dots mathbf v _ k
+
+are all assumed to be mutually independent
+
+many real time dynamic systems do not exactly conform to this model in fact unmodeled dynamics can seriously degrade the filter performance even when it was supposed to work with unknown stochastic signals as inputs the reason for this is that the effect of unmodeled dynamics depends on the input and therefore can bring the estimation algorithm to instability it diverges on the other hand independent white noise signals will not make the algorithm diverge the problem of distinguishing between measurement noise and unmodeled dynamics is a difficult one and is treated as a problem of control theory using robust control
+
+the kalman filter is a recursive estimator this means that only the estimated state from the previous time step and the current measurement are needed to compute the estimate for the current state in contrast to batch estimation techniques no history of observations and or estimates is required in what follows the notation
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+n
+
+m
+
+
+
+
+displaystyle hat mathbf x _ n mid m
+
+represents the estimate of
+
+
+
+
+x
+
+
+
+displaystyle mathbf x
+
+at time n given observations up to and including at time m n
+
+the state of the filter is represented by two variables
+
+the algorithm structure of the kalman filter resembles that of alpha beta filter the kalman filter can be written as a single equation however it is most often conceptualized as two distinct phases predict and update the predict phase uses the state estimate from the previous timestep to produce an estimate of the state at the current timestep this predicted state estimate is also known as the a priori state estimate because although it is an estimate of the state at the current timestep it does not include observation information from the current timestep in the update phase the innovation the pre fit residual i e the difference between the current a priori prediction and the current observation information is multiplied by the optimal kalman gain and combined with the previous state estimate to refine the state estimate this improved estimate based on the current observation is termed the a posteriori state estimate
+
+typically the two phases alternate with the prediction advancing the state until the next scheduled observation and the update incorporating the observation however this is not necessary if an observation is unavailable for some reason the update may be skipped and multiple prediction procedures performed likewise if multiple independent observations are available at the same time multiple update procedures may be performed typically with different observation matrices hk
+
+the second formula for the updated a posteriori estimate covariance above is known as the joseph form that is often used in applications numerically more stable than the more simple usual formulation proof of the formulae is found in the derivations section where the formula valid for any kk is also shown
+
+a more intuitive way to express the updated state estimate
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+k
+
+k
+
+
+
+
+displaystyle hat mathbf x _ k mid k
+
+is
+
+this expression reminds us of a linear interpolation
+
+
+
+x
+
+
+1
+
+t
+
+
+a
+
+
+t
+
+b
+
+
+
+displaystyle x 1 t a t b
+
+for
+
+
+
+t
+
+
+displaystyle t
+
+between 0 1
+in our case
+
+this expression also resembles the alpha beta filter update step
+
+if the model is accurate and the values for
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+0
+
+0
+
+
+
+
+displaystyle hat mathbf x _ 0 mid 0
+
+and
+
+
+
+
+
+p
+
+
+0
+
+0
+
+
+
+
+displaystyle mathbf p _ 0 mid 0
+
+accurately reflect the distribution of the initial state values then the following invariants are preserved
+
+where
+
+
+
+e
+
+
+ξ
+
+
+
+displaystyle operatorname e xi
+
+is the expected value of
+
+
+
+ξ
+
+
+displaystyle xi
+
+that is all estimates have a mean error of zero
+
+also
+
+so covariance matrices accurately reflect the covariance of estimates
+
+practical implementation of a kalman filter is often difficult due to the difficulty of getting a good estimate of the noise covariance matrices qk and rk extensive research has been done to estimate these covariances from data one practical method of doing this is the autocovariance least squares als technique that uses the time lagged autocovariances of routine operating data to estimate the covariances the gnu octave and matlab code used to calculate the noise covariance matrices using the als technique is available online using the gnu general public license field kalman filter fkf a bayesian algorithm which allows simultaneous estimation of the state parameters and noise covariance has been proposed the fkf algorithm has a recursive formulation good observed convergence and relatively low complexity thus suggesting that the fkf algorithm may possibly be a worthwhile alternative to the autocovariance least squares methods another approach is the optimized kalman filter okf which considers the covariance matrices not as representatives of the noise but rather as parameters aimed to achieve the most accurate state estimation these two views coincide under the kf assumptions but often contradict each other in real systems thus okf s state estimation is more robust to modeling inaccuracies
+
+the kalman filter provides an optimal state estimation in cases where a the model matches the real system perfectly b the entering noise is white uncorrelated and c the covariances of the noise are known exactly correlated noise can also be treated using kalman filters
+several methods for the noise covariance estimation have been proposed during past decades including als mentioned in the section above more generally if the model assumptions do not match the real system perfectly then optimal state estimation is not necessarily obtained by setting qk and rk to the covariances of the noise instead in that case the parameters qk and rk may be set to explicitly optimize the state estimation e g using standard supervised learning
+
+after the covariances are set it is useful to evaluate the performance of the filter i e whether it is possible to improve the state estimation quality if the kalman filter works optimally the innovation sequence the output prediction error is a white noise therefore the whiteness property of the innovations measures filter performance several different methods can be used for this purpose if the noise terms are distributed in a non gaussian manner methods for assessing performance of the filter estimate which use probability inequalities or large sample theory are known in the literature
+
+consider a truck on frictionless straight rails initially the truck is stationary at position 0 but it is buffeted this way and that by random uncontrolled forces we measure the position of the truck every δt seconds but these measurements are imprecise we want to maintain a model of the truck s position and velocity we show here how we derive the model from which we create our kalman filter
+
+since
+
+
+
+
+f
+
+
+
+h
+
+
+
+r
+
+
+
+q
+
+
+
+displaystyle mathbf f mathbf h mathbf r mathbf q
+
+are constant their time indices are dropped
+
+the position and velocity of the truck are described by the linear state space
+
+where
+
+
+
+
+
+
+x
+
+
+
+
+
+
+displaystyle dot x
+
+is the velocity that is the derivative of position with respect to time
+
+we assume that between the k 1 and k timestep uncontrolled forces cause a constant acceleration of ak that is normally distributed with mean 0 and standard deviation σa from newton s laws of motion we conclude that
+
+there is no
+
+
+
+
+b
+
+u
+
+
+displaystyle mathbf b u
+
+term since there are no known control inputs instead ak is the effect of an unknown input and
+
+
+
+
+g
+
+
+
+displaystyle mathbf g
+
+applies that effect to the state vector where
+
+so that
+
+where
+
+the matrix
+
+
+
+
+q
+
+
+
+displaystyle mathbf q
+
+is not full rank it is of rank one if
+
+
+
+δ
+t
+
+0
+
+
+displaystyle delta t neq 0
+
+hence the distribution
+
+
+
+n
+
+0
+
+
+q
+
+
+
+
+displaystyle n 0 mathbf q
+
+is not absolutely continuous and has no probability density function another way to express this avoiding explicit degenerate distributions is given by
+
+at each time phase a noisy measurement of the true position of the truck is made let us suppose the measurement noise vk is also distributed normally with mean 0 and standard deviation σz
+
+where
+
+and
+
+we know the initial starting state of the truck with perfect precision so we initialize
+
+and to tell the filter that we know the exact position and velocity we give it a zero covariance matrix
+
+if the initial position and velocity are not known perfectly the covariance matrix should be initialized with suitable variances on its diagonal
+
+the filter will then prefer the information from the first measurements over the information already in the model
+
+for simplicity assume that the control input
+
+
+
+
+
+u
+
+
+k
+
+
+
+
+0
+
+
+
+displaystyle mathbf u _ k mathbf 0
+
+then the kalman filter may be written
+
+a similar equation holds if we include a non zero control input gain matrices
+
+
+
+
+
+k
+
+
+k
+
+
+
+
+displaystyle mathbf k _ k
+
+and covariance matrices
+
+
+
+
+
+p
+
+
+k
+
+k
+
+
+
+
+displaystyle mathbf p _ k mid k
+
+evolve independently of the measurements
+
+
+
+
+
+z
+
+
+k
+
+
+
+
+displaystyle mathbf z _ k
+
+from above the four equations needed for updating the matrices are as follows
+
+since these depend only on the model and not the measurements they may be computed offline convergence of the gain matrices
+
+
+
+
+
+k
+
+
+k
+
+
+
+
+displaystyle mathbf k _ k
+
+to an asymptotic matrix
+
+
+
+
+
+k
+
+
+
+
+
+
+
+displaystyle mathbf k _ infty
+
+applies for conditions established in walrand and dimakis if the
+
+
+
+
+
+p
+
+
+k
+
+k
+
+
+
+
+displaystyle mathbf p _ k mid k
+
+series converges then it converges exponentially to an asymptotic
+
+
+
+
+
+p
+
+
+
+
+
+
+
+displaystyle mathbf p _ infty
+
+assuming non zero plant noise recent analysis has shown that the rate and nature of this convergence can involve multiple coequal modes including oscillatory components depending on the eigenstructure of the jacobian of the above riccati map evaluated at
+
+
+
+
+
+p
+
+
+
+
+
+
+
+displaystyle mathbf p _ infty
+
+for the moving truck example described above with
+
+
+
+δ
+t
+
+1
+
+
+displaystyle delta t 1
+
+and
+
+
+
+
+σ
+
+a
+
+
+2
+
+
+
+
+σ
+
+z
+
+
+2
+
+
+
+
+σ
+
+x
+
+
+2
+
+
+
+
+σ
+
+
+
+x
+
+
+
+
+
+2
+
+
+
+1
+
+
+displaystyle sigma _ a 2 sigma _ z 2 sigma _ x 2 sigma _ dot x 2 1
+
+simulation shows convergence in
+
+
+
+10
+
+
+displaystyle 10
+
+iterations
+
+using the asymptotic gain and assuming
+
+
+
+
+
+h
+
+
+k
+
+
+
+
+displaystyle mathbf h _ k
+
+and
+
+
+
+
+
+f
+
+
+k
+
+
+
+
+displaystyle mathbf f _ k
+
+are independent of
+
+
+
+k
+
+
+displaystyle k
+
+the kalman filter becomes a linear time invariant filter
+
+the asymptotic gain
+
+
+
+
+
+k
+
+
+
+
+
+
+
+displaystyle mathbf k _ infty
+
+if it exists can be computed by first solving the following discrete riccati equation for the asymptotic state covariance
+
+
+
+
+
+p
+
+
+
+
+
+
+
+displaystyle mathbf p _ infty
+
+
+
+the asymptotic gain is then computed as before
+
+additionally a form of the asymptotic kalman filter more commonly used in control theory is given by
+
+where
+
+this leads to an estimator of the form
+
+the kalman filter can be derived as a generalized least squares method operating on previous data
+
+starting with our invariant on the error covariance pk k as above
+
+substitute in the definition of
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+k
+
+k
+
+
+
+
+displaystyle hat mathbf x _ k mid k
+
+
+
+and substitute
+
+
+
+
+
+
+
+
+y
+
+
+
+
+
+
+k
+
+
+
+
+displaystyle tilde mathbf y _ k
+
+
+
+and
+
+
+
+
+
+z
+
+
+k
+
+
+
+
+displaystyle mathbf z _ k
+
+
+
+and by collecting the error vectors we get
+
+since the measurement error vk is uncorrelated with the other terms this becomes
+
+by the properties of vector covariance this becomes
+
+which using our invariant on pk k 1 and the definition of rk becomes
+
+this formula sometimes known as the joseph form of the covariance update equation is valid for any value of kk it turns out that if kk is the optimal kalman gain this can be simplified further as shown below
+
+the kalman filter is a minimum mean square error mmse estimator the error in the a posteriori state estimation is
+
+we seek to minimize the expected value of the square of the magnitude of this vector
+
+
+
+e
+
+
+
+
+
+
+
+
+
+x
+
+
+k
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+k
+
+
+
+k
+
+
+
+
+
+
+2
+
+
+
+
+
+
+displaystyle operatorname e left left mathbf x _ k hat mathbf x _ k k right 2 right
+
+this is equivalent to minimizing the trace of the a posteriori estimate covariance matrix
+
+
+
+
+
+p
+
+
+k
+
+
+
+k
+
+
+
+
+displaystyle mathbf p _ k k
+
+by expanding out the terms in the equation above and collecting we get
+
+the trace is minimized when its matrix derivative with respect to the gain matrix is zero using the gradient matrix rules and the symmetry of the matrices involved we find that
+
+solving this for kk yields the kalman gain
+
+this gain which is known as the optimal kalman gain is the one that yields mmse estimates when used
+
+the formula used to calculate the a posteriori error covariance can be simplified when the kalman gain equals the optimal value derived above multiplying both sides of our kalman gain formula on the right by skkkt it follows that
+
+referring back to our expanded formula for the a posteriori error covariance
+
+we find the last two terms cancel out giving
+
+this formula is computationally cheaper and thus nearly always used in practice but is only correct for the optimal gain if arithmetic precision is unusually low causing problems with numerical stability or if a non optimal kalman gain is deliberately used this simplification cannot be applied the a posteriori error covariance formula as derived above joseph form must be used
+
+the kalman filtering equations provide an estimate of the state
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+k
+
+k
+
+
+
+
+displaystyle hat mathbf x _ k mid k
+
+and its error covariance
+
+
+
+
+
+p
+
+
+k
+
+k
+
+
+
+
+displaystyle mathbf p _ k mid k
+
+recursively the estimate and its quality depend on the system parameters and the noise statistics fed as inputs to the estimator this section analyzes the effect of uncertainties in the statistical inputs to the filter in the absence of reliable statistics or the true values of noise covariance matrices
+
+
+
+
+
+q
+
+
+k
+
+
+
+
+displaystyle mathbf q _ k
+
+and
+
+
+
+
+
+r
+
+
+k
+
+
+
+
+displaystyle mathbf r _ k
+
+the expression
+
+no longer provides the actual error covariance in other words
+
+
+
+
+
+p
+
+
+k
+
+k
+
+
+
+e
+
+
+
+
+
+
+
+
+x
+
+
+k
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+k
+
+k
+
+
+
+
+
+
+
+
+
+
+
+x
+
+
+k
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+k
+
+k
+
+
+
+
+
+
+
+t
+
+
+
+
+
+
+
+
+displaystyle mathbf p _ k mid k neq e left left mathbf x _ k hat mathbf x _ k mid k right left mathbf x _ k hat mathbf x _ k mid k right textsf t right
+
+in most real time applications the covariance matrices that are used in designing the kalman filter are different from the actual true noise covariances matrices citation needed this sensitivity analysis describes the behavior of the estimation error covariance when the noise covariances as well as the system matrices
+
+
+
+
+
+f
+
+
+k
+
+
+
+
+displaystyle mathbf f _ k
+
+and
+
+
+
+
+
+h
+
+
+k
+
+
+
+
+displaystyle mathbf h _ k
+
+that are fed as inputs to the filter are incorrect thus the sensitivity analysis describes the robustness or sensitivity of the estimator to misspecified statistical and parametric inputs to the estimator
+
+this discussion is limited to the error sensitivity analysis for the case of statistical uncertainties here the actual noise covariances are denoted by
+
+
+
+
+
+q
+
+
+k
+
+
+a
+
+
+
+
+displaystyle mathbf q _ k a
+
+and
+
+
+
+
+
+r
+
+
+k
+
+
+a
+
+
+
+
+displaystyle mathbf r _ k a
+
+respectively whereas the design values used in the estimator are
+
+
+
+
+
+q
+
+
+k
+
+
+
+
+displaystyle mathbf q _ k
+
+and
+
+
+
+
+
+r
+
+
+k
+
+
+
+
+displaystyle mathbf r _ k
+
+respectively the actual error covariance is denoted by
+
+
+
+
+
+p
+
+
+k
+
+k
+
+
+a
+
+
+
+
+displaystyle mathbf p _ k mid k a
+
+and
+
+
+
+
+
+p
+
+
+k
+
+k
+
+
+
+
+displaystyle mathbf p _ k mid k
+
+as computed by the kalman filter is referred to as the riccati variable when
+
+
+
+
+
+q
+
+
+k
+
+
+
+
+
+q
+
+
+k
+
+
+a
+
+
+
+
+displaystyle mathbf q _ k equiv mathbf q _ k a
+
+and
+
+
+
+
+
+r
+
+
+k
+
+
+
+
+
+r
+
+
+k
+
+
+a
+
+
+
+
+displaystyle mathbf r _ k equiv mathbf r _ k a
+
+this means that
+
+
+
+
+
+p
+
+
+k
+
+k
+
+
+
+
+
+p
+
+
+k
+
+k
+
+
+a
+
+
+
+
+displaystyle mathbf p _ k mid k mathbf p _ k mid k a
+
+while computing the actual error covariance using
+
+
+
+
+
+p
+
+
+k
+
+k
+
+
+a
+
+
+
+e
+
+
+
+
+
+
+
+
+x
+
+
+k
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+k
+
+k
+
+
+
+
+
+
+
+
+
+
+
+x
+
+
+k
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+k
+
+k
+
+
+
+
+
+
+
+t
+
+
+
+
+
+
+
+
+displaystyle mathbf p _ k mid k a e left left mathbf x _ k hat mathbf x _ k mid k right left mathbf x _ k hat mathbf x _ k mid k right textsf t right
+
+substituting for
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+k
+
+k
+
+
+
+
+displaystyle widehat mathbf x _ k mid k
+
+and using the fact that
+
+
+
+e
+
+
+
+
+
+w
+
+
+k
+
+
+
+
+w
+
+
+k
+
+
+
+t
+
+
+
+
+
+
+
+
+
+q
+
+
+k
+
+
+a
+
+
+
+
+displaystyle e left mathbf w _ k mathbf w _ k textsf t right mathbf q _ k a
+
+and
+
+
+
+e
+
+
+
+
+
+v
+
+
+k
+
+
+
+
+v
+
+
+k
+
+
+
+t
+
+
+
+
+
+
+
+
+
+r
+
+
+k
+
+
+a
+
+
+
+
+displaystyle e left mathbf v _ k mathbf v _ k textsf t right mathbf r _ k a
+
+results in the following recursive equations for
+
+
+
+
+
+p
+
+
+k
+
+k
+
+
+a
+
+
+
+
+displaystyle mathbf p _ k mid k a
+
+
+
+and
+
+while computing
+
+
+
+
+
+p
+
+
+k
+
+k
+
+
+
+
+displaystyle mathbf p _ k mid k
+
+by design the filter implicitly assumes that
+
+
+
+e
+
+
+
+
+
+w
+
+
+k
+
+
+
+
+w
+
+
+k
+
+
+
+t
+
+
+
+
+
+
+
+
+
+q
+
+
+k
+
+
+
+
+displaystyle e left mathbf w _ k mathbf w _ k textsf t right mathbf q _ k
+
+and
+
+
+
+e
+
+
+
+
+
+v
+
+
+k
+
+
+
+
+v
+
+
+k
+
+
+
+t
+
+
+
+
+
+
+
+
+
+r
+
+
+k
+
+
+
+
+displaystyle e left mathbf v _ k mathbf v _ k textsf t right mathbf r _ k
+
+the recursive expressions for
+
+
+
+
+
+p
+
+
+k
+
+k
+
+
+a
+
+
+
+
+displaystyle mathbf p _ k mid k a
+
+and
+
+
+
+
+
+p
+
+
+k
+
+k
+
+
+
+
+displaystyle mathbf p _ k mid k
+
+are identical except for the presence of
+
+
+
+
+
+q
+
+
+k
+
+
+a
+
+
+
+
+displaystyle mathbf q _ k a
+
+and
+
+
+
+
+
+r
+
+
+k
+
+
+a
+
+
+
+
+displaystyle mathbf r _ k a
+
+in place of the design values
+
+
+
+
+
+q
+
+
+k
+
+
+
+
+displaystyle mathbf q _ k
+
+and
+
+
+
+
+
+r
+
+
+k
+
+
+
+
+displaystyle mathbf r _ k
+
+respectively researches have been done to analyze kalman filter system s robustness
+
+one problem with the kalman filter is its numerical stability if the process noise covariance qk is small round off error often causes a small positive eigenvalue of the state covariance matrix p to be computed as a negative number this renders the numerical representation of p indefinite while its true form is positive definite
+
+positive definite matrices have the property that they have a factorization into the product of a non singular lower triangular matrix s and its transpose p s st the factor s can be computed efficiently using the cholesky factorization algorithm this product form of the covariance matrix p is guaranteed to be symmetric and for all 1 k n the k th diagonal element pkk is equal to the square of the euclidean norm of the k th row of s which is necessarily positive an equivalent form which avoids many of the square root operations involved in the cholesky factorization algorithm yet preserves the desirable numerical properties is the u d decomposition form p u d ut where u is a unit triangular matrix with unit diagonal and d is a diagonal matrix
+
+between the two the u d factorization uses the same amount of storage and somewhat less computation and is the most commonly used triangular factorization early literature on the relative efficiency is somewhat misleading as it assumed that square roots were much more time consuming than divisions 69 while on 21st century computers they are only slightly more expensive
+
+efficient algorithms for the kalman prediction and update steps in the factored form were developed by g j bierman and c l thornton
+
+the l d lt decomposition of the innovation covariance matrix sk is the basis for another type of numerically efficient and robust square root filter the algorithm starts with the lu decomposition as implemented in the linear algebra package lapack these results are further factored into the l d lt structure with methods given by golub and van loan algorithm 4 1 2 for a symmetric nonsingular matrix any singular covariance matrix is pivoted so that the first diagonal partition is nonsingular and well conditioned the pivoting algorithm must retain any portion of the innovation covariance matrix directly corresponding to observed state variables hk xk k 1 that are associated with auxiliary observations in
+yk the l d lt square root filter requires orthogonalization of the observation vector this may be done with the inverse square root of the covariance matrix for the auxiliary variables using method 2 in higham 2002 p 263
+
+the kalman filter is efficient for sequential data processing on central processing units cpus but in its original form it is inefficient on parallel architectures such as graphics processing units gpus it is however possible to express the filter update routine in terms of an associative operator using the formulation in särkkä and garcía fernández 2021 the filter solution can then be retrieved by the use of a prefix sum algorithm which can be efficiently implemented on gpu this reduces the computational complexity from
+
+
+
+o
+
+n
+
+
+
+displaystyle o n
+
+in the number of time steps to
+
+
+
+o
+
+log
+
+
+n
+
+
+
+
+displaystyle o log n
+
+
+
+the kalman filter can be presented as one of the simplest dynamic bayesian networks the kalman filter calculates estimates of the true values of states recursively over time using incoming measurements and a mathematical process model similarly recursive bayesian estimation calculates estimates of an unknown probability density function pdf recursively over time using incoming measurements and a mathematical process model
+
+in recursive bayesian estimation the true state is assumed to be an unobserved markov process and the measurements are the observed states of a hidden markov model hmm
+
+because of the markov assumption the true state is conditionally independent of all earlier states given the immediately previous state
+
+similarly the measurement at the k th timestep is dependent only upon the current state and is conditionally independent of all other states given the current state
+
+using these assumptions the probability distribution over all states of the hidden markov model can be written simply as
+
+however when a kalman filter is used to estimate the state x the probability distribution of interest is that associated with the current states conditioned on the measurements up to the current timestep this is achieved by marginalizing out the previous states and dividing by the probability of the measurement set
+
+this results in the predict and update phases of the kalman filter written probabilistically the probability distribution associated with the predicted state is the sum integral of the products of the probability distribution associated with the transition from the k 1 th timestep to the k th and the probability distribution associated with the previous state over all possible
+
+
+
+
+x
+
+k
+
+1
+
+
+
+
+displaystyle x_ k 1
+
+
+
+the measurement set up to time t is
+
+the probability distribution of the update is proportional to the product of the measurement likelihood and the predicted state
+
+the denominator
+
+is a normalization term
+
+the remaining probability density functions are
+
+the pdf at the previous timestep is assumed inductively to be the estimated state and covariance this is justified because as an optimal estimator the kalman filter makes best use of the measurements therefore the pdf for
+
+
+
+
+
+x
+
+
+k
+
+
+
+
+displaystyle mathbf x _ k
+
+given the measurements
+
+
+
+
+
+z
+
+
+k
+
+
+
+
+displaystyle mathbf z _ k
+
+is the kalman filter estimate
+
+related to the recursive bayesian interpretation described above the kalman filter can be viewed as a generative model i e a process for generating a stream of random observations z z0 z1 z2 specifically the process is
+
+this process has identical structure to the hidden markov model except that the discrete state and observations are replaced with continuous variables sampled from gaussian distributions
+
+in some applications it is useful to compute the probability that a kalman filter with a given set of parameters prior distribution transition and observation models and control inputs would generate a particular observed signal this probability is known as the marginal likelihood because it integrates over marginalizes out the values of the hidden state variables so it can be computed using only the observed signal the marginal likelihood can be useful to evaluate different parameter choices or to compare the kalman filter against other models using bayesian model comparison
+
+it is straightforward to compute the marginal likelihood as a side effect of the recursive filtering computation by the chain rule the likelihood can be factored as the product of the probability of each observation given previous observations
+
+and because the kalman filter describes a markov process all relevant information from previous observations is contained in the current state estimate
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+k
+
+k
+
+1
+
+
+
+
+
+p
+
+
+k
+
+k
+
+1
+
+
+
+
+
+displaystyle hat mathbf x _ k mid k 1 mathbf p _ k mid k 1
+
+thus the marginal likelihood is given by
+
+i e a product of gaussian densities each corresponding to the density of one observation zk under the current filtering distribution
+
+
+
+
+
+h
+
+
+k
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+k
+
+k
+
+1
+
+
+
+
+
+s
+
+
+k
+
+
+
+
+displaystyle mathbf h _ k hat mathbf x _ k mid k 1 mathbf s _ k
+
+this can easily be computed as a simple recursive update however to avoid numeric underflow in a practical implementation it is usually desirable to compute the log marginal likelihood
+
+
+
+ℓ
+
+log
+
+p
+
+
+z
+
+
+
+
+displaystyle ell log p mathbf z
+
+instead adopting the convention
+
+
+
+
+ℓ
+
+
+
+1
+
+
+
+
+0
+
+
+displaystyle ell 1 0
+
+this can be done via the recursive update rule
+
+where
+
+
+
+
+d
+
+y
+
+
+
+
+displaystyle d_ y
+
+is the dimension of the measurement vector
+
+an important application where such a log likelihood of the observations given the filter parameters is used is multi target tracking for example consider an object tracking scenario where a stream of observations is the input however it is unknown how many objects are in the scene or the number of objects is known but is greater than one for such a scenario it can be unknown apriori which observations measurements were generated by which object a multiple hypothesis tracker mht typically will form different track association hypotheses where each hypothesis can be considered as a kalman filter for the linear gaussian case with a specific set of parameters associated with the hypothesized object thus it is important to compute the likelihood of the observations for the different hypotheses under consideration such that the most likely one can be found
+
+in cases where the dimension of the observation vector y is bigger than the dimension of the state space vector x the information filter can avoid the inversion of a bigger matrix in the kalman gain calculation at the price of inverting a smaller matrix in the prediction step thus saving computing time additionally the information filter allows for system information initialization according to
+
+
+
+
+
+i
+
+1
+
+
+
+0
+
+
+
+
+p
+
+1
+
+
+
+0
+
+
+
+1
+
+
+
+0
+
+
+
+displaystyle i_ 1 0 p_ 1 0 1 0
+
+which would not be possible for the regular kalman filter in the information filter or inverse covariance filter the estimated covariance and estimated state are replaced by the information matrix and information vector respectively these are defined as
+
+similarly the predicted covariance and state have equivalent information forms defined as
+
+and the measurement covariance and measurement vector which are defined as
+
+the information update now becomes a trivial sum
+
+the main advantage of the information filter is that n measurements can be filtered at each time step simply by summing their information matrices and vectors
+
+to predict the information filter the information matrix and vector can be converted back to their state space equivalents or alternatively the information space prediction can be used
+
+the optimal fixed lag smoother provides the optimal estimate of
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+k
+
+n
+
+k
+
+
+
+
+displaystyle hat mathbf x _ k n mid k
+
+for a given fixed lag
+
+
+
+n
+
+
+displaystyle n
+
+using the measurements from
+
+
+
+
+
+z
+
+
+1
+
+
+
+
+displaystyle mathbf z _ 1
+
+to
+
+
+
+
+
+z
+
+
+k
+
+
+
+
+displaystyle mathbf z _ k
+
+it can be derived using the previous theory via an augmented state and the main equation of the filter is the following
+
+where
+
+if the estimation error covariance is defined so that
+
+then we have that the improvement on the estimation of
+
+
+
+
+
+x
+
+
+t
+
+i
+
+
+
+
+displaystyle mathbf x _ t i
+
+is given by
+
+the optimal fixed interval smoother provides the optimal estimate of
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+k
+
+n
+
+
+
+
+displaystyle hat mathbf x _ k mid n
+
+
+
+
+
+k
+
+n
+
+
+displaystyle k n
+
+using the measurements from a fixed interval
+
+
+
+
+
+z
+
+
+1
+
+
+
+
+displaystyle mathbf z _ 1
+
+to
+
+
+
+
+
+z
+
+
+n
+
+
+
+
+displaystyle mathbf z _ n
+
+this is also called kalman smoothing there are several smoothing algorithms in common use
+
+the rauch tung striebel rts smoother is an efficient two pass algorithm for fixed interval smoothing
+
+the forward pass is the same as the regular kalman filter algorithm these filtered a priori and a posteriori state estimates
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+k
+
+k
+
+1
+
+
+
+
+displaystyle hat mathbf x _ k mid k 1
+
+
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+k
+
+k
+
+
+
+
+displaystyle hat mathbf x _ k mid k
+
+and covariances
+
+
+
+
+
+p
+
+
+k
+
+k
+
+1
+
+
+
+
+displaystyle mathbf p _ k mid k 1
+
+
+
+
+
+
+
+p
+
+
+k
+
+k
+
+
+
+
+displaystyle mathbf p _ k mid k
+
+are saved for use in the backward pass for retrodiction
+
+in the backward pass we compute the smoothed state estimates
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+k
+
+n
+
+
+
+
+displaystyle hat mathbf x _ k mid n
+
+and covariances
+
+
+
+
+
+p
+
+
+k
+
+n
+
+
+
+
+displaystyle mathbf p _ k mid n
+
+we start at the last time step and proceed backward in time using the following recursive equations
+
+where
+
+
+
+
+
+
+
+x
+
+
+k
+
+k
+
+
+
+
+displaystyle mathbf x _ k mid k
+
+is the a posteriori state estimate of timestep
+
+
+
+k
+
+
+displaystyle k
+
+and
+
+
+
+
+
+x
+
+
+k
+
+1
+
+k
+
+
+
+
+displaystyle mathbf x _ k 1 mid k
+
+is the a priori state estimate of timestep
+
+
+
+k
+
+1
+
+
+displaystyle k 1
+
+the same notation applies to the covariance
+
+an alternative to the rts algorithm is the modified bryson frazier mbf fixed interval smoother developed by bierman this also uses a backward pass that processes data saved from the kalman filter forward pass the equations for the backward pass involve the recursive
+computation of data which are used at each observation time to compute the smoothed state and covariance
+
+the recursive equations are
+
+where
+
+
+
+
+
+s
+
+
+k
+
+
+
+
+displaystyle mathbf s _ k
+
+is the residual covariance and
+
+
+
+
+
+
+
+
+c
+
+
+
+
+
+
+k
+
+
+
+
+i
+
+
+
+
+k
+
+
+k
+
+
+
+
+h
+
+
+k
+
+
+
+
+displaystyle hat mathbf c _ k mathbf i mathbf k _ k mathbf h _ k
+
+the smoothed state and covariance can then be found by substitution in the equations
+
+or
+
+an important advantage of the mbf is that it does not require finding the inverse of the covariance matrix bierman s derivation is based on the rts smoother which assumes that the underlying distributions are gaussian however a derivation of the mbf based on the concept of the fixed point smoother which does not require the gaussian assumption is given by gibbs
+
+the mbf can also be used to perform consistency checks on the filter residuals and the difference between the value of a filter state after an update and the smoothed value of the state that is
+
+
+
+
+
+x
+
+
+k
+
+k
+
+
+
+
+
+x
+
+
+k
+
+n
+
+
+
+
+displaystyle mathbf x _ k mid k mathbf x _ k mid n
+
+
+
+the minimum variance smoother can attain the best possible error performance provided that the models are linear their parameters and the noise statistics are known precisely this smoother is a time varying state space generalization of the optimal non causal wiener filter
+
+the smoother calculations are done in two passes the forward calculations involve a one step ahead predictor and are given by
+
+the above system is known as the inverse wiener hopf factor the backward recursion is the adjoint of the above forward system the result of the backward pass
+
+
+
+
+β
+
+k
+
+
+
+
+displaystyle beta _ k
+
+may be calculated by operating the forward equations on the time reversed
+
+
+
+
+α
+
+k
+
+
+
+
+displaystyle alpha _ k
+
+and time reversing the result in the case of output estimation the smoothed estimate is given by
+
+taking the causal part of this minimum variance smoother yields
+
+which is identical to the minimum variance kalman filter the above solutions minimize the variance of the output estimation error note that the rauch tung striebel smoother derivation assumes that the underlying distributions are gaussian whereas the minimum variance solutions do not optimal smoothers for state estimation and input estimation can be constructed similarly
+
+a continuous time version of the above smoother is described in
+
+expectation maximization algorithms may be employed to calculate approximate maximum likelihood estimates of unknown state space parameters within minimum variance filters and smoothers often uncertainties remain within problem assumptions a smoother that accommodates uncertainties can be designed by adding a positive definite term to the riccati equation
+
+in cases where the models are nonlinear step wise linearizations may be within the minimum variance filter and smoother recursions extended kalman filtering
+
+pioneering research on the perception of sounds at different frequencies was conducted by fletcher and munson in the 1930s their work led to a standard way of weighting measured sound levels within investigations of industrial noise and hearing loss frequency weightings have since been used within filter and controller designs to manage performance within bands of interest
+
+typically a frequency shaping function is used to weight the average power of the error spectral density in a specified frequency band let
+
+
+
+
+y
+
+
+
+
+
+
+y
+
+
+
+
+
+
+
+displaystyle mathbf y hat mathbf y
+
+denote the output estimation error exhibited by a conventional kalman filter also let
+
+
+
+
+w
+
+
+
+displaystyle mathbf w
+
+denote a causal frequency weighting transfer function the optimum solution which minimizes the variance of
+
+
+
+
+w
+
+
+
+
+
+y
+
+
+
+
+
+
+y
+
+
+
+
+
+
+
+
+
+
+displaystyle mathbf w left mathbf y hat mathbf y right
+
+arises by simply constructing
+
+
+
+
+
+w
+
+
+
+1
+
+
+
+
+
+
+y
+
+
+
+
+
+
+
+displaystyle mathbf w 1 hat mathbf y
+
+
+
+the design of
+
+
+
+
+w
+
+
+
+displaystyle mathbf w
+
+remains an open question one way of proceeding is to identify a system which generates the estimation error and setting
+
+
+
+
+w
+
+
+
+displaystyle mathbf w
+
+equal to the inverse of that system this procedure may be iterated to obtain mean square error improvement at the cost of increased filter order the same technique can be applied to smoothers
+
+the basic kalman filter is limited to a linear assumption more complex systems however can be nonlinear the nonlinearity can be associated either with the process model or with the observation model or with both
+
+the most common variants of kalman filters for non linear systems are the extended kalman filter and unscented kalman filter the suitability of which filter to use depends on the non linearity indices of the process and observation model
+
+in the extended kalman filter ekf the state transition and observation models need not be linear functions of the state but may instead be nonlinear functions these functions are of differentiable type
+
+the function f can be used to compute the predicted state from the previous estimate and similarly the function h can be used to compute the predicted measurement from the predicted state however f and h cannot be applied to the covariance directly instead a matrix of partial derivatives the jacobian is computed
+
+at each timestep the jacobian is evaluated with current predicted states these matrices can be used in the kalman filter equations this process essentially linearizes the nonlinear function around the current estimate
+
+when the state transition and observation models that is the predict and update functions
+
+
+
+f
+
+
+displaystyle f
+
+and
+
+
+
+h
+
+
+displaystyle h
+
+are highly nonlinear the extended kalman filter can give particularly poor performance
+this is because the covariance is propagated through linearization of the underlying nonlinear model the unscented kalman filter ukf uses a deterministic sampling technique known as the unscented transformation ut to pick a minimal set of sample points called sigma points around the mean the sigma points are then propagated through the nonlinear functions from which a new mean and covariance estimate are formed the resulting filter depends on how the transformed statistics of the ut are calculated and which set of sigma points are used it should be remarked that it is always possible to construct new ukfs in a consistent way for certain systems the resulting ukf more accurately estimates the true mean and covariance this can be verified with monte carlo sampling or taylor series expansion of the posterior statistics in addition this technique removes the requirement to explicitly calculate jacobians which for complex functions can be a difficult task in itself i e requiring complicated derivatives if done analytically or being computationally costly if done numerically if not impossible if those functions are not differentiable
+
+for a random vector
+
+
+
+
+x
+
+
+
+
+x
+
+1
+
+
+
+
+
+
+x
+
+l
+
+
+
+
+
+displaystyle mathbf x x_ 1 dots x_ l
+
+sigma points are any set of vectors
+
+attributed with
+
+a simple choice of sigma points and weights for
+
+
+
+
+
+x
+
+
+k
+
+1
+
+k
+
+1
+
+
+
+
+displaystyle mathbf x _ k 1 mid k 1
+
+in the ukf algorithm is
+
+where
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+k
+
+1
+
+k
+
+1
+
+
+
+
+displaystyle hat mathbf x _ k 1 mid k 1
+
+is the mean estimate of
+
+
+
+
+
+x
+
+
+k
+
+1
+
+k
+
+1
+
+
+
+
+displaystyle mathbf x _ k 1 mid k 1
+
+the vector
+
+
+
+
+
+a
+
+
+j
+
+
+
+
+displaystyle mathbf a _ j
+
+is the jth column of
+
+
+
+
+a
+
+
+
+displaystyle mathbf a
+
+where
+
+
+
+
+
+p
+
+
+k
+
+1
+
+k
+
+1
+
+
+
+
+
+a
+a
+
+
+
+t
+
+
+
+
+
+displaystyle mathbf p _ k 1 mid k 1 mathbf aa textsf t
+
+typically
+
+
+
+
+a
+
+
+
+displaystyle mathbf a
+
+is obtained via cholesky decomposition of
+
+
+
+
+
+p
+
+
+k
+
+1
+
+k
+
+1
+
+
+
+
+displaystyle mathbf p _ k 1 mid k 1
+
+with some care the filter equations can be expressed in such a way that
+
+
+
+
+a
+
+
+
+displaystyle mathbf a
+
+is evaluated directly without intermediate calculations of
+
+
+
+
+
+p
+
+
+k
+
+1
+
+k
+
+1
+
+
+
+
+displaystyle mathbf p _ k 1 mid k 1
+
+this is referred to as the square root unscented kalman filter
+
+the weight of the mean value
+
+
+
+
+w
+
+0
+
+
+
+
+displaystyle w_ 0
+
+can be chosen arbitrarily
+
+another popular parameterization which generalizes the above is
+
+
+
+
+
+α
+
+
+displaystyle alpha
+
+and
+
+
+
+κ
+
+
+displaystyle kappa
+
+control the spread of the sigma points
+
+
+
+β
+
+
+displaystyle beta
+
+is related to the distribution of
+
+
+
+x
+
+
+displaystyle x
+
+note that this is an overparameterization in the sense that any one of
+
+
+
+α
+
+
+displaystyle alpha
+
+
+
+
+
+β
+
+
+displaystyle beta
+
+and
+
+
+
+κ
+
+
+displaystyle kappa
+
+can be chosen arbitrarily
+
+appropriate values depend on the problem at hand but a typical recommendation is
+
+
+
+α
+
+1
+
+
+displaystyle alpha 1
+
+
+
+
+
+β
+
+0
+
+
+displaystyle beta 0
+
+and
+
+
+
+κ
+
+3
+l
+
+
+
+2
+
+
+displaystyle kappa approx 3l 2
+
+citation needed if the true distribution of
+
+
+
+x
+
+
+displaystyle x
+
+is gaussian
+
+
+
+β
+
+2
+
+
+displaystyle beta 2
+
+is optimal
+
+as with the ekf the ukf prediction can be used independently from the ukf update in combination with a linear or indeed ekf update or vice versa
+
+given estimates of the mean and covariance
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+k
+
+1
+
+k
+
+1
+
+
+
+
+displaystyle hat mathbf x _ k 1 mid k 1
+
+and
+
+
+
+
+
+p
+
+
+k
+
+1
+
+k
+
+1
+
+
+
+
+displaystyle mathbf p _ k 1 mid k 1
+
+one obtains
+
+
+
+n
+
+2
+l
+
+1
+
+
+displaystyle n 2l 1
+
+sigma points as described in the section above the sigma points are propagated through the transition function f
+
+the propagated sigma points are weighed to produce the predicted mean and covariance
+
+where
+
+
+
+
+w
+
+j
+
+
+a
+
+
+
+
+displaystyle w_ j a
+
+are the first order weights of the original sigma points and
+
+
+
+
+w
+
+j
+
+
+c
+
+
+
+
+displaystyle w_ j c
+
+are the second order weights the matrix
+
+
+
+
+
+q
+
+
+k
+
+
+
+
+displaystyle mathbf q _ k
+
+is the covariance of the transition noise
+
+
+
+
+
+w
+
+
+k
+
+
+
+
+displaystyle mathbf w _ k
+
+
+
+given prediction estimates
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+k
+
+k
+
+1
+
+
+
+
+displaystyle hat mathbf x _ k mid k 1
+
+and
+
+
+
+
+
+p
+
+
+k
+
+k
+
+1
+
+
+
+
+displaystyle mathbf p _ k mid k 1
+
+a new set of
+
+
+
+n
+
+2
+l
+
+1
+
+
+displaystyle n 2l 1
+
+sigma points
+
+
+
+
+
+s
+
+
+0
+
+
+
+
+
+
+
+s
+
+
+2
+l
+
+
+
+
+displaystyle mathbf s _ 0 dots mathbf s _ 2l
+
+with corresponding first order weights
+
+
+
+
+w
+
+0
+
+
+a
+
+
+
+
+
+w
+
+2
+l
+
+
+a
+
+
+
+
+displaystyle w_ 0 a dots w_ 2l a
+
+and second order weights
+
+
+
+
+w
+
+0
+
+
+c
+
+
+
+
+
+
+w
+
+2
+l
+
+
+c
+
+
+
+
+displaystyle w_ 0 c dots w_ 2l c
+
+is calculated these sigma points are transformed through the measurement function
+
+
+
+h
+
+
+displaystyle h
+
+
+
+then the empirical mean and covariance of the transformed points are calculated
+
+where
+
+
+
+
+
+r
+
+
+k
+
+
+
+
+displaystyle mathbf r _ k
+
+is the covariance matrix of the observation noise
+
+
+
+
+
+v
+
+
+k
+
+
+
+
+displaystyle mathbf v _ k
+
+additionally the cross covariance matrix is also needed
+
+the kalman gain is
+
+the updated mean and covariance estimates are
+
+when the observation model
+
+
+
+p
+
+
+
+z
+
+
+k
+
+
+
+
+
+x
+
+
+k
+
+
+
+
+
+displaystyle p mathbf z _ k mid mathbf x _ k
+
+is highly non linear and or non gaussian it may prove advantageous to apply bayes rule and estimate
+
+where
+
+
+
+p
+
+
+
+x
+
+
+k
+
+
+
+
+
+z
+
+
+k
+
+
+
+
+
+
+n
+
+
+
+g
+
+
+
+z
+
+
+k
+
+
+
+
+q
+
+
+
+z
+
+
+k
+
+
+
+
+
+
+displaystyle p mathbf x _ k mid mathbf z _ k approx mathcal n g mathbf z _ k q mathbf z _ k
+
+for nonlinear functions
+
+
+
+g
+
+q
+
+
+displaystyle g q
+
+this replaces the generative specification of the standard kalman filter with a discriminative model for the latent states given observations
+
+under a stationary state model
+
+where
+
+
+
+
+t
+
+
+
+f
+
+
+t
+
+
+
+f
+
+
+
+
+
+
+
+c
+
+
+
+displaystyle mathbf t mathbf f mathbf t mathbf f intercal mathbf c
+
+if
+
+then given a new observation
+
+
+
+
+
+z
+
+
+k
+
+
+
+
+displaystyle mathbf z _ k
+
+it follows that
+
+where
+
+note that this approximation requires
+
+
+
+q
+
+
+
+z
+
+
+k
+
+
+
+
+
+
+1
+
+
+
+
+
+t
+
+
+
+1
+
+
+
+
+displaystyle q mathbf z _ k 1 mathbf t 1
+
+to be positive definite in the case that it is not
+
+is used instead such an approach proves particularly useful when the dimensionality of the observations is much greater than that of the latent states and can be used build filters that are particularly robust to nonstationarities in the observation model
+
+adaptive kalman filters allow to adapt for process dynamics which are not modeled in the process model
+
+
+
+
+f
+
+
+t
+
+
+
+displaystyle mathbf f t
+
+which happens for example in the context of a maneuvering target when a constant velocity reduced order kalman filter is employed for tracking
+
+kalman bucy filtering named for richard snowden bucy is a continuous time version of kalman filtering
+
+it is based on the state space model
+
+where
+
+
+
+
+q
+
+
+t
+
+
+
+displaystyle mathbf q t
+
+and
+
+
+
+
+r
+
+
+t
+
+
+
+displaystyle mathbf r t
+
+represent the intensities of the two white noise terms
+
+
+
+
+w
+
+
+t
+
+
+
+displaystyle mathbf w t
+
+and
+
+
+
+
+v
+
+
+t
+
+
+
+displaystyle mathbf v t
+
+respectively
+
+the filter consists of two differential equations one for the state estimate and one for the covariance
+
+where the kalman gain is given by
+
+note that in this expression for
+
+
+
+
+k
+
+
+t
+
+
+
+displaystyle mathbf k t
+
+the covariance of the observation noise
+
+
+
+
+r
+
+
+t
+
+
+
+displaystyle mathbf r t
+
+represents at the same time the covariance of the prediction error or innovation
+
+
+
+
+
+
+
+y
+
+
+
+
+
+
+t
+
+
+
+z
+
+
+t
+
+
+
+h
+
+
+t
+
+
+
+
+
+x
+
+
+
+
+
+
+t
+
+
+
+displaystyle tilde mathbf y t mathbf z t mathbf h t hat mathbf x t
+
+these covariances are equal only in the case of continuous time
+
+the distinction between the prediction and update steps of discrete time kalman filtering does not exist in continuous time
+
+the second differential equation for the covariance is an example of a riccati equation nonlinear generalizations to kalman bucy filters include continuous time extended kalman filter
+
+most physical systems are represented as continuous time models while discrete time measurements are made frequently for state estimation via a digital processor therefore the system model and measurement model are given by
+
+where
+
+the prediction equations are derived from those of continuous time kalman filter without update from measurements i e
+
+
+
+
+k
+
+
+t
+
+
+0
+
+
+displaystyle mathbf k t 0
+
+the predicted state and covariance are calculated respectively by solving a set of differential equations with the initial value equal to the estimate at the previous step
+
+for the case of linear time invariant systems the continuous time dynamics can be exactly discretized into a discrete time system using matrix exponentials
+
+the update equations are identical to those of the discrete time kalman filter
+
+the traditional kalman filter has also been employed for the recovery of sparse possibly dynamic signals from noisy observations recent works utilize notions from the theory of compressed sensing sampling such as the restricted isometry property and related probabilistic recovery arguments for sequentially estimating the sparse state in intrinsically low dimensional systems
+
+since linear gaussian state space models lead to gaussian processes kalman filters can be viewed as sequential solvers for gaussian process regression
+
+

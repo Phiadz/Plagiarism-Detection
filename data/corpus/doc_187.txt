@@ -1,0 +1,21 @@
+
+
+informatica inc is an american software development company founded in 1993 by gaurav dhillon and diaz nesamoney based in redwood city california its core products include enterprise cloud data management and data integration
+
+informatica was founded in 1993 by gaurav dhillon and diaz nesamoney on 29 april 1999 its initial public offering on the nasdaq stock exchange listed its shares under the stock symbol infa
+
+in april 2015 permira and cpp investments announced that a company controlled by their funds would acquire informatica for approximately us 5 3 billion this transaction was completed four months later receiving investment from microsoft and salesforce ventures as part of the deal
+
+on august 6 2015 its stock ceased trading on the nasdaq on 27 october 2021 informatica again became publicly traded with the infa stock symbol this time listed on the nyse opening at 27 55 per share
+
+in november 2023 five months after acquiring privitar a data management tool the firm announced a restructuring plan to focus on its cloud offerings it permanently laid off 10 of its workforce and reduced its office space
+
+in april 2024 the wall street journal reported that salesforce was in advanced talks to acquire informatica at a price below its 11 billion market capitalization at the time the deal was eventually abandoned
+
+in may 2025 it was reported that the firm would be acquired by salesforce for 8 billion subject to regulatory approval in november it was announced that the acquisition had been completed
+
+informatica s product portfolio is focused on data integration extract transform load information lifecycle management business to business data exchange cloud computing integration complex event processing data masking data quality data replication data virtualization master data management ultra messaging and data governance these components form a toolset for establishing and maintaining data warehouses it has over 9 500 customers
+
+in 2006 informatica announced a cloud business in 2023 it announced an ai powered data management tool and began to fully transition to cloud based offerings
+
+informatica has grown through a combination of sales growth and through company acquisitions

@@ -1,0 +1,200 @@
+
+
+hilary whitehall putnam ˈpʌtnəm july 31 1926 march 13 2016 was an american philosopher mathematician computer scientist and figure in analytic philosophy in the second half of the 20th century he contributed to the studies of philosophy of mind philosophy of language philosophy of mathematics and philosophy of science outside philosophy putnam contributed to mathematics and computer science together with martin davis he developed the davis putnam algorithm for the boolean satisfiability problem and he helped demonstrate the unsolvability of hilbert s tenth problem
+
+putnam applied equal scrutiny to his own philosophical positions as to those of others subjecting each position to rigorous analysis until he exposed its flaws as a result he acquired a reputation for frequently changing his positions in philosophy of mind putnam argued against the type identity of mental and physical states based on his hypothesis of the multiple realizability of the mental and for the concept of functionalism an influential theory regarding the mind body problem putnam also originated the computational theory of mind in philosophy of language along with saul kripke and others he developed the causal theory of reference and formulated an original theory of meaning introducing the notion of semantic externalism based on a thought experiment called twin earth
+
+in philosophy of mathematics putnam and w v o quine developed the quine putnam indispensability argument an argument for the reality of mathematical entities later espousing the view that mathematics is not purely logical but quasi empirical in epistemology putnam criticized the brain in a vat thought experiment which appears to provide a powerful argument for epistemological skepticism by challenging its coherence in metaphysics he originally espoused a position called metaphysical realism but eventually became one of its most outspoken critics first adopting a view he called internal realism which he later abandoned despite these changes of view throughout his career putnam remained committed to scientific realism roughly the view that mature scientific theories are approximately true descriptions of ways things are
+
+in his later work putnam became increasingly interested in american pragmatism jewish philosophy and ethics engaging with a wider array of philosophical traditions he also displayed an interest in metaphilosophy seeking to renew philosophy from what he identified as narrow and inflated concerns he was at times a politically controversial figure especially for his involvement with the progressive labor party in the late 1960s and early 1970s
+
+hilary whitehall putnam was born on july 31 1926 in chicago illinois his father samuel putnam was a scholar of romance languages columnist and translator who wrote for the daily worker a publication of the american communist party from 1936 to 1946 because of his father s commitment to communism putnam had a secular upbringing although his mother riva was jewish in early 1927 six months after hilary s birth the family moved to france where samuel was under contract to translate the surviving works of françois rabelais in a 2015 autobiographical essay putnam said that his first childhood memories were from his life in france and his first language was french
+
+putnam completed the first two years of his primary education in france before he and his parents returned to the u s in 1933 settling in philadelphia there he attended central high school where he met noam chomsky who was a year behind him 8 the two remained friends and often intellectual opponents for the rest of putnam s life putnam studied philosophy at the university of pennsylvania receiving his b a degree and becoming a member of the philomathean society the country s oldest continually existing collegiate literary society he did graduate work in philosophy at harvard university and later at ucla s philosophy department where he received his ph d in 1951 for his dissertation the meaning of the concept of probability in application to finite sequences putnam s dissertation supervisor hans reichenbach was a leading figure in logical positivism the dominant school of philosophy of the day one of putnam s most consistent positions was his rejection of logical positivism as self defeating over the course of his life putnam was his own philosophical adversary changing his positions on philosophical questions and critiquing his previous views
+
+after obtaining his phd putnam taught at northwestern university 1951 52 princeton university 1953 61 and mit 1961 65 for the rest of his career putnam taught at harvard s philosophy department becoming cogan university professor in 1962 he married fellow philosopher ruth anna putnam born ruth anna jacobs who took a teaching position in philosophy at wellesley college rebelling against the antisemitism they experienced during their youth the putnams decided to establish a traditional jewish home for their children since they had no experience with the rituals of judaism they sought out invitations to other jewish homes for seder they began to study jewish rituals and hebrew became more interested in judaism self identified as jews and actively practiced judaism in 1994 hilary celebrated a belated bar mitzvah service ruth anna s bat mitzvah was celebrated four years later
+
+in the 1960s and early 1970s putnam was an active supporter of the american civil rights movement and he was also an active opponent of the vietnam war in 1963 he organized one of mit s first faculty and student anti war committees after moving to harvard in 1965 he organized campus protests and began teaching courses on marxism putnam became an official faculty advisor to the students for a democratic society and in 1968 a member of the progressive labor party plp he was elected a fellow of the american academy of arts and sciences in 1965 after 1968 his political activities centered on the plp the harvard administration considered these activities disruptive and attempted to censure putnam putnam permanently severed his relationship with the plp in 1972 in 1997 at a meeting of former draft resistance activists at boston s arlington street church he called his involvement with the plp a mistake he said he had been impressed at first with the plp s commitment to alliance building and its willingness to attempt to organize from within the armed forces
+
+in 1976 putnam was elected president of the american philosophical association the next year he was selected as walter beverly pearson professor of mathematical logic in recognition of his contributions to the philosophy of logic and mathematics while breaking with his radical past putnam never abandoned his belief that academics have a particular social and ethical responsibility toward society he continued to be forthright and progressive in his political views as expressed in the articles how not to solve ethical problems 1983 and education for democracy 1993 in 1978 he was interviewed for bryan magee s men of ideas television show where he spoke about philosophy of science
+
+putnam was a corresponding fellow of the british academy he was elected to the american philosophical society in 1999 he retired from teaching in june 2000 becoming cogan university professor emeritus but as of 2009 continued to give a seminar almost yearly at tel aviv university he also held the spinoza chair of philosophy at the university of amsterdam in 2001 his corpus includes five volumes of collected works seven books and more than 200 articles putnam s renewed interest in judaism inspired him to publish several books and essays on the topic with his wife he co authored several essays and a book on the late 19th century american pragmatist movement
+
+for his contributions in philosophy and logic putnam was awarded the rolf schock prize in 2011 and the nicholas rescher prize for systematic philosophy in 2015 putnam died at his home in arlington massachusetts on march 13 2016 at the time of his death putnam was cogan university professor emeritus at harvard university
+
+putnam s best known work concerns philosophy of mind his most noted original contributions to that field came in several key papers published in the late 1960s that set out the hypothesis of multiple realizability in these papers putnam argues that contrary to the famous claim of the type identity theory pain may correspond to utterly different physical states of the nervous system in different organisms even if they all experience the same mental state of being in pain putnam cited examples from the animal kingdom to illustrate his thesis he asked whether it was likely that the brain structures of diverse types of animals realize pain or other mental states the same way if they do not share the same brain structures they cannot share the same mental states and properties in which case mental states must be realized by different physical states in different species putnam then took his argument a step further asking about such things as the nervous systems of alien beings artificially intelligent robots and other silicon based life forms these hypothetical entities he contended should not be considered incapable of experiencing pain just because they lack human neurochemistry putnam concluded that type identity theorists had been making an ambitious and highly implausible conjecture that could be disproved by one example of multiple realizability this is sometimes called the likelihood argument as it focuses on the claim that multiple realizability is more likely than type identity theory 640
+
+putnam also formulated an a priori argument in favor of multiple realizability based on what he called functional isomorphism he defined the concept in these terms two systems are functionally isomorphic if there is a correspondence between the states of one and the states of the other that preserves functional relations in the case of computers two machines are functionally isomorphic if and only if the sequential relations among states in the first exactly mirror the sequential relations among states in the other therefore a computer made of silicon chips and one made of cogs and wheels can be functionally isomorphic but constitutionally diverse functional isomorphism implies multiple realizability 637
+
+putnam jerry fodor and others argued that along with being an effective argument against type identity theories multiple realizability implies that any low level explanation of higher level mental phenomena is insufficiently abstract and general functionalism which identifies mental kinds with functional kinds that are characterized exclusively in terms of causes and effects abstracts from the level of microphysics and therefore seemed to be a better explanation of the relation between mind and body in fact there are many functional kinds including mousetraps and eyes that are multiply realized at the physical level 648 649 6
+
+multiple realizability has been criticized on the grounds that if it were true research and experimentation in the neurosciences would be impossible according to william bechtel and jennifer mundale to be able to conduct such research in the neurosciences universal consistencies must either exist or be assumed to exist in brain structures it is the similarity or homology of brain structures that allows us to generalize across species if multiple realizability were an empirical fact results from experiments conducted on one species of animal or one organism would not be meaningful when generalized to explain the behavior of another species or organism of the same species jaegwon kim david lewis robert richardson and patricia churchland have also criticized metaphysical realism
+
+putnam himself put forth the first formulation of such a functionalist theory this formulation now called machine state functionalism was inspired by analogies putnam and others made between the mind and turing machines the point for functionalism is the nature of the states of the turing machine each state can be defined in terms of its relations to the other states and to the inputs and outputs and the details of how it accomplishes what it accomplishes and of its material constitution are completely irrelevant according to machine state functionalism the nature of a mental state is just like the nature of a turing machine state just as state one simply is the state in which given a particular input such and such happens so being in pain is the state which disposes one to cry ouch become distracted wonder what the cause is and so forth
+
+ian hacking called representation and reality 1988 a book that will mostly be read as putnam s denunciation of his former philosophical psychology to which he gave the name functionalism writing in noûs barbara hannon described the inventor of functionalism as arguing against his own former computationalist views
+
+putnam s change of mind was primarily due to the difficulties computational theories have in explaining certain intuitions with respect to the externalism of mental content this is illustrated by his twin earth thought experiment
+
+in 1988 putnam also developed a separate argument against functionalism based on fodor s generalized version of multiple realizability asserting that functionalism is really a watered down identity theory in which mental kinds are identified with functional kinds he argued that mental kinds may be multiply realizable over functional kinds the argument for functionalism is that the same mental state could be implemented by the different states of a universal turing machine 83 87
+
+despite putnam s rejection of functionalism it has continued to flourish and been developed into numerous versions by fodor david marr daniel dennett and david lewis among others functionalism helped lay the foundations for modern cognitive science and was the dominant theory of mind in philosophy in the last part of the 20th century
+
+by 2012 putnam accepted a modification of functionalism called liberal functionalism the view holds that what matters for consciousness and for mental properties generally is the right sort of functional capacities and not the particular matter that subserves those capacities the specification of these capacities may refer to what goes on outside the organism s brain may include intentional idioms and need not describe a capacity to compute something or other
+
+putnam himself formulated one of the main arguments against functionalism the twin earth thought experiment though there have been additional criticisms john searle s chinese room argument 1980 is a direct attack on the claim that thought can be represented as a set of functions it is designed to show that it is possible to mimic intelligent action with a purely functional system without any interpretation or understanding searle describes a situation in which a person who speaks only english is locked in a room with chinese symbols in baskets and a rule book in english for moving the symbols around people outside the room instruct the person inside to follow the rule book for sending certain symbols out of the room when given certain symbols the people outside the room speak chinese and are communicating with the person inside via the chinese symbols according to searle it would be absurd to claim that the english speaker inside knows chinese based on these syntactic processes alone this argument attempts to show that systems that operate merely on syntactic processes cannot realize any semantics meaning or intentionality aboutness searle thus attacks the idea that thought can be equated with following a set of syntactic rules and concludes that functionalism is an inadequate theory of the mind ned block has advanced several other arguments against functionalism
+
+one of putnam s contributions to philosophy of language is his semantic externalism the claim that terms meanings are determined by factors outside the mind encapsulated in his slogan that meaning just ain t in the head his views on meaning first laid out in meaning and reference 1973 then in the meaning of meaning 1975 use his twin earth thought experiment to defend this thesis
+
+twin earth shows this according to putnam since on twin earth everything is identical to earth except that its lakes rivers and oceans are filled with xyz rather than h2o consequently when an earthling fredrick uses the earth english word water it has a different meaning from the twin earth english word water when used by his physically identical twin frodrick on twin earth since fredrick and frodrick are physically indistinguishable when they utter their respective words and since their words have different meanings meaning cannot be determined solely by what is in their heads this led putnam to adopt a version of semantic externalism with regard to meaning and mental content the philosopher of mind and language donald davidson despite his many differences of opinion with putnam wrote that semantic externalism constituted an anti subjectivist revolution in philosophers way of seeing the world since descartes s time philosophers had been concerned with proving knowledge from the basis of subjective experience thanks to putnam saul kripke tyler burge and others davidson said philosophy could now take the objective realm for granted and start questioning the alleged truths of subjective experience
+
+along with kripke keith donnellan and others putnam contributed to what is known as the causal theory of reference in particular he maintained in the meaning of meaning that the objects referred to by natural kind terms such as tiger water and tree are the principal elements of the meaning of such terms there is a linguistic division of labor analogous to adam smith s economic division of labor according to which such terms have their references fixed by the experts in the particular field of science to which the terms belong so for example the reference of the term lion is fixed by the community of zoologists the reference of the term elm tree is fixed by the community of botanists and chemists fix the reference of the term table salt as sodium chloride these referents are considered rigid designators in the kripkean sense and are disseminated outward to the linguistic community 33
+
+putnam specifies a finite sequence of elements a vector for the description of the meaning of every term in the language such a vector consists of four components
+
+such a meaning vector provides a description of the reference and use of an expression within a particular linguistic community it provides the conditions for its correct usage and makes it possible to judge whether a single speaker attributes the appropriate meaning to it or whether its use has changed enough to cause a difference in its meaning according to putnam it is legitimate to speak of a change in the meaning of an expression only if the reference of the term and not its stereotype has changed 339 340 but since no possible algorithm can determine which aspect the stereotype or the reference has changed in a particular case it is necessary to consider the usage of other expressions of the language non primary source needed since there is no limit to the number of such expressions to be considered putnam embraced a form of semantic holism
+
+despite the many changes in his other positions putnam consistently adhered to semantic holism michael dummett jerry fodor ernest lepore and others have identified problems with this position in the first place they suggest that if semantic holism is true it is impossible to understand how a speaker of a language can learn the meaning of an expression in the language given the limits of our cognitive abilities we will never be able to master the whole of the english or any other language even based on the false assumption that languages are static and immutable entities thus if one must understand all of a natural language to understand a single word or expression language learning is simply impossible semantic holism also fails to explain how two speakers can mean the same thing when using the same expression and therefore how any communication is possible between them given a sentence p since fred and mary have each mastered different parts of the english language and p is related in different ways to the sentences in each part p means one thing to fred and something else to mary moreover if p derives its meaning from its relations with all the sentences of a language as soon as the vocabulary of an individual changes by the addition or elimination of a sentence the totality of relations changes and therefore also the meaning of p as this is a common phenomenon the result is that p has two different meanings in two different moments in the life of the same person consequently if one accepts the truth of a sentence and then rejects it later on the meaning of what one rejected and what one accepted are completely different and therefore one cannot change opinions with regard to the same sentences page needed page needed page needed
+
+in the philosophy of mathematics putnam has utilized indispensability arguments to argue for a realist interpretation of mathematics in his 1971 book philosophy of logic he presented what has since been called the locus classicus of the quine putnam indispensability argument the argument which he attributed to willard van orman quine is presented in the book as quantification over mathematical entities is indispensable for science both formal and physical therefore we should accept such quantification but this commits us to accepting the existence of the mathematical entities in question according to charles parsons putnam very likely endorsed this version of the argument in his early work but later came to deny some of the views present in it 128
+
+in 1975 putnam formulated his own indispensability argument based on the no miracles argument in the philosophy of science saying i believe that the positive argument for realism in science has an analogue in the case of mathematical realism here too i believe realism is the only philosophy that doesn t make the success of the science a miracle according to putnam quine s version of the argument was an argument for the existence of abstract mathematical objects while putnam s own argument was simply for a realist interpretation of mathematics which he believed could be provided by a mathematics as modal logic interpretation that need not imply the existence of abstract objects 61 62
+
+putnam also held the view that mathematics like physics and other empirical sciences uses both strict logical proofs and quasi empirical methods 150 for example fermat s last theorem states that for no integer
+
+
+
+n
+
+2
+
+
+displaystyle n 2
+
+are there positive integer values of x y and z such that
+
+
+
+
+x
+
+n
+
+
+
+
+y
+
+n
+
+
+
+
+z
+
+n
+
+
+
+
+displaystyle x n y n z n
+
+before andrew wiles proved this for all
+
+
+
+n
+
+2
+
+
+displaystyle n 2
+
+in 1995 it had been proved for many values of n these proofs inspired further research in the area and formed a quasi empirical consensus for the theorem even though such knowledge is more conjectural than a strictly proved theorem it was still used in developing other mathematical ideas
+
+the quine putnam indispensability argument has been extremely influential in the philosophy of mathematics inspiring continued debate and development of the argument in contemporary philosophy of mathematics according to the stanford encyclopedia of philosophy many in the field consider it the best argument for mathematical realism prominent counterarguments come from hartry field who argues that mathematics is not indispensable to science and penelope maddy and elliott sober who dispute whether we are committed to mathematical realism even if it is indispensable to science
+
+putnam has contributed to scientific fields not directly related to his work in philosophy as a mathematician he contributed to the resolution of hilbert s tenth problem in mathematics this problem now known as matiyasevich s theorem or the mrdp theorem was settled by yuri matiyasevich in 1970 with a proof that relied heavily on previous research by putnam julia robinson and martin davis
+
+in computability theory putnam investigated the structure of the ramified analytical hierarchy its connection with the constructible hierarchy and its turing degrees he showed that there are many levels of the constructible hierarchy that add no subsets of the integers later with his student george boolos he showed that the first such non index is the ordinal
+
+
+
+
+β
+
+0
+
+
+
+
+displaystyle beta _ 0
+
+of ramified analysis this is the smallest
+
+
+
+β
+
+
+displaystyle beta
+
+such that
+
+
+
+
+l
+
+β
+
+
+
+
+displaystyle l_ beta
+
+is a model of full second order comprehension also together with a separate paper with his student richard boyd and gustav hensel he demonstrated how the davis mostowski kleene hyperarithmetical hierarchy of arithmetical degrees can be naturally extended up to
+
+
+
+
+β
+
+0
+
+
+
+
+displaystyle beta _ 0
+
+
+
+in computer science putnam is known for the davis putnam algorithm for the boolean satisfiability problem sat developed with martin davis in 1960 the algorithm finds whether there is a set of true or false values that satisfies a given boolean expression so that the entire expression becomes true in 1962 they further refined the algorithm with the help of george logemann and donald w loveland it became known as the dpll algorithm it is efficient and still forms the basis of most complete sat solvers
+
+in epistemology putnam is known for his argument against skeptical scenarios based on the brain in a vat thought experiment a modernized version of descartes s evil demon hypothesis the argument is that one cannot coherently suspect that one is a disembodied brain in a vat placed there by some mad scientist
+
+this follows from the causal theory of reference words always refer to the kinds of things they were coined to refer to the kinds of things their user or the user s ancestors experienced so if some person mary is a brain in a vat whose every experience is received through wiring and other gadgetry created by the mad scientist then mary s idea of a brain does not refer to a real brain since she and her linguistic community have never encountered such a thing to her a brain is actually an image fed to her through the wiring nor does her idea of a vat refer to a real vat so if as a brain in a vat she says i m a brain in a vat she is actually saying i m a brain image in a vat image which is incoherent on the other hand if she is not a brain in a vat then saying that she is a brain in a vat is still incoherent because she actually means the opposite this is a form of epistemological externalism knowledge or justification depends on factors outside the mind and is not solely determined internally
+
+putnam has clarified that his real target in this argument was never skepticism but metaphysical realism which he thought implied such skeptical scenarios were possible since realism of this kind assumes the existence of a gap between how one conceives the world and the way the world really is skeptical scenarios such as this one or descartes s evil demon present a formidable challenge by arguing that such a scenario is impossible putnam attempts to show that this notion of a gap between one s concept of the world and the way it is is absurd one cannot have a god s eye view of reality one is limited to one s conceptual schemes and metaphysical realism is therefore false
+
+putnam s brain in a vat argument has been criticized crispin wright argues that putnam s formulation of the brain in a vat scenario is too narrow to refute global skepticism the possibility that one is a recently disembodied brain in a vat is not undermined by semantic externalism if a person has lived their entire life outside the vat speaking the english language and interacting normally with the outside world before envatment by a mad scientist when they wake up inside the vat their words and thoughts e g tree and grass will still refer to the objects or events in the external world they had referred to before envatment
+
+in the late 1970s and the 1980s stimulated by results from mathematical logic and by some of quine s ideas putnam abandoned his long standing defense of metaphysical realism the view that the categories and structures of the external world are both causally and ontologically independent of the conceptualizations of the human mind and adopted a rather different view which he called internal realism or pragmatic realism 404 internal realism is the view that although the world may be causally independent of the human mind the world s structure its division into kinds individuals and categories is a function of the human mind and hence the world is not ontologically independent the general idea is influenced by immanuel kant s idea of the dependence of our knowledge of the world on the categories of thought
+
+according to putnam the problem with metaphysical realism is that it fails to explain the possibility of reference and truth according to the metaphysical realist our concepts and categories refer because they match up in some mysterious manner with the categories kinds and individuals inherent in the external world but how is it possible that the world carves up into certain structures and categories the mind carves up the world into its own categories and structures and the two carvings perfectly coincide the answer must be that the world does not come pre structured but that the human mind and its conceptual schemes impose structure on it in reason truth and history putnam identified truth with what he termed idealized rational acceptability the theory is that a belief is true if it would be accepted by anyone under ideal epistemic conditions 7 1
+
+nelson goodman formulated a similar notion in fact fiction and forecast 1956 we have come to think of the actual as one among many possible worlds we need to repaint that picture all possible worlds lie within the actual one goodman wrote putnam rejected this form of social constructivism but retained the idea that there can be many correct descriptions of reality none of these descriptions can be scientifically proven to be the one true description of the world he thus accepted conceptual relativity the view that it may be a matter of choice or convention e g whether mereological sums exist or whether spacetime points are individuals or mere limits non primary source needed
+
+curtis brown has criticized putnam s internal realism as a disguised form of subjective idealism in which case it is subject to the traditional arguments against that position in particular it falls into the trap of solipsism that is if existence depends on experience as subjective idealism maintains and if one s consciousness ceased to exist then the rest of the universe would also cease to exist in his reply to simon blackburn in the volume reading putnam putnam renounced internal realism because it assumed a cognitive interface model of the relation between the mind and the world under the increasing influence of william james and the pragmatists he adopted a direct realist view of this relation 23 24 although he abandoned internal realism putnam still resisted the idea that any given thing or system of things can be described in exactly one complete and correct way he came to accept metaphysical realism in a broader sense rejecting all forms of verificationism and all talk of our making the world
+
+in the philosophy of perception putnam came to endorse direct realism according to which perceptual experiences directly present one with the external world he once further held that there are no mental representations sense data or other intermediaries between the mind and the world by 2012 however he rejected this commitment in favor of transactionalism a view that accepts both that perceptual experiences are world involving transactions and that these transactions are functionally describable provided that worldly items and intentional states may be referred to in the specification of the function such transactions can further involve qualia
+
+during his career putnam espoused various positions on the interpretation of quantum mechanics in the 1960s and 1970s he contributed to the quantum logic tradition holding that the way to resolve quantum theory s apparent paradoxes is to modify the logical rules by which propositions truth values are deduced putnam s first foray into this topic was a philosopher looks at quantum mechanics in 1965 followed by his 1969 essay is logic empirical he advanced different versions of quantum logic over the years and eventually turned away from it in the 1990s due to critiques by nancy cartwright michael redhead and others 265 280 in 2005 he wrote that he rejected the many worlds interpretation because he could see no way for it to yield meaningful probabilities he found both de broglie bohm theory and the spontaneous collapse theory of ghirardi rimini and weber to be promising yet also dissatisfying since it was not clear that either could be made fully consistent with special relativity s symmetry requirements
+
+in the mid 1970s putnam became increasingly disillusioned with what he perceived as modern analytic philosophy s scientism and focus on metaphysics over ethics and everyday concerns 186 190 he also became convinced by his readings of james and john dewey that there is no fact value dichotomy that is normative e g ethical and aesthetic judgments often have a factual basis while scientific judgments have a normative element 240 for a time under ludwig wittgenstein s influence putnam adopted a pluralist view of philosophy itself and came to view most philosophical problems as no more than conceptual or linguistic confusions philosophers created by using ordinary language out of context non primary source needed a book of articles on pragmatism by ruth anna putnam and hilary putnam pragmatism as a way of life the lasting legacy of william james and john dewey edited by david macarthur was published in 2017
+
+many of putnam s last works addressed the concerns of ordinary people particularly social problems for example he wrote about the nature of democracy social justice and religion he also discussed jürgen habermas s ideas and wrote articles influenced by continental philosophy
+
+philosopher martha nussbaum called putnam one of the greatest philosophers ever produced by america and compared him to aristotle in that both made prolific contributions to a wide range of topics even noting that putnam added to a couple of areas aristotle did not the linguist and activist noam chomsky stated that he had enormous talents and creativity one of the finest minds i ve ever encountered philosopher warren goldfarb stated i don t know anyone else who had his breadth or so quickly assimilated things in all different areas he was essentially the quickest mind i ve ever encountered
+
+an exhaustive bibliography of putnam s writings compiled by john r shook can be found in the philosophy of hilary putnam 2015

@@ -1,0 +1,24 @@
+shrdlu is an early natural language understanding computer program that was developed by terry winograd at mit in 1968 1970 in the program the user carries on a conversation with the computer moving objects naming collections and querying the state of a simplified blocks world essentially a virtual box filled with different blocks
+
+shrdlu was written in the micro planner and lisp programming language on the dec pdp 6 computer and a dec graphics terminal later additions were made at the computer graphics labs at the university of utah adding a full 3d rendering of shrdlu s world
+
+the name shrdlu was derived from etaoin shrdlu the arrangement of the letter keys on a linotype machine arranged in descending order of usage frequency in english
+
+shrdlu is primarily a language parser that allows user interaction using english terms the user instructs shrdlu to move various objects around in the blocks world containing various basic objects such as blocks cones and balls shrdlu combined four simple ideas to make the simulation of understanding more convincing
+
+one was that shrdlu s world is so simple that the entire set of objects and locations could be described by including as few as 50 words nouns like block and cone verbs like place on and move to and adjectives like big and blue the possible combinations of these basic language building blocks are quite simple
+
+shrdlu also includes a basic memory to supply context one could ask shrdlu to put the green cone on the red block and then take the cone off the cone would be taken to mean the green cone one had just talked about shrdlu can search back further through the interactions to find the proper context in most cases when additional adjectives were supplied one could also ask questions about the history for instance one could ask did you pick up anything before the cone
+
+a side effect of this memory and the original rules shrdlu was supplied with is that the program can answer questions about what was possible in the world and what was not for instance shrdlu can deduce that blocks could be stacked by looking for examples but also realize that triangles could not be stacked after having tried it the world contains basic physics to make blocks fall over independent of the language parser
+
+finally shrdlu can also remember names given to objects or arrangements of them for instance one could say a steeple is a small triangle on top of a tall rectangle shrdlu can then answer questions about steeples in the blocks world and build new ones
+
+this is an example of a shrdlu session
+
+shrdlu was considered a tremendously successful demonstration of artificial intelligence ai this led other ai researchers to excessive optimism which was soon lost when later systems attempted to deal with situations with a more realistic level of ambiguity and complexity citation needed subsequent efforts of the shrdlu type such as cyc have tended to focus on providing the program with considerably more information from which it can draw conclusions
+
+in a 1991 interview winograd said about shrdlu
+
+the famous dialogue with shrdlu where you could pick up a block and so on i very carefully worked through line by line if you sat down in front of it and asked it a question that wasn t in the dialogue there was some probability it would answer it i mean if it was reasonably close to one of the questions that was there in form and in content it would probably get it but there was no attempt to get it to the point where you could actually hand it to somebody and they could use it to move blocks around and there was no pressure for that whatsoever pressure was for something you could demo take a recent example negroponte s media lab where instead of perish or publish it s demo or die i think that s a problem i think ai suffered from that a lot because it led to potemkin villages things which for the things they actually did in the demo looked good but when you looked behind that there wasn t enough structure to make it really work more generally
+though not intentionally developed as such shrdlu is considered the first known formal example of interactive fiction as the user interacts with simple commands to move objects around a virtual environment though lacking the distinct story telling normally present in the interactive fiction genre the 1976 1977 game colossal cave adventure is broadly considered to be the first true work of interactive fiction

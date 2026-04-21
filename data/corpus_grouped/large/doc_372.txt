@@ -1,0 +1,1642 @@
+large numbers are numbers far larger than those encountered in everyday life such as simple counting or financial transactions these quantities appear prominently in mathematics cosmology cryptography and statistical mechanics googology studies the naming conventions and properties of these immense numbers
+
+since the customary decimal format of large numbers can be lengthy other systems have been devised that allows for shorter representation for example a billion is represented as 10 characters 1 000 000 000 in decimal format but is only 3 characters 109 when expressed in exponential format a trillion is 13 characters in decimal but only four 1012 in exponential values that vary dramatically can be represented and compared graphically via logarithmic scale
+
+a natural language numbering system represents large numbers using names rather than a series of digits for example billion may be easier to comprehend for some readers than 1 000 000 000 sometimes it is shortened by using a suffix for example 2 340 000 000 2 34b b billion a numeric value can be lengthy when expressed in words for example 2 345 789 is two million three hundred forty five thousand seven hundred and eighty nine
+
+scientific notation was devised to represent the vast range of values encountered in scientific research in a format that is more compact than traditional formats yet allows for high precision when called for a value is represented as a decimal fraction times a multiple power of 10 the factor is intended to make reading comprehension easier than a lengthy series of zeros for example 1 0 109 expresses one billion 1 followed by nine zeros the reciprocal one billionth is 1 0 10 9 sometimes the letter e replaces the exponent for example 1 billion may be expressed as 1e9 instead of 1 0 109
+
+examples of large numbers describing real world things
+
+in astronomy and cosmology large numbers for measures of length and time are encountered for instance according to the prevailing big bang model the universe is approximately 13 8 billion years old equivalent to 4 355 1017 seconds the observable universe spans 93 billion light years approximately 8 8 1026 meters and hosts around 5 1022 stars organized into roughly 125 billion galaxies as observed by the hubble space telescope as a rough estimate there are about 1080 atoms within the observable universe
+
+according to don page physicist at the university of alberta canada the longest finite time that has so far been explicitly calculated by any physicist is
+
+which corresponds to the scale of an estimated poincaré recurrence time for the quantum state of a hypothetical box containing a black hole with the estimated mass of the entire universe observable or not assuming a certain inflationary model with an inflaton whose mass is 10 6 planck masses roughly 10 10 1 288 10 3 884 t this time assumes a statistical model subject to poincaré recurrence a much simplified way of thinking about this time is in a model where the universe s history repeats itself arbitrarily many times due to properties of statistical mechanics this is the time scale when it will first be somewhat similar for a reasonable choice of similar to its current state again
+
+combinatorial processes give rise to astonishingly large numbers the factorial function which quantifies permutations of a fixed set of objects grows superexponentially as the number of objects increases stirling s formula provides a precise asymptotic expression for this rapid growth
+
+in statistical mechanics combinatorial numbers reach such immense magnitudes that they are often expressed using logarithms
+
+gödel numbers along with similar representations of bit strings in algorithmic information theory are vast even for mathematical statements of moderate length remarkably certain pathological numbers surpass even the gödel numbers associated with typical mathematical propositions
+
+logician harvey friedman has made significant contributions to the study of very large numbers including work related to kruskal s tree theorem and the robertson seymour theorem
+
+to help viewers of cosmos distinguish between millions and billions astronomer carl sagan stressed the b sagan never did however say billions and billions the public s association of the phrase and sagan came from a tonight show skit parodying sagan s effect johnny carson quipped billions and billions the phrase has however now become a humorous fictitious number the sagan cf sagan unit
+
+a standardized way of writing very large numbers allows them to be easily sorted in increasing order and one can get a good idea of how much larger a number is than another one
+
+to compare numbers in scientific notation say 5 104 and 2 105 compare the exponents first in this case 5 4 so 2 105 5 104 if the exponents are equal the mantissa or coefficient should be compared thus 5 104 2 104 because 5 2
+
+tetration with base 10 gives the sequence
+
+
+
+10
+
+n
+
+10
+
+n
+
+2
+
+
+10
+
+
+
+
+n
+
+
+1
+
+
+displaystyle 10 uparrow uparrow n 10 to n to 2 10 uparrow n 1
+
+the power towers of numbers 10 where
+
+
+
+
+10
+
+
+
+
+n
+
+
+
+
+displaystyle 10 uparrow n
+
+denotes a functional power of the function
+
+
+
+f
+
+n
+
+
+
+10
+
+n
+
+
+
+
+displaystyle f n 10 n
+
+the function also expressed by the suffix plex as in googolplex see the googol family
+
+these are very round numbers each representing an order of magnitude in a generalized sense a crude way of specifying how large a number is is specifying between which two numbers in this sequence it is
+
+more precisely numbers in between can be expressed in the form
+
+
+
+
+10
+
+
+
+
+n
+
+
+a
+
+
+displaystyle 10 uparrow n a
+
+i e with a power tower of 10s and a number at the top possibly in scientific notation e g
+
+
+
+
+10
+
+
+10
+
+
+10
+
+
+10
+
+
+10
+
+4 829
+
+
+
+
+
+
+
+
+
+
+
+
+10
+
+
+
+
+5
+
+
+4 829
+
+
+displaystyle 10 10 10 10 10 4 829 10 uparrow 5 4 829
+
+a number between
+
+
+
+10
+
+5
+
+
+displaystyle 10 uparrow uparrow 5
+
+and
+
+
+
+10
+
+6
+
+
+displaystyle 10 uparrow uparrow 6
+
+note that
+
+
+
+10
+
+n
+
+
+10
+
+
+
+
+n
+
+
+a
+
+10
+
+
+n
+
+1
+
+
+
+displaystyle 10 uparrow uparrow n 10 uparrow n a 10 uparrow uparrow n 1
+
+if
+
+
+
+1
+
+a
+
+10
+
+
+displaystyle 1 a 10
+
+see also extension of tetration to real heights
+
+thus googolplex is
+
+
+
+
+10
+
+
+10
+
+100
+
+
+
+
+
+
+10
+
+
+
+
+2
+
+
+100
+
+
+10
+
+
+
+
+3
+
+
+2
+
+
+displaystyle 10 10 100 10 uparrow 2 100 10 uparrow 3 2
+
+
+
+another example
+
+thus the order of magnitude of a number on a larger scale than usually meant can be characterized by the number of times n one has to take the
+
+
+
+l
+o
+
+g
+
+10
+
+
+
+
+displaystyle log_ 10
+
+to get a number between 1 and 10 thus the number is between
+
+
+
+10
+
+n
+
+
+displaystyle 10 uparrow uparrow n
+
+and
+
+
+
+10
+
+
+n
+
+1
+
+
+
+displaystyle 10 uparrow uparrow n 1
+
+as explained a more precise description of a number also specifies the value of this number between 1 and 10 or the previous number taking the logarithm one time less between 10 and 1010 or the next between 0 and 1
+
+note that
+
+i e if a number x is too large for a representation
+
+
+
+
+10
+
+
+
+
+n
+
+
+x
+
+
+displaystyle 10 uparrow n x
+
+the power tower can be made one higher replacing x by log10x or find x from the lower tower representation of the log10 of the whole number if the power tower would contain one or more numbers different from 10 the two approaches would lead to different results corresponding to the fact that extending the power tower with a 10 at the bottom is then not the same as extending it with a 10 at the top but of course similar remarks apply if the whole power tower consists of copies of the same number different from 10
+
+if the height of the tower is large the various representations for large numbers can be applied to the height itself if the height is given only approximately giving a value at the top does not make sense so the double arrow notation e g
+
+
+
+10
+
+
+7 21
+
+
+10
+
+8
+
+
+
+
+
+displaystyle 10 uparrow uparrow 7 21 times 10 8
+
+can be used if the value after the double arrow is a very large number itself the above can recursively be applied to that value
+
+examples
+
+similarly to the above if the exponent of
+
+
+
+
+10
+
+
+
+
+displaystyle 10 uparrow
+
+is not exactly given then giving a value at the right does not make sense and instead of using the power notation of
+
+
+
+
+10
+
+
+
+
+displaystyle 10 uparrow
+
+it is possible to add
+
+
+
+1
+
+
+displaystyle 1
+
+to the exponent of
+
+
+
+
+10
+
+
+
+
+displaystyle 10 uparrow uparrow
+
+to obtain e g
+
+
+
+
+10
+
+
+
+
+3
+
+
+
+2 8
+
+
+10
+
+12
+
+
+
+
+
+displaystyle 10 uparrow uparrow 3 2 8 times 10 12
+
+
+
+if the exponent of
+
+
+
+
+10
+
+
+
+
+displaystyle 10 uparrow uparrow
+
+is large the various representations for large numbers can be applied to this exponent itself if this exponent is not exactly given then again giving a value at the right does not make sense and instead of using the power notation of
+
+
+
+
+10
+
+
+
+
+displaystyle 10 uparrow uparrow
+
+it is possible use the triple arrow operator e g
+
+
+
+10
+
+
+7 3
+
+
+10
+
+6
+
+
+
+
+
+displaystyle 10 uparrow uparrow uparrow 7 3 times 10 6
+
+
+
+if the right hand argument of the triple arrow operator is large the above applies to it obtaining e g
+
+
+
+10
+
+
+10
+
+
+
+
+2
+
+
+
+10
+
+
+
+
+497
+
+
+
+9 73
+
+
+10
+
+32
+
+
+
+
+
+displaystyle 10 uparrow uparrow uparrow 10 uparrow uparrow 2 10 uparrow 497 9 73 times 10 32
+
+between
+
+
+
+10
+
+10
+
+4
+
+
+displaystyle 10 uparrow uparrow uparrow 10 uparrow uparrow uparrow 4
+
+and
+
+
+
+10
+
+10
+
+5
+
+
+displaystyle 10 uparrow uparrow uparrow 10 uparrow uparrow uparrow 5
+
+this can be done recursively so it is possible to have a power of the triple arrow operator
+
+then it is possible to proceed with operators with higher numbers of arrows written
+
+
+
+
+
+
+n
+
+
+
+
+displaystyle uparrow n
+
+
+
+compare this notation with the hyper operator and the conway chained arrow notation
+
+an advantage of the first is that when considered as function of b there is a natural notation for powers of this function just like when writing out the n arrows
+
+
+
+
+a
+
+
+
+n
+
+
+
+
+
+k
+
+
+b
+
+
+displaystyle a uparrow n k b
+
+for example
+
+and only in special cases the long nested chain notation is reduced for
+
+
+
+
+
+
+
+
+b
+
+
+
+1
+
+
+displaystyle b 1
+
+obtains
+
+since the b can also be very large in general it can be written instead a number with a sequence of powers
+
+
+
+
+10
+
+
+
+n
+
+
+
+
+
+
+k
+
+n
+
+
+
+
+
+
+displaystyle 10 uparrow n k_ n
+
+with decreasing values of n with exactly given integer exponents
+
+
+
+
+
+k
+
+n
+
+
+
+
+
+displaystyle k_ n
+
+with at the end a number in ordinary scientific notation whenever a
+
+
+
+
+
+k
+
+n
+
+
+
+
+
+displaystyle k_ n
+
+is too large to be given exactly the value of
+
+
+
+
+
+k
+
+n
+
+1
+
+
+
+
+
+displaystyle k_ n 1
+
+is increased by 1 and everything to the right of
+
+
+
+
+
+n
+
+1
+
+
+
+
+
+k
+
+n
+
+1
+
+
+
+
+
+
+displaystyle n 1 k_ n 1
+
+is rewritten
+
+for describing numbers approximately deviations from the decreasing order of values of n are not needed for example
+
+
+
+10
+
+
+10
+
+
+
+
+5
+
+
+a
+
+
+10
+
+
+
+
+6
+
+
+a
+
+
+displaystyle 10 uparrow 10 uparrow uparrow 5 a 10 uparrow uparrow 6 a
+
+and
+
+
+
+10
+
+
+10
+
+3
+
+
+10
+
+
+10
+
+10
+
+1
+
+
+10
+
+3
+
+
+displaystyle 10 uparrow 10 uparrow uparrow uparrow 3 10 uparrow uparrow 10 uparrow uparrow 10 1 approx 10 uparrow uparrow uparrow 3
+
+thus is obtained the somewhat counterintuitive result that a number x can be so large that in a way x and 10x are almost equal for arithmetic of large numbers see also below
+
+if the superscript of the upward arrow is large the various representations for large numbers can be applied to this superscript itself if this superscript is not exactly given then there is no point in raising the operator to a particular power or to adjust the value on which it act instead it is possible to simply use a standard value at the right say 10 and the expression reduces to
+
+
+
+10
+
+
+
+n
+
+
+10
+
+
+10
+
+10
+
+n
+
+
+
+displaystyle 10 uparrow n 10 10 to 10 to n
+
+with an approximate n for such numbers the advantage of using the upward arrow notation no longer applies so the chain notation can be used instead
+
+the above can be applied recursively for this n so the notation
+
+
+
+
+
+
+n
+
+
+
+
+displaystyle uparrow n
+
+is obtained in the superscript of the first arrow etc or a nested chain notation e g
+
+if the number of levels gets too large to be convenient a notation is used where this number of levels is written down as a number like using the superscript of the arrow instead of writing many arrows introducing a function
+
+
+
+f
+
+n
+
+
+10
+
+
+
+n
+
+
+10
+
+
+displaystyle f n 10 uparrow n 10
+
+10 10 n these levels become functional powers of f allowing us to write a number in the form
+
+
+
+
+f
+
+m
+
+
+
+n
+
+
+
+displaystyle f m n
+
+where m is given exactly and n is an integer which may or may not be given exactly for example
+
+
+
+
+f
+
+2
+
+
+
+3
+
+
+10
+
+5
+
+
+
+
+
+displaystyle f 2 3 times 10 5
+
+if n is large any of the above can be used for expressing it the roundest of these numbers are those of the form fm 1 10 10 m 2 for example
+
+
+
+
+10
+
+10
+
+3
+
+2
+
+
+10
+
+
+
+10
+
+
+
+
+10
+
+10
+
+
+
+
+10
+
+
+10
+
+
+displaystyle 10 to 10 to 3 to 2 10 uparrow 10 uparrow 10 10 10 10
+
+
+
+compare the definition of graham s number it uses numbers 3 instead of 10 and has 64 arrow levels and the number 4 at the top thus
+
+
+
+g
+
+3
+
+3
+
+65
+
+2
+
+
+10
+
+10
+
+65
+
+2
+
+
+
+f
+
+65
+
+
+
+1
+
+
+
+displaystyle g 3 rightarrow 3 rightarrow 65 rightarrow 2 10 to 10 to 65 to 2 f 65 1
+
+but also
+
+
+
+g
+
+
+f
+
+64
+
+
+
+4
+
+
+
+f
+
+65
+
+
+
+1
+
+
+
+displaystyle g f 64 4 f 65 1
+
+
+
+if m in
+
+
+
+
+f
+
+m
+
+
+
+n
+
+
+
+displaystyle f m n
+
+is too large to give exactly it is possible to use a fixed n e g n 1 and apply the above recursively to m i e the number of levels of upward arrows is itself represented in the superscripted upward arrow notation etc using the functional power notation of f this gives multiple levels of f introducing a function
+
+
+
+g
+
+n
+
+
+
+f
+
+n
+
+
+
+1
+
+
+
+displaystyle g n f n 1
+
+these levels become functional powers of g allowing us to write a number in the form
+
+
+
+
+g
+
+m
+
+
+
+n
+
+
+
+displaystyle g m n
+
+where m is given exactly and n is an integer which may or may not be given exactly for example if 10 10 m 3 gm 1 if n is large any of the above can be used for expressing it similarly a function h etc can be introduced if many such functions are required they can be numbered instead of using a new letter every time e g as a subscript such that there are numbers of the form
+
+
+
+
+f
+
+k
+
+
+m
+
+
+
+n
+
+
+
+displaystyle f_ k m n
+
+where k and m are given exactly and n is an integer which may or may not be given exactly using k 1 for the f above k 2 for g etc obtains 10 10 n k
+
+
+
+
+f
+
+k
+
+
+
+n
+
+
+
+f
+
+k
+
+1
+
+
+n
+
+
+
+1
+
+
+
+displaystyle f_ k n f_ k 1 n 1
+
+if n is large any of the above can be used to express it thus is obtained a nesting of forms
+
+
+
+
+
+
+f
+
+k
+
+
+
+
+
+m
+
+k
+
+
+
+
+
+
+displaystyle f_ k m_ k
+
+where going inward the k decreases and with as inner argument a sequence of powers
+
+
+
+
+10
+
+
+
+n
+
+
+
+
+
+
+p
+
+n
+
+
+
+
+
+
+displaystyle 10 uparrow n p_ n
+
+with decreasing values of n where all these numbers are exactly given integers with at the end a number in ordinary scientific notation
+
+when k is too large to be given exactly the number concerned can be expressed as
+
+
+
+
+
+f
+
+n
+
+
+
+
+10
+
+
+
+displaystyle f_ n 10
+
+10 10 10 n with an approximate n note that the process of going from the sequence
+
+
+
+
+10
+
+n
+
+
+
+
+displaystyle 10 n
+
+10 n to the sequence
+
+
+
+10
+
+
+
+n
+
+
+10
+
+
+displaystyle 10 uparrow n 10
+
+10 10 n is very similar to going from the latter to the sequence
+
+
+
+
+
+f
+
+n
+
+
+
+
+10
+
+
+
+displaystyle f_ n 10
+
+10 10 10 n it is the general process of adding an element 10 to the chain in the chain notation this process can be repeated again see also the previous section numbering the subsequent versions of this function a number can be described using functions
+
+
+
+
+
+
+f
+
+q
+k
+
+
+
+
+
+m
+
+q
+k
+
+
+
+
+
+
+displaystyle f_ qk m_ qk
+
+nested in lexicographical order with q the most significant number but with decreasing order for q and for k as inner argument yields a sequence of powers
+
+
+
+
+10
+
+
+
+n
+
+
+
+
+
+
+p
+
+n
+
+
+
+
+
+
+displaystyle 10 uparrow n p_ n
+
+with decreasing values of n where all these numbers are exactly given integers with at the end a number in ordinary scientific notation
+
+for a number too large to write down in the conway chained arrow notation it size can be described by the length of that chain for example only using elements 10 in the chain in other words one could specify its position in the sequence 10 10 10 10 10 10 if even the position in the sequence is a large number same techniques can be applied again
+
+numbers expressible in decimal notation
+
+numbers expressible in scientific notation
+
+numbers expressible in 10 n k notation
+
+bigger numbers
+
+some notations for extremely large numbers
+
+these notations are essentially functions of integer variables which increase very rapidly with those integers ever faster increasing functions can easily be constructed recursively by applying these functions with large integers as argument
+
+a function with a vertical asymptote is not helpful in defining a very large number although the function increases very rapidly one has to define an argument very close to the asymptote i e use a very small number and constructing that is equivalent to constructing a very large number e g the reciprocal
+
+the following illustrates the effect of a base different from 10 base 100 it also illustrates representations of numbers and the arithmetic
+
+
+
+
+
+
+100
+
+12
+
+
+
+
+10
+
+24
+
+
+
+
+displaystyle 100 12 10 24
+
+with base 10 the exponent is doubled
+
+
+
+
+
+
+100
+
+
+100
+
+12
+
+
+
+
+
+
+10
+
+2
+
+
+10
+
+24
+
+
+
+
+
+
+displaystyle 100 100 12 10 2 10 24
+
+ditto
+
+
+
+
+
+
+100
+
+
+100
+
+
+100
+
+12
+
+
+
+
+
+
+
+
+10
+
+
+10
+
+2
+
+
+10
+
+24
+
+
+
+0 30103
+
+
+
+
+
+
+displaystyle 100 100 100 12 approx 10 10 2 10 24 0 30103
+
+the highest exponent is very little more than doubled increased by log102
+
+for a number
+
+
+
+
+10
+
+n
+
+
+
+
+displaystyle 10 n
+
+one unit change in n changes the result by a factor 10 in a number like
+
+
+
+
+10
+
+
+
+6 2
+
+
+10
+
+3
+
+
+
+
+
+
+displaystyle 10 6 2 times 10 3
+
+with the 6 2 the result of proper rounding using significant figures the true value of the exponent may be 50 less or 50 more hence the result may be a factor
+
+
+
+
+10
+
+50
+
+
+
+
+displaystyle 10 50
+
+too large or too small this seems like extremely poor accuracy but for such a large number it may be considered fair a large error in a large number may be relatively small and therefore acceptable
+
+in the case of an approximation of an extremely large number the relative error may be large yet there may still be a sense in which one wants to consider the numbers as close in magnitude for example consider
+
+the relative error is
+
+a large relative error however one can also consider the relative error in the logarithms in this case the logarithms to base 10 are 10 and 9 so the relative error in the logarithms is only 10
+
+the point is that exponential functions magnify relative errors greatly if a and b have a small relative error
+
+the relative error is larger and
+
+will have an even larger relative error the question then becomes on which level of iterated logarithms to compare two numbers there is a sense in which one may want to consider
+
+to be close in magnitude the relative error between these two numbers is large and the relative error between their logarithms is still large however the relative error in their second iterated logarithms is small
+
+such comparisons of iterated logarithms are common e g in analytic number theory
+
+one solution to the problem of comparing large numbers is to define classes of numbers such as the system devised by robert munafo which is based on different levels of perception of an average person class 0 numbers between zero and six is defined to contain numbers that are easily subitized that is numbers that show up very frequently in daily life and are almost instantly comparable class 1 numbers between six and 1 000 000 106 is defined to contain numbers whose decimal expressions are easily subitized that is numbers who are easily comparable not by cardinality but at a glance given the decimal expansion
+
+each class after these are defined in terms of iterating this base 10 exponentiation to simulate the effect of another iteration of human indistinguishability for example class 5 is defined to include numbers between 101010106 and 10101010106 which are numbers where x becomes humanly indistinguishable from x2 taking iterated logarithms of such x yields indistinguishibility firstly between log x and 2log x secondly between log log x and 1 log log x and finally an extremely long decimal expansion whose length can t be subitized
+
+there are some general rules relating to the usual arithmetic operations performed on very large numbers
+
+hence
+
+given a strictly increasing integer sequence function
+
+
+
+
+f
+
+0
+
+
+
+n
+
+
+
+displaystyle f_ 0 n
+
+n 1 it is possible to produce a faster growing sequence
+
+
+
+
+f
+
+1
+
+
+
+n
+
+
+
+f
+
+0
+
+
+n
+
+
+
+n
+
+
+
+displaystyle f_ 1 n f_ 0 n n
+
+where the superscript n denotes the nth functional power this can be repeated any number of times by letting
+
+
+
+
+f
+
+k
+
+
+
+n
+
+
+
+f
+
+k
+
+1
+
+
+n
+
+
+
+n
+
+
+
+displaystyle f_ k n f_ k 1 n n
+
+each sequence growing much faster than the one before it thus it is possible to define
+
+
+
+
+f
+
+ω
+
+
+
+n
+
+
+
+f
+
+n
+
+
+
+n
+
+
+
+displaystyle f_ omega n f_ n n
+
+which grows much faster than any
+
+
+
+
+f
+
+k
+
+
+
+
+displaystyle f_ k
+
+for finite k here ω is the first infinite ordinal number representing the limit of all finite numbers k this is the basis for the fast growing hierarchy of functions in which the indexing subscript is extended to ever larger ordinals
+
+for example starting with f0 n n 1
+
+
+
+the busy beaver function σ is an example of a function which grows faster than any computable function its value for even relatively small input is huge the values of σ n for n 1 2 3 4 5 are 1 4 6 13 4098 sequence a028444 in the oeis σ 6 is not known but is at least 10 15
+
+although all the numbers discussed above are very large they are all still finite certain fields of mathematics define infinite and transfinite numbers for example aleph null is the cardinality of the infinite set of natural numbers and aleph one is the next greatest cardinal number
+
+
+
+
+
+c
+
+
+
+
+displaystyle mathfrak c
+
+is the cardinality of the reals the proposition that
+
+
+
+
+
+c
+
+
+
+
+ℵ
+
+1
+
+
+
+
+displaystyle mathfrak c aleph _ 1
+
+is known as the continuum hypothesis

@@ -1,0 +1,97 @@
+
+
+inferences are steps in logical reasoning moving from premises to logical consequences inference is traditionally divided into deduction and induction a distinction that dates at least to aristotle 300s bc a third type of inference abduction has been proposed notably by charles sanders peirce deduction is inference deriving logical conclusions from premises known or assumed to be true with the laws of valid inference being studied in logic induction is inference from particular evidence to a universal conclusion abduction seeks neither logical certainty nor a universal conclusion but a best explanation based on likelihood given the evidence
+
+various fields study how inference is done in practice human inference i e how humans draw conclusions is traditionally studied within the fields of logic argumentation studies and cognitive psychology artificial intelligence researchers develop automated inference systems to emulate human inference statistical inference uses mathematics to draw conclusions in the presence of uncertainty this generalizes deterministic reasoning with the absence of uncertainty as a special case statistical inference uses quantitative or qualitative categorical data which may be subject to random variations
+
+the process by which a general conclusion is inferred from multiple observations is called inductive reasoning the conclusion may be correct or incorrect or correct to within a certain degree of accuracy or correct in certain situations conclusions inferred from multiple observations may be tested by additional observations
+
+this definition is disputable due to its lack of clarity ref oxford english dictionary induction 3 logic the inference of a general law from particular instances clarification needed the definition given thus applies only when the conclusion is general
+
+two possible definitions of inference are
+
+ancient greek philosophers defined a number of syllogisms correct three part inferences that can be used as building blocks for more complex reasoning we begin with a famous example
+
+the reader can check that the premises and conclusion are true but logic is concerned with inference does the truth of the conclusion follow from that of the premises
+
+the validity of an inference depends on the form of the inference that is the word valid does not refer to the truth of the premises or the conclusion but rather to the form of the inference an inference can be valid even if the parts are false and can be invalid even if some parts are true but a valid form with true premises will always have a true conclusion
+
+for example consider the form of the following symbological track
+
+if the premises are true then the conclusion is necessarily true too
+
+now we turn to an invalid form
+
+to show that this form is invalid we demonstrate how it can lead from true premises to a false conclusion
+
+a valid argument with a false premise may lead to a false conclusion this and the following examples do not follow the greek syllogism
+
+when a valid argument is used to derive a false conclusion from a false premise the inference is valid because it follows the form of a correct inference
+
+a valid argument can also be used to derive a true conclusion from a false premise
+
+in this case we have one false premise and one true premise where a true conclusion has been inferred
+
+evidence it is the early 1950s and you are an american stationed in the soviet union you read in the moscow newspaper that a soccer team from a small city in siberia starts winning game after game the team even defeats the moscow team inference the small city in siberia is not a small city anymore the soviets are working on their own nuclear or high value secret weapons program
+
+knowns the soviet union is a command economy people and material are told where to go and what to do the small city was remote and historically had never distinguished itself its soccer season was typically short because of the weather
+
+explanation in a command economy people and material are moved where they are needed large cities might field good teams due to the greater availability of high quality players and teams that can practice longer possibly due to sunnier weather and better facilities can reasonably be expected to be better in addition you put your best and brightest in places where they can do the most good such as on high value weapons programs it is an anomaly for a small city to field such a good team the anomaly indirectly described a condition by which the observer inferred a new meaningful pattern that the small city was no longer small why would you put a large city of your best and brightest in the middle of nowhere to hide them of course
+
+an incorrect inference is known as a fallacy philosophers who study informal logic have compiled large lists of them and cognitive psychologists have documented many biases in human reasoning that favor incorrect reasoning
+
+ai systems first provided automated logical inference and these were once extremely popular research topics leading to industrial applications under the form of expert systems and later business rule engines more recent work on automated theorem proving has had a stronger
+basis in formal logic
+
+an inference system s job is to extend a knowledge base automatically the knowledge base kb is a set of propositions that represent what the system knows about the world several techniques can be used by that system to extend kb by means of valid inferences an additional requirement is that the conclusions the system arrives at are relevant to its task
+
+additionally the term inference has also been applied to the process of generating predictions from trained neural networks in this context an inference engine refers to the system or hardware performing these operations this type of inference is widely used in applications ranging from image recognition to natural language processing
+
+prolog for programming in logic is a programming language based on a subset of predicate calculus its main job is to check whether a certain proposition can be inferred from a kb knowledge base using an algorithm called backward chaining
+
+let us return to our socrates syllogism we enter into our knowledge base the following piece of code
+
+here can be read as if generally if p
+
+
+
+
+
+
+displaystyle to
+
+q if p then q then in prolog we would code q p q if p
+this states that all men are mortal and that socrates is a man now we can ask the prolog system about socrates
+
+where signifies a query can mortal socrates be deduced from the kb using the rules
+gives the answer yes
+
+on the other hand asking the prolog system the following
+
+gives the answer no
+
+this is because prolog does not know anything about plato and hence defaults to any property about plato being false the so called closed world assumption finally
+mortal x is anything mortal would result in yes and in some implementations yes x socrates
+prolog can be used for vastly more complicated inference tasks see the corresponding article for further examples
+
+recently automatic reasoners found in semantic web a new field of application being based upon description logic knowledge expressed using one variant of owl can be logically processed i e inferences can be made upon it
+
+philosophers and scientists who follow the bayesian framework for inference use the mathematical rules of probability to find this best explanation the bayesian view has a number of desirable features one of them is that it embeds deductive certain logic as a subset this prompts some writers to call bayesian probability probability logic following e t jaynes
+
+bayesians identify probabilities with degrees of beliefs with certainly true propositions having probability 1 and certainly false propositions having probability 0 to say that it s going to rain tomorrow has a 0 9 probability is to say that you consider the possibility of rain tomorrow as extremely likely
+
+through the rules of probability the probability of a conclusion and of alternatives can be calculated the best explanation is most often identified with the most probable see bayesian decision theory a central rule of bayesian inference is bayes theorem
+
+
+
+a relation of inference is monotonic if the addition of premises does not undermine previously reached conclusions otherwise the relation is non monotonic
+deductive inference is monotonic if a conclusion is reached on the basis of a certain set of premises then that conclusion still holds if more premises are added
+
+by contrast everyday reasoning is mostly non monotonic because it involves risk we jump to conclusions from deductively insufficient premises
+we know when it is worth or even necessary e g in medical diagnosis to take the risk yet we are also aware that such inference is defeasible that new information may undermine old conclusions various kinds of defeasible but remarkably successful inference have traditionally captured the attention of philosophers theories of induction peirce s theory of abduction inference to the best explanation etc more recently logicians have begun to approach the phenomenon from a formal point of view the result is a large body of theories at the interface of philosophy logic and artificial intelligence
+
+inductive inference
+
+abductive inference
+
+psychological investigations about human reasoning

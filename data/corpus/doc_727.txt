@@ -1,0 +1,45 @@
+
+
+yoshua bengio oc oq obe frs frsc born march 5 1964 is a canadian computer scientist and a pioneer of artificial neural networks and deep learning he is a professor at the université de montréal and co president and scientific director of the nonprofit lawzero he founded mila the quebec artificial intelligence ai institute and was its scientific director until 2025
+
+bengio received the 2018 acm a m turing award often referred to as the nobel prize of computing together with geoffrey hinton and yann lecun for their foundational work on deep learning bengio hinton and lecun are sometimes referred to as the godfathers of ai bengio is the most cited computer scientist globally by both total citations and by h index and the most cited living scientist across all fields by total citations in november 2025 bengio became the first ai researcher with more than a million google scholar citations in 2024 time magazine included bengio in its yearly list of the world s 100 most influential people
+
+bengio was born in france to a jewish family who had emigrated to france from morocco the family then relocated to canada he received his bachelor of science degree electrical engineering msc computer science and phd computer science from mcgill university
+
+bengio is the brother of samy bengio also an influential computer scientist working with neural networks who is senior director of ai and ml research at apple
+
+the bengio brothers lived in morocco for a year during their father s military service there his father carlo bengio was a pharmacist and a playwright he ran a sephardic theater company in montreal that performed pieces in judeo arabic his mother célia moreno was an actress in the 1970s in the moroccan theater scene led by tayeb seddiki she studied economics in paris and then in montreal in 1980 she co founded with artist paul st jean l écran humain a multimedia theater troupe
+
+after his phd bengio was a postdoctoral fellow at mit supervised by michael i jordan and at t bell labs bengio has been a faculty member at the université de montréal since 1993 heads the mila montreal institute for learning algorithms and is co director of the learning in machines brains program at the canadian institute for advanced research
+
+along with geoffrey hinton and yann lecun bengio is considered by journalist cade metz to be one of the three people most responsible for the advancement of deep learning during the 1990s and 2000s bengio et al introduced the neural probabilistic language model which learned distributed representations word embeddings for words to overcome the curse of dimensionality in natural language processing among the computer scientists with an h index of at least 100 bengio was as of 2018 the one with the most recent citations per day according to mila as of august 2024 he has the highest discipline h index d index a measure of the research citations a scientist has received of any computer scientist thanks to a 2019 article on a novel rnn architecture bengio has an erdős number of 3
+
+in october 2016 bengio co founded element ai a montreal based artificial intelligence incubator that turns ai research into real world business applications the company sold its operations to servicenow in november 2020 with bengio remaining at servicenow as an advisor
+
+bengio currently serves as scientific and technical advisor for recursion pharmaceuticals and scientific advisor for valence discovery
+
+at the first ai safety summit in november 2023 british prime minister rishi sunak announced that bengio would lead an international scientific report on the safety of advanced ai an interim version of the report was delivered at the ai seoul summit in may 2024 and covered issues such as the potential for cyber attacks and loss of control scenarios the full report was published in january 2025 as the international ai safety report
+
+in june 2025 the guardian reported that bengio had launched a nonprofit organization lawzero aimed at building honest ai systems that can detect and block harmful behavior by autonomous agents the group is developing a system called scientist ai intended to act as a guardrail by predicting whether an agent s actions could cause harm bengio told the paper that the project s first goal was to demonstrate the methodology and then scale it up with support from donors governments or ai labs lawzero s funders include the future of life institute and schmidt sciences
+
+bengio has also trained other ai researchers throughout his career including university of montreal professor david krueger
+
+in march 2023 following concerns raised by ai experts about the existential risk from artificial general intelligence bengio signed an open letter from the future of life institute calling for all ai labs to immediately pause for at least 6 months the training of ai systems more powerful than gpt 4 the letter has been signed by over 30 000 individuals including ai researchers such as stuart russell and gary marcus
+
+in may 2023 bengio stated in an interview to bbc that he felt lost over his life s work he raised his concern about bad actors getting hold of ai especially as it becomes more sophisticated and powerful he called for better regulation product registration ethical training and more involvement from governments in tracking and auditing ai products
+
+speaking with the financial times in may 2023 bengio said that he supported the monitoring of access to ai systems such as chatgpt so that potentially illegal or dangerous uses could be tracked in july 2023 he published a piece in the economist arguing that the risk of catastrophe is real enough that action is needed now
+
+bengio co authored a letter with geoffrey hinton and others in support of sb 1047 a california ai safety bill that would require companies training models which cost more than 100 million to perform risk assessments before deployment they claimed the legislation was the bare minimum for effective regulation of this technology
+
+in june 2025 bengio expressed concern that some advanced ai systems were beginning to display traits such as deception reward hacking and situational awareness he described these as indications of goal misalignment and potentially dangerous behaviors in a fortune article he stated that the ai arms race was encouraging companies to prioritize capability improvements over safety research he has also voiced support for strong regulation and international collaboration to address risks posed by advanced ai systems in december 2025 bengio said that granting rights to ai systems would be a huge mistake arguing that being able to shut them down is essential for safety
+
+in 2017 bengio was named an officer of the order of canada the same year he was nominated fellow of the royal society of canada and received the marie victorin quebec prize together with geoffrey hinton and yann lecun bengio won the 2018 turing award
+
+in 2020 he was elected a fellow of the royal society in 2022 he received the princess of asturias award in the category scientific research with his peers lecun hinton and demis hassabis in 2023 bengio was appointed knight of the legion of honour france s highest order of merit
+
+in august 2023 bengio was appointed to a united nations scientific advisory council on technological advances he was also recognized as a 2023 acm fellow
+
+in 2024 time magazine included bengio in its yearly list of the 100 most influential people globally in the same year he was awarded vinfuture prize s grand prize along with hinton lecun jen hsun huang and fei fei li for pioneering advancements in neural networks and deep learning algorithms
+
+in 2025 bengio was awarded the queen elizabeth prize for engineering jointly with bill dally hinton john hopfield yann lecun huang and fei fei li that same year he was a recipient of an honorary doctorate from mcgill university and he was made an officer of the national order of quebec

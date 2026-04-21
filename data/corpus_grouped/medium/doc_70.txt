@@ -1,0 +1,23 @@
+data storage is the recording storing of information data in a storage medium handwriting phonographic recording magnetic tape and optical discs are all examples of storage media biological molecules such as rna and dna are considered by some as data storage recording may be accomplished with virtually any form of energy electronic data storage requires electrical power to store and retrieve data
+
+data stored in a digital machine readable medium is called digital data computer data storage is one of the core functions of a general purpose computer electronic documents can be stored in much less space than paper documents barcodes and magnetic ink character recognition micr are two ways of recording machine readable data on paper
+
+a recording medium is a physical material that holds information newly created information is distributed and can be stored in four storage media print film magnetic and optical and seen or heard in four information flows telephone radio tv and the internet as well as being observed directly digital information is stored on electronic media in many different recording formats
+
+with electronic media the data and the recording media are sometimes referred to as software despite the more common use of the word to describe computer software with traditional art static media art materials such as crayons may be considered both equipment and medium as the wax charcoal or chalk material from the equipment becomes part of the surface of the medium
+
+some recording media may be temporary either by design or by nature volatile organic compounds may be used to purposely make data expire over time or to reduce environmental impact data such as smoke signals or skywriting are temporary by nature depending on the volatility a gas e g atmosphere smoke or a liquid surface such as a lake would be considered a temporary recording medium if it could be considered a recording medium at all
+
+a 2003 uc berkeley report estimated that about five exabytes of new information were produced in 2002 and that 92 of this data was stored on magnetic media primarily hard disk drives this was about twice the data produced in 1999 the amount of data transmitted over telecommunications systems in 2002 was nearly 18 exabytes three and a half times more than was recorded on non volatile storage telephone calls constituted 98 of the telecommunicated information in 2002 the researchers highest estimate for the growth rate of newly stored information uncompressed was more than 30 per year
+
+in a more limited study the international data corporation estimated that the total amount of digital data in 2007 was 281 exabytes and that the total amount of digital data produced exceeded the global storage capacity for the first time
+
+a 2011 article in science estimated that the year 2002 was the beginning of the digital age for information storage an age in which more information is stored on digital storage devices than on analog storage devices in 1986 approximately 1 of the world s capacity to store information was in digital format this grew to 3 by 1993 to 25 by 2000 and to 94 by 2007 these figures correspond to less than three compressed exabytes in 1986 and 295 compressed exabytes in 2007 the quantity of digital storage doubled roughly every three to four years
+
+it is estimated that around 120 zettabytes of data will be generated in 2023 update an increase of 60x from 2010 and that it will increase to 181 zettabytes generated in 2025
+
+in computing mass storage refers to the storage of large amounts of data in a persisting and machine readable fashion in general the term mass in mass storage is used to mean large in relation to contemporaneous hard disk drives but it has also been used to mean large relative to the size of primary memory as for example with floppy disks on personal computers
+
+devices and or systems that have been described as mass storage include tape libraries raid systems and a variety of computer drives such as hard disk drives hdds magnetic tape drives magneto optical disc drives optical disc drives memory cards and solid state drives ssds it also includes experimental forms like holographic memory mass storage includes devices with removable and non removable media it does not include random access memory ram
+
+there are two broad classes of mass storage local data in devices such as smartphones or computers and enterprise servers and data centers for the cloud for local storage ssds are on the way to replacing hdds considering the mobile segment from phones to notebooks the majority of systems today is based on nand flash as for enterprise and data centers storage tiers have established using a mix of ssd and hdd

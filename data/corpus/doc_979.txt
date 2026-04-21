@@ -1,0 +1,1276 @@
+circumscription is a non monotonic logic created by john mccarthy to formalize the common sense assumption that things are as expected unless otherwise specified circumscription was later used by mccarthy in an attempt to solve the frame problem to implement circumscription in its initial formulation mccarthy augmented first order logic to allow the minimization of the extension of some predicates where the extension of a predicate is the set of tuples of values the predicate is true on this minimization is similar to the closed world assumption that what is not known to be true is false
+
+the original problem considered by mccarthy was that of missionaries and cannibals there are three missionaries and three cannibals on one bank of a river they have to cross the river using a boat that can only take two with the additional constraint that cannibals must never outnumber the missionaries on either bank as otherwise the missionaries would be killed and presumably eaten the problem considered by mccarthy was not that of finding a sequence of steps to reach the goal the article on the missionaries and cannibals problem contains one such solution but rather that of excluding conditions that are not explicitly stated for example the solution go half a mile south and cross the river on the bridge is intuitively not valid because the statement of the problem does not mention such a bridge on the other hand the existence of this bridge is not excluded by the statement of the problem either that the bridge does not exist is
+a consequence of the implicit assumption that the statement of the problem contains everything that is relevant to its solution explicitly stating that a bridge does not exist is not a solution to this problem as there are many other exceptional conditions that should be excluded such as the presence of a rope for fastening the cannibals the presence of a larger boat nearby etc
+
+circumscription was later used by mccarthy to formalize the implicit assumption of inertia things do not change unless otherwise specified circumscription seemed to be useful to avoid specifying that conditions are not changed by all actions except those explicitly known to change them this is known as the frame problem however the solution proposed by mccarthy was later shown to lead to wrong results in some cases as in the yale shooting problem scenario other solutions to the frame problem that correctly formalize the yale shooting problem exist some use circumscription but in a different way
+
+while circumscription was initially defined in the first order logic case the particularization to the propositional case is easier to define given a propositional formula
+
+
+
+t
+
+
+displaystyle t
+
+its circumscription is the formula having only the models of
+
+
+
+t
+
+
+displaystyle t
+
+that do not assign a variable to true unless necessary
+
+formally propositional models can be represented by sets of propositional variables namely each model is represented by the set of propositional variables it assigns to true for example the model assigning true to
+
+
+
+a
+
+
+displaystyle a
+
+false to
+
+
+
+b
+
+
+displaystyle b
+
+and true to
+
+
+
+c
+
+
+displaystyle c
+
+is represented by the set
+
+
+
+
+a
+
+c
+
+
+
+displaystyle a c
+
+because
+
+
+
+a
+
+
+displaystyle a
+
+and
+
+
+
+c
+
+
+displaystyle c
+
+are exactly the variables that are assigned to true by this model
+
+given two models
+
+
+
+m
+
+
+displaystyle m
+
+and
+
+
+
+n
+
+
+displaystyle n
+
+represented this way the condition
+
+
+
+n
+
+m
+
+
+displaystyle n subseteq m
+
+is equivalent to
+
+
+
+m
+
+
+displaystyle m
+
+setting to true every variable that
+
+
+
+n
+
+
+displaystyle n
+
+sets to true in other words
+
+
+
+
+
+
+displaystyle subseteq
+
+models the relation of setting to true less variables
+
+
+
+n
+
+m
+
+
+displaystyle n subset m
+
+means that
+
+
+
+n
+
+m
+
+
+displaystyle n subseteq m
+
+but these two models do not coincide
+
+this lets us define models that do not assign variables to true unless necessary
+a model
+
+
+
+m
+
+
+displaystyle m
+
+of a theory
+
+
+
+t
+
+
+displaystyle t
+
+is called minimal if and only if there is no model
+
+
+
+
+n
+
+
+displaystyle n
+
+of
+
+
+
+t
+
+
+displaystyle t
+
+for which
+
+
+
+n
+
+m
+
+
+displaystyle n subset m
+
+
+
+circumscription is expressed by selecting only the minimal models it is defined as follows
+
+alternatively one can define
+
+
+
+c
+i
+r
+c
+
+t
+
+
+
+displaystyle circ t
+
+as a formula having exactly the above set of models furthermore one can also avoid giving a definition of
+
+
+
+c
+i
+r
+c
+
+
+displaystyle circ
+
+and only define minimal inference as
+
+
+
+t
+
+
+
+m
+
+
+q
+
+
+displaystyle t models _ m q
+
+if and only if every minimal model of
+
+
+
+t
+
+
+displaystyle t
+
+is also a model of
+
+
+
+q
+
+
+displaystyle q
+
+
+
+as an example the formula
+
+
+
+t
+
+a
+
+
+b
+
+c
+
+
+
+displaystyle t a land b lor c
+
+has three models
+
+the first model is not minimal in the set of variables it assigns to true indeed the second model makes the same assignments except for
+
+
+
+c
+
+
+displaystyle c
+
+which is assigned to false and not to true therefore the first model is not minimal the second and third models are incomparable while the second assigns true to
+
+
+
+b
+
+
+displaystyle b
+
+the third assigns true to
+
+
+
+c
+
+
+displaystyle c
+
+instead therefore the models circumscribing
+
+
+
+t
+
+
+displaystyle t
+
+are the second and third models of the list a propositional formula having exactly these two models is the following one
+
+intuitively in circumscription a variable is assigned to true only if this is necessary dually if a variable can be false it must be false for example at least one of
+
+
+
+b
+
+
+displaystyle b
+
+and
+
+
+
+c
+
+
+displaystyle c
+
+must be assigned to true according to
+
+
+
+t
+
+
+displaystyle t
+
+in the circumscription exactly one of the two variables must be true the variable
+
+
+
+a
+
+
+displaystyle a
+
+cannot be false in any model of
+
+
+
+t
+
+
+displaystyle t
+
+and neither of the circumscription
+
+the extension of circumscription with fixed and varying predicates is due to vladimir lifschitz the idea is that some conditions are not to be minimized in propositional logic terms some variables are not to be falsified if possible in particular two kind of variables can be considered
+
+the difference is that the value of the varying conditions are simply assumed not to matter the fixed conditions instead characterize a possible situation so that comparing two situations where these conditions have different value makes no sense
+
+formally the extension of circumscription that incorporate varying and fixed variables is as follows where
+
+
+
+p
+
+
+displaystyle p
+
+is the set of variables to minimize
+
+
+
+z
+
+
+displaystyle z
+
+the fixed variables and the varying variables are those not in
+
+
+
+p
+
+z
+
+
+displaystyle p cup z
+
+
+
+in words minimization of the variables assigned to true is only done for the variables in
+
+
+
+p
+
+
+displaystyle p
+
+moreover models are only compared if they assign the same values to the variables of
+
+
+
+z
+
+
+displaystyle z
+
+all other variables are not taken into account while comparing models
+
+the solution to the frame problem proposed by mccarthy is based on circumscription with no fixed conditions in the propositional case this solution can be described as follows in addition to the formulae directly encoding what is known one also define new variables representing changes in the values of the conditions these new variables are then minimized
+
+for example of the domain in which there is a door that is closed at time 0 and in which the action of opening the door is executed at time 2 what is explicitly known is represented by the two formulae
+
+the frame problem shows in this example as the problem that
+
+
+
+
+o
+p
+e
+
+n
+
+1
+
+
+
+
+displaystyle neg open_ 1
+
+is not a consequence of the above formulae while the door is supposed to stay closed until the action of opening it is performed circumscription can be used to this aim by defining new variables
+
+
+
+c
+h
+a
+n
+g
+e
+_
+o
+p
+e
+
+n
+
+t
+
+
+
+
+displaystyle change _open_ t
+
+to model changes and then minimizing them
+
+as shown by the yale shooting problem this kind of solution does not work for example
+
+
+
+
+
+
+open
+
+
+1
+
+
+
+
+displaystyle neg text open _ 1
+
+is not yet entailed by the circumscription of the formulae above the model in which
+
+
+
+
+
+change open
+
+
+0
+
+
+
+
+displaystyle text change open _ 0
+
+is true and
+
+
+
+
+
+change open
+
+
+1
+
+
+
+
+displaystyle text change open _ 1
+
+is false is incomparable with the model with the opposite values therefore the situation in which the door becomes open at time 1 and then remains open as a consequence of the action is not excluded by circumscription
+
+several other formalizations of dynamical domains not suffering from such problems have been developed see frame problem for an overview many use circumscription but in a different way
+
+the original definition of circumscription proposed by mccarthy is about first order logic the role of variables in propositional logic something that can be true or false is played in first order logic by predicates namely a propositional formula can be expressed in first order logic by replacing each propositional variable with a predicate of zero arity i e a predicate with no arguments therefore minimization is done on predicates in the first order logic version of circumscription the circumscription of a formula is obtained forcing predicates to be false whenever possible
+
+given a first order logic formula
+
+
+
+t
+
+
+displaystyle t
+
+containing a predicate
+
+
+
+p
+
+
+displaystyle p
+
+circumscribing this predicate amounts to selecting only the models of
+
+
+
+t
+
+
+displaystyle t
+
+in which
+
+
+
+p
+
+
+displaystyle p
+
+is assigned to true on a minimal set of tuples of values
+
+formally the extension of a predicate in a first order model is the set of tuples of values this predicate assign to true in the model first order models indeed includes the evaluation of each predicate symbol such an evaluation tells whether the predicate is true or false for any possible value of its arguments since each argument of a predicate must be a term and each term evaluates to a value the models tells whether
+
+
+
+p
+
+
+v
+
+1
+
+
+
+
+
+
+v
+
+n
+
+
+
+
+
+displaystyle p v_ 1 ldots v_ n
+
+is true for any possible tuple of values
+
+
+
+
+
+v
+
+1
+
+
+
+
+
+
+v
+
+n
+
+
+
+
+
+displaystyle langle v_ 1 ldots v_ n rangle
+
+the extension of
+
+
+
+p
+
+
+displaystyle p
+
+in a model is the set of tuples of terms such that
+
+
+
+p
+
+
+v
+
+1
+
+
+
+
+
+
+v
+
+n
+
+
+
+
+
+displaystyle p v_ 1 ldots v_ n
+
+is true in the model
+
+the circumscription of a predicate
+
+
+
+p
+
+
+displaystyle p
+
+in a formula
+
+
+
+t
+
+
+displaystyle t
+
+is obtained by selecting only the models of
+
+
+
+t
+
+
+displaystyle t
+
+with a minimal extension of
+
+
+
+p
+
+
+displaystyle p
+
+for example if a formula has only two models differing only because
+
+
+
+p
+
+
+v
+
+1
+
+
+
+
+
+
+v
+
+n
+
+
+
+
+
+displaystyle p v_ 1 ldots v_ n
+
+is true in one and false in the second then only the second model is selected this is because
+
+
+
+
+
+v
+
+1
+
+
+
+
+
+
+v
+
+n
+
+
+
+
+
+displaystyle langle v_ 1 ldots v_ n rangle
+
+is in the extension of
+
+
+
+p
+
+
+displaystyle p
+
+in the first model but not in the second
+
+the original definition by mccarthy was syntactical rather than semantical given a formula
+
+
+
+t
+
+
+displaystyle t
+
+and a predicate
+
+
+
+p
+
+
+displaystyle p
+
+circumscribing
+
+
+
+p
+
+
+displaystyle p
+
+in
+
+
+
+t
+
+
+displaystyle t
+
+is the following second order formula
+
+in this formula
+
+
+
+p
+
+
+displaystyle p
+
+is a predicate of the same arity as
+
+
+
+p
+
+
+displaystyle p
+
+this is a second order formula because it contains a quantification over a predicate the subformula
+
+
+
+p
+
+p
+
+
+displaystyle p p
+
+is a shorthand for
+
+in this formula
+
+
+
+x
+
+
+displaystyle x
+
+is a n tuple of terms where n is the arity of
+
+
+
+p
+
+
+displaystyle p
+
+this formula states that extension minimization has to be done in order for a truth evaluation on
+
+
+
+p
+
+
+displaystyle p
+
+of a model being considered it must be the case that no other predicate
+
+
+
+p
+
+
+displaystyle p
+
+can assign to false every tuple that
+
+
+
+p
+
+
+displaystyle p
+
+assigns to false and yet being different from
+
+
+
+p
+
+
+displaystyle p
+
+
+
+this definition only allows circumscribing a single predicate while the extension to more than one predicate is trivial minimizing the extension of a single predicate has an important application capturing the idea that things are usually as expected this idea can be formalized by minimizing a single predicate expressing the abnormality of situations in particular every known fact is expressed in logic with the addition of a literal
+
+
+
+
+a
+b
+n
+o
+r
+m
+a
+l
+
+
+
+
+
+
+
+displaystyle neg abnormal
+
+stating that the fact holds only in normal situations minimizing the extension of this predicate allows for reasoning under the implicit assumption that things are as expected that is they are not abnormal and that this assumption is made only if possible abnormality can be assumed false only if this is consistent with the facts
+
+pointwise circumscription is a variant of first order circumscription that has been introduced by vladimir lifschitz the rationale of pointwise circumscription is that it minimizes the value of a predicate for each tuple of values separately rather than minimizing the extension of the predicate for example there are two models of
+
+
+
+p
+
+a
+
+
+p
+
+b
+
+
+
+displaystyle p a equiv p b
+
+with domain
+
+
+
+
+a
+
+b
+
+
+
+displaystyle a b
+
+one setting
+
+
+
+p
+
+a
+
+
+p
+
+b
+
+
+f
+a
+l
+s
+e
+
+
+displaystyle p a p b false
+
+and the other setting
+
+
+
+p
+
+a
+
+
+p
+
+b
+
+
+t
+r
+u
+e
+
+
+displaystyle p a p b true
+
+since the extension of
+
+
+
+p
+
+
+displaystyle p
+
+in the first model is
+
+
+
+
+
+
+displaystyle emptyset
+
+while the extension for the second is
+
+
+
+
+a
+
+b
+
+
+
+displaystyle a b
+
+circumscription only selects the first model in the propositional case pointwise and predicate circumscription coincide
+
+in pointwise circumscription each tuple of values is considered separately for example in the formula
+
+
+
+p
+
+a
+
+
+p
+
+b
+
+
+
+displaystyle p a equiv p b
+
+one would consider the value of
+
+
+
+p
+
+a
+
+
+
+displaystyle p a
+
+separately from
+
+
+
+p
+
+b
+
+
+
+displaystyle p b
+
+a model is minimal only if it is not possible to turn any such value from true to false while still satisfying the formula as a result the model in which
+
+
+
+p
+
+a
+
+
+p
+
+b
+
+
+t
+r
+u
+e
+
+
+displaystyle p a p b true
+
+is selected by pointwise circumscription because turning only
+
+
+
+p
+
+a
+
+
+
+displaystyle p a
+
+into false does not satisfy the formula and the same happens for
+
+
+
+p
+
+b
+
+
+
+displaystyle p b
+
+
+
+an earlier formulation of circumscription by mccarthy is based on minimizing the domain of first order models rather than the extension of predicates namely a model is considered less than another if it has a smaller domain and the two models coincide on the evaluation of the common tuples of values this version of circumscription can be reduced to predicate circumscription
+
+formula circumscription was a later formalism introduced by mccarthy this is a generalization of circumscription in which the extension of a formula is minimized rather than the extension of a predicate in other words a formula can be specified so that the set of tuples of values of the domain that satisfy the formula is made as small as possible
+
+circumscription does not always correctly handle disjunctive information ray reiter provided the following example a coin is tossed over a checkboard and the result is that the coin is either on a black area or on a white area or both however there are a large number of other possible places where the coin is not supposed to be on for example it is implicit that the coin is not on the floor or on the refrigerator or on the surface of the moon circumscription can therefore be used to minimize the extension of
+
+
+
+o
+n
+
+
+displaystyle on
+
+predicate so that
+
+
+
+o
+n
+
+
+coin
+
+
+
+moon
+
+
+
+
+displaystyle on text coin text moon
+
+is false even if this is not explicitly stated
+
+on the other hand the minimization of the
+
+
+
+o
+n
+
+
+displaystyle on
+
+predicate leads
+to the wrong result that the coin is either on a black area or on a white area but not both this is because the models in which
+
+
+
+o
+n
+
+
+displaystyle on
+
+is true only on
+
+
+
+
+
+coin
+
+
+
+white area
+
+
+
+
+displaystyle text coin text white area
+
+and only on
+
+
+
+
+
+coin
+
+
+
+black area
+
+
+
+
+displaystyle text coin text black area
+
+have a minimal extension of
+
+
+
+o
+n
+
+
+displaystyle on
+
+while the model in which the extension of
+
+
+
+o
+n
+
+
+displaystyle on
+
+is composed of both pairs is not minimal
+
+theory curbing is a solution proposed by thomas eiter georg gottlob and yuri gurevich the idea is that the model that circumscription fails to select the one in which both
+
+
+
+o
+n
+
+
+coin
+
+
+
+white area
+
+
+
+
+displaystyle on text coin text white area
+
+and
+
+
+
+o
+n
+
+
+coin
+
+
+
+black area
+
+
+
+
+displaystyle on text coin text black area
+
+are true is a model of the formula that is greater w r t the extension of
+
+
+
+o
+n
+
+
+displaystyle on
+
+than both the two models that are selected more specifically among the models of the formula the excluded model is the least upper bound of the two selected models theory curbing selects such least upper bounds models in addition to the ones selected by circumscription this inclusion is done until the set of models is closed in the sense that it includes all least upper bounds of all sets of models it contains

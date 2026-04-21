@@ -1,0 +1,368 @@
+deductive reasoning is the process of drawing valid inferences an inference is valid if its conclusion follows logically from its premises meaning that it is impossible for the premises to be true and the conclusion to be false for example the inference from the premises all men are mortal and socrates is a man to the conclusion socrates is mortal is deductively valid an argument is sound if it is valid and all its premises are true one approach defines deduction in terms of the intentions of the author they have to intend for the premises to offer deductive support to the conclusion with the help of this modification it is possible to distinguish valid from invalid deductive reasoning it is invalid if the author s belief about the deductive support is false but even invalid deductive reasoning is a form of deductive reasoning
+
+deductive logic studies under what conditions an argument is valid according to the semantic approach an argument is valid if there is no possible interpretation of the argument whereby its premises are true and its conclusion is false the syntactic approach by contrast focuses on rules of inference that is schemas of drawing a conclusion from a set of premises based only on their logical form there are various rules of inference such as modus ponens and modus tollens invalid deductive arguments which do not follow a rule of inference are called formal fallacies rules of inference are definitory rules and contrast with strategic rules which specify what inferences one needs to draw in order to arrive at an intended conclusion
+
+deductive reasoning contrasts with non deductive or ampliative reasoning for ampliative arguments such as inductive or abductive arguments the premises offer weaker support to their conclusion they indicate that it is most likely but they do not guarantee its truth they make up for this drawback with their ability to provide genuinely new information that is information not already found in the premises unlike deductive arguments
+
+cognitive psychology investigates the mental processes responsible for deductive reasoning one of its topics concerns the factors determining whether people draw valid or invalid deductive inferences one such factor is the form of the argument for example people draw valid inferences more successfully for arguments of the form modus ponens than of the form modus tollens another factor is the content of the arguments people are more likely to believe that an argument is valid if the claim made in its conclusion is plausible a general finding is that people tend to perform better for realistic and concrete cases than for abstract cases psychological theories of deductive reasoning aim to explain these findings by providing an account of the underlying psychological processes mental logic theories hold that deductive reasoning is a language like process that happens through the manipulation of representations using rules of inference mental model theories on the other hand claim that deductive reasoning involves models of possible states of the world without the medium of language or rules of inference according to dual process theories of reasoning there are two qualitatively different cognitive systems responsible for reasoning
+
+the problem of deduction is relevant to various fields and issues epistemology tries to understand how justification is transferred from the belief in the premises to the belief in the conclusion in the process of deductive reasoning probability logic studies how the probability of the premises of an inference affects the probability of its conclusion the controversial thesis of deductivism denies that there are other correct forms of inference besides deduction natural deduction is a type of proof system based on simple and self evident rules of inference in philosophy the geometrical method is a way of philosophizing that starts from a small set of self evident axioms and tries to build a comprehensive logical system using deductive reasoning
+
+deductive reasoning is the psychological process of drawing deductive inferences an inference is a set of premises together with a conclusion this psychological process starts from the premises and reasons to a conclusion based on and supported by these premises if the reasoning was done correctly it results in a valid deduction the truth of the premises ensures the truth of the conclusion for example in the syllogistic argument all frogs are amphibians no cats are amphibians therefore no cats are frogs the conclusion is true because its two premises are true but even arguments with wrong premises can be deductively valid if they obey this principle as in all frogs are mammals no cats are mammals therefore no cats are frogs if the premises of a valid argument are true then it is called a sound argument
+
+the relation between the premises and the conclusion of a deductive argument is usually referred to as logical consequence according to alfred tarski logical consequence has 3 essential features it is necessary formal and knowable a priori it is necessary in the sense that the premises of valid deductive arguments necessitate the conclusion it is impossible for the premises to be true and the conclusion to be false independent of any other circumstances logical consequence is formal in the sense that it depends only on the form or the syntax of the premises and the conclusion this means that the validity of a particular argument does not depend on the specific contents of this argument if it is valid then any argument with the same logical form is also valid no matter how different it is on the level of its contents logical consequence is knowable a priori in the sense that no empirical knowledge of the world is necessary to determine whether a deduction is valid so it is not necessary to engage in any form of empirical investigation some logicians define deduction in terms of possible worlds a deductive inference is valid if and only if there is no possible world in which its conclusion is false while its premises are true this means that there are no counterexamples the conclusion is true in all such cases not just in most cases
+
+it has been argued against this and similar definitions that they fail to distinguish between valid and invalid deductive reasoning i e they leave it open whether there are invalid deductive inferences and how to define them some authors define deductive reasoning in psychological terms in order to avoid this problem according to mark vorobey whether an argument is deductive depends on the psychological state of the person making the argument an argument is deductive if and only if the author of the argument believes that the truth of the premises necessitates guarantees the truth of the conclusion a similar formulation holds that the speaker claims or intends that the premises offer deductive support for their conclusion this is sometimes categorized as a speaker determined definition of deduction since it depends also on the speaker whether the argument in question is deductive or not for speakerless definitions on the other hand only the argument itself matters independent of the speaker one advantage of this type of formulation is that it makes it possible to distinguish between good or valid and bad or invalid deductive arguments the argument is good if the author s belief concerning the relation between the premises and the conclusion is true otherwise it is bad one consequence of this approach is that deductive arguments cannot be identified by the law of inference they use for example an argument of the form modus ponens may be non deductive if the author s beliefs are sufficiently confused that brings with it an important drawback of this definition it is difficult to apply to concrete cases since the intentions of the author are usually not explicitly stated
+
+deductive reasoning is studied in logic psychology and the cognitive sciences some theorists emphasize in their definition the difference between these fields on this view psychology studies deductive reasoning as an empirical mental process i e what happens when humans engage in reasoning but the descriptive question of how actual reasoning happens is different from the normative question of how it should happen or what constitutes correct deductive reasoning which is studied by logic this is sometimes expressed by stating that strictly speaking logic does not study deductive reasoning but the deductive relation between premises and a conclusion known as logical consequence but this distinction is not always precisely observed in the academic literature one important aspect of this difference is that logic is not interested in whether the conclusion of an argument is sensible so from the premise the printer has ink one may draw the unhelpful conclusion the printer has ink and the printer has ink and the printer has ink which has little relevance from a psychological point of view instead actual reasoners usually try to remove redundant or irrelevant information and make the relevant information more explicit the psychological study of deductive reasoning is also concerned with how good people are at drawing deductive inferences and with the factors determining their performance deductive inferences are found both in natural language and in formal logical systems such as propositional logic
+
+deductive arguments differ from non deductive arguments in that the truth of their premises ensures the truth of their conclusion there are two important conceptions of what this exactly means they are referred to as the syntactic and the semantic approach according to the syntactic approach whether an argument is deductively valid depends only on its form syntax or structure two arguments have the same form if they use the same logical vocabulary in the same arrangement even if their contents differ for example the arguments if it rains then the street will be wet it rains therefore the street will be wet and if the meat is not cooled then it will spoil the meat is not cooled therefore it will spoil have the same logical form they follow the modus ponens their form can be expressed more abstractly as if a then b a therefore b in order to make the common syntax explicit there are various other valid logical forms or rules of inference like modus tollens or the disjunction elimination the syntactic approach then holds that an argument is deductively valid if and only if its conclusion can be deduced from its premises using a valid rule of inference one difficulty for the syntactic approach is that it is usually necessary to express the argument in a formal language in order to assess whether it is valid this often brings with it the difficulty of translating the natural language argument into a formal language a process that comes with various problems of its own another difficulty is due to the fact that the syntactic approach depends on the distinction between formal and non formal features while there is a wide agreement concerning the paradigmatic cases there are also various controversial cases where it is not clear how this distinction is to be drawn
+
+the semantic approach suggests an alternative definition of deductive validity it is based on the idea that the sentences constituting the premises and conclusions have to be interpreted in order to determine whether the argument is valid this means that one ascribes semantic values to the expressions used in the sentences such as the reference to an object for singular terms or to a truth value for atomic sentences the semantic approach is also referred to as the model theoretic approach since the branch of mathematics known as model theory is often used to interpret these sentences usually many different interpretations are possible such as whether a singular term refers to one object or to another according to the semantic approach an argument is deductively valid if and only if there is no possible interpretation where its premises are true and its conclusion is false some objections to the semantic approach are based on the claim that the semantics of a language cannot be expressed in the same language i e that a richer metalanguage is necessary this would imply that the semantic approach cannot provide a universal account of deduction for language as an all encompassing medium
+
+deductive reasoning usually happens by applying rules of inference a rule of inference is a way or schema of drawing a conclusion from a set of premises this happens usually based only on the logical form of the premises a rule of inference is valid if when applied to true premises the conclusion cannot be false a particular argument is valid if it follows a valid rule of inference deductive arguments that do not follow a valid rule of inference are called formal fallacies the truth of their premises does not ensure the truth of their conclusion
+
+in some cases whether a rule of inference is valid depends on the logical system one is using the dominant logical system is classical logic and the rules of inference listed here are all valid in classical logic but so called deviant logics provide a different account of which inferences are valid for example the rule of inference known as double negation elimination i e that if a proposition is not not true then it is also true is accepted in classical logic but rejected in intuitionistic logic
+
+modus ponens also known as affirming the antecedent or the law of detachment is the primary deductive rule of inference it applies to arguments that have as first premise a conditional statement
+
+
+
+p
+
+q
+
+
+displaystyle p rightarrow q
+
+and as second premise the antecedent
+
+
+
+p
+
+
+displaystyle p
+
+of the conditional statement it obtains the consequent
+
+
+
+q
+
+
+displaystyle q
+
+of the conditional statement as its conclusion the argument form is listed below
+
+in this form of deductive reasoning the consequent
+
+
+
+q
+
+
+displaystyle q
+
+obtains as the conclusion from the premises of a conditional statement
+
+
+
+p
+
+q
+
+
+displaystyle p rightarrow q
+
+and its antecedent
+
+
+
+p
+
+
+displaystyle p
+
+however the antecedent
+
+
+
+p
+
+
+displaystyle p
+
+cannot be similarly obtained as the conclusion from the premises of the conditional statement
+
+
+
+p
+
+q
+
+
+displaystyle p rightarrow q
+
+and the consequent
+
+
+
+q
+
+
+displaystyle q
+
+such an argument commits the logical fallacy of affirming the consequent
+
+the following is an example of an argument using modus ponens
+
+modus tollens also known as the law of contrapositive is a deductive rule of inference it validates an argument that has as premises a conditional statement formula and the negation of the consequent
+
+
+
+
+q
+
+
+displaystyle lnot q
+
+and as conclusion the negation of the antecedent
+
+
+
+
+p
+
+
+displaystyle lnot p
+
+in contrast to modus ponens reasoning with modus tollens goes in the opposite direction to that of the conditional the general expression for modus tollens is the following
+
+the following is an example of an argument using modus tollens
+
+a hypothetical syllogism is an inference that takes two conditional statements and forms a conclusion by combining the hypothesis of one statement with the conclusion of another here is the general form
+
+in there being a subformula in common between the two premises that does not occur in the consequence this resembles syllogisms in term logic although it differs in that this subformula is a proposition whereas in aristotelian logic this common element is a term and not a proposition
+
+the following is an example of an argument using a hypothetical syllogism
+
+various formal fallacies have been described they are invalid forms of deductive reasoning an additional aspect of them is that they appear to be valid on some occasions or on the first impression they may thereby seduce people into accepting and committing them one type of formal fallacy is affirming the consequent as in if john is a bachelor then he is male john is male therefore john is a bachelor this is similar to the valid rule of inference named modus ponens but the second premise and the conclusion are switched around which is why it is invalid a similar formal fallacy is denying the antecedent as in if othello is a bachelor then he is male othello is not a bachelor therefore othello is not male this is similar to the valid rule of inference called modus tollens the difference being that the second premise and the conclusion are switched around other formal fallacies include affirming a disjunct denying a conjunct and the fallacy of the undistributed middle all of them have in common that the truth of their premises does not ensure the truth of their conclusion but it may still happen by coincidence that both the premises and the conclusion of formal fallacies are true
+
+rules of inferences are definitory rules they determine whether an argument is deductively valid or not but reasoners are usually not just interested in making any kind of valid argument instead they often have a specific point or conclusion that they wish to prove or refute so given a set of premises they are faced with the problem of choosing the relevant rules of inference for their deduction to arrive at their intended conclusion this issue belongs to the field of strategic rules the question of which inferences need to be drawn to support one s conclusion the distinction between definitory and strategic rules is not exclusive to logic it is also found in various games in chess for example the definitory rules state that bishops may only move diagonally while the strategic rules recommend that one should control the center and protect one s king if one intends to win in this sense definitory rules determine whether one plays chess or something else whereas strategic rules determine whether one is a good or a bad chess player the same applies to deductive reasoning to be an effective reasoner involves mastering both definitory and strategic rules
+
+deductive arguments are evaluated in terms of their validity and soundness
+
+an argument is valid if it is impossible for its premises to be true while its conclusion is false in other words the conclusion must be true if the premises are true an argument can be valid even if one or more of its premises are false
+
+an argument is sound if it is valid and the premises are true
+
+it is possible to have a deductive argument that is logically valid but is not sound fallacious arguments often take that form
+
+the following is an example of an argument that is valid but not sound
+
+the example s first premise is false there are people who eat carrots who are not quarterbacks but the conclusion would necessarily be true if the premises were true in other words it is impossible for the premises to be true and the conclusion false therefore the argument is valid but not sound false generalizations such as everyone who eats carrots is a quarterback are often used to make unsound arguments the fact that there are some people who eat carrots but are not quarterbacks proves the flaw of the argument
+
+in this example the first statement uses categorical reasoning saying that all carrot eaters are definitely quarterbacks this theory of deductive reasoning also known as term logic was developed by aristotle but was superseded by propositional sentential logic and predicate logic citation needed
+
+deductive reasoning can be contrasted with inductive reasoning in regards to validity and soundness in cases of inductive reasoning even though the premises are true and the argument is valid it is possible for the conclusion to be false determined to be false with a counterexample or other means
+
+deductive reasoning is usually contrasted with non deductive or ampliative reasoning the hallmark of valid deductive inferences is that it is impossible for their premises to be true and their conclusion to be false in this way the premises provide the strongest possible support to their conclusion the premises of ampliative inferences also support their conclusion but this support is weaker they are not necessarily truth preserving so even for correct ampliative arguments it is possible that their premises are true and their conclusion is false two important forms of ampliative reasoning are inductive and abductive reasoning sometimes the term inductive reasoning is used in a very wide sense to cover all forms of ampliative reasoning however in a more strict usage inductive reasoning is just one form of ampliative reasoning in the narrow sense inductive inferences are forms of statistical generalization they are usually based on many individual observations that all show a certain pattern these observations are then used to form a conclusion either about a yet unobserved entity or about a general law for abductive inferences the premises support the conclusion because the conclusion is the best explanation of why the premises are true
+
+the support ampliative arguments provide for their conclusion comes in degrees some ampliative arguments are stronger than others this is often explained in terms of probability the premises make it more likely that the conclusion is true strong ampliative arguments make their conclusion very likely but not absolutely certain an example of ampliative reasoning is the inference from the premise every raven in a random sample of 3200 ravens is black to the conclusion all ravens are black the extensive random sample makes the conclusion very likely but it does not exclude that there are rare exceptions in this sense ampliative reasoning is defeasible it may become necessary to retract an earlier conclusion upon receiving new related information ampliative reasoning is very common in everyday discourse and the sciences
+
+an important drawback of deductive reasoning is that it does not lead to genuinely new information this means that the conclusion only repeats information already found in the premises ampliative reasoning on the other hand goes beyond the premises by arriving at genuinely new information one difficulty for this characterization is that it makes deductive reasoning appear useless if deduction is uninformative it is not clear why people would engage in it and study it it has been suggested that this problem can be solved by distinguishing between surface and depth information on this view deductive reasoning is uninformative on the depth level in contrast to ampliative reasoning but it may still be valuable on the surface level by presenting the information in the premises in a new and sometimes surprising way
+
+a popular misconception of the relation between deduction and induction identifies their difference on the level of particular and general claims on this view deductive inferences start from general premises and draw particular conclusions while inductive inferences start from particular premises and draw general conclusions this idea is often motivated by seeing deduction and induction as two inverse processes that complement each other deduction is top down while induction is bottom up but this is a misconception that does not reflect how valid deduction is defined in the field of logic a deduction is valid if it is impossible for its premises to be true while its conclusion is false independent of whether the premises or the conclusion are particular or general because of this some deductive inferences have a general conclusion and some also have particular premises
+
+cognitive psychology studies the psychological processes responsible for deductive reasoning it is concerned among other things with how good people are at drawing valid deductive inferences this includes the study of the factors affecting their performance their tendency to commit fallacies and the underlying biases involved a notable finding in this field is that the type of deductive inference has a significant impact on whether the correct conclusion is drawn in a meta analysis of 65 studies for example 97 of the subjects evaluated modus ponens inferences correctly while the success rate for modus tollens was only 72 on the other hand even some fallacies like affirming the consequent or denying the antecedent were regarded as valid arguments by the majority of the subjects an important factor for these mistakes is whether the conclusion seems initially plausible the more believable the conclusion is the higher the chance that a subject will mistake a fallacy for a valid argument
+
+an important bias is the matching bias which is often illustrated using the wason selection task in an often cited experiment by peter wason four cards are presented to the participant in one case the visible sides show the symbols d k 5 and 7 on the different cards the participant is told that every card has a letter on one side and a number on the other side and that e very card which has a d on one side has a 5 on the other side their task is to identify which cards need to be turned around in order to confirm or refute this conditional claim the correct answer only given by about 10 is the cards d and 7 many select card 5 instead even though the conditional claim does not involve any requirements on what symbols can be found on the opposite side of card 5 but this result can be drastically changed if different symbols are used the visible sides show drinking a beer drinking a coke 16 years of age and 22 years of age and the participants are asked to evaluate the claim i f a person is drinking beer then the person must be over 19 years of age in this case 74 of the participants identified correctly that the cards drinking a beer and 16 years of age have to be turned around these findings suggest that the deductive reasoning ability is heavily influenced by the content of the involved claims and not just by the abstract logical form of the task the more realistic and concrete the cases are the better the subjects tend to perform
+
+another bias is called the negative conclusion bias which happens when one of the premises has the form of a negative material conditional as in if the card does not have an a on the left then it has a 3 on the right the card does not have a 3 on the right therefore the card has an a on the left the increased tendency to misjudge the validity of this type of argument is not present for positive material conditionals as in if the card has an a on the left then it has a 3 on the right the card does not have a 3 on the right therefore the card does not have an a on the left
+
+various psychological theories of deductive reasoning have been proposed these theories aim to explain how deductive reasoning works in relation to the underlying psychological processes responsible they are often used to explain the empirical findings such as why human reasoners are more susceptible to some types of fallacies than to others
+
+an important distinction is between mental logic theories sometimes also referred to as rule theories and mental model theories mental logic theories see deductive reasoning as a language like process that happens through the manipulation of representations this is done by applying syntactic rules of inference in a way very similar to how systems of natural deduction transform their premises to arrive at a conclusion on this view some deductions are simpler than others since they involve fewer inferential steps this idea can be used for example to explain why humans have more difficulties with some deductions like the modus tollens than with others like the modus ponens because the more error prone forms do not have a native rule of inference but need to be calculated by combining several inferential steps with other rules of inference in such cases the additional cognitive labor makes the inferences more open to error
+
+mental model theories on the other hand hold that deductive reasoning involves models or mental representations of possible states of the world without the medium of language or rules of inference in order to assess whether a deductive inference is valid the reasoner mentally constructs models that are compatible with the premises of the inference the conclusion is then tested by looking at these models and trying to find a counterexample in which the conclusion is false the inference is valid if no such counterexample can be found in order to reduce cognitive labor only such models are represented in which the premises are true because of this the evaluation of some forms of inference only requires the construction of very few models while for others many different models are necessary in the latter case the additional cognitive labor required makes deductive reasoning more error prone thereby explaining the increased rate of error observed this theory can also explain why some errors depend on the content rather than the form of the argument for example when the conclusion of an argument is very plausible the subjects may lack the motivation to search for counterexamples among the constructed models
+
+both mental logic theories and mental model theories assume that there is one general purpose reasoning mechanism that applies to all forms of deductive reasoning but there are also alternative accounts that posit various different special purpose reasoning mechanisms for different contents and contexts in this sense it has been claimed that humans possess a special mechanism for permissions and obligations specifically for detecting cheating in social exchanges this can be used to explain why humans are often more successful in drawing valid inferences if the contents involve human behavior in relation to social norms another example is the so called dual process theory this theory posits that there are two distinct cognitive systems responsible for reasoning their interrelation can be used to explain commonly observed biases in deductive reasoning system 1 is the older system in terms of evolution it is based on associative learning and happens fast and automatically without demanding many cognitive resources system 2 on the other hand is of more recent evolutionary origin it is slow and cognitively demanding but also more flexible and under deliberate control the dual process theory posits that system 1 is the default system guiding most of our everyday reasoning in a pragmatic way but for particularly difficult problems on the logical level system 2 is employed system 2 is mostly responsible for deductive reasoning
+
+the ability of deductive reasoning is an important aspect of intelligence and many tests of intelligence include problems that call for deductive inferences because of this relation to intelligence deduction is highly relevant to psychology and the cognitive sciences but the subject of deductive reasoning is also pertinent to the computer sciences for example in the creation of artificial intelligence
+
+deductive reasoning plays an important role in epistemology epistemology is concerned with the question of justification i e to point out which beliefs are justified and why deductive inferences are able to transfer the justification of the premises onto the conclusion so while logic is interested in the truth preserving nature of deduction epistemology is interested in the justification preserving nature of deduction there are different theories trying to explain why deductive reasoning is justification preserving according to reliabilism this is the case because deductions are truth preserving they are reliable processes that ensure a true conclusion given the premises are true some theorists hold that the thinker has to have explicit awareness of the truth preserving nature of the inference for the justification to be transferred from the premises to the conclusion one consequence of such a view is that for young children this deductive transference does not take place since they lack this specific awareness
+
+probability logic is interested in how the probability of the premises of an argument affects the probability of its conclusion it differs from classical logic which assumes that propositions are either true or false but does not take into consideration the probability or certainty that a proposition is true or false
+
+aristotle a greek philosopher started documenting deductive reasoning in the 4th century bc rené descartes in his book discourse on method refined the idea for the scientific revolution developing four rules to follow for proving an idea deductively descartes laid the foundation for the deductive portion of the scientific method descartes background in geometry and mathematics influenced his ideas on the truth and reasoning causing him to develop a system of general reasoning now used for most mathematical reasoning similar to postulates descartes believed that ideas could be self evident and that reasoning alone must prove that observations are reliable these ideas also lay the foundations for the ideas of rationalism
+
+deductivism is a philosophical position that gives primacy to deductive reasoning or arguments over their non deductive counterparts it is often understood as the evaluative claim that only deductive inferences are good or correct inferences this theory would have wide reaching consequences for various fields since it implies that the rules of deduction are the only acceptable standard of evidence this way the rationality or correctness of the different forms of inductive reasoning is denied some forms of deductivism express this in terms of degrees of reasonableness or probability inductive inferences are usually seen as providing a certain degree of support for their conclusion they make it more likely that their conclusion is true deductivism states that such inferences are not rational the premises either ensure their conclusion as in deductive reasoning or they do not provide any support at all
+
+one motivation for deductivism is the problem of induction introduced by david hume it consists in the challenge of explaining how or whether inductive inferences based on past experiences support conclusions about future events for example a chicken comes to expect based on all its past experiences that the person entering its coop is going to feed it until one day the person at last wrings its neck instead according to karl popper s falsificationism deductive reasoning alone is sufficient this is due to its truth preserving nature a theory can be falsified if one of its deductive consequences is false so while inductive reasoning does not offer positive evidence for a theory the theory still remains a viable competitor until falsified by empirical observation in this sense deduction alone is sufficient for discriminating between competing hypotheses about what is the case hypothetico deductivism is a closely related scientific method according to which science progresses by formulating hypotheses and then aims to falsify them by trying to make observations that run counter to their deductive consequences
+
+the term natural deduction refers to a class of proof systems based on self evident rules of inference the first systems of natural deduction were developed by gerhard gentzen and stanislaw jaskowski in the 1930s the core motivation was to give a simple presentation of deductive reasoning that closely mirrors how reasoning actually takes place in this sense natural deduction stands in contrast to other less intuitive proof systems such as hilbert style deductive systems which employ axiom schemes to express logical truths natural deduction on the other hand avoids axioms schemes by including many different rules of inference that can be used to formulate proofs these rules of inference express how logical constants behave they are often divided into introduction rules and elimination rules introduction rules specify under which conditions a logical constant may be introduced into a new sentence of the proof for example the introduction rule for the logical constant
+
+
+
+
+
+
+displaystyle land
+
+and is
+
+
+
+
+
+
+a
+
+b
+
+
+
+a
+
+b
+
+
+
+
+
+
+displaystyle frac a b a land b
+
+it expresses that given the premises
+
+
+
+a
+
+
+displaystyle a
+
+and
+
+
+
+b
+
+
+displaystyle b
+
+individually one may draw the conclusion
+
+
+
+a
+
+b
+
+
+displaystyle a land b
+
+and thereby include it in one s proof this way the symbol
+
+
+
+
+
+
+displaystyle land
+
+is introduced into the proof the removal of this symbol is governed by other rules of inference such as the elimination rule
+
+
+
+
+
+
+
+a
+
+b
+
+
+a
+
+
+
+
+displaystyle frac a land b a
+
+which states that one may deduce the sentence
+
+
+
+a
+
+
+displaystyle a
+
+from the premise
+
+
+
+
+a
+
+b
+
+
+
+displaystyle a land b
+
+similar introduction and elimination rules are given for other logical constants such as the propositional operator
+
+
+
+
+
+
+displaystyle lnot
+
+the propositional connectives
+
+
+
+
+
+
+displaystyle lor
+
+and
+
+
+
+
+
+
+displaystyle rightarrow
+
+and the quantifiers
+
+
+
+
+
+
+displaystyle exists
+
+and
+
+
+
+
+
+
+displaystyle forall
+
+
+
+the focus on rules of inferences instead of axiom schemes is an important feature of natural deduction but there is no general agreement on how natural deduction is to be defined some theorists hold that all proof systems with this feature are forms of natural deduction this would include various forms of sequent calculi a or tableau calculi but other theorists use the term in a more narrow sense for example to refer to the proof systems developed by gentzen and jaskowski because of its simplicity natural deduction is often used for teaching logic to students
+
+the geometrical method is a method of philosophy based on deductive reasoning it starts from a small set of self evident axioms and tries to build a comprehensive logical system based only on deductive inferences from these first axioms it was initially formulated by baruch spinoza and came to prominence in various rationalist philosophical systems in the modern era it gets its name from the forms of mathematical demonstration found in traditional geometry which are usually based on axioms definitions and inferred theorems an important motivation of the geometrical method is to repudiate philosophical skepticism by grounding one s philosophical system on absolutely certain axioms deductive reasoning is central to this endeavor because of its necessarily truth preserving nature this way the certainty initially invested only in the axioms is transferred to all parts of the philosophical system
+
+one recurrent criticism of philosophical systems build using the geometrical method is that their initial axioms are not as self evident or certain as their defenders proclaim this problem lies beyond the deductive reasoning itself which only ensures that the conclusion is true if the premises are true but not that the premises themselves are true for example spinoza s philosophical system has been criticized this way based on objections raised against the causal axiom i e that the knowledge of an effect depends on and involves knowledge of its cause a different criticism targets not the premises but the reasoning itself which may at times implicitly assume premises that are themselves not self evident

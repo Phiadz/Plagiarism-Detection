@@ -1,0 +1,63 @@
+
+
+progress in artificial intelligence ai refers to the advances milestones and breakthroughs that have been achieved in the field of artificial intelligence over time ai is a branch of computer science that aims to create machines and systems capable of performing tasks that typically require human intelligence ai applications have been used in a wide range of fields including medical diagnosis finance robotics law video games agriculture and scientific discovery the society as a whole is looking for artificial intelligence to be on a key factor in the upcming years because of its potential however many ai applications are not perceived as ai a lot of cutting edge ai has filtered into general applications often without being called ai because once something becomes useful enough and common enough it s not labeled ai anymore
+
+many thousands of ai applications are deeply embedded in the infrastructure of every industry in the late 1990s and early 2000s ai technology became widely used as elements of larger systems but the field was rarely credited for these successes at the time
+
+kaplan and haenlein structure artificial intelligence along three evolutionary stages
+
+to allow comparison with human performance artificial intelligence can be evaluated on constrained and well defined problems such tests have been termed subject matter expert turing tests also smaller problems provide more achievable goals and there are an ever increasing number of positive results
+
+in 2023 humans still substantially outperformed both gpt 4 and other models tested on the conceptarc benchmark those models scored 60 on most and 77 on one category while humans scored 91 on all and 97 on one category however later research in 2025 showed that human generated output grids were only accurate 73 of the time while ai models available that year managed to score above 77
+
+there are many useful abilities that can be described as showing some form of intelligence this gives better insight into the comparative success of artificial intelligence in different areas
+
+ai like electricity or the steam engine is a general purpose technology there is no consensus on how to characterize which tasks ai tends to excel at some versions of moravec s paradox observe that humans are more likely to outperform machines in areas such as physical dexterity that have been the direct target of natural selection while projects such as alphazero have succeeded in generating their own knowledge from scratch many other machine learning projects require large training datasets researcher andrew ng has suggested as a highly imperfect rule of thumb that almost anything a typical human can do with less than one second of mental thought we can probably now or in the near future automate using ai
+
+games provide a high profile benchmark for assessing rates of progress many games have a large professional player base and a well established competitive rating system alphago brought the era of classical board game benchmarks to a close when artificial intelligence proved their competitive edge over humans in 2016 deep mind s alphago ai software program defeated the world s best professional go player lee sedol games of imperfect knowledge provide new challenges to ai in the area of game theory the most prominent milestone in this area was brought to a close by libratus poker victory in 2017 e sports continue to provide additional benchmarks facebook ai deepmind and others have engaged with the popular starcraft franchise of videogames
+
+broad classes of outcome for an ai test may be given as
+
+in his famous turing test alan turing picked language the defining feature of human beings for its basis the turing test is now considered too exploitable to be a meaningful benchmark
+
+the feigenbaum test proposed by the inventor of expert systems tests a machine s knowledge and expertise about a specific subject a paper by jim gray of microsoft in 2003 suggested extending the turing test to speech understanding speaking and recognizing objects and behavior
+
+proposed universal intelligence tests aim to compare how well machines humans and even non human animals perform on problem sets that are generic as possible at an extreme the test suite can contain every possible problem weighted by kolmogorov complexity however these problem sets tend to be dominated by impoverished pattern matching exercises where a tuned ai can easily exceed human performance levels
+
+according to openai in 2023 gpt 4 achieved high scores on several standardized and professional examinations including around the 90th percentile on the uniform bar exam the 89th percentile on the mathematics section of the sat the 93rd percentile on sat reading and writing the 54th percentile on the analytical writing section of the gre the 88th percentile on gre quantitative reasoning and the 99th percentile on gre verbal reasoning openai also reported that gpt 4 scored in the 99th to 100th percentile on the 2020 usa biology olympiad semifinal exam and earned top scores on several ap exams
+
+independent researchers found in 2023 that chatgpt based on gpt 3 5 performed at or near the passing threshold on all three parts of the united states medical licensing examination usmle suggesting that large language models could reach passing level performance on some medical knowledge assessments even without domain specific fine tuning gpt 3 5 was also reported to attain a low but passing grade on examinations for four law school courses at the university of minnesota
+
+further studies reported that gpt 4 passed a text based radiology board style examination later radiology studies in 2024 2025 continued to find strong performance by newer models on exam style questions including image based and student radiology examinations while also noting persistent weaknesses and variation by task type
+
+by 2025 comparative studies found substantial variation in medical exam performance across models rather than a uniform passing level a 2025 benchmarking study on publicly available usmle sample questions reported that newer models such as chatgpt and deepseek outperformed some rivals but also made distinct errors and still showed limitations in clinical reasoning and domain specific understanding
+
+newer legal benchmarks published in 2025 likewise suggested that exam performance remained uneven the lexam benchmark built from 340 law exams across 116 law school courses found that long form legal reasoning remained challenging for contemporary large language models especially on open ended questions requiring structured multi step analysis
+
+by 2026 broader work on expert level academic testing emphasized that many older benchmarks and exam style tasks were becoming saturated a 2026 nature paper introducing humanity s last exam argued that state of the art systems had surpassed 90 accuracy on several popular benchmarks while still showing low accuracy on a more difficult benchmark designed to test the frontier of expert human knowledge stanford hai also cautioned in 2025 that benchmark and exam performance should not be treated as equivalent to reliable real world performance or trustworthy decision making
+
+many competitions and prizes such as the imagenet challenge promote research in artificial intelligence the most common areas of competition include general machine intelligence conversational behavior data mining robotic cars and robot soccer as well as conventional games
+
+an expert poll around 2016 conducted by katja grace of the future of humanity institute and associates gave median estimates of 3 years for championship angry birds 4 years for the world series of poker and 6 years for starcraft on more subjective tasks the poll gave 6 years for folding laundry as well as an average human worker 7 10 years for expertly answering easily googleable questions 8 years for average speech transcription 9 years for average telephone banking and 11 years for expert songwriting but over 30 years for writing a new york times bestseller or winning the putnam math competition
+
+subsequent developments in the late 2010s and early 2020s showed rapid progress in several benchmark tasks particularly in games and structured problem domains systems such as alphago alphazero and later large language models achieved or exceeded human level performance on a range of established benchmarks
+
+at the same time researchers have noted that performance on narrow benchmarks can saturate as systems are optimized for specific tasks and that success on such evaluations does not necessarily generalize to broader forms of intelligence
+
+an ai defeated a grandmaster in a regulation tournament game for the first time in 1988 rebranded as deep blue it beat the reigning human world chess champion in 1997 see deep blue versus garry kasparov
+
+by the 2010s chess engines running on consumer hardware had surpassed top human players by a wide margin neural network based systems such as alphazero demonstrated that superhuman performance could be achieved through reinforcement learning from self play without reliance on human expert data modern engines are widely used in preparation and analysis and unaided human play is no longer competitive with top computer systems
+
+alphago defeated a european go champion in october 2015 and lee sedol in march 2016 one of the world s top players see alphago versus lee sedol according to scientific american and other sources most observers had expected superhuman computer go performance to be at least a decade away
+
+subsequent systems such as alphago zero and alphazero demonstrated that superhuman performance could be achieved without human training data using reinforcement learning from self play by the late 2010s computer go programs had surpassed human champions by a substantial margin and go ceased to be a primary frontier benchmark for ai research
+
+ai pioneer and economist herbert a simon inaccurately predicted in 1965 machines will be capable within twenty years of doing any work a man can do similarly in 1970 marvin minsky wrote that within a generation the problem of creating artificial intelligence will substantially be solved
+
+four polls conducted in 2012 and 2013 suggested that the median estimate among experts for when agi would arrive was 2040 to 2050 depending on the poll
+
+the grace poll around 2016 found results varied depending on how the question was framed respondents asked to estimate when unaided machines can accomplish every task better and more cheaply than human workers gave an aggregated median answer of 45 years and a 10 chance of it occurring within 9 years other respondents asked to estimate when all occupations are fully automatable that is when for any occupation machines could be built to carry out the task better and more cheaply than human workers estimated a median of 122 years and a 10 probability of 20 years the median response for when ai researcher could be fully automated was around 90 years no link was found between seniority and optimism but asian researchers were much more optimistic than north american researchers on average asians predicted 30 years on average for accomplish every task compared with the 74 years predicted by north americans
+
+a larger survey of 2 778 researchers who had published in top ai venues fielded in 2023 and published in 2025 found shorter timelines for what it called high level machine intelligence in that survey the aggregate forecast assigned a 10 chance to unaided machines outperforming humans at every task by 2027 and a 50 chance by 2047 the same survey estimated that the full automation of all human occupations would reach a 10 probability by 2037 and a 50 probability by 2116
+
+despite increasingly short timelines in some surveys there was still no consensus in late 2025 and early 2026 that agi was imminent in stanford hai s predictions for 2026 co director james landay said there will be no agi this year

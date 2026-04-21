@@ -1,0 +1,7002 @@
+{
+  "doc_1.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_science",
+    "topic": "Data_science",
+    "words": 1338,
+    "size": "medium"
+  },
+  "doc_2.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "topic": "Artificial_intelligence",
+    "words": 12840,
+    "size": "large"
+  },
+  "doc_3.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "topic": "Machine_learning",
+    "words": 8663,
+    "size": "large"
+  },
+  "doc_4.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Big_data",
+    "topic": "Big_data",
+    "words": 6593,
+    "size": "large"
+  },
+  "doc_5.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_analysis",
+    "topic": "Data_analysis",
+    "words": 3156,
+    "size": "large"
+  },
+  "doc_6.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Main_Page",
+    "topic": "Main_Page",
+    "words": 541,
+    "size": "medium"
+  },
+  "doc_7.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Information_science",
+    "topic": "Information_science",
+    "words": 4011,
+    "size": "large"
+  },
+  "doc_8.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Computer_science",
+    "topic": "Computer_science",
+    "words": 3762,
+    "size": "large"
+  },
+  "doc_9.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Comet_NEOWISE",
+    "topic": "Comet_NEOWISE",
+    "words": 1220,
+    "size": "medium"
+  },
+  "doc_10.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Astronomical_survey",
+    "topic": "Astronomical_survey",
+    "words": 330,
+    "size": "small"
+  },
+  "doc_11.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Space_telescope",
+    "topic": "Space_telescope",
+    "words": 682,
+    "size": "medium"
+  },
+  "doc_12.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Wide-field_Infrared_Survey_Explorer",
+    "topic": "Wide-field_Infrared_Survey_Explorer",
+    "words": 3343,
+    "size": "large"
+  },
+  "doc_13.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Interdisciplinary",
+    "topic": "Interdisciplinary",
+    "words": 2669,
+    "size": "large"
+  },
+  "doc_14.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Statistics",
+    "topic": "Statistics",
+    "words": 6087,
+    "size": "large"
+  },
+  "doc_15.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Scientific_computing",
+    "topic": "Scientific_computing",
+    "words": 1785,
+    "size": "medium"
+  },
+  "doc_16.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Scientific_method",
+    "topic": "Scientific_method",
+    "words": 11470,
+    "size": "large"
+  },
+  "doc_17.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Scientific_visualization",
+    "topic": "Scientific_visualization",
+    "words": 1981,
+    "size": "medium"
+  },
+  "doc_18.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Algorithm",
+    "topic": "Algorithm",
+    "words": 2501,
+    "size": "large"
+  },
+  "doc_19.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Knowledge",
+    "topic": "Knowledge",
+    "words": 8762,
+    "size": "large"
+  },
+  "doc_20.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_model",
+    "topic": "Data_model",
+    "words": 3590,
+    "size": "large"
+  },
+  "doc_21.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Unstructured_data",
+    "topic": "Unstructured_data",
+    "words": 1150,
+    "size": "medium"
+  },
+  "doc_22.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Informatics",
+    "topic": "Informatics",
+    "words": 1258,
+    "size": "medium"
+  },
+  "doc_23.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Phenomena",
+    "topic": "Phenomena",
+    "words": 475,
+    "size": "small"
+  },
+  "doc_24.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data",
+    "topic": "Data",
+    "words": 2097,
+    "size": "large"
+  },
+  "doc_25.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mathematics",
+    "topic": "Mathematics",
+    "words": 7710,
+    "size": "large"
+  },
+  "doc_26.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Domain_knowledge",
+    "topic": "Domain_knowledge",
+    "words": 232,
+    "size": "small"
+  },
+  "doc_27.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Turing_Award",
+    "topic": "Turing_Award",
+    "words": 242,
+    "size": "small"
+  },
+  "doc_28.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Jim_Gray_(computer_scientist)",
+    "topic": "Jim_Gray_(computer_scientist)",
+    "words": 847,
+    "size": "medium"
+  },
+  "doc_29.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Empirical_research",
+    "topic": "Empirical_research",
+    "words": 1529,
+    "size": "medium"
+  },
+  "doc_30.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Basic_research",
+    "topic": "Basic_research",
+    "words": 1108,
+    "size": "medium"
+  },
+  "doc_31.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Computational_science",
+    "topic": "Computational_science",
+    "words": 1785,
+    "size": "medium"
+  },
+  "doc_32.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Information_technology",
+    "topic": "Information_technology",
+    "words": 2607,
+    "size": "large"
+  },
+  "doc_33.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Information_explosion",
+    "topic": "Information_explosion",
+    "words": 937,
+    "size": "medium"
+  },
+  "doc_34.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Interdisciplinarity",
+    "topic": "Interdisciplinarity",
+    "words": 2669,
+    "size": "large"
+  },
+  "doc_35.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Academic_discipline",
+    "topic": "Academic_discipline",
+    "words": 1474,
+    "size": "medium"
+  },
+  "doc_36.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Knowledge_extraction",
+    "topic": "Knowledge_extraction",
+    "words": 1931,
+    "size": "medium"
+  },
+  "doc_37.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_set",
+    "topic": "Data_set",
+    "words": 468,
+    "size": "small"
+  },
+  "doc_38.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Analysis",
+    "topic": "Analysis",
+    "words": 1631,
+    "size": "medium"
+  },
+  "doc_39.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_visualization",
+    "topic": "Data_visualization",
+    "words": 4046,
+    "size": "large"
+  },
+  "doc_40.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Graphic_design",
+    "topic": "Graphic_design",
+    "words": 3764,
+    "size": "large"
+  },
+  "doc_41.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Communication",
+    "topic": "Communication",
+    "words": 9095,
+    "size": "large"
+  },
+  "doc_42.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Business",
+    "topic": "Business",
+    "words": 3121,
+    "size": "large"
+  },
+  "doc_43.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Vasant_Dhar",
+    "topic": "Vasant_Dhar",
+    "words": 660,
+    "size": "medium"
+  },
+  "doc_44.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Andrew_Gelman",
+    "topic": "Andrew_Gelman",
+    "words": 558,
+    "size": "medium"
+  },
+  "doc_45.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Columbia_University",
+    "topic": "Columbia_University",
+    "words": 8111,
+    "size": "large"
+  },
+  "doc_46.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/David_Donoho",
+    "topic": "David_Donoho",
+    "words": 323,
+    "size": "small"
+  },
+  "doc_47.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/John_Tukey",
+    "topic": "John_Tukey",
+    "words": 1192,
+    "size": "medium"
+  },
+  "doc_48.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/C._F._Jeff_Wu",
+    "topic": "C._F._Jeff_Wu",
+    "words": 552,
+    "size": "medium"
+  },
+  "doc_49.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Montpellier_2_University",
+    "topic": "Montpellier_2_University",
+    "words": 531,
+    "size": "medium"
+  },
+  "doc_50.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Peter_Naur",
+    "topic": "Peter_Naur",
+    "words": 666,
+    "size": "medium"
+  },
+  "doc_51.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Thomas_H._Davenport",
+    "topic": "Thomas_H._Davenport",
+    "words": 1031,
+    "size": "medium"
+  },
+  "doc_52.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/DJ_Patil",
+    "topic": "DJ_Patil",
+    "words": 1225,
+    "size": "medium"
+  },
+  "doc_53.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/New_York_Times",
+    "topic": "New_York_Times",
+    "words": 10687,
+    "size": "large"
+  },
+  "doc_54.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Boston_Globe",
+    "topic": "Boston_Globe",
+    "words": 3174,
+    "size": "large"
+  },
+  "doc_55.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/William_S._Cleveland",
+    "topic": "William_S._Cleveland",
+    "words": 310,
+    "size": "small"
+  },
+  "doc_56.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/American_Statistical_Association",
+    "topic": "American_Statistical_Association",
+    "words": 590,
+    "size": "medium"
+  },
+  "doc_57.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Jeff_Hammerbacher",
+    "topic": "Jeff_Hammerbacher",
+    "words": 249,
+    "size": "small"
+  },
+  "doc_58.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/National_Science_Board",
+    "topic": "National_Science_Board",
+    "words": 1183,
+    "size": "medium"
+  },
+  "doc_59.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_collection",
+    "topic": "Data_collection",
+    "words": 578,
+    "size": "medium"
+  },
+  "doc_60.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Exploratory_data_analysis",
+    "topic": "Exploratory_data_analysis",
+    "words": 904,
+    "size": "medium"
+  },
+  "doc_61.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Datasaurus_dozen",
+    "topic": "Datasaurus_dozen",
+    "words": 229,
+    "size": "small"
+  },
+  "doc_62.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/CRISP-DM",
+    "topic": "CRISP-DM",
+    "words": 658,
+    "size": "medium"
+  },
+  "doc_63.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Statistical_analysis",
+    "topic": "Statistical_analysis",
+    "words": 2687,
+    "size": "large"
+  },
+  "doc_64.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_preprocessing",
+    "topic": "Data_preprocessing",
+    "words": 1308,
+    "size": "medium"
+  },
+  "doc_65.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Supervised_learning",
+    "topic": "Supervised_learning",
+    "words": 1962,
+    "size": "medium"
+  },
+  "doc_66.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Personal_computer",
+    "topic": "Personal_computer",
+    "words": 7678,
+    "size": "large"
+  },
+  "doc_67.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Laptop",
+    "topic": "Laptop",
+    "words": 7241,
+    "size": "large"
+  },
+  "doc_68.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Smartphone",
+    "topic": "Smartphone",
+    "words": 7700,
+    "size": "large"
+  },
+  "doc_69.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Cloud_computing",
+    "topic": "Cloud_computing",
+    "words": 5005,
+    "size": "large"
+  },
+  "doc_70.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_storage",
+    "topic": "Data_storage",
+    "words": 789,
+    "size": "medium"
+  },
+  "doc_71.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "topic": "Python_(programming_language)",
+    "words": 3359,
+    "size": "large"
+  },
+  "doc_72.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/R_(programming_language)",
+    "topic": "R_(programming_language)",
+    "words": 1377,
+    "size": "medium"
+  },
+  "doc_73.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_engineering",
+    "topic": "Data_engineering",
+    "words": 1157,
+    "size": "medium"
+  },
+  "doc_74.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bioinformatics",
+    "topic": "Bioinformatics",
+    "words": 4918,
+    "size": "large"
+  },
+  "doc_75.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Astroinformatics",
+    "topic": "Astroinformatics",
+    "words": 1246,
+    "size": "medium"
+  },
+  "doc_76.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Topological_data_analysis",
+    "topic": "Topological_data_analysis",
+    "words": 6018,
+    "size": "large"
+  },
+  "doc_77.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/List_of_data_science_software",
+    "topic": "List_of_data_science_software",
+    "words": 98,
+    "size": "small"
+  },
+  "doc_78.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages#Data_science",
+    "topic": "List_of_free_and_open-source_software_packages#Data_science",
+    "words": 152,
+    "size": "small"
+  },
+  "doc_79.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Notebook_interface#Notable_examples",
+    "topic": "Notebook_interface#Notable_examples",
+    "words": 483,
+    "size": "small"
+  },
+  "doc_80.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Journal_of_Computational_and_Graphical_Statistics",
+    "topic": "Journal_of_Computational_and_Graphical_Statistics",
+    "words": 121,
+    "size": "small"
+  },
+  "doc_81.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Doi_(identifier)",
+    "topic": "Doi_(identifier)",
+    "words": 2906,
+    "size": "large"
+  },
+  "doc_82.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/S2CID_(identifier)",
+    "topic": "S2CID_(identifier)",
+    "words": 695,
+    "size": "medium"
+  },
+  "doc_83.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/ISSN_(identifier)",
+    "topic": "ISSN_(identifier)",
+    "words": 1348,
+    "size": "medium"
+  },
+  "doc_84.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/ISBN_(identifier)",
+    "topic": "ISBN_(identifier)",
+    "words": 3541,
+    "size": "large"
+  },
+  "doc_85.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/ArXiv_(identifier)",
+    "topic": "ArXiv_(identifier)",
+    "words": 1551,
+    "size": "medium"
+  },
+  "doc_86.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/PMID_(identifier)",
+    "topic": "PMID_(identifier)",
+    "words": 2055,
+    "size": "large"
+  },
+  "doc_87.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Harvard_Business_Review",
+    "topic": "Harvard_Business_Review",
+    "words": 806,
+    "size": "medium"
+  },
+  "doc_88.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/OCLC_(identifier)",
+    "topic": "OCLC_(identifier)",
+    "words": 2134,
+    "size": "large"
+  },
+  "doc_89.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/New_York_City",
+    "topic": "New_York_City",
+    "words": 15295,
+    "size": "large"
+  },
+  "doc_90.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Boston",
+    "topic": "Boston",
+    "words": 10870,
+    "size": "large"
+  },
+  "doc_91.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/JSTOR_(identifier)",
+    "topic": "JSTOR_(identifier)",
+    "words": 1744,
+    "size": "medium"
+  },
+  "doc_92.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Zbl_(identifier)",
+    "topic": "Zbl_(identifier)",
+    "words": 801,
+    "size": "medium"
+  },
+  "doc_93.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/WDQ_(identifier)",
+    "topic": "WDQ_(identifier)",
+    "words": 1731,
+    "size": "medium"
+  },
+  "doc_94.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bibcode_(identifier)",
+    "topic": "Bibcode_(identifier)",
+    "words": 372,
+    "size": "small"
+  },
+  "doc_95.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/PMC_(identifier)",
+    "topic": "PMC_(identifier)",
+    "words": 2100,
+    "size": "large"
+  },
+  "doc_96.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Luciano_Floridi",
+    "topic": "Luciano_Floridi",
+    "words": 933,
+    "size": "medium"
+  },
+  "doc_97.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mariarosaria_Taddeo",
+    "topic": "Mariarosaria_Taddeo",
+    "words": 558,
+    "size": "medium"
+  },
+  "doc_98.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Joanna_Bryson",
+    "topic": "Joanna_Bryson",
+    "words": 506,
+    "size": "medium"
+  },
+  "doc_99.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Arvind_Narayanan",
+    "topic": "Arvind_Narayanan",
+    "words": 266,
+    "size": "small"
+  },
+  "doc_100.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Information",
+    "topic": "Information",
+    "words": 3149,
+    "size": "large"
+  },
+  "doc_101.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Metadata",
+    "topic": "Metadata",
+    "words": 7532,
+    "size": "large"
+  },
+  "doc_102.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_type",
+    "topic": "Data_type",
+    "words": 2438,
+    "size": "large"
+  },
+  "doc_103.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_structure",
+    "topic": "Data_structure",
+    "words": 649,
+    "size": "medium"
+  },
+  "doc_104.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_ecosystem",
+    "topic": "Data_ecosystem",
+    "words": 1065,
+    "size": "medium"
+  },
+  "doc_105.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_library",
+    "topic": "Data_library",
+    "words": 2156,
+    "size": "large"
+  },
+  "doc_106.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_infrastructure",
+    "topic": "Data_infrastructure",
+    "words": 330,
+    "size": "small"
+  },
+  "doc_107.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Value_of_information",
+    "topic": "Value_of_information",
+    "words": 935,
+    "size": "medium"
+  },
+  "doc_108.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Master_data",
+    "topic": "Master_data",
+    "words": 445,
+    "size": "small"
+  },
+  "doc_109.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Master_data_management",
+    "topic": "Master_data_management",
+    "words": 1161,
+    "size": "medium"
+  },
+  "doc_110.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Reference_data",
+    "topic": "Reference_data",
+    "words": 291,
+    "size": "small"
+  },
+  "doc_111.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Transaction_data",
+    "topic": "Transaction_data",
+    "words": 143,
+    "size": "small"
+  },
+  "doc_112.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Code_(metadata)",
+    "topic": "Code_(metadata)",
+    "words": 926,
+    "size": "medium"
+  },
+  "doc_113.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Controlled_vocabulary",
+    "topic": "Controlled_vocabulary",
+    "words": 1829,
+    "size": "medium"
+  },
+  "doc_114.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_hierarchy",
+    "topic": "Data_hierarchy",
+    "words": 497,
+    "size": "small"
+  },
+  "doc_115.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Dark_data",
+    "topic": "Dark_data",
+    "words": 996,
+    "size": "medium"
+  },
+  "doc_116.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Market_data",
+    "topic": "Market_data",
+    "words": 1222,
+    "size": "medium"
+  },
+  "doc_117.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_management",
+    "topic": "Data_management",
+    "words": 1768,
+    "size": "medium"
+  },
+  "doc_118.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_governance",
+    "topic": "Data_governance",
+    "words": 953,
+    "size": "medium"
+  },
+  "doc_119.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_cooperative",
+    "topic": "Data_cooperative",
+    "words": 952,
+    "size": "medium"
+  },
+  "doc_120.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_ethics",
+    "topic": "Data_ethics",
+    "words": 2216,
+    "size": "large"
+  },
+  "doc_121.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_steward",
+    "topic": "Data_steward",
+    "words": 837,
+    "size": "medium"
+  },
+  "doc_122.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_lineage",
+    "topic": "Data_lineage",
+    "words": 4895,
+    "size": "large"
+  },
+  "doc_123.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_curation",
+    "topic": "Data_curation",
+    "words": 771,
+    "size": "medium"
+  },
+  "doc_124.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_preservation",
+    "topic": "Data_preservation",
+    "words": 1246,
+    "size": "medium"
+  },
+  "doc_125.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_retention",
+    "topic": "Data_retention",
+    "words": 4435,
+    "size": "large"
+  },
+  "doc_126.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_publishing",
+    "topic": "Data_publishing",
+    "words": 962,
+    "size": "medium"
+  },
+  "doc_127.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Open_data",
+    "topic": "Open_data",
+    "words": 2794,
+    "size": "large"
+  },
+  "doc_128.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_quality",
+    "topic": "Data_quality",
+    "words": 2676,
+    "size": "large"
+  },
+  "doc_129.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Information_quality",
+    "topic": "Information_quality",
+    "words": 785,
+    "size": "medium"
+  },
+  "doc_130.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_validation",
+    "topic": "Data_validation",
+    "words": 563,
+    "size": "medium"
+  },
+  "doc_131.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_cleansing",
+    "topic": "Data_cleansing",
+    "words": 862,
+    "size": "medium"
+  },
+  "doc_132.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_scrubbing",
+    "topic": "Data_scrubbing",
+    "words": 850,
+    "size": "medium"
+  },
+  "doc_133.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_integrity",
+    "topic": "Data_integrity",
+    "words": 1260,
+    "size": "medium"
+  },
+  "doc_134.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Information_privacy",
+    "topic": "Information_privacy",
+    "words": 3776,
+    "size": "large"
+  },
+  "doc_135.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_security",
+    "topic": "Data_security",
+    "words": 1828,
+    "size": "medium"
+  },
+  "doc_136.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_anonymization",
+    "topic": "Data_anonymization",
+    "words": 714,
+    "size": "medium"
+  },
+  "doc_137.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_de-identification",
+    "topic": "Data_de-identification",
+    "words": 1080,
+    "size": "medium"
+  },
+  "doc_138.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_re-identification",
+    "topic": "Data_re-identification",
+    "words": 2077,
+    "size": "large"
+  },
+  "doc_139.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_minimization",
+    "topic": "Data_minimization",
+    "words": 306,
+    "size": "small"
+  },
+  "doc_140.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_erasure",
+    "topic": "Data_erasure",
+    "words": 1832,
+    "size": "medium"
+  },
+  "doc_141.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_remanence",
+    "topic": "Data_remanence",
+    "words": 2996,
+    "size": "large"
+  },
+  "doc_142.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_corruption",
+    "topic": "Data_corruption",
+    "words": 1482,
+    "size": "medium"
+  },
+  "doc_143.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_degradation",
+    "topic": "Data_degradation",
+    "words": 1114,
+    "size": "medium"
+  },
+  "doc_144.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_loss",
+    "topic": "Data_loss",
+    "words": 986,
+    "size": "medium"
+  },
+  "doc_145.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_recovery",
+    "topic": "Data_recovery",
+    "words": 2172,
+    "size": "large"
+  },
+  "doc_146.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_integration",
+    "topic": "Data_integration",
+    "words": 3004,
+    "size": "large"
+  },
+  "doc_147.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Extract,_transform,_load",
+    "topic": "Extract,_transform,_load",
+    "words": 2657,
+    "size": "large"
+  },
+  "doc_148.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Extract,_load,_transform",
+    "topic": "Extract,_load,_transform",
+    "words": 165,
+    "size": "small"
+  },
+  "doc_149.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_extraction",
+    "topic": "Data_extraction",
+    "words": 207,
+    "size": "small"
+  },
+  "doc_150.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_transformation",
+    "topic": "Data_transformation",
+    "words": 1573,
+    "size": "medium"
+  },
+  "doc_151.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_loading",
+    "topic": "Data_loading",
+    "words": 466,
+    "size": "small"
+  },
+  "doc_152.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_migration",
+    "topic": "Data_migration",
+    "words": 1213,
+    "size": "medium"
+  },
+  "doc_153.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_synchronization",
+    "topic": "Data_synchronization",
+    "words": 964,
+    "size": "medium"
+  },
+  "doc_154.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_compression",
+    "topic": "Data_compression",
+    "words": 4947,
+    "size": "large"
+  },
+  "doc_155.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_fusion",
+    "topic": "Data_fusion",
+    "words": 1039,
+    "size": "medium"
+  },
+  "doc_156.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_format_management",
+    "topic": "Data_format_management",
+    "words": 259,
+    "size": "small"
+  },
+  "doc_157.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_acquisition",
+    "topic": "Data_acquisition",
+    "words": 761,
+    "size": "medium"
+  },
+  "doc_158.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_augmentation",
+    "topic": "Data_augmentation",
+    "words": 902,
+    "size": "medium"
+  },
+  "doc_159.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_annotation",
+    "topic": "Data_annotation",
+    "words": 411,
+    "size": "small"
+  },
+  "doc_160.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_editing",
+    "topic": "Data_editing",
+    "words": 824,
+    "size": "medium"
+  },
+  "doc_161.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_deduplication",
+    "topic": "Data_deduplication",
+    "words": 2077,
+    "size": "large"
+  },
+  "doc_162.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_pre-processing",
+    "topic": "Data_pre-processing",
+    "words": 1308,
+    "size": "medium"
+  },
+  "doc_163.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_preparation",
+    "topic": "Data_preparation",
+    "words": 483,
+    "size": "small"
+  },
+  "doc_164.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_processing",
+    "topic": "Data_processing",
+    "words": 812,
+    "size": "medium"
+  },
+  "doc_165.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_reduction",
+    "topic": "Data_reduction",
+    "words": 538,
+    "size": "medium"
+  },
+  "doc_166.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_redundancy",
+    "topic": "Data_redundancy",
+    "words": 331,
+    "size": "small"
+  },
+  "doc_167.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_wrangling",
+    "topic": "Data_wrangling",
+    "words": 1332,
+    "size": "medium"
+  },
+  "doc_168.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_scraping",
+    "topic": "Data_scraping",
+    "words": 1388,
+    "size": "medium"
+  },
+  "doc_169.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_rescue",
+    "topic": "Data_rescue",
+    "words": 519,
+    "size": "medium"
+  },
+  "doc_170.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_exploration",
+    "topic": "Data_exploration",
+    "words": 458,
+    "size": "small"
+  },
+  "doc_171.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_mining",
+    "topic": "Data_mining",
+    "words": 2706,
+    "size": "large"
+  },
+  "doc_172.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_warehouse",
+    "topic": "Data_warehouse",
+    "words": 2916,
+    "size": "large"
+  },
+  "doc_173.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Business_intelligence",
+    "topic": "Business_intelligence",
+    "words": 1629,
+    "size": "medium"
+  },
+  "doc_174.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_sharing",
+    "topic": "Data_sharing",
+    "words": 1696,
+    "size": "medium"
+  },
+  "doc_175.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_philanthropy",
+    "topic": "Data_philanthropy",
+    "words": 1528,
+    "size": "medium"
+  },
+  "doc_176.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_as_a_service",
+    "topic": "Data_as_a_service",
+    "words": 1498,
+    "size": "medium"
+  },
+  "doc_177.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_broker",
+    "topic": "Data_broker",
+    "words": 2335,
+    "size": "large"
+  },
+  "doc_178.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_exhaust",
+    "topic": "Data_exhaust",
+    "words": 544,
+    "size": "medium"
+  },
+  "doc_179.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_farming",
+    "topic": "Data_farming",
+    "words": 662,
+    "size": "medium"
+  },
+  "doc_180.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_archaeology",
+    "topic": "Data_archaeology",
+    "words": 1210,
+    "size": "medium"
+  },
+  "doc_181.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_mesh",
+    "topic": "Data_mesh",
+    "words": 350,
+    "size": "small"
+  },
+  "doc_182.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_product",
+    "topic": "Data_product",
+    "words": 319,
+    "size": "small"
+  },
+  "doc_183.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_domain",
+    "topic": "Data_domain",
+    "words": 260,
+    "size": "small"
+  },
+  "doc_184.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Digital_twin",
+    "topic": "Digital_twin",
+    "words": 2541,
+    "size": "large"
+  },
+  "doc_185.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Chief_data_officer",
+    "topic": "Chief_data_officer",
+    "words": 841,
+    "size": "medium"
+  },
+  "doc_186.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Information_professional",
+    "topic": "Information_professional",
+    "words": 758,
+    "size": "medium"
+  },
+  "doc_187.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Informatica",
+    "topic": "Informatica",
+    "words": 346,
+    "size": "small"
+  },
+  "doc_188.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/IBM",
+    "topic": "IBM",
+    "words": 5709,
+    "size": "large"
+  },
+  "doc_189.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/SAP",
+    "topic": "SAP",
+    "words": 3030,
+    "size": "large"
+  },
+  "doc_190.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+    "topic": "Oracle_Corporation",
+    "words": 5935,
+    "size": "large"
+  },
+  "doc_191.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/SAS_Institute",
+    "topic": "SAS_Institute",
+    "words": 2886,
+    "size": "large"
+  },
+  "doc_192.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Qlik",
+    "topic": "Qlik",
+    "words": 1184,
+    "size": "medium"
+  },
+  "doc_193.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Experian",
+    "topic": "Experian",
+    "words": 1011,
+    "size": "medium"
+  },
+  "doc_194.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Alation",
+    "topic": "Alation",
+    "words": 770,
+    "size": "medium"
+  },
+  "doc_195.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_general_intelligence",
+    "topic": "Artificial_general_intelligence",
+    "words": 6129,
+    "size": "large"
+  },
+  "doc_196.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Intelligent_agent",
+    "topic": "Intelligent_agent",
+    "words": 2253,
+    "size": "large"
+  },
+  "doc_197.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Recursive_self-improvement",
+    "topic": "Recursive_self-improvement",
+    "words": 686,
+    "size": "medium"
+  },
+  "doc_198.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Automated_planning_and_scheduling",
+    "topic": "Automated_planning_and_scheduling",
+    "words": 1472,
+    "size": "medium"
+  },
+  "doc_199.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Computer_vision",
+    "topic": "Computer_vision",
+    "words": 3849,
+    "size": "large"
+  },
+  "doc_200.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/General_game_playing",
+    "topic": "General_game_playing",
+    "words": 1332,
+    "size": "medium"
+  },
+  "doc_201.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning",
+    "topic": "Knowledge_representation_and_reasoning",
+    "words": 3187,
+    "size": "large"
+  },
+  "doc_202.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "topic": "Natural_language_processing",
+    "words": 891,
+    "size": "medium"
+  },
+  "doc_203.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Robotics",
+    "topic": "Robotics",
+    "words": 4121,
+    "size": "large"
+  },
+  "doc_204.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AI_safety",
+    "topic": "AI_safety",
+    "words": 4766,
+    "size": "large"
+  },
+  "doc_205.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence",
+    "topic": "Symbolic_artificial_intelligence",
+    "words": 7854,
+    "size": "large"
+  },
+  "doc_206.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Deep_learning",
+    "topic": "Deep_learning",
+    "words": 8155,
+    "size": "large"
+  },
+  "doc_207.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bayesian_network",
+    "topic": "Bayesian_network",
+    "words": 3733,
+    "size": "large"
+  },
+  "doc_208.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Evolutionary_algorithm",
+    "topic": "Evolutionary_algorithm",
+    "words": 1436,
+    "size": "medium"
+  },
+  "doc_209.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Hybrid_intelligent_system",
+    "topic": "Hybrid_intelligent_system",
+    "words": 187,
+    "size": "small"
+  },
+  "doc_210.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_systems_integration",
+    "topic": "Artificial_intelligence_systems_integration",
+    "words": 809,
+    "size": "medium"
+  },
+  "doc_211.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Open-source_artificial_intelligence",
+    "topic": "Open-source_artificial_intelligence",
+    "words": 1872,
+    "size": "medium"
+  },
+  "doc_212.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AI_data_center",
+    "topic": "AI_data_center",
+    "words": 2609,
+    "size": "large"
+  },
+  "doc_213.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Applications_of_artificial_intelligence",
+    "topic": "Applications_of_artificial_intelligence",
+    "words": 6828,
+    "size": "large"
+  },
+  "doc_214.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning_in_bioinformatics",
+    "topic": "Machine_learning_in_bioinformatics",
+    "words": 5092,
+    "size": "large"
+  },
+  "doc_215.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Deepfake",
+    "topic": "Deepfake",
+    "words": 6422,
+    "size": "large"
+  },
+  "doc_216.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning_in_earth_sciences",
+    "topic": "Machine_learning_in_earth_sciences",
+    "words": 2564,
+    "size": "large"
+  },
+  "doc_217.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Applications_of_artificial_intelligence#Finance",
+    "topic": "Applications_of_artificial_intelligence#Finance",
+    "words": 6828,
+    "size": "large"
+  },
+  "doc_218.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence",
+    "topic": "Generative_artificial_intelligence",
+    "words": 4848,
+    "size": "large"
+  },
+  "doc_219.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_art",
+    "topic": "Artificial_intelligence_art",
+    "words": 3304,
+    "size": "large"
+  },
+  "doc_220.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Generative_audio",
+    "topic": "Generative_audio",
+    "words": 171,
+    "size": "small"
+  },
+  "doc_221.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Music_and_artificial_intelligence",
+    "topic": "Music_and_artificial_intelligence",
+    "words": 3814,
+    "size": "large"
+  },
+  "doc_222.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_government",
+    "topic": "Artificial_intelligence_in_government",
+    "words": 734,
+    "size": "medium"
+  },
+  "doc_223.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare",
+    "topic": "Artificial_intelligence_in_healthcare",
+    "words": 6629,
+    "size": "large"
+  },
+  "doc_224.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_mental_health",
+    "topic": "Artificial_intelligence_in_mental_health",
+    "words": 3221,
+    "size": "large"
+  },
+  "doc_225.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_industry",
+    "topic": "Artificial_intelligence_in_industry",
+    "words": 1123,
+    "size": "medium"
+  },
+  "doc_226.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AI-assisted_software_development",
+    "topic": "AI-assisted_software_development",
+    "words": 660,
+    "size": "medium"
+  },
+  "doc_227.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Machine_translation",
+    "topic": "Machine_translation",
+    "words": 4064,
+    "size": "large"
+  },
+  "doc_228.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_arms_race",
+    "topic": "Artificial_intelligence_arms_race",
+    "words": 5275,
+    "size": "large"
+  },
+  "doc_229.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning_in_physics",
+    "topic": "Machine_learning_in_physics",
+    "words": 592,
+    "size": "medium"
+  },
+  "doc_230.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_artificial_intelligence",
+    "topic": "Philosophy_of_artificial_intelligence",
+    "words": 4606,
+    "size": "large"
+  },
+  "doc_231.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AI_alignment",
+    "topic": "AI_alignment",
+    "words": 5740,
+    "size": "large"
+  },
+  "doc_232.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_consciousness",
+    "topic": "Artificial_consciousness",
+    "words": 3613,
+    "size": "large"
+  },
+  "doc_233.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bitter_lesson",
+    "topic": "Bitter_lesson",
+    "words": 535,
+    "size": "medium"
+  },
+  "doc_234.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Chinese_room",
+    "topic": "Chinese_room",
+    "words": 8380,
+    "size": "large"
+  },
+  "doc_235.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Friendly_artificial_intelligence",
+    "topic": "Friendly_artificial_intelligence",
+    "words": 1641,
+    "size": "medium"
+  },
+  "doc_236.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ethics_of_artificial_intelligence",
+    "topic": "Ethics_of_artificial_intelligence",
+    "words": 8525,
+    "size": "large"
+  },
+  "doc_237.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Existential_risk_from_artificial_general_intelligence",
+    "topic": "Existential_risk_from_artificial_general_intelligence",
+    "words": 6645,
+    "size": "large"
+  },
+  "doc_238.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Turing_test",
+    "topic": "Turing_test",
+    "words": 7923,
+    "size": "large"
+  },
+  "doc_239.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Uncanny_valley",
+    "topic": "Uncanny_valley",
+    "words": 1537,
+    "size": "medium"
+  },
+  "doc_240.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Human%E2%80%93AI_interaction",
+    "topic": "Human%E2%80%93AI_interaction",
+    "words": 3244,
+    "size": "large"
+  },
+  "doc_241.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
+    "topic": "History_of_artificial_intelligence",
+    "words": 11168,
+    "size": "large"
+  },
+  "doc_242.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence",
+    "topic": "Timeline_of_artificial_intelligence",
+    "words": 50,
+    "size": "small"
+  },
+  "doc_243.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Progress_in_artificial_intelligence",
+    "topic": "Progress_in_artificial_intelligence",
+    "words": 1912,
+    "size": "medium"
+  },
+  "doc_244.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AI_winter",
+    "topic": "AI_winter",
+    "words": 3352,
+    "size": "large"
+  },
+  "doc_245.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AI_boom",
+    "topic": "AI_boom",
+    "words": 3367,
+    "size": "large"
+  },
+  "doc_246.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AI_bubble",
+    "topic": "AI_bubble",
+    "words": 1898,
+    "size": "medium"
+  },
+  "doc_247.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_controversies",
+    "topic": "Artificial_intelligence_controversies",
+    "words": 1831,
+    "size": "medium"
+  },
+  "doc_248.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Deepfake_pornography",
+    "topic": "Deepfake_pornography",
+    "words": 2480,
+    "size": "large"
+  },
+  "doc_249.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Taylor_Swift_deepfake_pornography_controversy",
+    "topic": "Taylor_Swift_deepfake_pornography_controversy",
+    "words": 692,
+    "size": "medium"
+  },
+  "doc_250.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Grok_sexual_deepfake_scandal",
+    "topic": "Grok_sexual_deepfake_scandal",
+    "words": 2075,
+    "size": "large"
+  },
+  "doc_251.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Google_Gemini_image_generation_controversy",
+    "topic": "Google_Gemini_image_generation_controversy",
+    "words": 4123,
+    "size": "large"
+  },
+  "doc_252.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/It%27s_the_Most_Terrible_Time_of_the_Year",
+    "topic": "It%27s_the_Most_Terrible_Time_of_the_Year",
+    "words": 439,
+    "size": "small"
+  },
+  "doc_253.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI",
+    "topic": "Removal_of_Sam_Altman_from_OpenAI",
+    "words": 2685,
+    "size": "large"
+  },
+  "doc_254.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Statement_on_AI_Risk",
+    "topic": "Statement_on_AI_Risk",
+    "words": 563,
+    "size": "medium"
+  },
+  "doc_255.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Tay_(chatbot)",
+    "topic": "Tay_(chatbot)",
+    "words": 972,
+    "size": "medium"
+  },
+  "doc_256.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_D%27op%C3%A9ra_Spatial",
+    "topic": "Th%C3%A9%C3%A2tre_D%27op%C3%A9ra_Spatial",
+    "words": 594,
+    "size": "medium"
+  },
+  "doc_257.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Voiceverse_NFT_plagiarism_scandal",
+    "topic": "Voiceverse_NFT_plagiarism_scandal",
+    "words": 2905,
+    "size": "large"
+  },
+  "doc_258.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence",
+    "topic": "Glossary_of_artificial_intelligence",
+    "words": 407,
+    "size": "small"
+  },
+  "doc_259.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Computer",
+    "topic": "Computer",
+    "words": 8336,
+    "size": "large"
+  },
+  "doc_260.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Human_intelligence",
+    "topic": "Human_intelligence",
+    "words": 5020,
+    "size": "large"
+  },
+  "doc_261.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Learning",
+    "topic": "Learning",
+    "words": 6326,
+    "size": "large"
+  },
+  "doc_262.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Reason",
+    "topic": "Reason",
+    "words": 7588,
+    "size": "large"
+  },
+  "doc_263.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Problem-solving",
+    "topic": "Problem-solving",
+    "words": 4798,
+    "size": "large"
+  },
+  "doc_264.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Perception",
+    "topic": "Perception",
+    "words": 6597,
+    "size": "large"
+  },
+  "doc_265.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Decision-making",
+    "topic": "Decision-making",
+    "words": 3634,
+    "size": "large"
+  },
+  "doc_266.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Field_of_research",
+    "topic": "Field_of_research",
+    "words": 1474,
+    "size": "medium"
+  },
+  "doc_267.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Engineering",
+    "topic": "Engineering",
+    "words": 5442,
+    "size": "large"
+  },
+  "doc_268.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Software",
+    "topic": "Software",
+    "words": 1864,
+    "size": "medium"
+  },
+  "doc_269.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Intelligence",
+    "topic": "Intelligence",
+    "words": 2015,
+    "size": "large"
+  },
+  "doc_270.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Web_search_engine",
+    "topic": "Web_search_engine",
+    "words": 5767,
+    "size": "large"
+  },
+  "doc_271.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Chatbot",
+    "topic": "Chatbot",
+    "words": 3008,
+    "size": "large"
+  },
+  "doc_272.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Virtual_assistant",
+    "topic": "Virtual_assistant",
+    "words": 2972,
+    "size": "large"
+  },
+  "doc_273.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Autonomous_vehicles",
+    "topic": "Autonomous_vehicles",
+    "words": 8160,
+    "size": "large"
+  },
+  "doc_274.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Strategy_game",
+    "topic": "Strategy_game",
+    "words": 1194,
+    "size": "medium"
+  },
+  "doc_275.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Chess",
+    "topic": "Chess",
+    "words": 11074,
+    "size": "large"
+  },
+  "doc_276.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Go_(game)",
+    "topic": "Go_(game)",
+    "words": 10324,
+    "size": "large"
+  },
+  "doc_277.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Generative_AI",
+    "topic": "Generative_AI",
+    "words": 4848,
+    "size": "large"
+  },
+  "doc_278.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Automated_reasoning",
+    "topic": "Automated_reasoning",
+    "words": 804,
+    "size": "medium"
+  },
+  "doc_279.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Knowledge_representation",
+    "topic": "Knowledge_representation",
+    "words": 3187,
+    "size": "large"
+  },
+  "doc_280.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Machine_perception",
+    "topic": "Machine_perception",
+    "words": 1237,
+    "size": "medium"
+  },
+  "doc_281.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/State_space_search",
+    "topic": "State_space_search",
+    "words": 268,
+    "size": "small"
+  },
+  "doc_282.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mathematical_optimization",
+    "topic": "Mathematical_optimization",
+    "words": 3242,
+    "size": "large"
+  },
+  "doc_283.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Formal_logic",
+    "topic": "Formal_logic",
+    "words": 9076,
+    "size": "large"
+  },
+  "doc_284.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_neural_network",
+    "topic": "Artificial_neural_network",
+    "words": 8157,
+    "size": "large"
+  },
+  "doc_285.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Operations_research",
+    "topic": "Operations_research",
+    "words": 3114,
+    "size": "large"
+  },
+  "doc_286.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Economics",
+    "topic": "Economics",
+    "words": 10279,
+    "size": "large"
+  },
+  "doc_287.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Psychology",
+    "topic": "Psychology",
+    "words": 15475,
+    "size": "large"
+  },
+  "doc_288.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Linguistics",
+    "topic": "Linguistics",
+    "words": 5150,
+    "size": "large"
+  },
+  "doc_289.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Neuroscience",
+    "topic": "Neuroscience",
+    "words": 3809,
+    "size": "large"
+  },
+  "doc_290.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/OpenAI",
+    "topic": "OpenAI",
+    "words": 7466,
+    "size": "large"
+  },
+  "doc_291.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Google_DeepMind",
+    "topic": "Google_DeepMind",
+    "words": 5930,
+    "size": "large"
+  },
+  "doc_292.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+    "topic": "Meta_Platforms",
+    "words": 7550,
+    "size": "large"
+  },
+  "doc_293.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Graphics_processing_unit",
+    "topic": "Graphics_processing_unit",
+    "words": 4293,
+    "size": "large"
+  },
+  "doc_294.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Transformer_architecture",
+    "topic": "Transformer_architecture",
+    "words": 9545,
+    "size": "large"
+  },
+  "doc_295.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Generative_AI#Concerns",
+    "topic": "Generative_AI#Concerns",
+    "words": 4848,
+    "size": "large"
+  },
+  "doc_296.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AI_aftermath_scenarios",
+    "topic": "AI_aftermath_scenarios",
+    "words": 2419,
+    "size": "large"
+  },
+  "doc_297.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence",
+    "topic": "Existential_risk_from_artificial_intelligence",
+    "words": 6645,
+    "size": "large"
+  },
+  "doc_298.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence",
+    "topic": "Regulation_of_artificial_intelligence",
+    "words": 7997,
+    "size": "large"
+  },
+  "doc_299.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Deductive_reasoning",
+    "topic": "Deductive_reasoning",
+    "words": 6362,
+    "size": "large"
+  },
+  "doc_300.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Uncertainty",
+    "topic": "Uncertainty",
+    "words": 3086,
+    "size": "large"
+  },
+  "doc_301.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Probability",
+    "topic": "Probability",
+    "words": 3572,
+    "size": "large"
+  },
+  "doc_302.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Knowledge_engineering",
+    "topic": "Knowledge_engineering",
+    "words": 443,
+    "size": "small"
+  },
+  "doc_303.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Database",
+    "topic": "Database",
+    "words": 6922,
+    "size": "large"
+  },
+  "doc_304.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Knowledge_base",
+    "topic": "Knowledge_base",
+    "words": 971,
+    "size": "medium"
+  },
+  "doc_305.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ontology_(information_science)",
+    "topic": "Ontology_(information_science)",
+    "words": 1945,
+    "size": "medium"
+  },
+  "doc_306.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Default_reasoning",
+    "topic": "Default_reasoning",
+    "words": 1468,
+    "size": "medium"
+  },
+  "doc_307.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Commonsense_knowledge",
+    "topic": "Commonsense_knowledge",
+    "words": 686,
+    "size": "medium"
+  },
+  "doc_308.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Knowledge_acquisition",
+    "topic": "Knowledge_acquisition",
+    "words": 412,
+    "size": "small"
+  },
+  "doc_309.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Rational_agent",
+    "topic": "Rational_agent",
+    "words": 325,
+    "size": "small"
+  },
+  "doc_310.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Automated_planning",
+    "topic": "Automated_planning",
+    "words": 1472,
+    "size": "medium"
+  },
+  "doc_311.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Automated_decision-making",
+    "topic": "Automated_decision-making",
+    "words": 2410,
+    "size": "large"
+  },
+  "doc_312.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Utility",
+    "topic": "Utility",
+    "words": 3687,
+    "size": "large"
+  },
+  "doc_313.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Expected_utility",
+    "topic": "Expected_utility",
+    "words": 3930,
+    "size": "large"
+  },
+  "doc_314.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Automated_planning_and_scheduling#classical_planning",
+    "topic": "Automated_planning_and_scheduling#classical_planning",
+    "words": 1472,
+    "size": "medium"
+  },
+  "doc_315.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Inverse_reinforcement_learning",
+    "topic": "Inverse_reinforcement_learning",
+    "words": 5148,
+    "size": "large"
+  },
+  "doc_316.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Information_value_theory",
+    "topic": "Information_value_theory",
+    "words": 935,
+    "size": "medium"
+  },
+  "doc_317.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Intractably",
+    "topic": "Intractably",
+    "words": 5540,
+    "size": "large"
+  },
+  "doc_318.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Markov_decision_process",
+    "topic": "Markov_decision_process",
+    "words": 4095,
+    "size": "large"
+  },
+  "doc_319.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Finite-state_machine",
+    "topic": "Finite-state_machine",
+    "words": 2468,
+    "size": "large"
+  },
+  "doc_320.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Reinforcement_learning#Policy",
+    "topic": "Reinforcement_learning#Policy",
+    "words": 5148,
+    "size": "large"
+  },
+  "doc_321.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Policy_iteration",
+    "topic": "Policy_iteration",
+    "words": 4095,
+    "size": "large"
+  },
+  "doc_322.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Heuristic",
+    "topic": "Heuristic",
+    "words": 2163,
+    "size": "large"
+  },
+  "doc_323.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Game_theory",
+    "topic": "Game_theory",
+    "words": 8835,
+    "size": "large"
+  },
+  "doc_324.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
+    "topic": "Unsupervised_learning",
+    "words": 1500,
+    "size": "medium"
+  },
+  "doc_325.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Statistical_classification",
+    "topic": "Statistical_classification",
+    "words": 1104,
+    "size": "medium"
+  },
+  "doc_326.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Regression_analysis",
+    "topic": "Regression_analysis",
+    "words": 3679,
+    "size": "large"
+  },
+  "doc_327.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Reinforcement_learning",
+    "topic": "Reinforcement_learning",
+    "words": 5148,
+    "size": "large"
+  },
+  "doc_328.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Transfer_learning",
+    "topic": "Transfer_learning",
+    "words": 717,
+    "size": "medium"
+  },
+  "doc_329.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_neural_networks",
+    "topic": "Artificial_neural_networks",
+    "words": 8157,
+    "size": "large"
+  },
+  "doc_330.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Computational_learning_theory",
+    "topic": "Computational_learning_theory",
+    "words": 275,
+    "size": "small"
+  },
+  "doc_331.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Computational_complexity",
+    "topic": "Computational_complexity",
+    "words": 2815,
+    "size": "large"
+  },
+  "doc_332.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Sample_complexity",
+    "topic": "Sample_complexity",
+    "words": 1770,
+    "size": "medium"
+  },
+  "doc_333.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Optimization",
+    "topic": "Optimization",
+    "words": 3242,
+    "size": "large"
+  },
+  "doc_334.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Speech_recognition",
+    "topic": "Speech_recognition",
+    "words": 4962,
+    "size": "large"
+  },
+  "doc_335.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Speech_synthesis",
+    "topic": "Speech_synthesis",
+    "words": 6766,
+    "size": "large"
+  },
+  "doc_336.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Information_extraction",
+    "topic": "Information_extraction",
+    "words": 1117,
+    "size": "medium"
+  },
+  "doc_337.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Information_retrieval",
+    "topic": "Information_retrieval",
+    "words": 1401,
+    "size": "medium"
+  },
+  "doc_338.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Question_answering",
+    "topic": "Question_answering",
+    "words": 1877,
+    "size": "medium"
+  },
+  "doc_339.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Noam_Chomsky",
+    "topic": "Noam_Chomsky",
+    "words": 10695,
+    "size": "large"
+  },
+  "doc_340.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Generative_grammar",
+    "topic": "Generative_grammar",
+    "words": 1766,
+    "size": "medium"
+  },
+  "doc_341.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Semantic_network",
+    "topic": "Semantic_network",
+    "words": 1540,
+    "size": "medium"
+  },
+  "doc_342.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Word-sense_disambiguation",
+    "topic": "Word-sense_disambiguation",
+    "words": 3489,
+    "size": "large"
+  },
+  "doc_343.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Blocks_world",
+    "topic": "Blocks_world",
+    "words": 395,
+    "size": "small"
+  },
+  "doc_344.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Commonsense_knowledge_(artificial_intelligence)",
+    "topic": "Commonsense_knowledge_(artificial_intelligence)",
+    "words": 686,
+    "size": "medium"
+  },
+  "doc_345.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Margaret_Masterman",
+    "topic": "Margaret_Masterman",
+    "words": 2219,
+    "size": "large"
+  },
+  "doc_346.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Thesauri",
+    "topic": "Thesauri",
+    "words": 1130,
+    "size": "medium"
+  },
+  "doc_347.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Word_embedding",
+    "topic": "Word_embedding",
+    "words": 1477,
+    "size": "medium"
+  },
+  "doc_348.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Vector_space",
+    "topic": "Vector_space",
+    "words": 8277,
+    "size": "large"
+  },
+  "doc_349.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)",
+    "topic": "Transformer_(machine_learning_model)",
+    "words": 9545,
+    "size": "large"
+  },
+  "doc_350.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Attention_(machine_learning)",
+    "topic": "Attention_(machine_learning)",
+    "words": 2287,
+    "size": "large"
+  },
+  "doc_351.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Generative_pre-trained_transformer",
+    "topic": "Generative_pre-trained_transformer",
+    "words": 2746,
+    "size": "large"
+  },
+  "doc_352.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bar_exam",
+    "topic": "Bar_exam",
+    "words": 4432,
+    "size": "large"
+  },
+  "doc_353.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/SAT",
+    "topic": "SAT",
+    "words": 12842,
+    "size": "large"
+  },
+  "doc_354.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/GRE",
+    "topic": "GRE",
+    "words": 3996,
+    "size": "large"
+  },
+  "doc_355.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lidar",
+    "topic": "Lidar",
+    "words": 8825,
+    "size": "large"
+  },
+  "doc_356.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Tactile_sensor",
+    "topic": "Tactile_sensor",
+    "words": 848,
+    "size": "medium"
+  },
+  "doc_357.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Image_classification",
+    "topic": "Image_classification",
+    "words": 3849,
+    "size": "large"
+  },
+  "doc_358.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Facial_recognition_system",
+    "topic": "Facial_recognition_system",
+    "words": 11540,
+    "size": "large"
+  },
+  "doc_359.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Object_recognition",
+    "topic": "Object_recognition",
+    "words": 179,
+    "size": "small"
+  },
+  "doc_360.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Motion_capture",
+    "topic": "Motion_capture",
+    "words": 5433,
+    "size": "large"
+  },
+  "doc_361.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Robotic_perception",
+    "topic": "Robotic_perception",
+    "words": 2027,
+    "size": "large"
+  },
+  "doc_362.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Kismet_(robot)",
+    "topic": "Kismet_(robot)",
+    "words": 581,
+    "size": "medium"
+  },
+  "doc_363.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Affective_computing",
+    "topic": "Affective_computing",
+    "words": 4147,
+    "size": "large"
+  },
+  "doc_364.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Affect_(psychology)",
+    "topic": "Affect_(psychology)",
+    "words": 4168,
+    "size": "large"
+  },
+  "doc_365.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction",
+    "topic": "Human%E2%80%93computer_interaction",
+    "words": 1925,
+    "size": "medium"
+  },
+  "doc_366.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Sentiment_analysis",
+    "topic": "Sentiment_analysis",
+    "words": 3864,
+    "size": "large"
+  },
+  "doc_367.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Multimodal_sentiment_analysis",
+    "topic": "Multimodal_sentiment_analysis",
+    "words": 827,
+    "size": "medium"
+  },
+  "doc_368.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Local_search_(optimization)",
+    "topic": "Local_search_(optimization)",
+    "words": 679,
+    "size": "medium"
+  },
+  "doc_369.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Means-ends_analysis",
+    "topic": "Means-ends_analysis",
+    "words": 660,
+    "size": "medium"
+  },
+  "doc_370.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Brute_force_search",
+    "topic": "Brute_force_search",
+    "words": 1883,
+    "size": "medium"
+  },
+  "doc_371.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Search_algorithm",
+    "topic": "Search_algorithm",
+    "words": 923,
+    "size": "medium"
+  },
+  "doc_372.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Astronomically_large",
+    "topic": "Astronomically_large",
+    "words": 3898,
+    "size": "large"
+  },
+  "doc_373.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Computation_time",
+    "topic": "Computation_time",
+    "words": 3413,
+    "size": "large"
+  },
+  "doc_374.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Heuristics",
+    "topic": "Heuristics",
+    "words": 2163,
+    "size": "large"
+  },
+  "doc_375.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Adversarial_search",
+    "topic": "Adversarial_search",
+    "words": 923,
+    "size": "medium"
+  },
+  "doc_376.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Game_AI",
+    "topic": "Game_AI",
+    "words": 5847,
+    "size": "large"
+  },
+  "doc_377.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Game_tree",
+    "topic": "Game_tree",
+    "words": 877,
+    "size": "medium"
+  },
+  "doc_378.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Gradient_descent",
+    "topic": "Gradient_descent",
+    "words": 3115,
+    "size": "large"
+  },
+  "doc_379.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Loss_function",
+    "topic": "Loss_function",
+    "words": 1787,
+    "size": "medium"
+  },
+  "doc_380.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Backpropagation",
+    "topic": "Backpropagation",
+    "words": 4339,
+    "size": "large"
+  },
+  "doc_381.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Evolutionary_computation",
+    "topic": "Evolutionary_computation",
+    "words": 1644,
+    "size": "medium"
+  },
+  "doc_382.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_selection",
+    "topic": "Artificial_selection",
+    "words": 3539,
+    "size": "large"
+  },
+  "doc_383.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Swarm_intelligence",
+    "topic": "Swarm_intelligence",
+    "words": 2806,
+    "size": "large"
+  },
+  "doc_384.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Particle_swarm_optimization",
+    "topic": "Particle_swarm_optimization",
+    "words": 2790,
+    "size": "large"
+  },
+  "doc_385.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Flocking",
+    "topic": "Flocking",
+    "words": 1278,
+    "size": "medium"
+  },
+  "doc_386.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ant_colony_optimization",
+    "topic": "Ant_colony_optimization",
+    "words": 3279,
+    "size": "large"
+  },
+  "doc_387.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ant_trail",
+    "topic": "Ant_trail",
+    "words": 9662,
+    "size": "large"
+  },
+  "doc_388.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Logic",
+    "topic": "Logic",
+    "words": 9076,
+    "size": "large"
+  },
+  "doc_389.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Automatic_reasoning",
+    "topic": "Automatic_reasoning",
+    "words": 804,
+    "size": "medium"
+  },
+  "doc_390.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Propositional_logic",
+    "topic": "Propositional_logic",
+    "words": 6614,
+    "size": "large"
+  },
+  "doc_391.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Logical_connective",
+    "topic": "Logical_connective",
+    "words": 1477,
+    "size": "medium"
+  },
+  "doc_392.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Predicate_logic",
+    "topic": "Predicate_logic",
+    "words": 8158,
+    "size": "large"
+  },
+  "doc_393.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Quantifier_(logic)",
+    "topic": "Quantifier_(logic)",
+    "words": 3262,
+    "size": "large"
+  },
+  "doc_394.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Logical_proof",
+    "topic": "Logical_proof",
+    "words": 467,
+    "size": "small"
+  },
+  "doc_395.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Logical_consequence",
+    "topic": "Logical_consequence",
+    "words": 1093,
+    "size": "medium"
+  },
+  "doc_396.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Premise",
+    "topic": "Premise",
+    "words": 575,
+    "size": "medium"
+  },
+  "doc_397.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Tree_structure",
+    "topic": "Tree_structure",
+    "words": 567,
+    "size": "medium"
+  },
+  "doc_398.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Inference_rule",
+    "topic": "Inference_rule",
+    "words": 4640,
+    "size": "large"
+  },
+  "doc_399.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Leaf_nodes",
+    "topic": "Leaf_nodes",
+    "words": 1273,
+    "size": "medium"
+  },
+  "doc_400.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Axiom",
+    "topic": "Axiom",
+    "words": 4140,
+    "size": "large"
+  },
+  "doc_401.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Horn_clause",
+    "topic": "Horn_clause",
+    "words": 898,
+    "size": "medium"
+  },
+  "doc_402.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Forward_chaining",
+    "topic": "Forward_chaining",
+    "words": 420,
+    "size": "small"
+  },
+  "doc_403.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Backward_chaining",
+    "topic": "Backward_chaining",
+    "words": 617,
+    "size": "medium"
+  },
+  "doc_404.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/First-order_logic",
+    "topic": "First-order_logic",
+    "words": 8158,
+    "size": "large"
+  },
+  "doc_405.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Resolution_(logic)",
+    "topic": "Resolution_(logic)",
+    "words": 1906,
+    "size": "medium"
+  },
+  "doc_406.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Undecidable_problem",
+    "topic": "Undecidable_problem",
+    "words": 1628,
+    "size": "medium"
+  },
+  "doc_407.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Intractable_problem",
+    "topic": "Intractable_problem",
+    "words": 5540,
+    "size": "large"
+  },
+  "doc_408.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Logic_programming",
+    "topic": "Logic_programming",
+    "words": 6975,
+    "size": "large"
+  },
+  "doc_409.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Prolog",
+    "topic": "Prolog",
+    "words": 4285,
+    "size": "large"
+  },
+  "doc_410.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Turing_complete",
+    "topic": "Turing_complete",
+    "words": 1851,
+    "size": "medium"
+  },
+  "doc_411.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Symbolic_programming",
+    "topic": "Symbolic_programming",
+    "words": 111,
+    "size": "small"
+  },
+  "doc_412.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Fuzzy_logic",
+    "topic": "Fuzzy_logic",
+    "words": 3615,
+    "size": "large"
+  },
+  "doc_413.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Non-monotonic_logic",
+    "topic": "Non-monotonic_logic",
+    "words": 653,
+    "size": "medium"
+  },
+  "doc_414.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Negation_as_failure",
+    "topic": "Negation_as_failure",
+    "words": 719,
+    "size": "medium"
+  },
+  "doc_415.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Conditional_probability_table",
+    "topic": "Conditional_probability_table",
+    "words": 575,
+    "size": "medium"
+  },
+  "doc_416.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Decision_theory",
+    "topic": "Decision_theory",
+    "words": 1700,
+    "size": "medium"
+  },
+  "doc_417.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Decision_analysis",
+    "topic": "Decision_analysis",
+    "words": 1458,
+    "size": "medium"
+  },
+  "doc_418.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Decision_network",
+    "topic": "Decision_network",
+    "words": 668,
+    "size": "medium"
+  },
+  "doc_419.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mechanism_design",
+    "topic": "Mechanism_design",
+    "words": 3232,
+    "size": "large"
+  },
+  "doc_420.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bayesian_inference",
+    "topic": "Bayesian_inference",
+    "words": 5551,
+    "size": "large"
+  },
+  "doc_421.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm",
+    "topic": "Expectation%E2%80%93maximization_algorithm",
+    "words": 5410,
+    "size": "large"
+  },
+  "doc_422.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Dynamic_Bayesian_network",
+    "topic": "Dynamic_Bayesian_network",
+    "words": 210,
+    "size": "small"
+  },
+  "doc_423.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Hidden_Markov_model",
+    "topic": "Hidden_Markov_model",
+    "words": 4345,
+    "size": "large"
+  },
+  "doc_424.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Kalman_filter",
+    "topic": "Kalman_filter",
+    "words": 9745,
+    "size": "large"
+  },
+  "doc_425.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Cluster_analysis",
+    "topic": "Cluster_analysis",
+    "words": 4962,
+    "size": "large"
+  },
+  "doc_426.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Old_Faithful",
+    "topic": "Old_Faithful",
+    "words": 652,
+    "size": "medium"
+  },
+  "doc_427.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Classifier_(mathematics)",
+    "topic": "Classifier_(mathematics)",
+    "words": 1104,
+    "size": "medium"
+  },
+  "doc_428.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Pattern_matching",
+    "topic": "Pattern_matching",
+    "words": 1927,
+    "size": "medium"
+  },
+  "doc_429.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Random_variate",
+    "topic": "Random_variate",
+    "words": 448,
+    "size": "small"
+  },
+  "doc_430.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Decision_tree",
+    "topic": "Decision_tree",
+    "words": 2533,
+    "size": "large"
+  },
+  "doc_431.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/K-nearest_neighbor",
+    "topic": "K-nearest_neighbor",
+    "words": 3321,
+    "size": "large"
+  },
+  "doc_432.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Kernel_methods",
+    "topic": "Kernel_methods",
+    "words": 1232,
+    "size": "medium"
+  },
+  "doc_433.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Support_vector_machine",
+    "topic": "Support_vector_machine",
+    "words": 6325,
+    "size": "large"
+  },
+  "doc_434.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Naive_Bayes_classifier",
+    "topic": "Naive_Bayes_classifier",
+    "words": 6099,
+    "size": "large"
+  },
+  "doc_435.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Neuron",
+    "topic": "Neuron",
+    "words": 5025,
+    "size": "large"
+  },
+  "doc_436.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Human_brain",
+    "topic": "Human_brain",
+    "words": 11767,
+    "size": "large"
+  },
+  "doc_437.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_neurons",
+    "topic": "Artificial_neurons",
+    "words": 2249,
+    "size": "large"
+  },
+  "doc_438.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Neurons",
+    "topic": "Neurons",
+    "words": 5025,
+    "size": "large"
+  },
+  "doc_439.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Weighting",
+    "topic": "Weighting",
+    "words": 618,
+    "size": "medium"
+  },
+  "doc_440.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Pattern_recognition",
+    "topic": "Pattern_recognition",
+    "words": 2614,
+    "size": "large"
+  },
+  "doc_441.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Feedforward_neural_network",
+    "topic": "Feedforward_neural_network",
+    "words": 1003,
+    "size": "medium"
+  },
+  "doc_442.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Perceptron",
+    "topic": "Perceptron",
+    "words": 4349,
+    "size": "large"
+  },
+  "doc_443.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Recurrent_neural_network",
+    "topic": "Recurrent_neural_network",
+    "words": 4857,
+    "size": "large"
+  },
+  "doc_444.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Long_short-term_memory",
+    "topic": "Long_short-term_memory",
+    "words": 2067,
+    "size": "large"
+  },
+  "doc_445.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Vanishing_gradient_problem",
+    "topic": "Vanishing_gradient_problem",
+    "words": 2859,
+    "size": "large"
+  },
+  "doc_446.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
+    "topic": "Convolutional_neural_network",
+    "words": 8620,
+    "size": "large"
+  },
+  "doc_447.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Kernel_(image_processing)",
+    "topic": "Kernel_(image_processing)",
+    "words": 912,
+    "size": "medium"
+  },
+  "doc_448.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Image_processing",
+    "topic": "Image_processing",
+    "words": 3098,
+    "size": "large"
+  },
+  "doc_449.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/GPU",
+    "topic": "GPU",
+    "words": 4293,
+    "size": "large"
+  },
+  "doc_450.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research",
+    "topic": "List_of_datasets_for_machine-learning_research",
+    "words": 570,
+    "size": "medium"
+  },
+  "doc_451.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/ImageNet",
+    "topic": "ImageNet",
+    "words": 2309,
+    "size": "large"
+  },
+  "doc_452.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Large_language_model",
+    "topic": "Large_language_model",
+    "words": 7599,
+    "size": "large"
+  },
+  "doc_453.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Corpus_of_text",
+    "topic": "Corpus_of_text",
+    "words": 257,
+    "size": "small"
+  },
+  "doc_454.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lexical_analysis",
+    "topic": "Lexical_analysis",
+    "words": 2874,
+    "size": "large"
+  },
+  "doc_455.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback",
+    "topic": "Reinforcement_learning_from_human_feedback",
+    "words": 5357,
+    "size": "large"
+  },
+  "doc_456.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)",
+    "topic": "Hallucination_(artificial_intelligence)",
+    "words": 5067,
+    "size": "large"
+  },
+  "doc_457.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/ChatGPT",
+    "topic": "ChatGPT",
+    "words": 5302,
+    "size": "large"
+  },
+  "doc_458.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Anthropic#Claude",
+    "topic": "Anthropic#Claude",
+    "words": 2467,
+    "size": "large"
+  },
+  "doc_459.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Gemini_(chatbot)",
+    "topic": "Gemini_(chatbot)",
+    "words": 4123,
+    "size": "large"
+  },
+  "doc_460.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Microsoft_Copilot",
+    "topic": "Microsoft_Copilot",
+    "words": 3473,
+    "size": "large"
+  },
+  "doc_461.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Meta_AI",
+    "topic": "Meta_AI",
+    "words": 524,
+    "size": "medium"
+  },
+  "doc_462.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Multimodal_learning",
+    "topic": "Multimodal_learning",
+    "words": 1064,
+    "size": "medium"
+  },
+  "doc_463.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Modality_(human%E2%80%93computer_interaction)",
+    "topic": "Modality_(human%E2%80%93computer_interaction)",
+    "words": 556,
+    "size": "medium"
+  },
+  "doc_464.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Programming_languages_for_artificial_intelligence",
+    "topic": "Programming_languages_for_artificial_intelligence",
+    "words": 30,
+    "size": "small"
+  },
+  "doc_465.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Hardware_for_artificial_intelligence",
+    "topic": "Hardware_for_artificial_intelligence",
+    "words": 578,
+    "size": "medium"
+  },
+  "doc_466.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/TensorFlow",
+    "topic": "TensorFlow",
+    "words": 1895,
+    "size": "medium"
+  },
+  "doc_467.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Central_processing_unit",
+    "topic": "Central_processing_unit",
+    "words": 8208,
+    "size": "large"
+  },
+  "doc_468.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Programming_language",
+    "topic": "Programming_language",
+    "words": 4547,
+    "size": "large"
+  },
+  "doc_469.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/General-purpose_programming_language",
+    "topic": "General-purpose_programming_language",
+    "words": 1006,
+    "size": "medium"
+  },
+  "doc_470.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Integrated_circuit",
+    "topic": "Integrated_circuit",
+    "words": 5229,
+    "size": "large"
+  },
+  "doc_471.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Moore%27s_law",
+    "topic": "Moore%27s_law",
+    "words": 4016,
+    "size": "large"
+  },
+  "doc_472.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Intel",
+    "topic": "Intel",
+    "words": 15416,
+    "size": "large"
+  },
+  "doc_473.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Gordon_Moore",
+    "topic": "Gordon_Moore",
+    "words": 1480,
+    "size": "medium"
+  },
+  "doc_474.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/GPUs",
+    "topic": "GPUs",
+    "words": 4293,
+    "size": "large"
+  },
+  "doc_475.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Huang%27s_law",
+    "topic": "Huang%27s_law",
+    "words": 642,
+    "size": "medium"
+  },
+  "doc_476.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Nvidia",
+    "topic": "Nvidia",
+    "words": 9165,
+    "size": "large"
+  },
+  "doc_477.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
+    "topic": "Jensen_Huang",
+    "words": 2787,
+    "size": "large"
+  },
+  "doc_478.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AI_Overviews",
+    "topic": "AI_Overviews",
+    "words": 710,
+    "size": "medium"
+  },
+  "doc_479.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Search_engines",
+    "topic": "Search_engines",
+    "words": 65,
+    "size": "small"
+  },
+  "doc_480.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Google_Search",
+    "topic": "Google_Search",
+    "words": 6858,
+    "size": "large"
+  },
+  "doc_481.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Targeted_advertising",
+    "topic": "Targeted_advertising",
+    "words": 6842,
+    "size": "large"
+  },
+  "doc_482.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Recommendation_systems",
+    "topic": "Recommendation_systems",
+    "words": 5630,
+    "size": "large"
+  },
+  "doc_483.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Netflix",
+    "topic": "Netflix",
+    "words": 12708,
+    "size": "large"
+  },
+  "doc_484.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/YouTube",
+    "topic": "YouTube",
+    "words": 9478,
+    "size": "large"
+  },
+  "doc_485.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Amazon_(company)",
+    "topic": "Amazon_(company)",
+    "words": 5739,
+    "size": "large"
+  },
+  "doc_486.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Internet_traffic",
+    "topic": "Internet_traffic",
+    "words": 1564,
+    "size": "medium"
+  },
+  "doc_487.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Marketing_and_artificial_intelligence",
+    "topic": "Marketing_and_artificial_intelligence",
+    "words": 3889,
+    "size": "large"
+  },
+  "doc_488.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AdSense",
+    "topic": "AdSense",
+    "words": 2018,
+    "size": "large"
+  },
+  "doc_489.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Facebook",
+    "topic": "Facebook",
+    "words": 13016,
+    "size": "large"
+  },
+  "doc_490.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Siri",
+    "topic": "Siri",
+    "words": 3546,
+    "size": "large"
+  },
+  "doc_491.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Amazon_Alexa",
+    "topic": "Amazon_Alexa",
+    "words": 4463,
+    "size": "large"
+  },
+  "doc_492.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Unmanned_aerial_vehicle",
+    "topic": "Unmanned_aerial_vehicle",
+    "words": 7638,
+    "size": "large"
+  },
+  "doc_493.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Advanced_driver-assistance_system",
+    "topic": "Advanced_driver-assistance_system",
+    "words": 2747,
+    "size": "large"
+  },
+  "doc_494.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Self-driving_cars",
+    "topic": "Self-driving_cars",
+    "words": 8160,
+    "size": "large"
+  },
+  "doc_495.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Automatic_language_translation",
+    "topic": "Automatic_language_translation",
+    "words": 4064,
+    "size": "large"
+  },
+  "doc_496.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Microsoft_Translator",
+    "topic": "Microsoft_Translator",
+    "words": 1509,
+    "size": "medium"
+  },
+  "doc_497.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Google_Translate",
+    "topic": "Google_Translate",
+    "words": 3956,
+    "size": "large"
+  },
+  "doc_498.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Apple_Computer",
+    "topic": "Apple_Computer",
+    "words": 13497,
+    "size": "large"
+  },
+  "doc_499.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/FaceID",
+    "topic": "FaceID",
+    "words": 2464,
+    "size": "large"
+  },
+  "doc_500.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Microsoft",
+    "topic": "Microsoft",
+    "words": 10248,
+    "size": "large"
+  },
+  "doc_501.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/DeepFace",
+    "topic": "DeepFace",
+    "words": 1886,
+    "size": "medium"
+  },
+  "doc_502.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Google",
+    "topic": "Google",
+    "words": 10946,
+    "size": "large"
+  },
+  "doc_503.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/FaceNet",
+    "topic": "FaceNet",
+    "words": 352,
+    "size": "small"
+  },
+  "doc_504.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Image_labeling",
+    "topic": "Image_labeling",
+    "words": 266,
+    "size": "small"
+  },
+  "doc_505.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Photos_(Apple)",
+    "topic": "Photos_(Apple)",
+    "words": 797,
+    "size": "medium"
+  },
+  "doc_506.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/TikTok",
+    "topic": "TikTok",
+    "words": 15126,
+    "size": "large"
+  },
+  "doc_507.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Chief_automation_officer",
+    "topic": "Chief_automation_officer",
+    "words": 64,
+    "size": "small"
+  },
+  "doc_508.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AlphaFold_2",
+    "topic": "AlphaFold_2",
+    "words": 3205,
+    "size": "large"
+  },
+  "doc_509.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Protein_structure",
+    "topic": "Protein_structure",
+    "words": 2917,
+    "size": "large"
+  },
+  "doc_510.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Parkinson%27s_disease",
+    "topic": "Parkinson%27s_disease",
+    "words": 6877,
+    "size": "large"
+  },
+  "doc_511.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Alpha-synuclein",
+    "topic": "Alpha-synuclein",
+    "words": 3312,
+    "size": "large"
+  },
+  "doc_512.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_video_games",
+    "topic": "Artificial_intelligence_in_video_games",
+    "words": 5847,
+    "size": "large"
+  },
+  "doc_513.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/IBM_Deep_Blue",
+    "topic": "IBM_Deep_Blue",
+    "words": 1707,
+    "size": "medium"
+  },
+  "doc_514.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Garry_Kasparov",
+    "topic": "Garry_Kasparov",
+    "words": 7659,
+    "size": "large"
+  },
+  "doc_515.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Jeopardy!",
+    "topic": "Jeopardy!",
+    "words": 11475,
+    "size": "large"
+  },
+  "doc_516.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Quiz_show",
+    "topic": "Quiz_show",
+    "words": 4552,
+    "size": "large"
+  },
+  "doc_517.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Question_answering_system",
+    "topic": "Question_answering_system",
+    "words": 1877,
+    "size": "medium"
+  },
+  "doc_518.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Watson_(artificial_intelligence_software)",
+    "topic": "Watson_(artificial_intelligence_software)",
+    "words": 4547,
+    "size": "large"
+  },
+  "doc_519.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Brad_Rutter",
+    "topic": "Brad_Rutter",
+    "words": 1553,
+    "size": "medium"
+  },
+  "doc_520.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ken_Jennings",
+    "topic": "Ken_Jennings",
+    "words": 5457,
+    "size": "large"
+  },
+  "doc_521.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AlphaGo",
+    "topic": "AlphaGo",
+    "words": 4607,
+    "size": "large"
+  },
+  "doc_522.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lee_Sedol",
+    "topic": "Lee_Sedol",
+    "words": 1057,
+    "size": "medium"
+  },
+  "doc_523.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Computer_Go",
+    "topic": "Computer_Go",
+    "words": 4787,
+    "size": "large"
+  },
+  "doc_524.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Go_handicaps",
+    "topic": "Go_handicaps",
+    "words": 1017,
+    "size": "medium"
+  },
+  "doc_525.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AlphaGo_versus_Ke_Jie",
+    "topic": "AlphaGo_versus_Ke_Jie",
+    "words": 478,
+    "size": "small"
+  },
+  "doc_526.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Imperfect_information",
+    "topic": "Imperfect_information",
+    "words": 368,
+    "size": "small"
+  },
+  "doc_527.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Poker",
+    "topic": "Poker",
+    "words": 1918,
+    "size": "medium"
+  },
+  "doc_528.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Pluribus_(poker_bot)",
+    "topic": "Pluribus_(poker_bot)",
+    "words": 385,
+    "size": "small"
+  },
+  "doc_529.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/DeepMind",
+    "topic": "DeepMind",
+    "words": 5930,
+    "size": "large"
+  },
+  "doc_530.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/MuZero",
+    "topic": "MuZero",
+    "words": 637,
+    "size": "medium"
+  },
+  "doc_531.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Atari",
+    "topic": "Atari",
+    "words": 3399,
+    "size": "large"
+  },
+  "doc_532.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/StarCraft_II",
+    "topic": "StarCraft_II",
+    "words": 2120,
+    "size": "large"
+  },
+  "doc_533.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Gran_Turismo_(series)",
+    "topic": "Gran_Turismo_(series)",
+    "words": 4500,
+    "size": "large"
+  },
+  "doc_534.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Open-world",
+    "topic": "Open-world",
+    "words": 3388,
+    "size": "large"
+  },
+  "doc_535.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Alibaba_Group",
+    "topic": "Alibaba_Group",
+    "words": 6647,
+    "size": "large"
+  },
+  "doc_536.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Qwen",
+    "topic": "Qwen",
+    "words": 1121,
+    "size": "medium"
+  },
+  "doc_537.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Monte_Carlo_tree_search",
+    "topic": "Monte_Carlo_tree_search",
+    "words": 2365,
+    "size": "large"
+  },
+  "doc_538.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/American_Invitational_Mathematics_Examination",
+    "topic": "American_Invitational_Mathematics_Examination",
+    "words": 897,
+    "size": "medium"
+  },
+  "doc_539.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AlphaGeometry",
+    "topic": "AlphaGeometry",
+    "words": 372,
+    "size": "small"
+  },
+  "doc_540.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AlphaEvolve",
+    "topic": "AlphaEvolve",
+    "words": 273,
+    "size": "small"
+  },
+  "doc_541.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lean_(proof_assistant)",
+    "topic": "Lean_(proof_assistant)",
+    "words": 1091,
+    "size": "medium"
+  },
+  "doc_542.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/International_Math_Olympiad",
+    "topic": "International_Math_Olympiad",
+    "words": 2391,
+    "size": "large"
+  },
+  "doc_543.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Topological_deep_learning",
+    "topic": "Topological_deep_learning",
+    "words": 1751,
+    "size": "medium"
+  },
+  "doc_544.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Topological",
+    "topic": "Topological",
+    "words": 2932,
+    "size": "large"
+  },
+  "doc_545.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/World_Pensions_%26_Investments_Forum",
+    "topic": "World_Pensions_%26_Investments_Forum",
+    "words": 336,
+    "size": "small"
+  },
+  "doc_546.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Military_applications_of_artificial_intelligence",
+    "topic": "Military_applications_of_artificial_intelligence",
+    "words": 921,
+    "size": "medium"
+  },
+  "doc_547.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Command_and_control",
+    "topic": "Command_and_control",
+    "words": 850,
+    "size": "medium"
+  },
+  "doc_548.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Vehicular_automation",
+    "topic": "Vehicular_automation",
+    "words": 5522,
+    "size": "large"
+  },
+  "doc_549.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Target_acquisition",
+    "topic": "Target_acquisition",
+    "words": 351,
+    "size": "small"
+  },
+  "doc_550.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Forward_observers_in_the_U.S._military",
+    "topic": "Forward_observers_in_the_U.S._military",
+    "words": 1656,
+    "size": "medium"
+  },
+  "doc_551.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Generative_model",
+    "topic": "Generative_model",
+    "words": 1647,
+    "size": "medium"
+  },
+  "doc_552.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Digital_image",
+    "topic": "Digital_image",
+    "words": 1247,
+    "size": "medium"
+  },
+  "doc_553.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Digital_video",
+    "topic": "Digital_video",
+    "words": 3024,
+    "size": "large"
+  },
+  "doc_554.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Digital_audio",
+    "topic": "Digital_audio",
+    "words": 1950,
+    "size": "medium"
+  },
+  "doc_555.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Software_code",
+    "topic": "Software_code",
+    "words": 5870,
+    "size": "large"
+  },
+  "doc_556.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Training_data",
+    "topic": "Training_data",
+    "words": 1887,
+    "size": "medium"
+  },
+  "doc_557.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Natural_language",
+    "topic": "Natural_language",
+    "words": 498,
+    "size": "small"
+  },
+  "doc_558.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Prompt_(natural_language)",
+    "topic": "Prompt_(natural_language)",
+    "words": 2478,
+    "size": "large"
+  },
+  "doc_559.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)",
+    "topic": "Neural_network_(machine_learning)",
+    "words": 8157,
+    "size": "large"
+  },
+  "doc_560.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Chatbots",
+    "topic": "Chatbots",
+    "words": 3008,
+    "size": "large"
+  },
+  "doc_561.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Claude_(language_model)",
+    "topic": "Claude_(language_model)",
+    "words": 2654,
+    "size": "large"
+  },
+  "doc_562.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+    "topic": "DeepSeek_(chatbot)",
+    "words": 2283,
+    "size": "large"
+  },
+  "doc_563.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Grok_(chatbot)",
+    "topic": "Grok_(chatbot)",
+    "words": 6147,
+    "size": "large"
+  },
+  "doc_564.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Text-to-image",
+    "topic": "Text-to-image",
+    "words": 1404,
+    "size": "medium"
+  },
+  "doc_565.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Stable_Diffusion",
+    "topic": "Stable_Diffusion",
+    "words": 3356,
+    "size": "large"
+  },
+  "doc_566.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Flux_(text-to-image_model)",
+    "topic": "Flux_(text-to-image_model)",
+    "words": 1119,
+    "size": "medium"
+  },
+  "doc_567.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Midjourney",
+    "topic": "Midjourney",
+    "words": 1831,
+    "size": "medium"
+  },
+  "doc_568.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/DALL-E",
+    "topic": "DALL-E",
+    "words": 2226,
+    "size": "large"
+  },
+  "doc_569.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Text-to-video",
+    "topic": "Text-to-video",
+    "words": 1446,
+    "size": "medium"
+  },
+  "doc_570.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Veo_(text-to-video_model)",
+    "topic": "Veo_(text-to-video_model)",
+    "words": 691,
+    "size": "medium"
+  },
+  "doc_571.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/LTX-2",
+    "topic": "LTX-2",
+    "words": 570,
+    "size": "medium"
+  },
+  "doc_572.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Sora_(text-to-video_model)",
+    "topic": "Sora_(text-to-video_model)",
+    "words": 1846,
+    "size": "medium"
+  },
+  "doc_573.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Agentic_AI",
+    "topic": "Agentic_AI",
+    "words": 2509,
+    "size": "large"
+  },
+  "doc_574.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Video_game_console",
+    "topic": "Video_game_console",
+    "words": 5776,
+    "size": "large"
+  },
+  "doc_575.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Industrial_robotics",
+    "topic": "Industrial_robotics",
+    "words": 4189,
+    "size": "large"
+  },
+  "doc_576.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bing_Chat",
+    "topic": "Bing_Chat",
+    "words": 3473,
+    "size": "large"
+  },
+  "doc_577.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AI_Mode",
+    "topic": "AI_Mode",
+    "words": 116,
+    "size": "small"
+  },
+  "doc_578.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Teledildonics",
+    "topic": "Teledildonics",
+    "words": 795,
+    "size": "medium"
+  },
+  "doc_579.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Replika",
+    "topic": "Replika",
+    "words": 916,
+    "size": "medium"
+  },
+  "doc_580.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Online_gender-based_violence",
+    "topic": "Online_gender-based_violence",
+    "words": 2636,
+    "size": "large"
+  },
+  "doc_581.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Sexual_grooming",
+    "topic": "Sexual_grooming",
+    "words": 1539,
+    "size": "medium"
+  },
+  "doc_582.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Disaster",
+    "topic": "Disaster",
+    "words": 2945,
+    "size": "large"
+  },
+  "doc_583.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/2024_Indian_general_election",
+    "topic": "2024_Indian_general_election",
+    "words": 6213,
+    "size": "large"
+  },
+  "doc_584.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Street_art_in_Tel_Aviv",
+    "topic": "Street_art_in_Tel_Aviv",
+    "words": 1267,
+    "size": "medium"
+  },
+  "doc_585.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Demis_Hassabis",
+    "topic": "Demis_Hassabis",
+    "words": 1858,
+    "size": "medium"
+  },
+  "doc_586.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_and_copyright",
+    "topic": "Artificial_intelligence_and_copyright",
+    "words": 3376,
+    "size": "large"
+  },
+  "doc_587.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Privacy",
+    "topic": "Privacy",
+    "words": 9779,
+    "size": "large"
+  },
+  "doc_588.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Surveillance",
+    "topic": "Surveillance",
+    "words": 7919,
+    "size": "large"
+  },
+  "doc_589.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Copyright",
+    "topic": "Copyright",
+    "words": 7813,
+    "size": "large"
+  },
+  "doc_590.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Temporary_worker",
+    "topic": "Temporary_worker",
+    "words": 2842,
+    "size": "large"
+  },
+  "doc_591.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Necessary_evil",
+    "topic": "Necessary_evil",
+    "words": 836,
+    "size": "medium"
+  },
+  "doc_592.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Unethical",
+    "topic": "Unethical",
+    "words": 9140,
+    "size": "large"
+  },
+  "doc_593.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Right_to_privacy",
+    "topic": "Right_to_privacy",
+    "words": 4843,
+    "size": "large"
+  },
+  "doc_594.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_aggregation",
+    "topic": "Data_aggregation",
+    "words": 909,
+    "size": "medium"
+  },
+  "doc_595.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/De-identification",
+    "topic": "De-identification",
+    "words": 1080,
+    "size": "medium"
+  },
+  "doc_596.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Differential_privacy",
+    "topic": "Differential_privacy",
+    "words": 2905,
+    "size": "large"
+  },
+  "doc_597.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Cynthia_Dwork",
+    "topic": "Cynthia_Dwork",
+    "words": 442,
+    "size": "small"
+  },
+  "doc_598.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Fairness_(machine_learning)",
+    "topic": "Fairness_(machine_learning)",
+    "words": 5668,
+    "size": "large"
+  },
+  "doc_599.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Brian_Christian",
+    "topic": "Brian_Christian",
+    "words": 728,
+    "size": "medium"
+  },
+  "doc_600.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Fair_use",
+    "topic": "Fair_use",
+    "words": 7678,
+    "size": "large"
+  },
+  "doc_601.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Robots.txt",
+    "topic": "Robots.txt",
+    "words": 2114,
+    "size": "large"
+  },
+  "doc_602.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/John_Grisham",
+    "topic": "John_Grisham",
+    "words": 2890,
+    "size": "large"
+  },
+  "doc_603.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Jonathan_Franzen",
+    "topic": "Jonathan_Franzen",
+    "words": 3542,
+    "size": "large"
+  },
+  "doc_604.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Sui_generis",
+    "topic": "Sui_generis",
+    "words": 1785,
+    "size": "medium"
+  },
+  "doc_605.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Big_Tech",
+    "topic": "Big_Tech",
+    "words": 6006,
+    "size": "large"
+  },
+  "doc_606.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Alphabet_Inc.",
+    "topic": "Alphabet_Inc.",
+    "words": 2710,
+    "size": "large"
+  },
+  "doc_607.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+    "topic": "Apple_Inc.",
+    "words": 13497,
+    "size": "large"
+  },
+  "doc_608.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Computing",
+    "topic": "Computing",
+    "words": 2852,
+    "size": "large"
+  },
+  "doc_609.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Data_center",
+    "topic": "Data_center",
+    "words": 7080,
+    "size": "large"
+  },
+  "doc_610.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Environmental_impacts_of_artificial_intelligence",
+    "topic": "Environmental_impacts_of_artificial_intelligence",
+    "words": 2146,
+    "size": "large"
+  },
+  "doc_611.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/McKinsey_%26_Company",
+    "topic": "McKinsey_%26_Company",
+    "words": 9693,
+    "size": "large"
+  },
+  "doc_612.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Manhattan_Project",
+    "topic": "Manhattan_Project",
+    "words": 16856,
+    "size": "large"
+  },
+  "doc_613.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/International_Energy_Agency",
+    "topic": "International_Energy_Agency",
+    "words": 3787,
+    "size": "large"
+  },
+  "doc_614.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Goldman_Sachs",
+    "topic": "Goldman_Sachs",
+    "words": 2161,
+    "size": "large"
+  },
+  "doc_615.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Constellation_Energy",
+    "topic": "Constellation_Energy",
+    "words": 1418,
+    "size": "medium"
+  },
+  "doc_616.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Three_Mile_Island",
+    "topic": "Three_Mile_Island",
+    "words": 2561,
+    "size": "large"
+  },
+  "doc_617.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Nuclear_Regulatory_Commission",
+    "topic": "Nuclear_Regulatory_Commission",
+    "words": 4616,
+    "size": "large"
+  },
+  "doc_618.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Inflation_Reduction_Act",
+    "topic": "Inflation_Reduction_Act",
+    "words": 14503,
+    "size": "large"
+  },
+  "doc_619.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Palisades_Nuclear_Generating_Station",
+    "topic": "Palisades_Nuclear_Generating_Station",
+    "words": 1152,
+    "size": "medium"
+  },
+  "doc_620.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Taiwan",
+    "topic": "Taiwan",
+    "words": 14260,
+    "size": "large"
+  },
+  "doc_621.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Taoyuan,_Taiwan",
+    "topic": "Taoyuan,_Taiwan",
+    "words": 1760,
+    "size": "medium"
+  },
+  "doc_622.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Nuclear_power_phase-out",
+    "topic": "Nuclear_power_phase-out",
+    "words": 7631,
+    "size": "large"
+  },
+  "doc_623.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Singapore",
+    "topic": "Singapore",
+    "words": 13553,
+    "size": "large"
+  },
+  "doc_624.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Fukushima_nuclear_accident",
+    "topic": "Fukushima_nuclear_accident",
+    "words": 10514,
+    "size": "large"
+  },
+  "doc_625.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Federal_Energy_Regulatory_Commission",
+    "topic": "Federal_Energy_Regulatory_Commission",
+    "words": 3267,
+    "size": "large"
+  },
+  "doc_626.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Talen_Energy",
+    "topic": "Talen_Energy",
+    "words": 696,
+    "size": "medium"
+  },
+  "doc_627.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Susquehanna_Steam_Electric_Station",
+    "topic": "Susquehanna_Steam_Electric_Station",
+    "words": 688,
+    "size": "medium"
+  },
+  "doc_628.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Willie_L._Phillips",
+    "topic": "Willie_L._Phillips",
+    "words": 334,
+    "size": "small"
+  },
+  "doc_629.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Greenhouse_gas_emissions",
+    "topic": "Greenhouse_gas_emissions",
+    "words": 7786,
+    "size": "large"
+  },
+  "doc_630.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Rebound_effect_(conservation)",
+    "topic": "Rebound_effect_(conservation)",
+    "words": 3417,
+    "size": "large"
+  },
+  "doc_631.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Content_moderation",
+    "topic": "Content_moderation",
+    "words": 1734,
+    "size": "medium"
+  },
+  "doc_632.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Recommender_system",
+    "topic": "Recommender_system",
+    "words": 5630,
+    "size": "large"
+  },
+  "doc_633.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Misinformation",
+    "topic": "Misinformation",
+    "words": 9106,
+    "size": "large"
+  },
+  "doc_634.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Conspiracy_theories",
+    "topic": "Conspiracy_theories",
+    "words": 9516,
+    "size": "large"
+  },
+  "doc_635.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Partisan_(politics)",
+    "topic": "Partisan_(politics)",
+    "words": 751,
+    "size": "medium"
+  },
+  "doc_636.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Filter_bubbles",
+    "topic": "Filter_bubbles",
+    "words": 7025,
+    "size": "large"
+  },
+  "doc_637.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Computational_propaganda",
+    "topic": "Computational_propaganda",
+    "words": 1314,
+    "size": "medium"
+  },
+  "doc_638.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Geoffrey_Hinton",
+    "topic": "Geoffrey_Hinton",
+    "words": 3143,
+    "size": "large"
+  },
+  "doc_639.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Proof_of_personhood#Approaches",
+    "topic": "Proof_of_personhood#Approaches",
+    "words": 1128,
+    "size": "medium"
+  },
+  "doc_640.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Algorithmic_bias",
+    "topic": "Algorithmic_bias",
+    "words": 10687,
+    "size": "large"
+  },
+  "doc_641.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Harm",
+    "topic": "Harm",
+    "words": 705,
+    "size": "medium"
+  },
+  "doc_642.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Health_equity",
+    "topic": "Health_equity",
+    "words": 8866,
+    "size": "large"
+  },
+  "doc_643.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Credit_rating",
+    "topic": "Credit_rating",
+    "words": 1099,
+    "size": "medium"
+  },
+  "doc_644.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Recruitment",
+    "topic": "Recruitment",
+    "words": 2262,
+    "size": "large"
+  },
+  "doc_645.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Public_housing",
+    "topic": "Public_housing",
+    "words": 10846,
+    "size": "large"
+  },
+  "doc_646.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Policing",
+    "topic": "Policing",
+    "words": 13834,
+    "size": "large"
+  },
+  "doc_647.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Discrimination",
+    "topic": "Discrimination",
+    "words": 4484,
+    "size": "large"
+  },
+  "doc_648.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Google_Photos",
+    "topic": "Google_Photos",
+    "words": 2570,
+    "size": "large"
+  },
+  "doc_649.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/COMPAS_(software)",
+    "topic": "COMPAS_(software)",
+    "words": 958,
+    "size": "medium"
+  },
+  "doc_650.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/U.S._court",
+    "topic": "U.S._court",
+    "words": 975,
+    "size": "medium"
+  },
+  "doc_651.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Defendant",
+    "topic": "Defendant",
+    "words": 553,
+    "size": "medium"
+  },
+  "doc_652.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Recidivist",
+    "topic": "Recidivist",
+    "words": 4331,
+    "size": "large"
+  },
+  "doc_653.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Julia_Angwin",
+    "topic": "Julia_Angwin",
+    "words": 1295,
+    "size": "medium"
+  },
+  "doc_654.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/ProPublica",
+    "topic": "ProPublica",
+    "words": 2267,
+    "size": "large"
+  },
+  "doc_655.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Distributive_justice",
+    "topic": "Distributive_justice",
+    "words": 2777,
+    "size": "large"
+  },
+  "doc_656.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Stereotype",
+    "topic": "Stereotype",
+    "words": 7020,
+    "size": "large"
+  },
+  "doc_657.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Anti-discrimination_law",
+    "topic": "Anti-discrimination_law",
+    "words": 2104,
+    "size": "large"
+  },
+  "doc_658.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/ACM_Conference_on_Fairness,_Accountability,_and_Transparency",
+    "topic": "ACM_Conference_on_Fairness,_Accountability,_and_Transparency",
+    "words": 538,
+    "size": "medium"
+  },
+  "doc_659.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Contrastive_Language-Image_Pre-training",
+    "topic": "Contrastive_Language-Image_Pre-training",
+    "words": 1640,
+    "size": "medium"
+  },
+  "doc_660.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Explainable_AI",
+    "topic": "Explainable_AI",
+    "words": 4159,
+    "size": "large"
+  },
+  "doc_661.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Algorithmic_transparency",
+    "topic": "Algorithmic_transparency",
+    "words": 274,
+    "size": "small"
+  },
+  "doc_662.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Right_to_explanation",
+    "topic": "Right_to_explanation",
+    "words": 1876,
+    "size": "medium"
+  },
+  "doc_663.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Deep_neural_networks",
+    "topic": "Deep_neural_networks",
+    "words": 8155,
+    "size": "large"
+  },
+  "doc_664.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Linear",
+    "topic": "Linear",
+    "words": 1274,
+    "size": "medium"
+  },
+  "doc_665.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ruler",
+    "topic": "Ruler",
+    "words": 716,
+    "size": "medium"
+  },
+  "doc_666.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/General_Data_Protection_Regulation",
+    "topic": "General_Data_Protection_Regulation",
+    "words": 7116,
+    "size": "large"
+  },
+  "doc_667.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/DARPA",
+    "topic": "DARPA",
+    "words": 1954,
+    "size": "medium"
+  },
+  "doc_668.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Explainable_Artificial_Intelligence",
+    "topic": "Explainable_Artificial_Intelligence",
+    "words": 4159,
+    "size": "large"
+  },
+  "doc_669.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Multitask_learning",
+    "topic": "Multitask_learning",
+    "words": 3891,
+    "size": "large"
+  },
+  "doc_670.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Deconvolution",
+    "topic": "Deconvolution",
+    "words": 1559,
+    "size": "medium"
+  },
+  "doc_671.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/DeepDream",
+    "topic": "DeepDream",
+    "words": 1007,
+    "size": "medium"
+  },
+  "doc_672.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Anthropic",
+    "topic": "Anthropic",
+    "words": 2467,
+    "size": "large"
+  },
+  "doc_673.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Dictionary_learning",
+    "topic": "Dictionary_learning",
+    "words": 2602,
+    "size": "large"
+  },
+  "doc_674.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lethal_autonomous_weapon",
+    "topic": "Lethal_autonomous_weapon",
+    "words": 1995,
+    "size": "medium"
+  },
+  "doc_675.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bad_actor",
+    "topic": "Bad_actor",
+    "words": 1693,
+    "size": "medium"
+  },
+  "doc_676.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Authoritarian",
+    "topic": "Authoritarian",
+    "words": 5832,
+    "size": "large"
+  },
+  "doc_677.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Terrorist",
+    "topic": "Terrorist",
+    "words": 7573,
+    "size": "large"
+  },
+  "doc_678.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Criminals",
+    "topic": "Criminals",
+    "words": 4202,
+    "size": "large"
+  },
+  "doc_679.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Rogue_states",
+    "topic": "Rogue_states",
+    "words": 1550,
+    "size": "medium"
+  },
+  "doc_680.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Weapons_of_mass_destruction",
+    "topic": "Weapons_of_mass_destruction",
+    "words": 5703,
+    "size": "large"
+  },
+  "doc_681.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Murder",
+    "topic": "Murder",
+    "words": 4952,
+    "size": "large"
+  },
+  "doc_682.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/United_Nations",
+    "topic": "United_Nations",
+    "words": 9331,
+    "size": "large"
+  },
+  "doc_683.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Convention_on_Certain_Conventional_Weapons",
+    "topic": "Convention_on_Certain_Conventional_Weapons",
+    "words": 1087,
+    "size": "medium"
+  },
+  "doc_684.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/United_States",
+    "topic": "United_States",
+    "words": 14470,
+    "size": "large"
+  },
+  "doc_685.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Speaker_recognition",
+    "topic": "Speaker_recognition",
+    "words": 1299,
+    "size": "medium"
+  },
+  "doc_686.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Classifier_(machine_learning)",
+    "topic": "Classifier_(machine_learning)",
+    "words": 1104,
+    "size": "medium"
+  },
+  "doc_687.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Propaganda",
+    "topic": "Propaganda",
+    "words": 7501,
+    "size": "large"
+  },
+  "doc_688.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Deepfakes",
+    "topic": "Deepfakes",
+    "words": 6422,
+    "size": "large"
+  },
+  "doc_689.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Technocracy",
+    "topic": "Technocracy",
+    "words": 4390,
+    "size": "large"
+  },
+  "doc_690.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Market_(economics)",
+    "topic": "Market_(economics)",
+    "words": 7560,
+    "size": "large"
+  },
+  "doc_691.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Digital_warfare",
+    "topic": "Digital_warfare",
+    "words": 9784,
+    "size": "large"
+  },
+  "doc_692.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Spyware",
+    "topic": "Spyware",
+    "words": 6269,
+    "size": "large"
+  },
+  "doc_693.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mass_surveillance",
+    "topic": "Mass_surveillance",
+    "words": 7669,
+    "size": "large"
+  },
+  "doc_694.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Workplace_impact_of_artificial_intelligence",
+    "topic": "Workplace_impact_of_artificial_intelligence",
+    "words": 2458,
+    "size": "large"
+  },
+  "doc_695.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Technological_unemployment",
+    "topic": "Technological_unemployment",
+    "words": 9176,
+    "size": "large"
+  },
+  "doc_696.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Unemployment",
+    "topic": "Unemployment",
+    "words": 10840,
+    "size": "large"
+  },
+  "doc_697.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Productivity",
+    "topic": "Productivity",
+    "words": 2951,
+    "size": "large"
+  },
+  "doc_698.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Redistribution_of_income_and_wealth",
+    "topic": "Redistribution_of_income_and_wealth",
+    "words": 3213,
+    "size": "large"
+  },
+  "doc_699.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Carl_Benedikt_Frey",
+    "topic": "Carl_Benedikt_Frey",
+    "words": 1488,
+    "size": "medium"
+  },
+  "doc_700.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Employment_rate",
+    "topic": "Employment_rate",
+    "words": 735,
+    "size": "medium"
+  },
+  "doc_701.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/The_Economist",
+    "topic": "The_Economist",
+    "words": 5006,
+    "size": "large"
+  },
+  "doc_702.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Paralegal",
+    "topic": "Paralegal",
+    "words": 5910,
+    "size": "large"
+  },
+  "doc_703.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ford_Motor_Company",
+    "topic": "Ford_Motor_Company",
+    "words": 12613,
+    "size": "large"
+  },
+  "doc_704.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Jim_Farley_(businessman)",
+    "topic": "Jim_Farley_(businessman)",
+    "words": 326,
+    "size": "small"
+  },
+  "doc_705.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/White-collar_worker",
+    "topic": "White-collar_worker",
+    "words": 583,
+    "size": "medium"
+  },
+  "doc_706.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Joseph_Weizenbaum",
+    "topic": "Joseph_Weizenbaum",
+    "words": 995,
+    "size": "medium"
+  },
+  "doc_707.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Deaths_linked_to_chatbots",
+    "topic": "Deaths_linked_to_chatbots",
+    "words": 2089,
+    "size": "large"
+  },
+  "doc_708.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Loneliness#increasing_prevalence",
+    "topic": "Loneliness#increasing_prevalence",
+    "words": 7586,
+    "size": "large"
+  },
+  "doc_709.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AI_anthropomorphism#Current_anthropomorphic_attributions",
+    "topic": "AI_anthropomorphism#Current_anthropomorphic_attributions",
+    "words": 4034,
+    "size": "large"
+  },
+  "doc_710.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Illusion_of_understanding",
+    "topic": "Illusion_of_understanding",
+    "words": 978,
+    "size": "medium"
+  },
+  "doc_711.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Stephen_Hawking",
+    "topic": "Stephen_Hawking",
+    "words": 9738,
+    "size": "large"
+  },
+  "doc_712.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Global_catastrophic_risk",
+    "topic": "Global_catastrophic_risk",
+    "words": 2845,
+    "size": "large"
+  },
+  "doc_713.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Sentience",
+    "topic": "Sentience",
+    "words": 2234,
+    "size": "large"
+  },
+  "doc_714.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Nick_Bostrom",
+    "topic": "Nick_Bostrom",
+    "words": 2379,
+    "size": "large"
+  },
+  "doc_715.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer",
+    "topic": "Instrumental_convergence#Paperclip_maximizer",
+    "words": 1814,
+    "size": "medium"
+  },
+  "doc_716.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Stuart_J._Russell",
+    "topic": "Stuart_J._Russell",
+    "words": 888,
+    "size": "medium"
+  },
+  "doc_717.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Superintelligence",
+    "topic": "Superintelligence",
+    "words": 2241,
+    "size": "large"
+  },
+  "doc_718.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Yuval_Noah_Harari",
+    "topic": "Yuval_Noah_Harari",
+    "words": 2440,
+    "size": "large"
+  },
+  "doc_719.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ideologies",
+    "topic": "Ideologies",
+    "words": 2956,
+    "size": "large"
+  },
+  "doc_720.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Law",
+    "topic": "Law",
+    "words": 8729,
+    "size": "large"
+  },
+  "doc_721.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Government",
+    "topic": "Government",
+    "words": 2792,
+    "size": "large"
+  },
+  "doc_722.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Money",
+    "topic": "Money",
+    "words": 5547,
+    "size": "large"
+  },
+  "doc_723.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Economy",
+    "topic": "Economy",
+    "words": 1882,
+    "size": "medium"
+  },
+  "doc_724.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Language",
+    "topic": "Language",
+    "words": 12788,
+    "size": "large"
+  },
+  "doc_725.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bill_Gates",
+    "topic": "Bill_Gates",
+    "words": 9316,
+    "size": "large"
+  },
+  "doc_726.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Elon_Musk",
+    "topic": "Elon_Musk",
+    "words": 8396,
+    "size": "large"
+  },
+  "doc_727.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Yoshua_Bengio",
+    "topic": "Yoshua_Bengio",
+    "words": 1322,
+    "size": "medium"
+  },
+  "doc_728.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Sam_Altman",
+    "topic": "Sam_Altman",
+    "words": 3304,
+    "size": "large"
+  },
+  "doc_729.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AI_takeover",
+    "topic": "AI_takeover",
+    "words": 2676,
+    "size": "large"
+  },
+  "doc_730.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Statement_on_AI_risk_of_extinction",
+    "topic": "Statement_on_AI_risk_of_extinction",
+    "words": 563,
+    "size": "medium"
+  },
+  "doc_731.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/J%C3%BCrgen_Schmidhuber",
+    "topic": "J%C3%BCrgen_Schmidhuber",
+    "words": 1493,
+    "size": "medium"
+  },
+  "doc_732.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Andrew_Ng",
+    "topic": "Andrew_Ng",
+    "words": 2243,
+    "size": "large"
+  },
+  "doc_733.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Yann_LeCun",
+    "topic": "Yann_LeCun",
+    "words": 1161,
+    "size": "medium"
+  },
+  "doc_734.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Machine_ethics",
+    "topic": "Machine_ethics",
+    "words": 4954,
+    "size": "large"
+  },
+  "doc_735.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_moral_agents",
+    "topic": "Artificial_moral_agents",
+    "words": 1265,
+    "size": "medium"
+  },
+  "doc_736.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Human_Compatible",
+    "topic": "Human_Compatible",
+    "words": 861,
+    "size": "medium"
+  },
+  "doc_737.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Human-AI_interaction",
+    "topic": "Human-AI_interaction",
+    "words": 3244,
+    "size": "large"
+  },
+  "doc_738.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Eliezer_Yudkowsky",
+    "topic": "Eliezer_Yudkowsky",
+    "words": 812,
+    "size": "medium"
+  },
+  "doc_739.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AAAI",
+    "topic": "AAAI",
+    "words": 529,
+    "size": "medium"
+  },
+  "doc_740.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Wendell_Wallach",
+    "topic": "Wendell_Wallach",
+    "words": 1264,
+    "size": "medium"
+  },
+  "doc_741.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Human_Compatible#Russell's_three_principles",
+    "topic": "Human_Compatible#Russell's_three_principles",
+    "words": 861,
+    "size": "medium"
+  },
+  "doc_742.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lists_of_open-source_artificial_intelligence_software",
+    "topic": "Lists_of_open-source_artificial_intelligence_software",
+    "words": 45,
+    "size": "small"
+  },
+  "doc_743.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Hugging_Face",
+    "topic": "Hugging_Face",
+    "words": 404,
+    "size": "small"
+  },
+  "doc_744.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/EleutherAI",
+    "topic": "EleutherAI",
+    "words": 821,
+    "size": "medium"
+  },
+  "doc_745.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/LLaMA",
+    "topic": "LLaMA",
+    "words": 3276,
+    "size": "large"
+  },
+  "doc_746.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mistral_AI",
+    "topic": "Mistral_AI",
+    "words": 841,
+    "size": "medium"
+  },
+  "doc_747.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)",
+    "topic": "Fine-tuning_(deep_learning)",
+    "words": 806,
+    "size": "medium"
+  },
+  "doc_748.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bioterrorism",
+    "topic": "Bioterrorism",
+    "words": 3981,
+    "size": "large"
+  },
+  "doc_749.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Alan_Turing_Institute",
+    "topic": "Alan_Turing_Institute",
+    "words": 1381,
+    "size": "medium"
+  },
+  "doc_750.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Asilomar_Conference_on_Beneficial_AI",
+    "topic": "Asilomar_Conference_on_Beneficial_AI",
+    "words": 147,
+    "size": "small"
+  },
+  "doc_751.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AI_Safety_Institute_(United_Kingdom)",
+    "topic": "AI_Safety_Institute_(United_Kingdom)",
+    "words": 1122,
+    "size": "medium"
+  },
+  "doc_752.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Regulation_of_algorithms",
+    "topic": "Regulation_of_algorithms",
+    "words": 1538,
+    "size": "medium"
+  },
+  "doc_753.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AI_Safety_Summit_2023",
+    "topic": "AI_Safety_Summit_2023",
+    "words": 360,
+    "size": "small"
+  },
+  "doc_754.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Stanford",
+    "topic": "Stanford",
+    "words": 7052,
+    "size": "large"
+  },
+  "doc_755.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_industry_in_Canada",
+    "topic": "Artificial_intelligence_industry_in_Canada",
+    "words": 1084,
+    "size": "medium"
+  },
+  "doc_756.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Global_Partnership_on_Artificial_Intelligence",
+    "topic": "Global_Partnership_on_Artificial_Intelligence",
+    "words": 392,
+    "size": "small"
+  },
+  "doc_757.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Henry_Kissinger",
+    "topic": "Henry_Kissinger",
+    "words": 15389,
+    "size": "large"
+  },
+  "doc_758.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Eric_Schmidt",
+    "topic": "Eric_Schmidt",
+    "words": 4259,
+    "size": "large"
+  },
+  "doc_759.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Daniel_Huttenlocher",
+    "topic": "Daniel_Huttenlocher",
+    "words": 364,
+    "size": "small"
+  },
+  "doc_760.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act",
+    "topic": "Artificial_Intelligence_Act",
+    "words": 2770,
+    "size": "large"
+  },
+  "doc_761.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Council_of_Europe",
+    "topic": "Council_of_Europe",
+    "words": 5710,
+    "size": "large"
+  },
+  "doc_762.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Framework_Convention_on_Artificial_Intelligence_and_Human_Rights,_Democracy_and_the_Rule_of_Law",
+    "topic": "Framework_Convention_on_Artificial_Intelligence_and_Human_Rights,_Democracy_and_the_Rule_of_Law",
+    "words": 902,
+    "size": "medium"
+  },
+  "doc_763.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ipsos",
+    "topic": "Ipsos",
+    "words": 1055,
+    "size": "medium"
+  },
+  "doc_764.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Reuters",
+    "topic": "Reuters",
+    "words": 3373,
+    "size": "large"
+  },
+  "doc_765.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Fox_News",
+    "topic": "Fox_News",
+    "words": 14927,
+    "size": "large"
+  },
+  "doc_766.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bletchley_Park",
+    "topic": "Bletchley_Park",
+    "words": 5300,
+    "size": "large"
+  },
+  "doc_767.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AI_Seoul_Summit_2024",
+    "topic": "AI_Seoul_Summit_2024",
+    "words": 411,
+    "size": "small"
+  },
+  "doc_768.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Global_Digital_Compact",
+    "topic": "Global_Digital_Compact",
+    "words": 468,
+    "size": "small"
+  },
+  "doc_769.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+    "topic": "Alan_Turing",
+    "words": 8759,
+    "size": "large"
+  },
+  "doc_770.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Theory_of_computation",
+    "topic": "Theory_of_computation",
+    "words": 1174,
+    "size": "medium"
+  },
+  "doc_771.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Cybernetics",
+    "topic": "Cybernetics",
+    "words": 2057,
+    "size": "large"
+  },
+  "doc_772.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Information_theory",
+    "topic": "Information_theory",
+    "words": 4567,
+    "size": "large"
+  },
+  "doc_773.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Neurobiology",
+    "topic": "Neurobiology",
+    "words": 3809,
+    "size": "large"
+  },
+  "doc_774.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Warren_Sturgis_McCulloch",
+    "topic": "Warren_Sturgis_McCulloch",
+    "words": 1653,
+    "size": "medium"
+  },
+  "doc_775.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Walter_Pitts",
+    "topic": "Walter_Pitts",
+    "words": 1187,
+    "size": "medium"
+  },
+  "doc_776.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence",
+    "topic": "Computing_Machinery_and_Intelligence",
+    "words": 1859,
+    "size": "medium"
+  },
+  "doc_777.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Dartmouth_workshop",
+    "topic": "Dartmouth_workshop",
+    "words": 965,
+    "size": "medium"
+  },
+  "doc_778.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Dartmouth_College",
+    "topic": "Dartmouth_College",
+    "words": 8325,
+    "size": "large"
+  },
+  "doc_779.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Checkers",
+    "topic": "Checkers",
+    "words": 3224,
+    "size": "large"
+  },
+  "doc_780.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Theorem",
+    "topic": "Theorem",
+    "words": 3039,
+    "size": "large"
+  },
+  "doc_781.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Herbert_A._Simon",
+    "topic": "Herbert_A._Simon",
+    "words": 3590,
+    "size": "large"
+  },
+  "doc_782.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Marvin_Minsky",
+    "topic": "Marvin_Minsky",
+    "words": 1561,
+    "size": "medium"
+  },
+  "doc_783.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lighthill_report",
+    "topic": "Lighthill_report",
+    "words": 589,
+    "size": "medium"
+  },
+  "doc_784.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Sir_James_Lighthill",
+    "topic": "Sir_James_Lighthill",
+    "words": 870,
+    "size": "medium"
+  },
+  "doc_785.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mansfield_Amendment",
+    "topic": "Mansfield_Amendment",
+    "words": 2772,
+    "size": "large"
+  },
+  "doc_786.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Papert",
+    "topic": "Papert",
+    "words": 1138,
+    "size": "medium"
+  },
+  "doc_787.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Expert_system",
+    "topic": "Expert_system",
+    "words": 3661,
+    "size": "large"
+  },
+  "doc_788.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Fifth_generation_computer",
+    "topic": "Fifth_generation_computer",
+    "words": 1807,
+    "size": "medium"
+  },
+  "doc_789.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Academic_research",
+    "topic": "Academic_research",
+    "words": 4316,
+    "size": "large"
+  },
+  "doc_790.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lisp_Machine",
+    "topic": "Lisp_Machine",
+    "words": 2744,
+    "size": "large"
+  },
+  "doc_791.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Symbolic_AI",
+    "topic": "Symbolic_AI",
+    "words": 7854,
+    "size": "large"
+  },
+  "doc_792.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mental_objects",
+    "topic": "Mental_objects",
+    "words": 153,
+    "size": "small"
+  },
+  "doc_793.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Rodney_Brooks",
+    "topic": "Rodney_Brooks",
+    "words": 680,
+    "size": "medium"
+  },
+  "doc_794.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Judea_Pearl",
+    "topic": "Judea_Pearl",
+    "words": 746,
+    "size": "medium"
+  },
+  "doc_795.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lotfi_Zadeh",
+    "topic": "Lotfi_Zadeh",
+    "words": 2111,
+    "size": "large"
+  },
+  "doc_796.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Connectionism",
+    "topic": "Connectionism",
+    "words": 2395,
+    "size": "large"
+  },
+  "doc_797.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Convolutional_neural_networks",
+    "topic": "Convolutional_neural_networks",
+    "words": 8620,
+    "size": "large"
+  },
+  "doc_798.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Narrow_AI",
+    "topic": "Narrow_AI",
+    "words": 477,
+    "size": "small"
+  },
+  "doc_799.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AI_effect",
+    "topic": "AI_effect",
+    "words": 654,
+    "size": "medium"
+  },
+  "doc_800.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Algorithmic_fairness",
+    "topic": "Algorithmic_fairness",
+    "words": 5668,
+    "size": "large"
+  },
+  "doc_801.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Go_player",
+    "topic": "Go_player",
+    "words": 706,
+    "size": "medium"
+  },
+  "doc_802.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/GPT-3",
+    "topic": "GPT-3",
+    "words": 2151,
+    "size": "large"
+  },
+  "doc_803.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Startups",
+    "topic": "Startups",
+    "words": 5607,
+    "size": "large"
+  },
+  "doc_804.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Epistemology",
+    "topic": "Epistemology",
+    "words": 8010,
+    "size": "large"
+  },
+  "doc_805.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Free_will",
+    "topic": "Free_will",
+    "words": 14317,
+    "size": "large"
+  },
+  "doc_806.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ethics_of_AI",
+    "topic": "Ethics_of_AI",
+    "words": 8525,
+    "size": "large"
+  },
+  "doc_807.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Synthetic_intelligence",
+    "topic": "Synthetic_intelligence",
+    "words": 506,
+    "size": "medium"
+  },
+  "doc_808.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Virtual_intelligence",
+    "topic": "Virtual_intelligence",
+    "words": 127,
+    "size": "small"
+  },
+  "doc_809.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Problem_of_other_minds",
+    "topic": "Problem_of_other_minds",
+    "words": 502,
+    "size": "medium"
+  },
+  "doc_810.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Norvig",
+    "topic": "Norvig",
+    "words": 710,
+    "size": "medium"
+  },
+  "doc_811.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Aeronautics",
+    "topic": "Aeronautics",
+    "words": 1959,
+    "size": "medium"
+  },
+  "doc_812.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Pigeon",
+    "topic": "Pigeon",
+    "words": 3128,
+    "size": "large"
+  },
+  "doc_813.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)",
+    "topic": "John_McCarthy_(computer_scientist)",
+    "words": 1643,
+    "size": "medium"
+  },
+  "doc_814.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Buzzword",
+    "topic": "Buzzword",
+    "words": 1040,
+    "size": "medium"
+  },
+  "doc_815.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/International_Organization_for_Standardization",
+    "topic": "International_Organization_for_Standardization",
+    "words": 1889,
+    "size": "medium"
+  },
+  "doc_816.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology",
+    "topic": "National_Institute_of_Standards_and_Technology",
+    "words": 2835,
+    "size": "large"
+  },
+  "doc_817.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Paradigm",
+    "topic": "Paradigm",
+    "words": 3185,
+    "size": "large"
+  },
+  "doc_818.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Sub-symbolic",
+    "topic": "Sub-symbolic",
+    "words": 7854,
+    "size": "large"
+  },
+  "doc_819.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Soft_computing",
+    "topic": "Soft_computing",
+    "words": 1027,
+    "size": "medium"
+  },
+  "doc_820.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/GOFAI",
+    "topic": "GOFAI",
+    "words": 957,
+    "size": "medium"
+  },
+  "doc_821.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Physical_symbol_systems_hypothesis",
+    "topic": "Physical_symbol_systems_hypothesis",
+    "words": 1653,
+    "size": "medium"
+  },
+  "doc_822.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Commonsense_reasoning",
+    "topic": "Commonsense_reasoning",
+    "words": 1779,
+    "size": "medium"
+  },
+  "doc_823.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Moravec%27s_paradox",
+    "topic": "Moravec%27s_paradox",
+    "words": 1041,
+    "size": "medium"
+  },
+  "doc_824.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Hubert_Dreyfus",
+    "topic": "Hubert_Dreyfus",
+    "words": 1439,
+    "size": "medium"
+  },
+  "doc_825.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Dreyfus%27_critique_of_AI",
+    "topic": "Dreyfus%27_critique_of_AI",
+    "words": 3776,
+    "size": "large"
+  },
+  "doc_826.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Neuro-symbolic_AI",
+    "topic": "Neuro-symbolic_AI",
+    "words": 629,
+    "size": "medium"
+  },
+  "doc_827.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Neats_and_scruffies",
+    "topic": "Neats_and_scruffies",
+    "words": 1197,
+    "size": "medium"
+  },
+  "doc_828.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Intractability_(complexity)",
+    "topic": "Intractability_(complexity)",
+    "words": 5540,
+    "size": "large"
+  },
+  "doc_829.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Genetic_algorithms",
+    "topic": "Genetic_algorithms",
+    "words": 3287,
+    "size": "large"
+  },
+  "doc_830.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Weak_artificial_intelligence",
+    "topic": "Weak_artificial_intelligence",
+    "words": 477,
+    "size": "small"
+  },
+  "doc_831.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Philosophy_of_mind",
+    "topic": "Philosophy_of_mind",
+    "words": 9032,
+    "size": "large"
+  },
+  "doc_832.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mind",
+    "topic": "Mind",
+    "words": 8142,
+    "size": "large"
+  },
+  "doc_833.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Consciousness",
+    "topic": "Consciousness",
+    "words": 13911,
+    "size": "large"
+  },
+  "doc_834.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_fiction",
+    "topic": "Artificial_intelligence_in_fiction",
+    "words": 2047,
+    "size": "large"
+  },
+  "doc_835.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Hard_problem_of_consciousness",
+    "topic": "Hard_problem_of_consciousness",
+    "words": 9165,
+    "size": "large"
+  },
+  "doc_836.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Theory_of_mind",
+    "topic": "Theory_of_mind",
+    "words": 11245,
+    "size": "large"
+  },
+  "doc_837.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/David_Chalmers",
+    "topic": "David_Chalmers",
+    "words": 2104,
+    "size": "large"
+  },
+  "doc_838.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Information_processing_(psychology)",
+    "topic": "Information_processing_(psychology)",
+    "words": 1611,
+    "size": "medium"
+  },
+  "doc_839.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Subjective_experience",
+    "topic": "Subjective_experience",
+    "words": 7141,
+    "size": "large"
+  },
+  "doc_840.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Computational_theory_of_mind",
+    "topic": "Computational_theory_of_mind",
+    "words": 1506,
+    "size": "medium"
+  },
+  "doc_841.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Functionalism_(philosophy_of_mind)",
+    "topic": "Functionalism_(philosophy_of_mind)",
+    "words": 5315,
+    "size": "large"
+  },
+  "doc_842.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mind%E2%80%93body_problem",
+    "topic": "Mind%E2%80%93body_problem",
+    "words": 5105,
+    "size": "large"
+  },
+  "doc_843.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Jerry_Fodor",
+    "topic": "Jerry_Fodor",
+    "words": 4359,
+    "size": "large"
+  },
+  "doc_844.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Hilary_Putnam",
+    "topic": "Hilary_Putnam",
+    "words": 5747,
+    "size": "large"
+  },
+  "doc_845.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/John_Searle",
+    "topic": "John_Searle",
+    "words": 4680,
+    "size": "large"
+  },
+  "doc_846.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Strong_AI_hypothesis",
+    "topic": "Strong_AI_hypothesis",
+    "words": 8380,
+    "size": "large"
+  },
+  "doc_847.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Sentient_AI",
+    "topic": "Sentient_AI",
+    "words": 3613,
+    "size": "large"
+  },
+  "doc_848.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Sapience",
+    "topic": "Sapience",
+    "words": 5898,
+    "size": "large"
+  },
+  "doc_849.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Self-awareness",
+    "topic": "Self-awareness",
+    "words": 3598,
+    "size": "large"
+  },
+  "doc_850.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Robot_rights",
+    "topic": "Robot_rights",
+    "words": 8525,
+    "size": "large"
+  },
+  "doc_851.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Human_rights",
+    "topic": "Human_rights",
+    "words": 7956,
+    "size": "large"
+  },
+  "doc_852.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Moral_blindness",
+    "topic": "Moral_blindness",
+    "words": 1233,
+    "size": "medium"
+  },
+  "doc_853.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Slavery",
+    "topic": "Slavery",
+    "words": 16769,
+    "size": "large"
+  },
+  "doc_854.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Factory_farming",
+    "topic": "Factory_farming",
+    "words": 5567,
+    "size": "large"
+  },
+  "doc_855.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Suffering_risks",
+    "topic": "Suffering_risks",
+    "words": 577,
+    "size": "medium"
+  },
+  "doc_856.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/I._J._Good",
+    "topic": "I._J._Good",
+    "words": 1665,
+    "size": "medium"
+  },
+  "doc_857.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Intelligence_explosion",
+    "topic": "Intelligence_explosion",
+    "words": 7487,
+    "size": "large"
+  },
+  "doc_858.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Vernor_Vinge",
+    "topic": "Vernor_Vinge",
+    "words": 616,
+    "size": "medium"
+  },
+  "doc_859.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Technological_singularity",
+    "topic": "Technological_singularity",
+    "words": 7487,
+    "size": "large"
+  },
+  "doc_860.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/S-shaped_curve",
+    "topic": "S-shaped_curve",
+    "words": 995,
+    "size": "medium"
+  },
+  "doc_861.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Transhumanism",
+    "topic": "Transhumanism",
+    "words": 8401,
+    "size": "large"
+  },
+  "doc_862.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Hans_Moravec",
+    "topic": "Hans_Moravec",
+    "words": 663,
+    "size": "medium"
+  },
+  "doc_863.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Kevin_Warwick",
+    "topic": "Kevin_Warwick",
+    "words": 3245,
+    "size": "large"
+  },
+  "doc_864.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ray_Kurzweil",
+    "topic": "Ray_Kurzweil",
+    "words": 4411,
+    "size": "large"
+  },
+  "doc_865.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Cyborg",
+    "topic": "Cyborg",
+    "words": 7249,
+    "size": "large"
+  },
+  "doc_866.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Aldous_Huxley",
+    "topic": "Aldous_Huxley",
+    "words": 5059,
+    "size": "large"
+  },
+  "doc_867.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Robert_Ettinger",
+    "topic": "Robert_Ettinger",
+    "words": 1167,
+    "size": "medium"
+  },
+  "doc_868.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Edward_Fredkin",
+    "topic": "Edward_Fredkin",
+    "words": 1285,
+    "size": "medium"
+  },
+  "doc_869.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Samuel_Butler_(novelist)",
+    "topic": "Samuel_Butler_(novelist)",
+    "words": 3260,
+    "size": "large"
+  },
+  "doc_870.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Darwin_among_the_Machines",
+    "topic": "Darwin_among_the_Machines",
+    "words": 2261,
+    "size": "large"
+  },
+  "doc_871.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/George_Dyson_(science_historian)",
+    "topic": "George_Dyson_(science_historian)",
+    "words": 614,
+    "size": "medium"
+  },
+  "doc_872.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Darwin_Among_the_Machines#Evolution_of_Global_Intelligence",
+    "topic": "Darwin_Among_the_Machines#Evolution_of_Global_Intelligence",
+    "words": 2261,
+    "size": "large"
+  },
+  "doc_873.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Karel_%C4%8Capek",
+    "topic": "Karel_%C4%8Capek",
+    "words": 1813,
+    "size": "medium"
+  },
+  "doc_874.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/R.U.R.",
+    "topic": "R.U.R.",
+    "words": 2323,
+    "size": "large"
+  },
+  "doc_875.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Science_fiction",
+    "topic": "Science_fiction",
+    "words": 5741,
+    "size": "large"
+  },
+  "doc_876.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Trope_(literature)",
+    "topic": "Trope_(literature)",
+    "words": 1835,
+    "size": "medium"
+  },
+  "doc_877.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mary_Shelley",
+    "topic": "Mary_Shelley",
+    "words": 10717,
+    "size": "large"
+  },
+  "doc_878.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Frankenstein",
+    "topic": "Frankenstein",
+    "words": 4901,
+    "size": "large"
+  },
+  "doc_879.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/HAL_9000",
+    "topic": "HAL_9000",
+    "words": 2895,
+    "size": "large"
+  },
+  "doc_880.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Discovery_One",
+    "topic": "Discovery_One",
+    "words": 1863,
+    "size": "medium"
+  },
+  "doc_881.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Blade_Runner",
+    "topic": "Blade_Runner",
+    "words": 7594,
+    "size": "large"
+  },
+  "doc_882.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/The_Terminator",
+    "topic": "The_Terminator",
+    "words": 6003,
+    "size": "large"
+  },
+  "doc_883.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/The_Matrix",
+    "topic": "The_Matrix",
+    "words": 9158,
+    "size": "large"
+  },
+  "doc_884.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/The_Day_the_Earth_Stood_Still",
+    "topic": "The_Day_the_Earth_Stood_Still",
+    "words": 3304,
+    "size": "large"
+  },
+  "doc_885.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Aliens_(film)",
+    "topic": "Aliens_(film)",
+    "words": 11213,
+    "size": "large"
+  },
+  "doc_886.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Isaac_Asimov",
+    "topic": "Isaac_Asimov",
+    "words": 11327,
+    "size": "large"
+  },
+  "doc_887.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Three_Laws_of_Robotics",
+    "topic": "Three_Laws_of_Robotics",
+    "words": 7194,
+    "size": "large"
+  },
+  "doc_888.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Multivac",
+    "topic": "Multivac",
+    "words": 805,
+    "size": "medium"
+  },
+  "doc_889.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/A.I._Artificial_Intelligence",
+    "topic": "A.I._Artificial_Intelligence",
+    "words": 4150,
+    "size": "large"
+  },
+  "doc_890.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ex_Machina_(film)",
+    "topic": "Ex_Machina_(film)",
+    "words": 2397,
+    "size": "large"
+  },
+  "doc_891.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F",
+    "topic": "Do_Androids_Dream_of_Electric_Sheep%3F",
+    "words": 2326,
+    "size": "large"
+  },
+  "doc_892.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Philip_K._Dick",
+    "topic": "Philip_K._Dick",
+    "words": 7170,
+    "size": "large"
+  },
+  "doc_893.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_and_elections",
+    "topic": "Artificial_intelligence_and_elections",
+    "words": 2543,
+    "size": "large"
+  },
+  "doc_894.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_content_detection",
+    "topic": "Artificial_intelligence_content_detection",
+    "words": 1265,
+    "size": "medium"
+  },
+  "doc_895.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_in_Wikimedia_projects",
+    "topic": "Artificial_intelligence_in_Wikimedia_projects",
+    "words": 1603,
+    "size": "medium"
+  },
+  "doc_896.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Association_for_the_Advancement_of_Artificial_Intelligence",
+    "topic": "Association_for_the_Advancement_of_Artificial_Intelligence",
+    "words": 529,
+    "size": "medium"
+  },
+  "doc_897.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Behavior_selection_algorithm",
+    "topic": "Behavior_selection_algorithm",
+    "words": 84,
+    "size": "small"
+  },
+  "doc_898.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Business_process_automation",
+    "topic": "Business_process_automation",
+    "words": 284,
+    "size": "small"
+  },
+  "doc_899.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Case-based_reasoning",
+    "topic": "Case-based_reasoning",
+    "words": 1166,
+    "size": "medium"
+  },
+  "doc_900.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Computational_intelligence",
+    "topic": "Computational_intelligence",
+    "words": 2562,
+    "size": "large"
+  },
+  "doc_901.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/European_Union",
+    "topic": "European_Union",
+    "words": 15877,
+    "size": "large"
+  },
+  "doc_902.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/European_Medicines_Agency",
+    "topic": "European_Medicines_Agency",
+    "words": 1981,
+    "size": "medium"
+  },
+  "doc_903.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Real_world_evidence",
+    "topic": "Real_world_evidence",
+    "words": 430,
+    "size": "small"
+  },
+  "doc_904.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Digital_immortality",
+    "topic": "Digital_immortality",
+    "words": 1218,
+    "size": "medium"
+  },
+  "doc_905.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Emergent_algorithm",
+    "topic": "Emergent_algorithm",
+    "words": 99,
+    "size": "small"
+  },
+  "doc_906.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Female_gendering_of_AI_technologies",
+    "topic": "Female_gendering_of_AI_technologies",
+    "words": 3137,
+    "size": "large"
+  },
+  "doc_907.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Intelligence_amplification",
+    "topic": "Intelligence_amplification",
+    "words": 1689,
+    "size": "medium"
+  },
+  "doc_908.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Intelligent_automation",
+    "topic": "Intelligent_automation",
+    "words": 487,
+    "size": "small"
+  },
+  "doc_909.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/List_of_artificial_intelligence_algorithms",
+    "topic": "List_of_artificial_intelligence_algorithms",
+    "words": 39,
+    "size": "small"
+  },
+  "doc_910.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/List_of_artificial_intelligence_journals",
+    "topic": "List_of_artificial_intelligence_journals",
+    "words": 35,
+    "size": "small"
+  },
+  "doc_911.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mind_uploading",
+    "topic": "Mind_uploading",
+    "words": 4785,
+    "size": "large"
+  },
+  "doc_912.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Organoid_intelligence",
+    "topic": "Organoid_intelligence",
+    "words": 485,
+    "size": "small"
+  },
+  "doc_913.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Outline_of_deep_learning",
+    "topic": "Outline_of_deep_learning",
+    "words": 61,
+    "size": "small"
+  },
+  "doc_914.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Outline_of_machine_learning",
+    "topic": "Outline_of_machine_learning",
+    "words": 153,
+    "size": "small"
+  },
+  "doc_915.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Pseudorandomness",
+    "topic": "Pseudorandomness",
+    "words": 547,
+    "size": "medium"
+  },
+  "doc_916.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Robotic_process_automation",
+    "topic": "Robotic_process_automation",
+    "words": 1963,
+    "size": "medium"
+  },
+  "doc_917.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/The_Last_Day_(novel)",
+    "topic": "The_Last_Day_(novel)",
+    "words": 371,
+    "size": "small"
+  },
+  "doc_918.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Wetware_computer",
+    "topic": "Wetware_computer",
+    "words": 3031,
+    "size": "large"
+  },
+  "doc_919.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Philosophy",
+    "topic": "Philosophy",
+    "words": 6342,
+    "size": "large"
+  },
+  "doc_920.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ray_Solomonoff",
+    "topic": "Ray_Solomonoff",
+    "words": 2411,
+    "size": "large"
+  },
+  "doc_921.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AI_winter#Machine_translation_and_the_ALPAC_report_of_1966",
+    "topic": "AI_winter#Machine_translation_and_the_ALPAC_report_of_1966",
+    "words": 3352,
+    "size": "large"
+  },
+  "doc_922.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Conditionally_independent",
+    "topic": "Conditionally_independent",
+    "words": 2293,
+    "size": "large"
+  },
+  "doc_923.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Latent_variables",
+    "topic": "Latent_variables",
+    "words": 566,
+    "size": "medium"
+  },
+  "doc_924.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Warren_S._McCulloch",
+    "topic": "Warren_S._McCulloch",
+    "words": 1653,
+    "size": "medium"
+  },
+  "doc_925.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Karl_Steinbuch",
+    "topic": "Karl_Steinbuch",
+    "words": 265,
+    "size": "small"
+  },
+  "doc_926.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Frank_Rosenblatt",
+    "topic": "Frank_Rosenblatt",
+    "words": 1543,
+    "size": "medium"
+  },
+  "doc_927.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Oliver_Selfridge",
+    "topic": "Oliver_Selfridge",
+    "words": 427,
+    "size": "small"
+  },
+  "doc_928.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Alexey_Ivakhnenko",
+    "topic": "Alexey_Ivakhnenko",
+    "words": 1367,
+    "size": "medium"
+  },
+  "doc_929.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Shun-Ichi_Amari",
+    "topic": "Shun-Ichi_Amari",
+    "words": 291,
+    "size": "small"
+  },
+  "doc_930.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/John_Joseph_Hopfield",
+    "topic": "John_Joseph_Hopfield",
+    "words": 1345,
+    "size": "medium"
+  },
+  "doc_931.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Henry_J._Kelley",
+    "topic": "Henry_J._Kelley",
+    "words": 241,
+    "size": "small"
+  },
+  "doc_932.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Arthur_E._Bryson",
+    "topic": "Arthur_E._Bryson",
+    "words": 225,
+    "size": "small"
+  },
+  "doc_933.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Stuart_Dreyfus",
+    "topic": "Stuart_Dreyfus",
+    "words": 131,
+    "size": "small"
+  },
+  "doc_934.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Yu-Chi_Ho",
+    "topic": "Yu-Chi_Ho",
+    "words": 1025,
+    "size": "medium"
+  },
+  "doc_935.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Seppo_Linnainmaa",
+    "topic": "Seppo_Linnainmaa",
+    "words": 215,
+    "size": "small"
+  },
+  "doc_936.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Paul_Werbos",
+    "topic": "Paul_Werbos",
+    "words": 136,
+    "size": "small"
+  },
+  "doc_937.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bias_(statistics)",
+    "topic": "Bias_(statistics)",
+    "words": 1513,
+    "size": "medium"
+  },
+  "doc_938.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Jon_Kleinberg",
+    "topic": "Jon_Kleinberg",
+    "words": 642,
+    "size": "medium"
+  },
+  "doc_939.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Cornell_University",
+    "topic": "Cornell_University",
+    "words": 6759,
+    "size": "large"
+  },
+  "doc_940.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/University_of_Chicago",
+    "topic": "University_of_Chicago",
+    "words": 6965,
+    "size": "large"
+  },
+  "doc_941.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Carnegie_Mellon",
+    "topic": "Carnegie_Mellon",
+    "words": 8027,
+    "size": "large"
+  },
+  "doc_942.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Max_Planck_Institute_for_Intelligent_Systems",
+    "topic": "Max_Planck_Institute_for_Intelligent_Systems",
+    "words": 381,
+    "size": "small"
+  },
+  "doc_943.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Land_mines",
+    "topic": "Land_mines",
+    "words": 7816,
+    "size": "large"
+  },
+  "doc_944.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Robopocalypse",
+    "topic": "Robopocalypse",
+    "words": 1648,
+    "size": "medium"
+  },
+  "doc_945.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Arthur_Samuel_(computer_scientist)",
+    "topic": "Arthur_Samuel_(computer_scientist)",
+    "words": 777,
+    "size": "medium"
+  },
+  "doc_946.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/IBM_701",
+    "topic": "IBM_701",
+    "words": 1038,
+    "size": "medium"
+  },
+  "doc_947.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Daniel_Bobrow",
+    "topic": "Daniel_Bobrow",
+    "words": 181,
+    "size": "small"
+  },
+  "doc_948.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/STUDENT",
+    "topic": "STUDENT",
+    "words": 253,
+    "size": "small"
+  },
+  "doc_949.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Allen_Newell",
+    "topic": "Allen_Newell",
+    "words": 776,
+    "size": "medium"
+  },
+  "doc_950.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Logic_Theorist",
+    "topic": "Logic_Theorist",
+    "words": 1225,
+    "size": "medium"
+  },
+  "doc_951.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Terry_Winograd",
+    "topic": "Terry_Winograd",
+    "words": 655,
+    "size": "medium"
+  },
+  "doc_952.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/SHRDLU",
+    "topic": "SHRDLU",
+    "words": 771,
+    "size": "medium"
+  },
+  "doc_953.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Embodied_mind",
+    "topic": "Embodied_mind",
+    "words": 13287,
+    "size": "large"
+  },
+  "doc_954.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Nouvelle_AI",
+    "topic": "Nouvelle_AI",
+    "words": 995,
+    "size": "medium"
+  },
+  "doc_955.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Developmental_robotics",
+    "topic": "Developmental_robotics",
+    "words": 1514,
+    "size": "medium"
+  },
+  "doc_956.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/The_Atlantic",
+    "topic": "The_Atlantic",
+    "words": 3668,
+    "size": "large"
+  },
+  "doc_957.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bloomberg_News",
+    "topic": "Bloomberg_News",
+    "words": 2226,
+    "size": "large"
+  },
+  "doc_958.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Nils_Nilsson_(researcher)",
+    "topic": "Nils_Nilsson_(researcher)",
+    "words": 475,
+    "size": "small"
+  },
+  "doc_959.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AP_News",
+    "topic": "AP_News",
+    "words": 4279,
+    "size": "large"
+  },
+  "doc_960.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Fifth_Generation_Project",
+    "topic": "Fifth_Generation_Project",
+    "words": 1807,
+    "size": "medium"
+  },
+  "doc_961.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Alvey",
+    "topic": "Alvey",
+    "words": 323,
+    "size": "small"
+  },
+  "doc_962.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Microelectronics_and_Computer_Technology_Corporation",
+    "topic": "Microelectronics_and_Computer_Technology_Corporation",
+    "words": 527,
+    "size": "medium"
+  },
+  "doc_963.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Strategic_Computing_Initiative",
+    "topic": "Strategic_Computing_Initiative",
+    "words": 712,
+    "size": "medium"
+  },
+  "doc_964.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AI_Winter",
+    "topic": "AI_Winter",
+    "words": 3352,
+    "size": "large"
+  },
+  "doc_965.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AlexNet",
+    "topic": "AlexNet",
+    "words": 1709,
+    "size": "medium"
+  },
+  "doc_966.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Constraint_satisfaction",
+    "topic": "Constraint_satisfaction",
+    "words": 1285,
+    "size": "medium"
+  },
+  "doc_967.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Combinatorial_explosion",
+    "topic": "Combinatorial_explosion",
+    "words": 937,
+    "size": "medium"
+  },
+  "doc_968.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Description_logic",
+    "topic": "Description_logic",
+    "words": 2280,
+    "size": "large"
+  },
+  "doc_969.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)",
+    "topic": "Inheritance_(object-oriented_programming)",
+    "words": 2528,
+    "size": "large"
+  },
+  "doc_970.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)",
+    "topic": "Frame_(artificial_intelligence)",
+    "words": 2801,
+    "size": "large"
+  },
+  "doc_971.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Scripts_(artificial_intelligence)",
+    "topic": "Scripts_(artificial_intelligence)",
+    "words": 486,
+    "size": "small"
+  },
+  "doc_972.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Situation_calculus",
+    "topic": "Situation_calculus",
+    "words": 2749,
+    "size": "large"
+  },
+  "doc_973.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Event_calculus",
+    "topic": "Event_calculus",
+    "words": 1297,
+    "size": "medium"
+  },
+  "doc_974.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Fluent_calculus",
+    "topic": "Fluent_calculus",
+    "words": 218,
+    "size": "small"
+  },
+  "doc_975.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Frame_problem",
+    "topic": "Frame_problem",
+    "words": 3086,
+    "size": "large"
+  },
+  "doc_976.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Causality#Causal_calculus",
+    "topic": "Causality#Causal_calculus",
+    "words": 8753,
+    "size": "large"
+  },
+  "doc_977.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Modal_logic",
+    "topic": "Modal_logic",
+    "words": 5840,
+    "size": "large"
+  },
+  "doc_978.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Default_logic",
+    "topic": "Default_logic",
+    "words": 1468,
+    "size": "medium"
+  },
+  "doc_979.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Circumscription_(logic)",
+    "topic": "Circumscription_(logic)",
+    "words": 2862,
+    "size": "large"
+  },
+  "doc_980.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Closed_world_assumption",
+    "topic": "Closed_world_assumption",
+    "words": 933,
+    "size": "medium"
+  },
+  "doc_981.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Abductive_reasoning",
+    "topic": "Abductive_reasoning",
+    "words": 5725,
+    "size": "large"
+  },
+  "doc_982.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Qualification_problem",
+    "topic": "Qualification_problem",
+    "words": 172,
+    "size": "small"
+  },
+  "doc_983.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Automated_decision_making",
+    "topic": "Automated_decision_making",
+    "words": 2410,
+    "size": "large"
+  },
+  "doc_984.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Uninformed_search",
+    "topic": "Uninformed_search",
+    "words": 1883,
+    "size": "medium"
+  },
+  "doc_985.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Breadth_first_search",
+    "topic": "Breadth_first_search",
+    "words": 1235,
+    "size": "medium"
+  },
+  "doc_986.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Depth-first_search",
+    "topic": "Depth-first_search",
+    "words": 1411,
+    "size": "medium"
+  },
+  "doc_987.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Best-first_search",
+    "topic": "Best-first_search",
+    "words": 285,
+    "size": "small"
+  },
+  "doc_988.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/A*_search_algorithm",
+    "topic": "A*_search_algorithm",
+    "words": 3062,
+    "size": "large"
+  },
+  "doc_989.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Equality_(mathematics)",
+    "topic": "Equality_(mathematics)",
+    "words": 4635,
+    "size": "large"
+  },
+  "doc_990.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Logical_inference",
+    "topic": "Logical_inference",
+    "words": 1528,
+    "size": "medium"
+  },
+  "doc_991.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Unification_(computer_science)",
+    "topic": "Unification_(computer_science)",
+    "words": 4774,
+    "size": "large"
+  },
+  "doc_992.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/ACM_SIGPLAN_Notices",
+    "topic": "ACM_SIGPLAN_Notices",
+    "words": 202,
+    "size": "small"
+  },
+  "doc_993.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bayesian_learning",
+    "topic": "Bayesian_learning",
+    "words": 5551,
+    "size": "large"
+  },
+  "doc_994.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bayesian_decision_theory",
+    "topic": "Bayesian_decision_theory",
+    "words": 2681,
+    "size": "large"
+  },
+  "doc_995.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Alberto_Ciaramella",
+    "topic": "Alberto_Ciaramella",
+    "words": 412,
+    "size": "small"
+  },
+  "doc_996.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Alternating_decision_tree",
+    "topic": "Alternating_decision_tree",
+    "words": 654,
+    "size": "medium"
+  },
+  "doc_997.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Nonparametric_statistics",
+    "topic": "Nonparametric_statistics",
+    "words": 760,
+    "size": "medium"
+  },
+  "doc_998.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Support_vector_machines",
+    "topic": "Support_vector_machines",
+    "words": 6325,
+    "size": "large"
+  },
+  "doc_999.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Automatic_differentiation",
+    "topic": "Automatic_differentiation",
+    "words": 4191,
+    "size": "large"
+  },
+  "doc_1000.txt": {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Universal_approximation_theorem",
+    "topic": "Universal_approximation_theorem",
+    "words": 3591,
+    "size": "large"
+  }
+}

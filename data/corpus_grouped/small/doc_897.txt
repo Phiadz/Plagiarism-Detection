@@ -1,0 +1,7 @@
+in artificial intelligence a behavior selection algorithm or action selection algorithm is an algorithm that selects appropriate behaviors or actions for one or more intelligent agents in game artificial intelligence it selects behaviors or actions for one or more non player characters common behavior selection algorithms include
+
+in application programming run time selection of the behavior of a specific method is referred to as the strategy design pattern
+
+
+
+this artificial intelligence related article is a stub you can help wikipedia by adding missing information

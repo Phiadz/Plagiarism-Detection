@@ -1,0 +1,37 @@
+there are two conceptualisations of data archaeology the technical definition and the social science definition
+
+data archaeology also data archeology in the technical sense refers to the art and science of recovering computer data encoded and or encrypted in now obsolete media or formats data archaeology can also refer to recovering information from damaged electronic formats after natural disasters or human error
+
+it entails the rescue and recovery of old data trapped in outdated archaic or obsolete storage formats such as floppy disks magnetic tape punch cards and transforming transferring that data to more usable formats
+
+data archaeology in the social sciences usually involves an investigation into the source and history of datasets and the construction of these datasets it involves mapping out the entire lineage of data its nature and characteristics its quality and veracity and how these affect the analysis and interpretation of the dataset
+
+the findings of performing data archaeology affect the level to which the conclusions parsed from data analysis can be trusted
+
+the term data archaeology originally appeared in 1993 as part of the global oceanographic data archaeology and rescue project godar the original impetus for data archaeology came from the need to recover computerised records of climatic conditions stored on old computer tape which can provide valuable evidence for testing theories of climate change these approaches allowed the reconstruction of an image of the arctic that had been captured by the nimbus 2 satellite on september 23 1966 in higher resolution than ever seen before from this type of data
+
+nasa also utilises the services of data archaeologists to recover information stored on 1960s era vintage computer tape as exemplified by the lunar orbiter image recovery project loirp
+
+there is a distinction between data recovery and data intelligibility one may be able to recover data but not understand it for data archaeology to be effective the data must be intelligible
+
+a term closely related to data archaeology is data lineage the first step in performing data archaeology is an investigation into their data lineage data lineage entails the history of the data its source and any alterations or transformations they have undergone data lineage can be found in the metadata of a dataset the para data of a dataset or any accompanying identifiers methodological guides etc with data archaeology comes methodological transparency which is the level to which the data user can access the data history the level of methodological transparency available determines not only how much can be recovered but assists in knowing the data data lineage investigation involves what instruments were used what the selection criteria are the measurement parameters and the sampling frameworks
+
+in the socio political manner data archaeology involves the analysis of data assemblages to reveal their discursive and material socio technical elements and apparatuses this kind of analysis can reveal the politics of the data being analysed and thus that of their producing institution archaeology in this sense refers to the provenance of data it involves mapping the sites formats and infrastructures through which data flows and are altered or transformed over time it has an interest in the life of data and the politics that shapes the circulation of data this serves to expose the key actors practices and praxes at play and their roles it can be accomplished in two steps first is accessing and assessing the technical stack of the data this refers to the infrastructure and material technologies used to build gather the data to understand the physical representation of the data and also second analysing the contextual stack of the data which shapes how the data is constructed used and analysed this can be done via a variety of processes interviews analysing technical and policy documents and investigating the effect of the data on a community or the institutional financial legal and material framing this can be attained by creating a data assemblage
+
+data archaeology charts the way data moves across different sites and can sometimes encounter data friction
+
+data archaeologists can also use data recovery after natural disasters such as fires floods earthquakes or even hurricanes for example in 1995 during hurricane marilyn the national media lab assisted the national archives and records administration in recovering data at risk due to damaged equipment the hardware was damaged from rain salt water and sand yet it was possible to clean some of the disks and refit them with new cases thus saving the data within
+
+when deciding whether or not to try and recover data the cost must be taken into account if there is enough time and money most data will be able to be recovered in the case of magnetic media which are the most common type used for data storage there are various techniques that can be used to recover the data depending on the type of damage 17
+
+humidity can cause tapes to become unusable as they begin to deteriorate and become sticky in this case a heat treatment can be applied to fix this problem by causing the oils and residues to either be reabsorbed into the tape or evaporate off the surface of the tape however this should only be done in order to provide access to the data so it can be extracted and copied to a medium that is more stable 17 18
+
+lubrication loss is another source of damage to tapes this is most commonly caused by heavy use but can also be a result of improper storage or natural evaporation as a result of heavy use some of the lubricant can remain on the read write heads which then collect dust and particles this can cause damage to the tape loss of lubrication can be addressed by re lubricating the tapes this should be done cautiously as excessive re lubrication can cause tape slippage which in turn can lead to media being misread and the loss of data 18
+
+water exposure will damage tapes over time this often occurs in a disaster situation if the media is in salty or dirty water it should be rinsed in fresh water the process of cleaning rinsing and drying wet tapes should be done at room temperature in order to prevent heat damage older tapes should be recovered prior to newer tapes as they are more susceptible to water damage 18
+
+the next step after investigating the data lineage is to establish what counts as good data and bad data to ensure that only the good data gets migrated to the new data warehouse or repository a good example of bad data in the technical data sense is test data
+
+to prevent the need of data archaeology creators and holders of digital documents should take care to employ digital preservation
+
+another effective preventive measure is the use of offshore backup facilities that could not be affected should a disaster occur from these backup servers copies of the lost data could easily be retrieved a multi site and multi technique data distribution plan is advised for optimal data recovery especially when dealing with big data tcp ip method snapshot recovery mirror sites and tapes safeguarding data in a private cloud are also all good preventive methods daily transferring data from their mirror sites to the emergency servers

@@ -1,0 +1,102 @@
+
+
+sap se ˌɛs eɪˈpiː german pronunciation ɛsʔaːˈpeː doing business as sap is a german multinational software company based in walldorf baden württemberg that is the world s largest vendor of enterprise software
+
+sap gbr became in 1981 fully systeme anwendungen und produkte in der datenverarbeitung systems applications and products in data processing abbreviated sap gmbh after a five year transition period beginning in 1976 in the late 1980s it further restructured itself as sap ag since 7 july 2014 its corporate structure is that of a pan european societas europaea se as such its former german corporate identity is now a subsidiary sap deutschland se co kg it has regional offices in 180 countries and 109 973 employees
+
+sap is a component of the dax and euro stoxx 50 stock market indices the company is the largest non american software company by revenue and the world s fifth largest publicly traded software company by revenue in june 2025 it was the largest european company by market capitalization as well as one of the 30 most valuable publicly traded companies in the world
+
+when xerox exited the computer hardware manufacturing industry in 1971 it asked ibm to migrate its business systems to ibm technology as part of ibm s compensation for the migration ibm was given the rights to the scientific data systems sds sape software repository five ibm engineers from the ai department dietmar hopp klaus tschira hans werner hector hasso plattner and claus wellenreuther all from mannheim baden württemberg were working on an enterprise wide system based on this software only to be told that it would no longer be necessary rather than abandoning the project they decided to leave ibm tech and start another company in june 1972 they founded the sap systemanalyse und programmentwicklung system analysis and program development sapd company as a private partnership under the german civil code
+
+their first client was the german branch of imperial chemical industries in östringen where they developed mainframe programs for payroll and accounting instead of storing the data on punch cards mechanically as ibm did they stored it locally in the electronic system while using a common logical database for all activities of organization clarification needed therefore they called their software a real time system since there was no need to process the punch cards overnight for this reason their flagship product carried an r in its name until the late 1990s this first version was also a standalone software that could be offered to other interested parties
+
+in 1973 sap launched its first commercial product the rf financial accounting system this system served as the cornerstone in the ongoing development of other software modules of the system that eventually bore the name sap r 1 this offered a common system for multiple tasks this permitted the use of a centralized data storage improving the maintenance of data from a technical point of view therefore a database was necessary new archival link needed
+
+in 1976 sap gmbh systeme anwendungen und produkte in der datenverarbeitung systems applications and products in data processing was founded as a sales and support subsidiary five years later the private partnership was dissolved and its rights were passed on to sap gmbh the headquarters moved the following year to walldorf germany
+
+in 1979 sap launched sap r 2 expanding the capabilities of the system to other areas such as materials management and production planning
+
+in 1981 sap brought a re designed product to market however sap r 2 did not improve until between 1985 and 1990
+
+in 1992 sap released sap r 3 sap developed and released several versions of r 3 through 1995
+
+in august 1988 sap gmbh became sap ag and public trading started on 4 november 1988 shares were listed on the frankfurt and stuttgart stock exchanges in 1995 sap was included in the german stock index dax and on 22 september 2003 sap was included in the stoxx europe 50
+
+in the mid 1990s sap transitioned from mainframe computing to a client server architecture in 1996 it began its alliance with the spanish technology consulting firm seidor initiating the expansion of sap solutions throughout latin america
+
+in 2004 r 3 was replaced with sap erp central component ecc 5 0 architectural changes were also made to transition customers to a service oriented architecture
+
+the company s official name became sap ag a public limited company after the 2005 annual general meeting
+
+in 2006 sap erp 6 0 was released sap erp 6 0 is the latest version has since been updated through sap enhancement packs the most recent being enhancement package 8 for sap erp 6 0 in 2016
+
+since 2012 sap has acquired several companies that sell cloud based products with several multi billion dollar acquisitions seen by analysts as an attempt to challenge competitor oracle in 2014 sap bought concur technologies a provider of cloud based travel and expense management software for 8 3 billion sap s most expensive purchase to that date analysts reactions to the purchase were mixed with thomas becker of commerzbank questioning whether concur was the right choice for sap while credit suisse called the acquisition an aggressive move sap also acquired smartrecruiters in 2025 to replace the recruiting module in its sap successfactors human capital management suite as part of the acquisition smartrecruiter s ai agent assistant winston will interact with sap s joule ai products
+
+on 21 may 2014 sap ag announced during the annual general meeting of shareholders that 99 of the shareholder votes approved the conversion of legal form to a european stock corporation societas europaea se and at the same time elected the first supervisory board of sap se the conversion of the company s legal form would take place upon entry in the commercial register expected to be in july 2014
+
+on 7 july 2014 sap announced it had changed its legal form to a european company societas europaea se as a result its german subsidiary was renamed to sap deutschland se co kg the conversion cost the company approximately 4 million in 2014 ibm and sap began a partnership to sell cloud based services likewise in 2015 sap also partnered with hpe to provide secure hybrid cloud based services running the sap platform both hpe and ibm provide infrastructure services to sap and sap runs its sap hana cloud solution on top sap has announced additional partnerships with microsoft in order to give customers tools for data visualization as well as improved mobile applications
+
+in 2015 sap exceeded its revenue projections due to the expansion in its cloud business and the success of sap hana the growth can also be partially attributed to the acquisitions of concur and fieldglass since 2017 sap is a founding member of the eu cloud code of conduct since may 2021 sap has listed selected cloud service adherent to the eu cloud code of conduct as one of the first cloud service providers
+
+the company announced plans in 2016 to invest heavily into technology relating to the internet of things iot as part of a strategy to capitalize on the growth in that market for that purpose 2 billion is planned for investment in relevant sectors by the end of 2020 sap will also launch a new product line called sap iot which will combine large amounts of data from things connected to the internet with machine learning and sap s real time database s 4 hana
+
+on 29 january 2019 sap announced plans to cut approximately 4 000 positions at the company in a strategic plan to shift to more modern cloud based technologies such as blockchain quantum computing machine learning internet of things and artificial intelligence
+
+on 13 april 2021 sap announced the formation of the joint venture sap fioneer a dedicated financial services industry fsi unit between sap and investment company dediq gmbh dediq gmbh invested over 500 million in the newly formed unit and received an 80 percent share in return sap brought its products organizational units and the sales network into the business and holds 20 percent of the shares
+
+in june 2025 it was reported that the company had reached 320bn in value and that 4 out of 5 of sap s client operations were now managed through its cloud business at hyperscale level in september 2025 the european commission opened an investigation into sap for anti competitive practices
+
+since 1991 sap has acquired more than 70 companies the sap group comprised 226 companies as of december 31 2024 sap prioritizes organic investments in technologies for long term product portfolio growth and relevance while also making targeted acquisitions to complement existing solutions and enhance penetration into key strategic markets
+
+sap supports external company formations and organic growth by investing in risk funds managed by sapphire ventures these funds manage over 10 billion 9 billion in assets and have committed over 1 billion to invest in startups developing cutting edge ai powered enterprise technologies to foster their global growth
+
+as well as its main erp products the company also sells database software and technology particularly its own brand sap hana and cloud engineered systems it sells other erp software products such as
+
+sap also offers sap cloud infrastructure its infrastructure as a service iaas cloud platform for running sap and non sap workloads alongside sap offerings available on hyperscaler clouds sap also operates sap national security services sap ns2 a u s based subsidiary that delivers sap solutions for u s government and other regulated customers
+
+with regard to its global market share sap was ranked as a leader in the following areas enterprise software enterprise resource management applications supply chain management applications procurement software travel and expense management software and enterprise resource planning erp software 98 of the 100 largest companies in the world are sap
+customers approximately 80 of sap s customers are smes
+
+for the fiscal year 2017 sap reported earnings of 4 billion with an annual revenue of 23 5 billion an increase of 6 3 over the previous fiscal cycle sap s shares traded at over us 154 per share and its market capitalization was valued at us 180 billion in december 2023 making it the largest german company by market capitalization
+
+the key trends for sap are as at the financial year ending 31 march
+
+sap had the following ownership structure in early 2024
+
+sap uses a two tier structure of boards with an executive board and a supervisory board in october 2019 jennifer morgan and christian klein were appointed as co ceos of sap in april 2020 it was announced that jennifer morgan will leave sap and christian klein will continue to operate as the sole ceo citing that the current environment of the covid 19 recession requires companies to take swift determined action which is best supported by a very clear leadership structure
+
+the majority of the company s employees are in germany and united states about 20 000 employees are based in germany and about 19 311 employees are based in the united states
+
+45 employee representatives were elected in 2022 to the sap se works council including 15 candidates from the ver di and ig metall trade union lists they represent 17 000 employees of germany
+
+headquarters is responsible for overall management as well as core engineering activities related to product development worldwide customer support is not provided by the field organizations but by a unified organization called active global support ags
+
+the company also encourages employees to volunteer through social sabbaticals sending teams of people to different countries to aid non profits sap employees have volunteered in china india brazil and south africa
+
+sap labs network consists of all major global research development hubs of sap across more than 20 countries and representing more than 80 of sap s global engineering workforce for the first nine months of 2025 9m 2025 sap dedicated 18 2 of its total revenue to research development r d on a non ifrs basis utilizing 37 909 full time equivalent fte r d personnel 34 2 of total headcount across more than 100 development locations globally including 19 sap labs development centers
+
+major hubs of sap are germany india usa and china and growing hubs in east asia eastern europe canada and latin america
+
+there are 12 member organizations of the sap user group executive network sugen the american users group is one of them
+
+americas sap users group asug is the largest it professional association in north america in 1990 sap customers attended the sap annual conference sapphire to form a sap users group in 1991 the americas sap users group asug was created asug works with sap in order to deliver education and training networking research and influence to asug members the asug annual conference shares a location with sap s annual sapphire now event
+
+in 2016 asug acquired the eventful group s north american assets in 2016 asug launched the asug university program which is delivered through both hands on and virtual methods
+
+since may 2015 the company has dealt with a series of high profile bribery investigations including one that led to them paying 3 9 million to settle u s securities and exchange commission civil charges over a former executive s scheme to bribe panama government officials in order to win lucrative technology contracts
+
+in july 2017 allegations were made that sap had been involved in business transactions with the controversial and politically influential gupta family in south africa sap was accused of paying cad house a gupta controlled company r100 million in order to secure a transnet deal sap denied the allegations claiming that the money was paid as an extension of the sales force despite cad house having no prior sap experience the dealings of the gupta family with sap were revealed in a widely publicized e mail leak as a consequence of the allegations sap launched an investigation that led to four of its south african managers being placed on administrative leave along with the seizure of their mobile phones and computers claas kuehnemann was named as acting managing director for africa while the investigation continued on 26 october 2017 sap announced that it had voluntarily reported itself to the u s securities and exchange commission sec for a possible violation of us law including the foreign corrupt practices act fcpa related to the south african bribery allegations sap s own investigation conducted by law firm baker mckenzie revealed that sap had paid 7 7 million in commissions to third parties linked to the gupta family while securing contracts worth 48 million with transnet and eskom
+
+in 2018 and in an ongoing court battle teradata accused sap of ip theft and fraudulent behaviour in 2021 in the german weekly news magazine der spiegel additional claims were made of questionable behaviour with regards to sap s funding of researchers at the university of mannheim who were in effect paid by sap to investigate competitors technology in a later article der spiegel magazine maintained that sap had been neglectful in maintaining strict governance for years in june 2022 the german business magazine manager magazin published an article stating the management style of the leadership might be responsible for an increased compliance risk
+
+in february 2019 sap was accused of improper conduct linked to state contracts in kenya and tanzania an anonymous whistle blower claims through a firm of attorneys that sap used twenty third century systems ttcs to bribe officials at the tanzania ports authority tpa to win a us 6 6 million enterprise resource planning software tender that involved the provision of software licenses and services
+
+in 2021 sap admitted in a united states court that it exported software to firms in iran contrary to us sanctions against iran which led to a fine of 8 million
+
+in may 2022 multiple claims were made of bullying and sexual harassment within the company with many cases of unwanted advances by senior male managers on female colleagues when complaints were made or information made available hr were found to be unhelpful or hostile for example in one case a female employee was groped by a male manager in sydney while at a company event but he was never brought to account in another case a female employee was sexually targeted by a manager and asked to keep her web camera on during the day she then complained and was placed under performance management a precursor to being asked to leave the company several female executives including the co ceo left the company adding to concerns that women were negatively treated despite sap then hiring several other senior women from microsoft
+
+in 2024 after investigations by the u s justice department and the securities and exchange commission sap was ordered to pay 220 million to resolve violations of the foreign corrupt practices act in south africa indonesia tanzania malawi ghana kenya zimbabwe and azerbaijan it paid bribes to officials in state owned enterprises to gain government contracts it entered into a three year deferred prosecution agreement paying a criminal penalty of 118 8 million and an administrative forfeiture of 103 396 765 in south africa sap used third party intermediaries to acquire tenders from various state owned entities including transnet the south african revenue service the city of johannesburg eskom and the department of water and sanitation 4 in march 2024 sap agreed to pay r500 million as part of an agreement with south africa s special investigating unit the agreement indemnifies them against further financial claims related to the bribery but does not absolve any parties from criminal prosecution
+
+on september 3 2024 it was announced that cto and executive board member jürgen müller reached a mutual agreement to leave the company by the end of the month due to incident of inappropriate behavior at a company event following the news of this incident it was reported on september 13 2024 that german prosecutors have opened a formal investigation of sexual harassment between him and the female employee
+
+49 17 38 n 8 38 23 e 49 2938 n 8 6396 e 49 2938 8 6396

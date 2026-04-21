@@ -1,0 +1,969 @@
+cluster analysis or clustering is a data analysis technique aimed at partitioning a set of objects into groups such that objects within the same group called a cluster exhibit greater similarity to one another in some specific sense defined by the analyst than to those in other groups clusters it is a main task of exploratory data analysis and a common technique for statistical data analysis used in many fields including pattern recognition image analysis information retrieval bioinformatics data compression computer graphics and machine learning
+
+cluster analysis refers to a family of algorithms and tasks rather than one specific algorithm it can be achieved by various algorithms that differ significantly in their understanding of what constitutes a cluster and how to efficiently find them popular notions of clusters include groups with small distances between cluster members dense areas of the data space intervals or particular statistical distributions clustering can therefore be formulated as a multi objective optimization problem the appropriate clustering algorithm and parameter settings including parameters such as the distance function to use a density threshold or the number of expected clusters depend on the individual data set and intended use of the results cluster analysis as such is not an automatic task but an iterative process of knowledge discovery or interactive multi objective optimization that involves trial and failure it is often necessary to modify data preprocessing and model parameters until the result achieves the desired properties
+
+besides the term clustering there are a number of terms with similar meanings including automatic classification numerical taxonomy botryology from greek βότρυς grape typological analysis and community detection the subtle differences are often in the use of the results while in data mining the resulting groups are the matter of interest in automatic classification the resulting discriminative power is of interest
+
+cluster analysis originated in anthropology by driver and kroeber in 1932 and introduced to psychology by joseph zubin in 1938 and robert tryon in 1939 and famously used by cattell beginning in 1943 for trait theory classification in personality psychology
+
+the notion of a cluster cannot be precisely defined which is one of the reasons why there are so many clustering algorithms there is a common denominator a group of data objects however different researchers employ different cluster models and for each of these cluster models again different algorithms can be given the notion of a cluster as found by different algorithms varies significantly in its properties understanding these cluster models is key to understanding the differences between the various algorithms typical cluster models include
+
+a clustering is essentially a set of such clusters usually containing all objects in the data set additionally it may specify the relationship of the clusters to each other for example a hierarchy of clusters embedded in each other clusterings can be roughly distinguished as
+
+there are also finer distinctions possible for example
+
+as listed above clustering algorithms can be categorized based on their cluster model the following overview will only list the most prominent examples of clustering algorithms as there are possibly over 100 published clustering algorithms not all provide models for their clusters and can thus not easily be categorized an overview of algorithms explained in wikipedia can be found in the list of statistics algorithms
+
+there is no objectively correct clustering algorithm but as it was noted clustering is in the eye of the beholder in fact an axiomatic approach to clustering demonstrates that it is impossible for any clustering method to meet three fundamental properties simultaneously scale invariance results remain unchanged under proportional scaling of distances richness all possible partitions of the data can be achieved and consistency between distances and the clustering structure the most appropriate clustering algorithm for a particular problem often needs to be chosen experimentally unless there is a mathematical reason to prefer one cluster model over another an algorithm that is designed for one kind of model will generally fail on a data set that contains a radically different kind of model for example k means cannot find non convex clusters most traditional clustering methods assume the clusters exhibit a spherical elliptical or convex shape
+
+connectivity based clustering also known as hierarchical clustering is based on the core idea of objects being more related to nearby objects than to objects farther away these algorithms connect objects to form clusters based on their distance a cluster can be described largely by the maximum distance needed to connect parts of the cluster at different distances different clusters will form which can be represented using a dendrogram which explains where the common name hierarchical clustering comes from these algorithms do not provide a single partitioning of the data set but instead provide an extensive hierarchy of clusters that merge with each other at certain distances in a dendrogram the y axis marks the distance at which the clusters merge while the objects are placed along the x axis such that the clusters don t mix
+
+connectivity based clustering is a whole family of methods that differ by the way distances are computed apart from the usual choice of distance functions the user also needs to decide on the linkage criterion since a cluster consists of multiple objects there are multiple candidates to compute the distance to use popular choices are known as single linkage clustering the minimum of object distances complete linkage clustering the maximum of object distances and upgma or wpgma unweighted or weighted pair group method with arithmetic mean also known as average linkage clustering furthermore hierarchical clustering can be agglomerative starting with single elements and aggregating them into clusters or divisive starting with the complete data set and dividing it into partitions
+
+these methods will not produce a unique partitioning of the data set but a hierarchy from which the user still needs to choose appropriate clusters they are not very robust towards outliers which will either show up as additional clusters or even cause other clusters to merge known as chaining phenomenon in particular with single linkage clustering in the general case the complexity is
+
+
+
+
+
+o
+
+
+
+
+n
+
+3
+
+
+
+
+
+displaystyle mathcal o n 3
+
+for agglomerative clustering and
+
+
+
+
+
+o
+
+
+
+
+2
+
+n
+
+1
+
+
+
+
+
+displaystyle mathcal o 2 n 1
+
+for divisive clustering which makes them too slow for large data sets for some special cases optimal efficient methods of complexity
+
+
+
+
+
+o
+
+
+
+
+n
+
+2
+
+
+
+
+
+displaystyle mathcal o n 2
+
+are known slink for single linkage and clink for complete linkage clustering
+
+in centroid based clustering each cluster is represented by a central vector which is not necessarily a member of the data set when the number of clusters is fixed to k k means clustering gives a formal definition as an optimization problem find the k cluster centers and assign the objects to the nearest cluster center such that the squared distances from the cluster are minimized
+
+the optimization problem itself is known to be np hard and thus the common approach is to search only for approximate solutions a particularly well known approximate method is lloyd s algorithm often just referred to as k means algorithm although another algorithm introduced this name it does however only find a local optimum and is commonly run multiple times with different random initializations variations of k means often include such optimizations as choosing the best of multiple runs but also restricting the centroids to members of the data set k medoids choosing medians k medians clustering choosing the initial centers less randomly k means or allowing a fuzzy cluster assignment fuzzy c means
+
+most k means type algorithms require the number of clusters k to be specified in advance which is considered to be one of the biggest drawbacks of these algorithms furthermore the algorithms prefer clusters of approximately similar size as they will always assign an object to the nearest centroid often yielding improperly cut borders of clusters this happens primarily because the algorithm optimizes cluster centers not cluster borders steps involved in the centroid based clustering algorithm are
+
+k means has a number of interesting theoretical properties first it partitions the data space into a structure known as a voronoi diagram second it is conceptually close to nearest neighbor classification and as such is popular in machine learning third it can be seen as a variation of model based clustering and lloyd s algorithm as a variation of the expectation maximization algorithm for this model discussed below
+
+centroid based clustering problems such as k means and k medoids are special cases of the uncapacitated metric facility location problem a canonical problem in the operations research and computational geometry communities in a basic facility location problem of which there are numerous variants that model more elaborate settings the task is to find the best warehouse locations to optimally service a given set of consumers one may view warehouses as cluster centroids and consumer locations as the data to be clustered this makes it possible to apply the well developed algorithmic solutions from the facility location literature to the presently considered centroid based clustering problem
+
+the clustering framework most closely related to statistics is model based clustering which is based on distribution models this approach models the data as arising from a mixture of probability distributions it has the advantages of providing principled statistical answers to questions such as how many clusters there are what clustering method or model to use and how to detect and deal with outliers
+
+while the theoretical foundation of these methods is excellent they suffer from overfitting unless constraints are put on the model complexity a more complex model will usually be able to explain the data better which makes choosing the appropriate model complexity inherently difficult standard model based clustering methods include more parsimonious models based on the eigenvalue decomposition of the covariance matrices that provide a balance between overfitting and fidelity to the data
+
+one prominent method is known as gaussian mixture models using the expectation maximization algorithm here the data set is usually modeled with a fixed to avoid overfitting number of gaussian distributions that are initialized randomly and whose parameters are iteratively optimized to better fit the data set this will converge to a local optimum so multiple runs may produce different results in order to obtain a hard clustering objects are often then assigned to the gaussian distribution they most likely belong to for soft clusterings this is not necessary
+
+distribution based clustering produces complex models for clusters that can capture correlation and dependence between attributes however these algorithms put an extra burden on the user for many real data sets there may be no concisely defined mathematical model e g assuming gaussian distributions is a rather strong assumption on the data
+
+in density based clustering clusters are defined as areas of higher density than the remainder of the data set objects in sparse areas that are required to separate clusters are usually considered to be noise and border points
+
+the most popular density based clustering method is dbscan in contrast to many newer methods it features a well defined cluster model called density reachability similar to linkage based clustering it is based on connecting points within certain distance thresholds however it only connects points that satisfy a density criterion in the original variant defined as a minimum number of other objects within this radius a cluster consists of all density connected objects which can form a cluster of an arbitrary shape in contrast to many other methods plus all objects that are within these objects range another interesting property of dbscan is that its complexity is fairly low it requires a linear number of range queries on the database and that it will discover essentially the same results it is deterministic for core and noise points but not for border points in each run therefore there is no need to run it multiple times optics is a generalization of dbscan that removes the need to choose an appropriate value for the range parameter
+
+
+
+ε
+
+
+displaystyle varepsilon
+
+and produces a hierarchical result related to that of linkage clustering deli clu density link clustering combines ideas from single linkage clustering and optics eliminating the
+
+
+
+ε
+
+
+displaystyle varepsilon
+
+parameter entirely and offering performance improvements over optics by using an r tree index hdbscan extends dbscan by converting it into a hierarchical clustering algorithm and then using a technique to extract a flat clustering based in the stability of clusters
+
+the key drawback of dbscan and optics is that they expect some kind of density drop to detect cluster borders on data sets with for example overlapping gaussian distributions a common use case in artificial data the cluster borders produced by these algorithms will often look arbitrary because the cluster density decreases continuously on a data set consisting of mixtures of gaussians these algorithms are nearly always outperformed by methods such as em clustering that are able to precisely model this kind of data
+
+mean shift is a clustering approach where each object is moved to the densest area in its vicinity based on kernel density estimation eventually objects converge to local maxima of density similar to k means clustering these density attractors can serve as representatives for the data set but mean shift can detect arbitrary shaped clusters similar to dbscan due to the expensive iterative procedure and density estimation mean shift is usually slower than dbscan or k means besides that the applicability of the mean shift algorithm to multidimensional data is hindered by the unsmooth behaviour of the kernel density estimate which results in over fragmentation of cluster tails
+
+the grid based technique is used for a multi dimensional data set in this technique we create a grid structure and the comparison is performed on grids also known as cells the grid based technique is fast and has low computational complexity there are two types of grid based clustering methods sting and clique steps involved in the grid based clustering algorithm are
+
+in recent years considerable effort has been put into improving the performance of existing algorithms among them are clarans and birch with the recent need to process larger and larger data sets also known as big data the willingness to trade semantic meaning of the generated clusters for performance has been increasing this led to the development of pre clustering methods such as canopy clustering which can process huge data sets efficiently but the resulting clusters are merely a rough pre partitioning of the data set to then analyze the partitions with existing slower methods such as k means clustering
+
+for high dimensional data many of the existing methods fail due to the curse of dimensionality which renders particular distance functions problematic in high dimensional spaces this led to new clustering algorithms for high dimensional data that focus on subspace clustering where only some attributes are used and cluster models include the relevant attributes for the cluster and correlation clustering that also looks for arbitrary rotated correlated subspace clusters that can be modeled by giving a correlation of their attributes examples for such clustering algorithms are clique and subclu
+
+ideas from density based clustering methods in particular the dbscan optics family of algorithms have been adapted to subspace clustering hisc hierarchical subspace clustering and dish and correlation clustering hico hierarchical correlation clustering 4c using correlation connectivity and eric exploring hierarchical density based correlation clusters
+
+several different clustering systems based on mutual information have been proposed one is marina meilă s variation of information metric another provides hierarchical clustering using genetic algorithms a wide range of different fit functions can be optimized including mutual information also belief propagation a recent development in computer science and statistical physics has led to the creation of new types of clustering algorithms
+
+evaluation or validation of clustering results is as difficult as the clustering itself popular approaches involve internal evaluation where the clustering is summarized to a single quality score external evaluation where the clustering is compared to an existing ground truth classification manual evaluation by a human expert and indirect evaluation by evaluating the utility of the clustering in its intended application
+
+internal evaluation measures suffer from the problem that they represent functions that themselves can be seen as a clustering objective for example one could cluster the data set by the silhouette coefficient except that there is no known efficient algorithm for this by using such an internal measure for evaluation one rather compares the similarity of the optimization problems and not necessarily how useful the clustering is
+
+external evaluation has similar problems if we have such ground truth labels then we would not need to cluster and in practical applications we usually do not have such labels on the other hand the labels only reflect one possible partitioning of the data set which does not imply that there does not exist a different and maybe even better clustering
+
+neither of these approaches can therefore ultimately judge the actual quality of a clustering but this needs human evaluation which is highly subjective nevertheless such statistics can be quite informative in identifying bad clusterings but one should not dismiss subjective human evaluation
+
+when a clustering result is evaluated based on the data that was clustered itself this is called internal evaluation these methods usually assign the best score to the algorithm that produces clusters with high similarity within a cluster and low similarity between clusters one drawback of using internal criteria in cluster evaluation is that high scores on an internal measure do not necessarily result in effective information retrieval applications additionally this evaluation is biased towards algorithms that use the same cluster model for example k means clustering naturally optimizes object distances and a distance based internal criterion will likely overrate the resulting clustering
+
+therefore the internal evaluation measures are best suited to get some insight into situations where one algorithm performs better than another but this shall not imply that one algorithm produces more valid results than another validity as measured by such an index depends on the claim that this kind of structure exists in the data set an algorithm designed for some kind of models has no chance if the data set contains a radically different set of models or if the evaluation measures a radically different criterion for example k means clustering can only find convex clusters and many evaluation indexes assume convex clusters on a data set with non convex clusters neither the use of k means nor of an evaluation criterion that assumes convexity is sound
+
+many internal evaluation measures are based on the intuition that items in the same cluster should be more similar than items in different clusters 115 121 for example the following methods can be used to assess the quality of clustering algorithms based on internal criterion
+
+the davies bouldin index can be calculated by the following formula
+
+
+
+
+d
+b
+
+
+
+1
+n
+
+
+
+
+
+i
+
+1
+
+
+n
+
+
+
+max
+
+j
+
+i
+
+
+
+
+
+
+
+
+σ
+
+i
+
+
+
+
+σ
+
+j
+
+
+
+
+d
+
+
+c
+
+i
+
+
+
+
+c
+
+j
+
+
+
+
+
+
+
+
+
+
+displaystyle db frac 1 n sum _ i 1 n max _ j neq i left frac sigma _ i sigma _ j d c_ i c_ j right
+
+
+where n is the number of clusters
+
+
+
+
+c
+
+i
+
+
+
+
+displaystyle c_ i
+
+is the centroid of cluster
+
+
+
+i
+
+
+displaystyle i
+
+
+
+
+
+
+σ
+
+i
+
+
+
+
+displaystyle sigma _ i
+
+is the average distance of all elements in cluster
+
+
+
+i
+
+
+displaystyle i
+
+to centroid
+
+
+
+
+c
+
+i
+
+
+
+
+displaystyle c_ i
+
+and
+
+
+
+d
+
+
+c
+
+i
+
+
+
+
+c
+
+j
+
+
+
+
+
+displaystyle d c_ i c_ j
+
+is the distance between centroids
+
+
+
+
+c
+
+i
+
+
+
+
+displaystyle c_ i
+
+and
+
+
+
+
+c
+
+j
+
+
+
+
+displaystyle c_ j
+
+since algorithms that produce clusters with low intra cluster distances high intra cluster similarity and high inter cluster distances low inter cluster similarity will have a low davies bouldin index the clustering algorithm that produces a collection of clusters with the smallest davies bouldin index is considered the best algorithm based on this criterion
+
+the dunn index aims to identify dense and well separated clusters it is defined as the ratio between the minimal inter cluster distance to maximal intra cluster distance for each cluster partition the dunn index can be calculated by the following formula
+
+where d i j represents the distance between clusters i and j and d k measures the intra cluster distance of cluster k the inter cluster distance d i j between two clusters may be any number of distance measures such as the distance between the centroids of the clusters similarly the intra cluster distance d k may be measured in a variety of ways such as the maximal distance between any pair of elements in cluster k since internal criterion seek clusters with high intra cluster similarity and low inter cluster similarity algorithms that produce clusters with high dunn index are more desirable
+
+the silhouette coefficient contrasts the average distance to elements in the same cluster with the average distance to elements in other clusters objects with a high silhouette value are considered well clustered objects with a low value may be outliers this index works well with k means clustering and is also used to determine the optimal number of clusters
+
+area under the curve for clustering aucc
+
+this matrix consider pairs of objects the distance between the pair as a scoring function and the particion pairs defined true positive true negatives false negatives and true negatives by considering if pairs are in the same clusters of not this index borrow the same characteristics as the auc in the supervised scenario including an expected value of 0 5 and vizualisation of results
+
+in external evaluation clustering results are evaluated based on data that was not used for clustering such as known class labels and external benchmarks such benchmarks consist of a set of pre classified items and these sets are often created by expert humans thus the benchmark sets can be thought of as a gold standard for evaluation these types of evaluation methods measure how close the clustering is to the predetermined benchmark classes however it has recently been discussed whether this is adequate for real data or only on synthetic data sets with a factual ground truth since classes can contain internal structure the attributes present may not allow separation of clusters or the classes may contain anomalies additionally from a knowledge discovery point of view the reproduction of known knowledge may not necessarily be the intended result in the special scenario of constrained clustering where meta information such as class labels is used already in the clustering process the hold out of information for evaluation purposes is non trivial
+
+a number of measures are adapted from variants used to evaluate classification tasks in place of counting the number of times a class was correctly assigned to a single data point known as true positives such pair counting metrics assess whether each pair of data points that is truly in the same cluster is predicted to be in the same cluster
+
+as with internal evaluation several external evaluation measures exist 125 129 for example
+
+purity is a measure of the extent to which clusters contain a single class its calculation can be thought of as follows for each cluster count the number of data points from the most common class in said cluster now take the sum over all clusters and divide by the total number of data points formally given some set of clusters
+
+
+
+m
+
+
+displaystyle m
+
+and some set of classes
+
+
+
+d
+
+
+displaystyle d
+
+both partitioning
+
+
+
+n
+
+
+displaystyle n
+
+data points purity can be defined as
+
+this measure doesn t penalize having many clusters and more clusters will make it easier to produce a high purity a purity score of 1 is always possible by putting each data point in its own cluster also purity doesn t work well for imbalanced data where even poorly performing clustering algorithms will give a high purity value for example if a size 1000 dataset consists of two classes one containing 999 points and the other containing 1 point then every possible partition will have a purity of at least 99 9
+
+the rand index computes how similar the clusters returned by the clustering algorithm are to the benchmark classifications it can be computed using the following formula
+
+where
+
+
+
+t
+p
+
+
+displaystyle tp
+
+is the number of true positives
+
+
+
+t
+n
+
+
+displaystyle tn
+
+is the number of true negatives
+
+
+
+f
+p
+
+
+displaystyle fp
+
+is the number of false positives and
+
+
+
+f
+n
+
+
+displaystyle fn
+
+is the number of false negatives the instances being counted here are the number of correct pairwise assignments that is
+
+
+
+t
+p
+
+
+displaystyle tp
+
+is the number of pairs of points that are clustered together in the predicted partition and in the ground truth partition
+
+
+
+f
+p
+
+
+displaystyle fp
+
+is the number of pairs of points that are clustered together in the predicted partition but not in the ground truth partition etc if the dataset is of size n then
+
+
+
+t
+p
+
+t
+n
+
+f
+p
+
+f
+n
+
+
+
+
+
+
+
+n
+2
+
+
+
+
+
+
+
+
+displaystyle tp tn fp fn binom n 2
+
+
+one issue with the rand index is that false positives and false negatives are equally weighted this may be an undesirable characteristic for some clustering applications the f measure addresses this concern citation needed as does the chance corrected adjusted rand index
+
+the f measure can be used to balance the contribution of false negatives by weighting recall through a parameter
+
+
+
+β
+
+0
+
+
+displaystyle beta geq 0
+
+let precision and recall both external evaluation measures in themselves be defined as follows
+
+
+
+
+p
+
+
+
+
+t
+p
+
+
+t
+p
+
+f
+p
+
+
+
+
+
+displaystyle p frac tp tp fp
+
+
+
+
+
+
+r
+
+
+
+
+t
+p
+
+
+t
+p
+
+f
+n
+
+
+
+
+
+displaystyle r frac tp tp fn
+
+
+where
+
+
+
+p
+
+
+displaystyle p
+
+is the precision rate and
+
+
+
+r
+
+
+displaystyle r
+
+is the recall rate we can calculate the f measure by using the following formula
+
+
+
+
+
+f
+
+β
+
+
+
+
+
+
+
+
+β
+
+2
+
+
+
+1
+
+
+p
+
+r
+
+
+
+β
+
+2
+
+
+
+p
+
+r
+
+
+
+
+
+displaystyle f_ beta frac beta 2 1 cdot p cdot r beta 2 cdot p r
+
+
+when
+
+
+
+β
+
+0
+
+
+displaystyle beta 0
+
+
+
+
+
+
+f
+
+0
+
+
+
+p
+
+
+displaystyle f_ 0 p
+
+in other words recall has no impact on the f measure when
+
+
+
+β
+
+0
+
+
+displaystyle beta 0
+
+and increasing
+
+
+
+β
+
+
+displaystyle beta
+
+allocates an increasing amount of weight to recall in the final f measure
+also
+
+
+
+t
+n
+
+
+displaystyle tn
+
+is not taken into account and can vary from 0 upward without bound
+
+the jaccard index is used to quantify the similarity between two datasets the jaccard index takes on a value between 0 and 1 an index of 1 means that the two dataset are identical and an index of 0 indicates that the datasets have no common elements the jaccard index is defined by the following formula
+
+
+
+
+j
+
+a
+
+b
+
+
+
+
+
+
+
+
+a
+
+b
+
+
+
+
+
+
+
+
+a
+
+b
+
+
+
+
+
+
+
+
+
+
+t
+p
+
+
+t
+p
+
+f
+p
+
+f
+n
+
+
+
+
+
+displaystyle j a b frac a cap b a cup b frac tp tp fp fn
+
+
+this is simply the number of unique elements common to both sets divided by the total number of unique elements in both sets
+note that
+
+
+
+t
+n
+
+
+displaystyle tn
+
+is not taken into account
+
+the dice symmetric measure doubles the weight on
+
+
+
+t
+p
+
+
+displaystyle tp
+
+while still ignoring
+
+
+
+t
+n
+
+
+displaystyle tn
+
+
+
+
+
+
+d
+s
+c
+
+
+
+
+2
+t
+p
+
+
+2
+t
+p
+
+f
+p
+
+f
+n
+
+
+
+
+
+displaystyle dsc frac 2tp 2tp fp fn
+
+
+
+the fowlkes mallows index computes the similarity between the clusters returned by the clustering algorithm and the benchmark classifications the higher the value of the fowlkes mallows index the more similar the clusters and the benchmark classifications are it can be computed using the following formula
+
+
+
+
+f
+m
+
+
+
+
+
+
+t
+p
+
+
+t
+p
+
+f
+p
+
+
+
+
+
+
+
+t
+p
+
+
+t
+p
+
+f
+n
+
+
+
+
+
+
+
+displaystyle fm sqrt frac tp tp fp cdot frac tp tp fn
+
+
+where
+
+
+
+t
+p
+
+
+displaystyle tp
+
+is the number of true positives
+
+
+
+f
+p
+
+
+displaystyle fp
+
+is the number of false positives and
+
+
+
+f
+n
+
+
+displaystyle fn
+
+is the number of false negatives the
+
+
+
+f
+m
+
+
+displaystyle fm
+
+index is the geometric mean of the precision and recall
+
+
+
+p
+
+
+displaystyle p
+
+and
+
+
+
+r
+
+
+displaystyle r
+
+and is thus also known as the g measure while the f measure is their harmonic mean moreover precision and recall are also known as wallace s indices
+
+
+
+
+b
+
+i
+
+
+
+
+displaystyle b i
+
+and
+
+
+
+
+b
+
+i
+i
+
+
+
+
+displaystyle b ii
+
+chance normalized versions of recall precision and g measure correspond to informedness markedness and matthews correlation and relate strongly to kappa
+
+the chi index is an external validation index that measure the clustering results by applying the chi squared statistic this index scores positively the fact that the labels are as sparse as possible across the clusters i e that each cluster has as few different labels as possible the higher the value of the chi index the greater the relationship between the resulting clusters and the label used
+
+the mutual information is an information theoretic measure of how much information is shared between a clustering and a ground truth classification that can detect a non linear similarity between two clustering normalized mutual information is a family of corrected for chance variants of this that has a reduced bias for varying cluster numbers
+
+a confusion matrix can be used to quickly visualize the results of a classification or clustering algorithm it shows how different a cluster is from the gold standard cluster
+
+the validity measure short v measure is a combined metric for homogeneity and completeness of the clusters
+
+to measure cluster tendency is to measure to what degree clusters exist in the data to be clustered and may be performed as an initial test before attempting clustering one way to do this is to compare the data against random data on average random data should not have clusters verification needed
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+
+
+this is a list of data science software and platforms used in data science which includes programming languages programming environments machine learning frameworks data engineering tools statistical software data analysis plotting mlops systems and more
+
+these interactive notebooks ides and platforms provide specialised development environments
+
+the machine learning deep learning tools support development in those fields
+
+examples of data engineering tools
+
+examples of data mining tools
+
+data warehouse environments include
+
+data lake environments include
+
+tools for data processing and analysis
+
+software for data visualization
+
+software for plotting data to support processing and visualise resuls
+
+mlops and model deployment

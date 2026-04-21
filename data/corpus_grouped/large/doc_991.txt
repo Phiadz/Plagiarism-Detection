@@ -1,0 +1,1560 @@
+in logic and computer science specifically automated reasoning unification is an algorithmic process of solving equations between symbolic expressions each of the form left hand side right hand side for example using x y z as variables and taking f to be an uninterpreted function the singleton equation set f 1 y f x 2 is a syntactic first order unification problem that has the substitution x 1 y 2 as its only solution
+
+conventions differ on what values variables may assume and which expressions are considered equivalent in first order syntactic unification variables range over first order terms and equivalence is syntactic this version of unification has a unique best answer and is used in logic programming and programming language type system implementation especially in hindley milner based type inference algorithms in higher order unification possibly restricted to higher order pattern unification terms may include lambda expressions and equivalence is up to beta reduction this version is used in proof assistants and higher order logic programming for example isabelle twelf and lambdaprolog finally in semantic unification or e unification equality is subject to background knowledge and variables range over a variety of domains this version is used in smt solvers term rewriting algorithms and cryptographic protocol analysis
+
+a unification problem is a finite set e l1 r1 ln rn of equations to solve where li ri are in the set
+
+
+
+t
+
+
+displaystyle t
+
+of terms or expressions depending on which expressions or terms are allowed to occur in an equation set or unification problem and which expressions are considered equal several frameworks of unification are distinguished if higher order variables that is variables representing functions are allowed in an expression the process is called higher order unification otherwise first order unification if a solution is required to make both sides of each equation literally equal the process is called syntactic or free unification otherwise semantic or equational unification or e unification or unification modulo theory
+
+if the right side of each equation is closed no free variables the problem is called pattern matching the left side with variables of each equation is called the pattern
+
+formally a unification approach presupposes
+
+as an example of how the set of terms and theory affects the set of solutions the syntactic first order unification problem y cons 2 y has no solution over the set of finite terms however it has the single solution y cons 2 cons 2 cons 2 over the set of infinite tree terms similarly the semantic first order unification problem a x x a has each substitution of the form x a a as a solution in a semigroup i e if is considered associative but the same problem viewed in an abelian group where is considered also commutative has any substitution at all as a solution
+
+as an example of higher order unification the singleton set a y x is a syntactic second order unification problem since y is a function variable one solution is x a y identity function another one is y constant function mapping each value to a x any value
+
+a substitution is a mapping
+
+
+
+σ
+
+v
+
+t
+
+
+displaystyle sigma v rightarrow t
+
+from variables to terms the notation
+
+
+
+
+
+x
+
+1
+
+
+
+
+t
+
+1
+
+
+
+
+
+
+
+
+x
+
+k
+
+
+
+
+t
+
+k
+
+
+
+
+
+displaystyle x_ 1 mapsto t_ 1 x_ k mapsto t_ k
+
+refers to a substitution mapping each variable
+
+
+
+
+x
+
+i
+
+
+
+
+displaystyle x_ i
+
+to the term
+
+
+
+
+t
+
+i
+
+
+
+
+displaystyle t_ i
+
+for
+
+
+
+i
+
+1
+
+
+
+
+
+k
+
+
+displaystyle i 1 k
+
+and every other variable to itself the
+
+
+
+
+x
+
+i
+
+
+
+
+displaystyle x_ i
+
+must be pairwise distinct applying that substitution to a term
+
+
+
+t
+
+
+displaystyle t
+
+is written in postfix notation as
+
+
+
+t
+
+
+x
+
+1
+
+
+
+
+t
+
+1
+
+
+
+
+
+
+
+
+x
+
+k
+
+
+
+
+t
+
+k
+
+
+
+
+
+displaystyle t x_ 1 mapsto t_ 1 x_ k mapsto t_ k
+
+it means to simultaneously replace every occurrence of each variable
+
+
+
+
+x
+
+i
+
+
+
+
+displaystyle x_ i
+
+in the term
+
+
+
+t
+
+
+displaystyle t
+
+by
+
+
+
+
+t
+
+i
+
+
+
+
+displaystyle t_ i
+
+the result
+
+
+
+t
+τ
+
+
+displaystyle t tau
+
+of applying a substitution
+
+
+
+τ
+
+
+displaystyle tau
+
+to a term
+
+
+
+t
+
+
+displaystyle t
+
+is called an instance of that term
+
+
+
+t
+
+
+displaystyle t
+
+
+as a first order example applying the substitution x h a y z b to the term
+
+if a term
+
+
+
+t
+
+
+displaystyle t
+
+has an instance equivalent to a term
+
+
+
+u
+
+
+displaystyle u
+
+that is if
+
+
+
+t
+σ
+
+u
+
+
+displaystyle t sigma equiv u
+
+for some substitution
+
+
+
+σ
+
+
+displaystyle sigma
+
+then
+
+
+
+t
+
+
+displaystyle t
+
+is called more general than
+
+
+
+u
+
+
+displaystyle u
+
+and
+
+
+
+u
+
+
+displaystyle u
+
+is called more special than or subsumed by
+
+
+
+t
+
+
+displaystyle t
+
+for example
+
+
+
+x
+
+a
+
+
+displaystyle x oplus a
+
+is more general than
+
+
+
+a
+
+b
+
+
+displaystyle a oplus b
+
+if is commutative since then
+
+
+
+
+x
+
+a
+
+
+x
+
+b
+
+
+b
+
+a
+
+a
+
+b
+
+
+displaystyle x oplus a x mapsto b b oplus a equiv a oplus b
+
+
+
+if is literal syntactic identity of terms a term may be both more general and more special than another one only if both terms differ just in their variable names not in their syntactic structure such terms are called variants or renamings of each other
+for example
+
+
+
+
+f
+
+
+x
+
+1
+
+
+
+a
+
+g
+
+
+z
+
+1
+
+
+
+
+
+y
+
+1
+
+
+
+
+
+displaystyle f x_ 1 a g z_ 1 y_ 1
+
+
+is a variant of
+
+
+
+
+f
+
+
+x
+
+2
+
+
+
+a
+
+g
+
+
+z
+
+2
+
+
+
+
+
+y
+
+2
+
+
+
+
+
+displaystyle f x_ 2 a g z_ 2 y_ 2
+
+
+since
+
+
+
+
+f
+
+
+x
+
+1
+
+
+
+a
+
+g
+
+
+z
+
+1
+
+
+
+
+
+y
+
+1
+
+
+
+
+
+x
+
+1
+
+
+
+
+x
+
+2
+
+
+
+
+y
+
+1
+
+
+
+
+y
+
+2
+
+
+
+
+z
+
+1
+
+
+
+
+z
+
+2
+
+
+
+
+f
+
+
+x
+
+2
+
+
+
+a
+
+g
+
+
+z
+
+2
+
+
+
+
+
+y
+
+2
+
+
+
+
+
+displaystyle f x_ 1 a g z_ 1 y_ 1 x_ 1 mapsto x_ 2 y_ 1 mapsto y_ 2 z_ 1 mapsto z_ 2 f x_ 2 a g z_ 2 y_ 2
+
+
+and
+
+
+
+
+f
+
+
+x
+
+2
+
+
+
+a
+
+g
+
+
+z
+
+2
+
+
+
+
+
+y
+
+2
+
+
+
+
+
+x
+
+2
+
+
+
+
+x
+
+1
+
+
+
+
+y
+
+2
+
+
+
+
+y
+
+1
+
+
+
+
+z
+
+2
+
+
+
+
+z
+
+1
+
+
+
+
+f
+
+
+x
+
+1
+
+
+
+a
+
+g
+
+
+z
+
+1
+
+
+
+
+
+y
+
+1
+
+
+
+
+
+
+displaystyle f x_ 2 a g z_ 2 y_ 2 x_ 2 mapsto x_ 1 y_ 2 mapsto y_ 1 z_ 2 mapsto z_ 1 f x_ 1 a g z_ 1 y_ 1
+
+
+however
+
+
+
+f
+
+
+x
+
+1
+
+
+
+a
+
+g
+
+
+z
+
+1
+
+
+
+
+
+y
+
+1
+
+
+
+
+
+displaystyle f x_ 1 a g z_ 1 y_ 1
+
+is not a variant of
+
+
+
+f
+
+
+x
+
+2
+
+
+
+a
+
+g
+
+
+x
+
+2
+
+
+
+
+
+x
+
+2
+
+
+
+
+
+displaystyle f x_ 2 a g x_ 2 x_ 2
+
+since no substitution can transform the latter term into the former one
+the latter term is therefore properly more special than the former one
+
+for arbitrary
+
+
+
+
+
+
+displaystyle equiv
+
+a term may be both more general and more special than a structurally different term
+for example if is idempotent that is if always
+
+
+
+x
+
+x
+
+x
+
+
+displaystyle x oplus x equiv x
+
+then the term
+
+
+
+x
+
+y
+
+
+displaystyle x oplus y
+
+is more general than
+
+
+
+z
+
+
+displaystyle z
+
+note 2 and vice versa note 3 although
+
+
+
+x
+
+y
+
+
+displaystyle x oplus y
+
+and
+
+
+
+z
+
+
+displaystyle z
+
+are of different structure
+
+a substitution
+
+
+
+σ
+
+
+displaystyle sigma
+
+is more special than or subsumed by a substitution
+
+
+
+τ
+
+
+displaystyle tau
+
+if
+
+
+
+t
+σ
+
+
+displaystyle t sigma
+
+is subsumed by
+
+
+
+t
+τ
+
+
+displaystyle t tau
+
+for each term
+
+
+
+t
+
+
+displaystyle t
+
+we also say that
+
+
+
+τ
+
+
+displaystyle tau
+
+is more general than
+
+
+
+σ
+
+
+displaystyle sigma
+
+more formally take a nonempty infinite set
+
+
+
+v
+
+
+displaystyle v
+
+of auxiliary variables such that no equation
+
+
+
+
+l
+
+i
+
+
+
+
+r
+
+i
+
+
+
+
+displaystyle l_ i doteq r_ i
+
+in the unification problem contains variables from
+
+
+
+v
+
+
+displaystyle v
+
+then a substitution
+
+
+
+σ
+
+
+displaystyle sigma
+
+is subsumed by another substitution
+
+
+
+τ
+
+
+displaystyle tau
+
+if there is a substitution
+
+
+
+θ
+
+
+displaystyle theta
+
+such that for all terms
+
+
+
+x
+
+v
+
+
+displaystyle x notin v
+
+
+
+
+
+x
+σ
+
+x
+τ
+θ
+
+
+displaystyle x sigma equiv x tau theta
+
+
+for instance
+
+
+
+
+x
+
+a
+
+y
+
+a
+
+
+
+displaystyle x mapsto a y mapsto a
+
+is subsumed by
+
+
+
+τ
+
+
+x
+
+y
+
+
+
+displaystyle tau x mapsto y
+
+using
+
+
+
+θ
+
+
+y
+
+a
+
+
+
+displaystyle theta y mapsto a
+
+but
+
+
+
+
+σ
+
+
+x
+
+a
+
+
+
+displaystyle sigma x mapsto a
+
+is not subsumed by
+
+
+
+τ
+
+
+x
+
+y
+
+
+
+displaystyle tau x mapsto y
+
+as
+
+
+
+f
+
+x
+
+y
+
+σ
+
+f
+
+a
+
+y
+
+
+
+displaystyle f x y sigma f a y
+
+is not an instance of
+
+
+
+
+f
+
+x
+
+y
+
+τ
+
+f
+
+y
+
+y
+
+
+
+displaystyle f x y tau f y y
+
+
+
+a substitution σ is a solution of the unification problem e if liσ riσ for
+
+
+
+i
+
+1
+
+
+
+
+
+n
+
+
+displaystyle i 1 n
+
+such a substitution is also called a unifier of e
+for example if is associative the unification problem x a a x has the solutions x a x a a x a a a etc while the problem x a a has no solution
+
+for a given unification problem e a set s of unifiers is called complete if each solution substitution is subsumed by some substitution in s a complete substitution set always exists e g the set of all solutions but in some frameworks such as unrestricted higher order unification the problem of determining whether any solution exists i e whether the complete substitution set is nonempty is undecidable
+
+the set s is called minimal if none of its members subsumes another one depending on the framework a complete and minimal substitution set may have zero one finitely many or infinitely many members or may not exist at all due to an infinite chain of redundant members thus in general unification algorithms compute a finite approximation of the complete set which may or may not be minimal although most algorithms avoid redundant unifiers when possible for first order syntactical unification martelli and montanari gave an algorithm that reports unsolvability or computes a single unifier that by itself forms a complete and minimal substitution set called the most general unifier
+
+syntactic unification of first order terms is the most widely used unification framework
+it is based on t being the set of first order terms over some given set v of variables c of constants and fn of n ary function symbols and on being syntactic equality
+in this framework each solvable unification problem l1 r1 ln rn has a complete and obviously minimal singleton solution set σ
+its member σ is called the most general unifier mgu of the problem
+the terms on the left and the right hand side of each potential equation become syntactically equal when the mgu is applied i e l1σ r1σ lnσ rnσ
+any unifier of the problem is subsumed note 4 by the mgu σ
+the mgu is unique up to variants if s1 and s2 are both complete and minimal solution sets of the same syntactical unification problem then s1 σ1 and s2 σ2 for some substitutions σ1 and σ2 and xσ1 is a variant of xσ2 for each variable x occurring in the problem
+
+for example the unification problem x z y f x has a unifier x z y f z because
+
+this is also the most general unifier
+other unifiers for the same problem are e g x f x1 y f f x1 z f x1 x f f x1 y f f f x1 z f f x1 and so on there are infinitely many similar unifiers
+
+as another example the problem g x x f y has no solution with respect to being literal identity since any substitution applied to the left and right hand side will keep the outermost g and f respectively and terms with different outermost function symbols are syntactically different
+
+symbols are ordered such that variables precede function symbols
+terms are ordered by increasing written length equally long terms
+are ordered lexicographically for a set t of terms its disagreement
+path p is the lexicographically least path where two member terms
+of t differ its disagreement set is the set of subterms starting at p
+formally t p t t
+
+algorithm
+
+jacques herbrand discussed the basic concepts of unification and sketched an algorithm in 1930 but most authors attribute the first unification algorithm to john alan robinson cf box note 5 robinson s algorithm had worst case exponential behavior in both time and space numerous authors have proposed more efficient unification algorithms algorithms with worst case linear time behavior were discovered independently by martelli montanari 1976 and paterson wegman 1976 note 6 baader snyder 2001 uses a similar technique as paterson wegman hence is linear but like most linear time unification algorithms is slower than the robinson version on small sized inputs due to the overhead of preprocessing the inputs and postprocessing of the output such as construction of a dag representation de champeaux 2022 is also of linear complexity in the input size but is competitive with the robinson algorithm on small size inputs the speedup is obtained by using an object oriented representation of the predicate calculus that avoids the need for pre and post processing instead making variable objects responsible for creating a substitution and for dealing with aliasing de champeaux claims that the ability to add functionality to predicate calculus represented as programmatic objects provides opportunities for optimizing other logic operations as well
+
+the following algorithm is commonly presented and originates from martelli montanari 1982 note 7 given a finite set
+
+
+
+g
+
+
+
+s
+
+1
+
+
+
+
+t
+
+1
+
+
+
+
+
+
+
+
+s
+
+n
+
+
+
+
+t
+
+n
+
+
+
+
+
+displaystyle g s_ 1 doteq t_ 1 s_ n doteq t_ n
+
+of potential equations
+the algorithm applies rules to transform it to an equivalent set of equations of the form
+x1 u1 xm um
+where x1 xm are distinct variables and u1 um are terms containing none of the xi
+a set of this form can be read as a substitution
+if there is no solution the algorithm terminates with other authors use ω or fail in that case
+the operation of substituting all occurrences of variable x in problem g with term t is denoted g x t
+for simplicity constant symbols are regarded as function symbols having zero arguments
+
+an attempt to unify a variable x with a term containing x as a strict subterm x f x would lead to an infinite term as solution for x since x would occur as a subterm of itself
+in the set of finite first order terms as defined above the equation x f x has no solution hence the eliminate rule may only be applied if x vars t
+since that additional check called occurs check slows down the algorithm it is omitted e g in most prolog systems
+from a theoretical point of view omitting the check amounts to solving equations over infinite trees see unification of infinite terms below
+
+for the proof of termination of the algorithm consider a triple
+
+
+
+
+
+n
+
+v
+a
+r
+
+
+
+
+n
+
+l
+h
+s
+
+
+
+
+n
+
+e
+q
+n
+
+
+
+
+
+displaystyle langle n_ var n_ lhs n_ eqn rangle
+
+
+where nvar is the number of variables that occur more than once in the equation set nlhs is the number of function symbols and constants
+on the left hand sides of potential equations and neqn is the number of equations
+when rule eliminate is applied nvar decreases since x is eliminated from g and kept only in x t
+applying any other rule can never increase nvar again
+when rule decompose conflict or swap is applied nlhs decreases since at least the left hand side s outermost f disappears
+applying any of the remaining rules delete or check can t increase nlhs but decreases neqn
+hence any rule application decreases the triple
+
+
+
+
+
+n
+
+v
+a
+r
+
+
+
+
+n
+
+l
+h
+s
+
+
+
+
+n
+
+e
+q
+n
+
+
+
+
+
+displaystyle langle n_ var n_ lhs n_ eqn rangle
+
+with respect to the lexicographical order which is possible only a finite number of times
+
+conor mcbride observes that by expressing the structure which unification exploits in a dependently typed language such as epigram robinson s unification algorithm can be made recursive on the number of variables in which case a separate termination proof becomes unnecessary
+
+in the prolog syntactical convention a symbol starting with an upper case letter is a variable name a symbol that starts with a lowercase letter is a function symbol the comma is used as the logical and operator
+for mathematical notation x y z are used as variables f g as function symbols and a b as constants
+
+succeeds in traditional prolog and in prolog ii unifying x with infinite term x f f f f
+
+the most general unifier of a syntactic first order unification problem of size n may have a size of 2n for example the problem
+
+
+
+
+
+
+a
+
+z
+
+
+y
+
+
+x
+
+
+w
+
+w
+
+
+x
+
+
+y
+
+
+z
+
+a
+
+
+
+
+
+displaystyle a z y x w doteq w x y z a
+
+has the most general unifier
+
+
+
+
+z
+
+a
+
+y
+
+a
+
+a
+
+x
+
+
+a
+
+a
+
+
+
+a
+
+a
+
+
+w
+
+
+
+a
+
+a
+
+
+
+a
+
+a
+
+
+
+
+
+a
+
+a
+
+
+
+a
+
+a
+
+
+
+
+
+displaystyle z mapsto a y mapsto a a x mapsto a a a a w mapsto a a a a a a a a
+
+cf picture in order to avoid exponential time complexity caused by such blow up advanced unification algorithms work on directed acyclic graphs dags rather than trees
+
+the concept of unification is one of the main ideas behind logic programming specifically unification is a basic building block of resolution a rule of inference for determining formula satisfiability in prolog the equality symbol implies first order syntactic unification it represents the mechanism of binding the contents of variables and can be viewed as a kind of one time assignment
+
+in prolog
+
+type inference algorithms are typically based on unification particularly hindley milner type inference which is used by the functional languages haskell and ml for example when attempting to infer the type of the haskell expression true x the compiler will use the type a a a of the list construction function the type bool of the first argument true and the type char of the second argument x the polymorphic type variable a will be unified with bool and the second argument a will be unified with char a cannot be both bool and char at the same time therefore this expression is not correctly typed
+
+like for prolog an algorithm for type inference can be given
+
+unification has been used in different research areas of computational linguistics
+
+order sorted logic allows one to assign a sort or type to each term and to declare a sort s1 a subsort of another sort s2 commonly written as s1 s2 for example when reаsoning about biological creatures it is useful to declare a sort dog to be a subsort of a sort animal wherever a term of some sort s is required a term of any subsort of s may be supplied instead
+for example assuming a function declaration mother animal animal and a constant declaration lassie dog the term mother lassie is perfectly valid and has the sort animal in order to supply the information that the mother of a dog is a dog in turn another declaration mother dog dog may be issued this is called function overloading similar to overloading in programming languages
+
+walther gave a unification algorithm for terms in order sorted logic requiring for any two declared sorts s1 s2 their intersection s1 s2 to be declared too if x1 and x2 is a variable of sort s1 and s2 respectively the equation x1 x2 has the solution x1 x x2 x where x s1 s2
+
+after incorporating this algorithm into a clause based automated theorem prover he could solve a benchmark problem by translating it into order sorted logic thereby boiling it down an order of magnitude as many unary predicates turned into sorts
+
+smolka generalized order sorted logic to allow for parametric polymorphism
+
+in his framework subsort declarations are propagated to complex type expressions
+as a programming example a parametric sort list x may be declared with x being a type parameter as in a c template and from a subsort declaration int float the relation list int list float is automatically inferred meaning that each list of integers is also a list of floats
+
+schmidt schauß generalized order sorted logic to allow for term declarations
+
+as an example assuming subsort declarations even int and odd int a term declaration like i int i i even allows to declare a property of integer addition that could not be expressed by ordinary overloading
+
+background on infinite trees
+
+unification algorithm prolog ii
+
+applications
+
+e unification is the problem of finding solutions to a given set of equations
+taking into account some equational background knowledge e
+the latter is given as a set of universal equalities
+for some particular sets e equation solving algorithms a k a e unification algorithms have been devised
+for others it has been proven that no such algorithms can exist
+
+for example if a and b are distinct constants
+the equation
+
+
+
+x
+
+a
+
+y
+
+b
+
+
+displaystyle x a doteq y b
+
+has no solution
+with respect to purely syntactic unification
+where nothing is known about the operator
+
+
+
+
+
+
+displaystyle
+
+
+however if the
+
+
+
+
+
+
+displaystyle
+
+is known to be commutative
+then the substitution x b y a solves the above equation
+since
+
+the background knowledge e could state the commutativity of
+
+
+
+
+
+
+displaystyle
+
+by the universal equality
+
+
+
+
+u
+
+v
+
+v
+
+u
+
+
+displaystyle u v v u
+
+for all u v
+
+it is said that unification is decidable for a theory if a unification algorithm has been devised for it that terminates for any input problem
+it is said that unification is semi decidable for a theory if a unification algorithm has been devised for it that terminates for any solvable input problem but may keep searching forever for solutions of an unsolvable input problem
+
+unification is decidable for the following theories
+
+unification is semi decidable for the following theories
+
+if there is a convergent term rewriting system r available for e
+the one sided paramodulation algorithm
+can be used to enumerate all solutions of given equations
+
+starting with g being the unification problem to be solved and s being the identity substitution rules are applied nondeterministically until the empty set appears as the actual g in which case the actual s is a unifying substitution depending on the order the paramodulation rules are applied on the choice of the actual equation from g and on the choice of r s rules in mutate different computations paths are possible only some lead to a solution while others end at a g where no further rule is applicable e g g f g
+
+for an example a term rewrite system r is used defining the append operator of lists built from cons and nil where cons x y is written in infix notation as x y for brevity e g app a b nil c d nil a app b nil c d nil a b app nil c d nil a b c d nil demonstrates the concatenation of the lists a b nil and c d nil employing the rewrite rule 2 2 and 1 the equational theory e corresponding to r is the congruence closure of r both viewed as binary relations on terms
+for example app a b nil c d nil a b c d nil app a b c d nil nil the paramodulation algorithm enumerates solutions to equations with respect to that e when fed with the example r
+
+a successful example computation path for the unification problem app x app y x a a nil is shown below to avoid variable name clashes rewrite rules are consistently renamed each time before their use by rule mutate v2 v3 are computer generated variable names for this purpose in each line the chosen equation from g is highlighted in red each time the mutate rule is applied the chosen rewrite rule 1 or 2 is indicated in parentheses from the last line the unifying substitution s y nil x a nil can be obtained in fact
+app x app y x y nil x a nil app a nil app nil a nil app a nil a nil a app nil a nil a a nil solves the given problem
+a second successful computation path obtainable by choosing mutate 1 mutate 2 mutate 2 mutate 1 leads to the substitution s y a a nil x nil it is not shown here no other path leads to a success
+
+if r is a convergent term rewriting system for e
+an approach alternative to the previous section consists in successive application of narrowing steps
+this will eventually enumerate all solutions of a given equation
+a narrowing step cf picture consists in
+
+formally if l r is a renamed copy of a rewrite rule from r having no variables in common with a term s and the subterm s p is not a variable and is unifiable with l via the mgu σ then s can be narrowed to the term t sσ rσ p i e to the term sσ with the subterm at p replaced by rσ the situation that s can be narrowed to t is commonly denoted as s t
+intuitively a sequence of narrowing steps t1 t2 tn can be thought of as a sequence of rewrite steps t1 t2 tn but with the initial term t1 being further and further instantiated as necessary to make each of the used rules applicable
+
+the above example paramodulation computation corresponds to the following narrowing sequence indicating instantiation here
+
+the last term v2 v2 nil can be syntactically unified with the original right hand side term a a nil
+
+the narrowing lemma ensures that whenever an instance of a term s can be rewritten to a term t by a convergent term rewriting system then s and t can be narrowed and rewritten to a term s and t respectively such that t is an instance of s
+
+formally whenever sσ t holds for some substitution σ then there exist terms s t such that s s and t t and s τ t for some substitution τ
+
+many applications require one to consider the unification of typed lambda terms instead of first order terms such unification is often called higher order unification higher order unification is undecidable and such unification problems do not have most general unifiers for example the unification problem f a b a d b a c where the only variable is f has the
+solutions f λx λy λz d y x c f λx λy λz d y z c
+f λx λy λz d y a c f λx λy λz d b x c
+f λx λy λz d b z c and f λx λy λz d b a c a well studied branch of higher order unification is the problem of unifying simply typed lambda terms modulo the equality determined by αβη conversions gérard huet gave a semi decidable pre unification algorithm that allows a systematic search of the space of unifiers generalizing the unification algorithm of martelli montanari with rules for terms containing higher order variables that seems to work sufficiently well in practice huet and gilles dowek have written articles surveying this topic
+
+several subsets of higher order unification are well behaved in that they are decidable and have a most general unifier for solvable problems one such subset is the previously described first order terms higher order pattern unification due to dale miller is another such subset the higher order logic programming languages λprolog and twelf have switched from full higher order unification to implementing only the pattern fragment surprisingly pattern unification is sufficient for almost all programs if each non pattern unification problem is suspended until a subsequent substitution puts the unification into the pattern fragment a superset of pattern unification called functions as constructors unification is also well behaved the zipperposition theorem prover has an algorithm integrating these well behaved subsets into a full higher order unification algorithm
+
+in computational linguistics one of the most influential theories of elliptical construction is that ellipses are represented by free variables whose values are then determined using higher order unification for instance the semantic representation of jon likes mary and peter does too is like j m r p and the value of r the semantic representation of the ellipsis is determined by the equation like j m r j the process of solving such equations is called higher order unification
+
+wayne snyder gave a generalization of both higher order unification and e unification i e an algorithm to unify lambda terms modulo an equational theory

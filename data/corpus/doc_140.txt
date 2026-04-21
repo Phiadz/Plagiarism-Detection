@@ -1,0 +1,59 @@
+
+
+data erasure sometimes referred to as secure deletion data clearing data wiping or data destruction is a software based method of data sanitization that aims to completely destroy all electronic data residing on a hard disk drive or other digital media by overwriting data onto all sectors of the device in an irreversible process by overwriting the data on the storage device the data is rendered irrecoverable
+
+ideally software designed for data erasure should
+
+permanent data erasure goes beyond basic file deletion commands which only remove direct pointers to the data disk sectors and make the data recovery possible with common software tools unlike degaussing and physical destruction which render the storage media unusable data erasure removes all information while leaving the disk operable new flash memory based media implementations such as solid state drives or usb flash drives can cause data erasure techniques to fail allowing remnant data to be recoverable
+
+software based overwriting uses a software application to write a stream of zeros ones or meaningless pseudorandom data onto all sectors of a hard disk drive there are key differentiators between data erasure and other overwriting methods which can leave data intact and raise the risk of data breach identity theft or failure to achieve regulatory compliance many data eradication programs also provide multiple overwrites so that they support recognized government and industry standards though a single pass overwrite is widely considered to be sufficient for modern hard disk drives good software should provide verification of data removal which is necessary for meeting certain standards
+
+to protect the data on lost or stolen media some data erasure applications remotely destroy the data if the password is incorrectly entered data erasure tools can also target specific data on a disk for routine erasure providing a hacking protection method that is less time consuming than software encryption hardware firmware encryption built into the drive itself or integrated controllers is a popular solution with no degradation in performance at all
+
+when encryption is in place data erasure acts as a complement to crypto shredding or the practice of deleting data by only deleting or overwriting the encryption keys
+
+presently dedicated hardware firmware encryption solutions can perform a 256 bit full aes encryption faster than the drive electronics can write the data drives with this capability are known as self encrypting drives seds they are present on most modern enterprise level laptops and are increasingly used in the enterprise to protect the data changing the encryption key renders inaccessible all data stored on a sed which is an easy and very fast method for achieving a 100 data erasure theft of an sed results in a physical asset loss but the stored data is inaccessible without the decryption key that is not stored on a sed assuming there are no effective attacks against aes or its implementation in the drive hardware citation needed
+
+information technology assets commonly hold large volumes of confidential data social security numbers credit card numbers bank details medical history and classified information are often stored on computer hard drives or servers these can inadvertently or intentionally make their way onto other media such as printers usb flash zip jaz and rev drives
+
+increased storage of sensitive data combined with rapid technological change and the shorter lifespan of it assets has driven the need for permanent data erasure of electronic devices as they are retired or refurbished also compromised networks and laptop theft and loss as well as that of other portable media are increasingly common sources of data breaches
+
+if data erasure does not occur when a disk is retired or lost an organization or user faces a possibility that the data will be stolen and compromised leading to identity theft loss of corporate reputation threats to regulatory compliance and financial impacts companies spend large amounts of money to make sure their data is erased when they discard disks dubious discuss high profile incidents of data theft include
+
+strict industry standards and government regulations are in place that force organizations to mitigate the risk of unauthorized exposure of confidential corporate and government data regulations in the united states include hipaa health insurance portability and accountability act facta the fair and accurate credit transactions act of 2003 glb gramm leach bliley sarbanes oxley act sox and payment card industry data security standards pci dss and the data protection act in the united kingdom failure to comply can result in fines and damage to company reputation as well as civil and criminal liability citation needed
+
+data erasure offers an alternative to physical destruction and degaussing for secure removal of all the disk data physical destruction and degaussing destroy the digital media requiring disposal and contributing to electronic waste while negatively impacting the carbon footprint of individuals and companies hard drives are nearly 100 recyclable and can be collected at no charge from a variety of hard drive recyclers after they have been sanitized
+
+data erasure may not work completely on flash based media such as solid state drives and usb flash drives as these devices can store remnant data which is inaccessible to the erasure technique and data can be retrieved from the individual flash memory chips inside the device
+data erasure through overwriting only works on hard drives that are functioning and writing to all sectors bad sectors cannot usually be overwritten but may contain recoverable information bad sectors however may be invisible to the host system and thus to the erasing software disk encryption before use prevents this problem software driven data erasure could also be compromised by malicious code
+
+software based data erasure uses a disk accessible application to write a combination of ones zeroes and any other alpha numeric character also known as the mask onto each hard disk drive sector the level of security when using software data destruction tools is increased dramatically by pre testing hard drives for sector abnormalities and ensuring that the drive is 100 in working order the number of wipes has become obsolete with the more recent inclusion of a verify pass which scans all sectors of the disk and checks against what character should be there i e one pass of aa has to fill every writable sector of the hard disk this makes any more than one pass an unnecessary and certainly a more damaging act especially in the case of large multi terabyte drives
+
+while there are many overwriting programs only those capable of complete data erasure offer full security by destroying the data on all areas of a hard drive disk overwriting programs that cannot access the entire hard drive including hidden locked areas like the host protected area hpa device configuration overlay dco and remapped sectors perform an incomplete erasure leaving some of the data intact by accessing the entire hard drive data erasure eliminates the risk of data remanence
+
+data erasure can also bypass the operating system os overwriting programs that operate through the os will not always perform a complete erasure because they cannot modify the contents of the hard drive that are actively in use by that os because of this many data erasure programs are provided in a bootable format where you run off a live cd that has all of the necessary software to erase the disk citation needed
+
+data erasure can be deployed over a network to target multiple pcs rather than having to erase each one sequentially in contrast with dos based overwriting programs that may not detect all network hardware linux based data erasure software supports high end server and storage area network san environments with hardware support for serial ata serial attached scsi sas and fibre channel disks and remapped sectors it operates directly with sector sizes such as 520 524 and 528 removing the need to first reformat back to 512 sector size winpe has now overtaken linux as the environment of choice since drivers can be added with little effort this also helps with data destruction of tablets and other handheld devices that require pure uefi environments without hardware nic s installed and or are lacking uefi network stack support
+
+many government and industry standards exist for software based overwriting that removes the data a key factor in meeting these standards is the number of times the data is overwritten also some standards require a method to verify that all the data have been removed from the entire hard drive and to view the overwrite pattern complete data erasure should account for hidden areas typically dco hpa and remapped sectors
+
+the 1995 edition of the national industrial security program operating manual dod 5220 22 m permitted the use of overwriting techniques to sanitize some types of media by writing all addressable locations with a character its complement and then a random character this provision was removed in a 2001 change to the manual and was never permitted for top secret media but it is still listed as a technique by many providers of the data erasure software
+
+data erasure software should provide the user with a validation certificate indicating that the overwriting procedure was completed properly data erasure software should citation needed also comply with requirements to erase hidden areas provide a defects log list and list bad sectors that could not be overwritten
+
+alternative random character byte its complement another random character
+
+head stepping direction should alternate between tests
+read caching disabled
+
+data can sometimes be recovered from a broken hard drive however if the platters on a hard drive are damaged such as by drilling a hole through the drive and the platters inside then the data can only theoretically be recovered by bit by bit analysis of each platter with advanced forensic technology
+
+data on floppy disks can sometimes be recovered by forensic analysis even after the disks have been overwritten once with zeros or random zeros and ones
+
+this is not the case with modern hard drives
+
+even the possibility of recovering floppy disk data after overwrite is disputed gutmann s famous article cites a non existent source and sources that do not actually demonstrate recovery only partially successful observations gutmann s article also contains many assumptions that indicate his insufficient understanding of how hard drives work especially the data processing and encoding process the definition of random is also quite different from the usual one used gutmann expects the use of pseudorandom data with sequences known to the recovering side not an unpredictable one such as a cryptographically secure pseudorandom number generator
+
+e waste presents a potential security threat to individuals and exporting countries hard drives that are not properly erased before the computer is disposed of can be reopened exposing sensitive information credit card numbers private financial data account information and records of online transactions can be accessed by most willing individuals organized criminals in ghana commonly search the drives for information to use in local scams
+
+government contracts have been discovered on hard drives found in agbogbloshie citation needed

@@ -1,0 +1,60 @@
+deepface is a deep learning facial recognition system created by a research group at facebook it identifies human faces in digital images the program employs a nine layer neural network with over 120 million connection weights and was trained on four million images uploaded by facebook users the facebook research team has stated that the deepface method reaches an accuracy of 97 35 0 25 on the labeled faces in the wild lfw data set where human beings have 97 53 this means that deepface is sometimes more successful than human beings
+
+as a result of growing societal concerns meta announced that it plans to shut down facebook s facial recognition system deleting the face scan data of more than one billion users this change will represent one of the largest shifts in facial recognition usage in the technology s history facebook planned to delete by december 2021 more than one billion facial recognition templates which are digital scans of facial features however it did not plan to eliminate deepface which is the software that powers the facial recognition system the company has also not ruled out incorporating facial recognition technology into future products according to meta spokesperson
+
+deepface was produced by a collection of scientists from facebook s artificial intelligence research team the team includes yainiv taigman and a facebook research scientist ming yang they were also joined by lior wolf a faculty member from tel aviv university yaniv taigman came to facebook when facebook acquired face com in 2012
+
+facebook started rolling out deepface to its users in early 2015 and have continuously expanding deepface s use and software deepface according to the director of facebook s artificial intelligence research is not intended to invade individual privacy instead deepface alerts individuals when their face appears in any photo posted on facebook when they receive this notification they have the option of removing their face from the photo
+
+when the deepface technology was initially deployed users had the option to turn deepface off however they were not notified that it was on because of this deepface was not released in the european union a data privacy law in the eu argued that facebook s facial recognition did not comply with eu data protection laws because users do not consent to all the uses of their biometric data it does not comply
+
+deepface systems can identify faces with 97 accuracy almost the same accuracy as a human in the same position facebook s facial recognition is more effective than the fbi s technology which has 85 accuracy google s technology facenet is more successful than deepface using the same data sets facenet set a record for accuracy 99 63 google s facenet incorporates data from google photos
+
+facebook uses individual facial recognition templates to find photos that an individual is in so they can review engage or share the content deepface protects individuals from impersonation or identity theft take for example an instance where an individual used someone s profile photo as their own through deepface facebook can identify and alert the person whose information is being misused to ensure that individuals have control over their facial recognition facebook does not share facial templates additionally facebook will remove images from facial recognition templates if someone has deleted their account or untagged themself from a photo individuals also have the ability to turn their facial recognition off on facebook if the feature is turned off facebook will cease facial recognition for that individual
+
+following the release of deepface in 2015 its uses have remained fairly stagnant because more individuals have uploaded images to facebook the algorithm has gotten more accurate facebook s deepface is the largest facial recognition dataset that currently exists because of this some individuals argue that facebook s facial id database could be distributed to government agencies these uses however would be prohibited by most data privacy laws in response to privacy concerns facebook removed their automatic facial recognition feature allowing individuals to opt in to tagging through deepface this change was implemented in 2019
+
+the deepface system consists of four modules 2d alignment 3d alignment frontalization and neural network an image of a face is passed through them in sequence resulting in a 4096 dimensional feature vector representing the face the feature vector can then be further processed for many different tasks for example to identify the face one can compare it against a list of feature vectors of known faces and identify the face with the most similar feature vector
+
+deepface uses fiducial point detectors based on existing databases to direct the alignment of faces the facial alignment begins with a 2d alignment and then continues with 3d alignment and frontalization that is deepface s process is two steps first it corrects the angles of an image so that the face in the photo is looking forward to accomplish this it uses a 3 d model of a face
+
+the 2d alignment module detects 6 fiducial points on the detected face the center of the eyes tip of the nose and mouth location these points are translated onto a warped image to help detect the face however 2d transformation fails to compensate for rotations that are out of place
+
+in order to align faces deepface uses a generic 3d model wherein 2d images are cropped as 3d versions the 3d image has 67 fiducial points after the image has been warped there are 67 anchor points manually placed on the image to match the 67 fiducial points a 3d to 2d camera is then fitted that minimizes losses because 3d detected points on the contour of the face can be inaccurate this step is important
+
+because full perspective projections are not modeled the fitted camera is only an approximation of the individual s actual face to reduce errors deepface aims to warp the 2d images with smaller distortions also thee camera p is capable of replacing parts of the image and blending them with their symmetrical counterparts
+
+the neural network is a sequence of layers arranged as follows convolutional layer max pooling convolutional layer 3 locally connected layers fully connected layer
+
+the input is an rgb image of the face scaled to resolution
+
+
+
+152
+
+152
+
+
+displaystyle 152 times 152
+
+and the output is a real vector of dimension 4096 being the feature vector of the face image
+
+in the 2014 paper an additional fully connected layer is added at the end to classify the face image into one of 4030 possible persons that the network had seen during training time
+
+ai researcher ben goertzel said facebook had pretty convincingly solved face recognition with the project but said it would be incorrect to conclude that deep learning is the entire solution to ai
+
+neeraj kumar a researcher at the university of washington said that facebook s deepface shows how large sets of outside data can result in a higher capacity model because of facebook s wide access to images of individuals their facial recognition software can perform better than other software with much smaller data sets
+
+a huffington post piece called the technology creepy citing data privacy concerns noted that some european governments had already required facebook to delete facial recognition data according to broadcasting cable both facebook and google had been invited by the center for digital democracy to attend a 2014 national telecommunications and information administration stakeholder meeting to help develop a consumer privacy bill of rights but they both declined broadcasting cable also noted that facebook had not released any press announcements concerning deepface although their research paper had been published earlier in the month slate said that deepface was not being publicized by facebook because it is wary of another round of headlines decrying deepface s creepiness
+
+many individuals fear facial recognition technology
+the technology s nearly perfect accuracy allows social media companies to create digital profiles of millions of americans
+however an individual s fear of facial recognition and other privacy concerns does not correspond to a decrease in social media use instead attitudes towards privacy and privacy settings do not have a large impact on an individual s intention to use facebook apps because facebook is a social media site individual fears about privacy get over ruled by a desire to participate in social media
+
+facebook users raised a class action lawsuit against facebook under illinois biometric information privacy act bipa illinois has the most comprehensive biometric privacy legislation regulating the collection of biometric information by commercial entities illinois bipa requires a corporation that obtains a person s biometric information to obtain a written release provide them notice that their information is being collected and state the duration the information will be collected the lawsuit raised against deepface alleges that facebook s collection of facial identification information for the purpose of the tag suggestion tool violates bipa because facebook does not give notice or consent to individuals when they use this tool facebook users argue that it violates bipa the ninth circuit denied facebook s motion to dismiss the case and ultimately certified the case facebook sought to appeal to the certification of the ninth circuit decision which was ultimately granted facebook claims that the case should not have been verified because plaintiffs have no alleged any harm beyond facebook s violation of bipa facebook removed their automatic facial recognition tagging feature in 2019 in response to the concerns raised in the lawsuit facebook proposed a 550 million settlement to the case which was rejected when facebook increased the settlement to 650 million the court accepted it facebook was ordered to pay their 650 million settlement in early march 2021 1 6 million residents of illinois will receive at least 345
+
+in july 2020 facebook announced that it is building teams that will look into racism in its algorithms facebook s teams will work with facebook s responsible ai team to study bias in their systems the implementation of these programs is recent and it is still unclear what reforms will be made
+
+in 2019 a facebook challenge went viral asking users to post a photo from 10 years ago and one from 2019 the challenge was coined the 10 year challenge more than 5 million people participated in the challenge including many celebrities worry arose that facebook s 10 year challenge was designed to train facebook s facial recognition database kate o neill a writer for wired wrote an op ed that echoed this possibility facebook denied that they played a role in generating the challenge however individuals have argued that the concerns that underscore theories around the 10 year challenge are echoed by broader concerns about facebook and the right to privacy
+
+facial recognition algorithms are not universally successful while the algorithms are capable of classifying faces with over 90 accuracy in some cases accuracy is lower when the algorithms are applied to women black individuals and young people the systems falsely identify black and asian faces 10 to 100 times more than they do with white faces because algorithms are primarily trained with white men systems like deepface have a more difficult time identifying them it is projected that once facial recognition data bases are trained to identify people of color exposing them to more diverse faces they will be more successful at identification

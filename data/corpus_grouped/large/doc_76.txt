@@ -1,0 +1,3009 @@
+in applied mathematics topological data analysis tda is an approach to the analysis of datasets using techniques from topology extraction of information from datasets that are high dimensional incomplete and noisy is generally challenging tda provides a general framework to analyze such data in a manner that is insensitive to the particular metric chosen and provides dimensionality reduction and robustness to noise beyond this it inherits functoriality a fundamental concept of modern mathematics from its topological nature which allows it to adapt to new mathematical tools citation needed
+
+the initial motivation is to study the shape of data tda has combined algebraic topology and other tools from pure mathematics to allow mathematically rigorous study of shape the main tool is persistent homology an adaptation of homology to point cloud data persistent homology has been applied to many types of data across many fields moreover its mathematical foundation is also of theoretical importance the unique features of tda make it a promising bridge between topology and geometry citation needed
+
+tda is premised on the idea that the shape of data sets contains relevant information real high dimensional data is typically sparse and tends to have relevant low dimensional features one task of tda is to provide a precise characterization of this fact for example the trajectory of a simple predator prey system governed by the lotka volterra equations forms a closed circle in state space tda provides tools to detect and quantify such recurrent motion
+
+many algorithms for data analysis including those used in tda require setting various parameters without prior domain knowledge the correct collection of parameters for a data set is difficult to choose the main insight of persistent homology is to use the information obtained from all parameter values by encoding this huge amount of information into an understandable and easy to represent form with tda there is a mathematical interpretation when the information is a homology group in general the assumption is that features that persist for a wide range of parameters are true features features persisting for only a narrow range of parameters are presumed to be noise although the theoretical justification for this is unclear
+
+precursors to the full concept of persistent homology appeared gradually over time in 1990 patrizio frosini introduced a pseudo distance between submanifolds and later the size function which on 1 dim curves is equivalent to the 0th persistent homology nearly a decade later vanessa robins studied the images of homomorphisms induced by inclusion finally shortly thereafter herbert edelsbrunner et al introduced the concept of persistent homology together with an efficient algorithm and its visualization as a persistence diagram gunnar carlsson et al reformulated the initial definition and gave an equivalent visualization method called persistence barcodes interpreting persistence in the language of commutative algebra
+
+in algebraic topology the persistent homology has emerged through the work of sergey barannikov on morse theory the set of critical values of smooth morse function was canonically partitioned into pairs birth death filtered complexes were classified their invariants equivalent to persistence diagram and persistence barcodes together with the efficient algorithm for their calculation were described under the name of canonical forms in 1994 by barannikov
+
+some widely used concepts are introduced below note that some definitions may vary from author to author
+
+a point cloud is often defined as a finite set of points in some euclidean space but may be taken to be any finite metric space
+
+the čech complex of a point cloud is the nerve of the cover of balls of a fixed radius around each point in the cloud
+
+a persistence module
+
+
+
+
+u
+
+
+
+displaystyle mathbb u
+
+indexed by
+
+
+
+
+z
+
+
+
+displaystyle mathbb z
+
+is a vector space
+
+
+
+
+u
+
+t
+
+
+
+
+displaystyle u_ t
+
+for each
+
+
+
+t
+
+
+z
+
+
+
+displaystyle t in mathbb z
+
+and a linear map
+
+
+
+
+u
+
+t
+
+
+s
+
+
+
+
+u
+
+s
+
+
+
+
+u
+
+t
+
+
+
+
+displaystyle u_ t s colon u_ s to u_ t
+
+whenever
+
+
+
+s
+
+t
+
+
+displaystyle s leq t
+
+such that
+
+
+
+
+u
+
+t
+
+
+t
+
+
+
+1
+
+
+displaystyle u_ t t 1
+
+for all
+
+
+
+t
+
+
+displaystyle t
+
+and
+
+
+
+
+u
+
+t
+
+
+s
+
+
+
+u
+
+s
+
+
+r
+
+
+
+
+u
+
+t
+
+
+r
+
+
+
+
+displaystyle u_ t s u_ s r u_ t r
+
+whenever
+
+
+
+r
+
+s
+
+t
+
+
+
+displaystyle r leq s leq t
+
+an equivalent definition is a functor from
+
+
+
+
+z
+
+
+
+displaystyle mathbb z
+
+considered as a partially ordered set to the category of vector spaces
+
+the persistent homology group
+
+
+
+p
+h
+
+
+displaystyle ph
+
+of a point cloud is the persistence module defined as
+
+
+
+p
+
+h
+
+k
+
+
+
+x
+
+
+
+
+h
+
+k
+
+
+
+
+x
+
+r
+
+
+
+
+
+displaystyle ph_ k x prod h_ k x_ r
+
+where
+
+
+
+
+x
+
+r
+
+
+
+
+displaystyle x_ r
+
+is the čech complex of radius
+
+
+
+r
+
+
+displaystyle r
+
+of the point cloud
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+
+h
+
+k
+
+
+
+
+displaystyle h_ k
+
+is the homology group
+
+a persistence barcode is a multiset of intervals in
+
+
+
+
+r
+
+
+
+displaystyle mathbb r
+
+and a persistence diagram is a multiset of points in
+
+
+
+δ
+
+
+displaystyle delta
+
+
+
+
+
+
+
+
+u
+
+v
+
+
+
+
+r
+
+
+2
+
+
+
+u
+
+v
+
+0
+
+u
+
+v
+
+
+
+displaystyle u v in mathbb r 2 mid u v geq 0 u leq v
+
+
+
+the wasserstein distance between two persistence diagrams
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+y
+
+
+displaystyle y
+
+is defined as
+
+
+
+
+w
+
+p
+
+
+
+
+l
+
+q
+
+
+
+
+x
+
+y
+
+
+
+inf
+
+φ
+
+x
+
+y
+
+
+
+
+
+
+
+
+
+x
+
+x
+
+
+
+
+x
+
+φ
+
+x
+
+
+
+
+q
+
+
+
+
+
+p
+
+
+
+
+
+
+1
+
+
+
+p
+
+
+
+
+displaystyle w_ p l_ q x y inf _ varphi x to y left sum _ x in x vert x varphi x vert _ q p right 1 p
+
+where
+
+
+
+1
+
+p
+
+q
+
+
+
+
+displaystyle 1 leq p q leq infty
+
+and
+
+
+
+φ
+
+
+displaystyle varphi
+
+ranges over bijections between
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+y
+
+
+displaystyle y
+
+please refer to figure 3 1 in munch for illustration
+
+the bottleneck distance between
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+y
+
+
+displaystyle y
+
+is
+
+
+
+
+w
+
+
+
+
+
+
+l
+
+q
+
+
+
+
+x
+
+y
+
+
+
+inf
+
+φ
+
+x
+
+y
+
+
+
+sup
+
+x
+
+x
+
+
+
+x
+
+φ
+
+x
+
+
+
+
+q
+
+
+
+
+
+displaystyle w_ infty l_ q x y inf _ varphi x to y sup _ x in x vert x varphi x vert _ q
+
+this is a special case of wasserstein distance letting
+
+
+
+p
+
+
+
+
+displaystyle p infty
+
+
+
+the first classification theorem for persistent homology appeared in 1994 via barannikov s canonical forms the classification theorem interpreting persistence in the language of commutative algebra appeared in 2005 for a finitely generated persistence module
+
+
+
+c
+
+
+displaystyle c
+
+with field
+
+
+
+f
+
+
+displaystyle f
+
+coefficients
+
+
+
+
+h
+
+c
+
+f
+
+
+
+
+
+i
+
+
+
+x
+
+
+t
+
+i
+
+
+
+
+
+f
+
+x
+
+
+
+
+
+
+
+
+j
+
+
+
+x
+
+
+r
+
+j
+
+
+
+
+
+
+f
+
+x
+
+
+
+
+
+
+x
+
+
+s
+
+j
+
+
+
+
+
+f
+
+x
+
+
+
+
+
+
+
+
+
+displaystyle h c f simeq bigoplus _ i x t_ i cdot f x oplus left bigoplus _ j x r_ j cdot f x x s_ j cdot f x right
+
+
+intuitively the free parts correspond to the homology generators that appear at filtration level
+
+
+
+
+t
+
+i
+
+
+
+
+displaystyle t_ i
+
+and never disappear while the torsion parts correspond to those that appear at filtration level
+
+
+
+
+r
+
+j
+
+
+
+
+displaystyle r_ j
+
+and last for
+
+
+
+
+s
+
+j
+
+
+
+
+displaystyle s_ j
+
+steps of the filtration or equivalently disappear at filtration level
+
+
+
+
+s
+
+j
+
+
+
+
+r
+
+j
+
+
+
+
+displaystyle s_ j r_ j
+
+
+
+persistent homology is visualized through a barcode or persistence diagram the barcode has its root in abstract mathematics namely the category of finite filtered complexes over a field is semi simple any filtered complex is isomorphic to its canonical form a direct sum of one and two dimensional simple filtered complexes
+
+stability is desirable because it provides robustness against noise if
+
+
+
+x
+
+
+displaystyle x
+
+is any space which is homeomorphic to a simplicial complex and
+
+
+
+f
+
+g
+
+x
+
+
+r
+
+
+
+displaystyle f g x to mathbb r
+
+are continuous tame functions then the persistence vector spaces
+
+
+
+
+
+h
+
+k
+
+
+
+
+f
+
+
+1
+
+
+
+
+0
+
+r
+
+
+
+
+
+
+displaystyle h_ k f 1 0 r
+
+and
+
+
+
+
+
+h
+
+k
+
+
+
+
+g
+
+
+1
+
+
+
+
+0
+
+r
+
+
+
+
+
+
+displaystyle h_ k g 1 0 r
+
+are finitely presented and
+
+
+
+
+w
+
+
+
+
+
+d
+
+f
+
+
+d
+
+g
+
+
+
+
+f
+
+g
+
+
+
+
+
+
+
+
+displaystyle w_ infty d f d g leq lvert f g rvert _ infty
+
+where
+
+
+
+
+w
+
+
+
+
+
+
+displaystyle w_ infty
+
+refers to the bottleneck distance and
+
+
+
+d
+
+
+displaystyle d
+
+is the map taking a continuous tame function to the persistence diagram of its
+
+
+
+k
+
+
+displaystyle k
+
+th homology
+
+the basic workflow in tda is
+
+
+graphically speaking
+the first algorithm over all fields for persistent homology in algebraic topology setting was described by barannikov through reduction to the canonical form by upper triangular matrices the algorithm for persistent homology over
+
+
+
+
+f
+
+2
+
+
+
+
+displaystyle f_ 2
+
+was given by edelsbrunner et al afra zomorodian and carlsson gave the practical algorithm to compute persistent homology over all fields edelsbrunner and harer s book gives general guidance on computational topology
+
+one issue that arises in computation is the choice of complex the čech complex and the vietoris rips complex are most natural at first glance however their size grows rapidly with the number of data points the vietoris rips complex is preferred over the čech complex because its definition is simpler and the čech complex requires extra effort to define in a general finite metric space efficient ways to lower the computational cost of homology have been studied for example the α complex and witness complex are used to reduce the dimension and size of complexes
+
+recently discrete morse theory has shown promise for computational homology because it can reduce a given simplicial complex to a much smaller cellular complex which is homotopic to the original one this reduction can in fact be performed as the complex is constructed by using matroid theory leading to further performance increases another recent algorithm saves time by ignoring the homology classes with low persistence
+
+various software packages are available such as javaplex dionysus perseus phat dipha gudhi ripser and tdastats a comparison between these tools is done by otter et al giotto tda is a python package dedicated to integrating tda in the machine learning workflow by means of a scikit learn api an r package tda is capable of calculating recently invented concepts like landscape and the kernel distance estimator the topology toolkit is specialized for continuous data defined on manifolds of low dimension 1 2 or 3 as typically found in scientific visualization cubicle is optimized for large gigabyte scale grayscale image data in dimension 1 2 or 3 using cubical complexes and discrete morse theory another r package tdastats uses the ripser library to calculate persistent homology
+
+high dimensional data is impossible to visualize directly many methods have been invented to extract a low dimensional structure from the data set such as principal component analysis and multidimensional scaling however it is important to note that the problem itself is ill posed since many different topological features can be found in the same data set thus the study of visualization of high dimensional spaces is of central importance to tda although it does not necessarily involve the use of persistent homology however recent attempts have been made to use persistent homology in data visualization
+
+carlsson et al have proposed a general method called mapper it inherits the idea of jean pierre serre that a covering preserves homotopy a generalized formulation of mapper is as follows
+
+let
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+z
+
+
+displaystyle z
+
+be topological spaces and let
+
+
+
+f
+
+x
+
+z
+
+
+displaystyle f colon x to z
+
+be a continuous map let
+
+
+
+
+u
+
+
+
+
+u
+
+α
+
+
+
+
+
+α
+
+a
+
+
+
+
+displaystyle mathbb u u_ alpha _ alpha in a
+
+be a finite open covering of
+
+
+
+z
+
+
+displaystyle z
+
+the output of mapper is the nerve of the pullback cover
+
+
+
+m
+
+
+u
+
+
+f
+
+
+n
+
+
+f
+
+
+1
+
+
+
+
+u
+
+
+
+
+
+textstyle m mathbb u f n f 1 mathbb u
+
+where each preimage is split into its connected components this is a very general concept of which the reeb graph and merge trees are special cases
+
+this is not quite the original definition carlsson et al choose
+
+
+
+z
+
+
+displaystyle z
+
+to be
+
+
+
+
+r
+
+
+
+displaystyle mathbb r
+
+or
+
+
+
+
+
+r
+
+
+2
+
+
+
+
+displaystyle mathbb r 2
+
+and cover it with open sets such that at most two intersect this restriction means that the output is in the form of a complex network because the topology of a finite point cloud is trivial clustering methods such as single linkage are used to produce the analogue of connected sets in the preimage
+
+
+
+
+f
+
+
+1
+
+
+
+u
+
+
+
+displaystyle f 1 u
+
+when mapper is applied to actual data
+
+mathematically speaking mapper is a variation of the reeb graph if the
+
+
+
+m
+
+
+u
+
+
+f
+
+
+
+textstyle m mathbb u f
+
+is at most one dimensional then for each
+
+
+
+i
+
+0
+
+
+displaystyle i geq 0
+
+
+
+
+
+
+h
+
+i
+
+
+
+x
+
+
+
+h
+
+0
+
+
+
+n
+
+
+u
+
+
+
+
+
+
+
+f
+
+
+
+
+
+i
+
+
+
+
+
+h
+
+1
+
+
+
+n
+
+
+u
+
+
+
+
+
+
+
+f
+
+
+
+
+
+i
+
+1
+
+
+
+
+
+
+displaystyle h_ i x simeq h_ 0 n mathbb u hat f _ i oplus h_ 1 n mathbb u hat f _ i 1
+
+the added flexibility also has disadvantages one problem is instability in that some change of the choice of the cover can lead to major change of the output of the algorithm work has been done to overcome this problem
+
+three successful applications of mapper can be found in carlsson et al a comment on the applications in this paper by j curry is that a common feature of interest in applications is the presence of flares or tendrils
+
+a free implementation of mapper written by daniel müllner and aravindakshan babu is available online mapper also forms the basis of ayasdi s ai platform
+
+multidimensional persistence is important to tda the concept arises in both theory and practice the first investigation of multidimensional persistence was early in the development of tda carlsson zomorodian introduced the theory of multidimensional persistence in and in collaboration with singh introduced the use of tools from symbolic algebra grobner basis methods to compute mph modules their definition presents multidimensional persistence with n parameters as a
+
+
+
+
+
+z
+
+
+n
+
+
+
+
+displaystyle mathbb z n
+
+graded module over a polynomial ring in n variables tools from commutative and homological algebra are applied to the study of multidimensional persistence in work of harrington otter schenck tillman the first application to appear in the literature is a method for shape comparison similar to the invention of tda
+
+the definition of an n dimensional persistence module in
+
+
+
+
+
+r
+
+
+n
+
+
+
+
+displaystyle mathbb r n
+
+is
+
+it might be worth noting that there are controversies on the definition of multidimensional persistence
+
+one of the advantages of one dimensional persistence is its representability by a diagram or barcode however discrete complete invariants of multidimensional persistence modules do not exist the main reason for this is that the structure of the collection of indecomposables is extremely complicated by gabriel s theorem in the theory of quiver representations although a finitely generated n dim persistence module can be uniquely decomposed into a direct sum of indecomposables due to the krull schmidt theorem
+
+nonetheless many results have been established carlsson and zomorodian introduced the rank invariant
+
+
+
+
+ρ
+
+m
+
+
+
+u
+
+v
+
+
+
+displaystyle rho _ m u v
+
+defined as the
+
+
+
+
+ρ
+
+m
+
+
+
+u
+
+v
+
+
+
+r
+a
+n
+k
+
+
+
+x
+
+u
+
+v
+
+
+
+
+m
+
+u
+
+
+
+
+m
+
+v
+
+
+
+
+
+displaystyle rho _ m u v mathrm rank x u v colon m_ u to m_ v
+
+in which
+
+
+
+m
+
+
+displaystyle m
+
+is a finitely generated n graded module in one dimension it is equivalent to the barcode in the literature the rank invariant is often referred as the persistent betti numbers pbns in many theoretical works authors have used a more restricted definition an analogue from sublevel set persistence specifically the persistence betti numbers of a function
+
+
+
+f
+
+x
+
+
+
+r
+
+
+k
+
+
+
+
+displaystyle f x to mathbb r k
+
+are given by the function
+
+
+
+
+β
+
+f
+
+
+
+
+δ
+
+
+
+
+
+
+n
+
+
+
+displaystyle beta _ f colon delta to mathrm n
+
+taking each
+
+
+
+
+u
+
+v
+
+
+
+δ
+
+
+
+
+
+
+displaystyle u v in delta
+
+to
+
+
+
+
+β
+
+f
+
+
+
+u
+
+v
+
+
+
+r
+a
+n
+k
+
+
+h
+
+x
+
+f
+
+u
+
+
+h
+
+x
+
+f
+
+v
+
+
+
+
+
+displaystyle beta _ f u v mathrm rank h x f leq u to h x f leq v
+
+where
+
+
+
+
+δ
+
+
+
+
+
+
+
+u
+
+v
+
+
+
+
+r
+
+
+k
+
+
+
+
+
+r
+
+
+k
+
+
+
+u
+
+v
+
+
+
+displaystyle delta u v in mathbb r k times mathbb r k u leq v
+
+and
+
+
+
+x
+
+f
+
+u
+
+
+
+x
+
+x
+
+f
+
+x
+
+
+u
+
+
+
+displaystyle x f leq u x in x f x leq u
+
+
+
+some basic properties include monotonicity and diagonal jump persistent betti numbers will be finite if
+
+
+
+x
+
+
+displaystyle x
+
+is a compact and locally contractible subspace of
+
+
+
+
+
+r
+
+
+n
+
+
+
+
+displaystyle mathbb r n
+
+
+
+using a foliation method the k dim pbns can be decomposed into a family of 1 dim pbns by dimensionality deduction this method has also led to a proof that multi dim pbns are stable the discontinuities of pbns only occur at points
+
+
+
+
+u
+
+v
+
+
+u
+
+v
+
+
+
+displaystyle u v u leq v
+
+where either
+
+
+
+u
+
+
+displaystyle u
+
+is a discontinuous point of
+
+
+
+
+ρ
+
+m
+
+
+
+
+
+v
+
+
+
+displaystyle rho _ m star v
+
+or
+
+
+
+v
+
+
+displaystyle v
+
+is a discontinuous point of
+
+
+
+ρ
+
+u
+
+
+
+
+
+displaystyle rho u star
+
+under the assumption that
+
+
+
+f
+
+
+c
+
+0
+
+
+
+x
+
+
+
+r
+
+
+k
+
+
+
+
+
+displaystyle f in c 0 x mathbb r k
+
+and
+
+
+
+x
+
+
+displaystyle x
+
+is a compact triangulable topological space
+
+persistent space a generalization of persistent diagram is defined as the multiset of all points with multiplicity larger than 0 and the diagonal it provides a stable and complete representation of pbns an ongoing work by carlsson et al is trying to give geometric interpretation of persistent homology which might provide insights on how to combine machine learning theory with topological data analysis
+
+the first practical algorithm to compute multidimensional persistence was invented very early after then many other algorithms have been proposed based on such concepts as discrete morse theory and finite sample estimating
+
+the standard paradigm in tda is often referred as sublevel persistence apart from multidimensional persistence many works have been done to extend this special case
+
+the nonzero maps in persistence module are restricted by the preorder relationship in the category however mathematicians have found that the unanimity of direction is not essential to many results the philosophical point is that the decomposition theory of graph representations is somewhat independent of the orientation of the graph edges zigzag persistence is important to the theoretical side the examples given in carlsson s review paper to illustrate the importance of functorality all share some of its features
+
+there are some attempts to loosen the stricter restriction of the function please refer to the categorification and cosheaves and impact on mathematics sections for more information
+
+it s natural to extend persistence homology to other basic concepts in algebraic topology such as cohomology and relative homology cohomology an interesting application is the computation of circular coordinates for a data set via the first persistent cohomology group
+
+normal persistence homology studies real valued functions the circle valued map might be useful persistence theory for circle valued maps promises to play the role for some vector fields as does the standard persistence theory for scalar fields as commented in dan burghelea et al the main difference is that jordan cells very similar in format to the jordan blocks in linear algebra are nontrivial in circle valued functions which would be zero in real valued case and combining with barcodes give the invariants of a tame map under moderate conditions
+
+two techniques they use are morse novikov theory and graph representation theory more recent results can be found in d burghelea et al for example the tameness requirement can be replaced by the much weaker condition continuous
+
+the proof of the structure theorem relies on the base domain being field so not many attempts have been made on persistence homology with torsion frosini defined a pseudometric on this specific module and proved its stability one of its novelty is that it doesn t depend on some classification theory to define the metric
+
+one advantage of category theory is its ability to lift concrete results to a higher level showing relationships between seemingly unconnected objects peter bubenik et al offers a short introduction of category theory fitted for tda
+
+category theory is the language of modern algebra and has been widely used in the study of algebraic geometry and topology it has been noted that the key observation of is that the persistence diagram produced by depends only on the algebraic structure carried by this diagram the use of category theory in tda has proved to be fruitful
+
+following the notations made in bubenik et al the indexing category
+
+
+
+p
+
+
+textstyle p
+
+is any preordered set not necessarily
+
+
+
+
+n
+
+
+
+displaystyle mathbb n
+
+or
+
+
+
+
+r
+
+
+
+displaystyle mathbb r
+
+the target category
+
+
+
+d
+
+
+displaystyle d
+
+is any category instead of the commonly used
+
+
+
+
+
+v
+e
+c
+t
+
+
+
+f
+
+
+
+
+
+textstyle mathrm vect _ mathbb f
+
+and functors
+
+
+
+p
+
+d
+
+
+textstyle p to d
+
+are called generalized persistence modules in
+
+
+
+d
+
+
+displaystyle d
+
+over
+
+
+
+p
+
+
+textstyle p
+
+
+
+one advantage of using category theory in tda is a clearer understanding of concepts and the discovery of new relationships between proofs take two examples for illustration the understanding of the correspondence between interleaving and matching is of huge importance since matching has been the method used in the beginning modified from morse theory a summary of works can be found in vin de silva et al many theorems can be proved much more easily in a more intuitive setting another example is the relationship between the construction of different complexes from point clouds it has long been noticed that čech and vietoris rips complexes are related specifically
+
+
+
+
+v
+
+r
+
+
+
+x
+
+
+
+c
+
+
+
+2
+
+
+r
+
+
+
+x
+
+
+
+v
+
+2
+r
+
+
+
+x
+
+
+
+displaystyle v_ r x subset c_ sqrt 2 r x subset v_ 2r x
+
+the essential relationship between cech and rips complexes can be seen much more clearly in categorical language
+
+the language of category theory also helps cast results in terms recognizable to the broader mathematical community bottleneck distance is widely used in tda because of the results on stability with respect to the bottleneck distance in fact the interleaving distance is the terminal object in a poset category of stable metrics on multidimensional persistence modules in a prime field
+
+sheaves a central concept in modern algebraic geometry are intrinsically related to category theory roughly speaking sheaves are the mathematical tool for understanding how local information determines global information justin curry regards level set persistence as the study of fibers of continuous functions the objects that he studies are very similar to those by mapper but with sheaf theory as the theoretical foundation although no breakthrough in the theory of tda has yet used sheaf theory it is promising since there are many beautiful theorems in algebraic geometry relating to sheaf theory for example a natural theoretical question is whether different filtration methods result in the same output
+
+stability is of central importance to data analysis since real data carry noises by usage of category theory bubenik et al have distinguished between soft and hard stability theorems and proved that soft cases are formal specifically general workflow of tda is
+
+the soft stability theorem asserts that
+
+
+
+h
+f
+
+
+displaystyle hf
+
+is lipschitz continuous and the hard stability theorem asserts that
+
+
+
+j
+
+
+displaystyle j
+
+is lipschitz continuous
+
+bottleneck distance is widely used in tda the isometry theorem asserts that the interleaving distance
+
+
+
+
+d
+
+i
+
+
+
+
+displaystyle d_ i
+
+is equal to the bottleneck distance bubenik et al have abstracted the definition to that between functors
+
+
+
+f
+
+g
+
+p
+
+d
+
+
+displaystyle f g colon p to d
+
+when
+
+
+
+p
+
+
+textstyle p
+
+is equipped with a sublinear projection or superlinear family in which still remains a pseudometric considering the magnificent characters of interleaving distance here we introduce the general definition of interleaving distance instead of the first introduced one let
+
+
+
+γ
+
+k
+
+
+t
+r
+a
+n
+
+s
+
+p
+
+
+
+
+
+displaystyle gamma k in mathrm trans_ p
+
+a function from
+
+
+
+p
+
+
+textstyle p
+
+to
+
+
+
+p
+
+
+textstyle p
+
+which is monotone and satisfies
+
+
+
+x
+
+γ
+
+x
+
+
+
+displaystyle x leq gamma x
+
+for all
+
+
+
+x
+
+p
+
+
+textstyle x in p
+
+a
+
+
+
+
+γ
+
+k
+
+
+
+displaystyle gamma k
+
+interleaving between f and g consists of natural transformations
+
+
+
+φ
+
+f
+
+g
+γ
+
+
+displaystyle varphi colon f rightarrow g gamma
+
+and
+
+
+
+ψ
+
+g
+
+f
+k
+
+
+displaystyle psi colon g rightarrow fk
+
+such that
+
+
+
+
+ψ
+γ
+
+
+φ
+f
+
+η
+
+k
+γ
+
+
+
+
+displaystyle psi gamma varphi f eta _ k gamma
+
+and
+
+
+
+
+φ
+γ
+
+
+ψ
+g
+
+η
+
+γ
+k
+
+
+
+
+displaystyle varphi gamma psi g eta _ gamma k
+
+
+
+the two main results are
+
+these two results summarize many results on stability of different models of persistence
+
+for the stability theorem of multidimensional persistence please refer to the subsection of persistence
+
+the structure theorem is of central importance to tda as commented by g carlsson what makes homology useful as a discriminator between topological spaces is the fact that there is a classification theorem for finitely generated abelian groups see the fundamental theorem of finitely generated abelian groups
+
+the main argument used in the proof of the original structure theorem is the standard structure theorem for finitely generated modules over a principal ideal domain however this argument fails if the indexing set is
+
+
+
+
+
+r
+
+
+
+
+
+
+displaystyle mathbb r leq
+
+
+
+in general not every persistence module can be decomposed into intervals many attempts have been made at relaxing the restrictions of the original structure theorem clarification needed the case for pointwise finite dimensional persistence modules indexed by a locally finite subset of
+
+
+
+
+r
+
+
+
+displaystyle mathbb r
+
+is solved based on the work of webb the most notable result is done by crawley boevey which solved the case of
+
+
+
+
+r
+
+
+
+displaystyle mathbb r
+
+crawley boevey s theorem states that any pointwise finite dimensional persistence module is a direct sum of interval modules
+
+to understand the definition of his theorem some concepts need introducing an interval in
+
+
+
+
+
+r
+
+
+
+
+
+
+displaystyle mathbb r leq
+
+is defined as a subset
+
+
+
+i
+
+
+r
+
+
+
+displaystyle i subset mathbb r
+
+having the property that if
+
+
+
+r
+
+t
+
+i
+
+
+displaystyle r t in i
+
+and if there is an
+
+
+
+s
+
+
+r
+
+
+
+displaystyle s in mathbb r
+
+such that
+
+
+
+r
+
+s
+
+t
+
+
+displaystyle r leq s leq t
+
+then
+
+
+
+s
+
+i
+
+
+displaystyle s in i
+
+as well an interval module
+
+
+
+
+k
+
+i
+
+
+
+
+displaystyle k_ i
+
+assigns to each element
+
+
+
+s
+
+i
+
+
+displaystyle s in i
+
+the vector space
+
+
+
+k
+
+
+displaystyle k
+
+and assigns the zero vector space to elements in
+
+
+
+
+r
+
+
+i
+
+
+displaystyle mathbb r setminus i
+
+all maps
+
+
+
+
+ρ
+
+s
+
+
+t
+
+
+
+
+displaystyle rho _ s t
+
+are the zero map unless
+
+
+
+s
+
+t
+
+i
+
+
+displaystyle s t in i
+
+and
+
+
+
+s
+
+t
+
+
+displaystyle s leq t
+
+in which case
+
+
+
+
+ρ
+
+s
+
+
+t
+
+
+
+
+displaystyle rho _ s t
+
+is the identity map interval modules are indecomposable
+
+although the result of crawley boevey is a very powerful theorem it still doesn t extend to the q tame case a persistence module is q tame if the rank of
+
+
+
+
+ρ
+
+s
+
+
+t
+
+
+
+
+displaystyle rho _ s t
+
+is finite for all
+
+
+
+s
+
+t
+
+
+displaystyle s t
+
+there are examples of q tame persistence modules that fail to be pointwise finite however it turns out that a similar structure theorem still holds if the features that exist only at one index value are removed this holds because the infinite dimensional parts at each index value do not persist due to the finite rank condition formally the observable category
+
+
+
+
+o
+b
+
+
+
+displaystyle mathrm ob
+
+is defined as
+
+
+
+
+p
+e
+r
+s
+
+
+
+
+
+e
+p
+h
+
+
+
+displaystyle mathrm pers mathrm eph
+
+in which
+
+
+
+
+e
+p
+h
+
+
+
+displaystyle mathrm eph
+
+denotes the full subcategory of
+
+
+
+
+p
+e
+r
+s
+
+
+
+displaystyle mathrm pers
+
+whose objects are the ephemeral modules
+
+
+
+
+ρ
+
+s
+
+
+t
+
+
+
+0
+
+
+displaystyle rho _ s t 0
+
+whenever
+
+
+
+s
+
+t
+
+
+displaystyle s t
+
+
+
+note that the extended results listed here do not apply to zigzag persistence since the analogue of a zigzag persistence module over
+
+
+
+
+r
+
+
+
+displaystyle mathbb r
+
+is not immediately obvious
+
+real data is always finite and so its study requires us to take stochasticity into account statistical analysis gives us the ability to separate true features of the data from artifacts introduced by random noise persistent homology has no inherent mechanism to distinguish between low probability features and high probability features
+
+one way to apply statistics to topological data analysis is to study the statistical properties of topological features of point clouds the study of random simplicial complexes offers some insight into statistical topology katharine turner et al offers a summary of work in this vein
+
+a second way is to study probability distributions on the persistence space the persistence space
+
+
+
+
+b
+
+
+
+
+
+
+displaystyle b_ infty
+
+is
+
+
+
+
+
+
+n
+
+
+
+b
+
+n
+
+
+
+
+
+
+
+
+
+
+displaystyle coprod _ n b_ n backsim
+
+where
+
+
+
+
+b
+
+n
+
+
+
+
+displaystyle b_ n
+
+is the space of all barcodes containing exactly
+
+
+
+n
+
+
+displaystyle n
+
+intervals and the equivalences are
+
+
+
+
+
+
+x
+
+1
+
+
+
+
+y
+
+1
+
+
+
+
+
+
+x
+
+2
+
+
+
+
+y
+
+2
+
+
+
+
+
+
+
+
+x
+
+n
+
+
+
+
+y
+
+n
+
+
+
+
+
+
+
+
+x
+
+1
+
+
+
+
+y
+
+1
+
+
+
+
+
+
+x
+
+2
+
+
+
+
+y
+
+2
+
+
+
+
+
+
+
+
+x
+
+n
+
+1
+
+
+
+
+y
+
+n
+
+1
+
+
+
+
+
+
+displaystyle x_ 1 y_ 1 x_ 2 y_ 2 ldots x_ n y_ n backsim x_ 1 y_ 1 x_ 2 y_ 2 ldots x_ n 1 y_ n 1
+
+if
+
+
+
+
+x
+
+n
+
+
+
+
+y
+
+n
+
+
+
+
+displaystyle x_ n y_ n
+
+this space is fairly complicated for example it is not complete under the bottleneck metric the first attempt made to study it is by yuriy mileyko et al the space of persistence diagrams
+
+
+
+
+d
+
+p
+
+
+
+
+displaystyle d_ p
+
+in their paper is defined as
+
+
+
+
+d
+
+p
+
+
+
+
+
+
+d
+
+
+
+
+x
+
+d
+
+
+
+
+
+
+2
+
+inf
+
+y
+
+δ
+
+
+
+x
+
+y
+
+
+
+
+
+p
+
+
+
+
+
+
+
+
+
+displaystyle d_ p left d mid sum _ x in d left 2 inf _ y in delta lvert x y rvert right p infty right
+
+where
+
+
+
+δ
+
+
+displaystyle delta
+
+is the diagonal line in
+
+
+
+
+
+r
+
+
+2
+
+
+
+
+displaystyle mathbb r 2
+
+a nice property is that
+
+
+
+
+d
+
+p
+
+
+
+
+displaystyle d_ p
+
+is complete and separable in the wasserstein metric
+
+
+
+
+w
+
+p
+
+
+
+u
+
+v
+
+
+
+
+
+
+
+inf
+
+γ
+
+γ
+
+u
+
+v
+
+
+
+
+
+
+
+x
+
+
+
+x
+
+
+
+
+ρ
+
+p
+
+
+
+x
+
+y
+
+
+
+d
+
+γ
+
+x
+
+y
+
+
+
+
+
+1
+
+
+
+p
+
+
+
+
+displaystyle w_ p u v left inf _ gamma in gamma u v int _ mathbb x times mathbb x rho p x y mathrm d gamma x y right 1 p
+
+expectation variance and conditional probability can be defined in the fréchet sense this allows many statistical tools to be ported to tda works on null hypothesis significance test confidence intervals and robust estimates are notable steps
+
+a third way is to consider the cohomology of probabilistic space or statistical systems directly called information structures and basically consisting in the triple
+
+
+
+ω
+
+π
+
+p
+
+
+displaystyle omega pi p
+
+sample space random variables and probability laws random variables are considered as partitions of the n atomic probabilities seen as a probability n 1 simplex
+
+
+
+
+
+
+ω
+
+
+
+
+n
+
+
+displaystyle omega n
+
+on the lattice of partitions
+
+
+
+
+π
+
+n
+
+
+
+
+displaystyle pi _ n
+
+the random variables or modules of measurable functions provide the cochain complexes while the coboundary is considered as the general homological algebra first discovered by gerhard hochschild with a left action implementing the action of conditioning the first cocycle condition corresponds to the chain rule of entropy allowing to derive uniquely up to the multiplicative constant shannon entropy as the first cohomology class the consideration of a deformed left action generalises the framework to tsallis entropies the information cohomology is an example of ringed topos multivariate k mutual information appear in coboundaries expressions and their vanishing related to cocycle condition gives equivalent conditions for statistical independence minima of mutual informations also called synergy give rise to interesting independence configurations analog to homotopical links because of its combinatorial complexity only the simplicial subcase of the cohomology and of information structure has been investigated on data applied to data those cohomological tools quantifies statistical dependences and independences including markov chains and conditional independence in the multivariate case notably mutual informations generalize correlation coefficient and covariance to non linear statistical dependences these approaches were developed independently and only indirectly related to persistence methods but may be roughly understood in the simplicial case using hu kuo tin theorem that establishes one to one correspondence between mutual informations functions and finite measurable function of a set with intersection operator to construct the čech complex skeleton information cohomology offers some direct interpretation and application in terms of neuroscience neural assembly theory and qualitative cognition statistical physic and deep neural network for which the structure and learning algorithm are imposed by the complex of random variables and the information chain rule
+
+persistence landscapes introduced by peter bubenik are a different way to represent barcodes more amenable to statistical analysis the persistence landscape of a persistent module
+
+
+
+m
+
+
+displaystyle m
+
+is defined as a function
+
+
+
+λ
+
+
+n
+
+
+
+r
+
+
+
+
+
+
+r
+
+
+
+
+
+
+
+displaystyle lambda mathbb n times mathbb r to bar mathbb r
+
+
+
+
+
+λ
+
+k
+
+t
+
+
+sup
+
+m
+
+0
+
+
+β
+
+t
+
+m
+
+t
+
+m
+
+
+
+k
+
+
+
+displaystyle lambda k t sup m geq 0 mid beta t m t m geq k
+
+where
+
+
+
+
+
+
+
+r
+
+
+
+
+
+
+
+displaystyle bar mathbb r
+
+denotes the extended real line and
+
+
+
+
+β
+
+a
+
+b
+
+
+
+
+d
+i
+m
+
+
+
+i
+m
+
+
+m
+
+a
+
+b
+
+
+
+
+
+displaystyle beta a b mathrm dim mathrm im m a leq b
+
+the space of persistence landscapes is very nice it inherits all good properties of barcode representation stability easy representation etc but statistical quantities can be readily defined and some problems in y mileyko et al s work such as the non uniqueness of expectations can be overcome effective algorithms for computation with persistence landscapes are available another approach is to use revised persistence which is image kernel and cokernel persistence
+
+more than one way exists to classify the applications of tda perhaps the most natural way is by field a very incomplete list of successful applications includes data skeletonization shape study graph reconstruction
+
+image analysis
+material progression analysis of disease sensor network signal analysis cosmic web complex network fractal geometry viral evolution propagation of contagions on networks bacteria classification using molecular spectroscopy super resolution microscopy hyperspectral imaging in physical chemistry remote sensing feature selection and early warning signs of financial crashes
+
+
+another way is by distinguishing the techniques by g carlsson
+one being the study of homological invariants of data on individual data sets and the other is the use of homological invariants in the study of databases where the data points themselves have geometric structure
+topological data analysis and persistent homology have had impacts on morse theory morse theory has played a very important role in the theory of tda including on computation some work in persistent homology has extended results about morse functions to tame functions or even to continuous functions citation needed a forgotten result of r deheuvels long before the invention of persistent homology extends morse theory to all continuous functions
+
+one recent result is that the category of reeb graphs is equivalent to a particular class of cosheaf this is motivated by theoretical work in tda since the reeb graph is related to morse theory and mapper is derived from it the proof of this theorem relies on the interleaving distance
+
+persistent homology is closely related to spectral sequences in particular the algorithm bringing a filtered complex to its canonical form permits much faster calculation of spectral sequences than the standard procedure of calculating
+
+
+
+
+e
+
+p
+
+q
+
+
+r
+
+
+
+
+displaystyle e_ p q r
+
+groups page by page zigzag persistence may turn out to be of theoretical importance to spectral sequences
+
+the database of original non theoretical uses of topology donut is a database of scholarly articles featuring practical applications of topological data analysis to various areas of science donut was started in 2017 by barbara giunti janis lazovskis and bastian rieck and as of october 2023 currently contains 447 articles donut was featured in the november 2023 issue of the notices of the american mathematical society
+
+the stability property of topological features to small perturbations has been applied to make graph neural networks robust against adversaries arafat et al proposed a robustness framework which systematically integrates both local and global topological graph feature representations the impact of which is controlled by the robust regularized topological loss given the attacker s budget they derived stability guarantees on the node representations establishing an important connection between topological stability and adversarial ml

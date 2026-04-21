@@ -1,0 +1,552 @@
+generative models are a class of models frequently used for classification in machine learning it typically models the joint distribution of inputs and outputs such as p x y or it models how inputs are distributed within each class such as p x y together with a class prior p y because it describes a full data generating process a generative model can be used to draw new samples that resemble the observed data a process often referred to as synthetic data generation generative models are used for density estimation simulation and learning with missing or partially labeled data in classification they can predict labels by combining p x y and p y and applying bayes rule generative models are often contrasted with discriminative models which focus on predicting outputs from inputs directly
+
+generative model approaches which uses a joint probability distribution instead include naive bayes classifiers gaussian mixture models variational autoencoders generative adversarial networks and others
+
+in statistical classification two main approaches are called the generative approach and the discriminative approach these compute classifiers by different approaches differing in the degree of statistical modelling terminology is inconsistent a but three major types can be distinguished
+
+the distinction between these last two classes is not consistently made jebara 2004 refers to these three classes as generative learning conditional learning and discriminative learning but ng jordan 2002 only distinguish two classes calling them generative classifiers joint distribution and discriminative classifiers conditional distribution or no distribution not distinguishing between the latter two classes analogously a classifier based on a generative model is a generative classifier while a classifier based on a discriminative model is a discriminative classifier though this term also refers to classifiers that are not based on a model
+
+in application to classification one wishes to go from an observation x to a label y or probability distribution on labels one can compute this directly without using a probability distribution distribution free classifier one can estimate the probability of a label given an observation
+
+
+
+p
+
+y
+
+
+
+x
+
+x
+
+
+
+displaystyle p y x x
+
+discriminative model and base classification on that or one can estimate the joint distribution
+
+
+
+p
+
+x
+
+y
+
+
+
+displaystyle p x y
+
+generative model from that compute the conditional probability
+
+
+
+p
+
+y
+
+
+
+x
+
+x
+
+
+
+displaystyle p y x x
+
+and then base classification on that these are increasingly indirect but increasingly probabilistic allowing more domain knowledge and probability theory to be applied in practice different approaches are used depending on the particular problem and hybrids can combine strengths of multiple approaches
+
+an alternative division defines these symmetrically as
+
+regardless of precise definition the terminology is constitutional because a generative model can be used to generate random instances outcomes either of an observation and target
+
+
+
+
+x
+
+y
+
+
+
+displaystyle x y
+
+or of an observation x given a target value y while a discriminative model or discriminative classifier without a model can be used to discriminate the value of the target variable y given an observation x the difference between discriminate distinguish and classify is subtle and these are not consistently distinguished the term discriminative classifier becomes a pleonasm when discrimination is equivalent to classification
+
+the term generative model is also used to describe models that generate instances of output variables in a way that has no clear relationship to probability distributions over potential samples of input variables generative adversarial networks are examples of this class of generative models and are judged primarily by the similarity of particular outputs to potential inputs such models are not classifiers
+
+in application to classification the observable x is frequently a continuous variable the target y is generally a discrete variable consisting of a finite set of labels and the conditional probability
+
+
+
+p
+
+y
+
+x
+
+
+
+displaystyle p y mid x
+
+can also be interpreted as a non deterministic target function
+
+
+
+f
+
+x
+
+y
+
+
+displaystyle f colon x to y
+
+considering x as inputs and y as outputs
+
+given a finite set of labels the two definitions of generative model are closely related a model of the conditional distribution
+
+
+
+p
+
+x
+
+y
+
+y
+
+
+
+displaystyle p x mid y y
+
+is a model of the distribution of each label and a model of the joint distribution is equivalent to a model of the distribution of label values
+
+
+
+p
+
+y
+
+
+
+displaystyle p y
+
+together with the distribution of observations given a label
+
+
+
+p
+
+x
+
+y
+
+
+
+displaystyle p x mid y
+
+symbolically
+
+
+
+p
+
+x
+
+y
+
+
+p
+
+x
+
+y
+
+p
+
+y
+
+
+
+
+displaystyle p x y p x mid y p y
+
+thus while a model of the joint probability distribution is more informative than a model of the distribution of label but without their relative frequencies it is a relatively small step hence these are not always distinguished
+
+given a model of the joint distribution
+
+
+
+p
+
+x
+
+y
+
+
+
+displaystyle p x y
+
+the distribution of the individual variables can be computed as the marginal distributions
+
+
+
+p
+
+x
+
+
+
+
+
+y
+
+
+p
+
+x
+
+y
+
+y
+
+
+
+displaystyle p x sum _ y p x y y
+
+and
+
+
+
+p
+
+y
+
+
+
+
+
+x
+
+
+p
+
+y
+
+x
+
+x
+
+
+
+displaystyle p y int _ x p y x x
+
+considering x as continuous hence integrating over it and y as discrete hence summing over it and either conditional distribution can be computed from the definition of conditional probability
+
+
+
+p
+
+x
+
+y
+
+
+p
+
+x
+
+y
+
+
+
+
+p
+
+y
+
+
+
+displaystyle p x mid y p x y p y
+
+and
+
+
+
+p
+
+y
+
+x
+
+
+p
+
+x
+
+y
+
+
+
+
+p
+
+x
+
+
+
+displaystyle p y mid x p x y p x
+
+
+
+given a model of one conditional probability and estimated probability distributions for the variables x and y denoted
+
+
+
+p
+
+x
+
+
+
+displaystyle p x
+
+and
+
+
+
+p
+
+y
+
+
+
+displaystyle p y
+
+one can estimate the opposite conditional probability using bayes rule
+
+for example given a generative model for
+
+
+
+p
+
+x
+
+y
+
+
+
+displaystyle p x mid y
+
+one can estimate
+
+and given a discriminative model for
+
+
+
+p
+
+y
+
+x
+
+
+
+displaystyle p y mid x
+
+one can estimate
+
+note that bayes rule computing one conditional probability in terms of the other and the definition of conditional probability computing conditional probability in terms of the joint distribution are frequently conflated as well
+
+a generative algorithm models how the data was generated in order to categorize a signal it asks the question based on my generation assumptions which category is most likely to generate this signal a discriminative algorithm does not care about how the data was generated it simply categorizes a given signal so discriminative algorithms try to learn
+
+
+
+p
+
+y
+
+
+
+x
+
+
+
+displaystyle p y x
+
+directly from the data and then try to classify data on the other hand generative algorithms try to learn
+
+
+
+p
+
+x
+
+y
+
+
+
+displaystyle p x y
+
+which can be transformed into
+
+
+
+p
+
+y
+
+
+
+x
+
+
+
+displaystyle p y x
+
+later to classify the data one of the advantages of generative algorithms is that you can use
+
+
+
+p
+
+x
+
+y
+
+
+
+displaystyle p x y
+
+to generate new data similar to existing data on the other hand it has been proved that some discriminative algorithms give better performance than some generative algorithms in classification tasks
+
+despite the fact that discriminative models do not need to model the distribution of the observed variables they cannot generally express complex relationships between the observed and target variables but in general they don t necessarily perform better than generative models at classification and regression tasks the two classes are seen as complementary or as different views of the same procedure
+
+suppose the input data is
+
+
+
+x
+
+
+1
+
+2
+
+
+
+displaystyle x in 1 2
+
+the set of labels for
+
+
+
+x
+
+
+displaystyle x
+
+is
+
+
+
+y
+
+
+0
+
+1
+
+
+
+displaystyle y in 0 1
+
+and there are the following 4 data points
+
+
+
+
+
+x
+
+y
+
+
+
+
+1
+
+0
+
+
+
+1
+
+1
+
+
+
+2
+
+0
+
+
+
+2
+
+1
+
+
+
+
+displaystyle x y 1 0 1 1 2 0 2 1
+
+
+
+for the above data estimating the joint probability distribution
+
+
+
+p
+
+x
+
+y
+
+
+
+displaystyle p x y
+
+from the empirical measure will be the following
+
+while
+
+
+
+p
+
+y
+
+
+
+x
+
+
+
+displaystyle p y x
+
+will be following
+
+shannon 1948 gives an example in which a table of frequencies of english word pairs is used to generate a sentence beginning with representing and speedily is an good which is not proper english but which will increasingly approximate it as the table is moved from word pairs to word triplets etc
+
+types of generative models are
+
+if the observed data are truly sampled from the generative model then fitting the parameters of the generative model to maximize the data likelihood is a common method however since most statistical models are only approximations to the true distribution if the model s application is to infer about a subset of variables conditional on known values of others then it can be argued that the approximation makes more assumptions than are necessary to solve the problem at hand in such cases it can be more accurate to model the conditional density functions directly using a discriminative model see below although application specific details will ultimately dictate which approach is most suitable in any particular case
+
+with the rise of deep learning a new family of methods called deep generative models dgms is formed through the combination of generative models and deep neural networks an increase in the scale of the neural networks is typically accompanied by an increase in the scale of the training data both of which are required for good performance
+
+popular dgms include variational autoencoders vaes generative adversarial networks gans and auto regressive models recently there has been a trend to build very large deep generative models for example gpt 3 and its precursor gpt 2 are auto regressive neural language models that contain billions of parameters biggan and vq vae which are used for image generation that can have hundreds of millions of parameters and jukebox is a very large generative model for musical audio that contains billions of parameters

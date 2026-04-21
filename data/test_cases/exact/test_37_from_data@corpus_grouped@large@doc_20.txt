@@ -1,0 +1,4 @@
+rian or a data scholar
+a data modeling language and notation are often represented in graphical form as diagrams
+
+a data model can sometimes be referred to as a data structure especially in the context of programming languages data models are often complemented by function models especially in the c

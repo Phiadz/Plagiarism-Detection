@@ -1,0 +1,42 @@
+
+
+data engineering is a software engineering approach to the building of data systems to enable the collection and usage of data this data is usually used to enable subsequent analysis and data science which often involves machine learning making the data usable usually involves substantial computing and storage as well as data processing
+
+around the 1970s 1980s the term information engineering methodology iem was created to describe database design and the use of software for data analysis and processing these techniques were intended to be used by database administrators dbas and by systems analysts based upon an understanding of the operational processing needs of organizations for the 1980s in particular these techniques were meant to help bridge the gap between strategic business planning and information systems a key early contributor often called the father of information engineering methodology was the australian clive finkelstein who wrote several articles about it between 1976 and 1980 and also co authored an influential savant institute report on it with james martin over the next few years finkelstein continued work in a more business driven direction which was intended to address a rapidly changing business environment martin continued work in a more data processing driven direction from 1983 to 1987 charles m richter guided by clive finkelstein played a significant role in revamping iem as well as helping to design the iem software product user data which helped automate iem
+
+in the early 2000s the data and data tooling was generally held by the information technology it teams in most companies other teams then used data for their work e g reporting and there was usually little overlap in data skillset between these parts of the business
+
+in the early 2010s with the rise of the internet the massive increase in data volumes velocity and variety led to the term big data to describe the data itself and data driven tech companies like facebook and airbnb started using the phrase data engineer due to the new scale of the data major firms like google facebook amazon apple microsoft and netflix started to move away from traditional etl and storage techniques they started creating data engineering a type of software engineering focused on data and in particular infrastructure warehousing data protection cybersecurity mining modelling processing and metadata management this change in approach was particularly focused on cloud computing data started to be handled and used by many parts of the business such as sales and marketing and not just it
+
+high performance computing is critical for the processing and analysis of data one particularly widespread approach to computing for data engineering is dataflow programming in which the computation is represented as a directed graph dataflow graph nodes are the operations and edges represent the flow of data popular implementations include apache spark and the deep learning specific tensorflow more recent implementations such as differential timely dataflow have used incremental computing for much more efficient data processing
+
+data is stored in a variety of ways one of the key deciding factors is in how the data will be used
+data engineers optimize data storage and processing systems to reduce costs they use data compression partitioning and archiving
+
+if the data is structured and some form of online transaction processing is required then databases are generally used originally mostly relational databases were used with strong acid transaction correctness guarantees most relational databases use sql for their queries however with the growth of data in the 2010s nosql databases have also become popular since they horizontally scaled more easily than relational databases by giving up the acid transaction guarantees as well as reducing the object relational impedance mismatch more recently newsql databases which attempt to allow horizontal scaling while retaining acid guarantees have become popular
+
+if the data is structured and online analytical processing is required but not online transaction processing then data warehouses are a main choice they enable data analysis mining and artificial intelligence on a much larger scale than databases can allow and indeed data often flow from databases into data warehouses business analysts data engineers and data scientists can access data warehouses using tools such as sql or business intelligence software
+
+a data lake is a centralized repository for storing processing and securing large volumes of data a data lake can contain structured data from relational databases semi structured data unstructured data and binary data a data lake can be created on premises or in a cloud based environment using the services from public cloud vendors such as amazon microsoft or google
+
+if the data is less structured then often they are just stored as files there are several options
+
+the number and variety of different data processes and storage locations can become overwhelming for users this inspired the usage of a workflow management system e g airflow to allow the data tasks to be specified created and monitored the tasks are often specified as a directed acyclic graph dag
+
+business objectives that executives set for what s to come are characterized in key business plans with their more noteworthy definition in tactical business plans and implementation in operational business plans most businesses today recognize the fundamental need to grow a business plan that follows this strategy it is often difficult to implement these plans because of the lack of transparency at the tactical and operational degrees of organizations this kind of planning requires feedback to allow for early correction of problems that are due to miscommunication and misinterpretation of the business plan
+
+the design of data systems involves several components such as architecting data platforms and designing data stores
+
+data modeling is the analysis and representation of data requirements for an organisation it produces a data model an abstract representation that organises business concepts and the relationships and constraints between them the resulting artefacts guide communication between business and technical stakeholders and inform database design
+
+a common convention distinguishes three levels of models
+
+approaches include entity relationship er modeling for operational systems dimensional modeling for analytics and data warehousing and the use of uml class diagrams to express conceptual or logical models in general purpose modeling tools
+
+well formed data models aim to improve data quality and interoperability by applying clear naming standards normalisation and integrity constraints
+
+a data engineer is a type of software engineer who creates big data etl pipelines to manage the flow of data through the organization this makes it possible to take huge amounts of data and translate it into insights they are focused on the production readiness of data and things like formats resilience scaling and security data engineers usually hail from a software engineering background and are proficient in programming languages like java python scala and rust they will be more familiar with databases architecture cloud computing and agile software development
+
+data scientists are more focused on the analysis of the data they will be more familiar with mathematics algorithms statistics and machine learning
+
+

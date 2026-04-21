@@ -1,0 +1,81 @@
+
+
+the environmental impact of the design training deployment and use of artificial intelligence includes the greenhouse gas emissions from generating electricity for data centres and computing hardware operational and upstream water use and material impacts from hardware manufacturing mining and electronic waste
+
+estimating ai s environmental effects can be difficult because results depend on how impacts are measured including whether accounting includes only model computation or also data centre overhead idle capacity hardware manufacture and local electricity supply
+
+as these issues have received greater attention governments and regulators have increasingly considered data centre reporting requirements energy efficiency standards and broader transparency measures for ai related resource use
+
+ai related energy use arises at multiple stages including model training fine tuning inference storage networking and supporting infrastructure such as cooling and power conversion
+
+published estimates of energy use per ai request vary widely across models tasks and measurement methods a benchmark study presented at the 2024 acm conference on fairness accountability and transparency found substantial differences between task types with lower energy use for some text tasks and much higher energy use for image generation in the study s test conditions in that benchmark simple classification tasks consumed about 0 002 0 007 wh per prompt on average about 9 of a smartphone charge for 1 000 prompts while text generation and text summarisation each used about 0 05 wh per prompt image generation averaged 2 91 wh per prompt and the least efficient image model in the study used 11 49 wh per image roughly equivalent to half a smartphone charge
+
+first party measurements in production environments have also been published a 2025 google study on gemini assistant serving reported median per prompt energy emissions and water use estimates under the authors accounting framework while noting that different system boundaries can produce substantially different results the study reported a median text prompt estimate of about 0 24 wh which is roughly as much energy as watching nine seconds of television the study also stated that software and infrastructure improvements reduced energy use by a factor of 33 and carbon emissions by a factor of 44 for a typical prompt over one year within the authors framework
+
+researchers at the university of michigan measured the energy consumption of various meta llama 3 1 models released in 2024 and found that smaller language models 8 billion parameters use about 114 joules 0 03167 wh per response while larger models 405 billion parameters require up to 6 700 joules 1 861 wh per response this corresponds to the energy needed to run a microwave oven for roughly one tenth of a second and eight seconds respectively
+
+comparisons between ai systems and human labour for specific tasks have produced mixed results and remain sensitive to assumptions about output quality workload and system boundaries a 2024 study in scientific reports reported 130 to 2900 times lower estimated carbon emissions for selected ai systems than for human writers and illustrators under its assumptions a later scientific reports paper reported a counterexample for programming tasks under its assumptions finding 5 to 19 times higher estimated emissions for the evaluated ai system than for human programmers on the benchmark used in that study
+
+ai electricity intensity depends not only on model architecture but also on hardware and facility efficiency data centre operators commonly report power usage effectiveness pue which measures the ratio of total facility energy to it equipment energy a lower pue indicates less overhead energy for cooling and other supporting infrastructure
+
+operators may also publish metrics and case studies on hardware efficiency cooling systems and power sourcing in its 2024 environmental report google stated that its 2023 total greenhouse gas emissions increased 13 year over year primarily because of increased data centre energy consumption and supply chain emissions while also reporting lower pue than industry averages for its own facilities
+
+the international energy agency has also reported that data centres remain a relatively small share of global electricity use overall but that their local effects can be much more pronounced because demand is geographically concentrated
+
+at system level ai contributes to rising electricity demand in data centres and related infrastructure the international energy agency estimated that data centres used about 415 twh of electricity in 2024 or around 1 5 of global electricity consumption and projected that data centre electricity use could rise to about 945 twh by 2030 with ai identified as the main driver of that growth alongside other digital services
+
+the carbon footprint of ai systems depends strongly on electricity sources hardware efficiency utilisation rates and what stages are included in the accounting training large models can require substantial electricity while total lifecycle impacts also depend on deployment scale and the amount of inference performed after training
+
+early analyses of frontier model development reported rapid historical growth in training compute for selected systems although later trends have depended on changes in model design hardware and efficiency gains
+
+accounting methods that include upstream or embodied impacts such as hardware manufacture and facilities construction can materially affect estimates of ai related emissions
+
+large technology companies have reported that the expansion of ai and cloud infrastructure affects their sustainability targets electricity demand and resource use google for example attributed part of its emissions growth in 2023 to increased data centre energy consumption and supply chain emissions in its 2024 environmental report
+
+cloud and ai companies have also announced measures intended to reduce environmental impacts including investment in more efficient hardware low carbon electricity procurement alternative cooling systems and water stewardship programmes the extent comparability and third party verification of such disclosures vary between firms and jurisdictions
+
+data centres can use water directly for cooling and indirectly through the water used in electricity generation depending on the local energy mix public reporting on data centre water use has often been inconsistent making comparisons between operators and regions difficult
+
+to standardise operational reporting the green grid proposed the metric water usage effectiveness wue defined as annual site water use divided by it equipment energy use wue does not by itself measure local water stress source sustainability or all upstream water impacts studies of ai water use also distinguish between water withdrawal and water consumption a
+
+research on ai specific water use has argued that the water footprint of ai systems can be difficult to observe and may vary substantially by location cooling design and electricity source a 2025 communications of the acm article summarised methods for estimating ai water footprints and emphasised the distinction between water withdrawal and water consumption
+
+li and colleagues estimated that global ai water withdrawal could reach 4 2 6 6 billion cubic metres in 2027 under the scenarios examined in their article using gpt 3 released by openai in 2020 as an example they estimated that training the model in microsoft s u s data centres could consume about 700 000 litres of onsite water and about 5 4 million litres in total when offsite electricity related water use was included they also estimated that 10 50 medium length gpt 3 responses could consume about 500 ml of water depending on when and where the model was deployed published prompt level estimates have also varied by system and accounting framework the 2025 google study on gemini assistant serving reported a median text prompt estimate of about 0 26 ml under its framework
+
+location can materially affect the significance of data centre water use research on u s data centres found that one fifth of servers direct water footprint came from moderately to highly water stressed watersheds while nearly half of servers were fully or partially powered by plants located in water stressed regions a 2025 reuters report citing data from verisk maplecroft and naturefinance said that an average mid sized data centre uses about 1 4 million litres of water per day for cooling and that phoenix would experience a 32 increase in annual water stress if currently planned data centres come online
+
+water use also occurs upstream in semiconductor fabrication which relies on large quantities of ultrapure water
+
+ai systems depend on specialised computing hardware and rapid turnover in servers and accelerators may contribute to rising e waste according to the global e waste monitor 2024 the world generated an estimated 62 million tonnes of e waste in 2022 and the total was projected to rise to 82 million tonnes by 2030 under its scenarios the world health organization has also identified e waste as a growing environmental and public health issue
+
+a 2024 study in nature computational science estimated that generative ai could add between 1 2 and 5 million tonnes of e waste by 2030 under the scenarios examined by the authors in the study s higher end scenarios this would represent up to 12 of projected global e waste by 2030 the authors also estimated that circular economy strategies along the generative ai value chain could reduce ai related e waste generation by 16 86
+
+ai hardware depends on complex supply chains for metals minerals and manufactured components unctad has reported that the expansion of digital infrastructure increases demand for raw materials and raises environmental and distributional concerns linked to extraction processing and manufacturing
+
+specialised chips used in ai systems can depend on supply chains involving critical minerals and other materials whose extraction and processing may have significant environmental and social effects these impacts are not unique to ai but may increase as demand for ai related hardware grows
+
+the environmental effects of ai related infrastructure are not distributed evenly research on u s data centres has found that their environmental footprints vary by region and may intersect with local electricity systems water availability and existing environmental burdens in that study one fifth of servers direct water footprint came from moderately to highly water stressed watersheds while nearly half of servers were fully or partially powered by plants located in water stressed regions
+
+concerns have also been raised about local air pollution permitting and grid stress in communities hosting ai related facilities and associated power infrastructure in 2025 civil rights and environmental groups challenged permits connected to an xai facility in the memphis area arguing that air pollution burdens could fall disproportionately on historically overburdened neighbourhoods the dispute has been the subject of regulatory and legal proceedings
+
+despite concerns about its environmental footprint ai has been used in environmental and climate related applications including weather forecasting earth observation and optimisation in transport and energy systems
+
+in weather forecasting peer reviewed studies have reported strong results for some ai based forecasting systems under specific evaluation frameworks a 2023 nature paper on pangu weather reported strong medium range forecasting performance relative to a leading numerical weather prediction system in the study s evaluation ai has also been used in research on extreme weather and climate event modelling
+
+ai has also been proposed for mitigation oriented optimisation google s green light project for example uses traffic data and machine learning to recommend traffic signal timing adjustments intended to reduce stop and go traffic and associated emissions at intersections
+
+whether ai produces net environmental benefits at large scale remains an open question because outcomes depend on deployment choices rebound effects additional infrastructure demand and the extent to which electricity and cooling systems are decarbonised
+
+there is ongoing debate over the balance between the possible environmental benefits of ai applications and the environmental costs of scaling ai systems this includes discussion of transparency efficiency rebound effects and the extent to which ai related infrastructure growth may offset environmental gains from specific applications
+
+in the united states proposals have been introduced to study and standardise reporting on ai s environmental impacts the artificial intelligence environmental impacts act of 2024 s 3732 introduced in the senate in february 2024 would require a federal study on the environmental impacts of ai direct the national institute of standards and technology to convene a consortium on measurement and standards and establish a voluntary reporting system
+
+in the european union the energy efficiency directive introduced reporting obligations for large data centres the european commission has stated that a european database collects information relevant to the energy performance and water footprint of data centres and that a delegated regulation sets out the information and key performance indicators for the reporting scheme
+
+eu member states also maintain national ai strategies some of which include references to sustainability energy efficiency or environmental applications of ai
+
+france s ai strategy documents have discussed ai in relation to ecological transition and environmental applications including the use of digital infrastructure and data for environmental policy
+
+germany s national ai strategy includes sections on the environmental impacts of ai and on research into energy efficient and sustainable ai applications
+
+italy s national ai strategy documents include sustainability related priorities and discuss ai applications in areas such as environment infrastructure and sustainable development goals

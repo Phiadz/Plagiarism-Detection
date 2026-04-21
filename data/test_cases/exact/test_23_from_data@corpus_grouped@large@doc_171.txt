@@ -1,0 +1,1 @@
+atistics and artificial intelligence which usually provide the mathematical background to database management by exploiting the way data is stored and indexed in databases to execute the actual learning and discovery algorithms more efficiently allowing such methods to be applied to ever larger data

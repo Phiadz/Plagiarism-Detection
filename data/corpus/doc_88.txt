@@ -1,0 +1,72 @@
+
+
+oclc inc is a us based nonprofit cooperative organization that provides shared technology services original research and community programs for its membership and the library community at large it was founded in 1967 as the ohio college library center then became the online computer library center as it expanded in 2017 the name was formally changed to oclc inc oclc and thousands of its member libraries cooperatively produce and maintain worldcat the largest online public access catalog in the world oclc is funded mainly by the fees that libraries pay around 217 8 million annually in total as of 2021 update for the many different services it offers oclc also maintains the dewey decimal classification system
+
+oclc began in 1967 as the ohio college library center through a collaboration of university presidents vice presidents and library directors who wanted to create a cooperative computerized network for libraries in the state of ohio the group first met on july 5 1967 on the campus of ohio state university to sign the articles of incorporation for the nonprofit organization and hired frederick g kilgour a former yale university medical school librarian as first executive director
+
+kilgour and ralph h parker who was the head of libraries at the university of missouri had proposed the shared cataloging system in a 1965 report as consultants to the committee of librarians of the ohio college association kilgour and parker wished to merge the latest information storage and retrieval system of the time the computer with the oldest the library they were inspired in part by the earlier columbia harvard yale medical libraries computerization project an attempt at shared automated printing of catalog cards the plan was to merge the catalogs of ohio libraries electronically through a computer network and database to streamline operations control costs and increase efficiency in library management bringing libraries together cooperatively to best serve researchers and scholars the first library to do online cataloging through oclc was the alden library at ohio university on august 26 1971 this was the first online cataloging by any library worldwide
+
+between 1967 and 1977 oclc membership was limited to institutions in ohio but in 1978 a new governance structure was established that allowed institutions from other states to join with this expansion the name changed to the online computer library center in 1977 in 2002 the governance structure was again modified to accommodate participation from outside the united states
+
+as oclc expanded services in the united states outside ohio it relied on establishing strategic partnerships with networks organizations that provided training support and marketing services by 2008 there were 15 independent united states regional service providers oclc networks played a key role in oclc governance with networks electing delegates to serve on the oclc members council during 2008 oclc commissioned two studies to look at distribution channels at the same time the council approved governance changes that had been recommended by the board of trustees severing the tie between the networks and governance in early 2009 oclc negotiated new contracts with the former networks and opened a centralized support center
+
+in july 2010 the company was sued by skyriver a rival startup in an antitrust suit library automation company innovative interfaces joined skyriver in the suit the suit was dropped in march 2013 however following the acquisition of skyriver by innovative interfaces
+innovative interfaces was bought by exlibris in 2020 therefore passing oclc as the dominant supplier of ils services in the u s over 70 market share for academic libraries and over 50 for public libraries for exlibris versus oclc s 10 market share of both types of libraries in 2019
+
+in 2022 membership and governance expanded to include any institution with a subscription to one of many qualifying oclc products previously institutions qualified for membership by contributing intellectual content or participating in global resource or reference sharing with the exception of for profit organizations that are part of oclc s partner program this change reflected oclc s expanding number of services due to its corporate acquisitions
+
+the following people served successively as president of oclc
+
+oclc provides bibliographic abstract and full text information to anyone
+
+oclc and its member libraries cooperatively produce and maintain worldcat the oclc online union catalog the largest online public access catalog opac in the world worldcat has holding records from public and private libraries worldwide
+
+the online computer library center acquired the trademark and copyrights associated with the dewey decimal classification system when it bought forest press in 1988 a browser for books with their dewey decimal classifications was available until july 2013 it was replaced by the classify service
+
+until august 2009 when it was sold to backstage library works oclc owned a preservation microfilm and digitization operation called the oclc preservation service center with its principal office in bethlehem pennsylvania
+
+starting in 1971 oclc produced catalog cards for members alongside its shared online catalog the company printed its last catalog cards on october 1 2015
+
+questionpoint an around the clock reference service provided to users by a cooperative of participating global libraries was acquired by springshare from oclc in 2019 and migrated to springshare s libanswers platform
+
+oclc commercially sells software such as
+
+oclc has been conducting research for the library community for more than 30 years in accordance with its mission oclc makes its research outcomes known through various publications these publications including journal articles reports newsletters and presentations are available through the organization s website
+
+during the covid 19 pandemic oclc participated in the reopening archives libraries and museums realm project funded by the imls to study the surface transmission risks of sars cov 2 on common library and museum materials and surfaces and published a series of reports
+
+advocacy has been a part of oclc s mission since its founding in 1967 oclc staff members meet and work regularly with library leaders information professionals researchers entrepreneurs political leaders trustees students and patrons to advocate advancing research scholarship education community development information access and global cooperation
+
+webjunction which provides training services to librarians is a division of oclc funded by grants from the bill melinda gates foundation beginning in 2003
+
+oclc partnered with search engine providers in 2003 to advocate for libraries and share information across the internet landscape google yahoo and ask com all collaborated with oclc to make worldcat records searchable through those search engines
+
+oclc s advocacy campaign geek the library started in 2009 highlights the role of public libraries the campaign funded by a grant from the bill melinda gates foundation uses a strategy based on the findings of the 2008 oclc report from awareness to funding a study of library support in america
+
+other past advocacy campaigns have focused on sharing the knowledge gained from library and information research such projects have included communities such as the society of american archivists the open archives initiative the institute for museum and library services the international organization for standardization the national information standards organization the world wide web consortium the internet engineering task force and internet2 one of the most successful contributions to this effort was the dublin core metadata initiative an open forum of libraries archives museums technology organizations and software companies who work together to develop interoperable online metadata standards that support a broad range of purposes and business models
+
+oclc has collaborated with the wikimedia foundation and the wikimedia volunteer community through integrating library metadata with wikimedia projects hosting a wikipedian in residence and doing a national training program through webjunction called wikipedia libraries better together
+
+oclc s worldcat database is used by the general public and by librarians for cataloging and research worldcat is available to the public for searching via a subscription web based service called firstsearch to which many libraries subscribe as well as through the publicly available worldcat org
+
+oclc assigns a unique accession number referred to as an ocn an oclc control number or an oclc number to each new bibliographic record in worldcat this is somewhat analogous to how the library of congress assigns an lccn or a library of congress control number to its bibliographic records but lccns can be prefixed and are thus extended to other uses too like authority control etc numbers are assigned serially and in mid 2013 over a billion ocns had been created in september 2013 oclc declared these numbers to be in the public domain removing a perceived barrier to widespread use of ocns outside oclc itself the control numbers link worldcat s records to local library system records by providing a common reference key for a record in libraries
+
+ocns are particularly useful as identifiers for books and other bibliographic materials that do not have isbns e g books published before 1970 ocns are often used as identifiers for wikipedia and wikidata in october 2013 it was reported that out of 29 673 instances of book infoboxes in wikipedia there were 23 304 isbns and 15 226 ocns and regarding wikidata of around 14 million wikidata items 28 741 were books 5 403 wikidata items have an isbn associated with them and 12 262 have ocns
+
+oclc also runs the virtual international authority file viaf an international name authority file with oversight from the viaf council composed of representatives of institutions that contribute data to viaf viaf numbers are broadly used as standard identifiers including in wikipedia
+
+in 2024 oclc launched a new linked data management tool called oclc meridian this was released with a suite of apis for worldcat entities to allow greater control connection and integration of linked data for user institutions this suite of apis enables the creation of linked data entities and descriptive relationships forming connections to the existing value in marc records and other datasets across the global information ecosystem the use of these apis and worldcat entities is designed to improve discoverability and relevance for users integrate data management into your existing workflows and discover emphasize and analyze important relationships a set of worldcat entities apis enables users to connect identifiers from disparate sources such as orcid isni viaf etc learn of changes to worldcat entities data and related information for local use
+
+oclc acquired netlibrary a provider of electronic books and textbooks in 2002 and sold it in 2010 to ebsco industries oclc owns 100 of the shares of oclc pica a library automation systems and services company which has its headquarters in leiden in the netherlands and which was renamed oclc at the end of 2007 in july 2006 the research libraries group rlg merged with oclc
+
+on january 11 2008 oclc announced that it had purchased ezproxy it has also acquired oaister the process started in january 2009 and from october 31 2009 oaister records are freely available via worldcat org
+
+in 2013 oclc acquired the dutch library automation company hka and its integrated library system wise which oclc calls a community engagement system that combines the power of customer relationship management marketing and analytics with ils functions oclc began offering wise to libraries in the united states in 2019
+
+in january 2015 oclc acquired sustainable collection services scs scs offered consulting services based on analyzing library print collection data to help libraries manage and share materials in 2017 oclc acquired relais international a library interlibrary loan service provider based in ottawa canada
+
+a more complete list of mergers and acquisitions is available on the oclc website
+
+in may 2008 oclc was criticized by jeffrey beall for monopolistic practices among other faults library blogger rick mason responded that although he thought beall had some valid criticisms of oclc he demurred from some of beall s statements and warned readers to beware the hyperbole and the personal nature of his criticism for they strongly overshadow that which is worth stating
+
+in november 2008 the board of directors of oclc unilaterally issued a new policy for use and transfer of worldcat records that would have required member libraries to include an oclc policy note on their bibliographic records the policy caused an uproar among librarian bloggers among those who protested the policy was the non librarian activist aaron swartz who believed the policy would threaten projects such as the open library zotero and wikipedia and who started a petition to stop the oclc powergrab swartz s petition garnered 858 signatures but the details of his proposed actions went largely unheeded within a few months the library community had forced oclc to retract its policy and to create a review board to consult with member libraries more transparently in august 2012 oclc recommended that member libraries adopt the open data commons attribution odc by license when sharing library catalog data although some member libraries have explicit agreements with oclc that they can publish catalog data using the cc0 public domain dedication

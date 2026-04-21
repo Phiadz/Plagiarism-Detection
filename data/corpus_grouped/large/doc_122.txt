@@ -1,0 +1,211 @@
+data lineage refers to the process of tracking how data is generated transformed transmitted and used across systems over time it documents data s origins transformations and movements providing detailed visibility into its life cycle this process simplifies the identification of errors in data analytics workflows by enabling users to trace issues back to their root causes
+
+data lineage facilitates the ability to replay specific segments or inputs of the dataflow this can be used in debugging or regenerating lost outputs in database systems this concept is closely related to data provenance which involves maintaining records of inputs entities systems and processes that influence data
+
+data provenance provides a historical record of data origins and transformations it supports forensic activities such as data dependency analysis error compromise detection recovery auditing and compliance analysis lineage is a simple type of why provenance
+
+data governance plays a critical role in managing metadata by establishing guidelines strategies and policies enhancing data lineage with data quality measures and master data management adds business value although data lineage is typically represented through a graphical user interface gui the methods for gathering and exposing metadata to this interface can vary based on the metadata collection approach data lineage can be categorized into three types those involving software packages for structured data programming languages and big data systems
+
+data lineage information includes technical metadata about data transformations enriched data lineage may include additional elements such as data quality test results reference data data models business terminology data stewardship information program management details and enterprise systems associated with data points and transformations data lineage visualization tools often include masking features that allow users to focus on information relevant to specific use cases to unify representations across disparate systems metadata normalization or standardization may be required
+
+representation broadly depends on the scope of the metadata management and reference point of interest data lineage provides sources of the data and intermediate data flow hops from the reference point with backward data lineage leading to the final destination s data points and its intermediate data flows with forward data lineage these views can be combined with end to end lineage for a reference point that provides a complete audit trail of that data point of interest from sources to their final destinations as the data points or hops increase the complexity of such representation becomes incomprehensible thus the best feature of the data lineage view is the ability to simplify the view by temporarily masking unwanted peripheral data points tools with the masking feature enable scalability of the view and enhance analysis with the best user experience for both technical and business users data lineage also enables companies to trace sources of specific business data to track errors implement changes in processes and implementing system migrations to save significant amounts of time and resources data lineage can improve efficiency in business intelligence bi processes
+
+data lineage can be represented visually to discover the data flow and movement from its source to destination via various changes and hops on its way in the enterprise environment this includes how the data is transformed along the way how the representation and parameters change and how the data splits or converges after each hop a simple representation of the data lineage can be shown with dots and lines where dots represent data containers for data points and lines connecting them represent transformations the data undergoes between the data containers
+
+data lineage can be visualized at various levels based on the granularity of the view at a very high level data lineage is visualized as systems that the data interacts with before it reaches its destination at its most granular visualizations at the data point level can provide the details of the data point and its historical behavior attribute properties and trends and data quality of the data passed through that specific data point in the data lineage
+
+the scope of the data lineage determines the volume of metadata required to represent its data lineage usually data governance and data management of an organization determine the scope of the data lineage based on their regulations enterprise data management strategy data impact reporting attributes and critical data elements of the organization
+
+distributed systems like google map reduce microsoft dryad apache hadoop an open source project and google pregel provide such platforms for businesses and users however even with these systems big data analytics can take several hours days or weeks to run simply due to the data volumes involved for example a ratings prediction algorithm for the netflix prize challenge took nearly 20 hours to execute on 50 cores and a large scale image processing task to estimate geographic information took 3 days to complete using 400 cores the large synoptic survey telescope is expected to generate terabytes of data every night and eventually store more than 50 petabytes while in the bioinformatics sector the 12 largest genome sequencing houses in the world now store petabytes of data apiece failed verification
+it is very difficult for a data scientist to trace an unknown or an unanticipated result
+
+big data analytics is the process of examining large data sets to uncover hidden patterns unknown correlations market trends customer preferences and other useful business information machine learning among other algorithms is used to transform and analyze the data due to the large size of the data there could be unknown features in the data
+
+the massive scale and unstructured nature of data the complexity of these analytics pipelines and long runtimes pose significant manageability and debugging challenges even a single error in these analytics can be extremely difficult to identify and remove while one may debug them by re running the entire analytics through a debugger for stepwise debugging this can be expensive due to the amount of time and resources needed
+
+auditing and data validation are other major problems due to the growing ease of access to relevant data sources for use in experiments the sharing of data between scientific communities and use of third party data in business enterprises as such more cost efficient ways of analyzing data intensive scale able computing disc are crucial to their continued effective use
+
+according to an emc idc study 2 8 zb of data were created and replicated in 2012 furthermore the same study states that the digital universe will double every two years between now and 2020 and that there will be approximately 5 2 tb of data for every person in 2020 based on current technology the storage of this much data will mean greater energy usage by data centers
+
+unstructured data usually refers to information that doesn t reside in a traditional row column database unstructured data files often include text and multimedia content such as e mail messages word processing documents videos photos audio files presentations web pages and many other kinds of business documents while these types of files may have an internal structure they are still considered unstructured because the data they contain doesn t fit neatly into a database the amount of unstructured data in enterprises is growing many times faster than structured databases are growing big data can include both structured and unstructured data but idc estimates that 90 percent of big data is unstructured data
+
+the fundamental challenge of unstructured data sources is that they are difficult for non technical business users and data analysts alike to unbox understand and prepare for analytic use beyond issues of structure the sheer volume of this type of data contributes to such difficulty because of this current data mining techniques often leave out valuable information and make analyzing unstructured data laborious and expensive
+
+in today s competitive business environment companies have to find and analyze the relevant data they need quickly the challenge is going through the volumes of data and accessing the level of detail needed all at a high speed the challenge only grows as the degree of granularity increases one possible solution is hardware some vendors are using increased memory and parallel processing to crunch large volumes of data quickly another method is putting data in memory but using a grid computing approach where many machines are used to solve a problem both approaches allow organizations to explore huge data volumes even with this level of sophisticated hardware and software a few of the image processing tasks in large scale take a few days to few weeks debugging of the data processing is extremely hard due to long run times
+
+a third approach of advanced data discovery solutions combines self service data prep with visual data discovery enabling analysts to simultaneously prepare and visualize data side by side in an interactive analysis environment offered by newer companies such as trifacta alteryx and others
+
+another method to track data lineage is spreadsheet programs such as excel that offer users cell level lineage or the ability to see which cells are dependent on another however the structure of the transformation is lost similarly etl or mapping software provide transform level lineage yet this view typically doesn t display data and is too coarse grained to distinguish between transforms that are logically independent e g transforms that operate on distinct columns or dependent
+big data platforms have a very complicated structure where data is distributed across a vast range typically the jobs are mapped into several machines and results are later combined by the reduce operations debugging a big data pipeline becomes very challenging due to the very nature of the system it will not be an easy task for the data scientist to figure out which machine s data has outliers and unknown features causing a particular algorithm to give unexpected results
+
+data provenance or data lineage can be used to make the debugging of big data pipeline easier this necessitates the collection of data about data transformations the below section will explain data provenance in more detail
+
+in information systems data provenance is information about the entities activities and agents involved in producing a piece of data it records how data was derived and can be used to assess quality reliability and trustworthiness
+classical database research distinguishes why where and how provenance and shows how these forms support tasks such as query debugging view maintenance confidence estimation and annotation propagation
+in scientific workflows provenance documents the derivation history from original sources through workflow steps supporting reproducibility and reuse of results
+
+in industry usage data lineage is closely related lineage typically denotes the end to end flow of datasets and transformations across systems from sources through processing to outputs while provenance emphasises derivations and attribution of specific data items the two are complementary open implementation oriented specifications such as openlineage model lineage in terms of jobs runs and datasets to enable automated capture from modern data pipelines
+
+uses provenance lineage information underpins impact analysis and debugging of data pipelines and supports regulatory reporting and audit e g the basel committee s principles for effective risk data aggregation and risk reporting
+
+prov is a w3c recommendation of 2013
+
+intuitively for an operator
+
+
+
+t
+
+
+displaystyle t
+
+producing output
+
+
+
+o
+
+
+displaystyle o
+
+lineage consists of triplets of form
+
+
+
+
+i
+
+t
+
+o
+
+
+
+displaystyle i t o
+
+where
+
+
+
+i
+
+
+displaystyle i
+
+is the set of inputs to
+
+
+
+t
+
+
+displaystyle t
+
+used to derive
+
+
+
+o
+
+
+displaystyle o
+
+a query that finds the inputs deriving an output is called a backward tracing query while one that finds the outputs produced by an input is called a forward tracing query backward tracing is useful for debugging while forward tracing is useful for tracking error propagation tracing queries also form the basis for replaying an original dataflow however to efficiently use lineage in a disc system we need to be able to capture lineage at multiple levels or granularities of operators and data capture accurate lineage for disc processing constructs and be able to trace through multiple dataflow stages efficiently
+
+a disc system consists of several levels of operators and data and different use cases of lineage can dictate the level at which lineage needs to be captured lineage can be captured at the level of the job using files and giving lineage tuples of form if i m rjob of i lineage can also be captured at the level of each task using records and giving for example lineage tuples of form k rr v rr map k m v m the first form of lineage is called coarse grain lineage while the second form is called fine grain lineage integrating lineage across different granularities enables users to ask questions such as which file read by a mapreduce job produced this particular output record and can be useful in debugging across different operators and data granularities within a dataflow
+
+to capture end to end lineage in a disc system we use the ibis model which introduces the notion of containment hierarchies for operators and data specifically ibis proposes that an operator can be contained within another and such a relationship between two operators is called operator containment operator containment implies that the contained or child operator performs a part of the logical operation of the containing or parent operator for example a mapreduce task is contained in a job similar containment relationships exist for data as well known as data containment data containment implies that the contained data is a subset of the containing data superset
+
+data lineage systems can be categorized as either eager or lazy
+
+eager collection systems capture the entire lineage of the data flow at run time the kind of lineage they capture may be coarse grain or fine grain but they do not require any further computations on the data flow after its execution
+
+lazy lineage collection typically captures only coarse grain lineage at run time these systems incur low capture overheads due to the small amount of lineage they capture however to answer fine grain tracing queries they must replay the data flow on all or a large part of its input and collect fine grain lineage during the replay this approach is suitable for forensic systems where a user wants to debug an observed bad output
+
+eager fine grain lineage collection systems incur higher capture overheads than lazy collection systems however they enable sophisticated replay and debugging
+
+an actor is an entity that transforms data it may be a dryad vertex individual map and reduce operators a mapreduce job or an entire dataflow pipeline actors act as black boxes and the inputs and outputs of an actor are tapped to capture lineage in the form of associations where an association is a triplet
+
+
+
+
+i
+
+t
+
+o
+
+
+
+displaystyle i t o
+
+that relates an input
+
+
+
+i
+
+
+displaystyle i
+
+with an output
+
+
+
+o
+
+
+displaystyle o
+
+for an actor
+
+
+
+t
+
+
+displaystyle t
+
+the instrumentation thus captures lineage in a dataflow one actor at a time piecing it into a set of associations for each actor the system developer needs to capture the data an actor reads from other actors and the data an actor writes to other actors for example a developer can treat the hadoop job tracker as an actor by recording the set of files read and written by each job
+
+association is a combination of the inputs outputs and the operation itself the operation is represented in terms of a black box also known as the actor the associations describe the transformations that are applied to the data the associations are stored in the association tables each unique actor is represented by its association table an association itself looks like i t o where i is the set of inputs to the actor t and o is the set of outputs produced by the actor associations are the basic units of data lineage individual associations are later clubbed together to construct the entire history of transformations that were applied to the data
+
+big data systems increase capacity by adding new hardware or software entities into the distributed system this process is called horizontal scaling the distributed system acts as a single entity at the logical level even though it comprises multiple hardware and software entities the system should continue to maintain this property after horizontal scaling an important advantage of horizontal scalability is that it can provide the ability to increase capacity on the fly the biggest plus point is that horizontal scaling can be done using commodity hardware
+
+the horizontal scaling feature of big data systems should be taken into account while creating the architecture of lineage store this is essential because the lineage store itself should also be able to scale in parallel with the big data system the number of associations and amount of storage required to store lineage will increase with the increase in size and capacity of the system the architecture of big data systems makes use of a single lineage store not appropriate and impossible to scale the immediate solution to this problem is to distribute the lineage store itself
+
+the best case scenario is to use a local lineage store for every machine in the distributed system network this allows the lineage store also to scale horizontally in this design the lineage of data transformations applied to the data on a particular machine is stored on the local lineage store of that specific machine the lineage store typically stores association tables each actor is represented by its own association table the rows are the associations themselves and the columns represent inputs and outputs this design solves two problems it allows horizontal scaling of the lineage store if a single centralized lineage store was used then this information had to be carried over the network which would cause additional network latency the network latency is also avoided by the use of a distributed lineage store
+
+the information stored in terms of associations needs to be combined by some means to get the data flow of a particular job in a distributed system a job is broken down into multiple tasks one or more instances run a particular task the results produced on these individual machines are later combined to finish the job tasks running on different machines perform multiple transformations on the data in the machine all the transformations applied to the data on a machine is stored in the local lineage store of that machines this information needs to be combined to get the lineage of the entire job the lineage of the entire job should help the data scientist understand the data flow of the job and he she can use the data flow to debug the big data pipeline the data flow is reconstructed in 3 stages
+
+the first stage of the data flow reconstruction is the computation of the association tables the association tables exist for each actor in each local lineage store the entire association table for an actor can be computed by combining these individual association tables this is generally done using a series of equality joins based on the actors themselves in few scenarios the tables might also be joined using inputs as the key indexes can also be used to improve the efficiency of a join the joined tables need to be stored on a single instance or a machine to further continue processing there are multiple schemes that are used to pick a machine where a join would be computed the easiest one being the one with minimum cpu load space constraints should also be kept in mind while picking the instance where join would happen
+
+the second step in data flow reconstruction is computing an association graph from the lineage information the graph represents the steps in the data flow the actors act as vertices and the associations act as edges each actor t is linked to its upstream and downstream actors in the data flow an upstream actor of t is one that produced the input of t while a downstream actor is one that consumes the output of t containment relationships are always considered while creating the links the graph consists of three types of links or edges
+
+the simplest link is an explicitly specified link between two actors these links are explicitly specified in the code of a machine learning algorithm when an actor is aware of its exact upstream or downstream actor it can communicate this information to lineage api this information is later used to link these actors during the tracing query for example in the mapreduce architecture each map instance knows the exact record reader instance whose output it consumes
+
+developers can attach data flow archetypes to each logical actor a data flow archetype explains how the child types of an actor type arrange themselves in a data flow with the help of this information one can infer a link between each actor of a source type and a destination type for example in the mapreduce architecture the map actor type is the source for reduce and vice versa the system infers this from the data flow archetypes and duly links map instances with reduce instances however there may be several mapreduce jobs in the data flow and linking all map instances with all reduce instances can create false links to prevent this such links are restricted to actor instances contained within a common actor instance of a containing or parent actor type thus map and reduce instances are only linked to each other if they belong to the same job
+
+in distributed systems sometimes there are implicit links which are not specified during execution for example an implicit link exists between an actor that wrote to a file and another actor that read from it such links connect actors which use a common data set for execution the dataset is the output of the first actor and the input of the actor follows it
+
+the final step in the data flow reconstruction is the topological sorting of the association graph the directed graph created in the previous step is topologically sorted to obtain the order in which the actors have modified the data this record of modifications by the different actors involved is used to track the data flow of the big data pipeline or task
+
+this is the most crucial step in big data debugging the captured lineage is combined and processed to obtain the data flow of the pipeline the data flow helps the data scientist or a developer to look deeply into the actors and their transformations this step allows the data scientist to figure out the part of the algorithm that is generating the unexpected output a big data pipeline can go wrong in two broad ways the first is a presence of a suspicious actor in the dataflow the second is the existence of outliers in the data
+
+the first case can be debugged by tracing the dataflow by using lineage and data flow information together a data scientist can figure out how the inputs are converted into outputs during the process actors that behave unexpectedly can be caught either these actors can be removed from the data flow or they can be augmented by new actors to change the dataflow the improved dataflow can be replayed to test the validity of it debugging faulty actors include recursively performing coarse grain replay on actors in the dataflow which can be expensive in resources for long dataflows another approach is to manually inspect lineage logs to find anomalies which can be tedious and time consuming across several stages of a dataflow furthermore these approaches work only when the data scientist can discover bad outputs to debug analytics without known bad outputs the data scientist needs to analyze the dataflow for suspicious behavior in general however often a user may not know the expected normal behavior and cannot specify predicates this section describes a debugging methodology for retrospectively analyzing lineage to identify faulty actors in a multi stage dataflow we believe unbalanced opinion that sudden changes in an actor s behavior such as its average selectivity processing rate or output size is characteristic of an anomaly lineage can reflect such changes in actor behavior over time and across different actor instances thus mining lineage to identify such changes can be useful in debugging faulty actors in a dataflow
+
+the second problem i e the existence of outliers can also be identified by running the dataflow step wise and looking at the transformed outputs the data scientist finds a subset of outputs that are not in accordance with the rest of outputs the inputs which are causing these bad outputs are outliers in the data this problem can be solved by removing the set of outliers from the data and replaying the entire dataflow it can also be solved by modifying the machine learning algorithm by adding removing or moving actors in the dataflow the changes in the dataflow are successful if the replayed dataflow does not produce bad outputs
+
+although the utilization of data lineage methodologies represents a novel approach to the debugging of big data pipelines the process is not straightforward a number of challenges must be addressed including the scalability of the lineage store the fault tolerance of the lineage store the accurate capture of lineage for black box operators and numerous other considerations these challenges must be carefully evaluated in order to develop a realistic design for data lineage capture taking into account the inherent trade offs between them
+
+disc systems are primarily batch processing systems designed for high throughput they execute several jobs per analytics with several tasks per job the overall number of operators executing at any time in a cluster can range from hundreds to thousands depending on the cluster size lineage capture for these systems must be able scale to both large volumes of data and numerous operators to avoid being a bottleneck for the disc analytics
+
+lineage capture systems must also be fault tolerant to avoid rerunning data flows to capture lineage at the same time they must also accommodate failures in the disc system to do so they must be able to identify a failed disc task and avoid storing duplicate copies of lineage between the partial lineage generated by the failed task and duplicate lineage produced by the restarted task a lineage system should also be able to gracefully handle multiple instances of local lineage systems going down this can be achieved by storing replicas of lineage associations in multiple machines the replica can act like a backup in the event of the real copy being lost
+
+lineage systems for disc dataflows must be able to capture accurate lineage across black box operators to enable fine grain debugging current approaches to this include prober which seeks to find the minimal set of inputs that can produce a specified output for a black box operator by replaying the dataflow several times to deduce the minimal set and dynamic slicing to capture lineage for nosql operators through binary rewriting to compute dynamic slices although producing highly accurate lineage such techniques can incur significant time overheads for capture or tracing and it may be preferable to instead trade some accuracy for better performance thus there is a need for a lineage collection system for disc dataflows that can capture lineage from arbitrary operators with reasonable accuracy and without significant overheads in capture or tracing
+
+tracing is essential for debugging during which a user can issue multiple tracing queries thus it is important that tracing has fast turnaround times ikeda et al can perform efficient backward tracing queries for mapreduce dataflows but are not generic to different disc systems and do not perform efficient forward queries lipstick a lineage system for pig while able to perform both backward and forward tracing is specific to pig and sql operators and can only perform coarse grain tracing for black box operators thus there is a need for a lineage system that enables efficient forward and backward tracing for generic disc systems and dataflows with black box operators
+
+replaying only specific inputs or portions of dataflow is crucial for efficient debugging and simulating what if scenarios ikeda et al present a methodology for a lineage based refresh which selectively replays updated inputs to recompute affected outputs this is useful during debugging for re computing outputs when a bad input has been fixed however sometimes a user may want to remove the bad input and replay the lineage of outputs previously affected by the error to produce error free outputs we call this an exclusive replay another use of replay in debugging involves replaying bad inputs for stepwise debugging called selective replay current approaches to using lineage in disc systems do not address these thus there is a need for a lineage system that can perform both exclusive and selective replays to address different debugging needs
+
+one of the primary debugging concerns in disc systems is identifying faulty operators in long dataflows with several hundreds of operators or tasks manual inspection can be tedious and prohibitive even if lineage is used to narrow the subset of operators to examine the lineage of a single output can still span several operators there is a need for an inexpensive automated debugging system which can substantially narrow the set of potentially faulty operators with reasonable accuracy to minimize the amount of manual examination required

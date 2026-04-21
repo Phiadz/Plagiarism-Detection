@@ -1,0 +1,797 @@
+description logics dl are a family of formal knowledge representation languages many dls are more expressive than propositional logic but less expressive than first order logic in contrast to the latter the core reasoning problems for dls are usually decidable and efficient decision procedures have been designed and implemented for these problems there are general spatial temporal spatiotemporal and fuzzy description logics and each description logic features a different balance between expressive power and reasoning complexity by supporting different sets of mathematical constructors
+
+dls are used in artificial intelligence to describe and reason about the relevant concepts of an application domain known as terminological knowledge it is of particular importance in providing a logical formalism for ontologies and the semantic web the web ontology language owl and its profiles are based on dls a major area of application of dls and owl is in biomedical informatics where they assist in the codification of biomedical knowledge dls and owl are also applied in other domains including defense climate modeling and large scale industrial knowledge graphs
+
+a dl models concepts roles and individuals and their relationships
+
+the fundamental modeling concept of a dl is the axiom a logical statement relating roles and or concepts this is a key difference from the frames paradigm where a frame specification declares and completely defines a class
+
+the description logic community uses different terminology than the first order logic fol community for operationally equivalent notions some examples are given below the web ontology language owl uses again a different terminology also given in the table below
+
+there are many varieties of description logics and there is an informal naming convention roughly describing the operators allowed the expressivity is encoded in the label for a logic starting with one of the following basic logics
+
+followed by any of the following extensions
+
+some canonical dls that do not exactly fit this convention are
+
+as an example
+
+
+
+
+
+a
+l
+c
+
+
+
+
+displaystyle mathcal alc
+
+is a centrally important description logic from which comparisons with other varieties can be made
+
+
+
+
+
+a
+l
+c
+
+
+
+
+displaystyle mathcal alc
+
+is simply
+
+
+
+
+
+a
+l
+
+
+
+
+displaystyle mathcal al
+
+with complement of any concept allowed not just atomic concepts
+
+
+
+
+
+a
+l
+c
+
+
+
+
+displaystyle mathcal alc
+
+is used instead of the equivalent
+
+
+
+
+
+a
+l
+u
+e
+
+
+
+
+displaystyle mathcal alue
+
+
+
+a further example the description logic
+
+
+
+
+
+s
+h
+i
+q
+
+
+
+
+displaystyle mathcal shiq
+
+is the logic
+
+
+
+
+
+a
+l
+c
+
+
+
+
+displaystyle mathcal alc
+
+plus extended cardinality restrictions and transitive and inverse roles the naming conventions aren t purely systematic so that the logic
+
+
+
+
+
+a
+l
+c
+o
+i
+n
+
+
+
+
+displaystyle mathcal alcoin
+
+might be referred to as
+
+
+
+
+
+a
+l
+c
+n
+i
+o
+
+
+
+
+displaystyle mathcal alcnio
+
+and other abbreviations are also made where possible
+
+the protégé ontology editor supports
+
+
+
+
+
+
+s
+h
+o
+i
+n
+
+
+
+
+
+d
+
+
+
+
+
+
+displaystyle mathcal shoin mathcal d
+
+three major biomedical informatics terminology bases snomed ct galen and go are expressible in
+
+
+
+
+
+e
+l
+
+
+
+
+displaystyle mathcal el
+
+with additional role properties
+
+owl 2 provides the expressiveness of
+
+
+
+
+
+
+s
+r
+o
+i
+q
+
+
+
+
+
+d
+
+
+
+
+
+
+displaystyle mathcal sroiq mathcal d
+
+owl dl is based on
+
+
+
+
+
+
+s
+h
+o
+i
+n
+
+
+
+
+
+d
+
+
+
+
+
+
+displaystyle mathcal shoin mathcal d
+
+and for owl lite it is
+
+
+
+
+
+
+s
+h
+i
+f
+
+
+
+
+
+d
+
+
+
+
+
+
+displaystyle mathcal shif mathcal d
+
+
+
+description logic was given its current name in the 1980s previous to this it was called chronologically terminological systems and concept languages
+
+frames and semantic networks lack formal logic based semantics dl was first introduced into knowledge representation kr systems to overcome this deficiency
+
+the first dl based kr system was kl one by ronald j brachman and schmolze 1985 during the 80s other dl based systems using structural subsumption algorithms were developed including krypton 1983 loom 1987 back 1988 k rep 1991 and classic 1991 this approach featured dl with limited expressiveness but relatively efficient polynomial time reasoning
+
+in the early 90s the introduction of a new tableau based algorithm paradigm allowed efficient reasoning on more expressive dl dl based systems using these algorithms such as kris 1991 show acceptable reasoning performance on typical inference problems even though the worst case complexity is no longer polynomial
+
+from the mid 90s reasoners were created with good practical performance on very expressive dl with high worst case complexity examples from this period include fact racer 2001 cel 2005 and kaon 2 2005
+
+dl reasoners such as fact fact racer dlp and pellet implement the method of analytic tableaux kaon2 is implemented by algorithms which reduce a shiq d knowledge base to a disjunctive datalog program
+
+the darpa agent markup language daml and ontology inference layer oil ontology languages for the semantic web can be viewed as
+syntactic variants of dl in particular the formal semantics and reasoning in oil use the
+
+
+
+
+
+s
+h
+i
+q
+
+
+
+
+displaystyle mathcal shiq
+
+dl the daml oil dl was developed as a submission to and formed the starting point of the world wide web consortium w3c web ontology working group in 2004 the web ontology working group completed its work by issuing the owl recommendation the design of owl is based on the
+
+
+
+
+
+s
+h
+
+
+
+
+displaystyle mathcal sh
+
+family of dl with owl dl and owl lite based on
+
+
+
+
+
+
+s
+h
+o
+i
+n
+
+
+
+
+
+d
+
+
+
+
+
+
+displaystyle mathcal shoin mathcal d
+
+and
+
+
+
+
+
+
+s
+h
+i
+f
+
+
+
+
+
+d
+
+
+
+
+
+
+displaystyle mathcal shif mathcal d
+
+respectively
+
+the w3c owl working group began work in 2007 on a refinement of and extension to owl in 2009 this was completed by the issuance of the owl2 recommendation owl2 is based on the description logic
+
+
+
+
+
+
+s
+r
+o
+i
+q
+
+
+
+
+
+d
+
+
+
+
+
+
+displaystyle mathcal sroiq mathcal d
+
+practical experience demonstrated that owl dl lacked several key features necessary to model complex domains
+
+in dl a distinction is drawn between the so called tbox terminological box and the abox assertional box in general the tbox contains sentences describing concept hierarchies i e relations between concepts while the abox contains ground sentences stating where in the hierarchy individuals belong i e relations between individuals and concepts for example the statement
+
+belongs in the tbox while the statement
+
+belongs in the abox
+
+note that the tbox abox distinction is not significant in the same sense that the two kinds of sentences are not treated differently in first order logic which subsumes most dl when translated into first order logic a subsumption axiom like 1 is simply a conditional restriction to unary predicates concepts with only variables appearing in it clearly a sentence of this form is not privileged or special over sentences in which only constants grounded values appear like 2
+
+so why was the distinction introduced the primary reason is that the separation can be useful when describing and formulating decision procedures for various dl for example a reasoner might process the tbox and abox separately in part because certain key inference problems are tied to one but not the other one classification is related to the tbox instance checking to the abox another example is that the complexity of the tbox can greatly affect the performance of a given decision procedure for a certain dl independently of the abox thus it is useful to have a way to talk about that specific part of the knowledge base
+
+the secondary reason is that the distinction can make sense from the knowledge base modeler s perspective it is plausible to distinguish between our conception of terms concepts in the world class axioms in the tbox and particular manifestations of those terms concepts instance assertions in the abox in the above example when the hierarchy within a company is the same in every branch but the assignment to employees is different in every department because there are other people working there it makes sense to reuse the tbox for different branches that do not use the same abox
+
+there are two features of description logic that are not shared by most other data description formalisms dl does not make the unique name assumption una or the closed world assumption cwa not having una means that two concepts with different names may be allowed by some inference to be shown to be equivalent not having cwa or rather having the open world assumption owa means that lack of knowledge of a fact does not immediately imply knowledge of the negation of a fact
+
+like first order logic fol a syntax defines which collections of symbols are legal expressions in a description logic and semantics determine meaning unlike fol a dl may have several well known syntactic variants
+
+the syntax of a member of the description logic family is characterized by its recursive definition in which the constructors that can be used to form concept terms are stated some constructors are related to logical constructors in first order logic fol such as intersection or conjunction of concepts union or disjunction of concepts negation or complement of concepts universal restriction and existential restriction other constructors have no corresponding construction in fol including restrictions on roles for example inverse transitivity and functionality
+
+let c and d be concepts a and b be individuals and r be a role
+
+if a is r related to b then b is called an r successor of a
+
+the prototypical dl attributive concept language with complements
+
+
+
+
+
+a
+l
+c
+
+
+
+
+displaystyle mathcal alc
+
+was introduced by manfred schmidt schauß and gert smolka in 1991 and is the basis of many more expressive dls the following definitions follow the treatment in baader et al
+
+let
+
+
+
+
+n
+
+c
+
+
+
+
+displaystyle n_ c
+
+
+
+
+
+
+n
+
+r
+
+
+
+
+displaystyle n_ r
+
+and
+
+
+
+
+n
+
+o
+
+
+
+
+displaystyle n_ o
+
+be respectively sets of concept names also known as atomic concepts role names and individual names also known as individuals nominals or objects then the ordered triple
+
+
+
+
+n
+
+c
+
+
+
+
+displaystyle n_ c
+
+
+
+
+
+
+n
+
+r
+
+
+
+
+displaystyle n_ r
+
+
+
+
+
+
+n
+
+o
+
+
+
+
+displaystyle n_ o
+
+is the signature
+
+the set of
+
+
+
+
+
+a
+l
+c
+
+
+
+
+displaystyle mathcal alc
+
+concepts is the smallest set such that
+
+a general concept inclusion gci has the form
+
+
+
+c
+
+d
+
+
+displaystyle c sqsubseteq d
+
+where
+
+
+
+c
+
+
+displaystyle c
+
+and
+
+
+
+d
+
+
+displaystyle d
+
+are concepts write
+
+
+
+c
+
+d
+
+
+displaystyle c equiv d
+
+when
+
+
+
+c
+
+d
+
+
+displaystyle c sqsubseteq d
+
+and
+
+
+
+d
+
+c
+
+
+displaystyle d sqsubseteq c
+
+a tbox is any finite set of gcis
+
+
+
+an abox is a finite set of assertional axioms
+
+a knowledge base kb is an ordered pair
+
+
+
+
+
+
+t
+
+
+
+
+
+a
+
+
+
+
+
+displaystyle mathcal t mathcal a
+
+for tbox
+
+
+
+
+
+t
+
+
+
+
+displaystyle mathcal t
+
+and abox
+
+
+
+
+
+a
+
+
+
+
+displaystyle mathcal a
+
+
+
+the semantics of description logics are defined by interpreting concepts as sets of individuals and roles as sets of ordered pairs of individuals those individuals are typically assumed from a given domain the semantics of non atomic concepts and roles is then defined in terms of atomic concepts and roles this is done by using a recursive definition similar to the syntax
+
+the following definitions follow the treatment in baader et al
+
+a terminological interpretation
+
+
+
+
+
+i
+
+
+
+
+
+δ
+
+
+i
+
+
+
+
+
+
+
+
+i
+
+
+
+
+
+
+displaystyle mathcal i delta mathcal i cdot mathcal i
+
+over a signature
+
+
+
+
+
+n
+
+c
+
+
+
+
+n
+
+r
+
+
+
+
+n
+
+o
+
+
+
+
+
+displaystyle n_ c n_ r n_ o
+
+consists of
+
+such that
+
+define
+
+
+
+
+
+i
+
+
+
+
+
+displaystyle mathcal i models
+
+read in i holds as follows
+
+let
+
+
+
+
+
+k
+
+
+
+
+
+
+t
+
+
+
+
+
+a
+
+
+
+
+
+displaystyle mathcal k mathcal t mathcal a
+
+be a knowledge base
+
+in addition to the ability to describe concepts formally one also would like to employ the description of a set of concepts to ask questions about the concepts and instances described the most common decision problems are basic database query like questions like instance checking is a particular instance member of an abox a member of a given concept and relation checking does a relation role hold between two instances in other words does a have property b and the more global database questions like subsumption is a concept a subset of another concept and concept consistency is there no contradiction among the definitions or chain of definitions the more operators one includes in a logic and the more complicated the tbox having cycles allowing non atomic concepts to include each other usually the higher the computational complexity is for each of these problems see description logic complexity navigator for examples
+
+many dls are decidable fragments of first order logic fol and are usually fragments of two variable logic or guarded logic in addition some dls have features that are not covered in fol this includes concrete domains such as integer or strings which can be used as ranges for roles such as hasage or hasname or an operator on roles for the transitive closure of that role
+
+fuzzy description logics combines fuzzy logic with dls since many concepts that are needed for intelligent systems lack well defined boundaries or precisely defined criteria of membership fuzzy logic is needed to deal with notions of vagueness and imprecision this offers a motivation for a generalization of description logic towards dealing with imprecise and vague concepts
+
+description logic is related to but developed independently of modal logic ml many but not all dls are syntactic variants of ml
+
+in general an object corresponds to a possible world a concept corresponds to a modal proposition and a role bounded quantifier to a modal operator with that role as its accessibility relation
+
+operations on roles such as composition inversion etc correspond to the modal operations used in dynamic logic
+
+temporal description logic represents and allows reasoning about time dependent concepts and many different approaches to this problem exist for example a description logic might be combined with a modal temporal logic such as linear temporal logic
+
+there are some semantic reasoners that deal with owl and dl these are some of the most popular

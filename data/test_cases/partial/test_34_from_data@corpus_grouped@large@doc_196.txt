@@ -1,0 +1,3 @@
+d readings at a specific instant the agent uses these percepts and potentially its history of percepts to decide on its next action e g accelerate brake turn
+
+the agent function often de

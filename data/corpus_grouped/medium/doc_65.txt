@@ -1,0 +1,946 @@
+in machine learning supervised learning sl is a type of machine learning paradigm where an algorithm learns to map input data to a specific output based on example input output pairs this process involves training a statistical model using labeled data meaning each piece of input data is provided with the correct output the term supervised refers to the role of a teacher or supervisor who provides this training data guiding the algorithm towards correct predictions for instance if you want a model to identify cats in images supervised learning would involve feeding it many images of cats inputs that are explicitly labeled cat outputs
+
+the goal of supervised learning is for the trained model to accurately predict the output for new unseen data this requires the algorithm to effectively generalize from the training examples a quality measured by its generalization error supervised learning is commonly used for tasks like classification predicting a category e g spam or not spam and regression predicting a continuous value e g house prices
+
+to solve a given problem of supervised learning the following steps must be performed
+
+a wide range of supervised learning algorithms are available each with its strengths and weaknesses there is no single learning algorithm that works best on all supervised learning problems see the no free lunch theorem
+
+there are four major issues to consider in supervised learning
+
+a first issue is the tradeoff between bias and variance imagine that we have available several different but equally good training data sets a learning algorithm is biased for a particular input
+
+
+
+x
+
+
+displaystyle x
+
+if when trained on each of these data sets it is systematically incorrect when predicting the correct output for
+
+
+
+x
+
+
+displaystyle x
+
+a learning algorithm has high variance for a particular input
+
+
+
+x
+
+
+displaystyle x
+
+if it predicts different output values when trained on different training sets the prediction error of a learned classifier is related to the sum of the bias and the variance of the learning algorithm generally there is a tradeoff between bias and variance a learning algorithm with low bias must be flexible so that it can fit the data well but if the learning algorithm is too flexible it will fit each training data set differently and hence have high variance a key aspect of many supervised learning methods is that they are able to adjust this tradeoff between bias and variance either automatically or by providing a bias variance parameter that the user can adjust
+
+the second issue is of the amount of training data available relative to the complexity of the true function classifier or regression function if the true function is simple then an inflexible learning algorithm with high bias and low variance will be able to learn it from a small amount of data but if the true function is highly complex e g because it involves complex interactions among many different input features and behaves differently in different parts of the input space then the function will only be able to learn with a large amount of training data paired with a flexible learning algorithm with low bias and high variance
+
+a third issue is the dimensionality of the input space if the input feature vectors have large dimensions learning the function can be difficult even if the true function only depends on a small number of those features this is because the many extra dimensions can confuse the learning algorithm and cause it to have high variance hence input data of large dimensions typically requires tuning the classifier to have low variance and high bias in practice if the engineer can manually remove irrelevant features from the input data it will likely improve the accuracy of the learned function in addition there are many algorithms for feature selection that seek to identify the relevant features and discard the irrelevant ones this is an instance of the more general strategy of dimensionality reduction which seeks to map the input data into a lower dimensional space prior to running the supervised learning algorithm
+
+a fourth issue is the degree of noise in the desired output values the supervisory target variables if the desired output values are often incorrect because of human error or sensor errors then the learning algorithm should not attempt to find a function that exactly matches the training examples attempting to fit the data too carefully leads to overfitting you can overfit even when there are no measurement errors stochastic noise if the function you are trying to learn is too complex for your learning model in such a situation the part of the target function that cannot be modeled corrupts your training data this phenomenon has been called deterministic noise when either type of noise is present it is better to go with a higher bias lower variance estimator
+
+in practice there are several approaches to alleviate noise in the output values such as early stopping to prevent overfitting as well as detecting and removing the noisy training examples prior to training the supervised learning algorithm there are several algorithms that identify noisy training examples and removing the suspected noisy training examples prior to training has decreased generalization error with statistical significance
+
+other factors to consider when choosing and applying a learning algorithm include the following
+
+when considering a new application the engineer can compare multiple learning algorithms and experimentally determine which one works best on the problem at hand see cross validation tuning the performance of a learning algorithm can be very time consuming given fixed resources it is often better to spend more time collecting additional training data and more informative features than it is to spend extra time tuning the learning algorithms
+
+the most widely used learning algorithms are
+
+given a set of
+
+
+
+n
+
+
+displaystyle n
+
+training examples of the form
+
+
+
+
+
+
+x
+
+1
+
+
+
+
+y
+
+1
+
+
+
+
+
+
+
+
+
+
+x
+
+n
+
+
+
+
+
+y
+
+n
+
+
+
+
+
+
+displaystyle x_ 1 y_ 1 x_ n y_ n
+
+such that
+
+
+
+
+x
+
+i
+
+
+
+
+displaystyle x_ i
+
+is the feature vector of the
+
+
+
+i
+
+
+displaystyle i
+
+th example and
+
+
+
+
+y
+
+i
+
+
+
+
+displaystyle y_ i
+
+is its label i e class a learning algorithm seeks a function
+
+
+
+g
+
+x
+
+y
+
+
+displaystyle g x to y
+
+where
+
+
+
+x
+
+
+displaystyle x
+
+is the input space and
+
+
+
+y
+
+
+displaystyle y
+
+is the output space the function
+
+
+
+g
+
+
+displaystyle g
+
+is an element of some space of possible functions
+
+
+
+g
+
+
+displaystyle g
+
+usually called the hypothesis space it is sometimes convenient to represent
+
+
+
+g
+
+
+displaystyle g
+
+using a scoring function
+
+
+
+f
+
+x
+
+y
+
+
+r
+
+
+
+displaystyle f x times y to mathbb r
+
+such that
+
+
+
+g
+
+
+displaystyle g
+
+is defined as returning the
+
+
+
+y
+
+
+displaystyle y
+
+value that gives the highest score
+
+
+
+g
+
+x
+
+
+
+
+
+arg
+
+max
+
+y
+
+
+
+f
+
+x
+
+y
+
+
+
+displaystyle g x underset y arg max f x y
+
+let
+
+
+
+f
+
+
+displaystyle f
+
+denote the space of scoring functions
+
+although
+
+
+
+g
+
+
+displaystyle g
+
+and
+
+
+
+f
+
+
+displaystyle f
+
+can be any space of functions many learning algorithms are probabilistic models where
+
+
+
+g
+
+
+displaystyle g
+
+takes the form of a conditional probability model
+
+
+
+g
+
+x
+
+
+
+
+
+arg
+
+max
+
+y
+
+
+
+p
+
+y
+
+
+
+x
+
+
+
+displaystyle g x underset y arg max p y x
+
+or
+
+
+
+f
+
+
+displaystyle f
+
+takes the form of a joint probability model
+
+
+
+f
+
+x
+
+y
+
+
+p
+
+x
+
+y
+
+
+
+displaystyle f x y p x y
+
+for example naive bayes and linear discriminant analysis are joint probability models whereas logistic regression is a conditional probability model
+
+there are two basic approaches to choosing
+
+
+
+f
+
+
+displaystyle f
+
+or
+
+
+
+g
+
+
+displaystyle g
+
+empirical risk minimization and structural risk minimization empirical risk minimization seeks the function that best fits the training data structural risk minimization includes a penalty function that controls the bias variance tradeoff
+
+in both cases it is assumed that the training set consists of a sample of independent and identically distributed pairs
+
+
+
+
+
+x
+
+i
+
+
+
+
+
+y
+
+i
+
+
+
+
+
+displaystyle x_ i y_ i
+
+in order to measure how well a function fits the training data a loss function
+
+
+
+l
+
+y
+
+y
+
+
+
+r
+
+
+
+0
+
+
+
+
+displaystyle l y times y to mathbb r geq 0
+
+is defined for training example
+
+
+
+
+
+x
+
+i
+
+
+
+
+
+y
+
+i
+
+
+
+
+
+displaystyle x_ i y_ i
+
+the loss of predicting the value
+
+
+
+
+
+
+y
+
+
+
+
+
+
+displaystyle hat y
+
+is
+
+
+
+l
+
+
+y
+
+i
+
+
+
+
+
+
+y
+
+
+
+
+
+
+
+displaystyle l y_ i hat y
+
+
+
+the risk
+
+
+
+r
+
+g
+
+
+
+displaystyle r g
+
+of function
+
+
+
+g
+
+
+displaystyle g
+
+is defined as the expected loss of
+
+
+
+g
+
+
+displaystyle g
+
+this can be estimated from the training data as
+
+in empirical risk minimization the supervised learning algorithm seeks the function
+
+
+
+g
+
+
+displaystyle g
+
+that minimizes
+
+
+
+r
+
+g
+
+
+
+displaystyle r g
+
+hence a supervised learning algorithm can be constructed by applying an optimization algorithm to find
+
+
+
+g
+
+
+displaystyle g
+
+
+
+when
+
+
+
+g
+
+
+displaystyle g
+
+is a conditional probability distribution
+
+
+
+p
+
+y
+
+
+
+x
+
+
+
+displaystyle p y x
+
+and the loss function is the negative log likelihood
+
+
+
+l
+
+y
+
+
+
+
+y
+
+
+
+
+
+
+
+log
+
+p
+
+y
+
+
+
+x
+
+
+
+displaystyle l y hat y log p y x
+
+then empirical risk minimization is equivalent to maximum likelihood estimation
+
+when
+
+
+
+g
+
+
+displaystyle g
+
+contains many candidate functions or the training set is not sufficiently large empirical risk minimization leads to high variance and poor generalization the learning algorithm is able to memorize the training examples without generalizing well overfitting
+
+structural risk minimization seeks to prevent overfitting by incorporating a regularization penalty into the optimization the regularization penalty can be viewed as implementing a form of occam s razor that prefers simpler functions over more complex ones
+
+a wide variety of penalties have been employed that correspond to different definitions of complexity for example consider the case where the function
+
+
+
+g
+
+
+displaystyle g
+
+is a linear function of the form
+
+a popular regularization penalty is
+
+
+
+
+
+
+j
+
+
+
+β
+
+j
+
+
+2
+
+
+
+
+displaystyle sum _ j beta _ j 2
+
+which is the squared euclidean norm of the weights also known as the
+
+
+
+
+l
+
+2
+
+
+
+
+displaystyle l_ 2
+
+norm other norms include the
+
+
+
+
+l
+
+1
+
+
+
+
+displaystyle l_ 1
+
+norm
+
+
+
+
+
+
+j
+
+
+
+
+
+
+β
+
+j
+
+
+
+
+
+
+
+displaystyle sum _ j beta _ j
+
+and the
+
+
+
+
+l
+
+0
+
+
+
+
+displaystyle l_ 0
+
+norm which is the number of non zero
+
+
+
+
+β
+
+j
+
+
+
+
+displaystyle beta _ j
+
+s the penalty will be denoted by
+
+
+
+c
+
+g
+
+
+
+displaystyle c g
+
+
+
+the supervised learning optimization problem is to find the function
+
+
+
+g
+
+
+displaystyle g
+
+that minimizes
+
+the parameter
+
+
+
+λ
+
+
+displaystyle lambda
+
+controls the bias variance tradeoff when
+
+
+
+λ
+
+0
+
+
+displaystyle lambda 0
+
+this gives empirical risk minimization with low bias and high variance when
+
+
+
+λ
+
+
+displaystyle lambda
+
+is large the learning algorithm will have high bias and low variance the value of
+
+
+
+λ
+
+
+displaystyle lambda
+
+can be chosen empirically via cross validation
+
+the complexity penalty has a bayesian interpretation as the negative log prior probability of
+
+
+
+g
+
+
+displaystyle g
+
+
+
+
+
+
+log
+
+p
+
+g
+
+
+
+displaystyle log p g
+
+in which case
+
+
+
+j
+
+g
+
+
+
+displaystyle j g
+
+is the posterior probability of
+
+
+
+g
+
+
+displaystyle g
+
+
+
+the training methods described above are discriminative training methods because they seek to find a function
+
+
+
+g
+
+
+displaystyle g
+
+that discriminates well between the different output values see discriminative model for the special case where
+
+
+
+f
+
+x
+
+y
+
+
+p
+
+x
+
+y
+
+
+
+displaystyle f x y p x y
+
+is a joint probability distribution and the loss function is the negative log likelihood
+
+
+
+
+
+
+
+i
+
+
+log
+
+p
+
+
+x
+
+i
+
+
+
+
+y
+
+i
+
+
+
+
+
+
+displaystyle sum _ i log p x_ i y_ i
+
+a risk minimization algorithm is said to perform generative training because
+
+
+
+f
+
+
+displaystyle f
+
+can be regarded as a generative model that explains how the data were generated generative training algorithms are often simpler and more computationally efficient than discriminative training algorithms in some cases the solution can be computed in closed form as in naive bayes and linear discriminant analysis
+
+there are several ways in which the standard supervised learning problem can be generalized

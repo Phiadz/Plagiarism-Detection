@@ -1,0 +1,27 @@
+
+
+rodney allen brooks born 30 december 1954 is an australian roboticist and fellow of the australian academy of science who popularized the actionist approach to robotics he was a panasonic professor of robotics at the massachusetts institute of technology and former director of the mit computer science and artificial intelligence laboratory he is a founder and former chief technical officer of irobot and co founder chairman and chief technical officer of rethink robotics formerly heartland robotics and is the co founder and chief technical officer of robust ai founded in 2019
+
+brooks received an m a in pure mathematics from flinders university of south australia in 1981 he received a phd in computer science from stanford university under the supervision of thomas binford he has held research positions at carnegie mellon university and mit and a faculty position at stanford university he joined the mit faculty in 1984 he was panasonic professor of robotics at the massachusetts institute of technology he was director of the mit computer science and artificial intelligence laboratory 1997 2007 previously the artificial intelligence laboratory
+
+in 1997 brooks and his work were featured in the film fast cheap out of control
+
+brooks became a member of the national academy of engineering in 2004 for contributions to the foundations and applications of robotics including establishing consumer and hazardous environment robotics industries
+
+instead of computation as the ultimate conceptual metaphor that helped artificial intelligence become a separate discipline in the scientific community he proposed that action or behavior is more appropriate to be used in robotics critical of applying the computational metaphor even to the fields where the action metaphor is more relevant he wrote in 2008 that
+
+some of my colleagues have managed to recast pluto s orbital behavior as the body itself carrying out computations on forces that apply to it i think we are perhaps better off using newtonian mechanics with a little einstein thrown in to understand and predict the orbits of planets and others it is so much simpler
+in his 1990 paper elephants don t play chess brooks argued that for robots to accomplish everyday tasks in an environment shared by humans their higher cognitive abilities including abstract thinking emulated by symbolic reasoning need to be based on the primarily sensory motor coupling action with the environment complemented by the proprioceptive sense which is a critical component in hand eye coordination pointing out that
+
+over time there s been a realization that vision sound processing and early language are maybe the keys to how our brain is organized
+brooks was an entrepreneur before leaving academia to found rethink robotics he was one of ten founders of lucid inc and worked with them until the company s closure in 1993 citation needed before lucid closed brooks had founded irobot with former students colin angle and helen greiner
+
+he experimented with off the shelf components such as fischertechnik and lego and tried to make robots self replicate by putting together clones of themselves using the components his robots include mini robots used in oil wells explorations without cables the robots that searched for survivors at ground zero in new york and the robots used in medicine doing robotic surgery
+
+in the late 1980s brooks and his team introduced allen a robot using subsumption architecture as of 2012 update brooks work focused on engineering intelligent robots to operate in unstructured environments and understanding human intelligence through building humanoid robots citation needed
+
+introduced in 2012 by rethink robotics an industrial robot named baxter was intended as the robotic analogue of the early personal computer designed to safely interact with neighbouring human workers and be programmable for the performance of simple tasks the robot stops if it encounters a human in the way of its robotic arm and has a prominent off switch that its human partner can push if necessary costs were projected to be the equivalent of a worker making 4 an hour
+
+in 2024 robust ai introduced carter a mobile robot
+
+in june 2024 brooks said that humans overestimate generative artificial intelligence s abilities

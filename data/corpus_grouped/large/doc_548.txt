@@ -1,0 +1,192 @@
+
+
+vehicular automation is using technology to assist or replace the operator of a vehicle such as a car truck aircraft rocket military vehicle or boat assisted vehicles are semi autonomous whereas vehicles that can travel without a human operator are autonomous the degree of autonomy may be subject to various constraints such as conditions autonomy is enabled by advanced driver assistance systems adas of varying capacity
+
+related technology includes advanced software maps vehicle changes and outside vehicle support the benefits of viewing automated driving from a sociotechnical systems perspective has been discussed
+
+autonomy presents varying issues for road air and marine travel roads present the most significant complexity given the unpredictability of the driving environment including diverse road designs driving conditions traffic obstacles and geographical cultural differences
+
+autonomy implies that the vehicle is responsible for all perception monitoring and control functions
+
+the sae classification of levels is based on the role of the driver rather than the vehicle s capabilities although these are related in the form of a driving mode aka driving scenario the mode is determined by both an operational design domain odd and a dynamic driving requirement the odd is the circumstance in which the car is driving and the driving requirement is what the system must do while remaining safe within the boundaries of that odd these two things define the sae level
+
+autonomous vehicle software generally contains several different modules that work together to enable self driving capabilities the perception module ingests and processes data from various sensors such cameras lidar radar and ultrasonic sonar to create a comprehensive understanding of the vehicle s surroundings the localization module uses 3d point cloud data gps imu and mapping information to determine the vehicle s precise position including its orientation velocity and angular rate the planning module takes inputs from both perception and localization to compute actions to take such as velocity and steering angle outputs these modules are typically supported by machine learning algorithms particularly deep neural networks which enable the vehicle to detect objects interpret traffic patterns and make real time decisions furthermore modern autonomous driving systems increasingly employ sensor fusion techniques that combine data from multiple sensors to improve accuracy and reliability in different environmental conditions
+
+the perception system is responsible for observing the environment it must identify everything that could affect the trip including other vehicles pedestrians cyclists their movements road conditions obstacles and other issues various makers use cameras radar lidar sonar and microphones that can collaboratively minimize errors
+
+navigation systems are a necessary element in autonomous vehicles the global positioning system gps is used for navigation by air water and land vehicles particularly for off road navigation
+
+for road vehicles two approaches are prominent one is to use maps that hold data about lanes and intersections relying on the vehicle s perception system to fill in the details the other is to use highly detailed maps that reduce the scope of real time decision making but require significant maintenance as the environment evolves some systems crowdsource their map updates using the vehicles themselves to update the map to reflect changes such as construction or traffic used by the entire vehicle fleet
+
+another potential source of information is the environment itself traffic data may be supplied by roadside monitoring systems and used to route vehicles to best use a limited road system additionally modern gnss enhancement technologies such as real time kinematic rtk and precise point positioning ppp enhance the accuracy of vehicle positioning to sub meter level precision which is crucial for autonomous navigation and decision making
+
+the stanford cart created by hans moravec in the late 1970s while he was a graduate student was the first experimental autonomous vehicle it was a precursor to both nasa s moon and mars lander projects as it was known at the time that radio signal lag times would have made anything other than autonomous control impractical the box rested on 4 bicycle wheels and had a camera battery and a radio antenna connecting it wirelessly to a remote computer it could also be steered remotely morovic was able to get the cart to navigate around large obstacles in a 100 foot long room albeit it would take 5 hours as the cart would frequently stop as the computer processed images which it analyzed and then responded with navigation instructions
+
+approximately 20 years later the robotics lab at carnegie mellon university developed alvinn autonomous land vehicle in a neural network a vehicle with 3 onboard sun microsystems computers that using a camera and a laser range finder could slowly drive itself down a road by monitoring the white divider line
+
+automated vehicles in european union legislation refer specifically to road vehicles car truck or bus for those vehicles a specific difference is legally defined between advanced driver assistance system and autonomous automated vehicles based on liability differences
+
+aaa foundation for traffic safety tested two automatic emergency braking systems some designed to prevent crashes and others that aim to make a crash less severe the test looked at popular models like the 2016 volvo xc90 subaru legacy lincoln mkx honda civic and volkswagen passat researchers tested how well each system stopped when approaching moving and nonmoving targets it found that systems capable of preventing crashes reduced vehicle speeds by twice that of the systems designed to mitigate crash severity when the two test vehicles traveled within 30 mph of each other even those designed to lessen crash severity avoided crashes 60 percent of the time
+
+the safe road trains for the environment sartre project s goal was to enable platooning in which a line of cars and trucks a train follow a human driven vehicle trains were predicted to provide comfort and allow the following vehicles to travel safely to a destination human drivers encountering a train could join and delegate driving to the human driver
+
+self driving uber vehicles were tested in pittsburgh pennsylvania the tests were paused after an autonomous car killed a woman in arizona automated busses have been tested in california in san diego california an automated bus test used magnetic markers the longitudinal control of automated truck platoons used millimeter wave radio and radar waymo and tesla have conducted tests tesla fsd allows drivers to enter a destination and let the car take over
+
+ford offers blue cruise technology that allows geofenced cars to drive autonomously
+
+drivers are directed to stay attentive and safety warnings are implemented to alert the driver when corrective action is needed tesla incorporated has one recorded incident that resulted in a fatality involving the automated driving system in the tesla model s the accident report reveals the accident was a result of the driver being inattentive and the autopilot system not recognizing the obstruction ahead tesla has also had multiple instances where the vehicle crashed into a garage door according to the book the driver in the driverless car how your technology choices create the future tesla automatically performs an update overnight the morning after the update the driver used his app to summon his car and it crashed into his garage door
+
+another flaw with automated driving systems is that unpredictable events such as weather or the driving behavior of others may cause fatal accidents due to sensors that monitor the surroundings of the vehicle not being able to provide corrective action
+
+to overcome some of the challenges for automated driving systems novel methodologies based on virtual testing traffic flow simulation and digital prototypes have been proposed especially when novel algorithms based on artificial intelligence approaches are employed which require extensive training and validation data sets
+
+implementing automated driving systems poses the possibility of changing built environments in urban areas such as expanding the suburban regions due to the increased ease of mobility
+
+around 2015 several self driving car companies including nissan and toyota promised self driving cars by 2020 however the predictions turned out to be far too optimistic
+
+there are still many obstacles in developing fully autonomous level 5 vehicles which is the ability to operate in any conditions currently companies are focused on level 4 automation which is able to operate under certain environmental circumstances
+
+there is still debate about what an autonomous vehicle should look like for example whether to incorporate lidar to autonomous driving systems is still being argued some researchers have come up with algorithms using camera only data that achieve the performance that rival those of lidar on the other hand camera only data sometimes draw inaccurate bounding boxes and thus lead to poor predictions this is due to the nature of superficial information that stereo cameras provide whereas incorporating lidar gives autonomous vehicles precise distance to each point on the vehicle
+
+these features require numerous sensors many of which rely on micro electro mechanical systems mems to maintain a small size high efficiency and low cost foremost among mems sensors in vehicles are accelerometers and gyroscopes to measure acceleration around multiple orthogonal axes critical to detecting and controlling the vehicle s motion
+
+one critical step to achieve the implementation of autonomous vehicles is the acceptance by the general public it provides guidelines for the automobile industry to improve their design and technology studies have shown that many people believe that using autonomous vehicles is safer which underlines the necessity for the automobile companies to assure that autonomous vehicles improve safety benefits the tam research model breaks down important factors that affect the consumer s acceptance into usefulness ease to use trust and social influence
+
+real time testing of autonomous vehicles is an inevitable part of the process at the same time vehicular automation regulators are faced with challenges to protect public safety and yet allow autonomous vehicle companies to test their products groups representing autonomous vehicle companies are resisting most regulations whereas groups representing vulnerable road users and traffic safety are pushing for regulatory barriers to improve traffic safety the regulators are encouraged to find a middle ground that protects the public from immature technology while allowing autonomous vehicle companies to test the implementation of their systems regulators face daunting challenges such as jurisdictional ambiguities the rapid obsolescence of current technologies and the lack of future looking cost benefit data to support regulatory development there have also been proposals to adopt the aviation automation safety regulatory knowledge into the discussions of safe implementation of autonomous vehicles due to the experience that has been gained over the decades by the aviation sector on safety topics
+
+in some countries specific laws and regulations apply to road traffic motor vehicles such as cars bus and trucks while other laws and regulations apply to other ground vehicles such as tram train or automated guided vehicles making them to operate in different environments and conditions
+
+an automated driving system is defined in a proposed amendment to article 1 of the vienna convention on road traffic
+
+ab automated driving system refers to a vehicle system that uses both hardware and
+software to exercise dynamic control of a vehicle on a sustained basis
+ac dynamic control refers to carrying out all the real time operational and tactical functions required to move the vehicle this includes controlling the vehicle s lateral and longitudinal motion monitoring the road environment responding to events in the road traffic environment and planning and signalling for manoeuvres
+this amendment will enter into force on 14 july 2022 unless it is rejected before 13 january 2022
+
+an automated driving feature must be described sufficiently clearly so that it is distinguished from an assisted driving feature
+smmt
+there are two clear states a vehicle is either assisted with a driver being supported by technology or automated where the technology is effectively and safely replacing the driver
+smmt
+ground vehicles employing automation and teleoperation include shipyard gantries mining trucks bomb disposal robots robotic insects and driverless tractors
+
+there are many autonomous and semi autonomous ground vehicles being made for the purpose of transporting passengers one such example is the free ranging on grid frog technology which consists of autonomous vehicles a magnetic track and a supervisory system the frog system is deployed for industrial purposes in factory sites and has been in use since 1999 on the parkshuttle a prt style public transport system in the city of capelle aan den ijssel to connect the rivium business park with the neighboring city of rotterdam where the route terminates at the kralingse zoom metro station the system experienced a crash in 2005 that proved to be caused by a human error
+
+applications for automation in ground vehicles include the following
+
+research is ongoing and prototypes of autonomous ground vehicles exist
+
+extensive automation for cars focuses on either introducing robotic cars or modifying modern car designs to be semi autonomous
+
+semi autonomous designs could be implemented sooner as they rely less on technology that is still at the forefront of research an example is the dual mode monorail groups such as ruf denmark and tritrack usa are working on projects consisting of specialized private cars that are driven manually on normal roads but also that dock onto a monorail guideway along which they are driven autonomously
+
+as a method of automating cars without extensively modifying the cars as much as a robotic car automated highway systems ahs aims to construct lanes on highways that would be equipped with for example magnets to guide the vehicles automation vehicles have auto brakes named as auto vehicles braking system avbs highway computers would manage the traffic and direct the cars to avoid crashes
+
+in 2006 the european commission has established a smart car development program called the intelligent car flagship initiative the goals of that program include
+
+there are further uses for automation in relation to cars these include
+
+singapore also announced a set of provisional national standards on january 31 2019 to guide the autonomous vehicle industry the standards known as technical reference 68 tr68 will promote the safe deployment of fully driverless vehicles in singapore according to a joint press release by enterprise singapore esg land transport authority lta standards development organisation and singapore standards council ssc
+
+since 1999 the 12 seat 10 standing parkshuttle has been operating on an 1 8 kilometres 1 1 mi exclusive right of way in the city of capelle aan den ijssel in the netherlands the system uses small magnets in the road surface to allow the vehicle to determine its position the use of shared autonomous vehicles was trialed around 2012 in a hospital car park in portugal from 2012 to 2016 the european union funded citymobil2 project examined the use of shared autonomous vehicles and passenger experience including short term trials in seven cities this project led to the development of the easymile ez10
+
+in the 2010s self driving shuttle became able to run in mixed traffic without the need for embedded guidance markers so far the focus has been on low speed 20 miles per hour 32 km h with short fixed routes for the last mile of journeys this means issues of collision avoidance and safety are significantly less challenging than those for automated cars which seek to match the performance of conventional vehicles many trials have been undertaken mainly on quiet roads with little traffic or on public pathways or private roadways and specialised test sites citation needed the capacity of different models varies significantly between 6 seats and 20 seats above this size there are conventional buses that have driverless technology installed
+
+in december 2016 the jacksonville transportation authority has announced its intention to replace the jacksonville skyway monorail with driverless vehicles that would run on the existing elevated superstructure as well as continue onto ordinary roads the project has since been named the ultimate urban circulator or u2c and testing has been carried out on shuttles from six different manufacturers the cost of the project is estimated at 379 million
+
+in january 2017 it was announced the parkshuttle system in the netherlands will be renewed and expanded including extending the route network beyond the exclusive right of way so vehicles will run in mixed traffic on ordinary roads the plans were delayed and the extension into mixed traffic was expected in 2021
+
+in july 2018 baidu stated it had built 100 of its 8 seat apolong model with plans for commercial sales as of july 2021 they had not gone into volume production
+
+in august 2020 it was reported there were 25 autonomous shuttle manufacturers including the 2getthere local motors navya baidu easymile toyota and ohmio
+
+in december 2020 toyota showcased its 20 passenger e palette vehicle which is due to be used at the 2021 tokyo olympic games toyota announced it intends to have the vehicle available for commercial applications before 2025
+
+in january 2021 navya released an investor report which predicted global autonomous shuttle sales will reach 12 600 units by 2025 with a market value of eur 1 7 billion
+
+in june 2021 chinese maker yutong claimed to have delivered 100 models of its 10 seat xiaoyu 2 0 autonomous bus for use in zhengzhou testing has been carried out in a number of cities since 2019 with trials open to the public planned for july 2021
+
+self driving shuttles are already in use on some private roads such as at the yutong factory in zhengzhou where they are used to transport workers between buildings of the world s largest bus factory
+
+in hong kong the police and other workers use driverless vehicles
+
+a large number of trials have been conducted since 2016 with most involving only one vehicle on a short route for a short period of time and with an onboard conductor the purpose of the trials has been to both provide technical data and to familiarize the public with the driverless technology a 2021 survey of over 100 shuttle experiments across europe concluded that low speed 15 20 kilometres per hour 9 3 12 4 mph was the major barrier to implementation of autonomous shuttle buses the current cost of the vehicles at 280 000 and the need for onboard attendants were also issues
+
+in march 2023 zen drive pilot became the first legally approved level 4 automatic operation device under the amended road traffic act of 2023
+
+vehicle names are in quotes
+
+autonomous buses are proposed as well as self driving cars and trucks grade 2 level automated minibusses were trialed for a few weeks in stockholm china has a small fleet of self driving public buses in the tech district of shenzhen guangdong
+
+the first autonomous bus trial in the united kingdom commenced in mid 2019 with an alexander dennis enviro200 mmc single decker bus modified with autonomous software from fusion processing able to operate in driverless mode within stagecoach manchester s sharston bus depot performing tasks such as driving to the washing station refueling point and then parking at a dedicated parking space in the depot passenger carrying driverless bus trials in scotland commenced in january 2023 with a fleet of five identical vehicles to the manchester trial used on a 14 miles 23 km stagecoach fife park and ride route across the forth road bridge from the north bank of the forth to edinburgh park station
+
+another autonomous trial in oxfordshire england which uses a battery electric fiat ducato minibus on a circular service to milton park operated by firstbus with support from fusion processing oxfordshire county council and the university of the west of england entered full passenger service also in january 2023 the trial route will be extended to didcot parkway railway station after acquiring a larger single decker by the end of 2023
+
+in july 2020 in japan aist human centered mobility research center with nippon koei and isuzu started a series of demonstration tests for mid sized buses isuzu erga mio with autonomous driving systems in five areas ōtsu city in shiga prefecture sanda city in hyōgo prefecture and other three areas in sequence
+
+in october 2023 imagry an israeli ai startup introduced its mapless autonomous driving solution at busworld europe leveraging a real time image recognition system and a spatial deep convolutional neural network dcnn to mimic human driving behavior
+
+in september 2025 trade publications described the smartbus concept in connection with depot based autonomous bus operation for manoeuvres such as parking washing and charging in coverage of autonomous systems the concept was presented at busworld europe later that year in december 2025 a smartbus pilot involving the public transport operator pkm gliwice in poland was reported
+
+modular autonomous transit is a research concept for public transit using self driving vehicles with connectable units or pods that can adjust capacity based on passenger demand studies suggest these systems could improve efficiency through dynamic routing with simulations showing reduced travel times in urban networks though no operational systems existed as of 2025
+
+the concept for autonomous vehicles has been applied for commercial uses such as autonomous or nearly autonomous trucks
+
+companies such as suncor energy a canadian energy company and rio tinto group were among the first to replace human operated trucks with driverless commercial trucks run by computers in april 2016 trucks from major manufacturers including volvo and the daimler company completed a week of autonomous driving across europe organized by the dutch in an effort to get self driving trucks on the road with developments in self driving trucks progressing u s self driving truck sales is expected to reach 60 000 by 2035 according to a report released by ihs incorporated in june 2016
+
+as reported in june 1995 in popular science magazine self driving trucks were being developed for combat convoys whereby only the lead truck would be driven by a human and the following trucks would rely on satellite an inertial guidance system and ground speed sensors caterpillar incorporated made early developments in 2013 with the robotics institute at carnegie mellon university to improve efficiency and reduce cost at various mining and construction sites
+
+in europe the safe road trains for the environment is such an approach
+
+from pwc s strategy report self driving trucks will be the source of concern around how this technology will impact around 3 million truck drivers in the us as well as 4 million employees in support of the trucking economy in gas stations restaurants bars and hotels at the same time some companies like starsky are aiming for level 3 autonomy which would see the driver playing a control role around the truck s environment the company s project remote truck driving would give truck drivers a greater work life balance enabling them to avoid long periods away from their home this would however provoke a potential mismatch between the driver s skills with the technological redefinition of the job
+
+companies that buy driverless trucks could massively cut costs human drivers would no longer be required companies liabilities due to truck accidents would diminish and productivity would increase as the driverless truck doesn t need to rest the usage of self driving trucks will go hand in hand with the use of real time data to optimize both efficiency and productivity of the service delivered as a way to tackle traffic congestion for example driverless trucks could enable new business models that would see deliveries shift from day time to night time or time slots in which traffic is less heavily dense
+
+several self balancing autonomous motorcycles were demonstrated in 2017 and 2018 from bmw honda and yamaha
+
+the concept for autonomous vehicles has also been applied for commercial uses like for autonomous trains the world s first driverless urban transit system is the port island line in kobe japan opened in 1981 the first self driving train in the uk was launched in london on the thameslink route
+
+an example of an automated train network is the docklands light railway in london
+
+also see list of automated train systems
+
+in 2018 the first autonomous trams in potsdam were trialed
+
+an automated guided vehicle or automatic guided vehicle agv is a mobile robot that follows markers or wires in the floor or uses vision magnets or lasers for navigation they are most often used in industrial applications to move materials around a manufacturing facility or warehouse application of the automatic guided vehicle had broadened during the late 20th century
+
+aircraft have received much attention for automation especially for navigation a system capable of autonomously navigating a vehicle especially aircraft is known as autopilot
+
+various industries such as packages and food have experimented with delivery drones traditional and new transportation companies are competing in the market for example ups flight forward alphabet wing and amazon prime air are all developing delivery drones zipline an american medical drone delivery company has the largest active drone delivery operations in the world and its drones are capable of level 4 autonomy
+
+however even if technology seems to allow for those solutions to function correctly as various tests of various companies show the main throwback to the market launch and use of such drones is inevitably the legislation in place and regulatory agencies have to decide on the framework they wish to take to draft regulation this process is in different phases across the world as each country will tackle the topic independently for example iceland s government and departments of transport aviation police have already started issuing licenses for drone operations it has a permissive approach and together with costa rica italy the uae sweden and norway has a fairly unrestricted legislation on commercial drone use those countries are characterized by a body of regulation that may give operational guidelines or require licensing registration and insurance
+
+on the other side other countries have decided to ban either directly outright ban or indirectly effective ban the use of commercial drones the rand corporation thus notes the difference between countries forbidding drones and those that have a formal process for commercial drone licensing but requirements are either impossible to meet or licenses do not appear to have been approved in the us united parcel service is the only delivery service with the part 135 standard certification that is required to use drones to deliver to real customers
+
+however most countries seem to be struggling on the integration of drones for commercial uses into their aviation regulatory frameworks thus constraints are placed on the use of those drones such as that they must be operating within the visual line of sight vlos of the pilot and thus limiting their potential range this would be the case of the netherlands and belgium most countries let pilots operate outside the vlos but is subject to restrictions and pilot ratings which would be the case of the us
+
+the general trend is that legislation is moving fast and laws are constantly being reevaluated countries are moving towards a more permissive approach but the industry still lacks infrastructures to ensure the success of such a transition to provide safety and efficiency specialized training courses pilot exams type of uav and flying conditions as well as liability management measures regarding insurances may need to be developed
+
+there is a sense of urgency related to this innovation as competition is high and companies lobby to integrate them rapidly in their products and services offerings since june 2017 the us senate legislation reauthorized the federal aviation administration and the department of transportation to create a carrier certificate allowing for package deliveries by drones
+
+autonomous boats can provide security perform research or conduct hazardous or repetitive tasks such as guiding a large ship into a harbor or transporting cargo
+
+sea hunter is an autonomous unmanned surface vehicle usv launched in 2016 as part of the darpa anti submarine warfare continuous trail unmanned vessel actuv program
+
+underwater vehicles have been a focus for automation for tasks such as pipeline inspection and underwater mapping
+
+this four legged robot was created to be able to navigate through many different terrain outdoors and indoors it can walk on its own without colliding into anything it uses many different sensors including 360 degree vision cameras and gyroscopes it is able to keep its balance even when pushed over this vehicle while it is not intended to be ridden can carry heavy loads for construction workers or military personnel through rough terrain
+
+the british highway code states that
+
+by self driving vehicles we mean those listed as automated vehicles by the secretary of state for transport under the automated and electric vehicles act 2018
+the highway code 27 07 2022 p 4
+the uk considers the way to update its british highway code for automated code
+
+automated vehicles can perform all the tasks involved in driving in at least some situations they differ from vehicles fitted with assisted driving features like cruise control and lane keeping assistance which carry out some tasks but where the driver is still responsible for driving if you are driving a vehicle with assisted driving features you must stay in control of the vehicle
+proposed changes to the highway code
+if the vehicle is designed to require you to resume driving after being prompted to while the vehicle is driving itself you must remain in a position to be able to take control for example you should not move out of the driving seat you should not be so distracted that you cannot take back control when prompted by the vehicle
+proposed changes to the highway code
+through the autonomy level it is shown that the higher the level of autonomy the less control humans have on their vehicles highest level of autonomy needing zero human interventions one concerns regarding the development of vehicular automation is related to the end users trust in the technology that controls automated vehicles according to a nationally conducted survey made by kelley blue book kbb in 2016 it was shown that the majority of people would choose to have a certain level of control behind their own vehicle rather than having the vehicle operate in level 5 autonomy or in other words complete autonomy according to half of the respondents the idea of safety in an autonomous vehicle diminishes as the level of autonomy increases this distrust of autonomous driving systems proved to be unchanged throughout the years when a nationwide survey conducted by aaa foundation for traffic and safety aaafts in 2019 showed the same outcome as the survey kbb did in 2016 aaafts survey showed that even though people have a certain level of trust in automated vehicles most people also have doubts and distrust towards the technology used in autonomous vehicles with most distrust in level 5 autonomous vehicles it is shown by aaafts survey that people s trust in autonomous driving systems increased when their level of understanding increased
+
+the possibility of autonomous vehicle s technology to experience malfunctions is also one of the causes of user s distrust in autonomous driving systems it is the concern that most respondents voted for in the aaafts survey even though autonomous vehicles are made to improve traffic safety by minimizing crashes and their severity they still caused fatalities at least 113 autonomous vehicle related accidents have occurred until 2018 in 2015 google declared that their automated vehicles experienced at least 272 failures and drivers had to intervene around 13 times to prevent fatalities furthermore other automated vehicles manufacturers also reported automated vehicles failures including the uber car incident a self driving uber car accident in 2018 is an example of autonomous vehicle accidents that are also listed among self driving car fatalities a report made by the national transportation safety board ntsb showed that the self driving uber car was unable to identify the victim in a sufficient amount of time for the vehicle to slow down and avoid crashing into the victim
+
+another concern related to vehicle automation is its ethical issues in reality autonomous vehicles can encounter inevitable traffic accidents in such situations many risks and calculations need to be made in order to minimize the amount of damage the accident could cause when a human driver encounters an inevitable accident the driver will take a spontaneous action based on ethical and moral logic however when a driver has no control over the vehicle level 5 autonomy the system of an autonomous vehicle needs to make that quick decision unlike humans autonomous vehicles can only make decisions based on what it is programmed to do however the situation and circumstances of accidents differ from one another and any one decision might not be the best decision for certain accidents based on two research studies in 2019 the implementation of fully automated vehicles in traffic where semi automated and non automated vehicles are still present might lead to complications some flaws that still need consideration include the structure of liability distribution of responsibilities efficiency in decision making and the performance of autonomous vehicles with its diverse surroundings still researchers steven umbrello and roman v yampolskiy propose that the value sensitive design approach is one method that can be used to design autonomous vehicles to avoid some of these ethical issues and design for human values

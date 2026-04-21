@@ -1,0 +1,191 @@
+
+
+speech recognition automatic speech recognition asr computer speech recognition or speech to text stt is a sub field of computational linguistics concerned with methods and technologies that translate spoken language into text or other interpretable forms
+
+speech recognition applications include voice user interfaces where the user speaks to a device which listens and processes the audio common voice applications include interpreting commands for calling call routing home automation and aircraft control these applications are called direct voice input productivity applications include searching audio recordings creating transcripts and dictation
+
+speech recognition can be used to analyse speaker characteristics such as identifying native language using pronunciation assessment
+
+voice recognition speaker identification refers to identifying the speaker rather than speech contents recognizing the speaker can simplify the task of translating speech in systems trained on a specific person s voice it can also be used to authenticate the speaker as part of a security process
+
+applications for speech recognition developed over many decades with progress accelerated due to advances in deep learning and the use of big data these advances are reflected in an increase in academic papers and greater system adoption
+
+key areas of growth include vocabulary size more accurate recognition for unfamiliar speakers speaker independence and faster processing speed
+
+raj reddy was the first person to work on continuous speech recognition as a graduate student at stanford university in the late 1960s previous systems required users to pause after each word reddy s system issued spoken commands for playing chess
+
+around this time soviet researchers invented the dynamic time warping dtw algorithm and used it to create a recognizer capable of operating on a 200 word vocabulary dtw processed speech by dividing it into short frames e g 10 ms segments and treating each frame as a unit speaker independence however remained unsolved
+
+during the late 1960s leonard baum developed the mathematics of markov chains at the institute for defense analysis a decade later at cmu raj reddy s students james baker and janet m baker began using the hidden markov model hmm for speech recognition james baker had learned about hmms while at the institute for defense analysis hmms enabled researchers to combine sources of knowledge such as acoustics language and syntax in a unified probabilistic model
+
+by the mid 1980s fred jelinek s team at ibm created a voice activated typewriter called tangora which could handle a 20 000 word vocabulary jelinek s statistical approach placed less emphasis on emulating human brain processes in favor of statistical modelling jelinek s group independently discovered the application of hmms to speech this was controversial among linguists since hmms are too simplistic to account for many features of human languages however the hmm proved to be a highly useful way for modelling speech and replaced dynamic time warping as the dominant speech recognition algorithm in the 1980s
+
+the 1980s also saw the introduction of the n gram language model
+
+at the end of the darpa program in 1976 the best computer available to researchers was the pdp 10 with 4 mb of ram it could take up to 100 minutes to decode 30 seconds of speech
+
+practical products included
+
+by the early 1990s the vocabulary of the typical commercial speech recognition system had exceeded the average human vocabulary reddy s former student xuedong huang developed the sphinx ii system at cmu sphinx ii was the first to do speaker independent large vocabulary continuous speech recognition and it won darpa s 1992 evaluation handling continuous speech with a large vocabulary was a major milestone huang later founded the speech recognition group at microsoft in 1993 reddy s student kai fu lee joined apple where in 1992 he helped develop the casper speech interface prototype
+
+lernout hauspie a belgium based speech recognition company acquired other companies including kurzweil applied intelligence in 1997 and dragon systems in 2000 l h was used in windows xp l h was an industry leader until an accounting scandal destroyed it in 2001 l h speech technology was bought by scansoft which became nuance in 2005 apple licensed nuance software for its digital assistant siri
+
+in the 2000s darpa sponsored two speech recognition programs effective affordable reusable speech to text ears in 2002 followed by global autonomous language exploitation gale in 2005 four teams participated in ears ibm a team led by bbn with limsi and the university of pittsburgh cambridge university and a team composed of icsi sri and the university of washington ears funded the collection of the switchboard telephone speech corpus which contained 260 hours of recorded conversations from over 500 speakers the gale program focused on arabic and mandarin broadcast news google s first effort at speech recognition came in 2007 after recruiting nuance researchers its first product goog 411 was a telephone based directory service
+
+since at least 2006 the u s national security agency has employed keyword spotting allowing analysts to index large volumes of recorded conversations and identify speech containing interesting keywords other government research programs focused on intelligence applications such as darpa s ears program and iarpa s babel program
+
+in the early 2000s speech recognition was dominated by hidden markov models combined with feed forward artificial neural networks ann later speech recognition was taken over by long short term memory lstm a recurrent neural network rnn published by sepp hochreiter jürgen schmidhuber in 1997 lstm rnns avoid the vanishing gradient problem and can learn very deep learning tasks that require memories of events that happened thousands of discrete time steps earlier which is important for speech
+
+around 2007 lstms trained with connectionist temporal classification ctc began to outperform in 2015 google reported a 49 percent error rate reduction in its speech recognition via ctc trained lstm transformers a type of neural network based solely on attention were adopted in computer vision and language modelling and then to speech recognition
+
+deep feed forward non recurrent networks for acoustic modelling were introduced in 2009 by geoffrey hinton and his students at the university of toronto and by li deng and colleagues at microsoft research in contrast to the prioer incremental improvements deep learning decreased error rates by 30
+
+both shallow and deep forms e g recurrent nets of anns had been explored since the 1980s however these methods never defeated non uniform internal handcrafting gaussian mixture model hidden markov model gmm hmm technology difficulties analyzed in the 1990s included gradient diminishing and weak temporal correlation structure all these difficulties combined with insufficient training data and computing power most speech recognition pursued generative modelling approaches until deep learning won the day hinton et al and deng et al
+
+by early the 2010s speech recognition was differentiated from speaker recognition and speaker independence was considered a major breakthrough until then systems required a training period for each voice
+
+in 2017 microsoft researchers reached the human parity milestone of transcribing conversational speech on the widely benchmarked switchboard task multiple deep learning models were used to improve accuracy the error rate was reported to be as low as 4 professional human transcribers working together on the same benchmark
+
+both acoustic modeling and language modeling are important parts of statistically based speech recognition algorithms hidden markov models hmms are widely used in many systems language modelling is also used in many other natural language processing applications such as document classification or statistical machine translation
+
+speech recognition systems are based on hmms these are statistical models that output a sequence of symbols or quantities hmms are used in speech recognition because a speech signal can be viewed as a piecewise stationary signal or a short time stationary signal in a short time scale e g 10 milliseconds speech can be approximated as a stationary process speech can be thought of as a markov model for many stochastic purposes
+
+hmms are popular because they can be trained automatically and are simple and computationally feasible an hmm outputs a sequence of n dimensional real valued vectors where n is an integer such as 10 outputting one every 10 milliseconds the vectors consist of cepstral coefficients obtained by a fourier transform of a short window of speech and decorrelating the spectrum using a cosine transform then taking the first most significant coefficients the hmm tends to have in each state a statistical distribution that is a mixture of diagonal covariance gaussians which give a likelihood for each observed vector each word or for more general speech recognition systems each phoneme has a different output distribution an hmm for a sequence of words or phonemes is made by concatenating the individual trained hmms for the separate words and phonemes
+
+speech recognition systems use combinations of standard techniques to improve results a typical large vocabulary system applies context dependency for the phonemes so that phonemes with different left and right context have different realizations as hmm states it uses cepstral normalization to handle speaker and recording conditions it might use vocal tract length normalization vtln for male female normalization and maximum likelihood linear regression mllr for more general adaptation the features use delta and delta delta coefficients to capture speech dynamics and in addition might use heteroscedastic linear discriminant analysis hlda or might use splicing and lda based projection followed by hlda or a global semi tied covariance transform also known as maximum likelihood linear transform mllt many systems use discriminative training techniques that dispense with a purely statistical approach to hmm parameter estimation and instead optimize some classification related measure of the training data examples are maximum mutual information mmi minimum classification error mce and minimum phone error mpe
+
+dynamic time warping was historically used for speech recognition but was later displaced by hmm
+
+dynamic time warping measures similarity between two sequences that may vary in time or speed for instance similarities in walking patterns could be detected even if in one video a person was walking slowly and in another was walking more quickly or even if accelerations and decelerations came during one observation dtw has been applied to video audio and graphics any data that can be turned into a linear representation can be analyzed with dtw
+
+this could handle speech at different speaking speeds in general it allows an optimal match between two sequences e g time series with certain restrictions the sequences are warped non linearly to match each other this sequence alignment method is often used in the context of hmms
+
+neural networks became interesting in the late 1980s before beginning to dominate in the 2010s neural networks have been used in many aspects of speech recognition such as phoneme classification phoneme classification through multi objective evolutionary algorithms isolated word recognition audiovisual speech recognition audiovisual speaker recognition and speaker adaptation
+
+neural networks make fewer explicit assumptions about feature statistical properties than hmms when used to estimate the probabilities of a speech segment neural networks allow natural and efficient discriminative training however in spite of their effectiveness in classifying short time units such as individual phonemes and isolated words early neural networks were rarely successful for continuous recognition because of their limited ability to model temporal dependencies
+
+one approach was to use neural networks for feature transformation or dimensionality reduction however more recently lstm and related recurrent neural networks rnns time delay neural networks tdnn s and transformers demonstrated improved performance
+
+researchers are exploring deep neural networks dnns and denoising autoencoders a dnn is a type of artificial neural network that includes multiple hidden layers between the input and output like simpler neural networks dnns can model complex non linear relationships however their deeper architecture allows them to build more sophisticated representations that combine features from earlier layers this gives them a powerful ability to learn and recognize complex patterns in speech data
+
+a major breakthrough in using dnns for large vocabulary speech recognition came in 2010 in a collaboration between industry and academia researchers used dnns with large output layers based on context dependent hmm states that were created using decision trees this approach significantly improved performanc
+
+a core idea behind deep learning is to eliminate the need for manually designed features and instead learn directly from input data this was first demonstrated using deep autoencoders trained on raw spectrograms or linear filter bank features these models outperformed traditional mel cepstral features which rely on fixed transformations more recently researchers showed that waveforms can achieve excellent results in large scale speech recognition
+
+since 2014 much research has considered end to end asr traditional phonetic based i e all hmm based model approaches required separate components and training for pronunciation acoustic and language end to end models learn from all the components at once this simplifies the training and deployment processes for example an n gram language model is required for all hmm based systems and a typical 2025 era n gram language model often takes gigabytes in memory making them impractical to deploy on mobile devices consequently asr systems from google and apple as of 2017 update deploy on servers and required a network connection to operate citation needed
+
+the first attempt at end to end asr was the connectionist temporal classification ctc based system introduced by alex graves of google deepmind and navdeep jaitly of the university of toronto in 2014 the model consisted of rnns and a ctc layer jointly the rnn ctc model learns the pronunciation and acoustic model together however it is incapable of learning the language model due to conditional independence assumptions similar to an hmm consequently ctc models can directly learn to map speech acoustics to english characters but the models make many common spelling mistakes and must rely on a separate language model to finalize transcripts later baidu expanded on the work with extremely large datasets and demonstrated some commercial success in mandarin and english
+
+in 2016 the university of oxford presented lipnet the first end to end sentence level lipreading model using spatiotemporal convolutions coupled with an rnn ctc architecture surpassing human level performance in a restricted dataset a large scale convolutional rnn ctc architecture was presented in 2018 by google deepmind achieving 6 times better performance than human experts in 2019 nvidia launched two cnn ctc asr models jasper and quarznet with an overall performance word error rate wer of 3 similar to other deep learning applications transfer learning and domain adaptation are important strategies for reusing and extending the capabilities of deep learning models particularly due to the small size of available corpora in many languages and or specific domains
+
+in 2018 researchers at mit media lab announced preliminary work on alterego a device that uses electrodes to read the neuromuscular signals users make as they subvocalize they trained a convolutional neural network to translate the electrode signals into words
+
+attention based asr models were introduced by chan et al of carnegie mellon university and google brain and bahdanau et al of the university of montreal in 2016 the model named listen attend and spell las literally listens to the acoustic signal pays attention to all parts of the signal and spells out the transcript one character at a time unlike ctc based models attention based models require conditional independence assumptions and can learn all the components of a speech recognizer directly this means that during deployment no a priori language model is required making it less demanding for applications with limited memory
+
+attention based models immediately outperformed ctc models with or without an external language model and continued improving latent sequence decomposition lsd was proposed by carnegie mellon university mit and google brain to directly emit sub word units that are more natural than english characters the university of oxford and google deepmind extended las to watch listen attend and spell wlas to handle lip reading and surpassed human level performance
+
+voice commands may be used to initiate phone calls select radio stations or play music voice recognition capabilities vary across car make and model some models offer natural language speech recognition allowing the driver to use full sentences and common phrases in a conversational style with such systems fixed commands are not required
+
+automatic pronunciation assessment is the use of speech recognition to verify the correctness of speech as distinguished from assessment by a person also called speech verification pronunciation evaluation and pronunciation scoring the main application of this technology is computer aided pronunciation teaching capt when combined with computer aided instruction for computer assisted language learning call speech remediation or accent reduction pronunciation assessment does not determine unknown speech as in dictation or automatic transcription but instead compares speech to a reference model for the words spoken sometimes with inconsequential prosody such as intonation pitch tempo rhythm and stress pronunciation assessment is also used in reading tutoring for example in products such as microsoft teams and amira learning pronunciation assessment can also be used to help diagnose and treat speech disorders such as apraxia
+
+assessing intelligibility is essential for avoiding inaccuracies from accent bias especially in high stakes assessments from words with multiple correct pronunciations and from phoneme coding errors in digital pronunciation dictionaries in 2022 researchers found that some newer speech to text systems based on end to end reinforcement learning to map audio signals directly into words produce word and phrase confidence scores closely correlated with listener intelligibility in the common european framework of reference for languages cefr assessment criteria for overall phonological control intelligibility outweighs formally correct pronunciation at all levels
+
+in the health care sector speech recognition can be implemented in front end or back end medical documentation processes in front end speech recognition the provider dictates into a speech recognition engine words are displayed as they are recognized and the speaker is responsible for editing and signing off on the document in back end or deferred speech recognition the provider speaks into a digital dictation system the voice is routed through a speech recognition machine and a draft document is routed along with the voice file to an editor who edits finalizes the draft and final report citation needed
+
+a major issue is that the american recovery and reinvestment act of 2009 arra provides substantial financial benefits to physicians who utilize an electronic health record ehr that complies with meaningful use standards these standards require that substantial data be maintained by the ehr the use of speech recognition is more naturally suited to the generation of narrative text as part of a radiology pathology interpretation progress note or discharge summary the ergonomic gains of using speech recognition to enter structured discrete data e g numeric values or codes from a list or a controlled vocabulary are relatively minimal for people who are sighted and who can operate a keyboard and mouse
+
+a more significant issue is that most ehrs have not been expressly tailored to take advantage of voice recognition capabilities a large part of a clinician s interaction with ehr involves navigation through the user interface that is heavily dependent on keyboard and mouse voice based navigation provides only modest ergonomic benefits by contrast many highly customized systems for radiology or pathology dictation implement voice macros where the use of certain phrases e g normal report will automatically fill in a large number of default values and or generate boilerplate which vary with the type of exam e g a chest x ray vs a gastrointestinal contrast series for a radiology system
+
+prolonged use of speech recognition software in conjunction with word processors has shown benefits to short term memory restrengthening in brain avm patients who have been treated with resection further research needs to be conducted to determine cognitive benefits for individuals whose avms have been treated using radiologic techniques
+
+substantial efforts have been devoted to the test and evaluation of speech recognition in fighter aircraft of particular note have been the us programme in speech recognition for the advanced fighter technology integration afti f 16 aircraft f 16 vista the programme in france for mirage aircraft and uk programmes dealing with a variety of aircraft platforms in these programmes speech recognizers have been operated successfully with applications including setting radio frequencies commanding an autopilot system setting steer point coordinates and weapons release parameters and controlling flight display
+
+working with swedish pilots flying the jas 39 gripen englund 2004 reported that recognition deteriorated with increasing g loads the study concluded that adaptation greatly improved the results in all cases and that the introduction of models for breathing was shown to improve recognition scores significantly contrary to what might have been expected no effects of the broken english of the speakers were found spontaneous speech caused problems for the recognizer as might have been expected a restricted vocabulary and above all a proper syntax could thus be expected to improve recognition accuracy substantially
+
+the eurofighter typhoon employs a speaker dependent system requiring each pilot to create a template the system is not used for safety critical or weapon critical tasks such as weapon release or lowering of the undercarriage but is used for many cockpit functions voice commands are confirmed by visual and or aural feedback the system is seen as a major benefit in the reduction of pilot workload and allows the pilot to assign targets with two voice commands or to a wingman with only five commands
+
+speaker independent systems are under test for the f 35 lightning ii jsf and the alenia aermacchi m 346 master lead in fighter trainer these systems have produced word accuracy scores in excess of 98
+
+the problems of achieving high recognition accuracy under stress and noise are particularly relevant in the helicopter environment as well as in the fighter environment the acoustic noise problem is actually more severe in the helicopter environment because of the high noise levels and because helicopter pilots in general do not wear a facemask which would reduce acoustic noise in the microphone substantial test and evaluation programmes notably by the u s army avionics research and development activity avrada and by the royal aerospace establishment rae in the uk work in france included speech recognition in the puma helicopter voice applications include control of communication radios navigation systems and an automated target handover system
+
+the overriding issue for voice is the impact on pilot effectiveness encouraging results are reported for the avrada tests although these represent only a feasibility demonstration in a test environment much remains to be done both in speech recognition and in overall speech technology in order to consistently achieve performance improvements in operational settings
+
+training for air traffic controllers atc represents an excellent application for speech recognition systems many atc training systems currently require a trainer to act as a pseudo pilot engaging in a voice dialog with the trainee controller which simulates the dialog that the controller would have with real pilots speech recognition and synthesis techniques offer the potential to eliminate the need for a person to act as a pseudo pilot thus reducing training and support personnel
+
+in theory air controller tasks are characterized by highly structured speech as the primary output reducing the difficulty of the speech recognition task in practice this is rarely the case faa document 7110 65 details the phrases that should be used by air traffic controllers while this document gives less than 150 examples of such phrases the number of phrases supported by one of the simulation vendors speech recognition systems is in excess of 500 000
+
+the usaf usmc us army us navy and faa as well as international atc training organizations such as the royal australian air force and civil aviation authorities in italy brazil and canada use atc simulators with speech recognition
+
+speech recognition programs can provide many benefit to those with disabilities for individuals who are deaf or hard of hearing speech recognition software can be used to generate captions of conversations additionally individuals who are blind see blindness and education or have poor vision can benefit from listening to textual content as well as garner more functionality from a computer by issuing commands with their voice
+
+the use of voice recognition software in conjunction with a digital audio recorder and a personal computer running word processing software has proven useful for restoring damaged short term memory capacity in individuals who have suffered a stroke or have undergone a craniotomy citation needed
+
+speech recognition has proven very useful for those who have difficulty using their hands due to causes ranging from mild repetitive stress injuries to disabilities that preclude the use of conventional computer input devices individuals with physical disabilities can use voice commands and transcription to navigate electronics hands free in fact people who developed rsi from keyboard use became an early and urgent market for speech recognition speech recognition is used in deaf telephony such as voicemail to text relay services and captioned telephone individuals with learning disabilities who struggle with thought to paper communication may benefit from the software but the product s fallibility remains a significant consideration for many in addition speech to text technology is only an effective aid for those with intellectual disabilities if the proper training and resources are provided e g in the classroom setting
+
+this type of technology can help those with dyslexia but the potential benefits regarding other disabilities are still in question mistakes made by the software hinder its effectiveness since misheard words take more time to fix
+
+asr is now commonplace in the field of telephony in telephony systems asr is predominantly used in contact centers by integrating it with ivr systems
+
+it is becoming more widespread in computer gaming and simulation
+
+despite the high level of integration with word processing in general personal computing in the field of document production asr has not seen the expected increases in use
+
+the improvement of mobile processor speeds has made speech recognition practical in smartphones speech is used mostly as a part of a user interface for creating predefined or custom speech commands
+
+the performance of speech recognition systems is usually evaluated in terms of accuracy and speed accuracy is usually rated with word error rate wer whereas speed is measured in elapsed time other measures of accuracy include single word error rate swer and command success rate csr
+
+speech recognition is complicated by many properties of speech vocalizations vary in terms of accent pronunciation articulation roughness dialect nasality pitch volume and speed speech is distorted by background noise echoes and recording characteristics accuracy of speech recognition may vary with the following
+
+the accuracy of speech recognition may vary depending on the following factors
+
+speech recognition is a multi level pattern recognition task
+
+this hierarchy of constraints improves accuracy by combining decisions probabilistically at all lower levels and making ultimate decisions only at the highest level speech recognition is broken into several phases computationally it is a problem in which a sound pattern has to be recognized or classified into a category that represents a meaning to a human every acoustic signal can be broken into smaller sub signals as the more complex sound signal is divided different levels are created where at the top level are complex sounds made of simpler sounds on the lower level etc at the lowest level simple and more probabilistic rules apply these sounds are put together into more complex sounds on upper level a new set of more deterministic rules predicts what the complex sound represents the upper level of a deterministic rule should figure out the meaning of complex expressions in order to expand our knowledge about speech recognition we need to take into consideration neural networks neural network approaches use the following steps
+
+sound is produced by air or some other medium vibration sound creates a wave that has two measures amplitude strength and frequency vibrations per second accuracy can be computed with the help of wer which is calculated by aligning the recognized word and referenced word using dynamic string alignment the problem may occur while computing the wer due to the difference between the sequence lengths of the recognized word and referenced word
+
+the formula to compute the word error rate wer is
+
+
+
+
+
+w
+e
+r
+
+
+
+
+
+s
+
+d
+
+i
+
+
+n
+
+
+
+
+displaystyle wer s d i over n
+
+
+
+where s is the number of substitutions d is the number of deletions i is the number of insertions and n is the number of word references
+
+while computing the word recognition rate wrr is used the formula is
+
+where h is the number of correctly recognized words
+
+speech recognition can become a means of attack theft or accidental operation for example activation words like alexa spoken in an audio or video broadcast can cause devices in homes and offices to start listening for input inappropriately or possibly take an unwanted action voice controlled devices may be accessible to unauthorized users attackers may be able to gain access to personal information like calendars address book contents private messages and documents they may also be able to impersonate the user to send messages or make online purchases
+
+two attacks have been demonstrated that use artificial sounds one transmits ultrasound and attempts to send commands without people noticing the other adds small inaudible distortions to other speech or music that are specially crafted to confuse the specific speech recognition system into recognizing music as speech or to make what sounds like one command to a human sound like a different command to the system
+
+regular conferences include speechtek and speechtek europe icassp interspeech eurospeech and the ieee asru conferences in the field of natural language processing such as acl naacl emnlp and hlt include papers on speech processing
+
+the main journal is ieee acm transactions on audio speech and language processing
+
+the largest speech recognition related project ongoing as of 2007 was the gale project which involves both speech recognition and translation components

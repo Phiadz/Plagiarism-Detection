@@ -1,0 +1,15 @@
+william swain cleveland ii january 24 1943 march 27 2026 was an american computer scientist professor of statistics and professor of computer science at purdue university known for his work on data visualization particularly on nonparametric regression and local regression he was one of the developers of the s programming language
+
+cleveland obtained his ab in mathematics mid 1960s from princeton university where he graduated under william feller for his phd studies in statistics he moved to yale university where he graduated in 1969 under leonard jimmie savage
+
+after graduation cleveland started at bell labs where he was staff member of the statistics research department and department head for 12 years while at bell labs he helped to develop the s programming language a precursor to r eventually he moved to purdue university where he became professor of statistics and courtesy professor of computer science
+
+his research interests were in the fields of data visualization computer networking machine learning data mining time series statistical modeling visual perception environmental science and seasonal adjustment cleveland is credited with defining and naming the field of data science which he did in a 2001 publication
+
+cleveland retired in 2025 he died on march 27 2026 at the age of 83
+
+cleveland received the wilcoxon award from technometrics in 1975 and 1977 he received the youden prize from technometrics in 1987 along with richard a becker at bell labs for their paper brushing scatterplots
+
+in 1982 he was elected as a fellow of the american statistical association
+
+he was named the national statistician of the year chicago chapter of the american statistical association in 1996 in 2016 cleveland received the lifetime achievement award in graphics and computing from the american statistical association and the parzen prize for statistical innovation from texas a m university in 2021 he was awarded an honorary doctorate by hasselt university

@@ -1,0 +1,84 @@
+data mining is the process of extracting and finding patterns in massive data sets involving methods at the intersection of machine learning statistics and database systems data mining is an interdisciplinary subfield of computer science and statistics with an overall goal of extracting information with intelligent methods from a data set and transforming the information into a comprehensible structure for further use data mining is the analysis step of the knowledge discovery in databases process or kdd aside from the raw analysis step it also involves database and data management aspects data pre processing model and inference considerations interestingness metrics complexity considerations post processing of discovered structures visualization and online updating
+
+the term data mining is a misnomer because the goal is the extraction of patterns and knowledge from large amounts of data not the extraction mining of data itself it also is a buzzword and is frequently applied to any form of large scale data or information processing collection extraction warehousing analysis and statistics as well as any application of computer decision support systems including artificial intelligence e g machine learning and business intelligence often the more general terms large scale data analysis and analytics or when referring to actual methods artificial intelligence and machine learning are more appropriate
+
+the actual data mining task is the semi automatic or automatic analysis of massive quantities of data to extract previously unknown interesting patterns such as groups of data records cluster analysis unusual records anomaly detection and dependencies association rule mining sequential pattern mining this usually involves using database techniques such as spatial indices these patterns can then be seen as a kind of summary of the input data and may be used in further analysis or for example in machine learning and predictive analytics for example the data mining step might identify multiple groups in the data which can then be used to obtain more accurate prediction results by a decision support system neither the data collection data preparation nor result interpretation and reporting is part of the data mining step although they do belong to the overall kdd process as additional steps
+
+the difference between data analysis and data mining is that data analysis is used to test models and hypotheses on the dataset e g analyzing the effectiveness of a marketing campaign regardless of the amount of data in contrast data mining uses machine learning and statistical models to uncover clandestine or hidden patterns in a large volume of data
+
+the related terms data dredging data fishing and data snooping refer to the use of data mining methods to sample parts of a larger population data set that are or may be too small for reliable statistical inferences to be made about the validity of any patterns discovered these methods can however be used in creating new hypotheses to test against the larger data populations
+
+in the 1960s statisticians and economists used terms like data fishing or data dredging to refer to what they considered the bad practice of analyzing data without an a priori hypothesis the term data mining was used in a similarly critical way by economist michael lovell in an article published in the review of economic studies in 1983 lovell indicates that the practice masquerades under a variety of aliases ranging from experimentation positive to fishing or snooping negative
+
+the term data mining appeared around 1990 in the database community with generally positive connotations for a short time in 1980s the phrase database mining was used but since it was trademarked by hnc a san diego based company to pitch their database mining workstation researchers consequently turned to data mining other terms used include data archaeology information harvesting information discovery knowledge extraction etc gregory piatetsky shapiro coined the term knowledge discovery in databases for the first workshop on the same topic kdd 1989 and this term became more popular in the ai and machine learning communities however the term data mining became more popular in the business and press communities currently the terms data mining and knowledge discovery are used interchangeably
+
+the manual extraction of patterns from data has occurred for centuries early methods of identifying patterns in data include bayes theorem 1700s and regression analysis 1800s the proliferation ubiquity and increasing power of computer technology have dramatically increased data collection storage and manipulation ability as data sets have grown in size and complexity direct hands on data analysis has increasingly been augmented with indirect automated data processing aided by other discoveries in computer science specially in the field of machine learning such as neural networks cluster analysis genetic algorithms 1950s decision trees and decision rules 1960s and support vector machines 1990s data mining is the process of applying these methods with the intention of uncovering hidden patterns in large data sets it bridges the gap from applied statistics and artificial intelligence which usually provide the mathematical background to database management by exploiting the way data is stored and indexed in databases to execute the actual learning and discovery algorithms more efficiently allowing such methods to be applied to ever larger data sets
+
+the knowledge discovery in databases kdd process is commonly defined with the stages
+
+it exists however in many variations on this theme such as the cross industry standard process for data mining crisp dm which defines six phases
+
+or a simplified process such as 1 pre processing 2 data mining and 3 results validation
+
+polls conducted in 2002 2004 2007 and 2014 show that the crisp dm methodology is the leading methodology used by data miners
+
+the only other data mining standard named in these polls was semma however 3 4 times as many people reported using crisp dm several teams of researchers have published reviews of data mining process models and azevedo and santos conducted a comparison of crisp dm and semma in 2008
+
+before data mining algorithms can be used a target data set must be assembled as data mining can only uncover patterns actually present in the data the target data set must be large enough to contain these patterns while remaining concise enough to be mined within an acceptable time limit a common source for data is a data mart or data warehouse pre processing is essential to analyze the multivariate data sets before data mining the target set is then cleaned data cleaning removes the observations containing noise and those with missing data
+
+data mining involves six common classes of tasks
+
+data mining can unintentionally be misused producing results that appear to be significant but which do not actually predict future behavior and cannot be reproduced on a new sample of data therefore bearing little use this is sometimes caused by investigating too many hypotheses and not performing proper statistical hypothesis testing a simple version of this problem in machine learning is known as overfitting but the same problem can arise at different phases of the process and thus a train test split when applicable at all may not be sufficient to prevent this from happening
+
+the final step of knowledge discovery from data is to verify that the patterns produced by the data mining algorithms occur in the wider data set not all patterns found by the algorithms are necessarily valid it is common for data mining algorithms to find patterns in the training set which are not present in the general data set this is called overfitting to overcome this the evaluation uses a test set of data on which the data mining algorithm was not trained the learned patterns are applied to this test set and the resulting output is compared to the desired output for example a data mining algorithm trying to distinguish spam from legitimate e mails would be trained on a training set of sample e mails once trained the learned patterns would be applied to the test set of e mails on which it had not been trained the accuracy of the patterns can then be measured from how many e mails they correctly classify several statistical methods may be used to evaluate the algorithm such as roc curves
+
+if the learned patterns do not meet the desired standards it is necessary to re evaluate and change the pre processing and data mining steps if the learned patterns do meet the desired standards then the final step is to interpret the learned patterns and turn them into knowledge
+
+the premier professional body in the field is the association for computing machinery s acm special interest group sig on knowledge discovery and data mining sigkdd since 1989 this acm sig has hosted an annual international conference and published its proceedings and since 1999 it has published a biannual academic journal titled sigkdd explorations
+
+computer science conferences on data mining include
+
+data mining topics are also present in many data management database conferences such as the icde conference sigmod conference and international conference on very large data bases
+
+there have been some efforts to define standards for the data mining process for example the 1999 european cross industry standard process for data mining crisp dm 1 0 and the 2004 java data mining standard jdm 1 0 development on successors to these processes crisp dm 2 0 and jdm 2 0 was active in 2006 but has stalled since jdm 2 0 was withdrawn without reaching a final draft
+
+for exchanging the extracted models in particular for use in predictive analytics the key standard is the predictive model markup language pmml which is an xml based language developed by the data mining group dmg and supported as exchange format by many data mining applications as the name suggests it only covers prediction models a particular data mining task of high importance to business applications however extensions to cover for example subspace clustering have been proposed independently of the dmg
+
+data mining is used wherever there is digital data available notable examples of data mining can be found throughout business medicine science finance construction and surveillance
+
+while the term data mining itself may have no ethical implications it is often associated with the mining of information in relation to user behavior ethical and otherwise
+
+the ways in which data mining can be used can in some cases and contexts raise questions regarding privacy legality and ethics in particular data mining government or commercial data sets for national security or law enforcement purposes such as in the total information awareness program or in advise has raised privacy concerns
+
+data mining requires data preparation which uncovers information or patterns which compromise confidentiality and privacy obligations a common way for this to occur is through data aggregation data aggregation involves combining data together possibly from various sources in a way that facilitates analysis but that also might make identification of private individual level data deducible or otherwise apparent the threat to an individual s privacy comes into play when the data once compiled cause the data miner or anyone who has access to the newly compiled data set to be able to identify specific individuals especially when the data were originally anonymous
+
+data may also be modified so as to become anonymous so that individuals may not readily be identified however even anonymized data sets can potentially contain enough information to allow identification of individuals as occurred when journalists were able to find several individuals based on a set of search histories that were inadvertently released by aol
+
+the inadvertent revelation of personally identifiable information leading to the provider violates fair information practices this indiscretion can cause financial
+emotional or bodily harm to the indicated individual in one instance of privacy violation the patrons of walgreens filed a lawsuit against the company in 2011 for selling
+prescription information to data mining companies who in turn provided the data
+to pharmaceutical companies
+
+europe has rather strong privacy laws and efforts are underway to further strengthen the rights of the consumers however the u s e u safe harbor principles developed between 1998 and 2000 currently effectively expose european users to privacy exploitation by u s companies as a consequence of edward snowden s global surveillance disclosure there has been increased discussion to revoke this agreement as in particular the data will be fully exposed to the national security agency and attempts to reach an agreement with the united states have failed
+
+in the united kingdom in particular there have been cases of corporations using data mining as a way to target certain groups of customers forcing them to pay unfairly high prices these groups tend to be people of lower socio economic status who are not savvy to the ways they can be exploited in digital market places
+
+in the united states privacy concerns have been addressed by the us congress via the passage of regulatory controls such as the health insurance portability and accountability act hipaa the hipaa requires individuals to give their informed consent regarding information they provide and its intended present and future uses according to an article in biotech business week i n practice hipaa may not offer any greater protection than the longstanding regulations in the research arena says the aahc more importantly the rule s goal of protection through informed consent is approaching a level of incomprehensibility to average individuals this underscores the necessity for data anonymity in data aggregation and mining practices
+
+u s information privacy legislation such as hipaa and the family educational rights and privacy act ferpa applies only to the specific areas that each such law addresses the use of data mining by the majority of businesses in the u s is not controlled by any legislation
+
+even if there is no copyright in a dataset the european union recognises a database right so data mining becomes subject to intellectual property owners rights that are protected by the database directive under european copyright database laws the mining of in copyright works such as by web mining without the permission of the copyright owner is permitted under articles 3 and 4 of the 2019 directive on copyright in the digital single market a specific tdm exception for scientific research is described in article 3 whereas a more general exception described in article 4 only applies if the copyright holder has not opted out
+
+the european commission facilitated stakeholder discussion on text and data mining in 2013 under the title of licences for europe the focus on the solution to this legal issue such as licensing rather than limitations and exceptions led to representatives of universities researchers libraries civil society groups and open access publishers to leave the stakeholder dialogue in may 2013
+
+on the recommendation of the hargreaves review this led to the uk government to amend its copyright law in 2014 to allow content mining as a limitation and exception the uk was the second country in the world to do so after japan which introduced an exception in 2009 for data mining however due to the restriction of the information society directive 2001 the uk exception only allows content mining for non commercial purposes uk copyright law also does not allow this provision to be overridden by contractual terms and conditions
+
+since 2020 also switzerland has been regulating data mining by allowing it in the research field under certain conditions laid down by art 24d of the swiss copyright act this new article entered into force on 1 april 2020
+
+us copyright law and in particular its provision for fair use upholds the legality of content mining in america and other fair use countries such as israel taiwan and south korea as content mining is transformative that is it does not supplant the original work it is viewed as being lawful under fair use for example as part of the google book settlement the presiding judge on the case ruled that google s digitization project of in copyright books was lawful in part because of the transformative uses that the digitization project displayed one being text and data mining
+
+the following applications are available under free open source licenses public access to application source code is also available
+
+the following applications are available under proprietary licenses
+
+for more information about extracting information out of data as opposed to analyzing data see

@@ -1,0 +1,19 @@
+data loading or simply loading is a part of data processing where data is moved between two systems so that it ends up in a staging area on the target system
+
+with the traditional extract transform and load etl method the load job is the last step and the data that is loaded has already been transformed with the alternative method extract load and transform elt the loading job is the middle step and the transformed data is loaded in its original format for data transformation in the target system
+
+traditionally loading jobs on large systems have taken a long time and have typically been run at night outside a company s opening hours
+
+two main goals of data loading are to obtain fresher data in the systems after loading and that the loading is fast so that the data can be updated frequently for full data refresh faster loading can be achieved by turning off referential integrity secondary indexes and logging but this is usually not allowed with incremental update or trickle feed
+
+data loading can be done either by complete update immediate incremental loading and updating immediate or trickle feed deferred the choice of technique may depend on the amount of data that is updated changed or added and how up to date the data must be the type of data delivered by the source system and whether historical data delivered by the source system can be trusted are also important factors
+
+full data refresh means that existing data in the target table is deleted first all data from the source is then loaded into the target table new indexes are created in the target table and new measures are calculated for the updated table
+
+full refresh is easy to implement but involves moving of much data which can take a long time and can make it challenging to keep historical data
+
+incremental update or incremental refresh means that only new or updated data is retrieved from the source system the updated data is then added to the existing data in the target system and the existing data in the target system is updated the indices and statistics are updated accordingly incremental update can make loading faster and make it easier to keep track of history but can be demanding to set up and maintain
+
+tricle feed or trickle loading means that when the source system is updated the changes in the target system will occur almost immediately
+
+when loading data into a system that is currently in use by users or other systems one must decide when the system should be updated and what will happen to tables that are in use at the same time as the system is to be updated one possible solution is to make use of shadow tables

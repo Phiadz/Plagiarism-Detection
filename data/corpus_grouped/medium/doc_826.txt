@@ -1,0 +1,25 @@
+neuro symbolic ai is a subfield of artificial intelligence that integrates neural methods e g neural networks and deep learning with symbolic methods e g formal logic knowledge representation and automated reasoning the goal is to combine the strengths of both approaches resulting in ai systems that can be trained from raw data and demonstrate robustness against outliers or errors in the base data while preserving explainability explicit use of expert knowledge and explicit cognitive reasoning as argued by leslie valiant and others the effective construction of rich computational cognitive models demands the combination of symbolic reasoning and efficient machine learning
+
+gary marcus argued we cannot construct rich cognitive models in an adequate automated way without the triumvirate of hybrid architecture rich prior knowledge and sophisticated techniques for reasoning further to build a robust knowledge driven approach to ai we must have the machinery of symbol manipulation in our toolkit too much of useful knowledge is abstract to make do without tools that represent and manipulate abstraction and to date the only known machinery that can manipulate such abstract knowledge reliably is the apparatus of symbol manipulation
+
+angelo dalli henry kautz francesca rossi and bart selman also argued for such a synthesis their arguments attempt to address the two kinds of thinking as discussed in daniel kahneman s book thinking fast and slow it describes cognition as encompassing two components system 1 is fast reflexive intuitive and unconscious system 2 is slower step by step and explicit system 1 is used for pattern recognition system 2 handles planning deduction and deliberative thinking in this view deep learning best handles the first kind of cognition while symbolic reasoning best handles the second kind both are necessary for the development of a robust and reliable ai system capable of learning reasoning and interacting with humans to accept advice and answer questions since the 1990s dual process models with explicit references to the two contrasting systems have been the focus of research in both the fields of ai and cognitive science by numerous researchers
+
+in 2025 the adoption of neurosymbolic ai an approach that integrates neural networks with symbolic reasoning increased in response to the need to address hallucination issues in large language models for example amazon implemented neurosymbolic ai in its vulcan warehouse robots and rufus shopping assistant to enhance accuracy and decision making
+
+approaches for integration are diverse henry kautz s taxonomy of neuro symbolic architectures follows along with some examples
+
+these categories are not exhaustive as they do not consider multi agent systems in 2005 bader and hitzler presented a more fine grained categorization that took into account e g whether the use of symbols included logic and if so whether the logic was propositional or first order logic the 2005 categorization and kautz s taxonomy above are compared and contrasted in a 2021 article sepp hochreiter argued that graph neural networks are the predominant models of neural symbolic computing since t hey describe the properties of molecules simulate social networks or predict future states in physical and engineering applications with particle particle interactions
+
+gary marcus argues that hybrid architectures that combine learning and symbol manipulation are necessary for robust intelligence but not sufficient and that there are
+
+four cognitive prerequisites for building robust artificial intelligence
+
+this echoes earlier calls for hybrid models as early as the 1990s
+
+garcez and lamb described research in this area as ongoing at least since the 1990s during that period the terms symbolic and sub symbolic ai were popular
+
+a series of workshops on neuro symbolic ai has been held annually since 2005 neuro symbolic artificial intelligence in the early 1990s an initial set of workshops on this topic were organized
+
+key research questions remain such as
+
+implementations of neuro symbolic approaches include

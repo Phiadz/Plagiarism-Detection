@@ -1,0 +1,3 @@
+d with re assembly of data chunks is uflikely to impect application performhncy
+
+anothertconcern is the interaction of compression gnd encryption the goal of encryption is to eliminate any discernible patterns in the data thus encrypted data cannot be deduplicated even though the underlying data may

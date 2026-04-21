@@ -1,0 +1,151 @@
+
+
+the right to privacy is an element of various legal traditions that intends to restrain governmental and private actions that threaten the privacy of individuals over 185 national constitutions mention the right to privacy
+since the global surveillance disclosures of 2013 the right to privacy has been a subject of international debate government agencies such as the nsa fbi cia r aw and gchq have engaged in mass global surveillance some current debates around the right to privacy include whether privacy can co exist with the current capabilities of intelligence agencies to access and analyze many details of an individual s life whether or not the right to privacy is forfeited as part of the social contract to bolster defense against supposed terrorist threats and whether threats of terrorism are a valid excuse to spy on the general population private sector actors can also threaten the right to privacy particularly technology companies such as amazon apple meta google microsoft and yahoo that use and collect personal data
+
+the right to privacy is a fundamental human right firmly grounded in international law on 10 december 1948 the united nations general assembly adopted the universal declaration of human rights udhr while the right to privacy does not appear in the document article 12 mentions privacy
+
+no one shall be subjected to arbitrary interference with their privacy family home or correspondence nor to attacks upon his honor and reputation everyone has the right to the protection of the law against such interference or attacks
+
+universal declaration of human rights article 12
+privacy is later codified in successive hard international human rights treaties including the international covenant on civil and political rights
+
+the concept of a human right to privacy begins when the latin word ius expanded from meaning what is fair to include a right an entitlement a person possesses to control or claim something by the decretum gratiani in bologna italy in the 12th century
+
+in the united states an article in the 15 december 1890 issue of the harvard law review entitled the right to privacy written by attorney samuel d warren ii and future u s supreme court justice louis brandeis is often cited as the first explicit finding of a u s right to privacy warren ii and brandeis wrote that privacy is the right to be let alone and focused on protecting individuals this approach was a response to recent technological developments of the time such as photography and sensationalist journalism also known as yellow journalism
+
+privacy rights are inherently intertwined with information technology in his widely cited dissenting opinion in olmstead v united states 1928 brandeis relied on thoughts he developed in the article the right to privacy in that dissent he urged that personal privacy matters were more relevant to constitutional law going so far as to say that the government was identified as a potential privacy invader he writes discovery and invention have made it possible for the government by means far more effective than stretching upon the rack to obtain disclosure in court of what is whispered in the closet at that time telephones were often community assets with shared party lines and potentially eavesdropping switchboard operators by the time of katz in 1967 telephones had become personal devices with lines not shared across homes and switching was electro mechanical in the 1970s new computing and recording technologies raised more concerns about privacy resulting in the fair information practice principles
+
+in recent years there have been few attempts to clearly and precisely define the right to privacy
+
+alan westin believes that new technologies alter the balance between privacy and disclosure and that privacy rights may limit government surveillance to protect democratic processes westin defines privacy as the claim of individuals groups or institutions to determine for themselves when how and to what extent information about them is communicated to others westin describes 4 states of privacy solitude intimacy anonymity and reserve these states must balance participation against norms
+
+each individual is continually engaged in a personal adjustment process in which he balances the desire for privacy with the desire for disclosure and communication of themself to others in light of the environmental conditions and social norms set by the society in which they live
+
+under liberal democratic systems privacy creates a space separate from political life and allows personal autonomy while ensuring democratic freedoms of association and expression privacy to individuals is the ability to behave think speak and express ideas without the monitoring or surveillance of someone else individuals exercise their freedom of expression through attending political rallies and choosing to hide their identities online by using pseudonyms
+
+david flaherty believes networked computer databases pose threats to privacy he develops data protection as an aspect of privacy which involves the collection use and dissemination of personal information this concept forms the foundation for fair information practices used by governments globally flaherty forwards an idea of privacy as information control individuals want to be left alone and to exercise some control over how information about them is used
+
+marc rotenberg has described the modern right to privacy as fair information practices the rights and responsibilities associated with the collection and use of personal information rotenberg emphasizes that the allocation of rights are to the data subject and the responsibilities are assigned to the data collectors because of the transfer of the data and the asymmetry of information concerning data practices
+
+richard posner and lawrence lessig focus on the economic aspects of personal information control posner criticizes privacy for concealing information which reduces market efficiency for posner employment is selling oneself in the labor market which he believes is like selling a product any defect in the product that is not reported is fraud for lessig privacy breaches online can be regulated through code and law lessig claims that the protection of privacy would be stronger if people conceived of the right as a property right and that individuals should be able to control information about themselves economic approaches to privacy make communal conceptions of privacy difficult to maintain
+
+adam d moore has argued that privacy the right to control access to and use of personal information is closely connected to human well being he notes that having the ability and authority to regulate access to and uses of locations bodies and personal information is an essential part of human flourishing and while the forms of privacy may be culturally relative the need for privacy is not
+
+there have been attempts to reframe privacy as a fundamental human right whose social value is an essential component for the functioning of democratic societies
+
+priscilla regan believes that individual concepts of privacy have failed philosophically and in policy she supports a social value of privacy with three dimensions shared perceptions public values and collective components shared ideas about privacy allow freedom of conscience and diversity in thought public values guarantee democratic participation including freedoms of speech and association and limit government power collective elements describe privacy as a collective good that cannot be divided regan s goal is to strengthen privacy claims in policy making if we did recognize the collective or public good value of privacy as well as the common and public value of privacy those advocating privacy protections would have a stronger basis upon which to argue for its protection
+
+leslie regan shade argues that the human right to privacy is necessary for meaningful democratic participation and ensures human dignity and autonomy privacy depends on norms for how information is distributed and if this is appropriate violations of privacy depend on context the human right to privacy has precedent in the united nations declaration of human rights shade believes that privacy must be approached from a people centered perspective and not through the marketplace
+
+privacy laws apply to both public and private sector actors
+
+australia does not have a constitutional right to privacy however the privacy act 1988 cth provides a degree of protection over an individual s personally identifiable information and its usage by the government and large companies the privacy act also outlines the 13 australian privacy principles
+
+australia also lacks a tort against invasions of privacy in the 2001 case of australian broadcasting corporation v lenah game meats pty ltd 208 clr 199 the high court of australia explained that there stood the possibility of a tort identified as unjustified invasion of privacy but that this case lacked the facts to establish it since 2001 there have been some state based cases namely the 2003 case grosse v purvis qdc 151 and the 2007 case doe v australian broadcasting corporation vcc 281 that attempted to establish a tortious invasion of privacy but these cases were settled before decisions could be made further they have received conflicting analyses in later cases
+
+canadian privacy law is derived from the common law statutes of the parliament of canada and the various provincial legislatures and the canadian charter of rights and freedoms perhaps ironically canada s legal conceptualization of privacy along with most modern legal western conceptions of privacy can be traced back to warren and brandeis s the right to privacy published in the harvard law review in 1890 holvast states almost all authors on privacy start the discussion with the famous article the right to privacy of samuel warren and louis brandeis
+
+the constitution is the highest law in china privacy rights have been applied throughout china the constitution provides direction for all states in china and it further stipulates that all states must abide by and be held accountable for any violation of the constitution and the law the law specifically protects civil rights of a citizen s personal dignity and confidentiality of correspondence china has a new standard and the first of its kind for the country coming into effect 1 january 2021 the civil code is the first of its kind sweeping law replacing all laws covering general provisions real property contracts personality rights marriage and family inheritance tort liability and supplementary provisions
+
+in many cases raised in the legal system these rights have been overlooked as the courts have not treated each case with the same legal precedent for each case china deploys mass surveillance on its population including through the use of closed circuit television
+
+the 2021 data security law classifies data into different categories and establishes corresponding levels of protection 131 it imposes significant data localization requirements in a response to the extraterritorial reach of the united states cloud act or similar foreign laws 250 251
+
+the 2021 personal information protection law is china s first comprehensive law on personal data rights and is modeled after the european union s general data protection regulation 131
+
+the right to privacy is protected in the eu by european convention on human rights article 8
+
+1 everyone has the right to respect for his private and family life his home and his correspondence
+
+2 there shall be no interference by a public authority with the exercise of this right except such as is in accordance with the law and is necessary in a democratic society in the interests of national security public safety or the economic well being of the country for the prevention of disorder or crime for the protection of health or morals or for the protection of the rights and freedoms of others
+
+european convention on human rights
+compared to the united states the european union eu has more extensive data protection laws
+
+the general data protection regulation gdpr is an important component of eu privacy law and of human rights law in particular article 8 1 of the charter of fundamental rights of the european union
+
+under gdpr data about persons independent from their citizenship may only be gathered or processed under specific cases and with certain conditions requirements of data controller parties under the gdpr include keeping records of their processing activities adopting data protection policies transparency with data subjects appointing a data protection officer and implementing technical safeguards to mitigate security risks citation needed
+
+the council of europe gathered to discuss the protection of individuals when the convention treaty no 108 was created and opened for signature by member states and for accession by non member states
+
+the convention closed and was then renamed convention 108 convention for the protection of individuals with regard to automatic processing of personal data
+
+convention 108 has undergone 5 ratifications with the last ratification 10 january 1985 officially changing the name to convention 108 and providing the summary stating the intent of the treaty as
+
+the first binding international instrument which protects the individual against abuses which may accompany the collection and processing of personal data and which seeks to regulate at the same time the transfrontier flow of personal data
+increase use of the internet and technological advancement in products lead to the council of europe to look at convention 108 and the relevance of the treaty in the wake of the changes
+
+in 2011 the modernization of convention 108 started and completed in 2012 amending the treaty with protocol cets no223
+
+this modernization of convention 108 was in progress while the eu data protection rules were developed the eu data protection rules would be adapted to become the gdpr
+
+the new data sharing policy of whatsapp with facebook after facebook acquired whatsapp in 2014 has been challenged in the supreme court the supreme court must decide if the right to privacy can be enforced against private entities
+
+the indian supreme court with nine judge bench under js khehar ruled on 24 august 2017 that the right to privacy is a fundamental right for indian citizens per article 21 of the constitution and additionally under part iii rights specifically the court adopted the three pronged test required for the encroachment of any article 21 right legality i e through an existing law necessity in terms of a legitimate state objective and proportionality that ensures a rational nexus between the object of the invasion and the means adopted to achieve that object
+
+this clarification was crucial to prevent the dilution of the right in the future on the whims and fancies of the government in power the court adopted a liberal interpretation of the fundamental rights to meet the challenges posed an increasing digital age it held that individual liberty must extend to digital spaces and individual autonomy and privacy must be protected
+
+this ruling by the supreme court paved the way for decriminalization of homosexuality in india on 6 september 2018 thus legalizing same sex sexual intercourse between two consenting adults in private india is the world s biggest democracy and with this ruling it has joined united states canada south africa the european union and the uk in recognizing this fundamental right
+
+india s data protection law is known as digital personal data protection act 2023 legal scholars such as arghya sengupta have written extensively on the implications of the supreme court s recognition of privacy as a fundamental right through both academic work and contributions at the vidhi centre for legal policy
+
+in israel privacy protection is a constitutional basic right and is therefore protected by the basic law basic law the knesset passed on 12 february 1958 by the third knesset the twelfth knesset update to the basic law occurred on 17 march 1992 this update added to the law human dignity and liberty by defining human freedom in israel as being the right to leave the country and enter it as well as the right to privacy and intimacy refrainment from searches relating to one s private property body and possessions and avoidance of violations of the privacy of one s speech writings and notes
+
+october 2006 israel established a regulatory authority the ppa part of the ministry of justice ppa defined the privacy law and associated regulates based on two principles general right to online privacy and the protection of personal data stored in databases
+
+new zealand is committed to the universal declaration of human rights and has ratified the international covenant on civil and political rights both of which contain a right to privacy privacy law in new zealand is dealt with by statute and the common law the privacy act 2020 addresses the collection storage and handling of information a general right to privacy has otherwise been created in the tort of privacy such a right was recognised in hosking v runting 3 nzlr 385 a case that dealt with publication of private facts in the subsequent case c v holland nzhc 2155 the court recognised a right to privacy in the sense of seclusion or a right to be free from unwanted intrusion note 1
+
+the constitution of the russian federation article 45 states
+
+the russian constitution specifically articles 23 and 24 institutes individual citizen the right to privacy russia a member of the strasbourg convention ratified processing of personal data against automatic processing and afterwards adopted a new convention the new russian federal law no 152 fz r implemented on 27 july 2006 was updated to cover personal data and this law extends privacy to include personal and family secrets its main target is to protect individuals personal data
+
+privacy entered the forefront of russian legislature in 2014 when the approach to privacy turned to the goal of protecting privacy of government operations and the people of russia the amendments originally modified the personal data law which has since been renamed the data localisation law the new law requires business operators who collect any information on russian citizens must maintain the collected data locally this means that data transmission processing and storage must be in a database in russia 1 march 2021 the new amendment came into effect consent from the data subject is required if the data operator wants to use the data publicly
+
+the constitution of the united states and the united states bill of rights do not explicitly include a right to privacy
+
+in the us the right of marital privacy was recognized by the supreme court in griswold v connecticut 381 u s 479 1965 as falling within the penumbra of the bill of rights
+
+in 1890 warren and brandeis drafted an article published in the harvard law review titled the right to privacy that is often cited as the first implicit finding of a u s stance on the right to privacy
+
+right to privacy has been the justification for decisions involving a wide range of civil liberties cases including pierce v society of sisters which invalidated a successful 1922 oregon initiative requiring compulsory public education roe v wade which struck down an abortion law from texas and thus restricted state powers to enforce laws against abortion and lawrence v texas which struck down a texas sodomy law and thus eliminated state powers to enforce laws against sodomy dobbs v jackson women s health organization later overruled roe v wade in part due to the supreme court finding that the right to privacy was not mentioned in the constitution leaving the future validity of these decisions uncertain
+
+legally the right of privacy is a basic law which includes
+
+however outside of recognized private locations american law for the most part grants next to no privacy for those in public areas in other words no verbal or written consent is needed to take photos or videos of those in public areas this laxness extends to potentially embarrassing situations such as when actress jennifer garner bent over to retrieve something from her car and revealed her underwear to create a whale tail because the photographer took the photo in a public location in this case a pumpkin patch circulating the photo online was a legal act
+
+for the health care sector where medical records are part of an individual s privacy the privacy rule of the health insurance portability and accountability act was passed in 1996 this act safeguards medical data of the patient which also includes giving individuals rights over their health information like getting a copy of their records and seeking correction medical anthropologist khiara bridges has argued that the us medicare system requires so much personal disclosure from pregnant women that they effectively do not have privacy rights
+
+in 2018 california set out to create a policy promoting data protection the first state in the united states to pursue such protection the resulting effort is the california consumer privacy act ccpa reviewed as a critical juncture where the legal definition of what privacy entails from california lawmakers perspective the california consumer protection act is a privacy law protecting the residents of california and their personal identifying information the law enacts regulation over all companies regardless of operational geography protecting the six intentional acts included in the law
+
+the intentions included in the act provide california residents with the right to
+
+governmental organizations such as the national security agency nsa cia and gchq amongst others are authorized to conduct mass surveillance throughout other nations in the world programs such as prism mystic and other operations conducted by nato member states are capable of collecting a vast quantity of metadata internet history and even actual recordings of phone calls from various countries domestic law enforcement at the federal level is conducted by the federal bureau of investigation so these agencies have never been authorized to collect us data prism has faced criticism for privacy concerns in that it collects metadata and communication content however scholars have argued that programs like prism do more good than harm in that they protect americans from foreign threats
+
+after the september 11 attacks the nsa turned its surveillance apparatus on the us and its citizens
+
+in march 2013 james clapper the director of national intelligence at the time testified under oath that the nsa does not wittingly collect data on americans clapper later retracted this statement
+
+the us government s own privacy and civil liberties oversight board pclob reviewed the confidential security documents and found in 2014 that the program did not have a single instance involving a threat to the united states in which the program made a concrete difference in counterterrorism or the disruption of a terrorist attack
+
+the chinese government is conducting mass surveillance in xinjiang province for detention of muslims as part of its strike hard campaign against violent terrorism policy the authorities in china have subjugated 13 million turkish muslims to the highest order of restrictions
+
+during the covid 19 pandemic the chinese authorities documented the contact information and travel history of every individual and issued red yellow and green badges codes for transportation and entering stores these badges codes were also sometimes misused to freeze bank accounts and pressurize the protestors who were angry about the severe restrictions the privacy of these health codes remain unacknowledged and unaddressed
+
+it is often claimed particularly by those in the eye of the media that their right to privacy is violated when information about their private lives is reported in the press the point of view of the press however is that the general public has a right to know personal information about those with status as a public figure this distinction is encoded in most legal traditions as an element of freedom of speech
+
+publication of private facts speaks of the newsworthiness of private facts according to the law and the protections that private facts have if a fact has significant newsworthiness to the public it is protected by law under the freedom of the press however even if the fact is true if it is not newsworthy it is not necessarily protected digital media law project uses examples such as sexual orientation hiv status and financial status to show that these can be publicly detrimental to the figure being posted about the problem arises from the definition of newsworthiness
+
+according to digital media law project the courts will usually side with the press in the publication of private facts this helps to uphold the freedom of the press in the us constitution there is a legitimate public interest in nearly all recent events as well as in the private lives of prominent figures such as movie stars politicians and professional athletes digital media law project supports these statements with citations to specific cases while most recent events and prominent figures are considered newsworthy it cannot go too far and too deep with a morbid curiosity the media gain a lot of leverage once a person becomes a prominent figure and many things about their lives become newsworthy multiple cases such as strutner v dispatch printing co 442 n e 2d 129 ohio ct app 1982 show that the publication of a person s home address and full name who is being questioned by the police is valid and a newsworthy item of legitimate public concern the last part to consider is whether this could be considered a form of doxxing with the court upholding the newspaper s right to publish this is much harder to change in the future newsworthiness has much around it that is held up by court rulings and case law this is not in legislation but is created through the courts as many other laws and practices are these are still judged on a case by case basis as they are often settled through a lawsuit of some form while there is a fair amount of case law supporting newsworthiness of subjects it is hardly comprehensive and news publications can publish things not covered and defend themselves in court for their right to publish these facts
+
+private sector actors can also threaten the right to privacy particularly technology companies such as amazon apple facebook google and yahoo that use and collect personal data these private sector threats are more acute due to ai data processing
+
+in some american jurisdictions the use of a person s name as a keyword under google s adwords for advertising or trade purposes without the person s consent has raised certain personal privacy concerns the right to privacy and social media content laws have been considered and enacted in several states such as california s online erasure law protecting minors from leaving a digital trail state laws such as the cppa in california have granted more comprehensive protection
+
+however the united states is lagging behind european union countries in protecting privacy online for example the right to be forgotten ruling by the eu court of justice protects both adults and minors the general data protection regulation has made significant progress to protect privacy from these risks and it has led to a wave of privacy and data protection laws around the world
+
+privacy is a major issue in the health care sector with technology becoming an essential component of it connecting personal data of patients to internet makes them vulnerable to cyber attacks there are also concerns about how much data should be stored and who should have access to it
+
+laws and courts in the uk uphold the protection of minors in the journalistic space the independent press standards organisation ipso in the uk have shown that the usage of footage of a 12 year old girl being bullied in 2017 can be retroactively taken down due to fears of cyber bullying and potential harm done to the child in the future this was after the mail online published the video without any attempt to hide the identity of the child following the newsworthiness point it is possible that content like this would be allowed in the united states due to the recentness of the event protection of minors is a different matter in the united states with new stories about minors doing certain things and their faces are shown in a news publication the detroit free press as an example chose to do a hard hitting story about prostitution and drugs from a teenager but never named her or showed her face only referring to her and the 16 year old from taylor in the uk during the case of campbell v mgn lord hope stated that the protection of minors will be handled on a case by case basis and affected by the child s awareness of the photo and their expectation of privacy many factors will be considered such as the age of the children activity usage of real names etc
+
+the protection of minors in the united states often falls on the shoulders of the children s online privacy protection act coppa this protects any children under the age of 13 from the collection of their data without their parent s or guardian s permission this law is the reason why many sites will ask if you are under 13 or require you to be 13 to sign up while this law is intended to protect preteen children it fails to protect the information of anyone older than 13 including teenage minors it also begins to overlap with other privacy protection laws such as the health insurance portability and accountability act hipaa

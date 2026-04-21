@@ -1,0 +1,93 @@
+in probability and statistics a realization or observation also called observed value of a random variable or random element is the value that is actually observed or measured for example if the random variable is human height a given realization could be 2 meters the random variable itself is the process dictating how the observation comes about statistical quantities computed from realizations without deploying a statistical model are often called empirical as in empirical distribution function or empirical probability
+conventionally to avoid confusion upper case letters denote random variables and the corresponding lower case letters denote their realizations
+
+in probability theory a random variable is a function
+
+
+
+x
+
+
+displaystyle x
+
+defined from a sample space
+
+
+
+ω
+
+
+displaystyle omega
+
+to another measurable space called the state space a if an element in
+
+
+
+ω
+
+
+displaystyle omega
+
+is mapped to an element in state space by
+
+
+
+x
+
+
+displaystyle x
+
+then that element in state space is a realization that is at a point
+
+
+
+ω
+
+ω
+
+
+displaystyle omega in omega
+
+the value
+
+
+
+x
+
+x
+
+ω
+
+
+
+displaystyle x x omega
+
+is called a realization of
+
+
+
+x
+
+
+displaystyle x
+
+
+
+elements of the sample space can be thought of as all the different possibilities that could happen while a realization an element of the state space can be thought of as the value
+
+
+
+x
+
+
+displaystyle x
+
+attains when one of the possibilities did happen probability is a mapping that assigns numbers between zero and one to certain subsets of the sample space namely the measurable subsets known here as events subsets of the sample space that contain only one element are called elementary events
+
+in probability and statistics a random variate or simply variate is a particular outcome or realization of a random variable the random variates which are other outcomes of the same random variable might have different values random numbers or other random symbols or labels random variates are used when simulating processes driven by random influences stochastic processes
+
+devroye defines a random variate generation algorithm for real numbers as follows
+
+note that both assumptions are violated in most real computers computers necessarily lack the ability to manipulate real numbers typically using floating point representations instead most computers lack a source of true randomness like certain hardware random number generators and instead use pseudorandom number sequences
+
+the distinction between random variable and random variate is subtle and is not always made in the literature it is useful when one wants to distinguish between a random variable itself with an associated probability distribution on the one hand and random draws from that probability distribution on the other in particular when those draws are ultimately derived by floating point arithmetic from a pseudo random sequence

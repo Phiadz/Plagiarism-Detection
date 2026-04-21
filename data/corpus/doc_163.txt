@@ -1,0 +1,27 @@
+data preparation is the act of manipulating or pre processing raw data which may come from disparate data sources into a form that can be readily and accurately analysed e g for business purposes
+
+data preparation is the first step in data analytics projects and can include many discrete tasks such as loading data or data ingestion data fusion data cleaning data augmentation and data delivery
+
+the issues to be dealt with fall into two main categories
+
+the first step is to set out a full and detailed specification of the format of each data field and what the entries mean this should take careful account of
+
+see also data definition specification
+
+suppose there is a two character alphabetic field that indicates geographical location it is possible that in one data source a code ee means europe and in another data source the same code means estonia one would need to devise an unambiguous set of codes and amend the code in one set of records accordingly
+
+furthermore the geographical area might refer to any of e g delivery address billing address address from which goods supplied billing currency or applicable national regulations all these matters must be covered in the specification
+
+there could be some records with x or 555 in that field clearly this is invalid data as it does not conform to the specification if there are only small numbers of such records one would either correct them manually or if precision is not important simply delete those records from the file another possibility would be to create a not known category
+
+where possible and economic data should be verified against an authoritative source e g business information is referenced against a d b database to ensure accuracy
+
+given the variety of data sources e g databases business applications that provide data and formats that data can arrive in data preparation can be quite involved and complex there are many tools and technologies that are used for data preparation the cost of cleaning the data should always be balanced against the value of the improved accuracy
+
+traditional tools and technologies such as scripting languages or extract transform load etl and data quality tools are not meant for business users they typically require programming or it skills that most business users don t have citation needed
+
+several companies such as paxata trifacta alteryx talend and ataccama provide visual interfaces that display the data and allow the user to directly explore structure clean augment and update sample data provided by the user
+
+once the preparation work is complete the underlying steps can be run on other datasets to perform the same operations this reuse provides a significant productivity boost when compared to more traditional manual and hand coding methods for data preparation
+
+the specifics of the data preparation process vary by industry organization and need but the workflow remains largely the same

@@ -1,0 +1,2143 @@
+in the field of machine learning the universal approximation theorems uats state that neural networks with a certain structure can in principle approximate any continuous function to any desired degree of accuracy these theorems provide a mathematical justification for using neural networks assuring researchers that a sufficiently large or deep network can model the complex non linear relationships often found in real world data
+
+the best known version of the theorem applies to feedforward networks with a single hidden layer it states that if the layer s activation function is non polynomial which is true for common choices like the sigmoid function or relu then the network can act as a universal approximator universality is achieved by increasing the number of neurons in the hidden layer making the network wider other versions of the theorem show that universality can also be achieved by keeping the network s width fixed but increasing its number of layers making it deeper
+
+these are existence theorems they guarantee that a network with the right structure exists but they do not provide a method for finding the network s parameters training it nor do they specify exactly how large the network must be for a given function finding a suitable network remains a practical challenge that is typically addressed with optimization algorithms like backpropagation
+
+artificial neural networks are combinations of multiple simple mathematical functions that implement more complicated functions from typically real valued vectors to real valued vectors the spaces of multivariate functions that can be implemented by a network are determined by the structure of the network the set of simple functions and its multiplicative parameters a great deal of theoretical work has gone into characterizing these function spaces
+
+most universal approximation theorems are in one of two classes the first quantifies the approximation capabilities of neural networks with an arbitrary number of artificial neurons arbitrary width case and the second focuses on the case with an arbitrary number of hidden layers each containing a limited number of artificial neurons arbitrary depth case in addition to these two classes there are also universal approximation theorems for neural networks with bounded number of hidden layers and a limited number of neurons in each layer bounded depth and bounded width case
+
+the first examples were the arbitrary width case
+ken ichi funahashi showed in may 1989 that rumelhart hinton williams type backpropagation networks possess universal approximation capability with sigmoid activation function extending the result to multi output mappings as well kurt hornik de maxwell stinchcombe and halbert white showed in july 1989 that multilayer feed forward networks with as few as one hidden layer are universal approximators provided that the activation function satisfies certain conditions
+subsequently george cybenko in december 1989 proved it for sigmoid activation functions in a different journal
+hornik also showed in 1991 that it is not the specific choice of the activation function but rather the multilayer feed forward architecture itself that gives neural networks the potential of being universal approximators moshe leshno et al in 1993 and later allan pinkus in 1999 showed that the universal approximation property is equivalent to having a nonpolynomial activation function
+
+the arbitrary depth case was also studied by a number of authors such as gustaf gripenberg in 2003 dmitry yarotsky zhou lu et al in 2017 boris hanin and mark sellke in 2018 who focused on neural networks with relu activation function in 2020 patrick kidger and terry lyons extended those results to neural networks with general activation functions such e g tanh or gelu
+
+one special case of arbitrary depth is that each composition component comes from a finite set of mappings in 2024 cai constructed a finite set of mappings named a vocabulary such that any continuous function can be approximated by compositing a sequence from the vocabulary this is similar to the concept of compositionality in linguistics which is the idea that a finite vocabulary of basic elements can be combined via grammar to express an infinite range of meanings
+
+the bounded depth and bounded width case was first studied by maiorov and pinkus in 1999 they showed that there exists an analytic sigmoidal activation function such that two hidden layer neural networks with bounded number of units in hidden layers are universal approximators
+
+in 2018 guliyev and ismailov constructed a smooth sigmoidal activation function providing universal approximation property for two hidden layer feedforward neural networks with less units in hidden layers in 2018 they also constructed single hidden layer networks with bounded width that are still universal approximators for univariate functions however this does not apply for multivariable functions
+
+in 2022 shen et al obtained precise quantitative information on the depth and width required to approximate a target function by deep and wide relu neural networks
+
+the question of minimal possible width for universality was first studied in 2021 park et al obtained the minimum width required for the universal approximation of lp functions using feed forward neural networks with relu as activation functions similar results that can be directly applied to residual neural networks were also obtained in the same year by paulo tabuada and bahman gharesifard using control theoretic arguments in 2023 cai obtained the optimal minimum width bound for the universal approximation
+
+for the arbitrary depth case leonie papon and anastasis kratsios derived explicit depth estimates depending on the regularity of the target function and of the activation function
+
+the kolmogorov arnold representation theorem is similar in spirit indeed certain neural network families can directly apply the kolmogorov arnold theorem to yield a universal approximation theorem robert hecht nielsen showed that a three layer neural network can approximate any continuous multivariate function this was extended to the discontinuous case by vugar ismailov in 2024 ziming liu and co authors showed a practical application
+
+in reservoir computing a sparse recurrent neural network with fixed weights equipped of fading memory and echo state property is followed by a trainable output layer its universality has been demonstrated separately for what concerns networks of rate neurons and spiking neurons respectively in 2024 the framework has been generalized and extended to quantum reservoirs where the reservoir is based on qubits defined over hilbert spaces
+
+variants include discontinuous activation functions noncompact domains certifiable networks
+random neural networks and alternative network architectures and topologies
+
+the universal approximation property of width bounded networks has been studied as a dual of classical universal approximation results on depth bounded networks for input dimension
+
+
+
+
+d
+
+x
+
+
+
+
+displaystyle d_ x
+
+and output dimension
+
+
+
+
+d
+
+y
+
+
+
+
+displaystyle d_ y
+
+the minimum width required for the universal approximation of the lp functions is exactly
+
+
+
+m
+a
+x
+
+
+d
+
+x
+
+
+
+1
+
+
+d
+
+y
+
+
+
+
+
+displaystyle max d_ x 1 d_ y
+
+for a relu network more generally this also holds if both relu and a threshold activation function are used
+
+universal function approximation on graphs or rather on graph isomorphism classes by popular graph convolutional neural networks gcns or gnns can be made as discriminative as the weisfeiler leman graph isomorphism test in 2020 a universal approximation theorem result was established by brüel gabrielsson showing that graph representation with certain injective properties is sufficient for universal function approximation on bounded graphs and restricted universal function approximation on unbounded graphs with an accompanying
+
+
+
+
+
+o
+
+
+
+
+
+v
+
+
+
+
+
+e
+
+
+
+
+
+displaystyle mathcal o left v right cdot left e right
+
+runtime method that performed at state of the art on a collection of benchmarks where
+
+
+
+v
+
+
+displaystyle v
+
+and
+
+
+
+e
+
+
+displaystyle e
+
+are the sets of nodes and edges of the graph respectively
+
+there are also a variety of results between non euclidean spaces and other commonly used architectures and more generally algorithmically generated sets of functions such as the convolutional neural network cnn architecture radial basis functions or neural networks with specific properties
+
+a universal approximation theorem formally states that a family of neural network functions is a dense set within a larger space of functions they are intended to approximate in more direct terms for any function
+
+
+
+f
+
+
+displaystyle f
+
+from a given function space there exists a sequence of neural networks
+
+
+
+
+ϕ
+
+1
+
+
+
+
+ϕ
+
+2
+
+
+
+
+
+
+displaystyle phi _ 1 phi _ 2 dots
+
+from the family such that
+
+
+
+
+ϕ
+
+n
+
+
+
+f
+
+
+displaystyle phi _ n to f
+
+according to some criterion
+
+
+a spate of papers in the 1980s 1990s from george cybenko and kurt hornik de etc established several universal approximation theorems for arbitrary width and bounded depth see for reviews the following is the most often quoted
+universal approximation theorem let
+
+
+
+c
+
+x
+
+
+
+r
+
+
+m
+
+
+
+
+
+displaystyle c x mathbb r m
+
+denote the set of continuous functions from a subset
+
+
+
+x
+
+
+displaystyle x
+
+of a euclidean
+
+
+
+
+
+r
+
+
+n
+
+
+
+
+displaystyle mathbb r n
+
+space to a euclidean space
+
+
+
+
+
+r
+
+
+m
+
+
+
+
+displaystyle mathbb r m
+
+let
+
+
+
+σ
+
+c
+
+
+r
+
+
+
+r
+
+
+
+
+displaystyle sigma in c mathbb r mathbb r
+
+note that
+
+
+
+
+σ
+
+x
+
+
+
+i
+
+
+
+σ
+
+
+x
+
+i
+
+
+
+
+
+displaystyle sigma circ x _ i sigma x_ i
+
+so
+
+
+
+σ
+
+x
+
+
+displaystyle sigma circ x
+
+denotes
+
+
+
+σ
+
+
+displaystyle sigma
+
+applied to each component of
+
+
+
+x
+
+
+displaystyle x
+
+
+
+then
+
+
+
+σ
+
+
+displaystyle sigma
+
+is not polynomial if and only if for every
+
+
+
+n
+
+
+n
+
+
+
+displaystyle n in mathbb n
+
+
+
+
+
+m
+
+
+n
+
+
+
+displaystyle m in mathbb n
+
+compact
+
+
+
+k
+
+
+
+r
+
+
+n
+
+
+
+
+displaystyle k subseteq mathbb r n
+
+
+
+
+
+f
+
+c
+
+k
+
+
+
+r
+
+
+m
+
+
+
+
+ε
+
+0
+
+
+displaystyle f in c k mathbb r m varepsilon 0
+
+there exist
+
+
+
+k
+
+
+n
+
+
+
+displaystyle k in mathbb n
+
+
+
+
+
+a
+
+
+
+r
+
+
+k
+
+n
+
+
+
+
+displaystyle a in mathbb r k times n
+
+
+
+
+
+b
+
+
+
+r
+
+
+k
+
+
+
+
+displaystyle b in mathbb r k
+
+
+
+
+
+c
+
+
+
+r
+
+
+m
+
+k
+
+
+
+
+displaystyle c in mathbb r m times k
+
+such that
+
+
+
+
+
+sup
+
+x
+
+k
+
+
+
+f
+
+x
+
+
+g
+
+x
+
+
+
+ε
+
+
+displaystyle sup _ x in k f x g x varepsilon
+
+
+where
+
+
+
+
+g
+
+x
+
+
+c
+
+
+σ
+
+
+a
+
+x
+
+b
+
+
+
+
+displaystyle g x c cdot sigma circ a cdot x b
+
+
+
+also certain non continuous activation functions such as the step function can be approximated by continuous activation functions which then allows the approximation result to apply to those functions in particular this shows that a perceptron network with a single infinitely wide hidden layer can approximate arbitrary functions
+
+such an
+
+
+
+f
+
+
+displaystyle f
+
+can also be approximated by a network of greater depth by using the same construction for the first layer and approximating the identity function with later layers
+
+it suffices to prove the case where
+
+
+
+m
+
+1
+
+
+displaystyle m 1
+
+since uniform convergence in
+
+
+
+
+
+r
+
+
+m
+
+
+
+
+displaystyle mathbb r m
+
+is just uniform convergence in each coordinate
+
+let
+
+
+
+
+f
+
+σ
+
+
+
+
+displaystyle f_ sigma
+
+be the set of all one hidden layer neural networks constructed with
+
+
+
+σ
+
+
+displaystyle sigma
+
+let
+
+
+
+
+c
+
+0
+
+
+
+
+
+r
+
+
+d
+
+
+
+
+r
+
+
+
+
+displaystyle c_ 0 mathbb r d mathbb r
+
+be the set of all
+
+
+
+c
+
+
+
+r
+
+
+d
+
+
+
+
+r
+
+
+
+
+displaystyle c mathbb r d mathbb r
+
+with compact support
+
+if the function is a polynomial of degree
+
+
+
+d
+
+
+displaystyle d
+
+then
+
+
+
+
+f
+
+σ
+
+
+
+
+displaystyle f_ sigma
+
+is contained in the closed subspace of all polynomials of degree
+
+
+
+d
+
+
+displaystyle d
+
+so its closure is also contained in it which is not all of
+
+
+
+
+c
+
+0
+
+
+
+
+
+r
+
+
+d
+
+
+
+
+r
+
+
+
+
+displaystyle c_ 0 mathbb r d mathbb r
+
+
+
+otherwise we show that
+
+
+
+
+f
+
+σ
+
+
+
+
+displaystyle f_ sigma
+
+s closure is all of
+
+
+
+
+c
+
+0
+
+
+
+
+
+r
+
+
+d
+
+
+
+
+r
+
+
+
+
+displaystyle c_ 0 mathbb r d mathbb r
+
+suppose we can construct arbitrarily good approximations of the ramp function
+
+
+
+
+r
+
+x
+
+
+
+
+
+
+
+
+
+1
+
+
+
+if
+
+x
+
+
+1
+
+
+
+
+
+
+
+
+
+
+
+x
+
+
+
+if
+
+
+
+
+x
+
+
+
+
+1
+
+
+
+
+
+
+
+
+
+
+
+1
+
+
+
+if
+
+x
+
+1
+
+
+
+
+
+
+
+
+displaystyle r x begin cases 1 text if x 1 phantom x text if x leq 1 phantom 1 text if x 1 end cases
+
+
+then it can be combined to construct arbitrary compactly supported continuous function to arbitrary precision it remains to approximate the ramp function
+
+any of the commonly used activation functions used in machine learning can obviously be used to approximate the ramp function or first approximate the relu then the ramp function
+
+if
+
+
+
+σ
+
+
+displaystyle sigma
+
+is squashing that is it has limits
+
+
+
+σ
+
+
+
+
+
+σ
+
+
+
+
+
+
+displaystyle sigma infty sigma infty
+
+then one can first affinely scale down its x axis so that its graph looks like a step function with two sharp overshoots then make a linear sum of enough of them to make a staircase approximation of the ramp function with more steps of the staircase the overshoots smooth out and we get arbitrarily good approximation of the ramp function
+
+the case where
+
+
+
+σ
+
+
+displaystyle sigma
+
+is a generic non polynomial function is harder and the reader is directed to
+
+the above proof has not specified how one might use a ramp function to approximate arbitrary functions in
+
+
+
+
+c
+
+0
+
+
+
+
+
+r
+
+
+n
+
+
+
+
+r
+
+
+
+
+displaystyle c_ 0 mathbb r n mathbb r
+
+a sketch of the proof is that one can first construct flat bump functions intersect them to obtain spherical bump functions that approximate the dirac delta function then use those to approximate arbitrary functions in
+
+
+
+
+c
+
+0
+
+
+
+
+
+r
+
+
+n
+
+
+
+
+r
+
+
+
+
+displaystyle c_ 0 mathbb r n mathbb r
+
+the original proofs such as the one by cybenko use methods from functional analysis including the hahn banach and riesz markov kakutani representation theorems cybenko first published the theorem in a technical report in 1988 then as a paper in 1989
+
+notice also that the neural network is only required to approximate within a compact set
+
+
+
+k
+
+
+displaystyle k
+
+the proof does not describe how the function would be extrapolated outside of the region
+
+the problem with polynomials may be removed by allowing the outputs of the hidden layers to be multiplied together the pi sigma networks yielding the generalization
+
+universal approximation theorem for pi sigma networks with any nonconstant activation function a one hidden layer pi sigma network is a universal approximator
+
+the dual versions of the theorem consider networks of bounded width and arbitrary depth a variant of the universal approximation theorem was proved for the arbitrary depth case by zhou lu et al in 2017 they showed that networks of width n 4 with relu activation functions can approximate any lebesgue integrable function on n dimensional input space with respect to
+
+
+
+
+l
+
+1
+
+
+
+
+displaystyle l 1
+
+distance if network depth is allowed to grow it was also shown that if the width was less than or equal to n this general expressive power to approximate any lebesgue integrable function was lost in the same paper it was shown that relu networks with width n 1 were sufficient to approximate any continuous function of n dimensional input variables the following refinement specifies the optimal minimum width for which such an approximation is possible and is due to
+
+universal approximation theorem l1 distance relu activation arbitrary depth minimal width for any bochner lebesgue p integrable function
+
+
+
+f
+
+
+
+r
+
+
+n
+
+
+
+
+
+r
+
+
+m
+
+
+
+
+displaystyle f mathbb r n to mathbb r m
+
+and any
+
+
+
+ε
+
+0
+
+
+displaystyle varepsilon 0
+
+there exists a fully connected relu network
+
+
+
+f
+
+
+displaystyle f
+
+of width exactly
+
+
+
+
+d
+
+m
+
+
+
+max
+
+n
+
+1
+
+m
+
+
+
+displaystyle d_ m max n 1 m
+
+satisfying
+
+
+
+
+
+
+
+
+
+r
+
+
+n
+
+
+
+
+
+f
+
+x
+
+
+f
+
+x
+
+
+
+
+p
+
+
+
+
+d
+
+x
+
+ε
+
+
+
+displaystyle int _ mathbb r n f x f x p mathrm d x varepsilon
+
+
+moreover there exists a function
+
+
+
+f
+
+
+l
+
+p
+
+
+
+
+
+r
+
+
+n
+
+
+
+
+
+r
+
+
+m
+
+
+
+
+
+displaystyle f in l p mathbb r n mathbb r m
+
+and some
+
+
+
+ε
+
+0
+
+
+displaystyle varepsilon 0
+
+for which there is no fully connected relu network of width less than
+
+
+
+
+d
+
+m
+
+
+
+max
+
+n
+
+1
+
+m
+
+
+
+displaystyle d_ m max n 1 m
+
+satisfying the above approximation bound
+
+remark if the activation is replaced by leaky relu and the input is restricted in a compact domain then the exact minimum width is
+
+
+
+
+d
+
+m
+
+
+
+max
+
+n
+
+m
+
+2
+
+
+
+displaystyle d_ m max n m 2
+
+
+
+quantitative refinement in the case where
+
+
+
+f
+
+
+0
+
+1
+
+
+
+n
+
+
+
+
+r
+
+
+
+displaystyle f 0 1 n rightarrow mathbb r
+
+i e
+
+
+
+m
+
+1
+
+
+displaystyle m 1
+
+and
+
+
+
+σ
+
+
+displaystyle sigma
+
+is the relu activation function the exact depth and width for a relu network to achieve
+
+
+
+ε
+
+
+displaystyle varepsilon
+
+error is also known if moreover the target function
+
+
+
+f
+
+
+displaystyle f
+
+is smooth then the required number of layer and their width can be exponentially smaller even if
+
+
+
+f
+
+
+displaystyle f
+
+is not smooth the curse of dimensionality can be broken if
+
+
+
+f
+
+
+displaystyle f
+
+admits additional compositional structure
+
+together the central result of yields the following universal approximation theorem for networks with bounded width see also for the first result of this kind
+
+universal approximation theorem uniform non affine activation arbitrary depth constrained width let
+
+
+
+
+
+x
+
+
+
+
+displaystyle mathcal x
+
+be a compact subset of
+
+
+
+
+
+r
+
+
+d
+
+
+
+
+displaystyle mathbb r d
+
+let
+
+
+
+σ
+
+
+r
+
+
+
+r
+
+
+
+displaystyle sigma mathbb r to mathbb r
+
+be any non affine continuous function which is continuously differentiable at at least one point with nonzero derivative at that point let
+
+
+
+
+
+
+n
+
+
+
+d
+
+d
+
+d
+
+d
+
+2
+
+
+σ
+
+
+
+
+displaystyle mathcal n _ d d d d 2 sigma
+
+denote the space of feed forward neural networks with
+
+
+
+d
+
+
+displaystyle d
+
+input neurons
+
+
+
+d
+
+
+displaystyle d
+
+output neurons and an arbitrary number of hidden layers each with
+
+
+
+d
+
+d
+
+2
+
+
+displaystyle d d 2
+
+neurons such that every hidden neuron has activation function
+
+
+
+σ
+
+
+displaystyle sigma
+
+and every output neuron has the identity as its activation function with input layer
+
+
+
+ϕ
+
+
+displaystyle phi
+
+and output layer
+
+
+
+ρ
+
+
+displaystyle rho
+
+then given any
+
+
+
+ε
+
+0
+
+
+displaystyle varepsilon 0
+
+and any
+
+
+
+f
+
+c
+
+
+
+x
+
+
+
+
+
+r
+
+
+d
+
+
+
+
+
+displaystyle f in c mathcal x mathbb r d
+
+there exists
+
+
+
+
+
+
+f
+
+
+
+
+
+
+
+
+n
+
+
+
+d
+
+d
+
+d
+
+d
+
+2
+
+
+σ
+
+
+
+
+displaystyle hat f in mathcal n _ d d d d 2 sigma
+
+such that
+
+
+
+
+
+sup
+
+x
+
+
+
+x
+
+
+
+
+
+
+
+
+
+
+f
+
+
+
+
+
+x
+
+
+f
+
+x
+
+
+
+
+
+ε
+
+
+
+displaystyle sup _ x in mathcal x left hat f x f x right varepsilon
+
+
+
+in other words
+
+
+
+
+
+n
+
+
+
+
+displaystyle mathcal n
+
+is dense in
+
+
+
+c
+
+
+
+x
+
+
+
+
+
+r
+
+
+d
+
+
+
+
+
+displaystyle c mathcal x mathbb r d
+
+with respect to the topology of uniform convergence
+
+quantitative refinement the number of layers and the width of each layer required to approximate
+
+
+
+f
+
+
+displaystyle f
+
+to
+
+
+
+ε
+
+
+displaystyle varepsilon
+
+precision known moreover the result hold true when
+
+
+
+
+
+x
+
+
+
+
+displaystyle mathcal x
+
+and
+
+
+
+
+
+r
+
+
+d
+
+
+
+
+displaystyle mathbb r d
+
+are replaced with any non positively curved riemannian manifold
+
+certain necessary conditions for the bounded width arbitrary depth case have been established but there is still a gap between the known sufficient and necessary conditions
+
+the first result on approximation capabilities of neural networks with bounded number of layers each containing a limited number of artificial neurons was obtained by maiorov and pinkus their remarkable result revealed that such networks can be universal approximators and for achieving this property two hidden layers are enough
+
+universal approximation theorem there exists an activation function
+
+
+
+σ
+
+
+displaystyle sigma
+
+which is analytic strictly increasing and sigmoidal and has the following property for any
+
+
+
+f
+
+c
+
+0
+
+1
+
+
+
+d
+
+
+
+
+displaystyle f in c 0 1 d
+
+and
+
+
+
+ε
+
+0
+
+
+displaystyle varepsilon 0
+
+there exist constants
+
+
+
+
+d
+
+i
+
+
+
+
+c
+
+i
+j
+
+
+
+
+θ
+
+i
+j
+
+
+
+
+γ
+
+i
+
+
+
+
+displaystyle d_ i c_ ij theta _ ij gamma _ i
+
+and vectors
+
+
+
+
+
+w
+
+
+i
+j
+
+
+
+
+
+r
+
+
+d
+
+
+
+
+displaystyle mathbf w ij in mathbb r d
+
+for which
+
+
+
+
+
+
+
+f
+
+
+x
+
+
+
+
+
+
+i
+
+1
+
+
+6
+d
+
+3
+
+
+
+d
+
+i
+
+
+σ
+
+
+
+
+
+
+j
+
+1
+
+
+3
+d
+
+
+
+c
+
+i
+j
+
+
+σ
+
+
+
+w
+
+
+i
+j
+
+
+
+
+x
+
+
+
+θ
+
+i
+j
+
+
+
+
+
+γ
+
+i
+
+
+
+
+
+
+
+
+
+ε
+
+
+displaystyle left vert f mathbf x sum _ i 1 6d 3 d_ i sigma left sum _ j 1 3d c_ ij sigma mathbf w ij cdot mathbf x theta _ ij gamma _ i right right vert varepsilon
+
+
+for all
+
+
+
+
+x
+
+
+
+
+x
+
+1
+
+
+
+
+
+
+
+
+x
+
+d
+
+
+
+
+
+0
+
+1
+
+
+
+d
+
+
+
+
+displaystyle mathbf x x_ 1 x_ d in 0 1 d
+
+
+
+this is an existence result it says that activation functions providing universal approximation property for bounded depth bounded width networks exist using certain algorithmic and computer programming techniques guliyev and ismailov efficiently constructed such activation functions depending on a numerical parameter the developed algorithm allows one to compute the activation functions at any point of the real axis instantly for the algorithm and the corresponding computer code see the theoretical result can be formulated as follows
+
+universal approximation theorem let
+
+
+
+
+a
+
+b
+
+
+
+displaystyle a b
+
+be a finite segment of the real line
+
+
+
+s
+
+b
+
+a
+
+
+displaystyle s b a
+
+and
+
+
+
+λ
+
+
+displaystyle lambda
+
+be any positive number then one can algorithmically construct a computable sigmoidal activation function
+
+
+
+σ
+
+
+r
+
+
+
+r
+
+
+
+displaystyle sigma colon mathbb r to mathbb r
+
+which is infinitely differentiable strictly increasing on
+
+
+
+
+
+
+
+s
+
+
+
+displaystyle infty s
+
+
+
+
+
+λ
+
+
+displaystyle lambda
+
+strictly increasing on
+
+
+
+
+s
+
+
+
+
+
+
+displaystyle s infty
+
+and satisfies the following properties
+
+here
+
+
+
+σ
+
+
+r
+
+
+
+r
+
+
+
+displaystyle sigma colon mathbb r to mathbb r
+
+is
+
+
+
+λ
+
+
+displaystyle lambda
+
+strictly increasing on some set
+
+
+
+x
+
+
+displaystyle x
+
+means that there exists a strictly increasing function
+
+
+
+u
+
+x
+
+
+r
+
+
+
+displaystyle u colon x to mathbb r
+
+such that
+
+
+
+
+
+
+σ
+
+x
+
+
+u
+
+x
+
+
+
+
+
+λ
+
+
+displaystyle sigma x u x leq lambda
+
+for all
+
+
+
+x
+
+x
+
+
+displaystyle x in x
+
+clearly a
+
+
+
+λ
+
+
+displaystyle lambda
+
+increasing function behaves like a usual increasing function as
+
+
+
+λ
+
+
+displaystyle lambda
+
+gets small
+in the depth width terminology the above theorem says that for certain activation functions depth
+
+
+
+2
+
+
+displaystyle 2
+
+width
+
+
+
+2
+
+
+displaystyle 2
+
+networks are universal approximators for univariate functions and depth
+
+
+
+3
+
+
+displaystyle 3
+
+width
+
+
+
+
+2
+d
+
+2
+
+
+
+displaystyle 2d 2
+
+networks are universal approximators for
+
+
+
+d
+
+
+displaystyle d
+
+variable functions
+
+
+
+d
+
+1
+
+
+displaystyle d 1
+
+

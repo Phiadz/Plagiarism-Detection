@@ -1,0 +1,15 @@
+the datasaurus dozen comprises thirteen data sets that have nearly identical simple descriptive statistics to two decimal places yet have very different distributions and appear very different when graphed it was inspired by the smaller anscombe s quartet that was created in 1973
+
+the following table contains summary statistics for all thirteen data sets
+
+the thirteen data sets were labeled as the following
+
+similar to anscombe s quartet the datasaurus dozen was designed to further illustrate the importance of looking at a set of data graphically before starting to analyze according to a particular type of relationship and the inadequacy of basic statistic properties for describing realistic data sets
+
+the first data set in the shape of a tyrannosaurus that inspired the rest of the datasaurus data set was constructed in 2016 by alberto cairo it was proposed by maarten lambrechts that this data set also be called anscombosaurus
+
+this data set was then accompanied by twelve other data sets that were created by justin matejka and george fitzmaurice at autodesk unlike anscombe s quartet where it is not known how the data set was generated the authors used simulated annealing to make these data sets they made small random and biased changes to each point towards the desired shape each shape took 200 000 iterations of perturbations to complete
+
+the pseudocode for this algorithm is as follows
+
+where

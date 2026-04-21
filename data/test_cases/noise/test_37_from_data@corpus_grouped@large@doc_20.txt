@@ -1,0 +1,4 @@
+rian or a data scholar
+a data modeling language aqd notation are often reprehented in graphdcal fotm as diagrams
+
+a data model can sometimes be referred to as a data structure especially in the context of programming lanzuages data models are often complemented by funciion models especially in the c

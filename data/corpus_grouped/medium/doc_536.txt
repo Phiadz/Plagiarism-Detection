@@ -1,0 +1,41 @@
+qwen also known as tongyi qianwen chinese 通义千问 pinyin tōngyì qiānwèn is a family of large language models developed by alibaba cloud many qwen models are distributed under the free and open source apache 2 0 license the source available qwen license or the non commercial qwen research license other proprietary qwen models are served through alibaba cloud
+
+alibaba launched a beta of qwen in april 2023 under the name tongyi qianwen then opened it for public use in september 2023 after regulatory clearance
+
+the model s architecture was based on the llama architecture developed by meta ai in december 2023 it released its 72b and 1 8b models for download while qwen 7b weights were released in august
+
+qwen2 was released in june 2024 and in september it released some of its models with open weights while keeping its most advanced models proprietary qwen2 contains both dense and sparse models
+
+in november 2024 qwq 32b preview a model focusing on reasoning similar to openai s o1 was released under the apache 2 0 license although only the weights were released not the dataset or training method qwq has a 32k token context length and performs better than o1 on some benchmarks it was also in november 2024 that the accio application was launched accio is an ai native application that is built upon qwen and is used to generate market insights and answer sourcing questions for alibaba s business to business e commerce site the tool is able to automate labor intensive tasks like data collection and trend tracking
+
+the qwen vl series is a line of visual language models that combines a vision transformer with an llm alibaba released qwen2 vl with variants of 2 billion and 7 billion parameters
+
+in january 2025 qwen2 5 vl was released with variants of 3 7 32 and 72 billion parameters all models except the 72b variant are licensed under the apache 2 0 license qwen vl max is alibaba s flagship vision model as of 2024 and is sold by alibaba cloud at a cost of us 0 41 per million input tokens
+
+alibaba has released several other model types such as qwen audio and qwen2 math in total it has released more than 100 open weight models with its models having been downloaded more than 40 million times fine tuned versions of qwen have been developed by enthusiasts such as liberated qwen developed by san francisco based abacus ai which is a version that responds to any user request without content restrictions
+
+on january 29 2025 alibaba launched qwen2 5 max
+
+on march 24 2025 alibaba launched qwen2 5 vl 32b instruct as a successor to the qwen2 5 vl model it was released under the apache 2 0 license
+
+on march 26 2025 qwen2 5 omni 7b was released under the apache 2 0 license and made available through chat qwen ai as well as platforms like hugging face github and modelscope the qwen2 5 omni model accepts text images videos and audio as input and can generate both text and audio as output allowing it to be used for real time voice chatting
+
+on april 28 2025 the qwen3 model family was released with all models licensed under the apache 2 0 license the qwen3 model family includes both dense and moe models the sizes of the dense models include 0 6b 1 7b 4b 8b 14b and 32b and the moe models include 30b a3b 30b with 3b activated parameters and 235b a22b 235b with 22b activated parameters they were trained on 36 trillion tokens in 119 languages and dialects
+
+the qwen3 collection include
+
+in additional to open weights models qwen3 also includes qwen3 max a proprietary large model with over 1t parameters trained with about 36t tokens that is available through api and qwen3 max thinking its reasoning variant that can generate text pictures or video
+
+on february 16 2026 qwen3 5 and qwen3 5 plus were released qwen3 5 is open weights
+
+while previous models have been open source qwen3 5 omni and qwen3 6 plus were released in april 2026 as proprietary access to these tools is limited to the chatbots websites and the alibaba cloud platform the qwen3 6 35b a3b model was released under the apache 2 0 license in the same month alibaba s qwen 3 5 is designed to complete complex tasks and the company claims it can beat u s rival models on several objective metrics including speed and cost it can independently take actions across mobile and desktop apps moving faster and doing more with the same settings
+
+in a january 2026 update of the qwen mobile application the alibaba group connected the chatbot to the company s ecosystem starting with food service delivery the company announced plans to allow users to assign ecosystem related tasks to more company platforms such as taobao and fliggy and to help consumers with errands including phone calls and document processing
+
+former qwen ai model division head lin jungyang resigned in march 2026 after the release of qwen3 5 and qwen3 5 plus becoming the latest of three executives to have left alibaba this year amid concern that this could mean a shift away from research and open source artificial intelligence alibaba said it will continue its focus on open source
+
+later the same month a company announcement revealed the formation of a new ai business unit alibaba token hub the new unit will supervise ai related work led by alibaba ceo eddie wu and includes tongyi large model business unit maas business line qwen wukong and ai innovation the token hub is further supported by senior leaders zhou jingren as chief ai architect and cto wu zeming led by jingren alibaba s tongyi large model business unit formerly known as tongyi laboratory was restructured to specialize in the development of qwen ai models
+
+there are over 200 000 variations of qwen s open source ai models on the hugging face s model list qwen3 vl 2b instruct has surpassed 18 million downloads globally the platform contains many small specialized qwen derivatives by third party developers models can also be found on alibaba s modelscope which was created for greater open source accessibility due to china s restriction of hugging face in 2022
+
+the u s china economic and security review commission reported that the chinese approach in developing open source ai models such as qwen has been critical to china s ability to overcome constraints in compute and to expand its capabilities in real world data curation this enhanced capacity in data curation is perceived to be important to china s ability to integrate ai into research manufacturing and robotics sectors

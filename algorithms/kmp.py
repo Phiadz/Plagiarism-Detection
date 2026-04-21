@@ -7,7 +7,6 @@ import time
 def normalize(text):
     return re.sub(r'\s+', ' ', text.lower()).strip()
 
-
 # ===============================
 # KMP - build LPS
 # ===============================
@@ -24,7 +23,6 @@ def build_lps(pattern):
             lps[i] = j
 
     return lps
-
 
 # ===============================
 # KMP - search
@@ -50,7 +48,6 @@ def kmp_search(pattern, text):
 
     return result
 
-
 # ===============================
 # HÀM CHẠY CHUNG
 # ===============================
@@ -63,7 +60,6 @@ def run_kmp(text, pattern):
     end = time.perf_counter()
 
     return result, end - start
-
 
 # ===============================
 # MAIN

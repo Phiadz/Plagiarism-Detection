@@ -1,0 +1,12 @@
+alphaevolve is an evolutionary coding agent for designing advanced algorithms based on large language models such as gemini it was developed by google deepmind and unveiled in may 2025
+
+alphaevolve aims to autonomously discover and refine algorithms through a combination of large language models llms and evolutionary computation
+alphaevolve needs an evaluation function with metrics to optimize and an initial algorithm at each step alphaevolve uses the llm to produce variants of the existing algorithms and then selects the most effective ones
+unlike domain specific predecessors like alphafold or alphatensor alphaevolve is designed as a general purpose system it can operate across a wide array of scientific and engineering tasks by automatically modifying code and optimizing for multiple objectives its architecture allows it to evaluate code programmatically reducing reliance on human input and mitigating risks such as hallucinations common in standard llm outputs
+
+according to google across a selection of 50 open mathematical problems the model was able to rediscover state of the art solutions 75 of the time and discovered improved solutions 20 of the time for example advancing the kissing number problem
+alphaevolve was also used to optimize google s computing ecosystem improved data center scheduling heuristics enabled the recovery of 0 7 of stranded resources it was also used to optimize tpu circuit design and gemini s training matrix multiplication kernel
+
+following the publication of alphaevolve several open source implementations have been developed by the research community
+
+one such implementation is openevolve which implements distributed evolutionary algorithms multi language support integration with various large language model providers and automated discovery of high performance gpu kernels that outperform expert engineered baselines

@@ -1,0 +1,5 @@
+nclude some or all of the following
+
+data quality assurance is the process of data profiling to discover inconsistencies and other anomalies in the data as well as performing data cleansing activities e g removing outliers missing data interpolation to improve the data quality
+
+these activities can 

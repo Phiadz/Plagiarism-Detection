@@ -1,0 +1,64 @@
+
+
+business intelligence bi consists of strategies methodologies and technologies used by enterprises for data analysis and management of business information to inform business strategies and business operations common functions of bi technologies include reporting online analytical processing analytics dashboard development data mining process mining complex event processing business performance management benchmarking text mining predictive analytics and prescriptive analytics
+
+bi tools can handle large amounts of structured and sometimes unstructured data to help organizations identify develop and otherwise create new strategic business opportunities they aim to allow for the easy interpretation of these big data identifying new opportunities and implementing an effective strategy based on insights is assumed to potentially provide businesses with a competitive market advantage and long term stability and help them take strategic decisions
+
+business intelligence can be used by enterprises to support a wide range of business decisions ranging from operational to strategic basic operating decisions include product positioning or pricing strategic business decisions involve priorities goals and directions at the broadest level in all cases business intelligence is considered most effective when it combines data from the market in which a company operates external data with data from internal company sources such as financial and operational information when integrated external and internal data provide a comprehensive view that creates intelligence not possible from any single data source alone
+
+among their many uses business intelligence tools empower organizations to gain insight into new markets to assess demand and suitability of products and services for different market segments and to gauge the impact of marketing efforts
+
+bi applications use data gathered from a data warehouse dw or from a data mart and the concepts of bi and dw combine as bi dw
+or as bidw a data warehouse contains a copy of analytical data that facilitates decision support
+
+the earliest known use of the term business intelligence is in richard millar devens cyclopædia of commercial and business anecdotes 1865 devens used the term to describe how the banker sir henry furnese gained profit by receiving and acting upon information about his environment prior to his competitors
+
+throughout holland flanders france and germany he maintained a complete and perfect train of business intelligence the news of the many battles fought was thus received first by him and the fall of namur added to his profits owing to his early receipt of the news
+devens p 210
+the ability to collect and react accordingly based on the information retrieved devens says is central to business intelligence
+
+when hans peter luhn a researcher at ibm used the term business intelligence in an article published in 1958 he employed the webster s dictionary definition of intelligence the ability to apprehend the interrelationships of presented facts in such a way as to guide action towards a desired goal
+
+in 1989 howard dresner later a gartner analyst proposed business intelligence as an umbrella term to describe concepts and methods to improve business decision making by using fact based support systems it was not until the late 1990s that this usage was widespread
+
+according to solomon negash and paul gray business intelligence bi can be defined as systems that combine
+
+with analysis to evaluate complex corporate and competitive information for presentation to planners and decision makers with the objective of improving the timeliness and the quality of the input to the decision process
+
+according to forrester research business intelligence is a set of methodologies processes architectures and technologies that transform raw data into meaningful and useful information used to enable more effective strategic tactical and operational insights and decision making under this definition business intelligence encompasses information management data integration data quality data warehousing master data management text and content analytics et al therefore forrester refers to data preparation and data usage as two separate but closely linked segments of the business intelligence architectural stack
+
+some elements of business intelligence are citation needed
+
+forrester distinguishes this from the business intelligence market which is just the top layers of the bi architectural stack such as reporting analytics and dashboards
+
+though the term business intelligence is sometimes a synonym for competitive intelligence because they both support decision making bi uses technologies processes and applications to analyze mostly internal structured data and business processes while competitive intelligence gathers analyzes and disseminates information with a topical focus on company competitors if understood broadly competitive intelligence can be considered as a subset of business intelligence
+
+business intelligence and business analytics are sometimes used interchangeably but there are alternate definitions thomas davenport professor of information technology and management at babson college argues that business intelligence should be divided into querying reporting online analytical processing olap an alerts tool and business analytics in this definition business analytics is the subset of bi focusing on statistics prediction and optimization rather than the reporting functionality
+
+business operations can generate a very large amount of data in the form of e mails memos notes from call centers news user groups chats reports web pages presentations image files video files and marketing material according to merrill lynch more than 85 of all business information exists in these forms a company might only use such a document a single time because of the way it is produced and stored this information is either unstructured or semi structured
+
+the management of semi structured data is an unsolved problem in the information technology industry according to projections from gartner 2003 white collar workers spend 30 40 of their time searching finding and assessing unstructured data bi uses both structured and unstructured data the former is easy to search and the latter contains a large quantity of the information needed for analysis and decision making because of the difficulty of properly searching finding and assessing unstructured or semi structured data organizations may not draw upon these vast reservoirs of information which could influence a particular decision task or project this can ultimately lead to poorly informed decision making
+
+therefore when designing a business intelligence dw solution the specific problems associated with semi structured and unstructured data must be accommodated for as well as those for the structured data
+
+there are several challenges to developing bi with semi structured data according to inmon nesavich some of those are
+
+to solve problems with searchability and assessment of data it is necessary to know something about the content this can be done by adding context through the use of metadata needs independent confirmation many systems already capture some metadata e g filename author size etc but more useful would be metadata about the actual content e g summaries topics people or companies mentioned two technologies designed for generating metadata about content are automatic categorization and information extraction
+
+business intelligence includes the integration of artificial intelligence ai and machine learning ml techniques into bi platforms to support more advanced analysis such as augmented analytics which enhances data interpretation and insight discovery beyond traditional reporting and visualization tools
+
+generative business intelligence is the application of generative ai techniques such as large language models in business intelligence this combination facilitates data analysis and enables users to interact with data more intuitively generating actionable insights through natural language queries microsoft copilot was for example integrated into the business analytics tool power bi
+
+business intelligence can be applied to the following business purposes
+
+in a 2013 report gartner categorized business intelligence vendors as either an independent pure play vendor or a consolidated mega vendor non primary source needed in 2019 the bi market was shaken within europe for the new legislation of gdpr general data protection regulation which puts the responsibility of data collection and storage onto the data user with strict laws in place to make sure the data is compliant growth within europe has steadily increased since may 2019 when gdpr was brought in the legislation refocused companies to look at their own data from a compliance perspective but also revealed future opportunities using personalization and external bi providers to increase market share
+
+a business intelligence competency center bicc is a team that supports the use of business intelligence in an organization since 2001 the bicc concept has been refined through implementations in organizations that have adopted bi and related analytical software
+
+usage of the term bicc has varied significantly between implementations in different organizations the adoption of the bicc concept has led some organizations to establish units that focus on the use of bi software for decision making which may increase the value an organization gets out of its implementation of bi
+
+a bicc coordinates activities and resources to facilitate a fact based approach to decision making within an organization it has responsibility for the governance structure for bi and the use of analytical programs projects practices software and architecture a bicc is responsible for developing plans priorities infrastructure and competencies that can support strategic decision making using bi and analytical software
+
+in recent years knowledge oriented shared service centers have emerged in many organizations their primary focus has been the offering of analytics and data mining as an internal service across the organization such a center may be referred to as an analytics competency center acc analytics center of excellence analytics service center big data coc or big data lab
+
+by the end of 2017 a report by gartner research estimated that approximately 25 of large firms had a dedicated acc unit or equivalent for data and analytics in contrast to classic biccs these centers do not place emphasis on reporting historical analysis and dashboards accs aim to enhance a company s data capabilities by building expertise in data analytics formulating a data strategy identifying use cases for data mining and promoting the adoption of analytics within the organization although biccs can change into accs new acc formations can also occur in practice

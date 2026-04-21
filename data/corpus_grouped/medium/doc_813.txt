@@ -1,0 +1,65 @@
+
+
+john mccarthy september 4 1927 october 24 2011 was an american computer scientist and cognitive scientist he was one of the founders of the discipline of artificial intelligence and part of just a small group of artificial intelligence researchers in the 1950s and 1960s he co authored the proposal for the dartmouth workshop which coined the term artificial intelligence ai led the development of the symbolic programming language family lisp and had a large influence in the language algol popularized time sharing and created garbage collection
+
+mccarthy spent most of his career at stanford university he received many accolades and honors such as the 1971 turing award for his contributions to the topic of ai the united states national medal of science and the kyoto prize
+
+john mccarthy was born in boston massachusetts on september 4 1927 to an irish immigrant father and a lithuanian jewish immigrant mother john patrick and ida glatt mccarthy the family was obliged to relocate frequently during the great depression until mccarthy s father found work as an organizer for the amalgamated clothing workers in los angeles california his father came from cromane a small fishing village in county kerry ireland his mother died in 1957
+
+both parents were active members of the communist party during the 1930s and they encouraged learning and critical thinking before he attended high school mccarthy became interested in science by reading a translation of 100 000 whys a popular russian science book for children he was fluent in the russian language and made friends with russian scientists during multiple trips to the soviet union but distanced himself after making visits to the soviet bloc which led to him becoming a conservative republican
+
+mccarthy graduated from belmont high school two years early and was accepted into caltech in 1944
+
+he showed an early aptitude for mathematics during his teens he taught himself college math by studying the textbooks used at the nearby california institute of technology caltech as a result he was able to skip the first two years of math at caltech he was suspended from caltech for failure to attend physical education courses he then served in the us army and was readmitted receiving a bachelor of science bs in mathematics in 1948
+
+it was at caltech that he attended a lecture by john von neumann that inspired his future endeavors
+
+mccarthy completed his graduate studies at caltech before moving to princeton university where he received a phd in mathematics in 1951 with his dissertation projection operators and partial differential equations under the supervision of donald c spencer
+
+after short term appointments at princeton and stanford university mccarthy became an assistant professor at dartmouth college in 1955
+
+a year later he moved to mit as a research fellow in the autumn of 1956 by the end of his years at massachusetts institute of technology mit he was already affectionately referred to as uncle john by his students
+
+in 1962 he became a full professor at stanford where he remained until his retirement in 2000
+
+mccarthy championed mathematics such as lambda calculus and invented logics for achieving common sense in artificial intelligence
+
+john mccarthy is one of the founding fathers of artificial intelligence together with alan turing marvin minsky allen newell and herbert a simon mccarthy minsky nathaniel rochester and claude e shannon coined the term artificial intelligence in a proposal that they wrote for the famous dartmouth conference in summer 1956 this conference started ai as a field minsky later joined mccarthy at mit in 1959
+
+in 1958 he proposed the advice taker which inspired later work on question answering and logic programming
+
+in the late 1950s mccarthy discovered that primitive recursive functions could be extended to compute with symbolic expressions producing the lisp programming language that functional programming seminal paper also introduced the lambda notation borrowed from the syntax of lambda calculus in which later dialects like scheme based its semantics lisp soon became the programming language of choice for ai applications after its publication in 1960
+
+in 1958 mccarthy served on an association for computing machinery ad hoc committee on languages that became part of the committee that designed algol 60 in august 1959 he proposed the use of recursion and conditional expressions which became part of algol he then became involved with developing international standards in programming and informatics as a member of the international federation for information processing ifip working group 2 1 on algorithmic languages and calculi which specified maintains and supports algol 60 and algol 68
+
+around 1959 he invented so called garbage collection methods a kind of automatic memory management to solve problems in lisp
+
+during his time at mit he helped motivate the creation of project mac and while at stanford university he helped establish the stanford ai laboratory for many years a friendly rival to project mac
+
+mccarthy was instrumental in the creation of three of the very earliest time sharing systems compatible time sharing system bbn time sharing system and dartmouth time sharing system his colleague lester earnest told the los angeles times
+
+the internet would not have happened nearly as soon as it did except for the fact that john initiated the development of time sharing systems we keep inventing new names for time sharing it came to be called servers now we call it cloud computing that is still just time sharing john started it
+lester earnest
+in 1961 he was perhaps the first to suggest publicly the idea of utility computing in a speech given to celebrate mit s centennial that computer time sharing technology might result in a future in which computing power and even specific applications could be sold through the utility business model like water or electricity this idea of a computer or information utility was very popular during the late 1960s but had faded by the mid 1990s however since 2000 the idea has resurfaced in new forms see application service provider grid computing and cloud computing
+
+in 1966 mccarthy and his team at stanford wrote a computer program used to play a series of chess games with counterparts in the soviet union mccarthy s team lost two games and drew two games see kotok mccarthy
+
+from 1978 to 1986 mccarthy developed the circumscription method of non monotonic reasoning
+
+in 1982 he seems to have originated the idea of the space fountain a type of tower extending into space and kept vertical by the outward force of a stream of pellets propelled from earth along a sort of conveyor belt which returns the pellets to earth payloads would ride the conveyor belt upward
+
+mccarthy often commented on world affairs on the usenet forums some of his ideas can be found in his sustainability web page which is aimed at showing that human material progress is desirable and sustainable mccarthy was an avid book reader an optimist and a staunch supporter of free speech his best usenet interaction is visible in rec arts books archives he actively attended san francisco sf bay area dinners in palo alto of r a b readers called rab fests he went on to defend free speech criticism involving european ethnic jokes at stanford
+
+mccarthy saw the importance of mathematics and mathematics education his usenet signature block sig for years was he who refuses to do arithmetic is doomed to talk nonsense his license plate cover read similarly do the arithmetic or be doomed to talk nonsense he advised 30 phd graduates
+
+his 2001 short story the robot and the baby farcically explored the question of whether robots should have or simulate having emotions and anticipated aspects of internet culture and social networking that became increasingly prominent during ensuing decades
+
+mccarthy was married three times his second wife was vera watson a programmer and mountaineer who died in 1978 attempting to scale annapurna i central as part of an all women expedition he later married carolyn talcott a computer scientist at stanford and later scientific research institute sri international
+
+mccarthy declared himself an atheist in a speech about artificial intelligence at stanford memorial church raised as a communist he became a conservative republican after a visit to czechoslovakia in 1968 after the soviet invasion he died at his home in stanford on october 24 2011
+
+in 1979 mccarthy wrote an article entitled ascribing mental qualities to machines in it he wrote machines as simple as thermostats can be said to have beliefs and having beliefs seems to be a characteristic of most machines capable of problem solving performance in 1980 the philosopher john searle responded with his famous chinese room argument disagreeing with mccarthy and taking the stance that machines cannot have beliefs simply because they are not conscious searle argues that machines lack intentionality
+
+in a 1989 television interview with jeffrey mishlove for thinkingallowedtv mccarthy was asked about intuition being a philosophically differentiating character between humans and computers he responded by saying that there are people who believe humans have some spiritual or transcendent intuition that is not physically accessible but that view has been in a steady decline for a few centuries mccarthy thought that realizing human consciousness in machines presented many difficult challenges but he expected to overcome them
+
+john mccarthy was an artificial intelligence optimist he was specifically confident in logic based artificial intelligence and the philosophy that every aspect of human intelligence could be formalized precisely enough that it could be programmed into a machine hubert dreyfus was a philosophy professor at berkeley university and perhaps the most famous skeptic of early artificial intelligence dreyfus fundamentally disagreed with mccarthy and viewed human reasoning as something more than just logic instead he saw looking into human understanding as going deeper into understanding existential questions about the good life and nihilism they debated their entire professional careers with mccarthy remaining outwardly optimistic about logic based artificial intelligence

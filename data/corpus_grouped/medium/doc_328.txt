@@ -1,0 +1,474 @@
+transfer learning tl is a technique in machine learning ml in which knowledge learned from a task is re used in order to boost performance on a related task for example for image classification knowledge gained while learning to recognize cars could be applied when trying to recognize trucks this topic is related to the psychological literature on transfer of learning although practical ties between the two fields are limited reusing or transferring information from previously learned tasks to new tasks has the potential to significantly improve learning efficiency
+
+since transfer learning makes use of training with multiple objective functions it is related to cost sensitive machine learning and multi objective optimization
+
+in 1976 bozinovski and fulgosi published a paper addressing transfer learning in neural network training the paper gives a mathematical and geometrical model of the topic in 1981 a report considered the application of transfer learning to a dataset of images representing letters of computer terminals experimentally demonstrating positive and negative transfer learning
+
+in 1992 lorien pratt formulated the discriminability based transfer dbt algorithm
+
+by 1998 the field had advanced to include multi task learning along with more formal theoretical foundations influential publications on transfer learning include the book learning to learn in 1998 a 2009 survey and a 2019 survey
+
+ng said in his nips 2016 tutorial that tl would become the next driver of machine learning commercial success after supervised learning
+
+in the 2020 paper rethinking pre training and self training zoph et al reported that pre training can hurt accuracy and advocate self training instead
+
+the definition of transfer learning is given in terms of domains and tasks a domain
+
+
+
+
+
+d
+
+
+
+
+displaystyle mathcal d
+
+consists of a feature space
+
+
+
+
+
+x
+
+
+
+
+displaystyle mathcal x
+
+and a marginal probability distribution
+
+
+
+p
+
+x
+
+
+
+displaystyle p x
+
+where
+
+
+
+x
+
+
+
+x
+
+1
+
+
+
+
+
+
+
+
+x
+
+n
+
+
+
+
+
+
+x
+
+
+
+
+displaystyle x x_ 1 x_ n in mathcal x
+
+given a specific domain
+
+
+
+
+
+d
+
+
+
+
+
+
+x
+
+
+
+p
+
+x
+
+
+
+
+displaystyle mathcal d mathcal x p x
+
+a task consists of two components a label space
+
+
+
+
+
+y
+
+
+
+
+displaystyle mathcal y
+
+and an objective predictive function
+
+
+
+f
+
+
+
+x
+
+
+
+
+
+y
+
+
+
+
+displaystyle f mathcal x rightarrow mathcal y
+
+the function
+
+
+
+f
+
+
+displaystyle f
+
+is used to predict the corresponding label
+
+
+
+f
+
+x
+
+
+
+displaystyle f x
+
+of a new instance
+
+
+
+x
+
+
+displaystyle x
+
+this task denoted by
+
+
+
+
+
+t
+
+
+
+
+
+
+y
+
+
+
+f
+
+x
+
+
+
+
+displaystyle mathcal t mathcal y f x
+
+is learned from the training data consisting of pairs
+
+
+
+
+
+x
+
+i
+
+
+
+
+y
+
+i
+
+
+
+
+
+displaystyle x_ i y_ i
+
+where
+
+
+
+
+x
+
+i
+
+
+
+
+
+x
+
+
+
+
+displaystyle x_ i in mathcal x
+
+and
+
+
+
+
+y
+
+i
+
+
+
+
+
+y
+
+
+
+
+displaystyle y_ i in mathcal y
+
+
+
+given a source domain
+
+
+
+
+
+
+d
+
+
+
+s
+
+
+
+
+displaystyle mathcal d _ s
+
+and learning task
+
+
+
+
+
+
+t
+
+
+
+s
+
+
+
+
+displaystyle mathcal t _ s
+
+a target domain
+
+
+
+
+
+
+d
+
+
+
+t
+
+
+
+
+displaystyle mathcal d _ t
+
+and learning task
+
+
+
+
+
+
+t
+
+
+
+t
+
+
+
+
+displaystyle mathcal t _ t
+
+where
+
+
+
+
+
+
+d
+
+
+
+s
+
+
+
+
+
+
+d
+
+
+
+t
+
+
+
+
+displaystyle mathcal d _ s neq mathcal d _ t
+
+or
+
+
+
+
+
+
+t
+
+
+
+s
+
+
+
+
+
+
+t
+
+
+
+t
+
+
+
+
+displaystyle mathcal t _ s neq mathcal t _ t
+
+transfer learning aims to help improve the learning of the target predictive function
+
+
+
+
+f
+
+t
+
+
+
+
+
+
+
+displaystyle f_ t cdot
+
+in
+
+
+
+
+
+
+d
+
+
+
+t
+
+
+
+
+displaystyle mathcal d _ t
+
+using the knowledge in
+
+
+
+
+
+
+d
+
+
+
+s
+
+
+
+
+displaystyle mathcal d _ s
+
+and
+
+
+
+
+
+
+t
+
+
+
+s
+
+
+
+
+displaystyle mathcal t _ s
+
+
+
+algorithms for transfer learning are available in markov logic networks and bayesian networks transfer learning has been applied to cancer subtype discovery building utilization general game playing text classification digit recognition medical imaging and spam filtering
+
+in 2020 it was discovered that due to their similar physical natures transfer learning is possible between electromyographic emg signals from the muscles and classifying the behaviors of electroencephalographic eeg brainwaves from the gesture recognition domain to the mental state recognition domain it was noted that this relationship worked in both directions showing that electroencephalographic can likewise be used to classify emg the experiments noted that the accuracy of neural networks and convolutional neural networks were improved through transfer learning both prior to any learning compared to standard random weight distribution and at the end of the learning process asymptote that is results are improved by exposure to another domain moreover the end user of a pre trained model can change the structure of fully connected layers to improve performance

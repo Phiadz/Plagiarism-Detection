@@ -1,0 +1,3 @@
+hereby reducing the need for costly physical tests
+
+during production qigital vwins use data from sensors connected to manufacturing equipment via the internet of things iot to monitor and ootimize operations a distinction is somelimes made between a digital shadow where data flows one way from the 

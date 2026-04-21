@@ -1,0 +1,310 @@
+
+
+a self driving car also known as an autonomous car driverless car or robotic car robo car is a car that is capable of operating with reduced or no human input they are sometimes called robotaxis though this term refers specifically to self driving cars operated for a ridesharing company
+
+as of 2026 update the term self driving lacks an agreed standard definition and is also subject to commercial advertising and branding considerations in 2020 waymo was the first to offer rides in driverless taxis in the operational design domain odd of limited geographic areas but as of late 2025 update no system has achieved full autonomy in all domains sometimes referred to as level 5 on a scale of 0 to 5 levels of automation defined by the global standards organisation sae international or simply no driver as given by the classification system proposed by mobileye in the us
+
+following a history of experimentation and development of advanced driver assistance systems adas after wwii two main technologies are now primarily used lidar light detection and ranging and visual sensors cameras which capture images and video like human eyes these are combined with systems such as gps neural networks artificial intelligence and established adas engineering to deliver levels of driving autonomy
+
+the primary obstacle to self driving is the advanced software and mapping required to make them work safely across the wide variety of conditions that drivers experience however the software is not yet advanced enough to handle all circumstances and has caused accidents and even some deaths other issues include security of over the air updates legal and regulatory issues ethics and consumer confidence methods of testing and monitoring the reliability of cars have evolved in parallel with the deployment of cars with self driving capabilities with various standards for this being proposed should autonomous cars gain mass adoption wider implications for urban infrastructure and the economy have also been discussed
+
+public perception and acceptance of autonomous cars has been found to be mixed a 2014 telephone poll in the us found 31 7 would not continue to drive once an automated car was available to them while a survey in 2022 found only a quarter 27 of the world s population would feel safe in one
+
+self driving cars were anticipated by experiments in radio control during the 1920s and the development of advanced driver assistance adas after wwii trials of self driving vehicles began in the 1950s with the first semi autonomous car developed in 1977 by japan s tsukuba mechanical engineering laboratory
+
+in the united states carnegie mellon university s navlab began semi autonomous vehicle projects in 1984 funded by the defense advanced research projects agency darpa in europe similar projects were led by mercedes benz and the university of the bundeswehr munich s eureka prometheus project beginning in 1987
+
+the united states allocated us 650 million in 1991 for research on the national automated highway system which demonstrated automated driving combining highway embedded automation with vehicle technology until the second darpa grand challenge in 2005 automated vehicle research in the united states was primarily funded by darpa the us army and the us navy producing incremental advances in speed driving competence control and sensor systems
+
+since then numerous private companies and both private and public research organizations around the world have developed working autonomous vehicles in 2015 the cruise subsidiary of general motors began road testing in california two years later waymo was the first to commercialize a robotaxi service in phoenix arizona followed by a similar service by deeproute ai in shenzhen cruise later shut down in 2024 with several other manufacturers scaling back plans for self driving technology in 2022 including ford and volkswagen due to misgivings about commercial viability
+
+legal and regulatory developments to accommodate the testing and facilitation of self driving vehicles have also taken place worldwide in the 2010s and 2020s some unece and eu members developed rules and regulations related to automated vehicles with various cities planning to operate transport systems for driverless cars and to allow testing of robotic cars in traffic in 2016 the us national economic council and us department of transportation usdot released the federal automated vehicles policy the first known fatal accident involving a vehicle being driven by itself took place in williston florida in 2016 while the first reported pedestrian killed by a self driving car was in 2018
+
+from the 2010s increasingly rapid progress in research and development has taken place often accompanied by inaccurate predictions of complete autonomy which capability is so far update confined to driverless taxi services in designated cities as of early 2024 several manufacturers sell cars with automated driving systems in the us japan and europe
+
+organizations such as the global standards body sae international sae have proposed terminology to describe technical capabilities however most terms have no standard definition and are employed variously by vendors and others proposals to adopt aviation automation terminology for cars has also not prevailed
+
+the first consideration is the operational design domain odd the concept presumes that automated systems have limitations relating system function to the odd it supports is important for developers and regulators to establish and communicate safe operating conditions systems should operate within those limitations some systems recognize the odd and modify their behavior accordingly for example an autonomous car might recognize that traffic is heavy and disable its automated lane change feature
+
+vendors have taken a variety of approaches to the self driving problem tesla s approach is to allow their full self driving fsd system to be used in all odds as a level 2 hands on eyes on adas waymo picked specific odds city streets in phoenix and san francisco for their level 5 robotaxi service mercedes benz offers level 3 service in las vegas in highway traffic jams at speeds up to 40 miles per hour 64 km h mobileye s supervision system offers hands off eyes on driving on all road types at speeds up to 130 km h 81 mph gm s hands free super cruise operates on specific roads in specific conditions stopping or returning control to the driver when odd changes in 2024 the company announced plans to expand road coverage from 400 000 miles to 750 000 miles 1 210 000 km ford s bluecruise hands off system operates on 130 000 miles 210 000 km of us divided highways
+
+names such as autonodrive pilotassist full self driving or drivepilot are used even though the products offer an assortment of features that may not match the names despite offering a system dubbed full self driving tesla stated that its system did not autonomously handle all driving tasks in the united kingdom a fully self driving car is defined as a car so registered rather than one that supports a specific feature set the association of british insurers claimed that the usage of the word autonomous in marketing was dangerous because car ads make motorists think autonomous and autopilot imply that the driver can rely on the car to control itself even though they do not
+
+the following are useful in understanding the various definitions and criteria in use for self driving cars
+
+advanced driver assistance systems adas automate specific driving features such as forward collision warning fcw automatic emergency braking aeb lane departure warning ldw lane keeping assistance lka or blind spot warning bsw an adas requires a human driver to handle tasks that the adas does not support
+
+adas contrasts to an automated driving system ads which would be classified by sae j3016 as level 3 or higher
+
+autonomy implies that an automation system is under the control of the vehicle rather than a driver automation is function specific handling issues such as speed control but leaves broader decision making to the driver
+
+the european car safety performance assessment programme euro ncap defines autonomous as the system acts independently of the driver to avoid or mitigate the accident
+
+in europe the words automated and autonomous can be used together for instance under regulation eu 2019 2144
+
+a remote driver is a driver that operates a vehicle at a distance using a video and data connection
+
+
+according to sae j3016
+some driving automation systems may indeed be autonomous if they perform all of their functions independently and self sufficiently but if they depend on communication and or cooperation with outside entities they should be considered cooperative rather than autonomous
+the union of concerned scientists defined self driving as cars or trucks in which human drivers are never required to take control to safely operate the vehicle also known as autonomous or driverless cars they combine sensors and software to control navigate and drive the vehicle
+
+the british automated and electric vehicles act 2018 defines a vehicle as driving itself if the vehicle is not being controlled and does not need to be monitored by an individual
+
+another british government definition stated self driving vehicles are vehicles that can safely and lawfully drive themselves
+
+in british english the word automated has several meanings such as in the sentence thatcham also found that the automated lane keeping systems could only meet two out of the twelve principles required to guarantee safety going on to say they cannot therefore be classed as automated driving preferring assisted driving the first occurrence of the automated word refers to a unece automated system while the second refers to the british legal definition of an automated vehicle british law interprets the meaning of automated vehicle based on the interpretation section related to a vehicle driving itself and an insured vehicle
+
+in november 2023 the british government introduced the automated vehicles bill it proposed definitions for related terms
+
+in 2014 the association for transport and other industries sae international published a six level classification system ranging from fully manual to fully automated as j3016 taxonomy and definitions for terms related to on road motor vehicle automated driving systems the details are revised occasionally
+
+the system was adopted by the united nations economic commission for europe unece in the form of un regulation no 157 which came into force in january 2021 and used in over 50 countries after sae updated its classification in 2016 j3016_201609 the us national highway traffic safety administration nhtsa adopted the sae standard
+
+the classification is a topic of debate having been criticized for its technological focus with various revisions proposed it has been argued that the structure of the levels suggests that automation increases linearly and that more automation is better which may not be the case sae levels also do not account for changes that may be required to infrastructure and road user behavior
+
+the sae classification of levels is based on the role of the driver rather than the vehicle s capabilities although these are related in the form of a driving mode aka driving scenario the mode is determined by both an operational design domain odd and a dynamic driving requirement the odd is the circumstance in which the car is driving and the driving requirement is what the system must do while remaining safe within the boundaries of that odd these two things define the sae level
+
+cars may therefore switch levels according to the driving mode a human analogy might be a mode in which you can stand unassisted on one leg the requirement if you are on the ground the odd but would need support when standing on a tightrope
+
+above level 1 level differences are related to how responsibility for safe movement is divided shared between the advanced driver assistance system adas and driver rather than specific driving features see concepts a car might therefore have level 3 capability for lane management the driving requirement up to 100 km h the odd but level 2 at speeds faster than that or it might have level 4 for driverless navigation on designated highways but level 2 on urban side roads
+
+adas that are considered level 1 are adaptive cruise control emergency brake assist automatic emergency brake assist lane keeping and lane centering adas that are considered level 2 are highway assist autonomous obstacle avoidance and autonomous parking at level 3 and above if a car is driving and the odd changes for instance a clear highway becomes a construction zone with hand signals from a worker the system must recognize that it is exiting its odd and fall back accordingly including asking for driver intervention if necessary
+
+a fully self driving car would therefore stay at level 5 for all dynamic driving requirements in all circumstances speeds roads terrains visibilities obstacle types jurisdictions etc while a car with no adas controlling the driving requirements would rely on the human driver for that and stay at level 0 regardless of the domain
+
+mobileye ceo amnon shashua and cto shai shalev shwartz proposed an alternative taxonomy for autonomous driving systems claiming that a more consumer friendly approach was needed its categories reflect the amount of driver engagement that is required some vehicle makers have informally adopted some of the terminology involved while not formally committing to it
+
+the first level hands on eyes on implies that the driver is fully engaged in operating the vehicle but is supervised by the system which intervenes according to the features it supports e g adaptive cruise control automatic emergency braking the driver is entirely responsible with hands on the wheel and eyes on the road
+
+eyes on hands off allows the driver to let go of the wheel the system drives the driver monitors and remains prepared to resume control as needed
+
+eyes off hands off means that the driver can stop monitoring the system leaving the system in full control eyes off requires that no errors be reproducible not triggered by exotic transitory conditions or frequent that speeds are contextually appropriate e g 80 mph 130 km h on limited access roads and that the system handles typical maneuvers e g getting cut off by another vehicle the automation level could vary according to the road e g eyes off on freeways eyes on on side streets
+
+the highest level does not require a human driver in the car monitoring is done either remotely telepresence or not at all
+
+a critical requirement for the higher two levels is that the vehicle be able to conduct a minimum risk maneuver and stop safely out of traffic without driver intervention
+
+the perception system processes visual and audio data from outside and inside the car to create a local model of the vehicle the road traffic traffic controls and other observable objects and their relative motion the control system then takes actions to move the vehicle considering the local model road map and driving regulations
+
+several classifications have been proposed to describe adas technology one proposal is to adopt these categories navigation path planning perception and car control
+
+vendors such as tesla and motional have opted for monolithic end to end e2e neural networks moving away from modular systems that separate perception from control
+
+navigation involves the use of maps to define a path between origin and destination hybrid navigation is the use of multiple navigation systems some systems use basic maps relying on perception to deal with anomalies such a map understands which roads lead to which others whether a road is a freeway a highway are one way etc other systems require highly detailed maps including lane maps obstacles traffic controls etc
+
+acs need to be able to perceive the world around them supporting technologies include combinations of cameras lidar radar audio and ultrasound gps and inertial measurement deep neural networks are used to analyse inputs from these sensors to detect and identify objects and their trajectories some systems use bayesian simultaneous localization and mapping slam algorithms another technique is detection and tracking of other moving objects datmo used to handle potential obstacles other systems use roadside real time locating system rtls technologies to aid localization tesla s vision only system uses eight cameras without lidar or radar to create its bird s eye view of the environment
+
+path planning finds a sequence of segments that a vehicle can use to move from origin to destination techniques used for path planning include graph based search and variational based optimization techniques graph based techniques can make harder decisions such as how to pass another vehicle obstacle variational based optimization techniques require more stringent restrictions on the vehicle s path to prevent collisions the large scale path of the vehicle can be determined by using a voronoi diagram an occupancy grid mapping or a driving corridor algorithm the latter allows the vehicle to locate and drive within open space that is bounded by lanes or barriers
+
+maps are necessary for navigation map sophistication varies from simple graphs that show which roads connect to each other with details such as one way vs two way to those that are highly detailed with information about lanes traffic controls roadworks and more researchers at the mitcomputer science and artificial intelligence laboratory csail developed a system called maplite which allows self driving cars to drive with simple maps the system combines the gps position of the vehicle a sparse topological map such as openstreetmap which has only 2d road features with sensors that observe road conditions one issue with highly detailed maps is updating them as the world changes vehicles that can operate with less detailed maps do not require frequent updates or geo fencing
+
+sensors are necessary for the vehicle to properly respond to the driving environment sensor types include cameras lidar ultrasound and radar control systems typically combine data from multiple sensors multiple sensors can provide a more complete view of the surroundings and can be used to cross check each other to correct errors for example radar can image a scene in e g a nighttime snowstorm that defeats cameras and lidar albeit at reduced precision after experimenting with radar and ultrasound tesla adopted a vision only approach asserting that humans drive using only vision and that cars should be able to do the same while citing the lower cost of cameras versus other sensor types by contrast waymo makes use of the higher resolution of lidar sensors and cites the declining cost of that technology
+
+drive by wire is the use of electrical or electro mechanical systems for performing vehicle functions such as steering or speed control that are traditionally achieved by mechanical linkages
+
+driver monitoring is used to assess the driver s attention and alertness techniques in use include eye monitoring and requiring the driver to maintain torque on the steering wheel it attempts to understand driver status and identify dangerous driving behaviors
+
+vehicles can potentially benefit from communicating with others to share information about traffic road obstacles to receive map and software updates etc
+
+iso tc 22 specifies in vehicle transport information and control systems while iso tc 204 specifies information communication and control systems in surface transport international standards have been developed for adas functions connectivity human interaction in vehicle systems management engineering dynamic map and positioning privacy and security
+
+rather than communicating among vehicles they can communicate with road based systems to receive similar information
+
+software controls the vehicle and can provide entertainment and other services over the air updates can deliver bug fixes and additional features over the internet software updates are one way to accomplish recalls that in the past required a visit to a service center in march 2021 the unece regulation on software update and software update management systems was published
+
+a safety model is software that attempts to formalize rules that ensure that acs operate safely
+
+ieee is attempting to forge a standard for safety models as ieee p2846 a formal model for safety considerations in automated vehicle decision making in 2022 a research group at national institute of informatics nii japan enhanced mobileye s reliable safety system as goal aware rss to enable rss rules to deal with complex scenarios via program logic
+
+in accordance with the proposed sae j3134 ads marker lamps specification the us has standardized the use of turquoise lights to inform other drivers that a vehicle is driving autonomously it will be used in the 2026 mercedes benz eqs and s class sedans with drive pilot an sae level 3 driving system
+
+as of 2023 the turquoise light had not been standardized in china or by the unece
+
+artificial intelligence ai plays a pivotal role in the development and operation of autonomous vehicles avs enabling them to perceive their surroundings make decisions and navigate safely without human intervention ai algorithms empower avs to interpret sensory data from various onboard sensors such as cameras lidar radar and gps to understand their environment and improve its technological ability and overall safety over time
+
+the primary obstacle to acs is the advanced software and mapping required to make them work safely across the wide variety of conditions that drivers experience in addition to handling day night driving in good and bad weather on roads of arbitrary quality acs must cope with other vehicles road obstacles poor missing traffic controls flawed maps and handle endless edge cases such as following the instructions of a police officer managing traffic at a crash site
+
+other obstacles include cost liability consumer reluctance ethical dilemmas security privacy and legal regulatory framework further avs could automate the work of professional drivers eliminating many jobs which could slow acceptance
+
+tesla calls its level 2 adas full self driving fsd beta us senators richard blumenthal and edward markey called on the federal trade commission ftc to investigate this marketing in 2021 in december 2021 in japan mercedes benz was punished by the consumer affairs agency for misleading product descriptions
+
+mercedes benz was criticized for a misleading us commercial advertising e class models at that time mercedes benz rejected the claims and stopped its self driving car ad campaign that had been running in august 2022 the california department of motor vehicles dmv accused tesla of deceptive marketing practices
+
+with the automated vehicles bill avb self driving car makers could face prison for misleading adverts in the united kingdom
+
+in the 2020s concerns over acs vulnerability to cyberattacks and data theft emerged
+
+in 2018 and 2019 former apple engineers were charged with stealing information related to apple s self driving car project in 2021 the united states department of justice doj accused chinese security officials of coordinating a hacking campaign to steal information from government entities including research related to autonomous vehicles china has prepared the provisions on management of automotive data security trial to protect its own data
+
+cellular vehicle to everything technologies are based on 5g wireless networks as of november 2022 update the us congress was considering the possibility that imported chinese ac technology could facilitate espionage
+
+testing of chinese automated cars in the us has raised concern over which us data are collected by chinese vehicles to be stored in china and any link with the chinese communist party
+
+acs complicate the need for drivers to communicate with each other e g to decide which car enters an intersection first in an ac without a driver traditional means such as hand signals do not work no driver no hands
+
+acs must be able to predict the behavior of possibly moving vehicles pedestrians etc in real time in order to proceed safely the task becomes more challenging the further into the future the prediction extends requiring rapid revisions to the estimate to cope with unpredicted behavior one approach is to wholly recompute the position and trajectory of each object many times per second another is to cache the results of an earlier prediction for use in the next one to reduce computational complexity
+
+the adas has to be able to safely accept control from and return control to the driver
+
+consumers will avoid acs unless they trust them as safe robotaxis operating in san francisco received pushback over perceived safety risks automatic elevators were invented in 1900 but did not become common until operator strikes and trust was built with advertising and features such as an emergency stop button however with repeated use of autonomous driving functions drivers behavior and trust in autonomous vehicles gradually improved and both entered a more stable state at the same time this also improved the performance and reliability of the vehicle in complex conditions thereby increasing public trust
+
+autonomy also presents various political and economic implications the transportation sector holds significant sway in many political and economic landscapes for instance many us states generate much annual revenue from transportation fees and taxes the advent of self driving cars could profoundly affect the economy by potentially altering state tax revenue streams furthermore the transition to autonomous vehicles might disrupt employment patterns and labor markets particularly in industries heavily reliant on driving professions data from the us bureau of labor statistics indicates that in 2019 the sector employed over two million individuals as tractor trailer truck drivers additionally taxi and delivery drivers represented approximately 370 400 positions and bus drivers constituted a workforce of over 680 000 collectively this amounts to a conceivable displacement of nearly 2 9 million jobs surpassing the job losses experienced in the 2008 great recession
+
+the prominence of certain demographic groups within the tech industry inevitably shapes the trajectory of autonomous vehicle av development potentially perpetuating existing inequalities
+
+in 2019 research from georgia tech revealed that autonomous vehicle detection systems were generally five percent less effective at recognizing darker skinned individuals this accuracy gap persisted despite adjustments for environmental variables like lighting and visual obstructions
+
+standards for liability have yet to be adopted to address crashes and other incidents liability could rest with the vehicle occupant its owner the vehicle manufacturer or even the adas technology supplier possibly depending on the circumstances of the crash additionally the infusion of artificiai intelligence technology in autonomous vehicles adds layers of complexity to ownership and ethical dynamics given that ai systems are inherently self learning a question arises of whether accountability should rest with the vehicle owner the manufacturer or the ai developer
+
+the trolley problem is a thought experiment in ethics adapted for acs it considers an ac carrying one passenger confronting a pedestrian who steps in its way the adas notionally has to choose between killing the pedestrian or swerving into a wall killing the passenger possible frameworks include deontology formal rules and utilitarianism harm reduction
+
+one public opinion survey reported that harm reduction was preferred except that passengers wanted the vehicle to prefer them while pedestrians took the opposite view utilitarian regulations were unpopular additionally cultural viewpoints exert substantial influence on shaping responses to these ethical quandaries another study found that cultural biases impact preferences in prioritizing the rescue of certain individuals over others in car accident scenarios
+
+some acs require an internet connection to function opening the possibility that a hacker might gain access to private information such as destinations routes camera recordings media preferences and or behavioral patterns although this is true of any internet connected device
+
+acs make use of road infrastructure e g traffic signs turn lanes and may require modifications to that infrastructure to fully achieve their safety and other goals in march 2023 the japanese government unveiled a plan to set up a dedicated highway lane for acs in april 2023 jr east announced their challenge to raise their self driving level of kesennuma line bus rapid transit brt in rural area from the current level 2 to level 4 at 60 km h 37 mph
+
+acs can be tested via digital simulations in a controlled test environment and or on public roads road testing typically requires some form of permit or a commitment to adhere to acceptable operating principles for example new york requires a test driver to be in the vehicle prepared to override the adas as necessary
+
+in california self driving car manufacturers are required to submit annual reports describing how often their vehicles autonomously disengaged from autonomous mode this is one measure of system robustness ideally the system should never disengage
+
+reporting companies use varying definitions of what qualifies as a disengagement and such definitions can change over time executives of self driving car companies have criticized disengagements as a deceptive metric because it does not consider varying road conditions
+
+in april 2021 wp 29 grva proposed a test method for automated driving natm
+
+in october 2021 europe s pilot test l3pilot demonstrated adas for cars in hamburg germany in conjunction with its world congress 2021 sae level 3 and 4 functions were tested on ordinary roads
+
+in november 2022 an international standard iso 34502 on scenario based safety evaluation framework was published
+
+in april 2022 collision avoidance testing was demonstrated by nissan waymo published a document about collision avoidance testing in december 2022
+
+in september 2022 biprogy released driving intelligence validation platform divp as part of japanese national project sip adus which is interoperable with open simulation interface osi of asam
+
+in november 2022 toyota demonstrated one of its gr yaris test cars which had been trained using professional rally drivers toyota used its collaboration with microsoft in fia world rally championship since the 2017 season
+
+in 2023 david r large senior research fellow with the human factors research group at the university of nottingham disguised himself as a car seat in a study to test people s reactions to driverless cars he said we wanted to explore how pedestrians would interact with a driverless car and developed this unique methodology to explore their reactions the study found that in the absence of someone in the driving seat pedestrians trust certain visual prompts more than others when deciding whether to cross the road
+
+a meta analysis published in nature communications in 2024 compared various sources of safety data for autonomous av and human driven vehicles hdv this collected 2 100 av and 35 133 hdv incident records which accurately reflected the incident details some avs in the comparisons such as robotaxis were effectively autonomous while others were equipped with advanced driving systems ads or advanced driver assistance systems adas
+
+the study concluded that avs are safer in most circumstances and avs had far fewer crashes involving pedestrians 3 against 15 per mile travelled the comparison also highlighed some other disaparities while avs were found to be significantly less likely to crash in heavy rain or fog than an unassisted human they were more than five times more vulnerable to collisions at dawn and dusk
+
+as of 2023 tesla s adas autopilot full self driving beta was classified as level 2 adas
+
+on 20 january 2016 the first of five known fatal crashes of a tesla with autopilot occurred in china s hubei province initially tesla stated that the vehicle was so badly damaged from the impact that their recorder was not able to determine whether the car had been on autopilot at the time however the car failed to take evasive action
+
+another fatal autopilot crash occurred in may in florida in a tesla model s that crashed into a tractor trailer in a civil suit between the father of the driver killed and tesla tesla documented that the car had been on autopilot according to tesla neither autopilot nor the driver noticed the white side of the tractor trailer against a brightly lit sky so the brake was not applied tesla claimed that this was tesla s first known autopilot death in over 130 million miles 210 million kilometers with autopilot engaged tesla claimed that on average one fatality occurs every 94 million miles 151 million kilometers across all vehicle types in the us however this number also includes motorcycle pedestrian fatalities the ultimate national transportation safety board ntsb report concluded tesla was not at fault the investigation revealed that for tesla cars the crash rate dropped by 40 percent after autopilot was installed
+
+in february 2025 a tesla cybertruck crashed while in full self driving mode raising concerns about autonomous driving and prompting an investigation from tesla who said the crash would be probed in line with standard protocol when any of our electric vehicles are involved in an accident while in fsd mode
+
+in june 2015 google confirmed that 12 vehicles had suffered collisions as of that date eight involved rear end collisions at a stop sign or traffic light in two of which the vehicle was side swiped by another driver one in which another driver rolled a stop sign and one where a driver was controlling the car manually in july 2015 three employees suffered minor injuries when their vehicle was rear ended by a car whose driver failed to brake this was the first collision that resulted in injuries
+
+according to google waymo s accident reports as of early 2016 their test cars had been involved in 14 collisions of which other drivers were at fault 13 times although in 2016 the car s software caused a crash on 14 february 2016 a google vehicle attempted to avoid sandbags blocking its path during the maneuver it struck a bus google stated in this case we clearly bear some responsibility because if our car hadn t moved there wouldn t have been a collision google characterized the crash as a misunderstanding and a learning experience no injuries were reported
+
+in march 2018 elaine herzberg died after she was hit by an ac tested by uber s advanced technologies group atg in arizona a safety driver was in the car herzberg was crossing the road about 400 feet from an intersection some experts said a human driver could have avoided the crash arizona governor doug ducey suspended the company s ability to test its acs citing an unquestionable failure of uber to protect public safety uber also stopped testing in california until receiving a new permit in 2020
+
+the ntsb s final report determined that the immediate cause of the accident was that safety driver rafaela vasquez failed to monitor the road because she was distracted by her phone but that uber s inadequate safety culture contributed the report noted that the victim had a very high level of methamphetamine in her body the board called on federal regulators to carry out a review before allowing automated test vehicles to operate on public roads
+
+in september 2020 vasquez pled guilty to endangerment and was sentenced to three years probation
+
+on 12 august 2021 a 31 year old chinese man was killed after his nio es8 crashed in a tunnel nio s self driving feature was in beta and could not deal with static obstacles the vehicle s manual clearly stated that the driver must take over near construction sites lawyers of the deceased s family questioned nio s private access to the vehicle which they argued did not guarantee the integrity of the data
+
+in november 2021 the california department of motor vehicles dmv notified pony ai that it was suspending its testing permit following a reported collision in fremont on 28 october in may 2022 dmv revoked pony ai s permit for failing to monitor the driving records of its safety drivers
+
+in april 2022 cruise s testing vehicle was reported to have blocked a fire engine on emergency call and sparked questions about its ability to handle unexpected circumstances
+
+in february 2024 a driver using the ford bluecruise hands free driving feature struck and killed the driver of a stationary car with no lights on in the middle lane of a freeway in texas
+
+in march 2024 a drunk driver who was speeding holding her cell phone and using bluecruise on a pennsylvania freeway struck and killed two people who had been driving two cars the first car had become disabled and was on the left shoulder with part of the car in the left driving lane the second driver had parked his car behind the first car presumably to help the first driver the ntsb is investigating both incidents
+
+the us national highway traffic safety administration began mandating incident reports from autonomous vehicle companies in june 2021 some reports cite incidents from as early as august 2019 with current data available through june 17 2024
+
+there have been a total of 3 979 autonomous vehicle incidents both ads and adas reported during this timeframe 2 146 of those incidents 53 9 involved tesla vehicles
+
+in a 2011 online survey of 2 006 us and uk consumers 49 said they would be comfortable using a driverless car
+
+a 2012 survey of 17 400 vehicle owners found 37 who initially said they would be interested in purchasing a fully autonomous car however that figure dropped to 20 if told the technology would cost us 3 000 more
+
+in a 2012 survey of about 1 000 german drivers 22 had a positive attitude 10 were undecided 44 were skeptical and 24 were hostile
+
+a 2013 survey of 1 500 consumers across 10 countries found 57 stated they would be likely to ride in a car controlled entirely by technology that does not require a human driver with brazil india and china the most willing to trust automated technology
+
+in a 2014 us telephone survey over three quarters of licensed drivers said they would consider buying a self driving car rising to 86 if car insurance were cheaper 31 7 said they would not continue to drive once an automated car was available
+
+in 2015 a survey of 5 000 people from 109 countries reported that average respondents found manual driving the most enjoyable 22 did not want to pay more money for autonomy respondents were found to be most concerned about hacking misuse and were also concerned about legal issues and safety finally respondents from more developed countries were less comfortable with their vehicle sharing data the survey reported consumer interest in purchasing an ac stating that 37 of surveyed current owners were either definitely or probably interested
+
+in 2016 a survey of 1 603 people in germany that controlled for age gender and education reported that men felt less anxiety and more enthusiasm whereas women showed the opposite the difference was pronounced between young men and women and decreased with age
+
+in a 2016 us survey of 1 584 people 66 percent of respondents said they think autonomous cars are probably smarter than the average human driver people were worried about safety and hacking risk nevertheless only 13 of the interviewees saw no advantages in this new kind of cars
+
+in a 2017 survey of 4 135 us adults found that many americans anticipated significant impacts from various automation technologies including the widespread adoption of automated vehicles
+
+in 2019 a test of a method of surveying opinions about self driving cars termed the autonomous vehicle acceptance model avam found that users were less accepting of high autonomy levels and displayed significantly lower intention to use highly autonomous vehicles additionally partial autonomy regardless of level was perceived as requiring uniformly higher driver engagement usage of hands feet and eyes than full autonomy
+
+in 2022 a survey reported that only a quarter 27 of the world s population would feel safe in self driving cars
+
+in july 2024 a biannual yougov survey asking british adults how safe or unsafe people would feel in a self driving car found that 4 would feel very safe while 37 would feel very unsafe
+
+regulation of self driving cars refers to legislation passed in various jurisdictions around the world to regulate standardise test and monitor the use of autonomous vehicles and automated driving systems on public roads existing liability laws are also evolving to fairly identify the parties responsible for damage and injury and to address the potential for conflicts of interest between human occupants system operators insurers and the public purse autonomous vehicle regulations may also apply to robotaxis and self driving trucks depending upon local legislation
+
+in june 2011 the us state of nevada became the first jurisdiction in the world to legislate for self driving since then many state national and suprantional bodies have introduced similar laws with varying characteristics regulations governing the testing of automated cars on public roads as opposed to full consumer operations include those introduced by the government of the united kingdom in 2013 with similar laws coming into effect in france in 2015
+
+modification of existing international agreements on the use of vehicles on public roads has also taken place the 1949 vienna geneva convention on road traffic had assumed that a driver is always fully in control and responsible for the behaviour of a vehicle in traffic but this was amended in 2016 to allow the possibility of automated features in vehicles
+
+specific international regulations also began to be formulated in 2018 with the working party on automated autonomous and connected vehicles grva recommending safety provisions related to the dynamics of vehicles braking steering advanced driver assistance systems automated driving systems ads and cyber security provisions for the world forum for harmonization of vehicle regulations wp 29
+
+individual jurisdictions around the world have also set up legal frameworks of various kinds china introduced testing regulations for autonomous cars in 2018 and in 2020 issued the strategy for innovation and development of intelligent vehicles a roadmap plan until 2025 relating to road traffic safety surveying and mapping laws relating to intelligent vehicles in europe regulation 2019 2144 commonly known as the general safety regulation gsr came into force for all new cars in the european union after 6th july 2022 similar legislation followed in japan with the law modified to reflect the finalized unece wp 29 grva regulations
+
+sae wording is generally adopted as the de facto standard for definitions in regulations throughout most jurisdictions this gives descriptions for levels of autonomy ranging from fully manual level 0 to fully automated level 5 terminology in ads operational design domain odd and dynamic driving task ddt is also used
+
+while various models of car may be described by their manufacturers as being at a certain level the sae technical specification means that a car can move between levels depending on the driving task and the circumstances it is operating in at a given time this means that for example when a manufacturer says they have a level 4 car they mean the vehicle has one or more specific features like automated valet parking that are capable of operating at level 4 but on the open highway they might operate at a lower level
+
+as of 2023 update most commercially available adas vehicles are sae level 2 a couple of companies reached higher levels but only in restricted geofenced locations vehicles operating below level 5 still offer many advantages
+
+sae level 2 features are available as part of the adas systems in many vehicles in the us 50 of new cars provide driver assistance for both steering and speed
+
+ford started offering bluecruise service on certain vehicles in 2022 the system is named activeglide in lincoln vehicles the system provided features such as lane centering street sign recognition and hands free highway driving on more than 130 000 miles of divided highways the 2022 1 2 version added features including hands free lane changing in lane repositioning and predictive speed assist in april 2023 bluecruise was approved in the uk for use on certain motorways starting with 2023 models of ford s electric mustang mach e suv
+
+tesla s autopilot and its full self driving fsd adas suites are available on all tesla cars since 2016 fsd offers highway and street driving without geofencing navigation turn management steering and dynamic cruise control collision avoidance lane keeping switching emergency braking obstacle avoidance but still requires the driver to remain ready to control the vehicle at any moment its driver management system combines eye tracking with monitoring pressure on the steering wheel to ensure that drives are both eyes on and hands on
+
+tesla s fsd rewrite v12 released in march 2024 uses a single deep learning transformer model for all aspects of perception monitoring and control it relies on its eight cameras for its vision only perception system without use of lidar radar or ultrasound as of january 2024 tesla has not initiated requests for level 3 status for its systems and has not disclosed its reason for not doing so
+
+general motors is developing the ultra cruise adas system that will be a dramatic improvement over their current super cruise system ultra cruise will cover 95 percent of driving scenarios on 2 million miles of roads in the us according to the company the system hardware in and around the car includes multiple cameras short and long range radar and a lidar sensor and will be powered by the qualcomm snapdragon ride platform the luxury cadillac celestiq electric vehicle will be one of the first vehicles to feature ultra cruise
+
+as of april 2024 update two car manufacturers have sold or leased level 3 cars honda in japan and mercedes in germany nevada and california
+
+mercedes drive pilot has been available on the eqs and s class sedan in germany since 2022 and in california and nevada since 2023 a subscription costs between 5 000 and 7 000 for three years in germany and 2 500 for one year in the united states drive pilot can only be used when the vehicle is traveling under 40 miles per hour 64 km h there is a vehicle in front readable line markings during the day clear weather and on freeways mapped by mercedes down to the centimeter 100 000 miles in california as of april 2024 one mercedes vehicle with this capability has been sold in california
+
+as of 2026 the only level 3 cars in china are deepal sl03 and arcfox αs
+
+honda continued to enhance its level 3 technology as of 2023 80 vehicles with level 3 support had been sold
+
+mercedes benz received authorization in early 2023 to pilot its level 3 software in las vegas california also authorized drive pilot in 2023
+
+bmw commercialized its ac in 2021 in 2023 bmw stated that its level 3 technology was nearing release it would be the second manufacturer to deliver level 3 technology but the only one with a level 3 technology which works in the dark
+
+in 2023 in china im motors mercedes and bmw obtained authorization to test vehicles with level 3 systems on motorways
+
+in september 2021 stellantis presented its findings from its level 3 pilot testing on italian highways stellantis s highway chauffeur claimed level 3 capabilities as tested on the maserati ghibli and fiat 500x prototypes
+
+polestar a volvo cars brand announced in january 2022 its plan to offer level 3 autonomous driving system in the polestar 3 suv a volvo xc90 successor with technologies from luminar technologies nvidia and zenseact
+
+in january 2022 bosch and the volkswagen group subsidiary cariad released a collaboration for autonomous driving up to level 3 this joint development targets level 4 capabilities
+
+hyundai motor company is enhancing cybersecurity of connected cars to offer a level 3 self driving genesis g90 kia and hyundai korean car makers delayed their level 3 plans and will not deliver level 3 vehicles in 2023
+
+in 2024 companies such as waymo began offering robotaxi services in parts of the us with fully autonomous vehicles without safety drivers these services all operate at a loss as of 2025 with operating costs of about 4 5 5 5 km 7 9 per mile compared to 0 6 km 1 per mile for personal cars the consultancy mckinsey estimated that bringing costs down to less than 1 2 km 2 per mile would take until 2035
+
+in april 2023 in japan a level 4 protocol became part of the amended road traffic act zen drive pilot level 4 made by aist operates there
+
+in july 2020 toyota started public demonstration rides on lexus ls fifth generation based tri p4 with level 4 capability in august 2021 toyota operated a potentially level 4 service using e palette around the tokyo 2020 olympic village
+
+in september 2020 mercedes benz introduced world s first commercial level 4 automated valet parking avp system named intelligent park pilot for its new s class in november 2022 germany s federal motor transport authority kba approved the system for use at stuttgart airport
+
+in september 2021 cruise general motors and honda started a joint testing programme using cruise av in 2023 the origin was put on indefinite hold following cruise s loss of its operating permit
+
+in january 2023 holon announced an autonomous shuttle during the 2023 consumer electronics show ces the company claimed that the vehicle is the world s first level 4 shuttle built to automotive standard
+
+media related to autonomous automobiles at wikimedia commons
+
+these books are based on presentations and discussions at the automated vehicles symposium organized annually by trb and auvsi

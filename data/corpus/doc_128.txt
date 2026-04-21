@@ -1,0 +1,89 @@
+data quality refers to the state of qualitative or quantitative pieces of information there are many definitions of data quality but data is generally considered high quality if it is fit for its intended uses in operations decision making and planning data is deemed of high quality if it correctly represents the real world construct to which it refers apart from these definitions as the number of data sources increases the question of internal data consistency becomes significant regardless of fitness for use for any particular external purpose
+
+people s views on data quality can often be in disagreement even when discussing the same set of data used for the same purpose when this is the case businesses may adopt recognised international standards for data quality see international standards for data quality below data governance can also be used to form agreed upon definitions and standards including international standards for data quality in such cases data cleansing including standardization may be required in order to ensure data quality
+
+defining data quality is difficult due to the many contexts data are used in as well as the varying perspectives among end users producers and custodians of data
+
+from a consumer perspective data quality is
+
+from a business perspective data quality is
+
+from a standards based perspective data quality is
+
+arguably in all these cases data quality is a comparison of the actual state of a particular set of data to a desired state with the desired state being typically referred to as fit for use to specification meeting consumer expectations free of defect or meeting requirements these expectations specifications and requirements are usually defined by one or more individuals or groups standards organizations laws and regulations business policies or software development policies
+
+drilling down further those expectations specifications and requirements are stated in terms of characteristics or dimensions of the data such as
+
+a systematic scoping review of the literature suggests that data quality dimensions and methods with real world data are not consistent in the literature and as a result quality assessments are challenging due to the complex and heterogeneous nature of these data
+
+iso 8000 is an international standard for data quality managed by the international organization for standardization the iso 8000 standards address and describe
+
+before the rise of the inexpensive computer data storage massive mainframe computers were used to maintain name and address data for delivery services this was so that mail could be properly routed to its destination the mainframes used business rules to correct common misspellings and typographical errors in name and address data as well as to track customers who had moved died gone to prison married divorced or experienced other life changing events government agencies began to make postal data available to a few service companies to cross reference customer data with the national change of address registry ncoa this technology saved large companies millions of dollars in comparison to manual correction of customer data large companies saved on postage as bills and direct marketing materials made their way to the intended customer more accurately initially sold as a service data quality moved inside the walls of corporations as low cost and powerful server technology became available citation needed
+
+companies with an emphasis on marketing often focused their quality efforts on name and address information but data quality is recognized by whom as an important property of all types of data principles of data quality can be applied to supply chain data transactional data and nearly every other category of data found for example making supply chain data conform to a certain standard has value to an organization by 1 avoiding overstocking of similar but slightly different stock 2 avoiding false stock out 3 improving the understanding of vendor purchases to negotiate volume discounts and 4 avoiding logistics costs in stocking and shipping parts across a large organization citation needed
+
+for companies with significant research efforts data quality can include developing protocols for research methods reducing measurement error bounds checking of data cross tabulation modeling and outlier detection verifying data integrity etc citation needed
+
+there are a number of theoretical frameworks for understanding data quality a systems theoretical approach influenced by american pragmatism expands the definition of data quality to include information quality and emphasizes the inclusiveness of the fundamental dimensions of accuracy and precision on the basis of the theory of science ivanov 1972 one framework dubbed zero defect data hansen 1991 adapts the principles of statistical process control to data quality another framework seeks to integrate the product perspective conformance to specifications and the service perspective meeting consumers expectations kahn et al 2002 another framework is based in semiotics to evaluate the quality of the form meaning and use of the data price and shanks 2004 one highly theoretical approach analyzes the ontological nature of information systems to define data quality rigorously wand and wang 1996
+
+a considerable amount of data quality research involves investigating and describing various categories of desirable attributes or dimensions of data nearly 200 such terms have been identified and there is little agreement in their nature are these concepts goals or criteria their definitions or measures wang et al 1993 software engineers may recognize this as a similar problem to ilities
+
+mit has an information quality mitiq program led by professor richard wang which produces a large number of publications and hosts a significant international conference in this field international conference on information quality iciq this program grew out of the work done by hansen on the zero defect data framework hansen 1991
+
+in practice data quality is a concern for professionals involved with a wide range of information systems ranging from data warehousing and business intelligence to customer relationship management and supply chain management one industry study estimated the total cost to the u s economy of data quality problems at over u s 600 billion per annum eckerson 2002 incorrect data which includes invalid and outdated information can originate from different data sources through data entry or data migration and conversion projects
+
+in 2002 the usps and pricewaterhousecoopers released a report stating that 23 6 percent of all u s mail sent is incorrectly addressed
+
+one reason contact data becomes stale very quickly in the average database more than 45 million americans change their address every year
+
+in fact the problem is such a concern that companies are beginning to set up a data governance team whose sole role in the corporation is to be responsible for data quality in some who organizations this data governance function has been established as part of a larger regulatory compliance function a recognition of the importance of data information quality to organizations
+
+problems with data quality don t only arise from incorrect data inconsistent data is a problem as well eliminating data shadow systems and centralizing data in a warehouse is one of the initiatives a company can take to ensure data consistency
+
+enterprises scientists and researchers are starting to participate within data curation communities to improve the quality of their common data
+
+the market is going some way to providing data quality assurance a number of vendors make tools for analyzing and repairing poor quality data in situ service providers can clean the data on a contract basis and consultants can advise on fixing processes or systems to avoid data quality problems in the first place most data quality tools offer a series of tools for improving data which may include some or all of the following
+
+data quality assurance is the process of data profiling to discover inconsistencies and other anomalies in the data as well as performing data cleansing activities e g removing outliers missing data interpolation to improve the data quality
+
+these activities can be undertaken as part of data warehousing or as part of the database administration of an existing piece of application software
+
+data quality control is the process of controlling the usage of data for an application or a process this process is performed both before and after a data quality assurance qa process which consists of discovery of data inconsistency and correction
+
+before
+
+after qa process the following statistics are gathered to guide the quality control qc process
+
+the data qc process uses the information from the qa process to decide to use the data for analysis or in an application or business process general example if a data qc process finds that the data contains too many errors or inconsistencies then it prevents that data from being used for its intended process which could cause disruption specific example providing invalid measurements from several sensors to the automatic pilot feature on an aircraft could cause it to crash thus establishing a qc process provides data usage protection citation needed
+
+data quality dq is a niche area required for the integrity of the data management by covering gaps of data issues this is one of the key functions that aid data governance by monitoring data to find exceptions undiscovered by current data management operations data quality checks may be defined at attribute level to have full control on its remediation steps citation needed
+
+dq checks and business rules may easily overlap if an organization is not attentive of its dq scope business teams should understand the dq scope thoroughly in order to avoid overlap data quality checks are redundant if business logic covers the same functionality and fulfills the same purpose as dq the dq scope of an organization should be defined in dq strategy and well implemented some data quality checks may be translated into business rules after repeated instances of exceptions in the past citation needed
+
+below are a few areas of data flows that may need perennial dq checks
+
+completeness and precision dq checks on all data may be performed at the point of entry for each mandatory attribute from each source system few attribute values are created way after the initial creation of the transaction in such cases administering these checks becomes tricky and should be done immediately after the defined event of that attribute s source and the transaction s other core attribute conditions are met
+
+all data having attributes referring to reference data in the organization may be validated against the set of well defined valid values of reference data to discover new or discrepant values through the validity dq check results may be used to update reference data administered under master data management mdm
+
+all data sourced from a third party to organization s internal teams may undergo accuracy dq check against the third party data these dq check results are valuable when administered on data that made multiple hops after the point of entry of that data but before that data becomes authorized or stored for enterprise intelligence
+
+all data columns that refer to master data may be validated for its consistency check a dq check administered on the data at the point of entry discovers new data for the mdm process but a dq check administered after the point of entry discovers the failure not exceptions of consistency
+
+as data transforms multiple timestamps and the positions of that timestamps are captured and may be compared against each other and its leeway to validate its value decay operational significance against a defined sla service level agreement this timeliness dq check can be utilized to decrease data value decay rate and optimize the policies of data movement timeline
+
+in an organization complex logic is usually segregated into simpler logic across multiple processes reasonableness dq checks on such complex logic yielding to a logical result within a specific range of values or static interrelationships aggregated business rules may be validated to discover complicated but crucial business processes and outliers of the data its drift from bau business as usual expectations and may provide possible exceptions eventually resulting into data issues this check may be a simple generic aggregation rule engulfed by large chunk of data or it can be a complicated logic on a group of attributes of a transaction pertaining to the core business of the organization this dq check requires high degree of business knowledge and acumen discovery of reasonableness issues may aid for policy and strategy changes by either business or data governance or both
+
+conformity checks and integrity checks need not covered in all business needs it s strictly under the database architecture s discretion
+
+there are many places in the data movement where dq checks may not be required for instance dq check for completeness and precision on not null columns is redundant for the data sourced from database similarly data should be validated for its accuracy with respect to time when the data is stitched across disparate sources however that is a business rule and should not be in the dq scope citation needed
+
+regretfully from a software development perspective dq is often seen as a nonfunctional requirement and as such key data quality checks processes are not factored into the final software solution within healthcare wearable technologies or body area networks generate large volumes of data the level of detail required to ensure data quality is extremely high and is often underestimated this is also true for the vast majority of mhealth apps ehrs and other health related software solutions however some open source tools exist that examine data quality the primary reason for this stems from the extra cost involved is added a higher degree of rigor within the software architecture
+
+the use of mobile devices in health or mhealth creates new challenges to health data security and privacy in ways that directly affect data quality mhealth is an increasingly important strategy for delivery of health services in low and middle income countries mobile phones and tablets are used for collection reporting and analysis of data in near real time however these mobile devices are commonly used for personal activities as well leaving them more vulnerable to security risks that could lead to data breaches without proper security safeguards this personal use could jeopardize the quality security and confidentiality of health data
+
+data quality has become a major focus of public health programs in recent years especially as demand for accountability increases work towards ambitious goals related to the fight against diseases such as aids tuberculosis and malaria must be predicated on strong monitoring and evaluation systems that produce quality data related to program implementation these programs and program auditors increasingly seek tools to standardize and streamline the process of determining the quality of data verify the quality of reported data and assess the underlying data management and reporting systems for indicators an example is who and measure evaluation s data quality review tool who the global fund gavi and measure evaluation have collaborated to produce a harmonized approach to data quality assurance across different diseases and programs
+
+there are a number of scientific works devoted to the analysis of the data quality in open data sources such as wikipedia wikidata dbpedia and other in the case of wikipedia quality analysis may relate to the whole article modeling of quality there is carried out by means of various methods some of them use machine learning algorithms including random forest support vector machine and others methods for assessing data quality in wikidata dbpedia and other lod sources differ
+
+the electronic commerce code management association eccma is a member based international not for profit association committed to improving data quality through the implementation of international standards eccma is the current project leader for the development of iso 8000 and iso 22745 which are the international standards for data quality and the exchange of material and service master data respectively eccma provides a platform for collaboration amongst subject experts on data quality and data governance around the world to build and maintain global open standard dictionaries that are used to unambiguously label information the existence of these dictionaries known as open technical dictionaries of labels acting as metadata and reference data allows information to be passed from one computer system to another without losing meaning

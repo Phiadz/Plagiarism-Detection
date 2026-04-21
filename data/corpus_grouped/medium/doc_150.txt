@@ -1,0 +1,67 @@
+in computing data transformation is the process of converting data from one format or structure into another format or structure it is a fundamental aspect of most data integration and data management tasks such as data wrangling data warehousing data integration and application integration
+
+data transformation can be simple or complex based on the required changes to the data between the source initial data and the target final data data transformation is typically performed via a mixture of manual and automated steps tools and technologies used for data transformation can vary widely based on the format structure complexity and volume of the data being transformed
+
+a master data recast is another form of data transformation where the entire database of data values is transformed or recast without extracting the data from the database all data in a well designed database is directly or indirectly related to a limited set of master database tables by a network of foreign key constraints each foreign key constraint is dependent upon a unique database index from the parent database table therefore when the proper master database table is recast with a different unique index the directly and indirectly related data are also recast or restated the directly and indirectly related data may also still be viewed in the original form since the original unique index still exists with the master data also the database recast must be done in such a way as to not impact the applications architecture software
+
+when the data mapping is indirect via a mediating data model the process is also called data mediation
+
+data transformation can be divided into the following steps each applicable as needed based on the complexity of the transformation required
+
+these steps are often the focus of developers or technical data analysts who may use multiple specialized tools to perform their tasks
+
+the steps can be described as follows
+
+data discovery is the first step in the data transformation process typically the data is profiled using profiling tools or sometimes using manually written profiling scripts to better understand the structure and characteristics of the data and decide how it needs to be transformed
+
+data mapping is the process of defining how individual fields are mapped modified joined filtered aggregated etc to produce the final desired output developers or technical data analysts traditionally perform data mapping since they work in the specific technologies to define the transformation rules e g visual etl tools transformation languages
+
+code generation is the process of generating executable code e g sql python r or other executable instructions that will transform the data based on the desired and defined data mapping rules typically the data transformation technologies generate this code based on the definitions or metadata defined by the developers
+
+code execution is the step whereby the generated code is executed against the data to create the desired output the executed code may be tightly integrated into the transformation tool or it may require separate steps by the developer to manually execute the generated code
+
+data review is the final step in the process which focuses on ensuring the output data meets the transformation requirements it is typically the business user or final end user of the data that performs this step any anomalies or errors in the data that are found and communicated back to the developer or data analyst as new requirements to be implemented in the transformation process
+
+traditionally data transformation has been a bulk or batch process whereby developers write code or implement transformation rules in a data integration tool and then execute that code or those rules on large volumes of data this process can follow the linear set of steps as described in the data transformation process above
+
+batch data transformation is the cornerstone of virtually all data integration technologies such as data warehousing data migration and application integration
+
+when data must be transformed and delivered with low latency the term microbatch is often used this refers to small batches of data e g a small number of rows or a small set of data objects that can be processed very quickly and delivered to the target system when needed
+
+traditional data transformation processes have served companies well for decades the various tools and technologies data profiling data visualization data cleansing data integration etc have matured and most if not all enterprises transform enormous volumes of data that feed internal and external applications data warehouses and other data stores
+
+this traditional process also has limitations that hamper its overall efficiency and effectiveness
+
+the people who need to use the data e g business users do not play a direct role in the data transformation process typically users hand over the data transformation task to developers who have the necessary coding or technical skills to define the transformations and execute them on the data
+
+this process leaves the bulk of the work of defining the required transformations to the developer which often in turn do not have the same domain knowledge as the business user the developer interprets the business user requirements and implements the related code logic this has the potential of introducing errors into the process through misinterpreted requirements and also increases the time to arrive at a solution
+
+this problem has given rise to the need for agility and self service in data integration i e empowering the user of the data and enabling them to transform the data themselves interactively
+
+there are companies that provide self service data transformation tools they are aiming to efficiently analyze map and transform large volumes of data without the technical knowledge and process complexity that currently exists while these companies use traditional batch transformation their tools enable more interactivity for users through visual platforms and easily repeated scripts
+
+still there might be some compatibility issues e g new data sources like iot may not work correctly with older tools and compliance limitations due to the difference in data governance preparation and audit practices
+
+interactive data transformation idt is an emerging capability that allows business analysts and business users the ability to directly interact with large datasets through a visual interface understand the characteristics of the data via automated data profiling or visualization and change or correct the data through simple interactions such as clicking or selecting certain elements of the data
+
+although interactive data transformation follows the same data integration process steps as batch data integration the key difference is that the steps are not necessarily followed in a linear fashion and typically don t require significant technical skills for completion
+
+there are a number of companies that provide interactive data transformation tools including trifacta alteryx and paxata they are aiming to efficiently analyze map and transform large volumes of data while at the same time abstracting away some of the technical complexity and processes which take place under the hood
+
+interactive data transformation solutions provide an integrated visual interface that combines the previously disparate steps of data analysis data mapping and code generation execution and data inspection that is if changes are made at one step like for example renaming the software automatically updates the preceding or following steps accordingly interfaces for interactive data transformation incorporate visualizations to show the user patterns and anomalies in the data so they can identify erroneous or outlying values
+
+once they ve finished transforming the data the system can generate executable code logic which can be executed or applied to subsequent similar data sets
+
+by removing the developer from the process interactive data transformation systems shorten the time needed to prepare and transform the data eliminate costly errors in the interpretation of user requirements and empower business users and analysts to control their data and interact with it as needed
+
+there are numerous languages available for performing data transformation many transformation languages require a grammar to be provided in many cases the grammar is structured using something closely resembling backus naur form bnf there are numerous languages available for such purposes varying in their accessibility cost and general usefulness examples of such languages include
+
+additionally companies such as trifacta and paxata have developed domain specific transformational languages dsl for servicing and transforming datasets the development of domain specific languages has been linked to increased productivity and accessibility for non technical users trifacta s wrangle is an example of such a domain specific language
+
+another advantage of the recent domain specific transformational languages trend is that a domain specific transformational language can abstract the underlying execution of the logic defined in the domain specific transformational language they can also utilize that same logic in various processing engines such as spark mapreduce and dataflow in other words with a domain specific transformational language the transformation language is not tied to the underlying engine
+
+although transformational languages are typically best suited for transformation something as simple as regular expressions can be used to achieve useful transformation a text editor like vim emacs or textpad supports the use of regular expressions with arguments this would allow all instances of a particular pattern to be replaced with another pattern using parts of the original pattern for example
+
+could both be transformed into a more compact form like
+
+in other words all instances of a function invocation of foo with three arguments followed by a function invocation with two arguments would be replaced with a single function invocation using some or all of the original set of arguments

@@ -1,0 +1,104 @@
+the fluent calculus is a formalism for expressing dynamical domains in first order logic it is a variant of the situation calculus the main difference is that situations are considered representations of states a binary function symbol
+
+
+
+
+
+
+displaystyle circ
+
+is used to concatenate the terms that represent facts that hold in a situation for example that the box is on the table in the situation
+
+
+
+s
+
+
+displaystyle s
+
+is represented by the formula
+
+
+
+
+t
+
+s
+
+o
+n
+
+b
+o
+x
+
+t
+a
+b
+l
+e
+
+
+t
+
+
+displaystyle exists t s on box table circ t
+
+the frame problem is solved by asserting that the situation after the execution of an action is identical to the one before but for the conditions changed by the action for example the action of moving the box from the table to the floor is formalized as
+
+this formula states that the state after the move added the term
+
+
+
+o
+n
+
+b
+o
+x
+
+f
+l
+o
+o
+r
+
+
+
+displaystyle on box floor
+
+and removed the term
+
+
+
+o
+n
+
+b
+o
+x
+
+t
+a
+b
+l
+e
+
+
+
+displaystyle on box table
+
+axioms specifying that
+
+
+
+
+
+
+displaystyle circ
+
+is commutative and non idempotent are necessary for such axioms to work
+
+
+
+this logic related article is a stub you can help wikipedia by adding missing information

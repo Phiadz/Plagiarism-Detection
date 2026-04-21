@@ -1,0 +1,35 @@
+nouvelle artificial intelligence nouvelle ai is an approach to artificial intelligence pioneered in the 1980s by rodney brooks who was then part of mit artificial intelligence laboratory nouvelle ai differs from classical ai by aiming to produce robots with intelligence levels similar to insects researchers believe that intelligence can emerge organically from simple behaviors as these intelligences interacted with the real world instead of using the constructed worlds which symbolic ais typically needed to have programmed into them
+
+the differences between nouvelle ai and symbolic ai are apparent in early robots shakey and freddy these robots contained an internal model or representation of their micro worlds consisting of symbolic descriptions as a result this structure of symbols had to be renewed as the robot moved or the world changed
+
+shakey s planning programs assessed the program structure and broke it down into the necessary steps to complete the desired action this level of computation required a large amount time to process so shakey typically performed its tasks very slowly
+
+symbolic ai researchers had long been plagued by the problem of updating searching and otherwise manipulating the symbolic worlds inside their ais a nouvelle system refers continuously to its sensors rather than to an internal model of the world it processes the external world information it needs from the senses when it is required as brooks puts it the world is its own best model always exactly up to date and complete in every detail
+
+a central idea of nouvelle ai is that simple behaviors combine to form more complex behaviors over time for example simple behaviors can include elements like move forward and avoid obstacles a robot using nouvelle ai with simple behaviors like collision avoidance and moving toward a moving object could possibly come together to produce a more complex behavior like chasing a moving object
+
+
+the frame problem describes an issue with using first order logic fol to express facts about a robot in the world representing the state of a robot with traditional fol requires the use of many axioms symbolic language to imply that things about an environment do not change arbitrarily
+
+nouvelle ai seeks to sidestep the frame problem by dispensing with filling the ai or robot with volumes of symbolic language and instead letting more complex behaviors emerge by combining simpler behavioral elements
+
+
+the goal of traditional ai was to build intelligences without bodies which would only have been able to interact with the world via keyboard screen or printer however nouvelle ai attempts to build embodied intelligence situated in the real world brooks quotes approvingly from the brief sketches that turing gave in 1948 and 1950 of the situated approach turing wrote of equipping a machine with the best sense organs that money can buy and teaching it to understand and speak english by a process that would follow the normal teaching of a child this approach was contrasted to the others where they focused on abstract activities such as playing chess
+
+brooks focused on building robots that acted like simple insects while simultaneously working to remove some traditional ai characteristics he created insect like robots named allen and herbert after cognitive science and ai pioneers allen newell and herbert a simon
+
+brooks s insectoid robots contained no internal models of the world herbert for example discarded a high volume of the information received from its sensors and never stored information for more than two seconds
+
+allen had a ring of twelve ultrasonic sonars as its primary sensors and three independent behavior producing modules these modules were programmed to avoid both stationary and moving objects with only this module activated allen stayed in the middle of a room until an object approached and then it ran away while avoiding obstacles in its way
+
+herbert used infrared sensors to avoid obstacles and a laser system to collect 3d data over a distance of about 12 feet herbert also carried a number of simple sensors in its hand the robot s testing ground was the real world environment of the busy offices and workspaces of the mit ai lab where it searched for empty soda cans and carried them away a seemingly goal oriented activity that emerged as a result of 15 simple behavior units combining as a parallel simon noted that an ant s complicated path is due to the structure of its environment rather than the depth of its thought processes
+
+other robots by brooks team were genghis and squirt genghis had six legs and was able to walk over rough terrain and follow a human squirt s behavior modules had it stay in dark corners until it heard a noise then it would begin to follow the source of the noise
+
+brooks agreed that the level of nouvelle ai had come near the complexity of a real insect which raised a question about whether or not insect level behavior was and is a reasonable goal for nouvelle ai
+
+brooks own recent work has taken the opposite direction to that proposed by von neumann in the quotations theorists who select the human nervous system as their model are unrealistically picking the most complicated object under the sun and that there is little advantage in selecting instead the ant since any nervous system at all exhibits exceptional complexity
+
+in the 1990s brooks decided to pursue the goal of human level intelligence and with lynn andrea stein built a humanoid robot called cog cog is a robot with an extensive collection of sensors a face and arms among other features that allow it to interact with the world and gather information and experience so as to assemble intelligence organically in the manner described above by turing
+
+the team believed that cog would be able to learn and able to find a correlation between the sensory information it received and its actions and to learn common sense knowledge on its own as of 2003 all development of the project had ceased

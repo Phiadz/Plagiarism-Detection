@@ -1,0 +1,18 @@
+
+the bitter lesson is the observation in artificial intelligence that in the long run general approaches that scale with available computational power tend to outperform ones based on domain specific understanding because they are better at taking advantage of the falling cost of computation over time the principle was proposed and named in a 2019 essay by richard sutton and is now widely accepted
+
+sutton gives several examples that illustrate the lesson
+
+sutton concludes that time is better invested in finding simple scalable solutions that can take advantage of moore s law rather than introducing ever more complex human insights and calls this the bitter lesson he also cites two general purpose techniques that have been shown to scale effectively search and learning the lesson is considered bitter because it is less anthropocentric than many researchers expected and so they have been slow to accept it
+
+the essay was published on sutton s website incompleteideas net in 2019 and has received hundreds of formal citations according to google scholar some of these provide alternative statements of the principle for example the 2022 paper a generalist agent from google deepmind summarized the lesson as
+
+historically generic models that are better at
+leveraging computation have also tended to overtake more specialized domain specific approaches eventually
+another phrasing of the principle is seen in a google paper on switch transformers coauthored by noam shazeer
+
+simple architectures backed by a generous computational budget data set size and parameter count surpass more complicated algorithms
+the principle is further referenced in many other works on artificial intelligence for example from deep learning to rational machines draws a connection to long standing debates in the field such as moravec s paradox and the contrast between neats and scruffies in engineering a less artificial intelligence the authors concur that flexible methods so far have always outperformed handcrafted domain knowledge in the long run although note that w ithout the right implicit assumptions generalization is impossible more recently the brain s bitter lesson scaling speech decoding with self supervised learning continues sutton s argument contending that as of 2025 the lesson has not been fully learned in the fields of speech recognition and brain data
+
+other work has looked to apply the principle and validate it in new domains for example the 2022 paper beyond the imitation game applies the principle to large language models to conclude that it is vitally important that we understand their capabilities and limitations to avoid devoting research resources to problems that are likely to be solved by scale alone in 2024 learning the bitter lesson empirical evidence from 20 years of cvpr proceedings looked at further evidence from the field of computer vision and pattern recognition and concludes that the previous twenty years of experience in the field shows a strong adherence to
+the core principles of the bitter lesson in overestimation overfitting and plasticity in actor critic the bitter lesson of reinforcement learning the authors look at generalization of actor critic algorithms and find that general methods that are motivated by stabilization of gradient based learning significantly outperform rl specific algorithmic improvements across a variety of environments and note that this is consistent with the bitter lesson

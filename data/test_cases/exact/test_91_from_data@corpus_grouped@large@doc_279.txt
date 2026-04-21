@@ -1,0 +1,3 @@
+ semantics whereas production systems do not
+
+the earliest form of logic programming was based on the horn clause subset of fol but later extensions of lp included the negation as failure inference rule which turns lp into a non monotonic logic for default reasoning the resulting extended semantics 

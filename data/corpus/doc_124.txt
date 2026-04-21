@@ -1,0 +1,54 @@
+data preservation is the act of conserving and maintaining both the safety and integrity of data preservation is done through formal activities that are governed by policies regulations and strategies directed towards protecting and prolonging the existence and authenticity of data and its metadata data can be described as the elements or units in which knowledge and information is created
+and metadata are the summarizing subsets of the elements of data or the data about the data the main goal of data preservation is to protect data from being lost or destroyed and to contribute to the reuse and progression of the data
+
+most historical data collected over time has been lost or destroyed war and natural disasters combined with the lack of materials and necessary practices to preserve and protect data has caused this usually only the most important data sets were saved such as government records and statistics legal contracts and economic transactions scientific research and doctoral theses data have mostly been destroyed from improper storage and lack of data preservation awareness and execution over time data preservation has evolved and has generated importance and awareness we now have many different ways to preserve data and many different important organizations involved in doing so
+
+the first digital data preservation storage solutions appeared in the 1950s which were usually flat or hierarchically structured while there were still issues with these solutions it made storing data much cheaper and more easily accessible in the 1970s relational databases as well as spreadsheets appeared relational data bases structure data into tables using structured query languages which made them more efficient than the preceding storage solutions and spreadsheets hold high volumes of numeric data which can be applied to these relational databases to produce derivative data more recently non relational non structured query language databases have appeared as complements to relational databases which hold high volumes of unstructured or semi structured data
+
+the scope of data preservation is vast everything from governmental to business records to art essentially can be represented as data and is amenable to be lost this then leads to loss of human history for perpetuity
+
+data can be lost on a small or independent scale whether it s personal data loss or data loss within businesses and organizations as well as on a larger or national or global scale which can negatively and potentially permanently affect things such as environmental protection medical research homeland security public health and safety economic development and culture the mechanisms of data loss are also as many as they are varied spanning from disaster wars data breaches negligence all the way through simple forgetting to natural decay
+
+ways in which data collections can be used when preserved and stored properly can be seen through the u s geological survey which stores data collections on natural hazards natural resources and landscapes the data collected by the survey is used by federal and state land management agencies towards land use planning and management and continually needs access to historical reference data
+
+in contrast data holdings are collections of gathered data that are informally kept and not necessarily prepared for long term preservation for example a collection or back up of personal files data holdings are generally the storage methods used in the past when data has been lost due to environmental and other historical disasters
+
+furthermore data retention differs from data preservation in the sense that by definition to retain an object data is to hold or keep possession or use of the object to preserve an object is to protect maintain and keep up for future use retention policies often circle around when data should be deleted on purpose as well and held from public access while preservation prioritizes permanence and more widely shared access
+
+thus data preservation exceeds the concept of having or possessing data or back up copies of data data preservation ensures reliable access to data by including back up and recovery mechanisms that precede the event of a disaster or technological change
+
+digital preservation is similar to data preservation but is mainly concerned with technological threats and solely digital data essentially digital data is a set of formal activities to enable ongoing or persistent use and access of digital data exceeding the occurrence of technological malfunction or change digital preservation is aware of the inevitable change in technology and protocols and prepares for data that will need to be accessible across new types of technologies and platforms while the integrity of the data and metadata are being conserved
+
+technology while providing great process in conserving data that may not have been possible in the past is also changing at such a quick rate that digital data may not be accessible anymore due to the format being incompatible with new software without the use of data preservation much of our existing digital data is at risk
+
+the majority of methods used towards data preservation today are digital methods which are so far the most effective methods that exist
+
+archives are a collection of historical documents and records archives contribute and work towards the preservation of data by collecting data that is well organized while providing the appropriate metadata to confirm it
+
+an example of an important data archive is the loni image data archive which is an archive that collects data regarding clinical trials and clinical research studies
+
+catalogues directories and portals are consolidated resources which are kept by individual institutions and are associated with data archives and holdings in other words the data is not presented on the site but instead might act as metadata and aggregators and may administer thorough inventories
+
+repositories are places where data archives and holdings can be accessed and stored the goal of repositories is to make sure that all requirements and protocols of archives and holdings are being met and data is being certified to ensure data integrity and user trust
+
+single site repositories
+
+a repository that holds all data sets on a single site
+
+an example of a major single site repository the data archiving and networking services which is a repository which provides ongoing access to digital research resources for the netherlands
+
+multi site repositories
+
+a repository that hosts data set on multiple institutional sites
+
+an example of a well known multi site repository is openaire which is a repository that hosts research data and publications collaborating all of the eu countries and more openaire promotes open scholarship and seeks to improves discover ability and re usability of data
+
+trusted digital repository
+
+a repository that seeks to provide reliable trusted access over a long period of time the repository can be single or multi sited but must cooperate with the reference model for an open archival information system as well as adhere to a set of rules or attributes that contribute to its trust such as having persistent financial responsibility organizational buoyancy administrative responsibility security and safety
+
+an example of a trusted digital repository is the digital repository of ireland dri which is a multi site repository that hosts ireland s humanity and social science data sets
+
+cyber infrastructures which consists of archive collections which are made available through the system of hardware technologies software policies services and tools cyber infrastructures are geared towards the sharing of data supporting peer to peer collaborations and a cultural community
+
+an example of a major cyber infrastructure is the canadian geo spatial data infrastructure which provides access to spatial data in canada

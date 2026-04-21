@@ -1,0 +1,128 @@
+
+
+collective intelligence
+collective action
+self organized criticality
+herd mentality
+phase transition
+agent based modelling
+synchronization
+ant colony optimization
+particle swarm optimization
+swarm behaviour
+
+social network analysis
+small world networks
+centrality
+motifs
+graph theory
+scaling
+robustness
+systems biology
+dynamic networks
+
+evolutionary computation
+genetic algorithms
+genetic programming
+artificial life
+machine learning
+evolutionary developmental biology
+artificial intelligence
+evolutionary robotics
+
+reaction diffusion systems
+partial differential equations
+dissipative structures
+percolation
+cellular automata
+spatial ecology
+self replication
+
+conversation theory
+entropy
+feedback
+goal oriented
+homeostasis
+information theory
+operationalization
+second order cybernetics
+self reference
+system dynamics
+systems science
+systems thinking
+sensemaking
+variety
+
+ordinary differential equations
+phase space
+attractors
+population dynamics
+chaos
+multistability
+bifurcation
+
+rational choice theory
+bounded rationality
+
+cybernetics is the transdisciplinary study of circular causal processes such as feedback and recursion where the effects of a system s actions its outputs return as inputs to that system influencing subsequent actions it is concerned with general principles that are relevant across multiple contexts including engineering ecological economic biological cognitive and social systems and also in practical activities such as designing learning and managing cybernetics transdisciplinary character means that it intersects with a number of other fields resulting in a wide influence and diverse interpretations
+
+the field is named after an example of circular causal feedback that of steering a ship the ancient greek κυβερνήτης kybernḗtēs refers to the person who steers a ship in steering a ship the position of the rudder is adjusted in continual response to the effect it is observed as having forming a feedback loop through which a steady course can be maintained in a changing environment responding to disturbances from cross winds and tide
+
+cybernetics has its origins in exchanges between numerous disciplines during the 1940s initial developments were consolidated through meetings such as the macy conferences and the ratio club early focuses included purposeful behaviour neural networks heterarchy information theory and self organising systems as cybernetics developed it became broader in scope to include work in design family therapy management and organisation pedagogy sociology the creative arts and the counterculture
+
+cybernetics has been defined in a variety of ways reflecting the richness of its conceptual base one of the best known definitions is that of the american scientist norbert wiener who characterised cybernetics as concerned with control and communication in the animal and the machine another early definition is that of the macy cybernetics conferences where cybernetics was understood as the study of circular causal and feedback mechanisms in biological and social systems margaret mead emphasised the role of cybernetics as a form of cross disciplinary thought which made it possible for members of many disciplines to communicate with each other easily in a language which all could understand
+
+other definitions include the art of governing or the science of government andré marie ampère the art of steersmanship ross ashby the study of systems of any nature which are capable of receiving storing and processing information so as to use it for control andrey kolmogorov and a branch of mathematics dealing with problems of control recursiveness and information focuses on forms and the patterns that connect gregory bateson
+
+the ancient greek term κυβερνητικός kubernētikos good at steering appears in plato s republic and alcibiades where the metaphor of a steersman is used to signify the governance of people the french word cybernétique was also used in 1834 by the physicist andré marie ampère to denote the sciences of government in his classification system of human knowledge
+
+according to norbert wiener the word cybernetics was coined by a research group involving himself and arturo rosenblueth in the summer of 1947 it has been attested in print since at least 1948 through wiener s book cybernetics or control and communication in the animal and the machine note 1 in the book wiener states
+
+after much consideration we have come to the conclusion that all the existing terminology has too heavy a bias to one side or another to serve the future development of the field as well as it should and as happens so often to scientists we have been forced to coin at least one artificial neo greek expression to fill the gap we have decided to call the entire field of control and communication theory whether in the machine or in the animal by the name cybernetics which we form from the greek κυβερνήτης or steersman
+moreover wiener explains the term was chosen to recognize james clerk maxwell s 1868 publication on feedback mechanisms involving governors noting that the term governor is also derived from κυβερνήτης kubernḗtēs via a latin corruption gubernator finally wiener motivates the choice by steering engines of a ship being one of the earliest and best developed forms of feedback mechanisms
+
+the initial focus of cybernetics was on parallels between regulatory feedback processes in biological and technological systems two foundational articles were published in 1943 behavior purpose and teleology by arturo rosenblueth norbert wiener and julian bigelow based on the research on living organisms that rosenblueth did in mexico and the paper a logical calculus of the ideas immanent in nervous activity by warren mcculloch and walter pitts
+
+the foundations of cybernetics were then developed through a series of transdisciplinary conferences funded by the josiah macy jr foundation between 1946 and 1953 the conferences were chaired by mcculloch and had participants that included ross ashby gregory bateson heinz von foerster margaret mead john von neumann and norbert wiener in the uk similar focuses were explored by the ratio club an informal dining club of young psychiatrists psychologists physiologists mathematicians and engineers that met between 1949 and 1958 wiener introduced the neologism cybernetics to denote the study of teleological mechanisms and popularized it through the book cybernetics or control and communication in the animal and the machine
+
+during the 1950s cybernetics was developed as a primarily technical discipline such as in qian xuesen s 1954 engineering cybernetics the text was quickly translated into multiple languages and became a foundational text on automation 119 in the soviet union cybernetics was initially considered with suspicion but became accepted from the mid to late 1950s
+
+by the 1960s and 1970s however cybernetics transdisciplinarity fragmented with technical focuses separating into separate fields artificial intelligence ai was founded as a distinct discipline at the dartmouth workshop in 1956 differentiating itself from the broader cybernetics field after some uneasy coexistence ai gained funding and prominence consequently cybernetic sciences such as the study of artificial neural networks were downplayed similarly computer science became defined as a distinct academic discipline in the 1950s and early 1960s
+
+the second wave of cybernetics came to prominence from the 1960s onwards with its focus shifting away from technology toward social ecological and philosophical concerns it was still grounded in biology notably maturana and varela s autopoiesis and built on earlier work on self organising systems and the presence of anthropologists mead and bateson in the macy meetings the biological computer laboratory founded in 1958 and active until the mid 1970s under the direction of heinz von foerster at the university of illinois at urbana champaign was a major incubator of this trend in cybernetics research
+
+focuses of the second wave of cybernetics included management cybernetics such as stafford beer s biologically inspired viable system model work in family therapy drawing on bateson social systems such as in the work of niklas luhmann epistemology and pedagogy such as in the development of radical constructivism cybernetics core theme of circular causality was developed beyond goal oriented processes to concerns with reflexivity and recursion this was especially so in the development of second order cybernetics or the cybernetics of cybernetics developed and promoted by heinz von foerster which focused on questions of observation cognition epistemology and ethics
+
+the 1960s onwards also saw cybernetics begin to develop exchanges with the creative arts design and architecture notably with the cybernetic serendipity exhibition ica london 1968 curated by jasia reichardt and the unrealised fun palace project london unrealised 1964 onwards where gordon pask was consultant to architect cedric price and theatre director joan littlewood
+
+in 1962 qian xuesen recruited song jian and guan zhaozhi to establish china s first cybernetics laboratory with him 119
+
+following the sino soviet split cybernetics was deemed disreputable in china 363 the field was again favored in the 1970s and 1980s following deng xiaoping s emphasis on modernisation 363
+
+from the 1990s onwards there has been a renewed interest in cybernetics from a number of directions early cybernetic work on artificial neural networks has been returned to as a paradigm in machine learning and artificial intelligence the entanglements of society with emerging technologies has led to exchanges with feminist technoscience and posthumanism re examinations of cybernetics history have seen science studies scholars emphasising cybernetics unusual qualities as a science such as its performative ontology practical design disciplines have drawn on cybernetics for theoretical underpinning and transdisciplinary connections emerging topics include how cybernetics engagements with social human and ecological contexts might come together with its earlier technological focus whether as a critical discourse or a new branch of engineering
+
+the central theme in cybernetics is feedback feedback is a process where the observed outcomes of actions are taken as inputs for further action in ways that support the pursuit maintenance or disruption of particular conditions forming a circular causal relationship in steering a ship the helmsperson maintains a steady course in a changing environment by adjusting their steering in continual response to the effect it is observed as having
+
+other examples of circular causal feedback include technological devices such as the thermostat where the action of a heater responds to measured changes in temperature regulating the temperature of the room within a set range and the centrifugal governor of a steam engine which regulates the engine speed biological examples such as the coordination of volitional movement through the nervous system and the homeostatic processes that regulate variables such as blood sugar and processes of social interaction such as conversation
+
+negative feedback processes are those that maintain particular conditions by reducing hence negative the difference from a desired state such as where a thermostat turns on a heater when it is too cold and turns a heater off when it is too hot positive feedback processes increase hence positive the difference from a desired state an example of positive feedback is when a microphone picks up the sound that it is producing through a speaker which is then played through the speaker and so on
+
+in addition to feedback cybernetics is concerned with other forms of circular processes including feedforward recursion and reflexivity
+
+other key concepts and theories in cybernetics include
+
+cybernetics central concept of circular causality is of wide applicability leading to diverse applications and relations with other fields many of the initial applications of cybernetics focused on engineering biology and exchanges between the two such as medical cybernetics and robotics and topics such as neural networks heterarchy in the social and behavioral sciences cybernetics has included and influenced work in anthropology sociology economics family therapy cognitive science and psychology
+
+as cybernetics has developed it broadened in scope to include work in management design pedagogy and the creative arts while also developing exchanges with constructivist philosophies counter cultural movements and media studies the development of management cybernetics has led to a variety of applications notably to the national economy of chile under the allende government in project cybersyn as well as other lesser known projects by stafford beer in latin america in design cybernetics has been influential on interactive architecture human computer interaction design research and the development of systemic design and metadesign practices
+
+cybernetics is often understood within the context of systems science systems theory and systems thinking systems approaches influenced by cybernetics include critical systems thinking which incorporates the viable system model systemic design and system dynamics which is based on the concept of causal feedback loops
+
+many fields trace their origins in whole or part to work carried out in cybernetics or were partially absorbed into cybernetics when it was developed these include artificial intelligence bionics cognitive science control theory complexity science computer science information theory and robotics some aspects of modern artificial intelligence particularly the social machine are often described in cybernetic terms
+
+academic journals with focuses in cybernetics include
+
+academic societies primarily concerned with cybernetics or aspects of it include
+
+general
+
+societies and journals

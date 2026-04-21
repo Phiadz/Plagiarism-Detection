@@ -1,0 +1,177 @@
+
+
+correctional offender management profiling for alternative sanctions compas is a case management and decision support software developed and owned by northpointe now equivant used by u s courts to assess the likelihood of a defendant becoming a recidivist
+
+compas has been used by the u s states of new york wisconsin california florida s broward county and other jurisdictions
+
+compas was created in 1998 by northpointe inc which merged with other justice technology firms to become equivant in january 2017 it is categorized as a fourth generation risk assessment instrument because it evaluates both static data such as prior criminal record and dynamic criminogenic needs such as current social environment and employment status
+
+while originally designed for correctional rehabilitation planning its use expanded to judicial sentencing in 2012 the wisconsin department of corrections adopted compas statewide a move that later led to the landmark legal challenge in loomis v wisconsin
+
+the compas software uses an algorithm to assess potential recidivism risk northpointe created risk scales for general and violent recidivism and for pretrial misconduct according to the compas practitioner s guide the scales were designed using behavioral and psychological constructs of very high relevance to recidivism and criminal careers
+
+the violent recidivism risk scale is calculated as follows
+
+
+
+
+
+s
+
+a
+
+
+w
+
+
+
+a
+
+first
+
+
+
+
+w
+
+
+
+h
+
+violence
+
+
+w
+
+
+v
+
+edu
+
+
+w
+
+
+h
+
+nc
+
+
+w
+
+
+displaystyle s a w a_ text first w h_ text violence w v_ text edu w h_ text nc w
+
+
+
+where
+
+
+
+s
+
+
+displaystyle s
+
+is the violent recidivism risk score
+
+
+
+w
+
+
+displaystyle w
+
+is a weight multiplier
+
+
+
+a
+
+
+displaystyle a
+
+is current age
+
+
+
+
+a
+
+first
+
+
+
+
+displaystyle a_ text first
+
+is the age at first arrest
+
+
+
+
+h
+
+violence
+
+
+
+
+displaystyle h_ text violence
+
+is the history of violence
+
+
+
+
+v
+
+edu
+
+
+
+
+displaystyle v_ text edu
+
+is vocational education scale and
+
+
+
+
+h
+
+nc
+
+
+
+
+displaystyle h_ text nc
+
+is history of noncompliance the weight
+
+
+
+w
+
+
+displaystyle w
+
+is determined by the strength of the item s relationship to person offense recidivism that we observed in our study data
+
+risk assessment tools such as compas are used because of the desire for objective evidence based sentencing procedures as well as increased efficiency in the court system proponents of using ai and algorithms in the courtroom tend to argue that these solutions will mitigate predictable biases and errors in judges reasoning such as the hungry judge effect the phenomenon that judges are more likely to make lenient decisions after eating a meal alternatives to risk assessment tools are possible but are difficult to implement
+
+a general critique of the use of proprietary software such as compas is that since the algorithms it uses are trade secrets they cannot be examined by the public and affected parties which has been described as a violation of due process additionally simple transparent and more interpretable algorithms have been shown to perform predictions approximately as well as the compas algorithm existing analyses of the algorithms have used the publicly available questionnaires and reverse engineered approximations based on the publicly available data
+
+another general criticism of machine learning based algorithms is that since they are data dependent if the data are biased the software will likely yield biased results similarly the initial version of the related lsi r algorithm was primarily trained on caucasian offenders which resulted in lower validity for black and latino offenders algorithms may also exhibit other types of bias which are given less attention due to the focus on racial bias
+
+compas risk assessments have been argued to violate 14th amendment equal protection rights on the basis of race since the algorithms are argued to be racially discriminatory to result in disparate treatment and to not be narrowly tailored
+
+empirical analysis of algorithmic risk assessment tools was inspired by a 2016 propublica investigation of compas and a subsequent study by dressel and farid 2018 propublica found that compas was racially biased against black defendants and northpointe responded that the algorithm predicted recidivism accurately regardless of race counterintuitively both statements are true they refer to two mutually exclusive definitions of fairness propublica s analysis focused on the rate of classification errors the chance that a defendant s recidivism is predicted incorrectly while northpointe focused on the accuracy of prediction whether the algorithm treats all defendants equally if the algorithm is fair on one metric it will be biased on the other
+
+the study by dressel and farid 2018 found that compas software is somewhat more accurate than individuals with little or no criminal justice expertise yet less accurate than groups of such individuals however a subsequent review found that these results seem ed like a specific occurrence and less reflective of general and real conditions and that algorithms performed better than humans under conditions closer to the real world for example a replication study found that the algorithms did better when the chance base rate of rearrest was low while dressel and farid assumed that recidivism and non recidivism were about equally likely
+
+risk assessment tools do not explicitly incorporate race and doing so would likely violate the us constitution however because factors such as education level or employment status are correlated with race algorithms using these factors produce different results for different racial groups
+
+one of the proposed benefits of risk assessment tools is an expected reduction in incarceration rates in 2024 an analysis of the practical impact of compas in broward county found that its use led to a reduced rate of confinement across demographic groups but that it also exacerbated the differences between racial groups
+
+in july 2016 the wisconsin supreme court ruled that compas risk scores can be considered by judges during sentencing but there must be warnings given to the scores to represent the tool s limitations and cautions

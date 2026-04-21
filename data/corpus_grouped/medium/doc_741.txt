@@ -1,0 +1,31 @@
+
+
+human compatible artificial intelligence and the problem of control is a 2019 non fiction book by computer scientist stuart j russell it asserts that the risk to humanity from advanced artificial intelligence ai is a serious concern despite the uncertainty surrounding future progress in ai it also proposes an approach to the ai control problem
+
+russell begins by asserting that the standard model of ai research in which the primary definition of success is getting better and better at achieving rigid human specified goals is dangerously misguided such goals may not reflect what human designers intend such as by failing to take into account any human values not included in the goals if an ai developed according to the standard model were to become superintelligent it would likely not fully reflect human values and could be catastrophic to humanity russell asserts that precisely because the timeline for developing human level or superintelligent ai is highly uncertain safety research should be begun as soon as possible as it is also highly uncertain how long it would take to complete such research
+
+russell argues that continuing progress in ai capability is inevitable because of economic pressures such pressures can already be seen in the development of existing ai technologies such as self driving cars and personal assistant software moreover human level ai could be worth many trillions of dollars russell then examines the current debate surrounding ai risk he offers refutations to a number of common arguments dismissing ai risk and attributes much of their persistence to tribalism ai researchers may see ai risk concerns as an attack on their field russell reiterates that there are legitimate reasons to take ai risk concerns seriously and that economic pressures make continued innovation in ai inevitable
+
+russell then proposes an approach to developing provably beneficial machines that focus on deference to humans unlike in the standard model of ai where the objective is rigid and certain this approach would have the ai s true objective remain uncertain with the ai only approaching certainty about it as it gains more information about humans and the world this uncertainty would ideally prevent catastrophic misunderstandings of human preferences and encourage cooperation and communication with humans russell concludes by calling for tighter governance of ai research and development as well as cultural introspection about the appropriate amount of autonomy to retain in an ai dominated world
+
+russell lists three principles to guide the development of beneficial machines he emphasizes that these principles are not meant to be explicitly coded into the machines rather they are intended for human developers the principles are as follows 173
+
+1 the machine s only objective is to maximize the realization of human preferences
+
+2 the machine is initially uncertain about what those preferences are
+
+
+3 the ultimate source of information about human preferences is human behavior
+the preferences russell refers to are all encompassing they cover everything you might care about arbitrarily far into the future 173 similarly behavior includes any choice between options 177 and the uncertainty is such that some probability which may be quite small must be assigned to every logically possible human preference 201
+
+russell explores inverse reinforcement learning in which a machine infers a reward function from observed behavior as a possible basis for a mechanism for learning human preferences 191 193
+
+several reviewers agreed with the book s arguments ian sample in the guardian called it convincing and the most important book on ai this year richard waters of the financial times praised the book s bracing intellectual rigour kirkus reviews endorsed it as a strong case for planning for the day when machines can outsmart us
+
+the same reviewers characterized the book as wry and witty or accessible due to its laconic style and dry humour matthew hutson of the wall street journal said mr russell s exciting book goes deep while sparkling with dry witticisms a library journal reviewer called it the right guide at the right time
+
+james mcconnachie of the times wrote this is not quite the popular book that ai urgently needs its technical parts are too difficult and its philosophical ones too easy but it is fascinating and significant
+
+by contrast human compatible was criticized in its nature review by david leslie an ethics fellow at the alan turing institute and similarly in a new york times opinion essay by melanie mitchell one point of contention was whether superintelligence is possible leslie states russell fails to convince that we will ever see the arrival of a second intelligent species and mitchell doubts a machine could ever surpass the generality and flexibility of human intelligence without losing the speed precision and programmability of a computer a second disagreement was whether intelligent machines would naturally tend to adopt so called common sense moral values in russell s thought experiment about a geoengineering robot that asphyxiates humanity to deacidify the oceans leslie struggles to identify any intelligence similarly mitchell believes an intelligent robot would naturally tend to be tempered by the common sense values and social judgment without which general intelligence cannot exist
+
+the book was longlisted for the 2019 financial times mckinsey award

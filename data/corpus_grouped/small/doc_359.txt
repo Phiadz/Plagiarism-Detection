@@ -1,0 +1,7 @@
+
+
+object recognition technology in the field of computer vision for finding and identifying objects in an image or video sequence humans recognize a multitude of objects in images with little effort despite the fact that the image of the objects may vary somewhat in different view points in many different sizes and scales or even when they are translated or rotated objects can even be recognized when they are partially obstructed from view this task is still a challenge for computer vision systems pattern matching algorithm have been commonly used as a standard for identifying parts on the inspection images however these algorithms are very heavy in terms of mathematical calculations citation needed many approaches to the task have been implemented over multiple decades
+
+genetic algorithms can operate without prior knowledge of a given dataset and can develop recognition procedures without human intervention a recent project achieved 100 percent accuracy on the benchmark motorbike face airplane and car image datasets from caltech and 99 4 percent accuracy on fish species image datasets
+
+object recognition methods has the following applications

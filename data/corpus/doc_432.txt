@@ -1,0 +1,787 @@
+in machine learning kernel machines are a class of algorithms for pattern analysis whose best known member is the support vector machine svm these methods involve using linear classifiers to solve nonlinear problems the general task of pattern analysis is to find and study general types of relations for example clusters rankings principal components correlations classifications in datasets for many algorithms that solve these tasks the data in raw representation have to be explicitly transformed into feature vector representations via a user specified feature map in contrast kernel methods require only a user specified kernel i e a similarity function over all pairs of data points computed using inner products the feature map in kernel machines is infinite dimensional but only requires a finite dimensional matrix from user input according to the representer theorem kernel machines are slow to compute for datasets larger than a couple of thousand examples without parallel processing
+
+kernel methods owe their name to the use of kernel functions which enable them to operate in a high dimensional implicit feature space without ever computing the coordinates of the data in that space but rather by simply computing the inner products between the images of all pairs of data in the feature space this operation is often computationally cheaper than the explicit computation of the coordinates this approach is called the kernel trick kernel functions have been introduced for sequence data graphs text images as well as vectors
+
+algorithms capable of operating with kernels include the kernel perceptron support vector machines svm gaussian processes principal components analysis pca canonical correlation analysis ridge regression spectral clustering linear adaptive filters and many others
+
+most kernel algorithms are based on convex optimization or eigenproblems and are statistically well founded typically their statistical properties are analyzed using statistical learning theory for example using rademacher complexity
+
+kernel methods can be thought of as instance based learners rather than learning some fixed set of parameters corresponding to the features of their inputs they instead remember the
+
+
+
+i
+
+
+displaystyle i
+
+th training example
+
+
+
+
+
+
+x
+
+
+i
+
+
+
+
+y
+
+i
+
+
+
+
+
+displaystyle mathbf x _ i y_ i
+
+and learn for it a corresponding weight
+
+
+
+
+w
+
+i
+
+
+
+
+displaystyle w_ i
+
+prediction for unlabeled inputs i e those not in the training set are treated by the application of a similarity function
+
+
+
+k
+
+
+displaystyle k
+
+called a kernel between the unlabeled input
+
+
+
+
+
+x
+
+
+
+
+
+displaystyle mathbf x
+
+and each of the training inputs
+
+
+
+
+
+x
+
+
+i
+
+
+
+
+displaystyle mathbf x _ i
+
+for instance a kernelized binary classifier typically computes a weighted sum of similarities
+
+
+
+
+
+
+
+y
+
+
+
+
+
+sgn
+
+
+
+
+i
+
+1
+
+
+n
+
+
+
+w
+
+i
+
+
+
+y
+
+i
+
+
+k
+
+
+
+x
+
+
+i
+
+
+
+
+
+x
+
+
+
+
+
+
+
+displaystyle hat y operatorname sgn sum _ i 1 n w_ i y_ i k mathbf x _ i mathbf x
+
+
+where
+
+kernel classifiers were described as early as the 1960s with the invention of the kernel perceptron they rose to great prominence with the popularity of the support vector machine svm in the 1990s when the svm was found to be competitive with neural networks on tasks such as handwriting recognition
+
+the kernel trick avoids the explicit mapping that is needed to get linear learning algorithms to learn a nonlinear function or decision boundary for all
+
+
+
+
+x
+
+
+
+displaystyle mathbf x
+
+and
+
+
+
+
+
+x
+
+
+
+
+
+displaystyle mathbf x
+
+in the input space
+
+
+
+
+
+x
+
+
+
+
+displaystyle mathcal x
+
+certain functions
+
+
+
+k
+
+
+x
+
+
+
+
+x
+
+
+
+
+
+
+displaystyle k mathbf x mathbf x
+
+can be expressed as an inner product in another space
+
+
+
+
+
+v
+
+
+
+
+displaystyle mathcal v
+
+the function
+
+
+
+k
+
+
+
+x
+
+
+
+
+
+x
+
+
+
+
+r
+
+
+
+displaystyle k colon mathcal x times mathcal x to mathbb r
+
+is often referred to as a kernel or a kernel function the word kernel is used in mathematics to denote a weighting function for a weighted sum or integral
+
+certain problems in machine learning have more structure than an arbitrary weighting function
+
+
+
+k
+
+
+displaystyle k
+
+the computation is made much simpler if the kernel can be written in the form of a feature map
+
+
+
+φ
+
+
+
+x
+
+
+
+
+
+v
+
+
+
+
+displaystyle varphi colon mathcal x to mathcal v
+
+which satisfies
+
+
+
+
+k
+
+
+x
+
+
+
+
+x
+
+
+
+
+
+
+φ
+
+
+x
+
+
+
+φ
+
+
+
+x
+
+
+
+
+
+
+
+
+v
+
+
+
+
+
+
+displaystyle k mathbf x mathbf x langle varphi mathbf x varphi mathbf x rangle _ mathcal v
+
+the key restriction is that
+
+
+
+
+
+
+
+
+
+
+
+v
+
+
+
+
+
+displaystyle langle cdot cdot rangle _ mathcal v
+
+must be a proper inner product on the other hand an explicit representation for
+
+
+
+φ
+
+
+displaystyle varphi
+
+is not necessary as long as
+
+
+
+
+
+v
+
+
+
+
+displaystyle mathcal v
+
+is an inner product space the alternative follows from mercer s theorem an implicitly defined function
+
+
+
+φ
+
+
+displaystyle varphi
+
+exists whenever the space
+
+
+
+
+
+x
+
+
+
+
+displaystyle mathcal x
+
+can be equipped with a suitable measure ensuring the function
+
+
+
+k
+
+
+displaystyle k
+
+satisfies mercer s condition
+
+mercer s theorem is similar to a generalization of the result from linear algebra that associates an inner product to any positive definite matrix in fact mercer s condition can be reduced to this simpler case if we choose as our measure the counting measure
+
+
+
+μ
+
+t
+
+
+
+
+
+t
+
+
+
+
+
+displaystyle mu t t
+
+for all
+
+
+
+t
+
+x
+
+
+displaystyle t subset x
+
+which counts the number of points inside the set
+
+
+
+t
+
+
+displaystyle t
+
+then the integral in mercer s theorem reduces to a summation
+
+
+
+
+
+
+i
+
+1
+
+
+n
+
+
+
+
+
+j
+
+1
+
+
+n
+
+
+k
+
+
+
+x
+
+
+i
+
+
+
+
+
+x
+
+
+j
+
+
+
+
+c
+
+i
+
+
+
+c
+
+j
+
+
+
+0
+
+
+displaystyle sum _ i 1 n sum _ j 1 n k mathbf x _ i mathbf x _ j c_ i c_ j geq 0
+
+if this summation holds for all finite sequences of points
+
+
+
+
+
+
+x
+
+
+1
+
+
+
+
+
+
+
+x
+
+
+n
+
+
+
+
+
+displaystyle mathbf x _ 1 dotsc mathbf x _ n
+
+in
+
+
+
+
+
+x
+
+
+
+
+displaystyle mathcal x
+
+and all choices of
+
+
+
+n
+
+
+displaystyle n
+
+real valued coefficients
+
+
+
+
+
+c
+
+1
+
+
+
+
+
+
+c
+
+n
+
+
+
+
+
+displaystyle c_ 1 dots c_ n
+
+cf positive definite kernel then the function
+
+
+
+k
+
+
+displaystyle k
+
+satisfies mercer s condition
+
+some algorithms that depend on arbitrary relationships in the native space
+
+
+
+
+
+x
+
+
+
+
+displaystyle mathcal x
+
+would in fact have a linear interpretation in a different setting the range space of
+
+
+
+φ
+
+
+displaystyle varphi
+
+the linear interpretation gives us insight about the algorithm furthermore there is often no need to compute
+
+
+
+φ
+
+
+displaystyle varphi
+
+directly during computation as is the case with support vector machines some cite this running time shortcut as the primary benefit researchers also use it to justify the meanings and properties of existing algorithms
+
+theoretically a gram matrix
+
+
+
+
+k
+
+
+
+
+r
+
+
+n
+
+n
+
+
+
+
+displaystyle mathbf k in mathbb r n times n
+
+with respect to
+
+
+
+
+
+
+x
+
+
+1
+
+
+
+
+
+
+
+x
+
+
+n
+
+
+
+
+
+displaystyle mathbf x _ 1 dotsc mathbf x _ n
+
+sometimes also called a kernel matrix where
+
+
+
+
+k
+
+i
+j
+
+
+
+k
+
+
+
+x
+
+
+i
+
+
+
+
+
+x
+
+
+j
+
+
+
+
+
+displaystyle k_ ij k mathbf x _ i mathbf x _ j
+
+must be positive semi definite psd empirically for machine learning heuristics choices of a function
+
+
+
+k
+
+
+displaystyle k
+
+that do not satisfy mercer s condition may still perform reasonably if
+
+
+
+k
+
+
+displaystyle k
+
+at least approximates the intuitive idea of similarity regardless of whether
+
+
+
+k
+
+
+displaystyle k
+
+is a mercer kernel
+
+
+
+k
+
+
+displaystyle k
+
+may still be referred to as a kernel
+
+if the kernel function
+
+
+
+k
+
+
+displaystyle k
+
+is also a covariance function as used in gaussian processes then the gram matrix
+
+
+
+
+k
+
+
+
+displaystyle mathbf k
+
+can also be called a covariance matrix
+
+application areas of kernel methods are diverse and include geostatistics kriging inverse distance weighting 3d reconstruction bioinformatics cheminformatics information extraction and handwriting recognition

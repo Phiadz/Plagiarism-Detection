@@ -1,0 +1,15 @@
+knowledge engineering ke refers to all aspects involved in knowledge based systems
+
+one of the first examples of an expert system was mycin an application to perform medical diagnosis in the mycin example the domain experts were medical doctors and the knowledge represented was their expertise in diagnosis
+
+expert systems were first developed in artificial intelligence laboratories as an attempt to understand complex human decision making based on positive results from these initial prototypes the technology was adopted by the us business community and later worldwide in the 1980s the stanford heuristic programming project led by edward feigenbaum was one of the leaders in defining and developing the first expert systems
+
+in the earliest days of expert systems there was little or no formal process for the creation of the software researchers just sat down with domain experts and started programming often developing the required tools e g inference engines at the same time as the applications themselves as expert systems moved from academic prototypes to deployed business systems it was realized that a methodology was required to bring predictability and control to the process of building the software there were essentially two approaches that were attempted
+
+many of the early expert systems were developed by large consulting and system integration firms such as andersen consulting these firms already had well tested conventional waterfall methodologies e g method 1 for andersen that they trained all their staff in and that were virtually always used to develop software for their clients one trend in early expert systems development was to simply apply these waterfall methods to expert systems development
+
+another issue with using conventional methods to develop expert systems was that due to the unprecedented nature of expert systems they were one of the first applications to adopt rapid application development methods that feature iteration and prototyping as well as or instead of detailed analysis and design in the 1980s few conventional software methods supported this type of approach
+
+the final issue with using conventional methods to develop expert systems was the need for knowledge acquisition knowledge acquisition refers to the process of gathering expert knowledge and capturing it in the form of rules and ontologies knowledge acquisition has special requirements beyond the conventional specification process used to capture most business requirements
+
+these issues led to the second approach to knowledge engineering the development of custom methodologies specifically designed to build expert systems one of the first and most popular of such methodologies custom designed for expert systems was the knowledge acquisition and documentation structuring kads methodology developed in europe kads had great success in europe and was also used in the united states

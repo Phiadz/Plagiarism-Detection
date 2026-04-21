@@ -1,0 +1,13 @@
+an astronomical survey is a general map or image of a region of the sky or of the whole sky that lacks a specific observational target alternatively an astronomical survey may comprise a set of images spectra or other observations of objects that share a common type or feature surveys are often restricted to one band of the electromagnetic spectrum due to instrumental limitations although multiwavelength surveys can be made by using multiple detectors each sensitive to a different bandwidth
+
+surveys have generally been performed as part of the production of an astronomical catalog they may also search for transient astronomical events they often use wide field astrographs
+
+sky surveys unlike targeted observation of a specific object allow astronomers to catalog celestial objects and perform statistical analyses on them without complex corrections for selection effects in some cases an astronomer interested in a particular object will find that survey images are sufficient to make new telescope time entirely unnecessary
+
+surveys also help astronomers choose targets for closer study using larger more powerful telescopes if previous observations support a hypothesis a telescope scheduling committee is more likely to approve new more detailed observations to test it
+
+the wide scope of surveys makes them ideal for finding foreground objects that move such as asteroids and comets an astronomer can compare existing survey images to current observations to identify changes this task can even be performed automatically using image analysis software
+
+besides science these surveys also detect potentially hazardous objects providing a service to spaceguard for example the asteroid terrestrial impact last alert system atlas system surveys the entire night sky every night and like neostel is intended to detect objects as they approach broader surveys include the uppsala dlr asteroid survey and the 20th century u k schmidt caltech asteroid survey old surveys can be reviewed to find precovery images
+
+similarly images of the same object taken by different surveys can be compared to detect transient astronomical events such as variable stars

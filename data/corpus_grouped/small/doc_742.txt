@@ -1,0 +1,5 @@
+
+
+these lists include projects which release their software under open source licenses and are related to artificial intelligence projects these include software libraries frameworks platforms and tools used for machine learning deep learning natural language processing computer vision reinforcement learning artificial general intelligence and more
+
+

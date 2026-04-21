@@ -1,0 +1,1782 @@
+the sample complexity of a machine learning algorithm represents the number of training samples that it needs in order to successfully learn a target function
+
+more precisely the sample complexity is the number of training samples that we need to supply to the algorithm so that the function returned by the algorithm is within an arbitrarily small error of the best possible function with probability arbitrarily close to 1
+
+there are two variants of sample complexity
+
+the no free lunch theorem discussed below proves that in general the strong sample complexity is infinite i e that there is no algorithm that can learn the globally optimal target function using a finite number of training samples
+
+however if we are only interested in a particular class of target functions e g only linear functions then the sample complexity is finite and it depends linearly on the vc dimension on the class of target functions
+
+let
+
+
+
+x
+
+
+displaystyle x
+
+be a space which we call the input space and
+
+
+
+y
+
+
+displaystyle y
+
+be a space which we call the output space and let
+
+
+
+z
+
+
+displaystyle z
+
+denote the product
+
+
+
+x
+
+y
+
+
+displaystyle x times y
+
+for example in the setting of binary classification
+
+
+
+x
+
+
+displaystyle x
+
+is typically a finite dimensional vector space and
+
+
+
+y
+
+
+displaystyle y
+
+is the set
+
+
+
+
+
+1
+
+1
+
+
+
+displaystyle 1 1
+
+
+
+fix a hypothesis space
+
+
+
+
+
+h
+
+
+
+
+displaystyle mathcal h
+
+of functions
+
+
+
+h
+
+x
+
+y
+
+
+displaystyle h colon x to y
+
+a learning algorithm over
+
+
+
+
+
+h
+
+
+
+
+displaystyle mathcal h
+
+is a computable map from
+
+
+
+z
+
+
+displaystyle z
+
+to
+
+
+
+
+
+h
+
+
+
+
+displaystyle mathcal h
+
+in other words it is an algorithm that takes as input a finite sequence of training samples and outputs a function from
+
+
+
+x
+
+
+displaystyle x
+
+to
+
+
+
+y
+
+
+displaystyle y
+
+typical learning algorithms include empirical risk minimization without or with tikhonov regularization
+
+fix a loss function
+
+
+
+
+
+l
+
+
+
+y
+
+y
+
+
+
+r
+
+
+
+0
+
+
+
+
+displaystyle mathcal l colon y times y to mathbb r _ geq 0
+
+for example the square loss
+
+
+
+
+
+l
+
+
+
+y
+
+
+y
+
+
+
+
+
+y
+
+
+y
+
+
+
+
+
+2
+
+
+
+
+displaystyle mathcal l y y y y 2
+
+where
+
+
+
+h
+
+x
+
+
+
+y
+
+
+
+
+displaystyle h x y
+
+for a given distribution
+
+
+
+ρ
+
+
+displaystyle rho
+
+on
+
+
+
+x
+
+y
+
+
+displaystyle x times y
+
+the expected risk of a hypothesis a function
+
+
+
+h
+
+
+
+h
+
+
+
+
+displaystyle h in mathcal h
+
+is
+
+in our setting we have
+
+
+
+h
+
+
+
+a
+
+
+
+
+s
+
+n
+
+
+
+
+
+displaystyle h mathcal a s_ n
+
+where
+
+
+
+
+
+a
+
+
+
+
+displaystyle mathcal a
+
+is a learning algorithm and
+
+
+
+
+s
+
+n
+
+
+
+
+
+
+x
+
+1
+
+
+
+
+y
+
+1
+
+
+
+
+
+
+
+
+x
+
+n
+
+
+
+
+y
+
+n
+
+
+
+
+
+
+ρ
+
+n
+
+
+
+
+displaystyle s_ n x_ 1 y_ 1 ldots x_ n y_ n sim rho n
+
+is a sequence of vectors which are all drawn independently from
+
+
+
+ρ
+
+
+displaystyle rho
+
+define the optimal risk
+
+
+
+
+
+
+e
+
+
+
+
+h
+
+
+
+
+
+
+
+
+
+inf
+
+h
+
+
+
+h
+
+
+
+
+
+
+
+e
+
+
+
+h
+
+
+
+
+displaystyle mathcal e _ mathcal h underset h in mathcal h inf mathcal e h
+
+set
+
+
+
+
+h
+
+n
+
+
+
+
+
+a
+
+
+
+
+s
+
+n
+
+
+
+
+
+displaystyle h_ n mathcal a s_ n
+
+for each sample size
+
+
+
+n
+
+
+displaystyle n
+
+
+
+
+
+
+h
+
+n
+
+
+
+
+displaystyle h_ n
+
+is a random variable and depends on the random variable
+
+
+
+
+s
+
+n
+
+
+
+
+displaystyle s_ n
+
+which is drawn from the distribution
+
+
+
+
+ρ
+
+n
+
+
+
+
+displaystyle rho n
+
+the algorithm
+
+
+
+
+
+a
+
+
+
+
+displaystyle mathcal a
+
+is called consistent if
+
+
+
+
+
+e
+
+
+
+
+h
+
+n
+
+
+
+
+
+displaystyle mathcal e h_ n
+
+probabilistically converges to
+
+
+
+
+
+
+e
+
+
+
+
+h
+
+
+
+
+
+
+
+
+displaystyle mathcal e _ mathcal h
+
+in other words for all
+
+
+
+ϵ
+
+δ
+
+0
+
+
+displaystyle epsilon delta 0
+
+there exists a positive integer
+
+
+
+n
+
+
+displaystyle n
+
+such that for all sample sizes
+
+
+
+n
+
+n
+
+
+displaystyle n geq n
+
+we have
+
+
+
+
+
+
+pr
+
+
+ρ
+
+n
+
+
+
+
+
+
+
+e
+
+
+
+
+h
+
+n
+
+
+
+
+
+
+
+e
+
+
+
+
+h
+
+
+
+
+
+
+
+ε
+
+
+δ
+
+
+
+displaystyle pr _ rho n mathcal e h_ n mathcal e _ mathcal h geq varepsilon delta
+
+the sample complexity of
+
+
+
+
+
+a
+
+
+
+
+displaystyle mathcal a
+
+is then the minimum
+
+
+
+n
+
+
+displaystyle n
+
+for which this holds as a function of
+
+
+
+ρ
+
+ϵ
+
+
+displaystyle rho epsilon
+
+and
+
+
+
+δ
+
+
+displaystyle delta
+
+we write the sample complexity as
+
+
+
+n
+
+ρ
+
+ϵ
+
+δ
+
+
+
+displaystyle n rho epsilon delta
+
+to emphasize that this value of
+
+
+
+n
+
+
+displaystyle n
+
+depends on
+
+
+
+ρ
+
+ϵ
+
+
+displaystyle rho epsilon
+
+and
+
+
+
+δ
+
+
+displaystyle delta
+
+if
+
+
+
+
+
+a
+
+
+
+
+displaystyle mathcal a
+
+is not consistent then we set
+
+
+
+n
+
+ρ
+
+ϵ
+
+δ
+
+
+
+
+
+displaystyle n rho epsilon delta infty
+
+if there exists an algorithm for which
+
+
+
+n
+
+ρ
+
+ϵ
+
+δ
+
+
+
+displaystyle n rho epsilon delta
+
+is finite then we say that the hypothesis space
+
+
+
+
+
+h
+
+
+
+
+displaystyle mathcal h
+
+is learnable
+
+in others words the sample complexity
+
+
+
+n
+
+ρ
+
+ϵ
+
+δ
+
+
+
+displaystyle n rho epsilon delta
+
+defines the rate of consistency of the algorithm given a desired accuracy
+
+
+
+ϵ
+
+
+displaystyle epsilon
+
+and confidence
+
+
+
+δ
+
+
+displaystyle delta
+
+one needs to sample
+
+
+
+n
+
+ρ
+
+ϵ
+
+δ
+
+
+
+displaystyle n rho epsilon delta
+
+data points to guarantee that the risk of the output function is within
+
+
+
+ϵ
+
+
+displaystyle epsilon
+
+of the best possible with probability at least
+
+
+
+1
+
+δ
+
+
+displaystyle 1 delta
+
+
+
+in probably approximately correct pac learning one is concerned with whether the sample complexity is polynomial that is whether
+
+
+
+n
+
+ρ
+
+ϵ
+
+δ
+
+
+
+displaystyle n rho epsilon delta
+
+is bounded by a polynomial in
+
+
+
+1
+
+
+
+ϵ
+
+
+displaystyle 1 epsilon
+
+and
+
+
+
+1
+
+
+
+δ
+
+
+displaystyle 1 delta
+
+if
+
+
+
+n
+
+ρ
+
+ϵ
+
+δ
+
+
+
+displaystyle n rho epsilon delta
+
+is polynomial for some learning algorithm then one says that the hypothesis space
+
+
+
+
+
+h
+
+
+
+
+displaystyle mathcal h
+
+is pac learnable this is a stronger notion than being learnable
+
+
+one can ask whether there exists a learning algorithm so that the sample complexity is finite in the strong sense that is there is a bound on the number of samples needed so that the algorithm can learn any distribution over the input output space with a specified target error more formally one asks whether there exists a learning algorithm
+
+
+
+
+
+a
+
+
+
+
+displaystyle mathcal a
+
+such that for all
+
+
+
+ϵ
+
+δ
+
+0
+
+
+displaystyle epsilon delta 0
+
+there exists a positive integer
+
+
+
+n
+
+
+displaystyle n
+
+such that for all
+
+
+
+n
+
+n
+
+
+displaystyle n geq n
+
+we have
+
+
+
+
+
+
+sup
+
+ρ
+
+
+
+
+
+
+pr
+
+
+ρ
+
+n
+
+
+
+
+
+
+
+e
+
+
+
+
+h
+
+n
+
+
+
+
+
+
+
+e
+
+
+
+
+h
+
+
+
+
+
+
+
+ε
+
+
+
+
+
+δ
+
+
+
+displaystyle sup _ rho left pr _ rho n mathcal e h_ n mathcal e _ mathcal h geq varepsilon right delta
+
+
+where
+
+
+
+
+h
+
+n
+
+
+
+
+
+a
+
+
+
+
+s
+
+n
+
+
+
+
+
+displaystyle h_ n mathcal a s_ n
+
+with
+
+
+
+
+s
+
+n
+
+
+
+
+
+
+x
+
+1
+
+
+
+
+y
+
+1
+
+
+
+
+
+
+
+
+x
+
+n
+
+
+
+
+y
+
+n
+
+
+
+
+
+
+ρ
+
+n
+
+
+
+
+displaystyle s_ n x_ 1 y_ 1 ldots x_ n y_ n sim rho n
+
+as above the no free lunch theorem says that without restrictions on the hypothesis space
+
+
+
+
+
+h
+
+
+
+
+displaystyle mathcal h
+
+this is not the case i e there always exist bad distributions for which the sample complexity is arbitrarily large
+
+thus in order to make statements about the rate of convergence of the quantity
+
+
+
+
+
+sup
+
+ρ
+
+
+
+
+
+
+pr
+
+
+ρ
+
+n
+
+
+
+
+
+
+
+e
+
+
+
+
+h
+
+n
+
+
+
+
+
+
+
+e
+
+
+
+
+h
+
+
+
+
+
+
+
+ε
+
+
+
+
+
+
+
+displaystyle sup _ rho left pr _ rho n mathcal e h_ n mathcal e _ mathcal h geq varepsilon right
+
+
+one must either
+
+the latter approach leads to concepts such as vc dimension and rademacher complexity which control the complexity of the space
+
+
+
+
+
+h
+
+
+
+
+displaystyle mathcal h
+
+a smaller hypothesis space introduces more bias into the inference process meaning that
+
+
+
+
+
+
+e
+
+
+
+
+h
+
+
+
+
+
+
+
+
+displaystyle mathcal e _ mathcal h
+
+may be greater than the best possible risk in a larger space however by restricting the complexity of the hypothesis space it becomes possible for an algorithm to produce more uniformly consistent functions this trade off leads to the concept of regularization
+
+it is a theorem from vc theory that the following three statements are equivalent for a hypothesis space
+
+
+
+
+
+h
+
+
+
+
+displaystyle mathcal h
+
+
+
+this gives a way to prove that certain hypothesis spaces are pac learnable and by extension learnable
+
+
+
+
+
+x
+
+
+
+r
+
+
+d
+
+
+
+y
+
+
+
+1
+
+1
+
+
+
+displaystyle x mathbb r d y 1 1
+
+and let
+
+
+
+
+
+h
+
+
+
+
+displaystyle mathcal h
+
+be the space of affine functions on
+
+
+
+x
+
+
+displaystyle x
+
+that is functions of the form
+
+
+
+x
+
+
+w
+
+x
+
+
+b
+
+
+displaystyle x mapsto langle w x rangle b
+
+for some
+
+
+
+w
+
+
+
+r
+
+
+d
+
+
+
+b
+
+
+r
+
+
+
+displaystyle w in mathbb r d b in mathbb r
+
+this is the linear classification with offset learning problem now four coplanar points in a square cannot be shattered by any affine function since no affine function can be positive on two diagonally opposite vertices and negative on the remaining two thus the vc dimension of
+
+
+
+
+
+h
+
+
+
+
+displaystyle mathcal h
+
+is
+
+
+
+d
+
+1
+
+
+displaystyle d 1
+
+so it is finite it follows by the above characterization of pac learnable classes that
+
+
+
+
+
+h
+
+
+
+
+displaystyle mathcal h
+
+is pac learnable and by extension learnable
+
+
+suppose
+
+
+
+
+
+h
+
+
+
+
+displaystyle mathcal h
+
+is a class of binary functions functions to
+
+
+
+
+0
+
+1
+
+
+
+displaystyle 0 1
+
+then
+
+
+
+
+
+h
+
+
+
+
+displaystyle mathcal h
+
+is
+
+
+
+
+ϵ
+
+δ
+
+
+
+displaystyle epsilon delta
+
+pac learnable with a sample of size
+
+
+
+
+
+n
+
+o
+
+
+
+
+
+
+
+
+v
+c
+
+
+
+h
+
+
+
+
+ln
+
+
+
+1
+δ
+
+
+
+ϵ
+
+
+
+
+
+
+
+
+
+displaystyle n o bigg frac vc mathcal h ln 1 over delta epsilon bigg
+
+
+where
+
+
+
+v
+c
+
+
+
+h
+
+
+
+
+
+displaystyle vc mathcal h
+
+is the vc dimension of
+
+
+
+
+
+h
+
+
+
+
+displaystyle mathcal h
+
+
+moreover any
+
+
+
+
+ϵ
+
+δ
+
+
+
+displaystyle epsilon delta
+
+pac learning algorithm for
+
+
+
+
+
+h
+
+
+
+
+displaystyle mathcal h
+
+must have sample complexity
+
+
+
+
+n
+
+ω
+
+
+
+
+
+
+
+
+v
+c
+
+
+
+h
+
+
+
+
+ln
+
+
+
+1
+δ
+
+
+
+ϵ
+
+
+
+
+
+
+
+
+
+displaystyle n omega bigg frac vc mathcal h ln 1 over delta epsilon bigg
+
+
+thus the sample complexity is a linear function of the vc dimension of the hypothesis space
+
+suppose
+
+
+
+
+
+h
+
+
+
+
+displaystyle mathcal h
+
+is a class of real valued functions with range in
+
+
+
+
+0
+
+t
+
+
+
+displaystyle 0 t
+
+then
+
+
+
+
+
+h
+
+
+
+
+displaystyle mathcal h
+
+is
+
+
+
+
+ϵ
+
+δ
+
+
+
+displaystyle epsilon delta
+
+pac learnable with a sample of size
+
+
+
+
+
+n
+
+o
+
+
+
+
+
+
+t
+
+2
+
+
+
+
+
+p
+d
+
+
+
+h
+
+
+
+ln
+
+
+
+t
+ϵ
+
+
+
+ln
+
+
+
+1
+δ
+
+
+
+
+ϵ
+
+2
+
+
+
+
+
+
+
+
+
+
+
+displaystyle n o bigg t 2 frac pd mathcal h ln t over epsilon ln 1 over delta epsilon 2 bigg
+
+
+where
+
+
+
+p
+d
+
+
+
+h
+
+
+
+
+
+displaystyle pd mathcal h
+
+is pollard s pseudo dimension of
+
+
+
+
+
+h
+
+
+
+
+displaystyle mathcal h
+
+
+
+in addition to the supervised learning setting sample complexity is relevant to semi supervised learning problems including active learning where the algorithm can ask for labels to specifically chosen inputs in order to reduce the cost of obtaining many labels the concept of sample complexity also shows up in reinforcement learning online learning and unsupervised algorithms e g for dictionary learning
+
+a high sample complexity means that many calculations are needed for running a monte carlo tree search it is equivalent to a model free brute force search in the state space in contrast a high efficiency algorithm has a low sample complexity possible techniques for reducing the sample complexity are metric learning and model based reinforcement learning

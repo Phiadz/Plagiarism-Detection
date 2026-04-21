@@ -1,0 +1,11 @@
+data format management dfm is the application of a systematic approach to the selection and use of the data formats used to encode information for storage on a computer
+
+in practical terms data format management is the analysis of data formats and their associated technical legal or economic attributes which can either enhance or detract from the ability of a digital asset or a given information systems to meet specified objectives
+
+data format management is necessary as the amount of information and number of people creating it grows this is especially the case as the information with which users are working is difficult to generate store costly to acquire or to be shared
+
+data format management as an analytic tool or approach is data format neutral
+
+historically individuals organization and businesses have been categorized by their type of computer or their operating system today however it is primarily productivity software such as spreadsheet or word processor programs and the way these programs store information that also defines an entity for instance when browsing the web it is not important which kind of computer is responsible for hosting a site only that the information it publishes is in a format that is readable by the viewing browser in this instance the data format of the published information has more to do with defining compatibilities than the underlying hardware or operating system
+
+several initiatives have been established to record those data formats commonly used and the software available to read them for example the pronom project at the uk national archives

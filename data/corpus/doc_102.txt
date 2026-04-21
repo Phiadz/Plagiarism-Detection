@@ -1,0 +1,188 @@
+in computer science and computer programming a data type or simply type is a collection or grouping of data values usually specified by a set of possible values a set of allowed operations on these values and or a representation of these values as machine types a data type specification in a program constrains the possible values that an expression such as a variable or a function call might take on literal data it tells the compiler or interpreter how the programmer intends to use the data most programming languages support basic data types of integer numbers of varying sizes floating point numbers which approximate real numbers characters and booleans
+
+a data type may be specified for many reasons similarity convenience or to focus the attention it is frequently a matter of good organization
+that aids the understanding of complex definitions almost all programming languages explicitly include the notion of data type though the possible data types are often restricted by considerations of simplicity computability or regularity an explicit data type declaration typically allows the compiler to choose an efficient machine representation but the conceptual organization offered by data types should not be discounted
+
+different languages may use different data types or similar types with different semantics for example in the python programming language int represents an arbitrary precision integer which has the traditional numeric operations such as addition subtraction and multiplication however in the java programming language the type int represents the set of 32 bit integers ranging in value from 2 147 483 648 to 2 147 483 647 with arithmetic operations that wrap on overflow in rust this 32 bit integer type is denoted i32 and panics on overflow in debug mode
+
+most programming languages also allow the programmer to define additional data types usually by combining multiple elements of other types and defining the valid operations of the new data type for example a programmer might create a new data type named complex number that would include real and imaginary parts or a color data type represented by three bytes denoting the amounts each of red green and blue and a string representing the color s name
+
+data types are used within type systems which offer various ways of defining implementing and using them in a type system a data type represents a constraint placed upon the interpretation of data describing representation interpretation and structure of values or objects stored in computer memory the type system uses data type information to check correctness of computer programs that access or manipulate the data a compiler may use the static type of a value to optimize the storage it needs and the choice of algorithms for operations on the value in many c compilers the float data type for example is represented in 32 bits in accord with the ieee specification for single precision floating point numbers they will thus use floating point specific microprocessor operations on those values floating point addition multiplication etc
+
+parnas shore weiss 1976 identified five definitions of a type that were used sometimes implicitly in the literature
+
+the definition in terms of a representation was often done in imperative languages such as algol and pascal while the definition in terms of a value space and behaviour was used in higher level languages such as simula and clu types including behavior align more closely with object oriented models whereas a structured programming model would tend to not include code and are called plain old data structures
+
+data types may be categorized according to several factors
+
+the terminology varies in the literature primitive built in basic atomic and fundamental may be used interchangeably
+
+all data in computers based on digital electronics is represented as bits alternatives 0 and 1 on the lowest level the smallest addressable unit of data is usually a group of bits called a byte usually an octet which is 8 bits the unit processed by machine code instructions is called a word as of 2026 update typically 32 64 bits
+
+machine data types expose or make available fine grained control over hardware but this can also expose implementation details that make code less portable hence machine types are mainly used in systems programming or low level programming languages in higher level languages most data types are abstracted in that they do not have a language defined machine representation the c programming language for instance supplies types such as booleans integers floating point numbers etc but the precise bit representations of these types are implementation defined the only c type with a precise machine representation is the char type that represents a byte
+
+the boolean type represents the values true and false although only two values are possible they are more often represented as a byte or word rather as a single bit as it requires more machine instructions to store and retrieve an individual bit many programming languages do not have an explicit boolean type instead using an integer type and interpreting for instance 0 as false and other values as true
+boolean data refers to the logical structure of how the language is interpreted to the machine language in this case a boolean 0 refers to the logic false true is always a non zero especially a one which is known as boolean 1
+
+almost all programming languages supply one or more integer data types they may either supply a small number of predefined subtypes restricted to certain ranges such as short and long and their corresponding unsigned variants in c c or allow users to freely define subranges such as 1 12 e g pascal ada if a corresponding native type does not exist on the target platform the compiler will break them down into code using types that do exist for instance if a 32 bit integer is requested on a 16 bit platform the compiler will tacitly treat it as an array of two 16 bit integers
+
+floating point data types represent certain fractional values rational numbers mathematically although they have predefined limits on both their maximum values and their precision they are sometimes misleadingly called reals evocative of mathematical real numbers they are typically stored internally in the form a 2b where a and b are integers but displayed in familiar decimal form
+
+fixed point data types are convenient for representing monetary values they are often implemented internally as integers leading to predefined limits
+
+for independence from architecture details a bignum or arbitrary precision numeric type might be supplied this represents an integer or rational to a precision limited only by the available memory and computational resources on the system bignum implementations of arithmetic operations on machine sized values are significantly slower than the corresponding machine operations
+
+the enumerated type has distinct values which can be compared and assigned but which do not necessarily have any particular concrete representation in the computer s memory compilers and interpreters can represent them arbitrarily for example the four suits in a deck of playing cards may be four enumerators named club diamond heart spade belonging to an enumerated type named suit if a variable v is declared having suit as its data type one can assign any of those four values to it some implementations allow programmers to assign integer values to the enumeration values or even treat them as type equivalent to integers
+
+strings are a sequence of characters used to store words or plain text most often textual markup languages representing formatted text characters may be a letter of some alphabet a digit a blank space a punctuation mark etc characters are drawn from a character set such as ascii or unicode character and string types can have different subtypes according to the character encoding the original 7 bit wide ascii was found to be limited and superseded by 8 16 and 32 bit sets which can encode a wide variety of non latin alphabets such as hebrew and chinese and other symbols strings may be of either variable length or fixed length and some programming languages have both types they may also be subtyped by their maximum size
+
+since most character sets include the digits it is possible to have a numeric string such as 1234 these numeric strings are usually considered distinct from numeric values such as 1234 although some languages automatically convert between them
+
+a union type definition will specify which of a number of permitted subtypes may be stored in its instances e g float or long integer in contrast with a record which could be defined to contain a float and an integer a union may only contain one subtype at a time
+
+a tagged union also called a variant variant record discriminated union or disjoint union contains an additional field indicating its current type for enhanced type safety
+
+an algebraic data type adt is a possibly recursive sum type of product types a value of an adt consists of a constructor tag together with zero or more field values with the number and type of the field values fixed by the constructor the set of all possible values of an adt is the set theoretic disjoint union sum of the sets of all possible values of its variants product of fields values of algebraic types are analyzed with pattern matching which identifies a value s constructor and extracts the fields it contains
+
+if there is only one constructor then the adt corresponds to a product type similar to a tuple or record a constructor with no fields corresponds to the empty product unit type if all constructors have no fields then the adt corresponds to an enumerated type
+
+one common adt is the option type defined in haskell as data maybe a nothing just a
+
+some types are very useful for storing and retrieving data and are called data structures common data structures include
+
+an abstract data type is a data type that does not specify the concrete representation of the data instead a formal specification based on the data type s operations is used to describe it any implementation of a specification must fulfill the rules given for example a stack has push pop operations that follow a last in first out rule and can be concretely implemented using either a list or an array abstract data types are used in formal semantics and program verification and less strictly in design
+
+the main non composite derived type is the pointer a data type whose value refers directly to or points to another value stored elsewhere in the computer memory using its address it is a primitive kind of reference in everyday terms a page number in a book could be considered a piece of data that refers to another one pointers are often stored in a format similar to an integer however attempting to dereference or look up a pointer whose value was never a valid memory address would cause a program to crash to ameliorate this potential problem a pointer type is typically considered distinct from the corresponding integer type even if the underlying representation is the same
+
+functional programming languages treat functions as a distinct datatype and allow values of this type to be stored in variables and passed to functions some multi paradigm languages such as javascript also have mechanisms for treating functions as data most contemporary type systems go beyond javascript s simple type function object and have a family of function types differentiated by argument and return types such as the type int bool denoting functions taking an integer and returning a boolean in c a function is not a first class data type but function pointers can be manipulated by the program java and c originally did not have function values but have added them in c 11 and java 8
+
+a type constructor builds new types from old ones and can be thought of as an operator taking zero or more types as arguments and producing a type product types function types power types and list types can be made into type constructors
+
+universally quantified and existentially quantified types are based on predicate logic universal quantification is written as
+
+
+
+
+x
+
+f
+
+x
+
+
+
+displaystyle forall x f x
+
+or forall x f x and is the intersection over all types x of the body f x i e the value is of type f x for every x existential quantification written as
+
+
+
+
+x
+
+f
+
+x
+
+
+
+displaystyle exists x f x
+
+or exists x f x and is the union over all types x of the body f x i e the value is of type f x for some x
+
+in haskell universal quantification is commonly used but existential types must be encoded by transforming exists a f a to forall r forall a f a r r or a similar type
+
+a refinement type is a type endowed with a predicate which is assumed to hold for any element of the refined type for instance the type of natural numbers greater than 5 may be written as
+
+
+
+
+n
+
+
+n
+
+
+
+
+
+
+n
+
+5
+
+
+
+displaystyle n in mathbb n n 5
+
+
+
+a dependent type is a type whose definition depends on a value two common examples of dependent types are dependent functions and dependent pairs the return type of a dependent function may depend on the value not just type of one of its arguments a dependent pair may have a second value of which the type depends on the first value
+
+an intersection type is a type containing those values that are members of two specified types for example in java the class boolean implements both the serializable and the comparable interfaces therefore an object of type boolean is a member of the type serializable comparable considering types as sets of values the intersection type
+
+
+
+σ
+
+τ
+
+
+displaystyle sigma cap tau
+
+is the set theoretic intersection of
+
+
+
+σ
+
+
+displaystyle sigma
+
+and
+
+
+
+τ
+
+
+displaystyle tau
+
+it is also possible to define a dependent intersection type denoted
+
+
+
+
+x
+
+σ
+
+
+τ
+
+
+displaystyle x sigma cap tau
+
+where the type
+
+
+
+τ
+
+
+displaystyle tau
+
+may depend on the term variable
+
+
+
+x
+
+
+displaystyle x
+
+
+
+some programming languages represent the type information as data enabling type introspection and reflective programming reflection in contrast higher order type systems while allowing types to be constructed from other types and passed to functions as values typically avoid basing computational decisions on them citation needed
+
+for convenience high level languages and databases may supply ready made real world data types for instance times dates and monetary values currency these may be built in to the language or implemented as composite types in a library

@@ -1,0 +1,39 @@
+
+
+data degradation is the gradual corruption of computer data due to an accumulation of non critical failures in a data storage device it is also referred to as data decay data rot digital decay or bit rot this results in a decline in data quality over time even when the data is not being utilized
+
+data degradation in dynamic random access memory dram can occur when the electric charge of a bit in dram disperses possibly altering program code or stored data dram may be altered by cosmic rays or other high energy particles such data degradation is known as a soft error ecc memory can be used to mitigate this type of data degradation
+
+data degradation results from the gradual decay of storage media over the course of years or longer causes vary by medium
+
+eproms flash memory and other solid state drive store data using electrical charges which can slowly leak away due to imperfect insulation modern flash controller chips account for this leak by trying several lower threshold voltages until ecc passes prolonging the age of data multi level cells with much lower distance between voltage levels cannot be considered stable without this functionality
+
+the chip itself is not affected by this so reprogramming it approximately once per decade prevents decay an undamaged copy of the master data is required for the reprogramming a checksum can be used to assure that the on chip data is not yet damaged and ready for reprogramming
+
+the typical sd card usb stick and m 2 nvme all have a limited endurance power on can usually recover data citation needed but error rates will eventually degrade the media to illegibility writing zeros to a degraded nand device can revive the storage to close to new condition for further use citation needed refresh cycles should be no longer than 6 months to be sure the device is legible
+
+magnetic media such as hard disk drives floppy disks and magnetic tapes may experience data decay as bits lose their magnetic orientation higher temperature speeds up the rate of magnetic loss as with solid state media re writing is useful as long as the medium itself is not damaged see below modern hard drives use giant magnetoresistance and have a higher magnetic lifespan on the order of decades they also automatically correct any errors detected by ecc through rewriting the reliance on a servowriter can complicate data recovery if it becomes unrecoverable however
+
+floppy disks and tapes are poorly protected against ambient air in warm humid conditions they are prone to the physical decomposition of the storage medium
+
+optical media such as cd r dvd r and bd r may experience data decay from the breakdown of the storage medium this can be mitigated by storing discs in a dark cool low humidity location archival quality discs are available with an extended lifetime but are still not permanent however data integrity scanning that measures the rates of various types of errors is able to predict data decay on optical media well ahead of uncorrectable data loss occurring
+
+both the disc dye and the disc backing layer are potentially susceptible to breakdown early cyanine based dyes used in cd r were notorious for their lack of uv stability early cds also suffered from cd bronzing and is related to a combination of bad lacquer material and failure of the aluminum reflection layer later discs use more stable dyes or forgo them for an inorganic mixture the aluminum layer is also commonly swapped out for gold or silver alloy
+
+paper media such as punched cards and punched tape may literally rot mylar punched tape is another approach that does not rely on electromagnetic stability degradation of books and printing paper is primarily driven by acid hydrolysis of glycosidic bonds within the cellulose molecule as well as by oxidation degradation of paper is accelerated by high relative humidity high temperature as well as by exposure to acids oxygen light and various pollutants including various volatile organic compounds and nitrogen dioxide
+
+data degradation occurs in streaming media transmission causing data quality issues
+
+one manifestation of data degradation is when one or a few bits are randomly flipped over a long period this is illustrated by several digital images below all consisting of 326 272 bits the original photo is displayed first in the next image a single bit was changed from 0 to 1 in the next two images two and three bits were flipped on linux systems the binary difference between files can be revealed using the cmp command e g cmp b bitrot original jpg bitrot 1bit changed jpg
+
+the jpeg format does not store a bitwise image but the parameters for decoding therefore changing just one bit leads to noticeable changes the coefficient of the encoding function changed for example several times if the bit was in one of the higher digits citation needed
+
+this deterioration can be caused by a variety of factors that impact the reliability and integrity of digital information including physical factors software errors security breaches human error obsolete technology and unauthorized access incidents
+
+most disk disk controller and higher level systems are subject to a slight chance of unrecoverable failure with ever growing disk capacities file sizes and increases in the amount of data stored on a disk the likelihood of the occurrence of data decay and other forms of uncorrected and undetected data corruption increases
+
+low level disk controllers typically employ error correction codes ecc to correct erroneous data
+
+higher level software systems may be employed to mitigate the risk of such underlying failures by increasing redundancy and implementing integrity checking error correction codes and self repairing algorithms the zfs file system was designed to address many of these data corruption issues the btrfs file system also includes data protection and recovery mechanisms better source needed as does refs
+
+there is no solution that completely eliminates the threat of data degradation but various measures exist that can stave it off one of these is to replicate the data as backups both the original and backed data are then audited for any faults due to storage media errors by checksumming the data or comparing it with that of other copies this is the only way to detect latent faults proactively which might otherwise go unnoticed until the data is actually accessed current storage systems such as those based on raid already employ such measures internally ideally and especially for data that must be preserved digitally the replicas should be distributed across multiple administrative sites that function autonomously and deploy various hardware and software increasing resistance to failure as well as human error and cyberattacks

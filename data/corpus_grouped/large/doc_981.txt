@@ -1,0 +1,1399 @@
+
+
+abductive reasoning also called abduction abductive inference or retroduction is a form of logical inference that seeks the simplest and most likely conclusion from a set of observations it was formulated and advanced by the american philosopher and logician charles sanders peirce beginning in the latter half of the 19th century
+
+abductive reasoning unlike deductive reasoning yields a plausible conclusion but does not definitively verify it abductive conclusions do not eliminate uncertainty or doubt which is expressed in terms such as best available or most likely while inductive reasoning draws general conclusions that apply to many situations abductive conclusions are confined to the particular observations in question
+
+in the 1990s as computing power grew the fields of law computer science and artificial intelligence research spurred renewed interest in the subject of abduction
+diagnostic expert systems frequently employ abduction
+
+deductive reasoning allows deriving
+
+
+
+b
+
+
+displaystyle b
+
+from
+
+
+
+a
+
+
+displaystyle a
+
+only where
+
+
+
+b
+
+
+displaystyle b
+
+is a formal logical consequence of
+
+
+
+a
+
+
+displaystyle a
+
+in other words deduction derives the consequences of the assumed given the truth of the assumptions a valid deduction guarantees the truth of the conclusion for example given that socrates is a man
+
+
+
+
+a
+
+1
+
+
+
+
+displaystyle a_ 1
+
+and all men are mortal
+
+
+
+
+a
+
+2
+
+
+
+
+displaystyle a_ 2
+
+it follows that socrates is mortal
+
+
+
+b
+
+
+displaystyle b
+
+
+
+inductive reasoning is the process of inferring some general principle
+
+
+
+b
+
+
+displaystyle b
+
+from a body of knowledge
+
+
+
+a
+
+
+displaystyle a
+
+where
+
+
+
+b
+
+
+displaystyle b
+
+does not necessarily follow from
+
+
+
+a
+
+
+displaystyle a
+
+
+
+
+
+a
+
+
+displaystyle a
+
+might give us very good reason to accept
+
+
+
+b
+
+
+displaystyle b
+
+but does not ensure
+
+
+
+b
+
+
+displaystyle b
+
+
+
+for example if all swans that a person has observed so far are white they may infer a universal categorical proposition of the form all swans are white they have good reason to believe the conclusion from the premise because it is the best explanation for their observations but the truth of the conclusion is not guaranteed indeed it turns out that some swans are black
+
+abductive reasoning allows inferring
+
+
+
+a
+
+
+displaystyle a
+
+as an explanation of
+
+
+
+b
+
+
+displaystyle b
+
+as a result of this inference abduction allows the precondition
+
+
+
+a
+
+
+displaystyle a
+
+to be abducted from the consequence
+
+
+
+b
+
+
+displaystyle b
+
+deductive reasoning and abductive reasoning differ in which end left or right of the proposition
+
+
+
+a
+
+
+displaystyle a
+
+entails
+
+
+
+b
+
+
+displaystyle b
+
+serves as the conclusion for example with deductive reasoning knowing that it rained heavily during the night you could deduce that the lawn will be wet in the morning without looking outside with abductive reasoning a couple leaving their house in the morning and seeing that their lawn is wet might abduce that it rained while they were asleep this serves as a hypothesis that best explains their observation given the many possible explanations for the lawn getting wet their abduction does not establish certainty that it rained overnight but it is still useful and can serve to orient them in their surroundings despite many possible explanations for any physical process we observe we tend to abduce a single explanation or a few for this process in the expectation that we can better orient ourselves in our surroundings and disregard some possibilities properly used abductive reasoning can be a useful source of priors in bayesian statistics
+
+one can understand abductive reasoning as inference to the best explanation although the terms abduction and inference to the best explanation are not always used equivalently
+
+in logic explanation is accomplished through the use of a logical theory
+
+
+
+t
+
+
+displaystyle t
+
+representing a domain and a set of observations
+
+
+
+o
+
+
+displaystyle o
+
+abduction is the process of deriving a set of explanations of
+
+
+
+o
+
+
+displaystyle o
+
+according to
+
+
+
+t
+
+
+displaystyle t
+
+and picking out one of those explanations for
+
+
+
+e
+
+
+displaystyle e
+
+to be an explanation of
+
+
+
+o
+
+
+displaystyle o
+
+according to
+
+
+
+t
+
+
+displaystyle t
+
+it should satisfy two conditions
+
+in formal logic
+
+
+
+o
+
+
+displaystyle o
+
+and
+
+
+
+e
+
+
+displaystyle e
+
+are assumed to be sets of literals the two conditions for
+
+
+
+e
+
+
+displaystyle e
+
+being an explanation of
+
+
+
+o
+
+
+displaystyle o
+
+according to theory
+
+
+
+t
+
+
+displaystyle t
+
+are formalized as
+
+among the possible explanations
+
+
+
+e
+
+
+displaystyle e
+
+satisfying these two conditions some other condition of minimality is usually imposed to avoid irrelevant facts not contributing to the entailment of
+
+
+
+o
+
+
+displaystyle o
+
+being included in the explanations abduction is then the process that picks out some member of
+
+
+
+e
+
+
+displaystyle e
+
+criteria for picking out a member representing the best explanation include the simplicity the prior probability or the explanatory power of the explanation
+
+a proof theoretical abduction method for first order classical logic based on the sequent calculus and a dual one based on semantic tableaux analytic tableaux have been proposed the methods are sound and complete and work for full first order logic without requiring any preliminary reduction of formulae into normal forms these methods have also been extended to modal logic
+
+abductive logic programming is a computational framework that extends normal logic programming with abduction it separates the theory
+
+
+
+t
+
+
+displaystyle t
+
+into two components one of which is a normal logic program used to generate
+
+
+
+e
+
+
+displaystyle e
+
+by means of backward reasoning the other of which is a set of integrity constraints used to filter the set of candidate explanations
+
+a different formalization of abduction is based on inverting the function that calculates the visible effects of the hypotheses formally we are given a set of hypotheses
+
+
+
+h
+
+
+displaystyle h
+
+and a set of manifestations
+
+
+
+m
+
+
+displaystyle m
+
+they are related by the domain knowledge represented by a function
+
+
+
+e
+
+
+displaystyle e
+
+that takes as an argument a set of hypotheses and gives as a result the corresponding set of manifestations in other words for every subset of the hypotheses
+
+
+
+
+h
+
+
+
+h
+
+
+displaystyle h subseteq h
+
+their effects are known to be
+
+
+
+e
+
+
+h
+
+
+
+
+
+displaystyle e h
+
+
+
+abduction is performed by finding a set
+
+
+
+
+h
+
+
+
+h
+
+
+displaystyle h subseteq h
+
+such that
+
+
+
+m
+
+e
+
+
+h
+
+
+
+
+
+displaystyle m subseteq e h
+
+in other words abduction is performed by finding a set of hypotheses
+
+
+
+
+h
+
+
+
+
+displaystyle h
+
+such that their effects
+
+
+
+e
+
+
+h
+
+
+
+
+
+displaystyle e h
+
+include all observations
+
+
+
+m
+
+
+displaystyle m
+
+
+
+a common assumption is that the effects of the hypotheses are independent that is for every
+
+
+
+
+h
+
+
+
+h
+
+
+displaystyle h subseteq h
+
+it holds that
+
+
+
+e
+
+
+h
+
+
+
+
+
+
+
+h
+
+
+h
+
+
+
+
+e
+
+
+h
+
+
+
+
+displaystyle e h bigcup _ h in h e h
+
+if this condition is met abduction can be seen as a form of set covering
+
+abductive validation is the process of validating a given hypothesis through abductive reasoning this can also be called reasoning through successive approximation citation needed under this principle an explanation is valid if it is the best possible explanation of a set of known data the best possible explanation is often defined in terms of simplicity and elegance see occam s razor abductive validation is common practice in hypothesis formation in science moreover peirce claims that it is a ubiquitous aspect of thought
+
+looking out my window this lovely spring morning i see an azalea in full bloom no no i don t see that though that is the only way i can describe what i see that is a proposition a sentence a fact but what i perceive is not proposition sentence fact but only an image which i make intelligible in part by means of a statement of fact this statement is abstract but what i see is concrete i perform an abduction when i so much as express in a sentence anything i see the truth is that the whole fabric of our knowledge is one matted felt of pure hypothesis confirmed and refined by induction not the smallest advance can be made in knowledge beyond the stage of vacant staring without making an abduction at every step
+
+it was peirce s own maxim that facts cannot be explained by a hypothesis more extraordinary than these facts themselves and of various hypotheses the least extraordinary must be adopted after obtaining possible hypotheses that may explain the facts abductive validation is a method for identifying the most likely hypothesis that should be adopted
+
+subjective logic generalises probabilistic logic by including degrees of epistemic uncertainty in the input arguments i e instead of probabilities the analyst can express arguments as subjective opinions abduction in subjective logic is thus a generalization of probabilistic abduction described above the input arguments in subjective logic are subjective opinions which can be binomial when the opinion applies to a binary variable or multinomial when it applies to an n ary variable a subjective opinion thus applies to a state variable
+
+
+
+x
+
+
+displaystyle x
+
+which takes its values from a domain
+
+
+
+
+x
+
+
+
+displaystyle mathbf x
+
+i e a state space of exhaustive and mutually disjoint state values
+
+
+
+x
+
+
+displaystyle x
+
+and is denoted by the tuple
+
+
+
+
+ω
+
+x
+
+
+
+
+
+b
+
+x
+
+
+
+
+u
+
+x
+
+
+
+
+a
+
+x
+
+
+
+
+
+
+
+displaystyle omega _ x b_ x u_ x a_ x
+
+where
+
+
+
+
+b
+
+x
+
+
+
+
+
+
+displaystyle b_ x
+
+is the belief mass distribution over
+
+
+
+
+x
+
+
+
+displaystyle mathbf x
+
+
+
+
+
+
+u
+
+x
+
+
+
+
+
+
+displaystyle u_ x
+
+is the epistemic uncertainty mass and
+
+
+
+
+a
+
+x
+
+
+
+
+
+
+displaystyle a_ x
+
+is the base rate distribution over
+
+
+
+
+x
+
+
+
+displaystyle mathbf x
+
+these parameters satisfy
+
+
+
+
+u
+
+x
+
+
+
+
+
+b
+
+x
+
+
+
+x
+
+
+1
+
+
+
+
+displaystyle u_ x sum b_ x x 1
+
+and
+
+
+
+
+
+a
+
+x
+
+
+
+x
+
+
+1
+
+
+
+
+displaystyle sum a_ x x 1
+
+as well as
+
+
+
+
+b
+
+x
+
+
+
+x
+
+
+
+u
+
+x
+
+
+
+
+a
+
+x
+
+
+
+x
+
+
+
+0
+
+1
+
+
+
+
+
+displaystyle b_ x x u_ x a_ x x in 0 1
+
+
+
+assume the domains
+
+
+
+
+x
+
+
+
+displaystyle mathbf x
+
+and
+
+
+
+
+y
+
+
+
+displaystyle mathbf y
+
+with respective variables
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+y
+
+
+displaystyle y
+
+the set of conditional opinions
+
+
+
+
+ω
+
+x
+
+y
+
+
+
+
+displaystyle omega _ x mid y
+
+i e one conditional opinion for each value
+
+
+
+y
+
+
+displaystyle y
+
+and the base rate distribution
+
+
+
+
+a
+
+y
+
+
+
+
+displaystyle a_ y
+
+based on these parameters the subjective bayes theorem denoted with the operator
+
+
+
+
+
+
+
+ϕ
+
+
+
+
+
+
+displaystyle widetilde phi
+
+produces the set of inverted conditionals
+
+
+
+
+ω
+
+y
+
+
+
+
+
+
+
+
+x
+
+
+
+
+displaystyle omega _ y tilde mid x
+
+i e one inverted conditional for each value
+
+
+
+x
+
+
+displaystyle x
+
+expressed by
+
+
+
+
+
+
+ω
+
+y
+
+
+
+
+
+
+
+
+
+
+x
+
+
+
+
+ω
+
+x
+
+
+
+y
+
+
+
+
+
+
+
+ϕ
+
+
+
+
+
+
+
+
+a
+
+y
+
+
+
+
+
+displaystyle omega _ y tilde x omega _ x y widetilde phi a_ y
+
+
+
+using these inverted conditionals together with the opinion
+
+
+
+
+ω
+
+x
+
+
+
+
+displaystyle omega _ x
+
+subjective deduction denoted by the operator
+
+
+
+
+
+
+displaystyle circledcirc
+
+can be used to abduce the marginal opinion
+
+
+
+
+ω
+
+y
+
+
+
+
+
+
+
+
+x
+
+
+
+
+displaystyle omega _ y overline x
+
+the equality between the different expressions for subjective abduction is given below
+
+
+
+
+
+
+
+
+
+
+ω
+
+y
+
+
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+
+ω
+
+x
+
+y
+
+
+
+
+
+
+
+
+
+
+
+
+
+ω
+
+x
+
+
+
+
+
+
+
+
+
+
+
+ω
+
+x
+
+y
+
+
+
+
+
+
+
+ϕ
+
+
+
+
+
+
+
+
+a
+
+y
+
+
+
+
+
+
+
+ω
+
+x
+
+
+
+
+
+
+
+
+
+
+ω
+
+y
+
+
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+ω
+
+x
+
+
+
+
+
+
+
+
+
+
+displaystyle begin aligned omega _ y widetilde x omega _ x mid y widetilde circledcirc omega _ x omega _ x mid y widetilde phi a_ y circledcirc omega _ x omega _ y widetilde x circledcirc omega _ x end aligned
+
+
+
+the symbolic notation for subjective abduction is
+
+
+
+
+
+
+
+
+
+
+
+
+
+displaystyle widetilde
+
+and the operator itself is denoted as
+
+
+
+
+
+
+
+
+
+
+
+
+
+displaystyle widetilde circledcirc
+
+the operator for the subjective bayes theorem is denoted
+
+
+
+
+
+
+
+ϕ
+
+
+
+
+
+
+
+
+displaystyle widetilde phi
+
+and subjective deduction is denoted
+
+
+
+
+
+
+displaystyle circledcirc
+
+
+
+the advantage of using subjective logic abduction compared to probabilistic abduction is that both aleatoric and epistemic uncertainty about the input argument probabilities can be explicitly expressed and taken into account during the analysis it is thus possible to perform abductive analysis in the presence of uncertain arguments which naturally results in degrees of uncertainty in the output conclusions
+
+the idea that the simplest most easily verifiable solution should be preferred over its more complicated counterparts is a very old one to this point george pólya in his treatise on problem solving makes reference to the following latin truism simplex sigillum veri simplicity is the seal of truth
+
+the american philosopher charles sanders peirce introduced abduction into modern logic over the years he called such inference hypothesis abduction presumption and retroduction he considered it a topic in logic as a normative field in philosophy not in purely formal or mathematical logic and eventually as a topic also in economics of research
+
+as two stages of the development extension etc of a hypothesis in scientific inquiry abduction and also induction are often collapsed into one overarching concept the hypothesis that is why in the scientific method known from galileo and bacon the abductive stage of hypothesis formation is conceptualized simply as induction thus in the twentieth century this collapse was reinforced by karl popper s explication of the hypothetico deductive model where the hypothesis is considered to be just a guess in the spirit of peirce however when the formation of a hypothesis is considered the result of a process it becomes clear that this guess has already been tried and made more robust in thought as a necessary stage of its acquiring the status of hypothesis indeed many abductions are rejected or heavily modified by subsequent abductions before they ever reach this stage
+
+before 1900 peirce treated abduction as the use of a known rule to explain an observation for instance it is a known rule that if it rains grass gets wet so to explain the fact that the grass on this lawn is wet one abduces that it has rained abduction can lead to false conclusions if other rules that might explain the observation are not taken into account e g the grass could be wet from dew this remains the common use of the term abduction in the social sciences and in artificial intelligence
+
+peirce consistently characterized it as the kind of inference that originates a hypothesis by concluding in an explanation though an unassured one for some very curious or surprising anomalous observation stated in a premise as early as 1865 he wrote that all conceptions of cause and force are reached through hypothetical inference in the 1900s he wrote that all explanatory content of theories is reached through abduction in other respects peirce revised his view of abduction over the years
+
+in later years his view came to be
+
+writing in 1910 peirce admits that in almost everything i printed before the beginning of this century i more or less mixed up hypothesis and induction and he traces the confusion of these two types of reasoning to logicians too narrow and formalistic a conception of inference as necessarily having formulated judgments from its premises
+
+he started out in the 1860s treating hypothetical inference in a number of ways which he eventually peeled away as inessential or in some cases mistaken
+
+in peirce s on the natural classification of arguments 1867 hypothetical inference always deals with a cluster of characters call them p p p etc known to occur at least whenever a certain character m occurs note that categorical syllogisms have elements traditionally called middles predicates and subjects for example all men middle are mortal predicate socrates subject is a man middle ergo socrates subject is mortal predicate below m stands for a middle p for a predicate s for a subject peirce held that all deduction can be put into the form of the categorical syllogism barbara aaa 1
+
+any m is p
+any s is m
+
+
+
+
+
+
+
+displaystyle therefore
+
+any s is p
+
+s s s c are taken at random as m s
+s s s c are p
+
+
+
+
+
+
+
+displaystyle therefore
+
+any m is probably p
+
+any m is for instance p p p c
+s is p p p c
+
+
+
+
+
+
+
+displaystyle therefore
+
+s is probably m
+
+in 1878 in deduction induction and hypothesis there is no longer a need for multiple characters or predicates in order for an inference to be hypothetical although it is still helpful moreover peirce no longer poses hypothetical inference as concluding in a probable hypothesis in the forms themselves it is understood but not explicit that induction involves random selection and that hypothetical inference involves response to a very curious circumstance the forms instead emphasize the modes of inference as rearrangements of one another s propositions without the bracketed hints shown below
+
+rule all the beans from this bag are white case these beans are from this bag
+
+
+
+
+
+
+displaystyle therefore
+
+result these beans are white
+
+case these beans are randomly selected from this bag result these beans are white
+
+
+
+
+
+
+displaystyle therefore
+
+rule all the beans from this bag are white
+
+rule all the beans from this bag are white result these beans oddly are white
+
+
+
+
+
+
+displaystyle therefore
+
+case these beans are from this bag
+
+peirce long treated abduction in terms of induction from characters or traits weighed not counted like objects explicitly so in his influential 1883 a theory of probable inference in which he returns to involving probability in the hypothetical conclusion like deduction induction and hypothesis in 1878 it was widely read see the historical books on statistics by stephen stigler unlike his later amendments of his conception of abduction today abduction remains most commonly understood as induction from characters and extension of a known rule to cover unexplained circumstances
+
+sherlock holmes used this method of reasoning in the stories of arthur conan doyle although holmes refers to it as deductive reasoning
+
+in 1902 peirce wrote that he now regarded the syllogistical forms and the doctrine of extension and comprehension i e objects and characters as referenced by terms as being less fundamental than he had earlier thought in 1903 he offered the following form for abduction
+
+the surprising fact c is observed
+
+the hypothesis is framed but not asserted in a premise then asserted as rationally suspectable in the conclusion thus as in the earlier categorical syllogistic form the conclusion is formulated from some premise s but all the same the hypothesis consists more clearly than ever in a new or outside idea beyond what is known or observed induction in a sense goes beyond observations already reported in the premises but it merely amplifies ideas already known to represent occurrences or tests an idea supplied by hypothesis either way it requires previous abductions in order to get such ideas in the first place induction seeks facts to test a hypothesis abduction seeks a hypothesis to account for facts
+
+note that the hypothesis a could be of a rule it need not even be a rule strictly necessitating the surprising observation c which needs to follow only as a matter of course or the course itself could amount to some known rule merely alluded to and also not necessarily a rule of strict necessity in the same year peirce wrote that reaching a hypothesis may involve placing a surprising observation under either a newly hypothesized rule or a hypothesized combination of a known rule with a peculiar state of facts so that the phenomenon would be not surprising but instead either necessarily implied or at least likely
+
+peirce did not remain quite convinced about any such form as the categorical syllogistic form or the 1903 form in 1911 he wrote i do not at present feel quite convinced that any logical form can be assigned that will cover all retroductions for what i mean by a retroduction is simply a conjecture which arises in the mind
+
+in 1901 peirce wrote there would be no logic in imposing rules and saying that they ought to be followed until it is made out that the purpose of hypothesis requires them in 1903 peirce called pragmatism the logic of abduction and said that the pragmatic maxim gives the necessary and sufficient logical rule to abduction in general the pragmatic maxim is
+
+consider what effects that might conceivably have practical bearings we conceive the object of our conception to have then our conception of these effects is the whole of our conception of the object
+it is a method for fruitful clarification of conceptions by equating the meaning of a conception with the conceivable practical implications of its object s conceived effects peirce held that that is precisely tailored to abduction s purpose in inquiry the forming of an idea that could conceivably shape informed conduct in various writings in the 1900s he said that the conduct of abduction or retroduction is governed by considerations of economy belonging in particular to the economics of research he regarded economics as a normative science whose analytic portion might be part of logical methodeutic that is theory of inquiry
+
+peirce came over the years to divide philosophical logic into three departments
+
+peirce had from the start seen the modes of inference as being coordinated together in scientific inquiry and by the 1900s held that hypothetical inference in particular is inadequately treated at the level of critique of arguments to increase the assurance of a hypothetical conclusion one needs to deduce implications about evidence to be found predictions which induction can test through observation so as to evaluate the hypothesis that is peirce s outline of the scientific method of inquiry as covered in his inquiry methodology which includes pragmatism or as he later called it pragmaticism the clarification of ideas in terms of their conceivable implications regarding informed practice
+
+as early as 1866 peirce held that
+
+in 1902 peirce wrote that in abduction it is recognized that the phenomena are like i e constitute an icon of a replica of a general conception or symbol
+
+at the critical level peirce examined the forms of abductive arguments as discussed above and came to hold that the hypothesis should economize explanation for plausibility in terms of the feasible and natural in 1908 peirce described this plausibility in some detail it involves not likeliness based on observations which is instead the inductive evaluation of a hypothesis but instead optimal simplicity in the sense of the facile and natural as by galileo s natural light of reason and as distinct from logical simplicity peirce does not dismiss logical simplicity entirely but sees it in a subordinate role taken to its logical extreme it would favor adding no explanation to the observation at all even a well prepared mind guesses oftener wrong than right but our guesses succeed better than random luck at reaching the truth or at least advancing the inquiry and that indicates to peirce that they are based in instinctive attunement to nature an affinity between the mind s processes and the processes of the real which would account for why appealingly natural guesses are the ones that oftenest or least seldom succeed to which peirce added the argument that such guesses are to be preferred since without a natural bent like nature s people would have no hope of understanding nature in 1910 peirce made a three way distinction between probability verisimilitude and plausibility and defined plausibility with a normative ought by plausibility i mean the degree to which a theory ought to recommend itself to our belief independently of any kind of evidence other than our instinct urging us to regard it favorably for peirce plausibility does not depend on observed frequencies or probabilities or on verisimilitude or even on testability which is not a question of the critique of the hypothetical inference as an inference but rather a question of the hypothesis s relation to the inquiry process
+
+the phrase inference to the best explanation not used by peirce but often applied to hypothetical inference is not always understood as referring to the most simple and natural hypotheses such as those with the fewest assumptions however in other senses of best such as standing up best to tests it is hard to know which is the best explanation to form since one has not tested it yet still for peirce any justification of an abductive inference as good is not completed upon its formation as an argument unlike with induction and deduction and instead depends also on its methodological role and promise such as its testability in advancing inquiry
+
+at the methodeutical level peirce held that a hypothesis is judged and selected for testing because it offers via its trial to expedite and economize the inquiry process itself toward new truths first of all by being testable and also by further economies in terms of cost value and relationships among guesses hypotheses here considerations such as probability absent from the treatment of abduction at the critical level come into play for examples
+
+peirce indicated that abductive reasoning is driven by the need for economy in research the expected fact based productivity of hypotheses prior to deductive and inductive processes of verification a key concept proposed by him in this regard is uberty the expected fertility and pragmatic value of reasoning this concept seems to be gaining support via association to the free energy principle
+
+gilbert harman was a professor of philosophy at princeton university harman s 1965 account of the role of inference to the best explanation inferring the existence of that which we need for the best explanation of observable phenomena has been very influential
+
+stephen jay gould in answering the omphalos hypothesis claimed that only hypotheses that can be proved incorrect lie within the domain of science and only these hypotheses are good explanations of facts worth inferring to
+
+w hat is so desperately wrong with omphalos only this really and perhaps paradoxically that we can devise no way to find out whether it is wrong or for that matter right omphalos is the classic example of an utterly untestable notion for the world will look exactly the same in all its intricate detail whether fossils and strata are prochronic signs of a fictitious past or products of an
+extended history science is a procedure for testing and rejecting hypotheses not a compendium of certain knowledge claims that can be proved incorrect lie within its domain but theories that cannot be tested in principle are not part of science w e reject omphalos as useless not wrong
+applications in artificial intelligence include fault diagnosis belief revision and automated planning the most direct application of abduction is that of automatically detecting faults in systems given a theory relating faults with their effects and a set of observed effects abduction can be used to derive sets of faults that are likely to be the cause of the problem
+
+in medicine abduction can be seen as a component of clinical evaluation and judgment the internist i diagnostic system the first ai system that covered the field of internal medicine used abductive reasoning to converge on the most likely causes of a set of patient symptoms that it acquired through an interactive dialog with an expert user
+
+abduction can also be used to model automated planning given a logical theory relating action occurrences with their effects for example a formula of the event calculus the problem of finding a plan for reaching a state can be modeled as the problem of abducting a set of literals implying that the final state is the goal state
+
+in intelligence analysis analysis of competing hypotheses and bayesian networks probabilistic abductive reasoning is used extensively similarly in medical diagnosis and legal reasoning the same methods are being used although there have been many examples of errors especially caused by the base rate fallacy and the prosecutor s fallacy
+
+belief revision the process of adapting beliefs in view of new information is another field in which abduction has been applied the main problem of belief revision is that the new information may be inconsistent with the prior web of beliefs while the result of the incorporation cannot be inconsistent the process of updating the web of beliefs can be done by the use of abduction once an explanation for the observation has been found integrating it does not generate inconsistency
+
+in 1992 peter gärdenfors presented a paper which contained a brief survey of the area of belief revision and its relation to updating of logical databases and explores the relationship between belief revision and nonmonotonic logic
+
+this use of abduction is not straightforward as adding propositional formulae to other propositional formulae can only make inconsistencies worse instead abduction is done at the level of the ordering of preference of the possible worlds preference models use fuzzy logic or utility models
+
+in the philosophy of science abduction has been the key inference method to support scientific realism and much of the debate about scientific realism is focused on whether abduction is an acceptable method of inference
+
+in historical linguistics abduction during language acquisition is often taken to be an essential part of processes of language change such as reanalysis and analogy
+
+in applied linguistics research abductive reasoning is starting to be used as an alternative explanation to inductive reasoning in recognition of anticipated outcomes of qualitative inquiry playing a role in shaping the direction of analysis it is defined as the use of an unclear premise based on observations pursuing theories to try to explain it rose et al 2020 p 258
+
+in anthropology alfred gell in his influential book art and agency defined abduction after eco as a case of synthetic inference where we find some very curious circumstances which would be explained by the supposition that it was a case of some general rule and thereupon adopt that supposition gell criticizes existing anthropological studies of art for being too preoccupied with aesthetic value and not preoccupied enough with the central anthropological concern of uncovering social relationships specifically the social contexts in which artworks are produced circulated and received abduction is used as the mechanism for getting from art to agency that is abduction can explain how works of art inspire a sensus communis the commonly held views shared by members that characterize a given society
+
+the question gell asks in the book is how does it initially speak to people he answers by saying that no reasonable person could suppose that art like relations between people and things do not involve at least some form of semiosis however he rejects any intimation that semiosis can be thought of as a language because then he would have to admit to some pre established existence of the sensus communis that he wants to claim only emerges afterwards out of art abduction is the answer to this conundrum because the tentative nature of the abduction concept peirce likened it to guessing means that not only can it operate outside of any pre existing framework but moreover it can actually intimate the existence of a framework as gell reasons in his analysis the physical existence of the artwork prompts the viewer to perform an abduction that imbues the artwork with intentionality a statue of a goddess for example in some senses actually becomes the goddess in the mind of the beholder and represents not only the form of the deity but also her intentions which are adduced from the feeling of her very presence therefore through abduction gell claims that art can have the kind of agency that plants the seeds that grow into cultural myths the power of agency is the power to motivate actions and inspire ultimately the shared understanding that characterizes any given society
+
+in formal methods logic is used to specify and prove properties of computer programs abduction has been used in mechanized reasoning tools to increase the level of automation of the proof activity
+
+a technique known as bi abduction which mixes abduction and the frame problem was used to scale reasoning techniques for memory properties to millions of lines of code logic based abduction was used to infer pre conditions for individual functions in a program relieving the human of the need to do so it led to a program proof startup company which was acquired by facebook and the infer program analysis tool which led to thousands of bugs being prevented in industrial codebases
+
+in addition to inference of function preconditions abduction has been used to automate inference of invariants for program loops inference of specifications of unknown code and in synthesis of the programs themselves
+
+it allows any flight of imagination provided this imagination ultimately alights upon a possible practical effect and thus many hypotheses may seem at first glance to be excluded by the pragmatical maxim that are not really so excluded
+methodeutic has a special interest in abduction or the inference which starts a scientific hypothesis for it is not sufficient that a hypothesis should be a justifiable one any hypothesis which explains the facts is justified critically but among justifiable hypotheses we have to select that one which is suitable for being tested by experiment
+what is good abduction what should an explanatory hypothesis be to be worthy to rank as a hypothesis of course it must explain the facts but what other conditions ought it to fulfill to be good any hypothesis therefore may be admissible in the absence of any special reasons to the contrary provided it be capable of experimental verification and only insofar as it is capable of such verification this is approximately the doctrine of pragmatism
+consequently to discover is simply to expedite an event that would occur sooner or later if we had not troubled ourselves to make the discovery consequently the art of discovery is purely a question of economics the economics of research is so far as logic is concerned the leading doctrine with reference to the art of discovery consequently the conduct of abduction which is chiefly a question of heuristic and is the first question of heuristic is to be governed by economical considerations
+the mind seeks to bring the facts as modified by the new discovery into order that is to form a general conception embracing them in some cases it does this by an act of generalization in other cases no new law is suggested but only a peculiar state of facts that will explain the surprising phenomenon and a law already known is recognized as applicable to the suggested hypothesis so that the phenomenon under that assumption would not be surprising but quite likely or even would be a necessary result this synthesis suggesting a new conception or hypothesis is the abduction
+thus twenty skillful hypotheses will ascertain what 200 000 stupid ones might fail to do the secret of the business lies in the caution which breaks a hypothesis up into its smallest logical components and only risks one of them at a time

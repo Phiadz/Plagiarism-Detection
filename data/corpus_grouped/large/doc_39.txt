@@ -1,0 +1,136 @@
+data and information visualization data viz vis or info viz vis is the practice of designing and creating graphic or visual representations of quantitative and qualitative data and information with the help of static dynamic or interactive visual items these visualizations are intended to help a target audience visually explore and discover quickly understand interpret and gain important insights into otherwise difficult to identify structures relationships correlations local and global patterns trends variations constancy clusters outliers and unusual groupings within data when intended for the public to convey a concise version of information in an engaging manner it is typically called infographics
+
+data visualization is concerned with presenting sets of primarily quantitative raw data in a schematic form using imagery the visual formats used in data visualization includes charts and graphs geospatial maps figures correlation matrices percentage gauges etc
+
+information visualization deals with multiple large scale and complicated datasets which contain quantitative data as well as qualitative and primarily abstract information and its goal is to add value to raw data improve the viewers comprehension reinforce their cognition and help derive insights and make decisions as they navigate and interact with the graphical display visual tools used include maps for location based data hierarchical organisations of data displays that prioritise relationships such as sankey diagrams flowcharts timelines
+
+in addition narrative visualization is a method that uses visual elements such as charts graphs maps and the like to convey data or information this approach blends data analysis storytelling and visualization to present information through structured narrative flows using visuals not just to present statistics but to tell a story through data its goal is to help people identify trends patterns and relationships in data through a compelling story driven visual experience
+
+emerging technologies like virtual augmented and mixed reality have the potential to make information visualization more immersive intuitive interactive and easily manipulable and thus enhance the user s visual perception and cognition in data and information visualization the goal is to graphically present and explore abstract non physical and non spatial data collected from databases information systems file systems documents business data which is different from scientific visualization where the goal is to render realistic images based on physical and spatial scientific data to confirm or reject hypotheses
+
+effective data visualization is well sourced appropriately contextualized and presented in a simple uncluttered manner the underlying data is accurate and up to date to ensure insights are reliable graphical items are well chosen and aesthetically appealing with shapes colors and other visual elements used deliberately in a meaningful and non distracting manner the visuals are accompanied by supporting texts verbal and graphical components complement each other to ensure clear quick and memorable understanding effective information visualization is aware of the needs and expertise level of the target audience effective visualization can be used for conveying specialized complex big data driven ideas to a non technical audience in a visually appealing engaging and accessible manner and domain experts and executives for making decisions monitoring performance generating ideas and stimulating research
+
+data scientists analysts and data mining specialists use data visualization to check data quality find errors unusual gaps missing values clean data explore the structures and features of data and assess outputs of data driven models data and information visualization can be part of data storytelling where they are paired with a narrative structure to contextualize the analyzed data and communicate insights gained from analyzing it to convince the audience into making a decision or taking action this can be contrasted with statistical graphics where complex data are communicated graphically among researchers and analysts to help them perform exploratory data analysis or convey results of such analyses where visual appeal capturing attention to a certain issue and storytelling are less important
+
+data and information visualization is interdisciplinary it incorporates principles found in descriptive statistics visual communication graphic design cognitive science and interactive computer graphics and human computer interaction since effective visualization requires design skills statistical skills and computing skills it is both an art and a science visual analytics combines statistical data analysis data and information visualization and human analytical reasoning through interactive visual interfaces to help users reach conclusions gain actionable insights and make informed decisions which are otherwise difficult for computers to do research into how people read and misread types of visualizations helps to determine what types and features of visualizations are most understandable and effective unintentionally poor or intentionally misleading and deceptive visualizations can function as powerful tools which disseminate misinformation manipulate public perception and divert public opinion thus data visualization literacy has become an important component of data and information literacy in the information age akin to the roles played by textual mathematical and visual literacy in the past
+
+the field of data and information visualization has emerged from research in human computer interaction computer science graphics visual design psychology photography and business methods it is increasingly applied as a critical component in scientific research digital libraries data mining financial data analysis market studies manufacturing production control and drug discovery
+
+data and information visualization presumes that visual representations and interaction techniques take advantage of the human eye s broad bandwidth pathway into the mind to allow users to see explore and understand large amounts of information at once information visualization focused on the creation of approaches for conveying abstract information in intuitive ways
+
+data analysis is an indispensable part of all applied research and problem solving in industry the most fundamental data analysis approaches are visualization histograms scatter plots surface plots tree maps parallel coordinate plots etc statistics hypothesis test regression pca etc data mining association mining etc and machine learning methods clustering classification decision trees etc among these approaches information visualization or visual data analysis is the most reliant on the cognitive skills of human analysts and allows the discovery of unstructured actionable insights that are limited only by human imagination and creativity the analyst does not have to learn any sophisticated methods to be able to interpret the visualizations of the data information visualization is also a hypothesis generation scheme which can be and is typically followed by more analytical or formal analysis such as statistical hypothesis testing
+
+to communicate information clearly and efficiently data visualization uses statistical graphics plots information graphics and other tools numerical data may be encoded using dots lines or bars to visually communicate a quantitative message effective visualization helps users analyze and reason about data and evidence it makes complex data more accessible understandable and usable but can also be reductive users may have particular analytical tasks such as making comparisons or understanding causality and the design principle of the graphic i e showing comparisons or showing causality follows the task tables are generally used where users will look up a specific measurement while charts of various types are used to show patterns or relationships in the data for one or more variables
+
+data visualization refers to the techniques used to communicate data or information by encoding it as visual objects e g points lines or bars contained in graphics the goal is to communicate information clearly and efficiently to users it is one of the steps in data analysis or data science according to vitaly friedman 2008 the main goal of data visualization is to communicate information clearly and effectively through graphical means it doesn t mean that data visualization needs to look boring to be functional or extremely sophisticated to look beautiful to convey ideas effectively both aesthetic form and functionality need to go hand in hand providing insights into a rather sparse and complex data set by communicating its key aspects in a more intuitive way yet designers often fail to achieve a balance between form and function creating gorgeous data visualizations which fail to serve their main purpose to communicate information
+
+indeed fernanda viegas and martin m wattenberg suggested that an ideal visualization should not only communicate clearly but stimulate viewer engagement and attention
+
+data visualization is closely related to information graphics information visualization scientific visualization exploratory data analysis and statistical graphics in the new millennium data visualization has become an active area of research teaching and development according to post et al 2002 it has united scientific and information visualization
+
+in the commercial environment data visualization is often referred to as dashboards infographics are another very common form of data visualization
+
+the greatest value of a picture is when it forces us to notice what we never expected to see
+
+edward tufte has explained that users of information displays are executing particular analytical tasks such as making comparisons the design principle of the information graphic should support the analytical task as william cleveland and robert mcgill show different graphical elements accomplish this more or less effectively for example dot plots and bar charts outperform pie charts
+
+in his 1983 book the visual display of quantitative information edward tufte defines graphical displays and principles for effective graphical display in the following passage
+excellence in statistical graphics consists of complex ideas communicated with clarity precision and efficiency graphical displays should
+
+graphics reveal data indeed graphics can be more precise and revealing than conventional statistical computations
+
+for example the minard diagram shows the losses suffered by napoleon s army in the 1812 1813 period six variables are plotted the size of the army its location on a two dimensional surface x and y time the direction of movement and temperature the line width illustrates a comparison size of the army at points in time while the temperature axis suggests a cause of the change in army size this multivariate display on a two dimensional surface tells a story that can be grasped immediately while identifying the source data to build credibility tufte wrote in 1983 that it may well be the best statistical graphic ever drawn
+
+not applying these principles may result in misleading graphs distorting the message or supporting an erroneous conclusion according to tufte chartjunk refers to the extraneous interior decoration of the graphic that does not enhance the message or gratuitous three dimensional or perspective effects needlessly separating the explanatory key from the image itself requiring the eye to travel back and forth from the image to the key is a form of administrative debris the ratio of data to ink should be maximized erasing non data ink where feasible
+
+the congressional budget office summarized several best practices for graphical displays in a june 2014 presentation these included a knowing your audience b designing graphics that can stand alone outside the report s context and c designing graphics that communicate the key messages in the report
+
+useful criteria for a data or information visualization include
+
+readability means that it is possible for a viewer to understand the underlying data such as by making comparisons between proportionally sized visual elements to compare their respective data values or using a legend to decode a map like identifying coloured regions on a climate map to read temperature at that location for greatest efficiency and simplicity of design and user experience this readability is enhanced through the use of bijective mapping in that design of the image elements where the mapping of representational element to data variable is unique
+
+kosara 2007 also identifies the need for a visualisation to be recognisable as a visualisation and not appear to be something else he also states that recognisability and readability may not always be required in all types of visualisation e g informative art which would still meet all three above criteria but might not look like a visualisation or artistic visualisation which similarly is still based on non visual data to create an image but may not be readable or recognisable
+
+author stephen few described eight types of quantitative messages that users may attempt to understand or communicate from a set of data and the associated graphs used to help communicate the message
+
+analysts reviewing a set of data may consider whether some or all of the messages and graphic types above are applicable to their task and audience the process of trial and error to identify meaningful relationships and messages in the data is part of exploratory data analysis
+
+a human can distinguish differences in line length shape orientation distances and color hue readily without significant processing effort these are referred to as pre attentive attributes for example it may require significant time and effort attentive processing to identify the number of times the digit 5 appears in a series of numbers but if that digit is different in size orientation or color instances of the digit can be noted quickly through pre attentive processing
+
+compelling graphics take advantage of pre attentive processing and attributes and the relative strength of these attributes for example since humans can more easily process differences in line length than surface area it may be more effective to use a bar chart which takes advantage of line length to show comparison rather than pie charts which use surface area to show comparison
+
+almost all data visualizations are created for human consumption knowledge of human perception and cognition is necessary when designing intuitive visualizations cognition refers to processes in human beings like perception attention learning memory thought concept formation reading and problem solving human visual processing is efficient in detecting changes and making comparisons between quantities sizes shapes and variations in lightness when properties of symbolic data are mapped to visual properties humans can browse through large amounts of data efficiently it is estimated that 2 3 of the brain s neurons can be involved in visual processing proper visualization provides a different approach to show potential connections relationships etc which are not as obvious in non visualized quantitative data visualization can become a means of data exploration
+
+studies have shown individuals used on average 19 less cognitive resources and 4 5 better able to recall details when comparing data visualization with text
+
+there is no comprehensive history of data visualization there are no accounts that span the entire development of visual thinking and visual representation of data and which collate the contributions of disparate disciplines michael friendly and daniel denis of york university are engaged in a project that attempts to provide a comprehensive history of visualization data visualization is not a modern development since prehistory stellar data or information such as location of stars were visualized on the walls of caves such as those found in lascaux cave in southern france since the pleistocene era physical artefacts such as mesopotamian clay tokens 5500 bc inca quipus 2600 bc and marshall islands stick charts n d can also be considered as visualizing quantitative information
+
+the first documented data visualization can be tracked back to 1160 b c with the turin papyrus map which accurately illustrates the distribution of geological resources and provides information about quarrying of those resources such maps can be categorized as thematic cartography which is a type of data visualization that presents and communicates specific data and information through a geographical illustration designed to show a particular theme connected with a specific geographic area earliest documented forms of data visualization were various thematic maps from different cultures and ideograms and hieroglyphs that provided and allowed interpretation of information illustrated for example linear b tablets of mycenae provided a visualization of information regarding late bronze age era trades in the mediterranean the idea of coordinates was used by ancient egyptian surveyors in laying out towns earthly and heavenly positions were located by something akin to latitude and longitude at least by 200 bc and the map projection of a spherical earth into latitude and longitude by claudius ptolemy c 85 c 165 in alexandria would serve as reference standards until the 14th century
+
+the invention of paper and parchment allowed further development of visualizations one graph from the 10th or possibly 11th century is an illustration of planetary movements used in an appendix of a textbook in monastery schools the graph apparently was meant to represent a plot of the inclinations of the planetary orbits as a function of the time for this purpose the zone of the zodiac was represented on a plane with a horizontal line divided into thirty parts as the time or longitudinal axis the vertical axis designates the width of the zodiac the horizontal scale appears to have been chosen for each planet individually for the periods cannot be reconciled the accompanying text refers only to the amplitudes the curves are apparently not related in time
+
+by the 16th century techniques and instruments for precise observation and measurement of physical quantities and geographic and celestial position were well developed for example a wall quadrant constructed by tycho brahe 1546 1601 covering an entire wall in his observatory particularly important were the development of triangulation and other methods to determine mapping locations accurately very early the measure of time led scholars to develop innovative way of visualizing the data e g lorenz codomann in 1596 johannes temporarius in 1596
+
+mathematicians rené descartes and pierre de fermat developed analytic geometry and two dimensional coordinate system which heavily influenced the practical methods of displaying and calculating values fermat and blaise pascal s work on statistics and probability theory laid the groundwork for what we now conceptualize as data these developments helped william playfair who saw potential for graphical communication of quantitative data to generate and develop graphical methods of statistics in 1786 playfair published the first presentation graphics
+
+in the second half of the 20th century jacques bertin used quantitative graphs to represent information intuitively clearly accurately and efficiently john tukey and edward tufte pushed the bounds of data visualization tukey with his new statistical approach of exploratory data analysis and tufte with his book the visual display of quantitative information paved the way for refining data visualization techniques for more than statisticians with the progression of technology came the progression of data visualization starting with hand drawn visualizations and evolving into more technical applications including interactive designs leading to software visualization
+
+the modern study of visualization started with computer graphics which has from its beginning been used to study scientific problems however in its early days the lack of graphics power often limited its usefulness the recent emphasis on visualization started in 1987 with the special issue of computer graphics on visualization in scientific computing since then there have been several conferences and workshops co sponsored by the ieee computer society and acm siggraph they have been devoted to the general topics of data visualization information visualization and scientific visualization and more specific areas such as volume visualization
+
+programs like sas sofa r minitab cornerstone and more allow for data visualization in the field of statistics other data visualization applications more focused and unique to individuals programming languages such as d3 python through matplotlib seaborn and javascript and java through javafx help to make the visualization of quantitative data a possibility private schools have also developed programs to meet the demand for learning data visualization and associated programming libraries including free programs like the data incubator or paid programs like general assembly
+
+beginning with the symposium data to discovery in 2013 artcenter college of design caltech and jpl in pasadena have run an annual program on interactive data visualization the program asks how can interactive data visualization help scientists and engineers explore their data more effectively how can computing design and design thinking help maximize research results what methodologies are most effective for leveraging knowledge from these fields by encoding relational information with appropriate visual and interactive characteristics to help interrogate and ultimately gain new insight into data the program develops new interdisciplinary approaches to complex science problems combining design thinking and the latest methods from computing user centered design interaction design and 3d graphics
+
+in recent years with the increasing popularity of games data and information visualization has been gradually applied in the gaming industry with the use of analytic tools to assess player statistics and game performance which are visualized in the form of health points maps and diagrams the data is then stored and collected by developers the implementation of these tools in gaming assist developers in improving user experience and also in updating and production of newer games
+
+data visualization involves specific terminology some of which is derived from statistics for example author stephen few defines two types of data which are used in combination to support a meaningful analysis or visualization
+
+the distinction between quantitative and categorical variables is important because the two types require different methods of visualization
+
+two primary types of information displays are tables and graphs
+
+eppler and lengler have developed the periodic table of visualization methods an interactive chart displaying various data visualization methods it includes six types of data visualization methods data information concept strategy metaphor and compound in visualization analysis and design tamara munzner writes computer based visualization systems provide visual representations of datasets designed to help people carry out tasks more effectively munzner argues that visualization is suitable when there is a need to augment human capabilities rather than replace people with computational decision making methods
+
+variable width variwide bar chart
+
+orthogonal orthogonal composite bar chart
+
+
+
+
+
+
+
+
+
+interactive data visualization enables direct actions on a graphical plot to change elements and link between multiple plots
+
+interactive data visualization has been a pursuit of statisticians since the late 1960s examples of the developments can be found on the american statistical association video lending library
+
+common interactions include
+
+there are different approaches on the scope of data visualization one common focus is on information presentation such as friedman 2008 friendly 2008 presumes two main parts of data visualization statistical graphics and thematic cartography in this line the data visualization modern approaches 2007 article gives an overview of seven subjects of data visualization
+
+all these subjects are closely related to graphic design and information representation
+
+from a computer science perspective frits post in 2002 categorized the field into sub fields
+
+within the harvard business review scott berinato developed a framework to approach data visualisation to start thinking visually users must consider two questions 1 what you have and 2 what you re doing the first step is identifying what data you want visualised it is data driven like profit over the past ten years or a conceptual idea like how a specific organisation is structured once this question is answered one can then focus on whether they are trying to communicate information declarative visualisation or trying to figure something out exploratory visualisation scott berinato combines these questions to give four types of visual communication that each have their own goals
+
+these four types of visual communication are as follows
+
+data and information visualization insights are being applied in areas such as
+
+notable academic and industry laboratories in the field are
+
+conferences in this field ranked by significance in data visualization research are
+
+for further examples see category computer graphics organizations
+
+data presentation architecture dpa is a skill set that seeks to identify locate manipulate format and present data in such a way as to optimally communicate meaning and knowledge historically data presentation architecture is attributed to kelly lautt a data presentation architecture dpa is a rarely applied skill set critical for the success and value of business intelligence data presentation architecture weds the science of numbers data and statistics in discovering valuable information from data and making it usable relevant and actionable with the arts of data visualization communications organizational psychology and change management in order to provide business intelligence solutions with the data scope delivery timing format and visualizations that will most effectively support and drive operational tactical and strategic behaviour toward understood business or organizational goals dpa is neither an it nor a business skill set but exists as a separate field of expertise often confused with data visualization data presentation architecture is a much broader skill set that includes determining what data on what schedule and in what exact format is to be presented not just the best way to present data that has already been chosen data visualization skills are one element of dpa
+
+dpa has two main objectives
+
+with the above objectives in mind the actual work of data presentation architecture consists of
+
+dpa work shares commonalities with several other fields including

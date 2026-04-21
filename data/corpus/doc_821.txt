@@ -1,0 +1,67 @@
+a physical symbol system also called a formal system takes physical patterns symbols combining them into structures expressions and manipulating them using processes to produce new expressions
+
+the physical symbol system hypothesis pssh is a position in the philosophy of artificial intelligence formulated by allen newell and herbert a simon they wrote
+
+a physical symbol system has the necessary and sufficient means for general intelligent action
+this claim implies both that human thinking is a kind of symbol manipulation because a symbol system is necessary for intelligence and that machines can be intelligent because a symbol system is sufficient for intelligence
+
+the idea has philosophical roots in thomas hobbes who claimed reasoning was nothing more than reckoning gottfried wilhelm leibniz who attempted to create a logical calculus of all human ideas david hume who thought perception could be reduced to atomic impressions and even immanuel kant who analyzed all experience as controlled by formal rules the latest version is called the computational theory of mind associated with philosophers hilary putnam and jerry fodor
+
+examples of physical symbol systems include
+
+the physical symbol system hypothesis claims that both of the following are also examples of physical symbol systems
+
+two lines of evidence suggested to allen newell and herbert a simon that symbol manipulation was the essence of both human and machine intelligence psychological experiments on human beings and the development of artificial intelligence programs
+
+newell and simon carried out psychological experiments that showed that for difficult problems in logic planning or any kind of puzzle solving people carefully proceeded step by step considering several different possible ways forward selected the most promising one backing up when the possibility hit a dead end each possible solution was visualized with symbols such as words numbers or diagrams this was symbol manipulation the people were iteratively exploring a formal system looking for a matching pattern that solved the puzzle newell and simon were able to simulate the step by step problem solving skills of people with computer programs they created programs that used the same algorithms as people and were able to solve the same problems
+
+this type of research using both experimental psychology and computer models was called cognitive simulation by hubert dreyfus their work was profoundly influential it contributed to the cognitive revolution of the 1960s in addition to the founding of the fields of cognitive science and cognitivism in psychology
+
+this line of research suggested that human problem solving consisted primarily of the manipulation of high level symbols
+
+in the early decades of ai research there were many programs that used high level symbol processing these programs were very successful demonstrating skills that many people at the time had assumed were impossible for machines such as solving algebra word problems student proving theorems in logic logic theorist learning to play competitive checkers arthur samuel s checkers and communicating in natural language eliza shrdlu
+
+the success of these programs suggested that symbol processing systems could simulate any intelligent action
+
+the physical symbol systems hypothesis becomes trivial incoherent or irrelevant unless we recognize three distinctions between digitized signals and symbols between narrow ai and general intelligence and between consciousness and intelligent behavior
+
+the physical symbol system hypothesis is only interesting if we restrict the symbols to things that have a recognizable meaning or denotation and can be composed with other symbols to create more complex symbols like dog and tail it doesn t apply to the simple 0s and 1s in the memory of a digital computer or the stream of 0s and 1s passing through the perceptual apparatus of a robot it also doesn t apply to matrixes of unidentified numbers such as those used in neural networks or support vector machines these may technically be symbols but it is not always possible to determine exactly what the symbols are standing for this is not what newell and simon had in mind and the argument becomes trivial if we include them
+
+david touretzky and dean pomerleau consider what would follow if we interpret the symbols in the pssh to be binary digits of digital hardware in this version of the hypothesis no distinction is being made between symbols and signals here the physical symbol system hypothesis asserts merely that intelligence can be digitized this is a weaker claim indeed touretzky and pomerleau write that if symbols and signals are the same thing then s ufficiency is a given unless one is a dualist or some other sort of mystic because physical symbol systems are turing universal the widely accepted church turing thesis holds that any turing universal system can simulate any conceivable process that can be digitized given enough time and memory since any digital computer is turing universal any digital computer can in theory simulate anything that can be digitized to a sufficient level of precision including the behavior of intelligent organisms the necessary condition of the physical symbol systems hypothesis can likewise be finessed since we are willing to accept almost any signal as a form of symbol and all intelligent biological systems have signal pathways
+
+the same issue applies to the unidentified numbers that appear in the matrixes of a neural network or a support vector machine these programs are using the same mathematics as a digitial simulation of a dynamical system and is better understood as dynamic system than a physical symbol system nils nilsson wrote any physical process can be simulated to any desired degree of accuracy on a symbol manipulating computer but an account of such a simulation in terms of symbols instead of signals can be unmanageably cumbersome
+
+the pssh refers to general intelligent action that is to every activity that we would consider intelligent thus it is the claim that artificial general intelligence can be achieved using only symbolic methods it does not refer to narrow applications that is applications that are intended only to solve exactly one problem which includes almost all ai systems currently in use
+
+artificial intelligence research has succeeded in developing many programs that are capable of intelligently solving particular problems however ai research has so far not been able to produce a system with artificial general intelligence the ability to solve a variety of novel problems as humans do
+thus the criticism of the pssh refers to the limits of ai in the future and does not apply to any current research or programs
+
+some claim that large language models are capable of general intelligent action however this is arguable clarification needed
+
+the pssh refers to intelligent action that is the behavior of the machine it does not refer to the mental states mind consciousness or the experiences of the machine consciousness as far as neurology can determine is not something that can deduced from the behavior of an agent it is always possible that the machine is simulating the experience of consciousness without actually experiencing it similar to the way a perfectly written fictional character might simulate a person with consciousness
+
+thus the pssh is not relevant to positions which refer to mind or consciousness such as john searle s strong ai hypothesis
+
+
+the appropriately programmed computer with the right inputs and outputs would thereby have a mind in exactly the same sense human beings have minds
+nils nilsson has identified four main themes or grounds in which the physical symbol system hypothesis has been attacked
+
+if the human brain does not use symbolic reasoning to create intelligent behavior then the necessary side of the hypothesis is false and human intelligence is the counter example
+
+hubert dreyfus attacked the necessary condition of the physical symbol system hypothesis calling it the psychological assumption and defining it thus
+
+dreyfus refuted this by showing that human intelligence and expertise depended primarily on unconscious instincts rather than conscious symbolic manipulation experts solve problems quickly by using their intuitions rather than step by step trial and error searches dreyfus argued that these unconscious skills would never be captured in formal rules
+
+george lakoff mark turner and others have argued that our abstract skills in areas such as mathematics ethics and philosophy depend on unconscious skills that derive from the body and that conscious symbol manipulation is only a small part of our intelligence citation needed
+
+it is impossible to prove that symbolic ai will never produce general intelligence but if we can not find an efficient way to solve particular problems with symbolic ai this is evidence that the sufficient side of the pssh is unlikely to be true
+
+if sub symbolic ai programs such as deep learning can intelligently solve problems then this is evidence that the necessary side of the pssh is false
+
+if hybrid approaches that combine symbolic ai with other approaches can efficiently solve a wider range of problems than either technique alone this is evidence that the necessary side is true and the sufficiency side is false
+
+rodney brooks of mit was able to build robots that had superior ability to move and survive without the use of symbolic reasoning at all brooks and others such as hans moravec discovered that our most basic skills of motion survival perception balance and so on did not seem to require high level symbols at all that in fact the use of high level symbols was more complicated and less successful
+
+in a 1990 paper elephants don t play chess rodney brooks took direct aim at the physical symbol system hypothesis arguing that symbols are not always necessary since the world is its own best model it is always exactly up to date it always has every detail there is to be known the trick is to sense it appropriately and often enough
+
+in 2012 alexnet a deep learning network outperformed all other programs in classifying images on imagenet by a substantial margin in the years since deep learning has proved to be much more successful in many domains than symbolic ai citation needed

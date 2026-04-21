@@ -1,0 +1,31 @@
+alation is an enterprise software company based in silicon valley
+
+alation data catalog is a data catalog that serves enterprises in organizing and consolidating their data alation launched its data catalog as their first product in 2015 to give data consumers an easy way to search for enterprise data with natural language
+
+alation was founded in 2012 by satyen sangani aaron kalb feng nui and venky ganti
+
+alation co founders satyen sangani and aaron kalb arrived at the solution from two different perspectives sangani had a background in economics and had worked as an executive at oracle he knew data users in large companies struggled to find and trust data he theorized that machine learning could be used to help them kalb had experience in symbolic systems and had worked on siri at apple he thought crowdsourcing could be used to solve the challenge in 2012 the team combined those two ideas to create alation
+
+its first solution a data querying system powered by natural language processing helped define the modern data catalog the tool was designed to catalog data in an organization and make that data more accessible to more people this concept is generally termed data democratization
+
+as the company improved the solution it eased the building of complex queries with collaboration features enabled data catalog efforts and integrated with different data and related technology products such as snowflake tableau databricks and others
+
+as of early 2021 the company had more than 250 customers including abbvie american family insurance autozone cisco exelon finnair munich re new balance pfizer scandinavian airlines and u s foods by october 2021 the company had increased that number to around 300 customers adding ge aviation nasdaq and regeneron among others
+
+in october 2021 alation acquired lyngo analytics a data insights company which develops software to help users find insights by asking questions in simple business terms the acquisition is intended to deepen alation s ability to convert natural language questions from non technical users into sql queries
+
+in january 2022 alation launched the data radicals podcast hosted by the company s ceo and co founder satyen sangani the show is designed to help business data and technology enthusiasts use data in powerful ways guests have included stan mcchrystal retired u s army general and former commander of joint special operations command in iraq wendy turner williams chief data officer tableau amir efrati co founder and executive editor the information david epstein ted talker and bestselling author of range and the sports gene bob seiner president and principal kik consulting jennifer belissent principal data strategist snowflake paola saibene former cto for the state of hawaii cole nussbaumer knaflic founder and ceo storytelling with data and caroline carruthers ceo of carruthers and jackson and co author of the chief data officer s playbook
+
+in september 2022 alation announced that it had achieved 100 million of annual recurring revenue arr
+
+on may 20 2025 alation announced that it had acquired numbers station ai a pioneer in building ai agents for data workflows this acquisition is intended to accelerate the ability of data and engineering teams to quickly build and deploy a new class of ai native analytics applications featuring agentic workflows that operate with enterprise grade governance and context
+
+in early march 2015 the company announced it had raised 9 million in a series a round led by costanoa ventures and data collective later that month it emerged from stealth mode to launch its data catalog product
+
+in june 2021 alation announced it had raised a series d funding round of 110 million led by riverwood capital with participation from sanabil investments and snowflake ventures as well as existing investors costanoa ventures dell technologies capital salesforce ventures and sapphire ventures this latest investment round valued the company at 1 2 billion making it an industry unicorn
+
+in november 2022 alation announced it has raised 123 million in a series e financing led by thoma bravo sanabil investments and costanoa ventures with participation from new investor databricks ventures existing and other investors that also participated include dell technologies capital hewlett packard enterprise hpe icon ventures queensland investment corporation riverwood capital salesforce ventures sapphire ventures and union grove
+
+alation has raised a total of 340 million and as of its series e funding has a valuation of more than 1 7 billion
+
+alation is headquartered in redwood city ca the company also has offices in london u k and chennai india and a presence in over 25 countries as of november 2022 the company had over 700 global employees an increase of 75 in less than 12 months

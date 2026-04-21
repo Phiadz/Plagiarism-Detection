@@ -1,0 +1,102 @@
+alphafold is an artificial intelligence ai program developed by deepmind a subsidiary of alphabet which performs predictions of protein structure it is designed using deep learning techniques
+
+alphafold 1 2018 placed first in the overall rankings of the 13th critical assessment of structure prediction casp in december 2018 it was particularly successful at predicting the most accurate structures for targets rated as most difficult by the competition organizers where no existing template structures were available from proteins with partially similar sequences
+
+alphafold 2 2020 repeated this placement in the casp14 competition in november 2020 it achieved a level of accuracy much higher than any other entry it scored above 90 on casp s global distance test gdt for approximately two thirds of the proteins a test measuring the similarity between a computationally predicted structure and the experimentally determined structure where 100 represents a complete match the inclusion of metagenomic data has improved the quality of the prediction of multiple sequence alignments one of the biggest sources of the training data was the custom built big fantastic database of 65 983 866 protein families represented as multiple sequence alignments and hidden markov models covering 2 204 359 010 protein sequences from reference databases metagenomes and metatranscriptomes
+
+alphafold 2 s results at casp14 were described as astounding and transformational however some researchers noted that the accuracy was insufficient for a third of its predictions and that it did not reveal the underlying mechanism or rules of protein folding for the protein folding problem which remains unsolved
+
+despite this the technical achievement was widely recognized on 15 july 2021 the alphafold 2 paper was published in nature as an advance access publication alongside open source software and a searchable database of species proteomes as of november 2025 the paper had been cited nearly 43 000 times
+
+alphafold 3 was announced on 8 may 2024 it can predict the structure of complexes created by proteins with dna rna various ligands and ions the new prediction method shows a minimum 50 improvement in accuracy for protein interactions with other molecules compared to existing methods
+
+demis hassabis and john jumper shared one half of the 2024 nobel prize in chemistry awarded for protein structure prediction while the other half went to david baker for computational protein design hassabis and jumper had previously won the breakthrough prize in life sciences and the albert lasker award for basic medical research in 2023 for their leadership of the alphafold project
+
+proteins consist of chains of amino acids which spontaneously fold to form the three dimensional 3 d structures of the proteins the 3 d structure is crucial to understanding the biological function of the protein
+
+protein structures can be determined experimentally through techniques such as x ray crystallography cryo electron microscopy and nuclear magnetic resonance nmr which are all expensive and time consuming such efforts using the experimental methods have identified the structures of about 170 000 proteins over the last 60 years while there are over 200 million known proteins across all life forms
+
+over the years researchers have applied numerous computational methods to predict the 3d structures of proteins from their amino acid sequences accuracy of such methods in best possible scenario is close to experimental techniques nmr by the use of homology modeling based on molecular evolution casp which was launched in 1994 to challenge the scientific community to produce their best protein structure predictions found that gdt scores of only about 40 out of 100 can be achieved for the most difficult proteins by 2016 alphafold started competing in the 2018 casp using an artificial intelligence ai deep learning technique
+
+deepmind is known to have trained the program on over 170 000 proteins from the protein data bank a public repository of protein sequences and structures the program uses a form of attention network a deep learning technique that focuses on having the ai identify parts of a larger problem then piece it together to obtain the overall solution the overall training was conducted on processing power between 100 and 200 gpus
+
+
+
+alphafold 1 2018 was built on work developed by various teams in the 2010s work that looked at the large databanks of related dna sequences now available from many different organisms most without known 3d structures to try to find changes at different residues peptides that appeared to be correlated even though the residues were not consecutive in the main chain such correlations suggest that the residues may be close to each other physically even though not close in the sequence allowing a contact map to be estimated building on recent work prior to 2018 alphafold 1 extended this by estimating a probability distribution for the distances between residues effectively transforming the contact map into a distance map it also used more advanced learning methods than previously to develop the inference
+
+
+the 2020 version of the program alphafold 2 2020 is significantly different from the original version that won casp 13 in 2018 according to the team at deepmind
+
+alphafold 1 used a number of separately trained modules to produce a guide potential which was then combined with a physics based energy potential alphafold 2 replaced this with a system of interconnected sub networks forming a single differentiable end to end model based on pattern recognition this model was trained in an integrated manner after the neural network s prediction converges a final refinement step applies local physical constraints using energy minimization based on the amber force field this step only slightly adjusts the predicted structure
+
+a key part of the 2020 system are two modules believed to be based on a transformer design which are used to progressively refine a vector of information for each relationship or edge in graph theory terminology between an amino acid residue of the protein and another amino acid residue these relationships are represented by the array shown in green and between each amino acid position and each different sequences in the input sequence alignment these relationships are represented by the array shown in red internally these refinement transformations contain layers that have the effect of bringing relevant data together and filtering out irrelevant data the attention mechanism for these relationships in a context dependent way learned from training data these transformations are iterated the updated information output by one step becoming the input of the next with the sharpened residue residue information feeding into the update of the residue sequence information and then the improved residue sequence information feeding into the update of the residue residue information as the iteration progresses according to one report the attention algorithm mimics the way a person might assemble a jigsaw puzzle first connecting pieces in small clumps in this case clusters of amino acids and then searching for ways to join the clumps in a larger whole needs update
+
+the output of these iterations then informs the final structure prediction module which also uses transformers and is itself then iterated in an example presented by deepmind the structure prediction module achieved a correct topology for the target protein on its first iteration scored as having a gdt_ts of 78 but with a large number 90 of stereochemical violations i e unphysical bond angles or lengths with subsequent iterations the number of stereochemical violations fell by the third iteration the gdt_ts of the prediction was approaching 90 and by the eighth iteration the number of stereochemical violations was approaching zero
+
+the training data was originally restricted to single peptide chains however the october 2021 update named alphafold multimer included protein complexes in its training data deepmind stated this update succeeded about 70 of the time at accurately predicting protein protein interactions
+
+
+
+announced on 8 may 2024 alphafold 3 was co developed by google deepmind and isomorphic labs both subsidiaries of alphabet alphafold 3 is not limited to single chain proteins as it can also predict the structures of protein complexes with dna rna post translational modifications and selected ligands and ions
+
+alphafold 3 introduces the pairformer a deep learning architecture inspired by the transformer which is considered similar to but simpler than the evoformer used in alphafold 2 the pairformer module s initial predictions are refined by a diffusion model this model begins with a cloud of atoms and iteratively refines their positions guided by the pairformer s output to generate a 3d representation of the molecular structure
+
+the alphafold server was created to provide free access to alphafold 3 for non commercial research as of november 2025 the alphafold 3 research paper has been directly cited more than 9 000 times
+
+in december 2018 deepmind s alphafold placed first in the overall rankings of the 13th critical assessment of techniques for protein structure prediction casp
+
+the program was particularly successfully predicting the most accurate structure for targets rated as the most difficult by the competition organisers where no existing template structures were available from proteins with a partially similar sequence alphafold gave the best prediction for 25 out of 43 protein targets in this class achieving a median score of 58 9 on the casp s global distance test gdt score ahead of 52 5 and 52 4 by the two next best placed teams who were also using deep learning to estimate contact distances overall across all targets alphafold 1 achieved a gdt score of 68 5
+
+in january 2020 implementations and illustrative code of alphafold 1 was released open source on github but as stated in the read me file on that website this code can t be used to predict structure of an arbitrary protein sequence it can be used to predict structure only on the casp13 dataset links below the feature generation code is tightly coupled to our internal infrastructure as well as external tools hence we are unable to open source it therefore in essence the code deposited is not suitable for general use but only for the casp13 proteins the company has not announced plans to make their code publicly available as of 5 march 2021
+
+in november 2020 deepmind s new version alphafold 2 won casp14 overall alphafold 2 made the best prediction for 88 out of the 97 targets
+
+on the competition s preferred global distance test gdt measure of accuracy the program achieved a median score of 92 4 out of 100 meaning that more than half of its predictions were scored at better than 92 4 for having their atoms in more or less the right place a level of accuracy reported to be comparable to experimental techniques like x ray crystallography in 2018 alphafold 1 had only reached this level of accuracy in two of all of its predictions 88 of predictions in the 2020 competition had a gdt_ts score of more than 80 on the group of targets classed as the most difficult alphafold 2 achieved a median score of 87 citation needed
+
+measured by the root mean square deviation rms d of the placement of the alpha carbon atoms of the protein backbone chain which tends to be dominated by the performance of the worst fitted outliers 88 of alphafold 2 s predictions had an rms deviation of less than 4 å for the set of overlapped c alpha atoms 76 of predictions achieved better than 3 å and 46 had a c alpha atom rms accuracy better than 2 å with a median rms deviation in its predictions of 2 1 å for a set of overlapped ca atoms alphafold 2 also achieved an accuracy in modelling surface side chains described as really really extraordinary
+
+to further validate alphafold 2 the conference organizers approached four leading experimental groups working on structures they found particularly challenging and had been unable to determine in all four cases the three dimensional models produced by alphafold 2 were sufficiently accurate to determine structures of these proteins by molecular replacement these included target t1100 af1503 a small membrane protein studied by experimentalists for ten years
+
+of the three structures that alphafold 2 had the least success in predicting one was an unusual multidomain complex consisting of 52 identical copies of the same domain for all targets with a single domain excluding only one very large protein and the two structures determined by nmr alphafold 2 achieved a gdt_ts score of over 80
+
+in 2022 deepmind did not enter casp15 but most of the entrants used alphafold or tools incorporating alphafold
+
+alphafold 2 scoring more than 90 in casp s global distance test gdt is a great achievement in computational biology nobel prize winner and structural biologist venki ramakrishnan called the result a stunning advance on the protein folding problem adding that it has occurred decades before many people in the field would have predicted it will be exciting to see the many ways in which it will fundamentally change biological research
+
+alphafold 2 s success received wide media attention news pieces appeared in the science press such as nature science mit technology review and new scientist and the story was covered by national newspapers a frequent theme was the ability to predict protein structures based on the constituent amino acid sequence expected to have benefits in the life sciences accelerating drug discovery and enabling better understanding of diseases some have noted that even a perfect answer to the protein prediction problem still leaves questions about the protein folding problem and thus protein dynamics understanding in detail how the folding process actually occurs in nature and how sometimes they can also misfold
+
+in 2023 demis hassabis and john jumper won the breakthrough prize in life sciences as well as the albert lasker award for basic medical research for their management of the alphafold project hassabis and jumper proceeded to win the nobel prize in chemistry in 2024 for their work on protein structure prediction with david baker of the university of washington
+
+open access to source code of several alphafold versions excluding alphafold 3 has been provided by deepmind in 2022 after requests from the scientific community the source code and weights of alphafold 3 were made available for non commercial use to the scientific community upon request in november 2024 it became publicly available in february 2025 still retaining the non commercial restriction
+
+a number of alphafold clones have also been published mostly with permissive license terms clones for alphafold3 include bytedance s protenix apache 2 0 license alquraishi laboratory s openfold 3 mit license and boltz 1 2 mit license
+
+there are also clones for older versions though they became less relevant with the open source release of alphafold 1 and 2 source codes still relevant are models both open and closed source that include modifications to the alphafold architecture for alphafold 2 a notable example is esmfold from meta which replaces the multiple sequence alignment with the latent space of a protein language model
+
+open source tools that complement alphafold have also been made one well cited example is colabfold which uses hhblits to speed up the sequence search allowing the alphafold pipelines to run quickly on google colab
+
+the alphafold protein structure database afdb a joint project between alphafold and embl ebi was launched on july 22 2021 at launch the database contained alphafold 1 predicted models for nearly the complete uniprot proteome of humans and 20 model organisms totaling over 365 000 proteins the database does not include proteins with fewer than 16 or more than 2700 amino acid residues but for humans they are available in the whole batch file alphafold s initial goal as of early 2022 was to expand the database to cover most of the uniref90 set which contains over 100 million proteins as of may 15 2022 the database contained 992 316 predictions
+
+in july 2021 uniprot kb and interpro has been updated to show alphafold predictions when available
+
+on july 28 2022 the team uploaded to the database the structures of around 200 million proteins from 1 million species covering nearly every known protein on the planet the number as of 2024 is 214 million with 26 million being duplicates exact sequence matches of another protein in the database the predicted structures can differ significantly between duplicates
+
+as of 2025 the afdb uses alphafold 2 for its predictions all structures produced remain monomeric but multimeric structures produced by other databases are linked on the page through the 3d beacons api foldseek which provides fast and accurate structure searches is also integrated information from alphamissense a tool that uses alphafold to predict the outcome of missense mutations is also integrated
+
+alphafill adds cofactors to alphafold models where appropriate this is achieved by searching the protein data bank for similar structures and transplanting cofactors to analogous positions it is also linked to by uniprot
+
+tmalphafold docks alphafold models to biological membranes similar to what opm does for pdb structures
+
+aftm uses alphafold models to identify transmembrane regions in human proteins similar to what pdbtm does for pdb structures
+
+channelsdb 2 0 uses pdb or alphafill models to calculate the pathway a molecule may take to reach an enzyme s active site or to reach another side of a transmembrane pore
+
+the afdb is not updated with uniprot sequences chanegs alphasync keeps the afdb in sync with uniprot entry changes generating updated structures residue level features and contacts it tries to use an afdb entry for the exact updated sequence when available and run alphafold 2 independently otherwise it fills in afdb s blank for large 2 700 aa proteins and proteins with special fasta characters such as b z u or x
+
+the encyclopedia of domains ted applies the domain recognition method from cath database to 188 million unique structures from the afdb identifying nearly 365 million domains which is 100 million more than what sequence based methods could identify
+
+isoform io is a database of alphafold2 generated structures of proposed splice isoforms in the human genome it includes information from 237 275 human transcripts it has been used to detect errors in the mrna predictions for a handful of genes
+
+alphafold has shown certain limitations
+
+alphafold has been used to predict structures of proteins of sars cov 2 the causative agent of covid 19 the structures of these proteins were pending experimental detection in early 2020 results were reviewed by scientists at the francis crick institute in the united kingdom before being released to the broader research community the team also confirmed accurate prediction against the experimentally determined sars cov 2 spike protein that was shared in the protein data bank an international open access database before releasing the computationally determined structures of the under studied protein molecules the team acknowledged that although these protein structures might not be the subject of ongoing therapeutical research efforts they will add to the community s understanding of the sars cov 2 virus specifically alphafold 2 s prediction of the structure of the orf3a protein was very similar to the structure determined by researchers at university of california berkeley using cryo electron microscopy this specific protein is believed to assist the virus in breaking out of the host cell once it replicates this protein is also believed to play a role in triggering the inflammatory response to the infection

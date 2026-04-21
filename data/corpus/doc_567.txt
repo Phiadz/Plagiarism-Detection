@@ -1,0 +1,56 @@
+
+
+midjourney is a generative artificial intelligence program and service created and hosted by the san francisco based independent research lab midjourney inc midjourney generates images from natural language descriptions called prompts similar to openai s dall e and stability ai s stable diffusion it is one of the technologies of the ai boom
+
+the tool was in open beta as of august 2024 which it entered on july 12 2022 citation needed the midjourney team is led by david holz who co founded leap motion holz told the register in august 2022 that the company was already profitable users generate images with midjourney using discord bot commands or the official website
+
+midjourney inc was founded in san francisco california by david holz previously a co founder of leap motion the midjourney image generation platform entered open beta on july 12 2022 on march 14 2022 the midjourney discord server launched with a request to post high quality photographs to twitter and reddit for systems training citation needed
+
+the company has been working on improving its algorithms releasing new model versions every few months version 2 of their algorithm was launched in april 2022 and version 3 on july 25 on november 5 2022 the alpha iteration of version 4 was released to users starting from the 4th version mj models were trained on google tpus
+
+on march 15 2023 the alpha iteration of version 5 was released the 5 1 model is more opinionated than version 5 applying more of its own stylization to images while the 5 1 raw model adds improvements while working better with more literal prompts the version 5 2 included a new aesthetics system and the ability to zoom out by generating surroundings to an existing image on december 21 2023 the alpha iteration of version 6 was released the model was trained from scratch over a nine month period support was added for better text rendition and a more literal interpretation of prompts
+
+midjourney is accessible through a discord bot or by accessing their website users can use midjourney through discord either through their official discord server by directly messaging the bot or by inviting the bot to a third party server to generate images users use the imagine command and type in a prompt the bot then returns a set of four images which users are given the option to upscale to generate images on the website users initially needed to have generated at least 1 000 images through the bot this limitation has since been removed
+
+midjourney released a vary region feature on september 5 2023 as part of midjourney v5 2 this feature allows users to select a specific area of an image and apply variations only to that region while keeping the rest of the image unchanged
+
+midjourney introduced its web interface to make its tools more accessible moving beyond its initial reliance on discord this web based platform was launched in august 2024 alongside the release of midjourney version 6 1 the web editor consolidates tools such as image editing panning zooming region variation and inpainting into a single interface
+
+the introduction of the web interface also syncs conversations between midjourney s discord channels and web rooms further enhancing collaboration across both platforms this shift was in response to growing competition from other ai image generation platforms like adobe firefly and google s imagen which had already launched as native web apps with integration into popular design tools
+
+
+this feature lets users control how much influence an uploaded image has on the final output by adjusting the image weight parameter users can prioritize either the content of the prompt or the characteristics of the image for instance setting a higher weight will ensure that the generated result closely follows the image s structure and details while a lower weight allows the text prompt to have more influence over the final output
+
+with style reference users can upload an image to use as a stylistic guide for their creation this tool enables midjourney to extract the style whether it is the color palette texture or overall atmosphere from the reference image and apply it to a newly generated image the feature allows users to fine tune the aesthetics of their creations by integrating specific artistic styles or moods
+
+the character reference feature allows for a more targeted approach in defining characters users can upload an image of a character and the system uses that image as a reference to generate similar characters in the output this feature is particularly useful in maintaining consistency in appearance for characters across different images
+
+midjourney s founder david holz told the register that artists use midjourney for rapid prototyping of artistic concepts to show to clients before starting work themselves
+
+the advertising industry has been quick to embrace ai tools such as midjourney dall e and stable diffusion among others the tools that enable advertisers to create original content and brainstorm ideas quickly are providing new opportunities such as custom ads created for individuals a new way to create special effects or even making e commerce advertising more efficient according to ad age promotion
+
+architects have described using the software to generate mood boards for the early stages of projects as an alternative to searching google images
+
+the program was used by the british magazine the economist to create the front cover for an issue in june 2022 in italy the leading newspaper corriere della sera published a comic created with midjourney by writer vanni santoni in august 2022 charlie warzel used midjourney to generate two images of alex jones for warzel s newsletter in the atlantic the use of an ai generated cover was criticised by people who felt it was taking jobs from artists warzel called his action a mistake in an article about his decision to use generated images last week tonight with john oliver included a 10 minute segment on midjourney in an episode broadcast in august 2022
+
+a midjourney image called théâtre d opéra spatial won first place in the digital art competition at the 2022 colorado state fair jason allen who wrote the prompt that led midjourney to generate the image printed the image onto a canvas and entered it into the competition using the name jason m allen via midjourney other digital artists were upset by the news allen was unapologetic insisting that he followed the competition s rules the two category judges were unaware that midjourney used ai to generate images although they later said that had they known this they would have awarded allen the top prize anyway
+
+in december 2022 midjourney was used to generate the images for an ai generated children s book that was created over a weekend titled alice and sparkle the book features a young girl who builds a robot that becomes self aware the creator ammaar reeshi used midjourney to generate a large number of images from which he chose 13 for the book both the product and process drew criticism one artist wrote that the main problem is that it was trained off of artists work it s our creations our distinct styles that we created that we did not consent to being used
+
+in 2023 the realism of ai based text to image generators such as midjourney dall e or stable diffusion reached such a high level that it led to a significant wave of viral ai generated photos widespread attention was gained by a midjourney generated photo of pope francis wearing a white puffer coat the fictional arrest of donald trump and a hoax of an attack on the pentagon as well as the usage in professional creative arts
+
+research has suggested that the images midjourney generates can be biased for example even neutral prompts in one study returned unequal results on the aspects of gender skin color and location a study by researchers at the nonprofit group center for countering digital hate found the tool to be easy to use to generate racist and conspiratorial images in october 2023 rest of world reported that midjourney tends to generate images based on national stereotypes
+
+in 2024 a frontiers journal published a paper which contained gibberish figures generated with midjourney one of which was a diagram of a rat with large testicles and a large penis towering over himself the paper was retracted a day after the images went viral on twitter
+
+prior to may 2023 midjourney implemented a moderation mechanism predicated on a banned word system this method prohibited the use of language associated with explicit content such as sexual or pornographic themes as well as extreme violence moreover the system also banned certain individual words including those of religious and political figures such as allah or general secretary of the chinese communist party xi jinping this practice occasionally stirred controversy due to perceived instances of censorship within the midjourney platform
+
+commencing in may 2023 with subsequent updates post version 5 midjourney transitioned to an ai powered content moderation system this advanced mechanism allowed for a more nuanced interpretation of user prompts by analyzing them in their entirety it consequently facilitated the context dependent use of words that had previously been prohibited for instance users can now prompt the ai to generate a portrait of xi jinping at the same time the system will prevent the generation of contentious images such as depictions of global leaders including xi jinping in situations of arrest
+
+on january 13 2023 three artists sarah andersen kelly mckernan and karla ortiz filed a copyright infringement lawsuit against stability ai midjourney and deviantart claiming that these companies have infringed on the rights of millions of artists by training ai tools on five billion images scraped from the web without the consent of the original artists
+
+the legal action was initiated in san francisco by attorney matthew butterick in partnership with the joseph saveri law firm the same team challenging microsoft github and openai developers of chatgpt and dall e in court in july 2023 u s district judge william orrick inclined to dismiss most of the lawsuit filed by andersen mckernan and ortiz but allowed them to file a new complaint another lawsuit was filed in november 2023 against midjourney stability ai deviantart and runway ai for using the copyrighted work of over 4 700 artists
+
+on june 11 2025 universal pictures owned by comcast and the walt disney company filed a copyright infringement lawsuit against midjourney the suit described midjourney as a bottomless pit of plagiarism
+
+on september 4 2025 warner bros discovery filed a copyright infringement lawsuit against midjourney claiming the company is engaged in the theft of its intellectual property which includes characters like superman batman wonder woman tweety and scooby doo the suit also claims that the generative ai program has made a calculated and profit driven decision to offer zero protection for copyright owners even though midjourney knows about the breathtaking scope of its piracy and copyright infringement

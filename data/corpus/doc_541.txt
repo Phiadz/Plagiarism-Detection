@@ -1,0 +1,98 @@
+lean is a proof assistant and a functional programming language it is based on the calculus of constructions with inductive types it is a free and open source software project hosted on github development is currently supported by the nonprofit lean focused research organization fro
+
+lean was developed primarily by brazilian computer scientist leonardo de moura while employed by microsoft research and now amazon web services and has had significant contributions from other coauthors and collaborators during its history
+
+launched in 2013 initial versions of the language later known as lean 1 and 2 were experimental and contained features such as support for homotopy type theory based foundations that were later dropped
+
+lean 3 first released jan 20 2017 was the first moderately stable version of lean it was implemented primarily in c with some features written in lean itself after version 3 4 2 lean 3 was officially end of lifed while development of lean 4 began in this interim period members of the lean community developed and released unofficial versions up to 3 51 1
+
+in 2021 lean 4 was released which was a reimplementation of the lean theorem prover capable of producing c code which is then compiled enabling the development of efficient domain specific automation lean 4 also contains a macro system and improved type class synthesis and memory management procedures over the previous version another benefit compared to lean 3 is the ability to avoid touching c code in order to modify the frontend and other key parts of the core system as they are now all implemented in lean and available to the end user to be overridden as needed
+
+lean 4 is not backwards compatible with lean 3 it uses the c 17 version of c
+
+in 2023 the lean fro was formed with the goals of improving the language s scalability and usability and implementing proof automation
+
+in 2025 acm sigplan programming languages software award was awarded to gabriel ebner soonho kong leo de moura and sebastian ullrich for lean cited for its significant impact on mathematics hardware and software verification and ai
+
+lean includes many features useful for functional programming and theorem proving such as dependent types type classes multi threading an expressive tactic language and a module system
+
+the official lean standard library is called std and contains common data structures and functions useful for programming such as tree maps hash maps datetime functions and concurrency primitives the standard library is complemented by the community maintained batteries which implements additional data structures that may be used for both mathematical research and more conventional software development
+
+in 2017 a community maintained project to develop a lean library mathlib began with the goal to digitize as much of pure mathematics as possible in one large cohesive library up to research level mathematics as of may 2025 mathlib had formalized over 210 000 theorems and 100 000 definitions in lean
+
+other libraries include cslib which is a theoretical computer science library scilean which is a library for scientific computing in lean and physlib whose goal is to digitize physics using lean
+
+lean integrates with
+visual studio code neovim and emacs
+interfacing is done via a client extension and language server protocol server in these editors unicode symbols can be typed using latex like sequences such as times for
+
+the natural numbers can be defined as an inductive type this definition is based on the peano axioms and states that every natural number is either zero or the successor of some other natural number
+
+addition of natural numbers can be defined recursively using pattern matching
+
+this is a simple proof of
+
+
+
+
+p
+
+q
+
+
+
+
+
+q
+
+p
+
+
+
+displaystyle p wedge q implies q wedge p
+
+for two propositions p and q where
+
+
+
+
+
+
+displaystyle wedge
+
+is the conjunction and
+
+
+
+
+
+
+
+
+displaystyle implies
+
+the implication in lean using tactic mode
+
+this same proof in term mode
+
+the theorem can also be proved using the grind tactic which uses techniques from smt solvers to automatically construct proofs
+
+lean has received attention from mathematicians such as thomas hales kevin buzzard terence tao and heather macbeth hales is using it for his project formal abstracts buzzard uses it for the xena project one of the xena project s goals is to rewrite every theorem and proof in the undergraduate math curriculum of imperial college london in lean tao released a lean companion to his real analysis textbook analysis i consisting of a formalization of selected sections of the mathematical text macbeth is using lean to teach students the fundamentals of mathematical proof with instant feedback
+
+in 2021 a team of researchers used lean to verify the correctness of a proof by peter scholze in the area of condensed mathematics the project garnered attention for formalizing a result at the cutting edge of mathematical research in 2023 terence tao used lean to formalize a proof of the polynomial freiman ruzsa pfr conjecture a result published by tao and collaborators in the same year
+
+physlib aspires to be the definitive library for physics in lean akin to mathlib for mathematics it aims to be a comprehensive repository containing fundamental definitions theorems and calculations from physics
+kevin buzzard at imperial college london says that formalisation is having a big impact on mathematics and that there is no reason that theoretical physics can t be treated in the same way
+
+ideally we need a million lines of physics and that might be hard work to get if the machines aren t pretty good at doing physics initially then there ll be manual work at the beginning and then eventually the machines will hopefully take over
+
+in 2025 joseph tooby smith used lean to discover an error
+in a paper published in 2006 on the stability of the two higgs doublet model 2hdm potential
+
+in 2022 openai and meta ai independently created ai models to generate proofs of various high school level olympiad problems in lean meta ai s model is available for public use with the lean environment
+
+in 2023 vlad tenev and tudor achim co founded startup harmonic which aims to reduce ai hallucinations by generating and checking lean code
+
+in 2024 google deepmind created alphaproof which proves mathematical statements in lean at the level of a silver medalist at the international mathematical olympiad this was the first ai system that achieved a medal worthy performance on a math olympiad s problems
+
+in april 2025 deepseek introduced deepseek prover v2 an ai model designed for theorem proving in lean 4 built on top of deepseek v3

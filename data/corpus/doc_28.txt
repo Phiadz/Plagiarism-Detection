@@ -1,0 +1,34 @@
+james nicholas gray 1944 declared dead in absentia 2012 was an american computer scientist who received the turing award in 1998 for seminal contributions to database and transaction processing research and technical leadership in system implementation
+
+gray was born in san francisco the second child of ann emma sanbrailo a teacher and james able gray who was in the u s army the family moved to rome italy where gray spent most of the first three years of his life he learned to speak italian before english the family then moved to virginia spending about four years there until gray s parents divorced after which he returned to san francisco with his mother his father an amateur inventor patented a design for a ribbon cartridge for typewriters that earned him a substantial royalty stream
+
+after being turned down for the air force academy he entered the university of california berkeley as a freshman in 1961 to help pay for college he worked as a co op for general dynamics where he learned to use a monroe calculator discouraged by his chemistry grades he left berkeley for six months returning after an experience in industry he later described as dreadful gray earned his b s in engineering mathematics math and statistics in 1966
+
+after marrying gray moved with his wife loretta to new jersey his wife s home state she worked as a teacher and he worked at bell labs on a digital simulation that was to be part of multics at bell he worked three days a week and spent two days as a master s student at new york university s courant institute after a year they traveled for several months before settling again in berkeley where gray entered graduate school with michael a harrison as his advisor in 1969 he received his ph d in programming languages then did two years of postdoctoral work for ibm
+
+while at berkeley gray and loretta had a daughter they were later divorced his second wife was donna carnes
+
+gray pursued his career primarily working as a researcher and software designer at a number of industrial companies including ibm tandem computers and dec he joined microsoft in 1995 and was a technical fellow for the company a until he was lost at sea in 2007
+
+gray contributed to several major database and transaction processing systems ibm s system r was the precursor of the sql relational databases that have become a standard throughout the world for microsoft he worked on terraserver usa and skyserver
+
+roger sippl described gray as among the technical gods in this industry widely respected as a neutral arbiter on standards committees his best known achievements include
+
+he assisted in developing virtual earth he was also one of the co founders of the conference on innovative data systems research
+
+gray an experienced sailor owned a 40 foot 12 m sailboat on january 28 2007 he failed to return from a short solo trip to scatter his mother s ashes at the farallon islands near san francisco the weather was clear and no distress call was received nor was any signal detected from the boat s automatic emergency position indicating radio beacon
+
+a four day coast guard search using planes helicopters and boats found nothing
+on february 1 2007 the digitalglobe satellite scanned the area and the thousands of images were posted to amazon mechanical turk students colleagues and friends of gray and computer scientists around the world formed a jim gray group to study these images for clues on february 16 this search was suspended and an underwater search using sophisticated equipment ended may 31
+
+marine search expert bob bilger explains that the type of boat used by gray a c c 40 is vulnerable to hull damage and can sink as quickly as in 30 seconds also taking any equipment with it not leaving any loose debris
+
+the university of california berkeley and gray s family hosted a tribute on may 31 2008 five years after the disappearance carnes petitioned a court to have her husband declared dead and on january 28 2012 gray was declared legally dead
+
+in 2012 carnes co authored a paper on coping with ambiguous loss in 2014 in conjunction with the disappearance of malaysia airlines flight 370 cnn interviewed carnes at the time she lived with her elderly mother who was suffering from dementia in wisconsin
+
+microsoft s worldwide telescope software was dedicated to gray in 2008 microsoft research opened gray systems lab a research center in madison wisconsin named after jim gray
+
+database conference sigmod confers the jim gray doctoral dissertation award annually to doctoral candidates researching databases
+
+each year microsoft research presents the jim gray escience award to a researcher who has made an outstanding contribution to the field of data intensive computing award recipients are selected for their ground breaking fundamental contributions to the field of escience previous award winners include alex szalay 2007 carole goble 2008 jeff dozier 2009 phil bourne 2010 mark abbott 2011 antony john williams 2012 and dr david lipman m d 2013

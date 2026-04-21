@@ -1,0 +1,27 @@
+a data steward is an oversight or data governance role within an organization and is responsible for ensuring the quality and fitness for purpose of the organization s data assets including the metadata for those data assets a data steward may share some responsibilities with a data custodian such as the awareness accessibility release appropriate use security and management of data a data steward would also participate in the development and implementation of data assets a data steward may seek to improve the quality and fitness for purpose of other data assets their organization depends upon but is not responsible for
+
+data stewards have a specialist role that utilizes an organization s data governance processes policies guidelines and responsibilities for administering an organizations entire data in compliance with policy and or regulatory obligations e g gdpr hipaa the overall objective of a data steward is the data quality of the data assets datasets data records and data elements this includes documenting metainformation for the data such as definitions related rules governance physical manifestation and related data models most of these properties being specific to an attribute concept relationship identifying owners custodian s various responsibilities relations insight definition needed pertaining to attribute quality aiding with project requirement data facilitation and documentation of capture rules
+
+data stewards begin the stewarding process with the identification of the data assets and elements which they will steward with the ultimate result being standards controls and data entry citation needed the steward works closely with business glossary standards analysts for standards with data architect modelers for standards with dq analysts for controls and with operations team members good quality data going in per business rules while entering data
+
+data stewardship roles are common when organizations attempt to exchange data precisely and consistently between computer systems and to reuse data related resources citation needed master data management often quantify makes references to the need for data stewardship for its implementation to succeed data stewardship must have precise purpose fit for purpose or fitness
+
+a data steward ensures that each assigned data element
+
+responsibilities of data stewards vary between different organisations and institutions for example at delft university of technology data stewards are perceived as the first contact point for any questions related to research data they also have subject specific background allowing them to easily connect with researchers and to contextualise data management problems to take into account disciplinary practices
+
+depending on the set of data stewardship responsibilities assigned to an individual there are 4 types or dimensions of responsibility of data stewards typically found within an organization
+
+systematic data stewardship can foster
+
+assignment of each data element to a person sometimes seems like an unimportant process but multiple groups which have found that users have greater trust and usage rates in systems where they can contact a person with questions on each data element
+
+delft university of technology tu delft offers an example of data stewardship implementation at a research institution in 2017 the data stewardship project was initiated at tu delft to address research data management needs in a disciplinary manner across the whole campus dedicated data stewards with subject specific background were appointed at every tu delft faculty to support researchers with data management questions and to act as a linking point with the other institutional support services the project is coordinated centrally by tu delft library and it has its own website blog and a youtube channel
+
+the epa metadata registry furnishes an example of data stewardship note that each data element therein has a poc point of contact
+
+in 2023 eth zurich launched the data stewardship network dsn to facilitate collaboration among employees engaged in data management analysis and code development across research groups the dsn serves as a platform for networking and knowledge exchange aiming to professionalize the role of data stewards who support research data management and reproducible workflows established by the team for research data management and digital curation at the eth library the dsn collaborates with scientific it services to provide expertise in areas such as storage infrastructure and reproducible workflows
+
+information stewardship applications are business solutions used by business users acting in the role of information steward interpreting and enforcing information governance policy for example these developing solutions represent for the most part an amalgam of a number of disparate previously it centric tools already on the market but are organized and presented in such a way that information stewards a business role can support the work of information policy enforcement as part of their normal business centric day to day work in a range of use cases
+
+the initial push for the formation of this new category of packaged software came from operational use cases that is use of business data in and between transactional and operational business applications this is where most of the master data management efforts are undertaken in organizations however there is also now a faster growing interest in the new data lake arena for more analytical use cases

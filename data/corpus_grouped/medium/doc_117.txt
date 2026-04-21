@@ -1,0 +1,80 @@
+data management comprises all disciplines related to handling data as a valuable resource it is the practice of managing an organization s data so it can be analyzed for decision making
+
+the concept of data management emerged alongside the evolution of computing technology in the 1950s as computers became more prevalent organizations began to grapple with the challenge of organizing and storing data efficiently early methods relied on punch cards and manual sorting which were labor intensive and prone to errors the introduction of database management systems in the 1970s marked a significant milestone enabling structured storage and retrieval of data
+
+by the 1980s relational database models revolutionized data management emphasizing the importance of data as an asset and fostering a data centric mindset in business this era also saw the rise of data governance practices which prioritized the organization and regulation of data to ensure quality and compliance over time advancements in technology such as cloud computing and big data analytics have further refined data management making it a cornerstone of modern business operations
+
+as of 2025 update data management encompasses a wide range of practices from data storage and security to analytics and decision making reflecting its critical role in driving innovation and efficiency across industries
+
+the data management body of knowledge dmbok developed by the data management association dama outlines key knowledge areas that serve as the foundation for modern data management practices suggesting a framework for organizations to manage data as a strategic asset
+
+data governance refers to the policies procedures and standards that ensure data is managed consistently and responsibly across an organization in enterprise contexts governance involves aligning stakeholders across business units defining data ownership and quantifying the benefits of improved data quality effective governance frameworks often include data stewardship roles escalation protocols and cross functional oversight committees to maintain trust and accountability in data use
+
+data architecture consist of models policies rules and standards that govern which data is collected and how it is stored arranged integrated and put to use in data systems and in organizations data is usually one of several architecture domains that form the pillars of an enterprise architecture or solution architecture
+
+data architecture focuses on designing the overall structure of data systems it ensures that data flows are efficient and that systems are scalable adaptable and aligned with business needs
+
+this area centers on creating models that logically represent data relationships it s essential for both designing databases and ensuring that data is structured in a way that facilitates analysis and reporting
+
+deals with the physical storage of data and its day to day management this includes everything from traditional data centers to cloud based storage solutions and ensuring efficient data processing
+
+ensures that data from various sources can be seamlessly shared and combined across multiple systems which is critical for comprehensive analytics and decision making
+
+focuses on managing unstructured data such as documents multimedia and other content ensuring that it is stored categorized and easily retrievable
+
+involves consolidating data into repositories that support analytics reporting and business insights
+
+in computing a data warehouse dw or dwh also known as an enterprise data warehouse edw is a system used for reporting and data analysis and is a core component of business intelligence data warehouses are central repositories of data integrated from disparate sources they store current and historical data organized in a way that is optimized for data analysis generation of reports and developing insights across the integrated data they are intended to be used by analysts and managers to help make organizational decisions
+
+business intelligence bi consists of strategies methodologies and technologies used by enterprises for data analysis and management of business information to inform business strategies and business operations common functions of bi technologies include reporting online analytical processing analytics dashboard development data mining process mining complex event processing business performance management benchmarking text mining predictive analytics and prescriptive analytics
+
+a data mart is a structure access pattern specific to data warehouse environments the data mart is a subset of the data warehouse that focuses on a specific business line department subject area or team whereas data warehouses have an enterprise wide depth the information in data marts pertains to a single department in some deployments each department or business unit is considered the owner of its data mart including all the hardware software and data this enables each department to isolate the use manipulation and development of their data in other deployments where conformed dimensions are used this business unit ownership will not hold true for shared dimensions like customer product etc
+
+data analysis is the process of inspecting cleansing transforming and modeling data with the goal of discovering useful information informing conclusions and supporting decision making data analysis has multiple facets and approaches encompassing diverse techniques under a variety of names and is used in different business science and social science domains in today s business world data analysis plays an important role in making decisions more scientific and helping businesses operate more effectively it is widely used in fields such as business analytics healthcare and artificial intelligence to extract meaningful insights from data
+
+data mining is the process of extracting and finding patterns in massive data sets involving methods at the intersection of machine learning statistics and database systems data mining is an interdisciplinary subfield of computer science and statistics with an overall goal of extracting information with intelligent methods from a data set and transforming the information into a comprehensible structure for further use data mining is the analysis step of the knowledge discovery in databases process or kdd aside from the raw analysis step it also involves database and data management aspects data pre processing model and inference considerations interestingness metrics complexity considerations post processing of discovered structures visualization and online updating
+
+data science is an interdisciplinary academic field that uses statistics scientific computing scientific methods processing scientific visualization algorithms and systems to extract or extrapolate knowledge from potentially noisy structured or unstructured data
+
+manages data about data including definitions origin and usage to enhance the understanding and usability of the organization s data assets
+
+data quality is not only a technical concern but a strategic enabler of trust compliance and decision making high quality data supports consistent reporting regulatory adherence and customer confidence enterprise data management programs often define quality metrics such as precision granularity and timeliness and link these to business outcomes
+
+reference data comprises standardized codes and values for consistent interpretation across systems master data management mdm governs and centralizes an organization s critical data ensuring a unified reliable information source that supports effective decision making and operational efficiency
+
+data security refers to a comprehensive set of practices and technologies designed to protect digital information and systems from unauthorized access use disclosure modification or destruction it encompasses encryption access controls monitoring and risk assessments to maintain data integrity confidentiality and availability
+
+data privacy involves safeguarding individuals personal information by ensuring its collection storage and use comply with consent legal standards and confidentiality principles it emphasizes protecting sensitive data from misuse or unauthorized access while respecting users rights
+
+the distinction between data and derived value is illustrated by the information ladder or the dikar model
+
+the dikar model stands for data information knowledge action and result it is a framework used to bridge the gap between raw data and actionable outcomes the model emphasizes the transformation of data into information which is then interpreted to create knowledge this knowledge guides actions that lead to measurable results dikar is widely applied in organizational strategies helping businesses align their data management processes with decision making and performance goals by focusing on each stage the model ensures that data is effectively utilized to drive informed decisions and achieve desired outcomes it is particularly valuable in technology driven environments
+
+the information ladder illustrates the progression from data raw facts to information processed data knowledge interpreted information and ultimately wisdom applied knowledge each step adds value and context enabling better decision making it emphasizes the transformation of unstructured inputs into meaningful insights for practical use
+
+in research data management refers to the systematic process of handling data throughout its lifecycle this includes activities such as collecting organizing storing analyzing and sharing data to ensure its accuracy accessibility and security a data management plan dmp is a structured document that outlines how research data will be collected organized stored shared and preserved throughout and after a research project it serves as a guide to ensure that data are handled responsibly remain accessible and are protected from loss or misuse
+
+
+effective data management also involves creating a data management plan dmp addressing issues like ethical considerations compliance with regulatory standards and long term preservation proper management enhances research transparency reproducibility and the efficient use of resources ultimately contributing to the credibility and impact of research findings it is a critical practice across disciplines to ensure data integrity and usability both during and after a research project
+
+why is it relevant to research
+
+helps researchers organize and manage their data properly throughout the study
+
+ensures that data are stored safely and remain accessible when needed
+
+promotes transparency and honesty by showing how data are handled and shared
+
+improves the quality and reliability of research results
+
+prevents data loss and reduces possible ethical or legal issues
+
+makes it easier for other researchers to reuse the data for future studies
+
+increases the overall impact and credibility of the research
+
+
+
+big data refers to the collection and analyses of massive sets of data while big data is a recent phenomenon the requirement for data to aid decision making traces back to the early 1970s with the emergence of decision support systems dss these systems can be considered as the initial iteration of data management for decision support
+
+studies indicate that customer transactions account for a 40 increase in the data collected annually which means that financial data has a considerable impact on business decisions therefore modern organizations are using big data analytics to identify 5 to 10 new data sources that can help them collect and analyze data for improved decision making jonsen 2013 explains that organizations using average analytics technologies are 20 more likely to gain higher returns compared to their competitors who have not introduced any analytics capabilities in their operations also iri reported that the retail industry could experience an increase of more than 10 billion each year resulting from the implementation of modern analytics technologies therefore the following hypothesis can be proposed economic and financial outcomes can impact how organizations use data analytics tools

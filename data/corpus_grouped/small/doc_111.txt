@@ -1,0 +1,11 @@
+transaction data or transaction information is a category of data describing transactions transaction data information gather variables generally referring to reference data or master data e g dates times time zones currencies
+
+typical transactions are
+
+recording and storing transactions is called records management the record of the transaction is stored in a place where the retention can be guaranteed and where data is archived or removed following a retention period formats of recorded transactions can be digital data in databases and spreadsheets or handwritten texts in physical documents like former bankbooks
+
+transaction processing systems are application software that generate transactions and manage transaction data information e g sap and oracle financials
+
+transaction data can be summarised in a data warehouse which helps accessibility and analysis of the data
+
+this computer science article is a stub you can help wikipedia by adding missing information

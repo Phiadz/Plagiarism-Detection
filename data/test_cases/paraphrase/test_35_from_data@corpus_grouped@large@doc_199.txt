@@ -1,0 +1,1 @@
+automate tasks that the human visual framework can do computer vision is concerned with the automatic extraction examination and understanding of useful information from a single image or a sequence of images it involves the development of a theoretical and algorithmic basis to achieve automatic visual un

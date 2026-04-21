@@ -1,0 +1,29 @@
+in computer science local search is a heuristic method for solving computationally hard optimization problems local search can be used on problems that can be formulated as finding a solution that maximizes a criterion among a number of candidate solutions local search algorithms move from solution to solution in the space of candidate solutions the search space by applying local changes until a solution deemed optimal is found or a time bound is elapsed
+
+local search algorithms are widely applied to numerous hard computational problems including problems from computer science particularly artificial intelligence mathematics operations research engineering and bioinformatics examples of local search algorithms are walksat the 2 opt algorithm for the traveling salesman problem and the metropolis hastings algorithm
+
+while it is sometimes possible to substitute gradient descent for a local search algorithm gradient descent is not in the same family although it is an iterative method for local optimization it relies on an objective function s gradient rather than an explicit exploration of the solution space
+
+some problems where local search has been applied are
+
+most problems can be formulated in terms of a search space and target in several different ways for example for the traveling salesman problem a solution can be a route visiting all cities and the goal is to find the shortest route but a solution can also be a path and being a cycle is part of the target
+
+a local search algorithm starts from a candidate solution and then iteratively moves to a neighboring solution a neighborhood being the set of all potential solutions that differ from the current solution by the minimal possible extent this requires a neighborhood relation to be defined on the search space as an example the neighborhood of vertex cover is another vertex cover only differing by one node for boolean satisfiability the neighbors of a boolean assignment are those that have a single variable in an opposite state the same problem may have multiple distinct neighborhoods defined on it local optimization with neighborhoods that involve changing up to k components of the solution is often referred to as k opt
+
+typically every candidate solution has more than one neighbor solution the choice of which one to select is taken using only information about the solutions in the neighborhood of the current assignment hence the name local search when the choice of the neighbor solution is done by taking the one locally maximizing the criterion i e a greedy search the metaheuristic takes the name hill climbing
+when no improving neighbors are present local search is stuck at a locally optimal point
+this local optima problem can be cured by using restarts repeated local search with different initial conditions randomization or more complex schemes based on iterations like iterated local search on memory like reactive search optimization on memory less stochastic modifications like simulated annealing
+
+local search does not provide a guarantee that any given solution is optimal
+the search can terminate after a given time bound or when the best solution found thus far has not improved in a given number of steps local search is an anytime algorithm it can return a valid solution even if it s interrupted at any time after finding the first valid solution
+local search is typically an approximation or incomplete algorithm because the search may stop even if the current best solution found is not optimal this can happen even if termination happens because the current best solution could not be improved as the optimal solution can lie far from the neighborhood of the solutions crossed by the algorithm
+
+schuurman southey propose three measures of effectiveness for local search depth mobility and coverage
+
+they hypothesize that local search algorithms work well not because they have some understanding of the search space but because they quickly move to promising regions and explore the search space at low depths as quickly broadly and systematically as possible
+
+local search is a sub field of
+
+fields within local search include
+
+several methods exist for performing local search of real valued search spaces

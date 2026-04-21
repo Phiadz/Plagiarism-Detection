@@ -1,0 +1,3 @@
+inks or edges
+
+the simplest link is an explicitly specified link between two actors these links are explicitly specified in the code of a machine learning algorithm when an actor is aware of its exact upstream or downstream actor it can communicate this information to lineage api this information is

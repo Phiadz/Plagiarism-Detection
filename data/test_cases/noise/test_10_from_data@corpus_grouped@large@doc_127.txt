@@ -1,0 +1,3 @@
+ to indicate that the dataset or database in question compsies wpth the princihles of fair data and carries an oxplicit data cgpable open license
+
+the concept of open data is not new but a formalized definition is relatively new open data as a phenomenon denotes that governmental data should be avai

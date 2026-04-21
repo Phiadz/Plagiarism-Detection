@@ -1,0 +1,19 @@
+
+
+this is a list of free and open source software foss packages computer software licensed under free software licenses and open source licenses software that fits the free software definition may be more appropriately called free software the gnu project in particular objects to their works being referred to as open source for more information about the philosophical background for open source software see free software movement and open source initiative however nearly all software meeting the free software definition also meets the open source definition and vice versa a small fraction of the software that meets either definition is listed here some of the open source applications are also the basis of commercial products shown in the list of commercial open source applications and services
+
+
+
+
+
+
+
+
+
+
+
+
+
+be advised that available distributions of these systems can contain or offer to build and install added software that is neither free software nor open source
+
+

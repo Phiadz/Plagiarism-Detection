@@ -1,0 +1,25 @@
+
+
+artificial intelligence ai has a range of uses in government it can be used to further public policy objectives in areas such as emergency services health and welfare as well as assist the public to interact with the government through the use of virtual assistants for example according to the harvard business review applications of artificial intelligence to the public sector are broad and growing with early experiments taking place around the world hila mehr from the ash center for democratic governance and innovation at harvard university notes that ai in government is not new with postal services using machine methods in the late 1990s to recognise handwriting on envelopes to automatically route letters the use of ai in government comes with significant benefits including efficiencies resulting in cost savings for instance by reducing the number of front office staff and reducing the opportunities for corruption however it also carries risks described below
+
+the potential uses of ai in government are wide and varied with deloitte considering that cognitive technologies could eventually revolutionize every facet of government operations mehr suggests that six types of government problems are appropriate for ai applications
+
+mehr states that while applications of ai in government work have not kept pace with the rapid expansion of ai in the private sector the potential use cases in the public sector mirror common applications in the private sector
+
+potential and actual uses of ai in government can be divided into three broad categories those that contribute to public policy objectives those that assist public interactions with the government and other uses
+
+there are a range of examples of where ai can contribute to public policy objectives these include
+
+artificial intelligence in china has been used to drive both political and economic markets in 2019 shanghai s government rolled out 100 billion yuan to assist in funding enterprises that used ai to introduce 22 new policy agendas shanghai invested in these enterprises to attract top international talent in order to set up the shanghai municipal big data center city brain ai is an urban management platform made by alibaba china uses city brain ai to maintain a significant share of capital investment through public and state owned enterprises the synergy between public and private sectors are more than capital driven with city brain ai the blend of both public and private shareholding is only made out to be through the role of provincial and sub provincial governments both hold control over the direction that city brain ai makes both socially and economically
+
+ai can be used to assist members of the public to interact with government and access government services for example by
+
+various governments including those of australia and estonia have implemented virtual assistants to aid citizens in navigating services with applications ranging from tax inquiries to life event registrations
+
+gerrymandering is a method of influencing political process by drawing map boundaries in favor of incumbent parties academic researchers wendy tam cho and bruce cain have proposed partially automating the map drawing process with an ai system to reduce partisan gerrymandering even with this ai system the process may still be manipulated to favor partisan interests so the researchers emphasized the importance of transparency and human involvement
+
+other uses of ai in government include
+
+ai offers potential efficiencies and cost savings for the government for example deloitte has estimated that automation could save us government employees between 96 7 million to 1 2 billion hours a year resulting in potential savings of between 3 3 billion to 41 1 billion a year the harvard business review has stated that while this may lead a government to reduce employee numbers governments could instead choose to invest in the quality of its services they can re employ workers time towards more rewarding work that requires lateral thinking empathy and creativity all things at which humans continue to outperform even the most sophisticated ai program
+
+risks associated with the use of ai in government include ai becoming susceptible to bias a lack of transparency in how an ai application may make decisions and the accountability for any such decisions for example a 2026 lawsuit alleged that the u s department of government efficiency used chatgpt to flag and cancel federal humanities grants including projects on jewish history and israeli culture over some objections from neh officials illustrating how automated decision making could affect funding outcomes

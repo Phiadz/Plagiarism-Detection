@@ -1,0 +1,93 @@
+
+
+in the context of generative artificial intelligence ai agents also referred to as compound ai systems or agentic ai are a class of intelligent agents distinguished by their ability to operate autonomously in complex environments agentic ai tools prioritize decision making over content creation and do not require continuous oversight
+
+ai agents possess several key attributes including complex goal structures natural language interfaces the capacity to act independently of user supervision and the integration of software tools or planning systems their control flow is frequently driven by large language models llms agents also include memory systems for remembering previous user agent interactions and orchestration software for organizing agent components
+
+ai agents do not have a standard definition the concept of agentic ai has been compared to the fictional character j a r v i s
+
+a common application of ai agents is the automation of tasks for example booking travel plans based on a user s prompted request
+
+companies such as google microsoft and amazon web services have offered platforms for deploying pre built ai agents several protocols have been proposed for standardizing inter agent communication with examples including the model context protocol gibberlink and many others some of these protocols are also used for connecting agents with external applications
+
+in december 2025 linux foundation announced the formation of the agentic ai foundation aaif with the goal of ensuring agentic ai evolves transparently and collaboratively
+
+ai agents have been traced back to research from the 1990s with harvard professor milind tambe noting that the definition of an ai agent was not clear at the time either researcher andrew ng has been credited with spreading the term agentic to a wider audience in 2024
+
+researchers have attempted to build world models and reinforcement learning environments to train or evaluate ai agents for example video games such as minecraft and no man s sky as well as replicas of company websites have also been used for training ai agents
+
+the financial times compared the autonomy of ai agents to the sae classification of self driving cars comparing most applications to level 2 or level 3 with some achieving level 4 in highly specialized circumstances and level 5 being theoretical
+
+the following are some possible internal design options for reasoning within an agent
+
+ken huang proposed an ai agent reference architecture which consists of seven interconnected layers with each layer building on the functionality of the layers beneath it
+
+to execute complex tasks autonomous agents are often integrated with other agents or specialized tools these configurations known as orchestration patterns or workflows include the following
+
+in addition to large language models llms vision language models vlms and multimodal foundation models can be used as the basis for agents in september 2024 allen institute for ai released an open source vision language model nvidia released a framework for developers to use vlms llms and retrieval augmented generation for building ai agents that can analyze images and videos including video search and video summarization microsoft released a multimodal agent model trained on images video software user interface interactions and robotics data that the company claimed can manipulate software and robots
+
+as of april 2025 per the associated press there are few real world applications of ai agents as of june 2025 per fortune many companies are primarily experimenting with ai agents
+
+the information divided ai agents into seven archetypes business task agents for acting within enterprise software conversational agents which act as chatbots for customer support research agents for querying and analyzing information such as openai deep research analytics agents for analyzing data to create reports software developer or coding agents such as cursor domain specific agents which include specific subject matter knowledge and web browser agents such as openai operator
+
+by mid 2025 ai agents have been used in video game development gambling including sports betting cryptocurrency wallets including cryptocurrency trading and meme coins and social media in august 2025 new york magazine described software development as the most definitive use case of ai agents likewise by october 2025 noting a decline in expectations the information noted ai coding agents and customer support as the primary use cases by businesses
+
+in november 2025 the wall street journal reported that few companies that deployed ai agents have received a return on investment
+
+several government bodies in the united states and united kingdom have deployed or announced the deployment of agents at the local and national level the city of kyle texas deployed an ai agent from salesforce in march 2025 for 311 customer service in november 2025 the internal revenue service stated that it would use agentforce ai agents from salesforce for the office of chief counsel taxpayer advocate services and the office of appeals that same month staffordshire police announced that they would trial agentforce agents for handling non emergency 101 calls in the united kingdom starting in 2026 in december 2025 the department of neighborhoods in detroit michigan in partnership with a local business deployed a pilot project in two detroit districts for an ai agent to be used for customer service calls
+
+in february 2025 thomas shedd the director of the technology transformation services proposed using ai coding agents across the united states federal government a recruiter for the department of government efficiency proposed in april 2025 to use ai agents to automate the work of about 70 000 united states federal government employees as part of a startup with funding from openai and a partnership agreement with palantir this proposal was criticized by experts for its impracticality if not impossibility and the lack of corresponding widespread adoption by businesses
+
+in december 2025 the food and drug administration announced that it would offer agentic ai capabilities to its staff for meeting management pre market reviews review validation post market surveillance inspections and compliance and administrative functions that same month the united states department of defense launched genai mil an internal platform for american military personnel to use generative ai based applications based on google gemini including intelligent agentic workflows defense secretary pete hegseth listed applications such as conducting deep research formatting documents and even analyzing video or imagery at unprecedented speed in december 2025 the united states immigration and customs enforcement agency signed a contract with a company for its enforcement and removal operations department to use ai agents for skip tracing
+
+ai agents have also been integrated into operating systems agents have been included in operating systems developed by microsoft apple and google in november 2025 microsoft released a test software build of windows 11 that included agents intended to run background tasks with the ability to read and write personal files in december 2025 bytedance released doubao an ai agent that can be integrated into smartphone operating systems particularly the nubia m153 by zte several apps in china blocked or restricted the agent citing privacy and security concerns including wechat alipay taobao pinduoduo ele me and local banks
+
+web browsers with integrated ai agents are sometimes called agentic browsers such agents can perform small tedious tasks during web browsing and potentially even perform browser actions on behalf of the user products like openai operator and perplexity comet integrate a spectrum of ai capabilities including the ability to browse the web interact with websites and perform actions on behalf of the user
+
+in 2025 microsoft launched nlweb an agentic web search replacement that would allow websites to use agents to query content from websites by using rss like interfaces that allow for the lookup and semantic retrieval of content products integrating agentic web capabilities have been criticised for exfiltrating information about their users to third party servers and exposing security issues since the way the agents communicate often occur through non standard protocols
+
+ai agents have been posited as a means of increasing personal and economic productivity fostering greater innovation and liberating users from monotonous tasks however parmy olson s bloomberg opinion piece argued that agents are best suited for narrow repetitive tasks with low risk conversely researchers suggest that agents could be applied to web accessibility for people with disabilities and researchers at hugging face propose that agents could be used for coordinating resources such as during disaster response the r d advisory team of the bbc views ai agents as being most useful when their assigned goal is uncertain erik brynjolfsson suggests that ai agents are more valuable in enhancing rather than replacing humans
+
+concerns include potential issues of liability an increased risk of cybercrime ethical challenges as well as problems related to ai safety and ai alignment other issues involve data privacy weakened human oversight a lack of guaranteed repeatability reward hacking algorithmic bias compounding software errors lack of explainability of agents decisions security vulnerabilities stifling competition problems with underemployment job displacement cognitive offloading and the potential for user manipulation misinformation or malinformation they may also complicate legal frameworks and risk assessments foster hallucinations hinder countermeasures against rogue agents and suffer from the lack of standardized evaluation methods
+
+they have also been criticized for being expensive and having a negative impact on internet traffic and potentially on the environment due to high energy usage according to an estimation by nvidia ceo jensen huang ai agents would require 100 times more computing power than llms there is also the risk of increased concentration of power by political leaders as ai agents may not question instructions in the same way that humans would
+
+journalists have described ai agents as part of a push by big tech companies to automate everything several ceos of those companies have stated in early 2025 that they expect ai agents to eventually join the workforce however in a preprint study carnegie mellon university researchers tested the behavior of agents in a simulated software company and found that none of the agents could complete a majority of the assigned tasks other researchers had similar findings with devin ai and other agents in business settings and freelance work
+
+in june 2025 cnn argued that statements by ceos on the potential replacement of their employees by ai agents were a strategy to keep workers working by making them afraid of losing their jobs tech companies have pressured employees to use generative ai models in their work including ai coding agents brian armstrong the ceo of coinbase fired several employees who did not some business leaders have replaced some of their employees with agents but have said that the agents would need more supervision than those employees
+
+in october 2025 futurism questioned whether amazon s previously announced efforts to replace parts of its workforce with generative ai and ai agents could have led to the october 2025 outage of amazon web services large technology companies such as salesforce klarna and ibm have announced layoffs in 2025 replacing hundreds of their employees in human resources or customer service with ai agents however klarna needed to rehire several human employees
+
+yoshua bengio warned at the 2025 world economic forum that all of the catastrophic scenarios with agi or superintelligence happen if we have agents
+
+financial stability bodies have warned that more complex and autonomous agentic ai could become a channel for systemic risk in finance they distinguish these systems from other ai because they can pursue goals over many steps call tools and carry out tasks with relatively little human intervention in workshops with regulators central bank officials and industry specialists participants highlighted risks both from agentic systems built inside financial institutions and from tools offered by technology firms that can initiate or execute financial actions in one 2025 forum 44 of experts surveyed judged autonomous or agentic ai systems to be the most likely current source of ai related systemic risk in finance
+
+in march 2025 scale ai signed a contract with the united states department of defense to work with them in collaboration with anduril industries and microsoft to develop and deploy ai agents for the purpose of assisting the military with operational decision making in july 2025 fox business reported that the company edgerunner ai built an offline agent compressed and fine tuned on military information with the ceo seeing more common llms as heavily politicized to the left as of that time the company model is being used by the united states special operations command in an overseas deployment researchers have expressed concerns that agents and the large language models they are based on could be biased towards aggressive foreign policy decisions
+
+research focused agents have the risk of consensus bias and coverage bias due to collecting information available on the public internet ny mag unfavorably compared the user workflow of agent based web browsers to amazon alexa which was software talking to software not humans talking to software pretending to be humans to use software the same outlet described web browser agents and computer use agents as an attempt to click farm the entire economy
+
+agents have been linked to the dead internet theory due to their ability to both publish and engage with online content
+
+agents may get stuck in infinite loops
+
+since many inter agent protocols are being developed by large technology companies there are concerns that those companies could use these protocols for self benefit
+
+a june 2025 gartner report accused many projects described as agentic ai of being rebrands of previously released products terming the phenomenon as agent washing
+
+researchers have warned about the impact of providing ai agents access to cryptocurrency and smart contracts
+
+during a vibe coding experiment a coding agent by replit deleted a production database during a code freeze covered up bugs and issues by creating fake data and fake reports and responded with false information a user of google antigravity reported that when the user attempted to use the system to delete cache the system responded by deleting the user s d hard drive
+
+in july 2025 pauseai referred openai to the australian federal police accusing the company of violating australian laws through chatgpt agent due to the risk of assisting the development of biological weapons
+
+openai co founder andrej karpathy criticized ai agents as being ineffective and promoting ai slop
+
+issues with multi agent systems include few coordination protocols between component agents inconsistent performance and challenges debugging
+
+in november 2025 anthropic claimed that a group of hackers sponsored by china attempted a cyberattack against at least 30 organizations by using claude code in an agentic workflow and that several of these infiltrations had succeeded however independent cybersecurity researchers questioned the significance of anthropic s findings
+
+whittaker argued that the push by big tech companies to deploy ai agents risked security vulnerabilities across the internet
+
+agentic misalignment refers to situations in which an ai agent s actions or goals diverge from the intentions of its designers this occurs when an autonomous system pursues unintended strategies to achieve its objectives a concern studied in ai safety research potential examples include ai agents attempting to sabotage an organization s systems when facing updates or deactivation
+
+several frameworks are used to identify and mitigate security risks in agentic ai

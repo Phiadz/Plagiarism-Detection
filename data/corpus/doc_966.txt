@@ -1,0 +1,51 @@
+in artificial intelligence and operations research constraint satisfaction is the process of finding a solution through
+a set of constraints that impose conditions that the variables must satisfy a solution is therefore an assignment of values to the variables that satisfies all constraints that is a point in the feasible region
+
+the techniques used in constraint satisfaction depend on the kind of constraints being considered often used are constraints on a finite domain to the point that constraint satisfaction problems are typically identified with problems based on constraints on a finite domain such problems are usually solved via search in particular a form of backtracking or local search constraint propagation is another family of methods used on such problems most of them are incomplete in general that is they may solve the problem or prove it unsatisfiable but not always constraint propagation methods are also used in conjunction with search to make a given problem simpler to solve other considered kinds of constraints are on real or rational numbers solving problems on these constraints is done via variable elimination or the simplex algorithm
+
+constraint satisfaction as a general problem originated in the field of artificial intelligence in the 1970s see for example laurière 1978 however when the constraints are expressed as multivariate linear equations defining in equalities the field goes back to joseph fourier in the 19th century george dantzig s invention of the simplex algorithm for linear programming a special case of mathematical optimization in 1946 has allowed determining feasible solutions to problems containing hundreds of variables
+
+during the 1980s and 1990s embedding of constraints into a programming language was developed the first language devised expressly with intrinsic support for constraint programming was prolog since then constraint programming libraries have become available in other languages such as c or java e g choco for java
+
+as originally defined in artificial intelligence constraints enumerate the possible values a set of variables may take in a given world a possible world is a total assignment of values to variables representing a way the world real or imaginary could be informally a finite domain is a finite set of arbitrary elements a constraint satisfaction problem on such domain contains a set of variables whose values can only be taken from the domain and a set of constraints each constraint specifying the allowed values for a group of variables a solution to this problem is an evaluation of the variables that satisfies all constraints in other words a solution is a way for assigning a value to each variable in such a way that all constraints are satisfied by these values
+
+in some circumstances there may exist additional requirements one may be interested not only in the solution and in the fastest or most computationally efficient way to reach it but in how it was reached e g one may want the simplest solution simplest in a logical non computational sense that has to be precisely defined this is often the case in logic games such as sudoku
+
+in practice constraints are often expressed in compact form rather than enumerating all the values of the variables that would satisfy the constraint one of the most used constraints is the obvious one establishing that the values of the affected variables must be all different
+
+problems that can be expressed as constraint satisfaction problems are the eight queens puzzle the sudoku solving problem and many other logic puzzles the boolean satisfiability problem scheduling problems bounded error estimation problems and various problems on graphs such as the graph coloring problem
+
+while usually not included in the above definition of a constraint satisfaction problem arithmetic equations and inequalities bound the values of the variables they contain and can therefore be considered a form of constraints their domain is the set of numbers either integer rational or real which is infinite therefore the relations of these constraints may be infinite as well for example
+
+
+
+x
+
+y
+
+1
+
+
+displaystyle x y 1
+
+has an infinite number of pairs of satisfying values arithmetic equations and inequalities are often not considered within the definition of a constraint satisfaction problem which is limited to finite domains they are however used often in constraint programming
+
+it can be shown that the arithmetic inequalities or equations present in some types of finite logic puzzles such as futoshiki or kakuro also known as cross sums can be dealt with as non arithmetic constraints see pattern based constraint satisfaction and logic puzzles
+
+constraint satisfaction problems on finite domains are typically solved using a form of search the most used techniques are variants of backtracking constraint propagation and local search these techniques are used on problems with nonlinear constraints
+
+variable elimination and the simplex algorithm are used for solving linear and polynomial equations and inequalities and problems containing variables with infinite domain these are typically solved as optimization problems in which the optimized function is the number of violated constraints
+
+solving a constraint satisfaction problem on a finite domain is an np complete problem with respect to the domain size research has shown a number of tractable subcases some limiting the allowed constraint relations some requiring the scopes of constraints to form a tree possibly in a reformulated version of the problem research has also established relationships of the constraint satisfaction problem with problems in other areas such as finite model theory
+
+constraint programming is the use of constraints as a programming language to encode and solve problems this is often done by embedding constraints into a programming language which is called the host language constraint programming originated from a formalization of equalities of terms in prolog ii leading to a general framework for embedding constraints into a logic programming language the most common host languages are prolog c and java but other languages have been used as well
+
+a constraint logic program is a logic program that contains constraints in the bodies of clauses as an example the clause a x x 0 b x is a clause containing the constraint x 0 in the body constraints can also be present in the goal the constraints in the goal and in the clauses used to prove the goal are accumulated into a set called constraint store this set contains the constraints the interpreter has assumed satisfiable in order to proceed in the evaluation as a result if this set is detected unsatisfiable the interpreter backtracks equations of terms as used in logic programming are considered a particular form of constraints which can be simplified using unification as a result the constraint store can be considered an extension of the concept of substitution that is used in regular logic programming the most common kinds of constraints used in constraint logic programming are constraints over integers rational real numbers and constraints over finite domains
+
+concurrent constraint logic programming languages have also been developed they significantly differ from non concurrent constraint logic programming in that they are aimed at programming concurrent processes that may not terminate constraint handling rules can be seen as a form of concurrent constraint logic programming but are also sometimes used within a non concurrent constraint logic programming language they allow for rewriting constraints or to infer new ones based on the truth of conditions
+
+constraint satisfaction toolkits are software libraries for imperative programming languages that are used to encode and solve a constraint satisfaction problem
+
+constraint toolkits are a way for embedding constraints into an imperative programming language however they are only used as external libraries for encoding and solving problems an approach in which constraints are integrated into an imperative programming language is taken in the kaleidoscope programming language
+
+constraints have also been embedded into functional programming languages

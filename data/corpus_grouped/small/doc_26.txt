@@ -1,0 +1,7 @@
+domain knowledge is knowledge of a specific discipline or field in contrast to general or domain independent knowledge the term is often used in reference to a more general discipline for example in describing a software engineer who has general knowledge of computer programming as well as domain knowledge about developing programs for a particular industry citation needed people with domain knowledge are often regarded as specialists or experts in their field
+
+in software engineering domain knowledge is knowledge about the environment in which the target system operates for example software agents domain knowledge usually must be learned from software users in the domain as domain specialists experts rather than from software developers it may include user workflows data pipelines business policies configurations and constraints and is crucial in the development of a software application expert domain knowledge frequently informal and ill structured is transformed in computer programs and active data for example in a set of rules in knowledge bases by knowledge engineers
+
+communicating between end users and software developers is often difficult they must find a common language to communicate in developing enough shared vocabulary to communicate can often take a while
+
+the same knowledge can be included in different domain knowledge knowledge which may be applicable across a number of domains is called domain independent knowledge for example logic and mathematics operations on domain knowledge are performed by metaknowledge

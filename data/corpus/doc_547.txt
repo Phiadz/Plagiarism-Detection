@@ -1,0 +1,46 @@
+
+
+command and control abbr c2 is a set of organizational and technical attributes and processes that employs human physical and information resources to solve problems and accomplish missions to achieve the goals of an organization or enterprise according to a 2015 definition by military scientists marius vassiliou david s alberts and jonathan r agre
+
+versions of the united states army field manual 3 0 circulated circa 1999 define c2 in a military organization as the exercise of authority and direction by a properly designated commanding officer over assigned and attached forces in the accomplishment of a mission
+
+a 1988 nato definition is that command and control is the exercise of authority and direction by a properly designated individual over assigned resources in the accomplishment of a common goal an australian defence force definition similar to that of nato emphasises that c2 is the system empowering designated personnel to exercise lawful authority and direction over assigned forces for the accomplishment of missions and tasks the australian doctrine goes on to state the use of agreed terminology and definitions is fundamental to any c2 system and the development of joint doctrine and procedures the definitions in the following paragraphs have some agreement internationally although not every potential ally will use the terms with exactly the same meaning
+
+the us department of defense dictionary of military and associated terms defines command and control as the exercise of authority and direction by a properly designated commander over assigned and attached forces in the accomplishment of the mission also called c2 source jp 1
+
+the edition of the dictionary as amended through april 2010 elaborates command and control functions are performed through an arrangement of personnel equipment communications facilities and procedures employed by a commander in planning directing coordinating and controlling forces and operations in the accomplishment of the mission however this sentence is missing from the command and control entry for the edition as amended through 15 august 2014
+
+commanding officers are assisted in executing these tasks by specialized staff officers and enlisted personnel these military staff are a group of officers and enlisted personnel that provides a bi directional flow of information between a commanding officer and subordinate military units
+
+the purpose of a military staff is mainly that of providing accurate timely information which by category represents information on which command decisions are based the key application is that of decisions that effectively manage unit resources while information flow toward the commander is a priority information that is useful or contingent in nature is communicated to lower staffs and units citation needed
+
+this term is also in common use within the computer security industry and in the context of cyberwarfare here the term refers to the influence an attacker has over a compromised computer system that they control for example a valid usage of the term is to say that attackers use command and control infrastructure to issue command and control instructions to their victims advanced analysis of command and control methodologies can be used to identify attackers associate attacks and disrupt ongoing malicious activity
+
+there is a plethora of derivative terms that emphasize various aspects uses and sub domains of c2 these terms are accompanied by numerous associated abbreviations for example in addition to c2 command and control is often abbreviated as c2 and sometimes as c c
+
+command and control have been coupled with
+
+and others
+
+
+some of the more common variations include
+
+and others
+
+a command and control center is typically a secure room or building in a government military or prison facility that operates as the agency s dispatch center surveillance monitoring center coordination office and alarm monitoring center all in one command and control centers are operated by a government or municipal agency
+
+various branches of the us military such as the us coast guard and navy have command and control centers they are also common in many large correctional facilities
+
+a command and control center that is used by a military unit in a deployed location is usually called a command post a warship has a combat information center for tactical control of the ship s resources but commanding a fleet or joint operation requires additional space for commanders and staff plus c4i facilities provided on a flagship e g aircraft carriers sometimes a command ship or upgraded logistics ship such as uss coronado
+
+command and control warfare encompasses all the military tactics that use communications technology it can be abbreviated as c2w an older name for these tactics is signals warfare derived from the name given to communications by the military newer names include information operations and information warfare
+
+the following techniques are combined
+
+with the physical destruction of enemy communications facilities the objective is to deny information to the enemy and so disrupt its command and control capabilities at the same time precautions are taken to protect friendly command and control capabilities against retaliation
+
+in addition to targeting the enemy s command and control information warfare can be directed to the enemy s politicians and other civilian communications
+
+us and other nato specific
+
+other

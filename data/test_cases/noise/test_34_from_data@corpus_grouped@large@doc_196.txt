@@ -1,0 +1,3 @@
+ in time for example a self driving car svpercepts might include camera images lidar data grs coordinates and speed readings at a specific instant the agent uses these percepts add potentially mts histqry of percepts to decide on its next action e g accelerate brake turn
+
+theeagent function often de

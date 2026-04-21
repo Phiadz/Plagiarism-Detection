@@ -1,0 +1,198 @@
+
+
+oracle corporation is an american multinational technology company headquartered in austin texas co founded in santa clara california in 1977 by bob miner ed oates and current chairman of the board and chief technology officer larry ellison oracle is among the 20 largest companies in the world by market cap and ranked 66th on the forbes global 2000 as of 2025
+
+the company sells database software particularly the oracle database enterprise applications and cloud infrastructure and hardware oracle s core application software is a suite of enterprise software products including enterprise resource planning erp human capital management hcm customer experience cx and supply chain management scm software
+
+larry ellison bob miner and ed oates co founded oracle in 1977 in santa clara california as software development laboratories sdl beginning as consultants with a background in large scale memory after a project for ampex ellison took inspiration from the 1970 paper written by edgar f codd on relational database management systems rdbms named a relational model of data for large shared data banks he heard about the ibm system r database from an article in an ibm research journal provided by oates ellison wanted to make oracle s product compatible with system r but failed to do so as ibm kept the error codes for its dbms a secret sdl changed its name to relational software inc rsi in 1979 then again to oracle systems corporation in 1983 to align itself more closely with its flagship product oracle database the name also drew from the codename of a 1977 project for the central intelligence agency oracle s first customer the company received permission to use the code name for the new product according to oracle executive mike humphries miner told him that the new company had the choice of the cia database project or another offer to develop a compiler for the pdp 4 and the founders flipped a coin to decide
+
+miner served as a senior programmer and oates also worked in development the three founders decided that ellison was the worst programmer so he became the salesman understanding both customers and technology ellison designed database tables that he used to demonstrate the power of sql to customers by february 1983 the rosen electronics letter said that oracle was the most comprehensive offering we ve seen among databases with good marketing and a substantial installed base encouraging developers to write software for it the newsletter said that revenue in fiscal 1983 would be about 8 million and would double in 1984 on march 12 1986 the company had its initial public offering in 1989 oracle moved its world headquarters to the redwood shores neighborhood of redwood city california though its campus was not completed until 1995 the company hired so many from top universities that humphries compared it to cargill buying crops some new employees worked as receptionists or distributed coffee until more suitable positions became available
+
+oracle in the late 1980s began selling enterprise software running on the database starting with financial software then manufacturing many at oracle wanted to discontinue applications the first several versions were weak they competed with the company s independent software vendors and value added reseller partners and applications were never profitable for oracle until after 2000 selling them and acquiring vendors such as jd edwards and peoplesoft the latter being the second hostile takeover in the history of software nonetheless allowed oracle to compete with sap by the mid 2000s it was the world s largest enterprise software vendor the company s ken jacobs later said
+
+it created a strategic footprint in our customers it gave us a whole stack a credible stack and we could now sell at a higher point into the companies into the board room and our large customers wanted to consider us a strategic partner rather than just a vendor of technology so it has actually had a big impact on the way our sales force could sell
+in 1995 oracle systems corporation changed its name to oracle corporation officially named oracle but is sometimes referred to as oracle corporation the name of the holding company
+
+in 2010 oracle launched fusion applications to unify the features and technologies of acquisitions peoplesoft siebel systems and jd edwards into a single suite
+
+on july 15 2013 oracle transferred its stock listing from nasdaq to the new york stock exchange at the time it was the largest ever u s market transfer
+
+in 2018 oracle opened a new office in southeast austin texas in december 2020 oracle announced that it was moving its world headquarters from redwood shores to austin texas
+
+in an effort to compete with amazon web services and its products oracle announced in 2019 it was partnering with former rival microsoft the alliance claimed that oracle cloud and microsoft azure would be directly connected allowing customers of each to store data on both cloud computing platforms and run software on either oracle or azure some saw this not only as an attempt to compete with amazon but also with google and salesforce which acquired looker and tableau software respectively in 2023 oracle and microsoft expanded their partnership to deliver oracle database services on oracle cloud infrastructure running inside microsoft azure
+
+a year later oracle announced similar partnerships with amazon web services and google cloud making the oracle database available in all four major hyperscaler providers
+
+in december 2021 oracle announced the acquisition of cerner a health information technology company the acquisition of cerner was completed on june 8 2022 for us 28 3 billion in cash also in december 2021 oracle announced the acquisition of federos an artificial intelligence ai and automation tools company for network performance
+
+in february 2023 the company announced it was going to invest 1 5 billion into the kingdom of saudi arabia including opening a data center in the country s capital riyadh
+
+in april 2024 oracle announced it was moving its world headquarters from austin to a new complex in nashville tennessee no timeframe was given
+
+in june 2024 oracle announced a 1 billion investment in spain to enhance artificial intelligence and cloud computing this investment will create a new cloud region in madrid in partnership with telefónica the goal is to help spanish businesses and the public sector with digital transformation and to meet european union regulations the same year the company announced investments in japan and malaysia for us 8 billion and us 6 5 billion respectively
+
+in january 2025 president donald trump announced stargate a joint venture by oracle openai softbank and investment firm mgx to invest 500 billion over four years in artificial intelligence infrastructure in the us also in 2025 the company announced additional investments in the united kingdom germany and the netherlands for us 5 billion and us 3 billion respectively
+
+in september 2025 oracle announced it was promoting clay magouyrk president of cloud infrastructure and mike sicilia president of industries to become co ceos they replaced safra catz who held the position for 11 years and transitioned to a new role as executive vice chair
+
+in january 2026 social media platform tiktok announced it finalized a deal to change ownership of its u s operations with oracle mgx and private equity firm silver lake each owning a 15 stake in the venture while bytedance retained a 19 9 stake as of march 2026 oracles tiktok stake was worth an estimated 2b
+
+in march 2026 oracle signed a voluntary ratepayer protection pledge where companies pledge to build or buy energy needed to power data centers at a different rate to regular consumers allowing them to keep utility bills down substantially
+
+in april 2026 it was reported that oracle laid off nearly 12 000 staff in india according to the impacted employees the company was believed to be planning another mass layoff round within a month
+
+for the second quarter of fiscal year 2026 ending november 2025 oracle reported total revenue of 14 1 billion with cloud infrastructure iaas revenue growing 68 year over year to 4 1 billion total remaining performance obligations surged to 130 billion reflecting strong demand for ai infrastructure capacity
+
+oracle provides cloud infrastructure ai services database and database management software enterprise applications analytics and developer tools that help businesses manage their data operations and it environments
+
+oracle provides software applications such as integrated enterprise software applications oracle fusion cloud applications human capital management hcm customer relationship management crm and supply chain management scm
+
+the oracle database was released in 2004 as 10g subsequently the product was released several times with the newest issue released as 12c in 2018 oracle released its autonomous database in 2018 oracle database 23ai in 2024 and issued its newest release oracle ai database 26ai in 2025
+
+additionally oracle corporation acquired and developed the following additional database technologies
+
+oracle fusion middleware is a family of middleware software products including application server system integration business process management bpm user interaction content management identity management and business intelligence bi products
+
+oracle secure enterprise search ses oracle s enterprise search offering gives users the ability to search for content across multiple locations including websites xml files file servers content management systems enterprise resource planning systems customer relationship management systems business intelligence systems and databases
+
+oracle applications software sold by oracle based on its own database first appeared in the late 1980s oracle corporation maintains a number of product lines such as
+
+oracle enterprise manager oem is a web based monitoring and management tool for oracle products and for some third party software including database management middleware management application management hardware and virtualization management and cloud management
+
+the primavera products of oracle s construction engineering global business unit cegbu consist of project management software
+
+oracle corporation s tools for developing applications include among others
+
+oracle corporation develops and supports two operating systems oracle solaris and oracle linux
+
+oracle cloud is a cloud computing service offered by oracle corporation providing servers storage network applications and services through a global network of oracle corporation managed data centers the company allows these services to be provisioned on demand over the internet
+
+oracle cloud provides infrastructure as a service iaas platform as a service paas software as a service saas and data as a service daas these services are used to build deploy integrate and extend applications in the cloud
+
+oracle has continued to make updates to its generative ai service which is built and supported on oracle cloud infrastructure and large language models llm from cohere as of 2023 meta s llama as of 2024 and xai s grok 3 as of 2025 the company has also been working to integrate generative ai into its other services in april 2025 oracle incorporated heatwave genai into its database in september 2025 oracle and openai signed a 300 billion contract for 4 5 gigawatts of power capacity over five years in october 2025 oracle and microsoft announced a partnership to enhance supply chain efficiency and responsiveness for manufacturers it was also announced that oracle will offer cloud services using advanced micro devices upcoming mi450 artificial intelligence chips
+
+in 1990 oracle laid off 10 about 400 people of its work force because of accounting errors this crisis came about because of oracle s up front marketing strategy in which sales people urged potential customers to buy the largest possible amount of software all at once the sales people then booked the value of future license sales in the current quarter thereby increasing their bonuses this became a problem when the future sales subsequently failed to materialize oracle eventually had to restate its earnings twice and also settled out of court class action lawsuits arising from its having overstated its earnings ellison stated in 1992 that oracle had made an incredible business mistake
+
+humphries described the cause building for years as a combination of technical problems that benefited rivals and the sales force using side letters and other improper tactics to meet the company s longstanding goal of doubling revenue each year ellison hired bring in adults jerry held said new executives jeff henley and raymond j lane who helped the company recover from what ken jacobs later described as a near death experience in which oracle required an investment from a japanese steel company to meet payroll
+
+the relational database industry was unusually concentrated besides being headquartered near each other in the san francisco bay area database technology experts attended the same universities and served on the same standards committees with jim gray serving as neutral arbiter as companies tried to get competing proposals enacted sales and marketing people were both fierce rivals and often moved between the companies even as engineers socialized with each other the smaller later founded database vendors viewed oracle as their top enemy with bob macdonald of informix software calling oracle the evil empire while humphries described his company as the klingons of the bay
+
+held later described his company s philosophy as it s not good enough for oracle to win it was important for somebody else to lose ingres was its first major competitor oracle s strategy of focusing on one opponent at a time even publicly complimenting other rivals to take the pressure off held said while effective caused it to neglect sybase as a threat conversely when sybase had technical problems it was how do you put every ounce of product marketing sales effort and focus on that ibm s endorsement of sql in db2 in the early 1980s benefited oracle and forced rivals like ingres and informix corporation to adopt sql to compete oracle acknowledged ibm as the standard while emphasizing its own superiority touting total ibm sql compatibility while ibm s software ran only on ibm mainframes by the mid 1980s the company described its database as the last dbms bragging that oracle now had larger database revenue than dbase maker ashton tate and stating that microsoft ashton tate and sybase s planned microsoft sql server jumped on oracle s sql bandwagon
+
+macdonald credited oracle with being marketing oriented before any of the competitors pushing the envelope on selling the future way ahead of the rest of us stu schuster of sybase said larry taught us a lot about marketing while other database companies brochures emphasized technical features oracle advertisements showed an oracle jet fighter shooting down ashton tate and borland biplanes dbase ibm and db2 were among the many competitors oracle marketing criticized by name conversely another oracle ad quoted microsoft s bill gates sun s scott mcnealy hewlett packard s john a young and apple computer s john sculley as agreeing with ellison on oracle s database breakthroughs larry rowe of ingres said you could never come up with a strategy to beat oracle because whatever you said today two days later ellison was saying it with more marketing dollars jacobs said by contrast
+
+it really surprises me when people say oracle s a great marketing machine because by definition if you think a company has great marketing they don t if you think they have great technology then they do have a great marketing machine larry s belief has fundamentally always been that marketing isn t critical he s famous for saying if you re not building the product and you re not selling it tell me what it is you do because those are the things that he felt were important so marketing has never been a focus
+the benchmark wars began in the early 1980s roger sippl of informix said that when his company s product beat oracle on 27 of 30 benchmarks advertisements titled oracle wins again appeared citing the three it won and ellison allegedly called dave dewitt at the university of wisconsin after he developed a benchmark unfavorable to oracle threatening to get the professor fired schuster and held recalled a not very pleasant environment because it was so directly competitive they and sippl described a vicious cycle of companies battling each other over for example whose distributed database had the best two phase commit
+
+the ads weren t to let me show you how my product helps you solve your business problem mr customer it s let me tell you how much better i am than the guy down the street to the point of taking out billboards
+even ibm participated in the billboard wars by 1995 oracle had 44 of the 2 4 billion relational database market sybase had 17 and informix had 16 by 1996 informix after acquiring illustra became oracle s most important rival the intense war between informix ceo phil white and ellison made front page news in silicon valley for three years informix claimed that oracle had hired away informix engineers to disclose important trade secrets about an upcoming product informix finally dropped its lawsuit against oracle in 1997 held said
+
+and in one year we kind of turned the focus from sybase to informix and basically they never knew what hit them it was such a concerted effort i mean it was amazing how you could get product management marketing and sales focused we had a thing where in the world is phil white because phil white was their best sales person if he went into an account one of our best guys was in right after them to make sure that they didn t win that business it was such amazingly focused effort and within 12 months informix was basically on the floor
+in november 2005 a book detailing the war between oracle and informix was published titled the real story of informix software and phil white it gave a detailed chronology of the battle of informix against oracle and how informix software s ceo phil white landed in jail because of his obsession with overtaking ellison
+
+after what held described as the period of time where some of the wheels came off first at ingres then at sybase and then at informix oracle was the only substantial independent database vendor until microsoft sql server became widespread in the late 1990s and ibm acquired informix software in 2001 to complement its db2 database oracle has competed for new database licenses on unix gnu and windows operating systems primarily against ibm s db2 and microsoft sql server
+
+in 2004 oracle s sales grew at a rate of 14 5 to 6 2 billion giving it 41 3 and the top share of the relational database market informationweek march 2005 with market share estimated at up to 44 6 in 2005 by some sources
+oracle corporation s main competitors in the database arena remain ibm db2 and microsoft sql server and to a lesser extent sybase and teradata with free databases such as postgresql and mysql also having a significant share of the market enterprisedb based on postgresql has recently update made inroads by proclaiming that its product delivers oracle compatible sql and procedural language features at a much lower price point
+
+oracle s main competitors in the database market include ibm and microsoft and in enterprise applications sap on march 22 2007 oracle sued sap accusing it of fraud and unfair competition
+
+in the market for business intelligence software many other software companies both small and large have successfully competed in quality with oracle and sap products business intelligence vendors can be categorized into the big four consolidated bi firms such as oracle who has entered bi market through a recent trend of acquisitions including hyperion solutions and the independent pure play vendors such as microstrategy actuate and sas
+
+oracle financials was ranked in the top 20 most popular accounting software infographic by capterra in 2014 beating out sap and a number of its other competitors
+
+from 1988 oracle corporation and the german company sap ag had a decade long history of cooperation beginning with the integration of sap s r 3 enterprise application suite with oracle s relational database products despite the sap partnership with microsoft and the increasing integration of sap applications with microsoft products such as microsoft sql server a competitor to oracle database oracle and sap continue their cooperation according to oracle corporation the majority of sap s customers use oracle databases
+
+in 2004 oracle began to increase its interest in the enterprise applications market in 1989 oracle had already released oracle financials a series of acquisitions by oracle corporation began most notably with those of peoplesoft siebel systems and hyperion
+
+sap recognized that oracle had started to become a competitor in a market where sap had the leadership and saw an opportunity to lure in customers from those companies that oracle corporation had acquired sap would offer those customers special discounts on the licenses for its enterprise applications
+
+oracle corporation would resort to a similar strategy by advising sap customers to get off sap a play on the words of the acronym for its middleware platform oracle fusion for sap and also by providing special discounts on licenses and services to sap customers who chose oracle corporation products
+
+oracle and sap the latter through its recently acquired subsidiary tomorrownow competed in the third party enterprise software maintenance and support market on march 22 2007 oracle filed a lawsuit against sap in oracle corporation v sap ag oracle alleged that tomorrownow which provides discount support for legacy oracle product lines used the accounts of former oracle customers to systematically download patches and support documents from oracle s website and to appropriate them for sap s use some analysts have suggested the suit could form part of a strategy by oracle corporation to decrease competition with sap in the market for third party enterprise software maintenance and support
+
+on july 3 2007 sap admitted that tomorrownow employees had made inappropriate downloads from the oracle support website however it claims that sap personnel and sap customers had no access to oracle intellectual property via tomorrownow sap s ceo henning kagermann stated that even a single inappropriate download is unacceptable from my perspective we regret very much that this occurred additionally sap announced that it had instituted changes in tomorrownow s operational oversight
+
+on november 23 2010 a u s district court jury in oakland california found that sap ag must pay oracle corp 1 3 billion for copyright infringement awarding damages that could be the largest ever for copyright infringement while admitting liability sap estimated the damages at no more than 40 million while oracle claimed that they are at least 1 65 billion the awarded amount is one of the 10 or 20 largest jury verdicts in u s legal history sap said it was disappointed by the verdict and might appeal on september 1 2011 a federal judge overturned the judgment and offered a reduced amount or a new trial calling oracle s original award grossly excessive oracle chose a new trial
+
+on august 3 2012 sap and oracle agreed on a judgment for 306 million in damages pending approval from the u s district court judge to save time and expense of a new trial after the accord has been approved oracle can ask a federal appeals court to reinstate the earlier jury verdict in addition to the damages payment sap has already paid oracle 120 million for its legal fees
+
+oracle was ranked no 82 in the 2018 fortune 500 list of the largest united states corporations by total revenue according to bloomberg oracle s ceo to employee pay ratio is 1 205 1 the ceo s compensation in 2017 was 108 295 023 oracle is one of the approved employers of acca and the median employee compensation rate was 89 887
+
+as of september 2025 update the company s board consisted of the following directors
+
+in 2000 oracle attracted attention from the computer industry and the press after hiring private investigators to uncover unfavorable information from organizations sympathetic to rival microsoft during the investigation oracle was accused of attempting to purchase trash from a janitor at the association for competitive technology this resulted in an antitrust trial against microsoft
+
+the chairman of oracle corporation larry ellison defended his company s hiring of an east coast detective agency calling the snooping a public service the investigation reportedly included a 1 200 offer to janitors at the association for competitive technology to look through microsoft s trash
+
+in 2002 oracle corporation marketed many of its products using the slogan can t break it can t break in or unbreakable
+
+however two weeks after its introduction david litchfield alexander kornbrust cesar cerrudo and others demonstrated a suite of successful attacks against oracle products oracle corporation s chief security officer mary ann davidson said that rather than representing a literal claim of oracle s products impregnability she saw the campaign in the context of fourteen independent security evaluations that oracle corporation s database server had passed
+
+in 2004 then united states attorney general john ashcroft sued oracle corporation to prevent it from acquiring a multibillion dollar intelligence contract after ashcroft s resignation from government he founded a lobbying firm the ashcroft group which oracle hired in 2005 with the group s help oracle went on to acquire the contract
+
+oracle corporation was awarded a contract by the state of oregon s oregon health authority oha to develop cover oregon the state s healthcare exchange website as part of the u s patient protection and affordable care act when the site tried to go live on october 1 2013 it failed and registrations had to be taken using paper applications until the site could be fixed
+
+in august 2014 oracle corporation sued cover oregon for breach of contract and then later that month the state of oregon sued oracle corporation in a civil complaint for breach of contract fraud filing false claims and racketeering in september 2016 the two sides reached a settlement valued at over 100 million to the state and a six year agreement for oracle to continue modernizing state software and it
+
+
+
+in august 2022 a class action lawsuit was filed against oracle by the law firm lieff cabraser the lawsuit alleged that oracle engaged in deliberate and purposeful surveillance of the general population via their digital and online existence specifically focusing on oracle operating a surveillance machine that tracked and recorded personal data in real time the litigants alleged that through such surveillance the company violated the federal electronic communications privacy act california s state constitution the california invasion of privacy act competition law and california common law
+
+the lawsuit was settled in july 2024 for 115 million
+
+between 2011 and 2024 oracle was investigated for engaging in bribery practices that violated the foreign corrupt practices act across its subsidiaries in south africa india turkey and the united arab emirates in all instances the company settled with the united states securities and exchange commission
+
+following the beginning of the gaza war in 2023 oracle s top executives including safra catz and larry ellison publicly aligned the company with israel s military operations they issued statements of solidarity paid double salaries to israeli employees and donated to organizations connected to israel s wartime response in 2024 catz said to israeli business news outlet ctech for employees it s clear if you re not for america or israel don t work here in 2025 the intercept spoke with oracle employees who supported palestine but were afraid to speak out in their workplace sixty eight oracle employees signed an open letter criticizing the company s ties to israel
+
+on july 29 2010 the united states department of justice doj filed suit against oracle corporation alleging fraud the lawsuit argues that the government received deals inferior to those oracle gave to its commercial clients the doj added its heft to an already existing whistleblower lawsuit filed by paul frascella who was once senior director of contract services at oracle it was settled in 2011
+
+oracle the plaintiff acquired ownership of the java computer programming language when it acquired sun microsystems in january 2010 the java software includes sets of pre developed software code to allow programs and apps to accomplish common tasks in a consistent manner the pre developed code is organized into separate packages which each contain a set of classes each class contains numerous methods which instruct a program or app to do a certain task software developers became accustomed to using java s designations at the package class and method level
+
+oracle and google the defendant tried to negotiate an agreement for oracle to license java to google which would have allowed google to use java in developing programs for mobile devices using the android operating system however the two companies never reached an agreement after negotiations failed google created its own programming platform which was based on java and contained 37 copied java packages as well as new packages developed by google
+
+on june 15 2011 hp filed a lawsuit in california superior court in santa clara claiming that oracle had breached an agreement to support the itanium microprocessor used in hp s high end enterprise servers oracle called the lawsuit an abuse of the judicial process and said that had it known sap s léo apotheker was about to be hired as hp s new ceo any support for hp s itanium servers would not have been implied
+
+on august 1 2012 a california judge said in a tentative ruling that oracle must continue porting its software at no cost until hp discontinues its sales of itanium based servers hp was awarded 3 billion in damages against oracle in 2016 hp argued oracle s canceling support damaged hp s itanium server brand oracle had announced that it would appeal both the decision and damages but the decision stayed
+
+on april 20 2012 the us general services administration banned oracle from the most popular portal for bidding on gsa contracts for undisclosed reasons oracle has previously used this portal for around four hundred million dollars a year in revenue in 2011 oracle settled with the general services administration for 199 5 million in a lawsuit filed under the false claims act
+
+in january 2010 oracle completed its acquisition of sun microsystems valued at more than 7 billion a move that transformed oracle from solely a software company to a manufacturer of both software and hardware the acquisition was delayed for several months by the european commission because of concerns about mysql but was unconditionally approved in the end in september 2011 u s state department embassy cables were leaked to wikileaks one cable revealed that the u s pressured the e u to allow oracle to acquire sun
+
+the sun acquisition was closely watched by free software users and some companies due to the fear that oracle might end sun s traditional support of free projects since the acquisition oracle has discontinued opensolaris and staroffice and sued google over the java patents oracle acquired from sun
+
+on december 20 2021 oracle announced that it agreed to acquire cerner corporation now oracle health and oracle life sciences for approximately us 28 3 billion creating a dedicated industry business unit within the company cerner is the largest international supplier of health information technology such as electronic health records ehr revenue cycle solutions and biomedical device integration platforms and has its headquarters in kansas city missouri us the deal closed in early july 2022 after receiving final approval from european regulators making it oracle s largest acquisition and one of the largest in corporate history
+
+oracle s purchase of cerner was part of an effort to introduce oracle products into the healthcare market particularly in the united states although oracle plans to expand cerner s global operations
+
+in september 2024 oracle announced new investments and the release of oracle clinical digital assistant a generative ai system that automatically creates consultation documentation and proposes orders
+
+oracle has acquired the following technology companies
+
+in march 2025 a threat actor claimed to have stolen 6 million data records from oracle health formerly cerner oracle claimed that its oracle cloud infrastructure was not breached and that no customer data from it was exposed some legacy cerner servers experienced unauthorized access but oracle has not confirmed the scale of impact in april 2025 the cybersecurity and infrastructure security agency cisa issued a warning to oracle customers to secure their environments
+
+on september 13 2020 bloomberg news reported that oracle won a bidding war with other u s based companies to take over social media company tiktok s operations in the united states following the company s pressure to forcibly be shut down by the trump administration oracle was described as a trusted tech partner by tiktok on september 19 2020 the trump administration approved of the sale of tiktok s us operations to oracle delaying by one week restrictions that were originally to take effect on september 20 as indicated by the united states department of commerce
+
+as september 25 2025 tiktok was bought by silver lake and abu dhabi s mgx oracle will own 45 of the app in the us and bytedance 35 after delays with the ban for the 4th time
+
+oracle will store data of us tiktok users on its cloud computers and it will be involved in the new tiktok spinoff s cybersecurity
+
+oracle partnered with the arms company anduril industries to provide their lattice military software platform to the governments of united states united kingdom and australia
+
+oracle corporation s world headquarters are located in austin texas in april 2024 oracle announced plans to build its largest office hub with 8 500 jobs in nashville tennessee
+
+oracle has a large office complex located on the san francisco peninsula in the redwood shores area of redwood city this complex was home to oracle world headquarters from 1989 to 2020 it is located on the former site of marine world africa usa which moved from redwood shores to vallejo in 1986 oracle corporation originally leased two buildings on the oracle parkway site moving its finance and administration departments from the corporation s former headquarters on davis drive belmont california eventually oracle purchased the complex and constructed four additional buildings
+
+the distinctive oracle parkway buildings nicknamed the emerald city served as sets for the futuristic headquarters of the fictional company northam robotics in the robin williams film bicentennial man 1999 the campus also represented the headquarters of cyberdyne systems in the movie terminator genisys 2015
+
+oracle corporation operates in multiple markets and has acquired many companies to help it do so in some cases these companies became the starting points for global business units gbus targeting particular vertical markets oracle corporation s gbus include
+
+in 1994 and 1995 oracle sponsored benetton formula
+
+from 2001 to 2021 sean tucker s stunt biplane was sponsored by oracle and performed frequently at air shows around the us
+
+in october 2006 the golden state warriors and the oracle corporation announced a 10 year agreement in which the oakland arena would become known as the oracle arena the agreement ended after the 2018 2019 nba season when the warriors relocated to the chase center in san francisco in january 2019 the san francisco giants entered into a 20 year agreement to rename its stadium oracle park
+
+larry ellison s sailing team competes as oracle team usa the team won the america s cup twice in 2010 as bmw oracle racing and in 2013 despite being penalized for cheating
+
+from the 2022 formula one season oracle signed a five year deal worth 500 million to become title sponsors of red bull racing after already being a sponsor effective from the 2021 season

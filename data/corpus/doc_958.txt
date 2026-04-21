@@ -1,0 +1,19 @@
+
+
+nils john nilsson february 6 1933 april 23 2019 was an american computer scientist he was one of the founding researchers in the discipline of artificial intelligence he was the first kumagai professor of engineering in computer science at stanford university from 1991 until his retirement he is particularly known for his contributions to search planning knowledge representation and robotics
+
+nilsson was born in saginaw michigan in 1933 he received his ph d from stanford in 1958 and spent much of his career at sri international a private research lab spun off from stanford
+
+nilsson served as a lieutenant in the u s air force from 1958 to 1961 he was stationed at the rome air development center in rome new york
+
+starting in 1966 nilsson along with charles a rosen and bertram raphael led a research team in the construction of shakey a robot that constructed a model of its environment from sensor data reasoned about that environment to arrive at a plan of action then carried that plan out by sending commands to its motors this paradigm has been enormously influential in ai textbooks such as introduction to artificial intelligence essentials of artificial intelligence and the first edition of artificial intelligence a modern approach show this influence in almost every chapter although the basic idea of using logical reasoning to decide on actions is due to john mccarthy nilsson s group was the first to embody it in a complete agent along the way inventing the a search algorithm and founding the field of automated temporal planning in the latter pursuit they invented the strips planner whose action representation is still the basis of many of today s planning algorithms the subfield of automated temporal planning called classical planning is based on most of the assumptions built into strips
+
+in 1985 nilsson became a faculty member at stanford university in the computer science department he was chair of the department from 1985 to 1990 he was the kumagai professor of engineering from the foundation of the chair in around 1991 until his retirement and remained kumagai professor emeritus until his death
+
+he was the fourth president of the aaai 1982 83 and a founding fellow of that organization nilsson wrote or coauthored several books on ai including two that have been especially widely read principles of artificial intelligence 1982 and logical foundations of artificial intelligence 1987
+
+in 2011 nilsson was inducted into ieee intelligent systems ai s hall of fame for the significant contributions to the field of ai and intelligent systems citation needed
+
+on july 19 1958 nilsson married karen braucht with whom he had two children braucht died in 1991 in 1992 he married grace abbott who had four children from a previous marriage
+
+nilsson died on april 23 2019 at his home in medford oregon at the age of 86

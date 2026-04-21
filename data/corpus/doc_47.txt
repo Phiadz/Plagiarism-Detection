@@ -1,0 +1,47 @@
+
+
+john wilder tukey ˈtuːki june 16 1915 july 26 2000 was an american mathematician and statistician best known for the development of the fast fourier transform fft algorithm the box plot and for laying the foundations of the field of exploratory data analysis the tukey range test the tukey lambda distribution the tukey test of additivity and the teichmüller tukey lemma all bear his name he is also credited with coining the term bit and the first published use of the word software
+
+tukey was born in new bedford massachusetts in 1915 to a latin teacher father and a private tutor he was mainly taught by his mother and attended regular classes only for certain subjects like french tukey obtained a b a in 1936 and m s in 1937 in chemistry from brown university before moving to princeton university where in 1939 he received a phd in mathematics after completing a doctoral dissertation titled on denumerability in topology
+
+during world war ii tukey worked at the fire control research office and collaborated with samuel wilks and william cochran after the war he returned to princeton dividing his time between the university and at t bell laboratories in 1962 tukey was elected to the american philosophical society he became a full professor at 35 and founding chairman of the princeton statistics department in 1965
+
+he was awarded the national medal of science by president nixon in 1973 he was awarded the ieee medal of honor in 1982 for his contributions to the spectral analysis of random processes and the fast fourier transform fft algorithm
+
+tukey retired in 1985 he died in new brunswick new jersey on july 26 2000
+
+early in his career tukey worked on developing statistical methods for computers at bell labs where he coined the word bit in 1947
+
+his statistical interests were many and varied he is particularly remembered for his development with james cooley of the cooley tukey fft algorithm in 1970 he contributed significantly to what is today known as the jackknife also termed quenouille tukey jackknife he introduced the box plot in his 1977 book exploratory data analysis building on the earlier work of mary eleanor spear
+
+tukey s range test the tukey lambda distribution tukey s test of additivity tukey s lemma and the tukey window all bear his name he is also the creator of several little known methods such as the trimean and median median line an easier alternative to linear regression
+
+in 1974 he developed with jerome h friedman the concept of the projection pursuit
+
+john tukey contributed greatly to statistical practice and data analysis in general in fact some regard john tukey as the father of data science at the very least he pioneered many of the key foundations of what came later to be known as data science
+
+making sense of data has a long history and has been addressed by statisticians mathematicians scientists and others for many many years during the 1960s tukey challenged the dominance at the time of what he called confirmatory data analysis statistical analyses driven by rigid mathematical configurations tukey emphasized the importance of having a more flexible attitude towards data analysis and of exploring data carefully to see what structures and information might be contained therein he called this exploratory data analysis eda in many ways eda was a precursor to data science
+
+tukey also realized the importance of computer science to eda graphics are an integral part of eda methodology and while much of tukey s work focused on static displays such as box plots that could be drawn by hand he realized that computer graphics would be much more effective for studying multivariate data prim 9 the first program for viewing multivariate data was conceived by him during the early 1970s
+
+this coupling of data analysis and computer science is what is now called data science
+
+tukey articulated the important distinction between exploratory data analysis and confirmatory data analysis believing that much statistical methodology placed too great an emphasis on the latter though he believed in the utility of separating the two types of analysis he pointed out that sometimes especially in natural science this was problematic and termed such situations uncomfortable science
+
+a d gordon of the university of st andrews offered the following summary of tukey s principles for statistical practice
+
+the usefulness and limitation of mathematical statistics the importance of having methods of statistical analysis that are robust to violations of the assumptions underlying their use the need to amass experience of the behaviour of specific methods of analysis in order to provide guidance on their use the importance of allowing the possibility of data s influencing the choice of method by which they are analysed the need for statisticians to reject the role of guardian of proven truth and to resist attempts to provide once for all solutions and tidy over unifications of the subject the iterative nature of data analysis implications of the increasing power availability and cheapness of computing facilities the training of statisticians
+tukey s lectures were described to be unusual mccullagh described his lecture given in london in 1977
+
+tukey ambled to the podium a great bear of a man dressed in baggy pants and a black knitted shirt these might once have been a matching pair but the vintage was such that it was hard to tell carefully and deliberately a list of headings was chalked on the blackboard the words came too not many like overweight parcels delivered at a slow unfaltering pace when it was complete tukey turned to face the audience and the podium comments queries suggestions he asked the audience as he waited for a response he clambered onto the podium and manoeuvred until he was sitting cross legged facing the audience we in the audience sat like spectators at the zoo waiting for the great bear to move or say something but the great bear appeared to be doing the same thing and the feeling was not comfortable
+tukey made wide ranging contributions beyond statistics once reportedly remarking the best thing about being a statistician is that you get to play in everyone s backyard
+
+in the 1950s tukey served on a committee of the national research council that produced a report critiquing the statistical methodology of the kinsey report and he chaired a committee in the 1970s on the role of aerosol sprays in damaging the ozone layer
+
+from 1960 to 1980 tukey helped design the nbc television network polls used to predict and analyze elections he was also a consultant to the educational testing service the xerox corporation and merck company
+
+during the 1970s and early 1980s tukey played a key role in the design and conduct of the national assessment of educational progress citation needed
+
+while working with john von neumann on early computer designs tukey introduced the word bit as a portmanteau of binary digit the term bit was first used in an article by claude shannon in 1948
+
+tukey is also credited with the first use of the word software to describe computer programs in a 1958 article in american mathematical monthly

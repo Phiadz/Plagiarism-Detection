@@ -1,0 +1,317 @@
+a computer program is a sequence or set a of instructions in a programming language for a computer to execute it is one component of software which also includes documentation and other intangible components
+
+a computer program in its human readable form is called source code source code needs another computer program to execute because computers can only execute their native machine instructions therefore source code may be translated to machine instructions using a compiler written for the language assembly language programs are translated using an assembler the resulting file is called an executable alternatively source code may execute within an interpreter written for the language
+
+if the executable is requested for execution b then the operating system loads it into memory and starts a process the central processing unit will soon switch to this process so it can fetch decode and then execute each machine instruction
+
+if the source code is requested for execution then the operating system loads the corresponding interpreter into memory and starts a process the interpreter then loads the source code into memory to translate and execute each statement running the source code is slower than running an executable c moreover the interpreter must be installed on the computer
+
+the hello world program is used to illustrate a language s basic syntax the syntax of the language basic 1964 was intentionally limited to make the language easy to learn for example variables are not declared before being used also variables are automatically initialized to zero here is an example computer program in basic to average a list of numbers
+
+once the mechanics of basic computer programming are learned more sophisticated and powerful languages are available to build large computer systems
+
+improvements in software development are the result of improvements in computer hardware at each stage in hardware s history the task of computer programming changed dramatically
+
+in 1837 jacquard s loom inspired charles babbage to attempt to build the analytical engine
+the names of the components of the calculating device were borrowed from the textile industry in the textile industry yarn was brought from the store to be milled the device had a store which consisted of memory to hold 1 000 numbers of 50 decimal digits each numbers from the store were transferred to the mill for processing the engine was programmed using two sets of perforated cards one set directed the operation and the other set inputted the variables however the thousands of cogged wheels and gears never fully worked together
+
+ada lovelace worked for charles babbage to create a description of the analytical engine 1843 the description contained note g which completely detailed a method for calculating bernoulli numbers using the analytical engine this note is recognized by some historians as the world s first computer program
+
+in 1936 alan turing introduced the universal turing machine a theoretical device that can model every computation
+it is a finite state machine that has an infinitely long read write tape the machine can move the tape back and forth changing its contents as it performs an algorithm the machine starts in the initial state goes through a sequence of steps and halts when it encounters the halt state all present day computers are turing complete
+
+the electronic numerical integrator and computer eniac was built between july 1943 and fall 1945 it was a turing complete general purpose computer that used 17 468 vacuum tubes to create the circuits at its core it was a series of pascalines wired together its 40 units weighed 30 tons occupied 1 800 square feet 167 m2 and consumed 650 per hour in 1940s currency in electricity when idle it had 20 base 10 accumulators programming the eniac took up to two months three function tables were on wheels and needed to be rolled to fixed function panels function tables were connected to function panels by plugging heavy black cables into plugboards each function table had 728 rotating knobs programming the eniac also involved setting some of the 3 000 switches debugging a program took a week it ran from 1947 until 1955 at aberdeen proving ground calculating hydrogen bomb parameters predicting weather patterns and producing firing tables to aim artillery guns
+
+instead of plugging in cords and turning switches a stored program computer loads its instructions into memory just like it loads its data into memory as a result the computer could be programmed quickly and perform calculations at very fast speeds presper eckert and john mauchly built the eniac the two engineers introduced the stored program concept in a three page memo dated february 1944 later in september 1944 john von neumann began working on the eniac project on june 30 1945 von neumann published the first draft of a report on the edvac which equated the structures of the computer with the structures of the human brain the design became known as the von neumann architecture the architecture was simultaneously deployed in the constructions of the edvac and edsac computers in 1949
+
+the ibm system 360 1964 was a family of computers each having the same instruction set architecture the model 20 was the smallest and least expensive customers could upgrade and retain the same application software the model 195 was the most premium each system 360 model featured multiprogramming having multiple processes in memory at once when one process was waiting for input output another could compute
+
+ibm planned for each model to be programmed using pl i a committee was formed that included cobol fortran and algol programmers the purpose was to develop a language that was comprehensive easy to use extendible and would replace cobol and fortran the result was a large and complex language that took a long time to compile
+
+computers manufactured until the 1970s had front panel switches for manual programming the computer program was written on paper for reference an instruction was represented by a configuration of on off settings after setting the configuration an execute button was pressed this process was then repeated computer programs also were automatically inputted via paper tape punched cards or magnetic tape after the medium was loaded the starting address was set via switches and the execute button was pressed
+
+a major milestone in software development was the invention of the very large scale integration vlsi circuit 1964
+
+robert noyce co founder of fairchild semiconductor 1957 and intel 1968 achieved a technological improvement to refine the production of field effect transistors 1963 the goal is to alter the electrical resistivity and conductivity of a semiconductor junction first naturally occurring silicate minerals are converted into polysilicon rods using the siemens process the czochralski process then converts the rods into a monocrystalline silicon boule crystal the crystal is then thinly sliced to form a wafer substrate the planar process of photolithography then integrates unipolar transistors capacitors diodes and resistors onto the wafer to build a matrix of metal oxide semiconductor mos transistors the mos transistor is the primary component in integrated circuit chips
+
+originally integrated circuit chips had their function set during manufacturing during the 1960s controlling the electrical flow migrated to programming a matrix of read only memory rom the matrix resembled a two dimensional array of fuses the process to embed instructions onto the matrix was to burn out the unneeded connections
+
+in 1969 busicom a japanese calculator company contracted with intel to manufacture 12 integrated circuit chips each for a specific calculator function ted hoff the engineer tasked with the assignment realized he could build one chip that could execute computer programs to perform the 12 calculator functions
+the resulting chip was called the intel 4004 microprocessor
+
+the terms microprocessor and central processing unit cpu are now used interchangeably however cpus predate microprocessors for example the ibm system 360 1964 had a cpu made from circuit boards containing discrete components on ceramic substrates
+
+in 1978 the modern software development environment began when intel upgraded the intel 8080 to the intel 8086 intel simplified the intel 8086 to manufacture the cheaper intel 8088 ibm embraced the intel 8088 when they entered the personal computer market 1981 as consumer demand for personal computers increased so did intel s microprocessor development the succession of development is known as the x86 series the x86 assembly language is a family of backward compatible machine instructions machine instructions created in earlier microprocessors were retained throughout microprocessor upgrades this enabled consumers to purchase new computers without having to purchase new application software the major categories of instructions are d
+
+vlsi circuits enabled the programming environment to advance from a computer terminal until the 1990s to a graphical user interface gui computer computer terminals limited programmers to a single shell running in a command line environment during the 1970s full screen source code editing became possible through a text based user interface regardless of the technology available the goal is to program in a programming language
+
+programming language features exist to provide building blocks to be combined to express programming ideals ideally a programming language should
+
+the programming style of a programming language to provide these building blocks may be categorized into programming paradigms for example different paradigms may differentiate
+
+each of these programming styles has contributed to the synthesis of different programming languages
+
+a programming language is a set of keywords symbols identifiers and rules by which programmers can communicate instructions to the computer they follow a set of rules called a syntax
+
+programming languages get their basis from formal languages the purpose of defining a solution in terms of its formal language is to generate an algorithm to solve the underlining problem an algorithm is a sequence of simple instructions that solve a problem
+
+the evolution of programming languages began when the edsac 1949 used the first stored computer program in its von neumann architecture programming the edsac was in the first generation of programming language
+
+imperative languages specify a sequential algorithm using declarations expressions and statements
+
+fortran 1958 was unveiled as the ibm mathematical formula translating system it was designed for scientific calculations without string handling facilities along with declarations expressions and statements it supported
+
+it succeeded because
+
+however non ibm vendors also wrote fortran compilers but with a syntax that would likely fail ibm s compiler the american national standards institute ansi developed the first fortran standard in 1966 in 1978 fortran 77 became the standard until 1991 fortran 90 supports
+
+cobol 1959 stands for common business oriented language fortran manipulated symbols it was soon realized that symbols did not need to be numbers so strings were introduced the us department of defense influenced cobol s development with grace hopper being a major contributor the statements were english like and verbose the goal was to design a language so managers could read the programs however the lack of structured statements hindered this goal
+
+cobol s development was tightly controlled so dialects did not emerge to require ansi standards as a consequence it was not changed for 15 years until 1974 the 1990s version did make consequential changes like object oriented programming
+
+algol 1960 stands for algorithmic language it had a profound influence on programming language design emerging from a committee of european and american programming language experts it used standard mathematical notation and had a readable structured design algol was first to define its syntax using the backus naur form this led to syntax directed compilers it added features like
+
+algol s direct descendants include pascal modula 2 ada delphi and oberon on one branch on another branch the descendants include c c and java
+
+basic 1964 stands for beginner s all purpose symbolic instruction code it was developed at dartmouth college for all of their students to learn if a student did not go on to a more powerful language the student would still remember basic a basic interpreter was installed in the microcomputers manufactured in the late 1970s as the microcomputer industry grew so did the language
+
+basic pioneered the interactive session it offered operating system commands within its environment
+
+however the basic syntax was too simple for large programs recent dialects added structure and object oriented extensions microsoft s visual basic is still widely used and produces a graphical user interface
+
+c programming language 1973 got its name because the language bcpl was replaced with b and at t bell labs called the next version c its purpose was to write the unix operating system c is a relatively small language making it easy to write compilers its growth mirrored the hardware growth in the 1980s its growth also was because it has the facilities of assembly language but it uses a high level syntax it added advanced features like
+
+c allows the programmer to control which region of memory data is to be stored global variables and static variables require the fewest clock cycles to store the stack is automatically used for the standard variable declarations heap memory is returned to a pointer variable from the malloc function
+
+in the 1970s software engineers needed language support to break large projects down into modules one obvious feature was to decompose large projects physically into separate files a less obvious feature was to decompose large projects logically into abstract data types at the time languages supported concrete scalar datatypes like integer numbers floating point numbers and strings of characters abstract datatypes are structures of concrete datatypes with a new name assigned for example a list of integers could be called integer_list
+
+in object oriented jargon abstract datatypes are called classes however a class is only a definition no memory is allocated when memory is allocated to a class and bound to an identifier it is called an object
+
+object oriented imperative languages developed by combining the need for classes and the need for safe functional programming a function in an object oriented language is assigned to a class an assigned function is then referred to as a method member function or operation object oriented programming is executing operations on objects
+
+object oriented languages support a syntax to model subset superset relationships in set theory an element of a subset inherits all the attributes contained in the superset for example a student is a person therefore the set of students is a subset of the set of persons as a result students inherit all the attributes common to all persons additionally students have unique attributes that other people do not have object oriented languages model subset superset relationships using inheritance object oriented programming became the dominant language paradigm by the late 1990s
+
+c 1985 was originally called c with classes it was designed to expand c s capabilities by adding the object oriented facilities of the language simula
+
+an object oriented module is composed of two files the definitions file is called the header file here is a c header file for the grade class in a simple school application
+
+a constructor operation is a function with the same name as the class name it is executed when the calling operation executes the new statement
+
+a module s other file is the source file here is a c source file for the grade class in a simple school application
+
+here is a c header file for the person class in a simple school application
+
+here is a c source file for the person class in a simple school application
+
+here is a c header file for the student class in a simple school application
+
+here is a c source file for the student class in a simple school application
+
+here is a driver program for demonstration
+
+here is a makefile to compile everything
+
+imperative languages have one major criticism assigning an expression to a non local variable may produce an unintended side effect declarative languages generally omit the assignment statement and the control flow they describe what computation should be performed and not how to compute it two broad categories of declarative languages are functional languages and logical languages
+
+the principle behind a functional language is to use lambda calculus as a guide for a well defined semantic in mathematics a function is a rule that maps elements from an expression to a range of values consider the function
+
+times_10 x 10 x
+
+the expression 10 x is mapped by the function times_10 to a range of values one value happens to be 20 this occurs when x is 2 so the application of the function is mathematically written as
+
+times_10 2 20
+
+a functional language compiler will not store this value in a variable instead it will push the value onto the computer s stack before setting the program counter back to the calling function the calling function will then pop the value from the stack
+
+imperative languages do support functions therefore functional programming can be achieved in an imperative language if the programmer uses discipline however a functional language will force this discipline onto the programmer through its syntax functional languages have a syntax tailored to emphasize the what
+
+a functional program is developed with a set of primitive functions followed by a single driver function consider the snippet
+
+function max a b code omitted
+
+function min a b code omitted
+
+function range a b c
+
+
+
+the primitives are max and min the driver function is range executing
+
+put range 10 4 7 will output 6
+
+functional languages are used in computer science research to explore new language features moreover their lack of side effects have made them popular in parallel programming and concurrent programming however application developers prefer the object oriented features of imperative languages
+
+lisp 1958 stands for list processor it is tailored to process lists a full structure of the data is formed by building lists of lists in memory a tree data structure is built internally the tree structure lends nicely for recursive functions the syntax to build a tree is to enclose the space separated elements within parenthesis the following is a list of three elements the first two elements are themselves lists of two elements
+
+a b hello world 94
+
+lisp has functions to extract and reconstruct elements the function head returns a list containing the first element in the list the function tail returns a list containing everything but the first element the function cons returns a list that is the concatenation of other lists therefore the following expression will return the list x
+
+cons head x tail x
+
+one drawback of lisp is when many functions are nested the parentheses may look confusing modern lisp environments help ensure parenthesis match as an aside lisp does support the imperative language operations of the assignment statement and goto loops also lisp is not concerned with the datatype of the elements at compile time instead it assigns and may reassign the datatypes at runtime assigning the datatype at runtime is called dynamic binding whereas dynamic binding increases the language s flexibility programming errors may linger until late in the software development process
+
+writing large reliable and readable lisp programs requires forethought if properly planned the program may be much shorter than an equivalent imperative language program lisp is widely used in artificial intelligence however its usage has been accepted only because it has imperative language operations making unintended side effects possible
+
+ml 1973 stands for meta language ml checks to make sure only data of the same type are compared with one another for example this function has one input parameter an integer and returns an integer
+
+ml is not parenthesis eccentric like lisp the following is an application of times_10
+
+it returns 20 int both the results and the datatype are returned
+
+like lisp ml is tailored to process lists unlike lisp each element is the same datatype moreover ml assigns the datatype of an element at compile time assigning the datatype at compile time is called static binding static binding increases reliability because the compiler checks the context of variables before they are used
+
+prolog 1972 stands for programming in logic it is a logic programming language based on formal logic the language was developed by alain colmerauer and philippe roussel in marseille france it is an implementation of selective linear definite clause resolution pioneered by robert kowalski and others at the university of edinburgh
+
+the building blocks of a prolog program are facts and rules here is a simple example
+
+after all the facts and rules are entered then a question can be asked
+
+the following example shows how prolog will convert a letter grade to its numeric value
+
+here is a comprehensive example
+
+1 all dragons billow fire or equivalently a thing billows fire if the thing is a dragon
+
+2 a creature billows fire if one of its parents billows fire
+
+3 a thing x is a parent of a thing y if x is the mother of y or x is the father of y
+
+4 a thing is a creature if the thing is a dragon
+
+5 norberta is a dragon and puff is a creature norberta is the mother of puff
+
+rule 2 is a recursive inductive definition it can be understood declaratively without the need to understand how it is executed
+
+rule 3 shows how functions are represented by using relations here the mother and father functions ensure that every individual has only one mother and only one father
+
+prolog is an untyped language nonetheless inheritance can be represented by using predicates rule 4 asserts that a creature is a superclass of a dragon
+
+questions are answered using backward reasoning given the question
+
+prolog generates two answers
+
+practical applications for prolog are knowledge representation and problem solving in artificial intelligence
+
+object oriented programming is a programming method to execute operations functions on objects the basic idea is to group the characteristics of a phenomenon into an object container and give the container a name the operations on the phenomenon are also grouped into the container object oriented programming developed by combining the need for containers and the need for safe functional programming this programming method need not be confined to an object oriented language in an object oriented language an object container is called a class in a non object oriented language a data structure which is also known as a record may become an object container to turn a data structure into an object container operations need to be written specifically for the structure the resulting structure is called an abstract datatype however inheritance will be missing nonetheless this shortcoming can be overcome
+
+here is a c programming language header file for the grade abstract datatype in a simple school application
+
+the grade_new function performs the same algorithm as the c constructor operation
+
+here is a c programming language source file for the grade abstract datatype in a simple school application
+
+in the constructor the function calloc is used instead of malloc because each memory cell will be set to zero
+
+here is a c programming language header file for the person abstract datatype in a simple school application
+
+here is a c programming language source file for the person abstract datatype in a simple school application
+
+here is a c programming language header file for the student abstract datatype in a simple school application
+
+here is a c programming language source file for the student abstract datatype in a simple school application
+
+here is a driver program for demonstration
+
+here is a makefile to compile everything
+
+the formal strategy to build object oriented objects is to
+
+for example
+
+the syntax of a computer program is a list of production rules which form its grammar a programming language s grammar correctly places its declarations expressions and statements complementing the syntax of a language are its semantics the semantics describe the meanings attached to various syntactic constructs a syntactic construct may need a semantic description because a production rule may have an invalid interpretation also different languages might have the same syntax however their behaviors may be different
+
+the syntax of a language is formally described by listing the production rules whereas the syntax of a natural language is extremely complicated a subset of the english language can have this production rule listing
+
+the words in bold face are known as non terminals the words in single quotes are known as terminals
+
+from this production rule listing complete sentences may be formed using a series of replacements the process is to replace non terminals with either a valid non terminal or a valid terminal the replacement process repeats until only terminals remain one valid sentence is
+
+however another combination results in an invalid sentence
+
+therefore a semantic is necessary to correctly describe the meaning of an eat activity
+
+one production rule listing method is called the backus naur form bnf bnf describes the syntax of a language and itself has a syntax this recursive definition is an example of a metalanguage the syntax of bnf includes
+
+using bnf a subset of the english language can have this production rule listing
+
+using bnf a signed integer has the production rule listing
+
+notice the recursive production rule
+
+this allows for an infinite number of possibilities therefore a semantic is necessary to describe a limitation of the number of digits
+
+notice the leading zero possibility in the production rules
+
+therefore a semantic is necessary to describe that leading zeros need to be ignored
+
+two formal methods are available to describe semantics they are denotational semantics and axiomatic semantics
+
+software engineering is a variety of techniques to produce quality computer programs computer programming is the process of writing or editing source code in a formal environment a systems analyst will gather information from managers about all the organization s processes to automate this professional then prepares a detailed plan for the new or modified system the plan is analogous to an architect s blueprint
+
+the systems analyst has the objective to deliver the right information to the right person at the right time the critical factors to achieve this objective are
+
+achieving performance objectives should be balanced with all of the costs including
+
+applying a systems development process will mitigate the axiom the later in the process an error is detected the more expensive it is to correct
+
+the waterfall model is an implementation of a systems development process as the waterfall label implies the basic phases overlap each other
+
+a computer programmer is a specialist responsible for writing or modifying the source code to implement the detailed plan a programming team is likely to be needed because most systems are too large to be completed by a single programmer however adding programmers to a project may not shorten the completion time instead it may lower the quality of the system to be effective program modules need to be defined and distributed to team members also team members must interact with one another in a meaningful and effective way
+
+computer programmers may be programming in the small programming within a single module chances are a module will execute modules located in other source code files therefore computer programmers may be programming in the large programming modules so they will effectively couple with each other programming in the large includes contributing to the application programming interface api
+
+modular programming is a technique to refine imperative language programs refined programs may reduce the software size separate responsibilities and thereby mitigate software aging a program module is a sequence of statements that are bounded within a block and together identified by a name modules have a function context and logic
+
+the module s name should be derived first by its function then by its context its logic should not be part of the name for example function compute_square_root x or function compute_square_root_integer i integer are appropriate module names however function compute_square_root_by_division x is not
+
+the degree of interaction within a module is its level of cohesion cohesion is a judgment of the relationship between a module s name and its function the degree of interaction between modules is the level of coupling coupling is a judgement of the relationship between a module s context and the elements being performed upon
+
+the levels of cohesion from worst to best are
+
+the levels of coupling from worst to best are
+
+data flow analysis is a design method used to achieve modules of functional cohesion and data coupling the input to the method is a data flow diagram a data flow diagram is a set of ovals representing modules each module s name is displayed inside its oval modules may be at the executable level or the function level
+
+the diagram also has arrows connecting modules to each other arrows pointing into modules represent a set of inputs each module should have only one arrow pointing out from it to represent its single output object optionally an additional exception arrow points out a daisy chain of ovals will convey an entire algorithm the input modules should start the diagram the input modules should connect to the transform modules the transform modules should connect to the output modules
+
+computer programs may be categorized along functional lines the main functional categories are application software and system software system software includes the operating system which couples computer hardware with application software the purpose of the operating system is to provide an environment where application software executes in a convenient and efficient manner both application software and system software execute utility programs at the hardware level a microcode program controls the circuits throughout the central processing unit
+
+application software is the key to unlocking the potential of the computer system enterprise application software bundles accounting personnel customer and vendor applications examples include enterprise resource planning customer relationship management and supply chain management software
+
+enterprise applications may be developed in house as a one of a kind proprietary software alternatively they may be purchased as off the shelf software purchased software may be modified to provide custom software if the application is customized then either the company s resources are used or the resources are outsourced outsourced software development may be from the original software vendor or a third party developer
+
+the potential advantages of in house software are features and reports may be developed exactly to specification management may also be involved in the development process and offer a level of control management may decide to counteract a competitor s new initiative or implement a customer or vendor requirement a merger or acquisition may necessitate enterprise software changes the potential disadvantages of in house software are time and resource costs may be extensive furthermore risks concerning features and performance may be looming
+
+the potential advantages of off the shelf software are upfront costs are identifiable the basic needs should be fulfilled and its performance and reliability have a track record the potential disadvantages of off the shelf software are it may have unnecessary features that confuse end users it may lack features the enterprise needs and the data flow may not match the enterprise s work processes
+
+one approach to economically obtaining a customized enterprise application is through an application service provider specialty companies provide hardware custom software and end user support they may speed the development of new applications because they possess skilled information system staff the biggest advantage is it frees in house resources from staffing and managing complex computer projects many application service providers target small fast growing companies with limited information system resources on the other hand larger companies with major systems will likely have their technical infrastructure in place one risk is having to trust an external organization with sensitive information another risk is having to trust the provider s infrastructure reliability
+
+an operating system is the low level software that supports a computer s basic functions such as scheduling processes and controlling peripherals
+
+in the 1950s the programmer who was also the operator would write a program and run it after the program finished executing the output may have been printed or it may have been punched onto paper tape or cards for later processing more often than not the program did not work the programmer then looked at the console lights and fiddled with the console switches if less fortunate a memory printout was made for further study in the 1960s programmers reduced the amount of wasted time by automating the operator s job a program called an operating system was kept in the computer at all times
+
+the term operating system may refer to two levels of software the operating system may refer to the kernel program that manages the processes memory and devices more broadly the operating system may refer to the entire package of the central software the package includes a kernel program command line interpreter graphical user interface utility programs and editor
+
+the kernel s main purpose is to manage the limited resources of a computer
+
+originally operating systems were programmed in assembly however modern operating systems are typically written in higher level languages like c objective c and swift m
+
+a utility is a program that aids system administration and software execution an operating system typically provides utilities to check hardware such as storage memory speakers and printers a utility may optimize the performance of a storage device system utilities monitor hardware and network performance and may trigger an alert when a metric is outside the nominal range a utility may compress files to reduce storage space and network transmission time a utility may sort and merge data sets or detect computer viruses
+
+a microcode program is the bottom level interpreter n that controls the datapath of software driven computers
+advances in hardware have migrated these operations to hardware execution circuits microcode instructions allow the programmer to more easily implement the digital logic level the computer s real hardware the digital logic level is the boundary between computer science and computer engineering
+
+a logic gate is a tiny transistor that can return one of two signals on or off
+
+these five gates form the building blocks of binary algebra the digital logic functions of the computer
+
+microcode instructions are mnemonics programmers may use to execute digital logic functions instead of forming them in binary algebra they are stored in a central processing unit s cpu control store
+these hardware level instructions move data throughout the data path
+
+the micro instruction cycle begins when the microsequencer uses its microprogram counter to fetch the next machine instruction from random access memory the next step is to decode the machine instruction by selecting the proper output line to the hardware module
+the final step is to execute the instruction using the hardware module s set of gates
+
+instructions to perform arithmetic are passed through an arithmetic logic unit alu the alu has circuits to perform elementary operations to add shift and compare integers by combining and looping the elementary operations through the alu the cpu performs its complex arithmetic
+
+microcode instructions move data between the cpu and the memory controller memory controller microcode instructions manipulate two registers the memory address register is used to access each memory cell s address the memory data register is used to set and read each cell s contents

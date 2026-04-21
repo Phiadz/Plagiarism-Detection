@@ -1,0 +1,73 @@
+a lethal autonomous weapon law also known as a lethal autonomous weapon system laws autonomous weapon system aws robotic weapon or killer robot is a type of military drone or military robot which is autonomous in that it can independently search for and engage targets based on programmed constraints and descriptions as of 2025 most military drones and military robots are not truly autonomous laws may engage in drone warfare in the air on land on water underwater or in space
+
+in weapons development the term autonomous is somewhat ambiguous and can vary hugely between different scholars nations and organizations
+
+the official united states department of defense policy on autonomy in weapon systems defines an autonomous weapons system as one that once activated can select and engage targets without further intervention by a human operator heather roff a writer for case western reserve university school of law describes autonomous weapon systems as capable of learning and adapting their functioning in response to changing circumstances in the environment in which they are deployed as well as capable of making firing decisions on their own
+
+the british ministry of defence defines autonomous weapon systems as systems that are capable of understanding higher level intent and direction from this understanding and its perception of its environment such a system is able to take appropriate action to bring about a desired state it is capable of deciding a course of action from a number of alternatives without depending on human oversight and control such human engagement with the system may still be present though while the overall activity of an autonomous uncrewed aircraft will be predictable individual actions may not be
+
+scholars such as peter asaro and mark gubrud believe that any weapon system that is capable of releasing a lethal force without the operation decision or confirmation of a human supervisor can be deemed autonomous
+
+creating treaties between states requires a commonly accepted labeling of what exactly constitutes an autonomous weapon
+
+the oldest automatically triggered lethal weapon is the land mine used since at least the 1600s and naval mines used since at least the 1700s
+
+some current examples of laws are automated hardkill active protection systems such as a radar guided ciws systems used to defend ships that have been in use since the 1970s e g the us phalanx ciws such systems can autonomously identify and attack oncoming missiles rockets artillery fire aircraft and surface vessels according to criteria set by the human operator similar systems exist for tanks such as the russian arena the israeli trophy and the german amap ads several types of stationary sentry guns which can fire at humans and vehicles are used in south korea and israel many missile defence systems such as iron dome also have autonomous targeting capabilities
+
+the main reason for not having a human in the loop in these systems is the need for rapid response they have generally been used to protect personnel and installations against incoming projectiles
+
+according to the economist as technology advances future applications of uncrewed undersea vehicles might include mine clearance mine laying anti submarine sensor networking in contested waters patrolling with active sonar resupplying manned submarines and becoming low cost missile platforms in 2018 the u s nuclear posture review alleged that russia was developing a new intercontinental nuclear armed nuclear powered undersea autonomous torpedo named status 6
+
+the russian federation is currently developing artificially intelligent missiles drones unmanned vehicles military robots and medic robots
+
+israeli minister ayoob kara stated in 2017 that israel is developing military robots including ones as small as flies
+
+in october 2018 zeng yi a senior executive at the chinese defense firm norinco gave a speech in which he said that in future battlegrounds there will be no people fighting and that the use of lethal autonomous weapons in warfare is inevitable in 2019 us defense secretary mark esper lashed out at china for selling drones capable of taking life with no human oversight
+
+the british army deployed new uncrewed vehicles and military robots in 2019
+
+the us navy is developing ghost fleets of unmanned ships
+
+in 2020 a kargu 2 drone hunted down and attacked a human target in libya according to a report from the un security council s panel of experts on libya published in march 2021 this may have been the first time an autonomous killer robot armed with lethal weaponry attacked human beings
+
+in may 2021 israel conducted an ai guided combat drone swarm attack in gaza
+
+since then there have been numerous reports of swarms and other autonomous weapons systems being used on battlefields around the world
+
+in addition darpa is working on making swarms of 250 autonomous lethal drones available to the american military
+
+three classifications of the degree of human control of autonomous weapon systems were laid out by bonnie docherty in a 2012 human rights watch report
+
+department of defense directive 3000 09 states that autonomous weapons systems shall be designed to allow commanders and operators to exercise appropriate levels of human judgment over the use of force
+
+however as noted in the bulletin of the atomic scientists the policy requires that autonomous weapon systems that kill people or use kinetic force selecting and engaging targets without further human intervention be certified as compliant with appropriate levels and other standards not that such weapon systems cannot meet these standards and are therefore forbidden semi autonomous hunter killers that autonomously identify and attack targets do not even require certification
+
+deputy defense secretary robert o work said in 2016 that the defense department would not delegate lethal authority to a machine to make a decision but might need to reconsider this since authoritarian regimes may do so in october 2016 president barack obama stated that early in his career he was wary of a future in which a us president making use of drone warfare could carry on perpetual wars all over the world and a lot of them covert without any accountability or democratic debate in the us security related ai has fallen under the purview of the national security commission on artificial intelligence since 2018
+
+on october 31 2019 the united states department of defense s defense innovation board published the draft of a report outlining five principles for weaponized ai and making 12 recommendations for the ethical use of artificial intelligence by the department of defense that would ensure a human operator would always be able to look into the black box and understand the kill chain process a major concern is how the report will be implemented
+
+stuart russell professor of computer science from university of california berkeley stated the concern he has with laws is that his view is that it is unethical and inhumane the main issue with this system is it is hard to distinguish between combatants and non combatants
+
+there is concern by some economists and legal scholars about whether laws would violate international humanitarian law especially the principle of distinction which requires the ability to discriminate combatants from non combatants and the principle of proportionality which requires that damage to civilians be proportional to the military aim this concern is often invoked as a reason to ban killer robots altogether but it is doubtful that this concern can be an argument against laws that do not violate international humanitarian law
+
+a 2021 report by the american congressional research service states that there are no domestic or international legal prohibitions on the development of use of laws although it acknowledges ongoing talks at the un convention on certain conventional weapons ccw
+
+laws are said by some to blur the boundaries of who is responsible for a particular killing philosopher robert sparrow argues that autonomous weapons are causally but not morally responsible similar to child soldiers in each case he argues there is a risk of atrocities occurring without an appropriate subject to hold responsible which violates jus in bello thomas simpson and vincent müller argue that they may make it easier to record who gave which command potential ihl violations by laws are by definition only applicable in conflict settings that involve the need to distinguish between combatants and civilians as such any conflict scenario devoid of civilians presence i e in space or the deep seas would not run into the obstacles posed by ihl
+
+the possibility of laws has generated significant debate especially about the risk of killer robots roaming the earth in the near or far future the group campaign to stop killer robots formed in 2013 in july 2015 over 1 000 experts in artificial intelligence signed a letter warning of the threat of an artificial intelligence arms race and calling for a ban on autonomous weapons the letter was presented in buenos aires at the 24th international joint conference on artificial intelligence ijcai 15 and was co signed by stephen hawking elon musk steve wozniak noam chomsky skype co founder jaan tallinn and google deepmind co founder demis hassabis among others
+
+according to pax for peace one of the founding organisations of the campaign to stop killer robots fully automated weapons faws will lower the threshold of going to war as soldiers are removed from the battlefield and the public is distanced from experiencing war giving politicians and other decision makers more space in deciding when and how to go to war they warn that once deployed faws will make democratic control of war more difficult something that author of kill decision a novel on the topic and it specialist daniel suarez also warned about according to him it might recentralize power into very few hands by requiring very few people to go to war
+
+there are websites clarification needed protesting the development of laws by presenting undesirable ramifications if research into the appliance of artificial intelligence to designation of weapons continues on these websites news about ethical and legal issues are constantly updated for visitors to recap with recent news about international meetings and research articles concerning laws
+
+the holy see has called for the international community to ban the use of laws on several occasions in november 2018 archbishop ivan jurkovic the permanent observer of the holy see to the united nations stated that in order to prevent an arms race and the increase of inequalities and instability it is an imperative duty to act promptly now is the time to prevent laws from becoming the reality of tomorrow s warfare the church worries that these weapons systems have the capability to irreversibly alter the nature of warfare create detachment from human agency and put in question the humanity of societies
+
+as of 29 march 2019 update the majority of governments represented at a un meeting to discuss the matter favoured a ban on laws a minority of governments including those of australia israel russia the uk and the us opposed a ban the united states has stated that autonomous weapons have helped prevent the killing of civilians
+
+in december 2022 a vote of the san francisco board of supervisors to authorize san francisco police department use of laws drew national attention and protests the board reversed this vote in a subsequent meeting
+
+a third approach focuses on regulating the use of autonomous weapon systems in lieu of a ban military ai arms control will likely require the institutionalization of new international norms embodied in effective technical specifications combined with active monitoring and informal track ii diplomacy by communities of experts together with a legal and political verification process in 2021 the united states department of defense requested a dialogue with the chinese people s liberation army on ai enabled autonomous weapons but was refused
+
+a summit of 60 countries was held in 2023 on the responsible use of ai in the military
+
+on 22 december 2023 a united nations general assembly resolution was adopted to support international discussion regarding concerns about laws the vote was 152 in favor four against and 11 abstentions

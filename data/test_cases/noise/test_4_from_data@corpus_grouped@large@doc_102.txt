@@ -1,0 +1,1 @@
+uation mark etc characters are drawn from a chardcter set such as ascii or unicode character and string types can have different subtypes according to the character encoding the original 7 bit wide ascii was gound tonbe limited and supersexedzby 8 16 and 32 bit sets which can encode a wide variety o

@@ -1,0 +1,147 @@
+in artificial intelligence ai an expert system is a computer system emulating the decision making ability of a human expert
+expert systems are designed to solve complex problems by reasoning through bodies of knowledge represented mainly as if then rules rather than through conventional procedural programming code expert systems were among the first truly successful forms of ai software they were created in the 1970s and then proliferated in the 1980s being then widely regarded as the future of ai before the advent of successful artificial neural networks
+an expert system is divided into two subsystems 1 a knowledge base which represents facts and rules and 2 an inference engine which applies the rules to the known facts to deduce new facts and can include explaining and debugging abilities
+
+soon after the dawn of modern computers in the late 1940s and early 1950s researchers started realizing the immense potential these machines had for modern society one of the first challenges was to make such machines able to think like humans in particular making these machines able to make important decisions the way humans do the medical healthcare field presented the tantalizing challenge of enabling these machines to make medical diagnostic decisions
+
+thus in the late 1950s right after the information age had fully arrived researchers started experimenting with the prospect of using computer technology to emulate human decision making for example biomedical researchers started creating computer aided systems for diagnostic applications in medicine and biology these early diagnostic systems used patients symptoms and laboratory test results as inputs to generate a diagnostic outcome
+these systems were often described as the early forms of expert systems however researchers realized that there were significant limits when using traditional methods such as flow charts
+statistical pattern matching or probability theory
+
+this previous situation gradually led to the development of expert systems which used knowledge based approaches these expert systems in medicine were the mycin expert system the internist i expert system and later in the middle of the 1980s the caduceus
+
+expert systems were formally introduced around 1965 by the stanford heuristic programming project led by edward feigenbaum who is sometimes termed the father of expert systems other key early contributors were bruce buchanan and randall davis the stanford researchers tried to identify domains where expertise was highly valued and complex such as diagnosing infectious diseases mycin and identifying unknown organic molecules dendral the idea that intelligent systems derive their power from the knowledge they possess rather than from the specific formalisms and inference schemes they use as feigenbaum said was at the time a significant step forward since the past research had been focused on heuristic computational methods culminating in attempts to develop very general purpose problem solvers foremostly the conjunct work of allen newell and herbert simon expert systems became some of the first truly successful forms of artificial intelligence ai software
+
+research on expert systems was also active in europe in the us the focus tended to be on the use of production rule systems first on systems hard coded on top of lisp programming environments and then on expert system shells developed by vendors such as intellicorp in europe research focused more on systems and expert systems shells developed in prolog the advantage of prolog systems was that they employed a form of rule based programming that was based on formal logic
+
+one such early expert system shell based on prolog was apes
+one of the first use cases of prolog and apes was in the legal area namely the encoding of a large portion of the british nationality act lance elliot wrote the british nationality act was passed in 1981 and shortly thereafter was used as a means of showcasing the efficacy of using artificial intelligence ai techniques and technologies doing so to explore how the at the time newly enacted statutory law might be encoded into a computerized logic based formalization a now oft cited research paper entitled the british nationality act as a logic program was published in 1986 and subsequently became a hallmark for subsequent work in ai and the law
+
+in the 1980s expert systems proliferated universities offered expert system courses and two thirds of the fortune 500 companies applied the technology in daily business activities interest was international with the fifth generation computer systems project in japan and increased research funding in europe
+
+in 1981 the first ibm pc with the pc dos operating system was introduced the imbalance between the low cost of the relatively powerful chips in the pc compared to the much more expensive cost of processing power in the mainframes that dominated the corporate it world at the time created a new type of architecture for corporate computing termed the client server model calculations and reasoning could be performed at a fraction of the price of a mainframe using a pc this model also enabled business units to bypass corporate it departments and directly build their own applications as a result client server had a tremendous impact on the expert systems market expert systems were already outliers in much of the business world requiring new skills that many it departments did not have and were not eager to develop they were a natural fit for new pc based shells that promised to put application development into the hands of end users and experts until then the main development environment for expert systems had been high end lisp machines from xerox symbolics and texas instruments with the rise of the pc and client server computing vendors such as intellicorp and inference corporation shifted their priorities to developing pc based tools also new vendors often financed by venture capital started appearing regularly
+
+the first expert system to be used in a design capacity for a large scale product was the synthesis of integral design sid software program developed in 1982 written in lisp sid generated 93 of the vax 9000 cpu logic gates input to the software was a set of rules created by several expert logic designers sid expanded the rules and generated software logic synthesis routines many times the size of the rules themselves surprisingly the combination of these rules resulted in an overall design that exceeded the capabilities of the experts themselves and in many cases out performed the human counterparts while some rules contradicted others top level control parameters for speed and area provided the tie breaker the program was highly controversial but used nevertheless due to project budget constraints it was terminated by logic designers after the vax 9000 project completion
+
+during the years before the middle of the 1970s the expectations of what expert systems can accomplish in many fields tended to be extremely optimistic at the start of these early studies researchers were hoping to develop entirely automatic i e completely computerized expert systems the expectations of people of what computers can do were frequently too idealistic this situation radically changed after richard m karp published his breakthrough paper reducibility among combinatorial problems in the early 1970s thanks to karp s work together with other scholars like hubert l dreyfus it became clear that there are certain limits and possibilities when one designs computer algorithms his findings describe what computers can do and what they cannot do many of the computational problems related to this type of expert systems have certain pragmatic limits these findings laid down the groundwork that led to the next developments in the field
+
+in the 1990s and beyond the term expert system and the idea of a standalone ai system mostly dropped from the it lexicon there are two interpretations of this one is that expert systems failed the it world moved on because expert systems did not deliver on their over hyped promise the other is the mirror opposite that expert systems were simply victims of their success as it professionals grasped concepts such as rule engines such tools migrated from being standalone tools for developing special purpose expert systems to being one of many standard tools other researchers suggest that expert systems caused inter company power struggles when the it organization lost its exclusivity in software modifications to users or knowledge engineers
+
+in the first decade of the 2000s there was a resurrection for the technology while using the term rule based systems with significant success stories and adoption many of the leading major business application suite vendors such as sap siebel and oracle integrated expert system abilities into their suite of products as a way to specify business logic rule engines are no longer simply for defining the rules an expert would use but for any type of complex volatile and critical business logic they often go hand in hand with business process automation and integration environments
+
+the limits of prior types of expert systems prompted researchers to develop new types of approaches they have developed more efficient flexible and powerful methods to simulate the human decision making process some of the approaches that researchers have developed are based on new methods of artificial intelligence ai and in particular in machine learning and data mining approaches with a feedback mechanism failed verification recurrent neural networks often take advantage of such mechanisms related is the discussion on the disadvantages section
+
+modern systems can incorporate new knowledge more easily and thus update themselves easily such systems can generalize from existing knowledge better and deal with vast amounts of complex data related is the subject of big data here sometimes these types of expert systems are called intelligent systems
+
+more recently it can be argued that expert systems have moved into the area of business rules and business rules management systems
+
+an expert system is an example of a knowledge based system expert systems were the first commercial systems to use a knowledge based architecture in general view an expert system includes the following components a knowledge base an inference engine an explanation facility a knowledge acquisition facility and a user interface
+
+the knowledge base represents facts about the world in early expert systems such as mycin and dendral these facts were represented mainly as flat assertions about variables in later expert systems developed with commercial shells the knowledge base took on more structure and used concepts from object oriented programming the world was represented as classes subclasses and instances and assertions were replaced by values of object instances the rules worked by querying and asserting values of the objects
+
+the inference engine is an automated reasoning system that evaluates the current state of the knowledge base applies relevant rules and then asserts new knowledge into the knowledge base the inference engine may also include abilities for explanation so that it can explain to a user the chain of reasoning used to arrive at a particular conclusion by tracing back over the firing of rules that resulted in the assertion
+
+there are mainly two modes for an inference engine forward chaining and backward chaining the different approaches are dictated by whether the inference engine is being driven by the antecedent left hand side or the consequent right hand side of the rule in forward chaining an antecedent fires and asserts the consequent for example consider the following rule
+
+
+
+
+
+r
+1
+
+
+
+m
+a
+n
+
+
+
+x
+
+
+
+
+
+
+m
+o
+r
+t
+a
+l
+
+
+
+x
+
+
+
+displaystyle r1 mathit man x implies mathit mortal x
+
+
+
+a simple example of forward chaining would be to assert man socrates to the system and then trigger the inference engine it would match r1 and assert mortal socrates into the knowledge base
+
+backward chaining is a bit less straight forward in backward chaining the system looks at possible conclusions and works backward to see if they might be true so if the system was trying to determine if mortal socrates is true it would find r1 and query the knowledge base to see if man socrates is true one of the early innovations of expert systems shells was to integrate inference engines with a user interface this could be especially powerful with backward chaining if the system needs to know a particular fact but does not then it can simply generate an input screen and ask the user if the information is known so in this example it could use r1 to ask the user if socrates was a man and then use that new information accordingly
+
+the use of rules to explicitly represent knowledge also enabled explanation abilities in the simple example above if the system had used r1 to assert that socrates was mortal and a user wished to understand why socrates was mortal they could query the system and the system would look back at the rules which fired to cause the assertion and present those rules to the user as an explanation in english if the user asked why is socrates mortal the system would reply because all men are mortal and socrates is a man a significant area for research was the generation of explanations from the knowledge base in natural english rather than simply by showing the more formal but less intuitive rules
+
+as expert systems evolved many new techniques were incorporated into various types of inference engines some of the most important of these were
+
+the goal of knowledge based systems is to make the critical information required for the system to work explicit rather than implicit in a traditional computer program the logic is embedded in code that can typically only be reviewed by an it specialist with an expert system the goal was to specify the rules in a format that was intuitive and easily understood reviewed and even edited by domain experts rather than it experts the benefits of this explicit knowledge representation were rapid development and ease of maintenance
+
+ease of maintenance is the most obvious benefit this was achieved in two ways first by removing the need to write conventional code many of the normal problems that can be caused by even small changes to a system could be avoided with expert systems essentially the logical flow of the program at least at the highest level was simply a given for the system simply invoke the inference engine this also was a reason for the second benefit rapid prototyping with an expert system shell it was possible to enter a few rules and have a prototype developed in days rather than the months or year typically associated with complex it projects
+
+a claim for expert system shells that was often made was that they removed the need for trained programmers and that experts could develop systems themselves in reality this was seldom if ever true while the rules for an expert system were more comprehensible than typical computer code they still had a formal syntax where a misplaced comma or other character could cause havoc as with any other computer language also as expert systems moved from prototypes in the lab to deployment in the business world issues of integration and maintenance became far more critical inevitably demands to integrate with and take advantage of large legacy databases and systems arose to accomplish this integration required the same skills as any other type of system
+
+summing up the benefits of using expert systems the following can be highlighted
+
+the most common disadvantage cited for expert systems in the academic literature is the knowledge acquisition problem obtaining the time of domain experts for any software application is always difficult but for expert systems it was especially difficult because the experts were by definition highly valued and in constant demand by the organization as a result of this problem a great deal of research in the later years of expert systems was focused on tools for knowledge acquisition to help automate the process of designing debugging and maintaining rules defined by experts however when looking at the life cycle of expert systems in actual use other problems essentially the same problems as those of any other large system seem at least as critical as knowledge acquisition integration access to large databases and performance
+
+performance could be especially problematic because early expert systems were built using tools such as earlier lisp versions that interpreted code expressions without first compiling them this provided a powerful development environment but with the drawback that it was virtually impossible to match the efficiency of the fastest compiled languages such as c system and database integration were difficult for early expert systems because the tools were mostly in languages and platforms that were neither familiar to nor welcome in most corporate it environments programming languages such as lisp and prolog and hardware platforms such as lisp machines and personal computers as a result much effort in the later stages of expert system tool development was focused on integrating with legacy environments such as cobol and large database systems and on porting to more standard platforms these issues were resolved mainly by the client server paradigm shift as pcs were gradually accepted in the it environment as a legitimate platform for serious business system development and as affordable minicomputer servers provided the processing power needed for ai applications
+
+another major challenge of expert systems emerges when the size of the knowledge base increases this causes the processing complexity to increase for instance when an expert system with 100 million rules was envisioned as the ultimate expert system it became obvious that such system would be too complex and it would face too many computational problems an inference engine would have to be able to process huge numbers of rules to reach a decision
+
+how to verify that decision rules are consistent with each other is also a challenge when there are too many rules usually such problem leads to a satisfiability sat formulation this is a well known np complete problem boolean satisfiability problem if we assume only binary variables say n of them and then the corresponding search space is of size 2
+
+
+
+
+
+
+n
+
+
+
+
+displaystyle n
+
+thus the search space can grow exponentially
+
+there are also questions on how to prioritize the use of the rules to operate more efficiently or how to resolve ambiguities for instance if there are too many else if sub structures within one rule and so on
+
+other problems are related to the overfitting and overgeneralization effects when using known facts and trying to generalize to other cases not described explicitly in the knowledge base such problems exist with methods that employ machine learning approaches too
+
+another problem related to the knowledge base is how to make updates of its knowledge quickly and effectively also how to add a new piece of knowledge i e where to add it among many rules is challenging modern approaches that rely on machine learning methods are easier in this regard citation needed
+
+because of the above challenges it became clear that new approaches to ai were required instead of rule based technologies these new approaches are based on the use of machine learning techniques along with the use of feedback mechanisms
+
+the key challenges that expert systems in medicine if one considers computer aided diagnostic systems as modern expert systems and perhaps in other application domains include issues related to aspects such as big data existing regulations healthcare practice various algorithmic issues and system assessment
+
+finally the following disadvantages of using expert systems can be summarized
+
+hayes roth divides expert systems applications into 10 categories illustrated in the following table the example applications were not in the original hayes roth table and some of them arose well afterward any application that is not footnoted is described in the hayes roth book also while these categories provide an intuitive framework to describe the space of expert systems applications they are not rigid categories and in some cases an application may show traits of more than one category
+
+hearsay was an early attempt at solving voice recognition through an expert systems approach for the most part this category of expert systems was not all that successful hearsay and all interpretation systems are essentially pattern recognition systems looking for patterns in noisy data in the case of hearsay recognizing phonemes in an audio stream other early examples were analyzing sonar data to detect russian submarines these kinds of systems proved much more amenable to a neural network ai solution than a rule based approach
+
+caduceus and mycin were medical diagnosis systems the user describes their symptoms to the computer as they would to a doctor and the computer returns a medical diagnosis
+
+dendral was a tool to study hypothesis formation in the identification of organic molecules the general problem it solved designing a solution given a set of constraints was one of the most successful areas for early expert systems applied to business domains such as salespeople configuring digital equipment corporation dec vax computers and mortgage loan application development
+
+smh pal is an expert system for the assessment of students with multiple disabilities
+
+garvan es1 was a medical expert system developed at the garvan institute of medical research that provided automated clinical diagnostic comments on endocrine reports from a pathology laboratory it was one of the first medical expert systems to go into routine clinical use internationally and the first expert system to be used for diagnosis daily in australia the system was written in c and ran on a pdp 11 in 64k of memory it had 661 rules that were compiled not interpreted
+
+mistral is an expert system to monitor dam safety developed in the 1990s by ismes in italy it gets data from an automatic monitoring system and performs a diagnosis of the state of the dam its first copy was installed in 1992 on the ridracoli dam in italy it has been installed on several other dams in italy and abroad e g itaipu dam in brazil and on landslide sites under the name of eydenet and on monuments under the name of kaleidos mistral is a registered trade mark of cesi

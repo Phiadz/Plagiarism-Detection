@@ -1,0 +1,72 @@
+
+
+the defense advanced research projects agency darpa is a research and development agency of the united states department of defense responsible for the development of emerging technologies for use by the military originally known as the advanced research projects agency arpa the agency was created on february 7 1958 by president dwight d eisenhower in response to the soviet s launch of sputnik 1 in 1957 by collaborating with academia industry and government partners darpa formulates and executes research and development projects to expand the frontiers of technology and science often beyond immediate u s military requirements the name of the organization first changed from its founding name arpa to darpa in march 1972 changing back to arpa in february 1993 then reverted to darpa in march 1996
+
+the economist has called darpa the agency that shaped the modern world with technologies such as moderna s covid 19 vaccine weather satellites gps drones stealth technology voice interfaces the personal computer and the internet on the list of innovations for which darpa can claim at least partial credit its track record of success has inspired governments around the world to launch similar research and development agencies
+
+darpa is independent of other military research and development and reports directly to senior department of defense management darpa comprises about 220 government employees in six technical offices including nearly 100 program managers who together oversee about 250 research and development programs
+stephen winchell is the current director
+
+the advanced research projects agency arpa was suggested by the president s scientific advisory committee to president dwight d eisenhower in a meeting called after the launch of sputnik arpa was formally authorized by president eisenhower in 1958 for the purpose of forming and executing research and development projects to expand the frontiers of technology and science and be able to reach far beyond immediate military requirements the two relevant acts are the supplemental military construction authorization air force public law 85 325 and department of defense directive 5105 15 in february 1958 it was placed within the office of the secretary of defense osd and counted roughly 150 people its creation was directly attributed to the launching of sputnik and to u s realization that the soviet union had developed the capacity to rapidly exploit military technology initial funding of arpa was 520 million arpa s first director roy johnson left a 160 000 management job at general electric for an 18 000 job at arpa herbert york from lawrence livermore national laboratory was hired as his scientific assistant
+
+johnson and york were both keen on space projects but when nasa was established later in 1958 all space projects and most of arpa s funding were transferred to it johnson resigned and arpa was repurposed to do high risk high gain far out basic research a posture that was enthusiastically embraced by the nation s scientists and research universities arpa s second director was brigadier general austin w betts who resigned in early 1961 and was succeeded by jack ruina who served until 1963 ruina the first scientist to administer arpa managed to raise its budget to 250 million it was ruina who hired j c r licklider as the first administrator of the information processing techniques office which played a vital role in creation of arpanet the basis for the future internet
+
+additionally the political and defense communities recognized the need for a high level department of defense organization to formulate and execute r d projects that would expand the frontiers of technology beyond the immediate and specific requirements of the military services and their laboratories in pursuit of this mission darpa has developed and transferred technology programs encompassing a wide range of scientific disciplines that address the full spectrum of national security needs
+
+from 1958 to 1965 arpa s emphasis centered on major national issues including space ballistic missile defense and nuclear test detection during 1960 all of its civilian space programs were transferred to the national aeronautics and space administration nasa and the military space programs to the individual services
+
+this allowed arpa to concentrate its efforts on the project defender defense against ballistic missiles project vela nuclear test detection and project agile counterinsurgency r d programs and to begin work on computer processing behavioral sciences and materials sciences the defender and agile programs formed the foundation of darpa sensor surveillance and directed energy r d particularly in the study of radar infrared sensing and x ray gamma ray detection
+
+arpa at this point 1959 played an early role in transit also called navsat a predecessor to the global positioning system gps fast forward to 1959 when a joint effort between darpa and the johns hopkins applied physics laboratory began to fine tune the early explorers discoveries transit sponsored by the navy and developed under the leadership of richard kirschner at johns hopkins was the first satellite positioning system
+
+during the late 1960s with the transfer of these mature programs to the services arpa redefined its role and concentrated on a diverse set of relatively small essentially exploratory research programs the agency was renamed the defense advanced research projects agency darpa in 1972 and during the early 1970s it emphasized direct energy programs information processing and tactical technologies citation needed
+
+concerning information processing darpa made great progress initially through its support of the development of time sharing all modern operating systems rely on concepts invented for the multics system developed by a cooperation among bell labs general electric and mit which darpa supported by funding project mac at mit with an initial two million dollar grant
+
+darpa supported the evolution of the arpanet the first wide area packet switching network packet radio network packet satellite network and ultimately the internet and research in the artificial intelligence fields of speech recognition and signal processing including parts of shakey the robot darpa also supported the early development of both hypertext and hypermedia darpa funded one of the first two hypertext systems douglas engelbart s nls computer system as well as the mother of all demos darpa later funded the development of the aspen movie map which is generally seen as the first hypermedia system and an important precursor of virtual reality
+
+the mansfield amendment of 1973 expressly limited appropriations for defense research through arpa darpa only to projects with direct military application
+
+the resulting brain drain is credited with boosting the development of the fledgling personal computer industry some young computer scientists left the universities to startups and private research laboratories such as xerox parc
+
+between 1976 and 1981 darpa s major projects were dominated by air land sea and space technology tactical armor and anti armor programs infrared sensing for space based surveillance high energy laser technology for space based missile defense antisubmarine warfare advanced cruise missiles advanced aircraft and defense applications of advanced computing
+
+many of the successful programs were transitioned to the services such as the foundation technologies in automatic target recognition space based sensing propulsion and materials that were transferred to the strategic defense initiative organization sdio later known as the ballistic missile defense organization bmdo now titled the missile defense agency mda
+
+during the 1980s the attention of the agency was centered on information processing and aircraft related programs including the national aerospace plane nasp or hypersonic research program the strategic computing program enabled darpa to exploit advanced processing and networking technologies and to rebuild and strengthen relationships with universities after the vietnam war in addition darpa began to pursue new concepts for small lightweight satellites lightsat and directed new programs regarding defense manufacturing submarine technology and armor anti armor
+
+in 1981 two engineers robert mcghee and kenneth waldron started to develop the adaptive suspension vehicle asv nicknamed the walker at the ohio state university under a research contract from darpa the vehicle was 17 feet long 8 feet wide and 10 5 feet high and had six legs to support its three ton aluminum body in which it was designed to carry cargo over difficult terrains however darpa lost interest in the asv after problems with cold weather tests
+
+in 2001 darpa established the information awareness office iao with the stated mission of applying surveillance technology to target terrorists and other threats through total information awareness this consisted of creating enormous computer databases to gather and store the personal information of everyone in the united states including personal e mails social networks credit card records phone calls medical records and numerous other sources without any requirement for a search warrant in 2003 following public criticism that this would lead to a mass surveillance system the iao was defunded by congress but several iao projects persisted under different names until revealed by edward snowden in the 2013 mass surveillance disclosures
+
+on february 4 2004 the agency shut down its so called lifelog project the project s aim would have been to gather in a single place just about everything an individual says sees or does
+
+on october 28 2009 the agency broke ground on a new facility in arlington county virginia a few miles from the pentagon
+
+in fall 2011 darpa hosted the 100 year starship symposium with the aim of getting the public to start thinking seriously about interstellar travel
+
+on june 5 2016 nasa and darpa announced that it planned to build new x planes with nasa s plan setting to create a whole series of x planes over the next 10 years
+
+between 2014 and 2016 darpa shepherded the first machine to machine computer security competition the cyber grand challenge cgc
+bringing a group of top notch computer security experts to search for security vulnerabilities exploit them and create fixes that patch those vulnerabilities in a fully automated fashion it is one of darpa prize competitions to spur innovations
+
+in june 2018 darpa leaders demonstrated a number of new technologies that were developed within the framework of the gxv t program the goal of this program is to create a lightly armored combat vehicle of not very large dimensions which due to maneuverability and other tricks can successfully resist modern anti tank weapon systems
+
+in september 2020 darpa and the us air force announced that the hypersonic air breathing weapon concept hawc are ready for free flight tests within the next year
+
+victoria coleman became the director of darpa in november 2020
+
+in recent years darpa officials have contracted out core functions to corporations for example during fiscal year 2020 chenega ran physical security on darpa s premises system high corp carried out program security and agile defense ran unclassified it services general dynamics runs classified it services strategic analysis inc provided support services regarding engineering science mathematics and front office and administrative work
+
+darpa has six technical offices that manage the agency s research portfolio and two additional offices that manage special projects all offices report to the darpa director including
+
+a 1991 reorganization created several offices which existed throughout the early 1990s
+
+a 2010 reorganization merged two offices
+
+
+directors of darpa have included
+
+a list of darpa s active and archived projects is available on the agency s website because of the agency s fast pace programs constantly start and stop based on the needs of the u s government structured information about some of the darpa s contracts and projects is publicly available
+
+darpa is well known as a high tech government agency and as such has many appearances in popular fiction some realistic references to darpa in fiction are as arpa in tom swift and the visitor from planet x darpa consults on a technical threat in episodes of television program the west wing the arpa darpa distinction the television program numb3rs and the netflix film spectral

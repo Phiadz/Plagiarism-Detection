@@ -1,0 +1,1 @@
+ automatic extraction analysis and understanding of useful information from a single image or a sequence of images it involves the development of a theoretical and algorithmic basis to achieve automat

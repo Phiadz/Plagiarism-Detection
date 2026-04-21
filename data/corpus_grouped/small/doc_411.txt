@@ -1,0 +1,7 @@
+in computer programming symbolic programming is a programming paradigm in which the program can manipulate its own formulas and program components as if they were plain data
+
+through symbolic programming complex processes can be developed that build other more intricate processes by combining smaller units of logic or functionality thus such programs can effectively modify themselves and appear to learn which makes them better suited for applications such as artificial intelligence expert systems natural language processing and computer games
+
+languages that support symbolic programming include homoiconic languages such as wolfram language lisp prolog and julia
+
+this programming language related article is a stub you can help wikipedia by adding missing information

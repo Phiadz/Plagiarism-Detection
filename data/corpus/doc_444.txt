@@ -1,0 +1,599 @@
+long short term memory lstm is a type of recurrent neural network rnn aimed at mitigating the vanishing gradient problem commonly encountered by traditional rnns its relative insensitivity to gap length is its advantage over other rnns hidden markov models and other sequence learning methods it aims to provide a short term memory for rnn that can last thousands of timesteps thus long short term memory the name is made in analogy with long term memory and short term memory and their relationship studied by cognitive psychologists since the early 20th century
+
+an lstm unit is typically composed of a cell and three gates an input gate an output gate and a forget gate the cell remembers values over arbitrary time intervals and the gates regulate the flow of information into and out of the cell forget gates decide what information to discard from the previous state by mapping the previous state and the current input to a value between 0 and 1 a rounded value of 1 signifies retention of the information and a value of 0 represents discarding input gates decide which pieces of new information to store in the current cell state using the same system as forget gates output gates control which pieces of information in the current cell state to output by assigning a value from 0 to 1 to the information considering the previous and current states selectively outputting relevant information from the current state allows the lstm network to maintain useful long term dependencies to make predictions both in current and future time steps
+
+lstm has wide applications in classification data processing time series analysis tasks speech recognition machine translation speech activity detection robot control video games healthcare energy forecasting
+
+in theory classic rnns can keep track of arbitrary long term dependencies in the input sequences the problem with classic rnns is computational or practical in nature when training a classic rnn using back propagation the long term gradients which are back propagated can vanish meaning they can tend to zero due to very small numbers creeping into the computations causing the model to effectively stop learning rnns using lstm units partially solve the vanishing gradient problem because lstm units allow gradients to also flow with little to no attenuation however lstm networks can still suffer from the exploding gradient problem
+
+the intuition behind the lstm architecture is to create an additional module in a neural network that learns when to remember and when to forget pertinent information in other words the network effectively learns which information might be needed later on in a sequence and when that information is no longer needed for instance in the context of natural language processing the network can learn grammatical dependencies an lstm might process the sentence dave as a result of his controversial claims is now a pariah by remembering the statistically likely grammatical gender and number of the subject dave note that this information is pertinent for the pronoun his and note that this information is no longer important after the verb is
+
+in the equations below the lowercase variables represent vectors matrices
+
+
+
+
+w
+
+q
+
+
+
+
+displaystyle w_ q
+
+and
+
+
+
+
+u
+
+q
+
+
+
+
+displaystyle u_ q
+
+contain respectively the weights of the input and recurrent connections where the subscript
+
+
+
+
+
+
+q
+
+
+
+
+displaystyle _ q
+
+can either be the input gate
+
+
+
+i
+
+
+displaystyle i
+
+output gate
+
+
+
+o
+
+
+displaystyle o
+
+the forget gate
+
+
+
+f
+
+
+displaystyle f
+
+or the memory cell
+
+
+
+c
+
+
+displaystyle c
+
+depending on the activation being calculated in this section we are thus using a vector notation so for example
+
+
+
+
+c
+
+t
+
+
+
+
+
+r
+
+
+h
+
+
+
+
+displaystyle c_ t in mathbb r h
+
+is not just one unit of one lstm cell but contains
+
+
+
+h
+
+
+displaystyle h
+
+lstm cell s units
+
+the compact forms of the equations for the forward pass of an lstm cell with a forget gate are
+
+where the initial values are
+
+
+
+
+c
+
+0
+
+
+
+0
+
+
+displaystyle c_ 0 0
+
+and
+
+
+
+
+h
+
+0
+
+
+
+0
+
+
+displaystyle h_ 0 0
+
+and the operator
+
+
+
+
+
+
+displaystyle odot
+
+denotes the hadamard product element wise product the subscript
+
+
+
+t
+
+
+displaystyle t
+
+indexes the time step
+
+letting the superscripts
+
+
+
+d
+
+
+displaystyle d
+
+and
+
+
+
+h
+
+
+displaystyle h
+
+refer to the number of input features and number of hidden units respectively
+
+the figure on the right is a graphical representation of an lstm unit with peephole connections i e a peephole lstm peephole connections allow the gates to access the constant error carousel cec whose activation is the cell state
+
+
+
+
+h
+
+t
+
+1
+
+
+
+
+displaystyle h_ t 1
+
+is not used
+
+
+
+
+c
+
+t
+
+1
+
+
+
+
+displaystyle c_ t 1
+
+is used instead in most places
+
+each of the gates can be thought as a standard neuron in a feed forward or multi layer neural network that is they compute an activation using an activation function of a weighted sum
+
+
+
+
+i
+
+t
+
+
+
+
+o
+
+t
+
+
+
+
+displaystyle i_ t o_ t
+
+and
+
+
+
+
+f
+
+t
+
+
+
+
+displaystyle f_ t
+
+represent the activations of respectively the input output and forget gates at time step
+
+
+
+t
+
+
+displaystyle t
+
+
+
+the 3 exit arrows from the memory cell
+
+
+
+c
+
+
+displaystyle c
+
+to the 3 gates
+
+
+
+i
+
+o
+
+
+displaystyle i o
+
+and
+
+
+
+f
+
+
+displaystyle f
+
+represent the peephole connections these peephole connections actually denote the contributions of the activation of the memory cell
+
+
+
+c
+
+
+displaystyle c
+
+at time step
+
+
+
+t
+
+1
+
+
+displaystyle t 1
+
+i e the contribution of
+
+
+
+
+c
+
+t
+
+1
+
+
+
+
+displaystyle c_ t 1
+
+and not
+
+
+
+
+c
+
+t
+
+
+
+
+displaystyle c_ t
+
+as the picture may suggest in other words the gates
+
+
+
+i
+
+o
+
+
+displaystyle i o
+
+and
+
+
+
+f
+
+
+displaystyle f
+
+calculate their activations at time step
+
+
+
+t
+
+
+displaystyle t
+
+i e respectively
+
+
+
+
+i
+
+t
+
+
+
+
+o
+
+t
+
+
+
+
+displaystyle i_ t o_ t
+
+and
+
+
+
+
+f
+
+t
+
+
+
+
+displaystyle f_ t
+
+also considering the activation of the memory cell
+
+
+
+c
+
+
+displaystyle c
+
+at time step
+
+
+
+t
+
+1
+
+
+displaystyle t 1
+
+i e
+
+
+
+
+c
+
+t
+
+1
+
+
+
+
+displaystyle c_ t 1
+
+
+
+the single left to right arrow exiting the memory cell is not a peephole connection and denotes
+
+
+
+
+c
+
+t
+
+
+
+
+displaystyle c_ t
+
+
+
+the little circles containing a
+
+
+
+
+
+
+displaystyle times
+
+symbol represent an element wise multiplication between its inputs the big circles containing an s like curve represent the application of a differentiable function like the sigmoid function to a weighted sum
+
+peephole convolutional lstm the
+
+
+
+
+
+
+displaystyle
+
+denotes the convolution operator
+
+an rnn using lstm units can be trained in a supervised fashion on a set of training sequences using an optimization algorithm like gradient descent combined with backpropagation through time to compute the gradients needed during the optimization process in order to change each weight of the lstm network in proportion to the derivative of the error at the output layer of the lstm network with respect to corresponding weight
+
+a problem with using gradient descent for standard rnns is that error gradients vanish exponentially quickly with the size of the time lag between important events this is due to
+
+
+
+
+lim
+
+n
+
+
+
+
+
+w
+
+n
+
+
+
+0
+
+
+displaystyle lim _ n to infty w n 0
+
+if the spectral radius of
+
+
+
+w
+
+
+displaystyle w
+
+is smaller than 1
+
+however with lstm units when error values are back propagated from the output layer the error remains in the lstm unit s cell this error carousel continuously feeds error back to each of the lstm unit s gates until they learn to cut off the value
+
+many applications use stacks of lstm rnns and train them by connectionist temporal classification ctc to find an rnn weight matrix that maximizes the probability of the label sequences in a training set given the corresponding input sequences ctc achieves both alignment and recognition
+
+sometimes it can be advantageous to train parts of an lstm by neuroevolution or by policy gradient methods especially when there is no teacher that is training labels
+
+applications of lstm include
+
+2015 google started using an lstm trained by ctc for speech recognition on google voice according to the official blog post the new model cut transcription errors by 49
+
+2016 google started using an lstm to suggest messages in the allo conversation app in the same year google released the google neural machine translation system for google translate which used lstms to reduce translation errors by 60
+
+apple announced in its worldwide developers conference that it would start using the lstm for quicktype in the iphone and for siri
+
+amazon released polly which generates the voices behind alexa using a bidirectional lstm for the text to speech technology
+
+2017 facebook performed some 4 5 billion automatic translations every day using long short term memory networks
+
+microsoft reported reaching 94 9 recognition accuracy on the switchboard corpus incorporating a vocabulary of 165 000 words the approach used dialog session based long short term memory
+
+2018 openai used lstm trained by policy gradients to beat humans in the complex video game of dota 2 and to control a human like robot hand that manipulates physical objects with unprecedented dexterity
+
+2019 deepmind used lstm trained by policy gradients to excel at the complex video game of starcraft ii
+
+aspects of lstm were anticipated by focused back propagation cited by the lstm paper
+
+sepp hochreiter s 1991 german diploma thesis analyzed the vanishing gradient problem and developed principles of the method his supervisor jürgen schmidhuber considered the thesis highly significant
+
+an early version of lstm was published in 1995 in a technical report by sepp hochreiter and jürgen schmidhuber then published in the nips 1996 conference
+
+the most commonly used reference point for lstm was published in 1997 in the journal neural computation by introducing constant error carousel cec units lstm deals with the vanishing gradient problem the initial version of lstm block included cells input and output gates
+
+felix gers jürgen schmidhuber and fred cummins introduced the forget gate also called keep gate into the lstm architecture in 1999 enabling the lstm to reset its own state this is the most commonly used version of lstm nowadays they added peephole connections in 2000 additionally the output activation function was omitted
+
+in 2005 graves and schmidhuber published lstm with full backpropagation through time and bidirectional lstm
+
+in 2006 graves fernandez gomez and schmidhuber introduced a new error function for lstm connectionist temporal classification ctc for simultaneous alignment and recognition of sequences
+
+in 2014 kyunghyun cho an others published a simplified variant of the forget gate lstm called gated recurrent unit gru
+
+in 2015 srivastava greff and schmidhuber used lstm principles to create the highway network a feedforward neural network with hundreds of layers much deeper than previous networks concurrently the resnet architecture was developed it is equivalent to an open gated or gateless highway network
+
+a modern upgrade of lstm called xlstm is published by a team led by sepp hochreiter one of the 2 blocks mlstm of the architecture are parallelizable like the transformer architecture the other ones slstm allow state tracking
+
+2001 gers and schmidhuber trained lstm to learn languages unlearnable by traditional models such as hidden markov models
+
+hochreiter et al used lstm for meta learning i e learning a learning algorithm
+
+2004 first successful application of lstm to speech alex graves et al
+
+2005 daan wierstra faustino gomez and schmidhuber trained lstm by neuroevolution without a teacher
+
+mayer et al trained lstm to control robots
+
+2007 wierstra foerster peters and schmidhuber trained lstm by policy gradients for reinforcement learning without a teacher
+
+hochreiter heuesel and obermayr applied lstm to protein homology detection the field of biology
+
+2009 justin bayer et al introduced neural architecture search for lstm
+
+2009 an lstm trained by ctc won the icdar connected handwriting recognition competition three such models were submitted by a team led by alex graves one was the most accurate model in the competition and another was the fastest this was the first time an rnn won international competitions
+
+2013 alex graves abdel rahman mohamed and geoffrey hinton used lstm networks as a major component of a network that achieved a record 17 7 phoneme error rate on the classic timit natural speech dataset
+
+2017 researchers from michigan state university ibm research and cornell university published a study in the knowledge discovery and data mining kdd conference their time aware lstm t lstm performs better on certain data sets than standard lstm
+
+2020 kaplan and mccandlish et al explored the scaling law of lstm architecture in language modeling and compared it with transformers showing that transformers scale better than lstm on text data

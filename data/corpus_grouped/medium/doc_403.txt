@@ -1,0 +1,37 @@
+backward chaining or backward reasoning is an inference method described colloquially as working backward from the goal it is used in automated theorem provers inference engines proof assistants and other artificial intelligence applications
+
+in game theory researchers apply it to simpler subgames to find a solution to the game in a process called backward induction in chess it is called retrograde analysis and it is used to generate table bases for chess endgames for computer chess
+
+backward chaining is implemented in logic programming by sld resolution both rules are based on the modus ponens inference rule it is one of the two most commonly used methods of reasoning with inference rules and logical implications the other is forward chaining backward chaining systems usually employ a depth first search strategy e g prolog
+
+backward chaining starts with a list of goals or a hypothesis and works backwards from the consequent to the antecedent to see if any data supports any of these consequents an inference engine using backward chaining would search the inference rules until it finds one with a consequent then clause that matches a desired goal if the antecedent if clause of that rule is not known to be true then it is added to the list of goals for one s goal to be confirmed one must also provide data that confirms this new rule
+
+for example suppose a new pet fritz is delivered in an opaque box along with two facts about fritz
+
+the goal is to decide whether fritz is green based on a rule base containing the following four rules
+
+with backward reasoning an inference engine can determine whether fritz is green in four steps to start the query is phrased as a goal assertion that is to be proven fritz is green
+
+1 fritz is substituted for x in rule 3 to see if its consequent matches the goal so rule 3 becomes
+
+since the consequent matches the goal fritz is green the rules engine now needs to see if the antecedent fritz is a frog can be proven the antecedent therefore becomes the new goal
+
+2 again substituting fritz for x rule 1 becomes
+
+since the consequent matches the current goal fritz is a frog the inference engine now needs to see if the antecedent fritz croaks and eats flies can be proven the antecedent therefore becomes the new goal
+
+3 since this goal is a conjunction of two statements the inference engine breaks it into two sub goals both of which must be proven
+
+4 to prove both of these sub goals the inference engine sees that both of these sub goals were given as initial facts therefore the conjunction is true
+
+therefore the antecedent of rule 1 is true and the consequent must be true
+
+therefore the antecedent of rule 3 is true and the consequent must be true
+
+this derivation therefore allows the inference engine to prove that fritz is green rules 2 and 4 were not used
+
+note that the goals always match the affirmed versions of the consequents of implications and not the negated versions as in modus tollens and even then their antecedents are then considered as the new goals and not the conclusions as in affirming the consequent which ultimately must match known facts usually defined as consequents whose antecedents are always true thus the inference rule used is modus ponens
+
+because the list of goals determines which rules are selected and used this method is called goal driven in contrast to data driven forward chaining inference the backward chaining approach is often employed by expert systems
+
+programming languages such as prolog knowledge machine and eclipse support backward chaining within their inference engines

@@ -1,0 +1,14 @@
+reference data is data used to classify or categorize other data typically they are static or slowly changing over time
+
+examples of reference data include
+
+reference data sets are sometimes alternatively referred to as a controlled vocabulary or lookup data
+
+reference data differs from master data while both provide context for business transactions reference data is concerned with classification and categorisation while master data is concerned with business entities a further difference between reference data and master data is that a change to the reference data values may require an associated change in business process to support the change while a change in master data will always be managed as part of existing business processes for example adding a new customer or sales product is part of the standard business process however adding a new product classification e g restricted sales item or a new customer type e g gold level customer will result in a modification to the business processes to manage those items
+
+for most organisations most or all reference data is defined and managed within that organisation
+some reference data however may be externally defined and managed for example by standards organizations an example of externally defined reference data is the set of country codes as defined in iso 3166 1
+
+curating and managing reference data is key to ensuring its quality and thus fitness for purpose all aspects of an organisation operational and analytical are greatly dependent on the quality of an organization s reference data without consistency across business process or applications for example similar things may be described in quite different ways reference data gain in value when they are widely re used and widely referenced
+
+examples of good practice in reference data management include

@@ -1,0 +1,95 @@
+
+
+anthropic pbc is an american artificial intelligence ai company headquartered in san francisco it has developed a range of large language models llms named claude and focuses on ai safety
+
+anthropic was founded in 2021 by former members of openai including siblings daniela amodei and dario amodei who are president and ceo respectively the company is privately held and as of february 2026 update had an estimated value of 380 billion
+
+anthropic was founded in 2021 by seven former employees of openai including siblings daniela amodei and dario amodei the latter of whom was openai s vice president of research
+
+in the summer of 2022 anthropic finished training the first version of claude but did not immediately release it citing a need for further internal safety testing and a desire to avoid initiating a potentially hazardous race to develop increasingly powerful ai systems it was released in march 2023
+
+in 2024 anthropic attracted several notable employees from openai including jan leike john schulman and durk kingma
+
+in may 2025 the company announced claude 4 introducing both claude opus 4 and claude sonnet 4 with improved coding capabilities and other new features it also introduced new api capabilities including the model context protocol mcp connector the company hosted its inaugural developer conference that month also in may anthropic launched a web search api that enables claude to access real time information from the internet claude code anthropic s coding assistant transitioned from research preview to general availability featuring integrations with vs code and jetbrains ides and support for github actions
+
+in september 2025 anthropic announced that it would stop selling its products to groups majority owned by chinese russian iranian or north korean entities due to national security concerns
+
+in october 2025 anthropic announced a cloud partnership with google giving it access to up to one million of google s custom tensor processing units tpus according to anthropic the partnership will bring more than one gigawatt of ai compute capacity online by 2026 another partnership was established with nvidia and microsoft in november nvidia and microsoft were expected to invest up to 15 billion in anthropic and anthropic said it would buy 30 billion of computing capacity from microsoft azure running on nvidia ai systems
+
+in november 2025 anthropic said that hackers sponsored by the chinese government used claude to perform automated cyberattacks against around 30 global organisations the hackers tricked claude into carrying out automated subtasks by pretending it was for defensive testing
+
+in december 2025 anthropic acquired bun to improve the speed and stability of claude code the same month anthropic signed a multi year 200 million partnership with snowflake inc to make claude models available through snowflake s platform as the companies expanded enterprise deployments of ai tools and agents
+
+in february 2026 anthropic aired two commercials during super bowl lx as part of a broader marketing campaign called a time and a place with four ads created by mother each ad depicts ai assistants suddenly pivoting to promoting a fictional product in the middle of a conversation anthropic said that claude will stay ad free in contrast to its competitor openai which introduced ads to the free version of chatgpt
+
+in 2026 anthropic refused the united states department of defense s dod demand to remove contractual restrictions prohibiting the use of its ai technology for domestic surveillance and fully autonomous weapons after the refusal the dod designated the company a supply chain risk and barred all u s military private contractors suppliers and partners from doing business with the firm
+
+according to anthropic its goal is to research ai systems safety and reliability the amodei siblings were among those who left openai due to directional differences anthropic operates as a public benefit corporation
+
+anthropic s long term benefit trust is a purpose trust for the responsible development and maintenance of advanced ai for the long term benefit of humanity it holds class t shares in the pbc which allow it to elect directors to anthropic s board as of october 2025 the members of the trust are neil buddy shah kanika bahl zach robinson and richard fontaine
+
+in january 2026 anthropic introduced a division called labs with mike krieger formerly the company s chief product officer joining it
+
+in march 2026 anthropic launched the anthropic institute a think tank led by jack clark studying ai
+
+anthropic s flagship product line is the claude series of large language models which some employees consider a reference to mathematician claude shannon one of the techniques used to fine tune claude models is constitutional ai in which the ai is trained to adhere to a set of principles called a constitution the company makes the models available via a web interface an api amazon bedrock an ios app and mac and windows desktop apps
+
+claude code is a command line ai agent often used for coding cowork is an equivalent with a graphical user interface intended to be simpler to use
+
+claude s first two versions claude and claude instant were released in march 2023 but only anthropic approved users could use them the next iteration claude 2 was launched to the public in july 2023
+
+in march 2024 anthropic released three language models claude 3 opus claude 3 sonnet and claude 3 haiku in decreasing order of performance in june 2024 it released claude 3 5 sonnet
+
+in may 2025 anthropic released claude 4 opus and sonnet in february 2026 it released claude opus 4 6 followed by sonnet 4 6
+
+in april 2022 anthropic announced it had received 580 million in funding including a 500 million investment from ftx under the leadership of sam bankman fried in september 2023 amazon announced a partnership with anthropic amazon became a minority stakeholder by initially investing 1 25 billion and planning a total investment of 4 billion the remaining 2 75 billion was invested in march 2024 in november 2024 amazon invested another 4 billion doubling its total investment as part of the deal anthropic uses amazon web services aws as its primary cloud provider and makes its ai models available to aws customers
+
+in october 2023 google invested 500 million in anthropic and committed to an additional 1 5 billion over time in march 2025 google agreed to invest another 1 billion in anthropic
+
+anthropic raised 3 5 billion in a series e funding round in march 2025 achieving a post money valuation of 61 5 billion led by lightspeed venture partners with participation from several major investors
+
+in september 2025 anthropic completed a series f funding round raising 13 billion at a post money valuation of 183 billion the round was co led by iconiq capital fidelity management research and lightspeed venture partners with participation from the qatar investment authority and other investors
+
+on 31 december 2025 it was confirmed that anthropic had signed a term sheet for a 10 billion funding round led by coatue and gic at a 350 billion valuation
+
+on february 12 2026 anthropic announced that it had raised 30 billion in a series g funding round bringing its post money valuation to 380 billion
+
+in november 2024 anthropic partnered with palantir and amazon web services to provide the claude model to u s intelligence and defense agencies in june 2025 anthropic announced a claude gov model ars technica reported that as of june 2025 it was in use at multiple u s national security agencies as of february 2026 anthropic s partnership with palantir makes claude the only ai model used in classified missions
+
+in july 2025 the united states department of defense dod announced that anthropic had received a 200 million contract for ai in the military along with google openai and xai
+
+according to the wall street journal the u s military used claude in its 2026 raid on venezuela to capture president nicolás maduro exactly how claude was used is unknown the intervention resulted in the deaths of 83 people
+
+anthropic s usage policy prohibits directly using claude for domestic surveillance or in fully autonomous weapons white house officials said that these restrictions prevented federal contractors working with the fbi and secret service from using it tension regarding this policy has arisen with the pentagon and the trump administration
+
+on february 24 2026 defense secretary pete hegseth threatened to cut anthropic out of the dod s supply chain by february 27 if anthropic did not permit unrestricted use of claude or he would invoke the defense production act to assert unrestricted use without an agreement on february 26 anthropic rejected the pentagon s demands to drop ai safeguards on february 27 after the deadline president donald trump ordered u s government agencies to stop using models developed by anthropic two days later it was reported that the us military had used claude during its attacks on iran at the outset of the 2026 iran war it was later announced that the pentagon was investigating whether claude played a role in the u s strike on the iranian girls school that killed over 170 people mostly children
+
+on march 5 the pentagon officially deemed anthropic a supply chain risk after which the company said it saw no choice but to challenge in court in march leaders from google amazon apple and microsoft supported anthropic s lawsuit against the dod on march 11 a pentagon memo revealed its decision that anthropic s ai tools may be used in rare circumstances beyond the previously announced six month phase out period if deemed necessary for national security
+
+the action was described as retaliatory
+
+on march 26 the federal judge presiding over the case issued a temporary injunction against the pentagon s actions writing this appears to be classic first amendment retaliation
+
+in august 2025 anthropic launched a higher education advisory board chaired by former yale university president and former coursera ceo rick levin
+
+anthropic partnered with iceland s ministry of education and children in 2025 to allow teachers to access claude and integrate ai into daily teaching
+
+in january 2026 unsealed court filings from a 2024 class action copyright lawsuit against anthropic revealed the existence of the company s confidential project panama operation in an internal planning document project panama is described as anthropic s effort to destructively scan all the books in the world to this end the company purchased millions of used books from online retailers such as better world books sliced off their spines and scanned their pages in order to train claude the paper was then recycled tom turvey who helped create google books was hired for the operation according to the project panama planning document anthropic did not want it to be known that it was working on this judge william alsup ruled that the destruction of legally purchased books constituted fair use in contrast to anthropic s prior use of pirated copies
+
+according to anthropic constitutional ai cai is a framework developed to align ai systems with human values and ensure that they are helpful harmless and honest within this framework users provide a set of guidelines known as the constitution which describes the desired behavior of the ai system claude 2 s constitution includes phrases derived from documents such as the 1948 universal declaration of human rights and apple s terms of service for example one rule from the un declaration applied in claude 2 s cai is please choose the response that most supports and encourages freedom equality and a sense of brotherhood the ai system evaluates the generated output and then adjusts the ai models to better fit the constitution
+
+anthropic also carries out and publishes research on the interpretability of machine learning systems
+
+anthropic has conducted research on features patterns of neural activation in a neural network that correspond to concepts in 2024 using a compute intensive technique called dictionary learning anthropic identified millions of these patterns in claude such as one associated with the golden gate bridge
+
+in march 2025 research by anthropic suggested that multilingual llms partially process information in a conceptual space before converting it to the appropriate language it also found evidence that llms can sometimes plan ahead for example when writing poetry claude identifies potential rhyming words before generating a line that ends with one of these words
+
+in september 2025 anthropic released a report saying that businesses primarily use ai for automation rather than collaboration with three quarters of companies that work with claude using it for full task delegation earlier in the year ceo dario amodei predicted that ai would wipe out white collar jobs especially entry level jobs in finance law and consulting
+
+on october 18 2023 anthropic was sued by concord universal abkco and other music publishers for per the complaint systematic and widespread infringement of their copyrighted song lyrics they alleged that the company used copyrighted material without permission in the form of song lyrics the plaintiffs asked for up to 150 000 for each work infringed upon by anthropic citing infringement of copyright laws in the lawsuit the plaintiffs support their allegations of copyright violations by citing several examples of anthropic s claude model outputting copied lyrics from songs such as katy perry s roar and gloria gaynor s i will survive additionally the plaintiffs alleged that even given some prompts that did not directly state a song name the model responded with modified lyrics based on original work
+
+on january 16 2024 anthropic claimed that the music publishers were not unreasonably harmed and that the examples noted by plaintiffs were merely bugs
+
+in august 2024 a class action lawsuit was filed against anthropic in california for alleged copyright infringement the suit claims anthropic fed its llms with pirated copies of the authors work including from participants kirk wallace johnson andrea bartz and charles graeber on june 23 2025 the united states district court for the northern district of california granted summary judgment for anthropic that the use of digital copies of the plaintiffs works inter alia for the purpose of training anthropic s llms was a fair use but it found that anthropic had used millions of pirated library copies and that such use of pirated copies could not be a fair use therefore the case was ordered to go to trial on the pirated copies used to create anthropic s central library and the resulting damages in september 2025 anthropic agreed to pay authors 1 5 billion to settle the case amounting to 3 000 per book plus interest the proposed settlement pending judge s approval stands as the largest copyright resolution in u s history
+
+in june 2025 reddit sued anthropic for unlawful and unfair business acts alleging that anthropic was in violation of reddit s user agreement by training its models on users personal data without their consent

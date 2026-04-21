@@ -1,0 +1,1 @@
+pace there exists a sequence of neural networks ϕ 1 ϕ 2 displaystyle phi _ 1 phi _ 2 dots from the family such that ϕ n f displaystyle phi _ n to f according to some criterion a spate of papers in the 1980s 1990s from george cybenko and kurt hornik de etc established se

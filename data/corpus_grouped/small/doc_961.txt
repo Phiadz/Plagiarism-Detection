@@ -1,0 +1,11 @@
+the alvey programme was a british government sponsored research programme in information technology that ran from 1984 to 1990 the programme was a reaction to the japanese fifth generation project which aimed to create a computer using massively parallel computing processing the programme was not focused on any specific technology such as robotics but rather supported research in knowledge engineering in the united kingdom it has been likened in operations to the u s defense advanced research projects agency darpa and japan s icot
+
+during the early 1980s japan invited the united kingdom to become a part of the fifth generation project in october 1981 a department of industry mission to japan consisting of academics civil servants and business representatives explored collaboration opportunities and attended the fifth generation conference 16 informed by negotiations between icl and fujitsu conducted to ensure the survival of icl suggesting that collaboration would only be possible in very specific areas agreed upon by individual companies it was concluded that an emulation of the japanese approach would be preferable to any attempt at participating in the japanese programme 16 18
+
+in response a committee was created and was chaired by john alvey a technology director at british telecom the report generated proposed a different course of action to the japanese initiative and became the basis for the uk s rejection of the fifth generation and the creation of its own alvey programme the programme s fundamental goal was the improvement of the advanced information technology in the uk to address the declining performance of this sector it operated in 1984 until 1990
+
+alvey was not involved in the programme itself
+
+the main focus areas of the alvey programme were as follows
+
+alongside these areas the provision of a communications infrastructure was a component of the programme various areas of endeavour were incorporated into the main focus areas for example systems architecture specifically parallel processing featured in the vlsi endeavour

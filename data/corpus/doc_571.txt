@@ -1,0 +1,33 @@
+
+
+ltx is a family of open source artificial intelligence video foundation models developed by lightricks and first released in november 2024 the latest models ltx 2 create videos based on user prompts they were preceded by ltx video which was released in 2024 as the company s first text to video model
+
+ltx 2 is part of the ltx family of video generation models which form the core technology alongside ltx studio of the ltx ecosystem
+
+in november 2024 lightricks publicly released its first text to video model ltx video it was a 2 billion parameter model available as open source
+
+in may 2025 lightricks launched ltxv 13b a version with 13 billion parameters two months later the model broke the 60 second barrier for generated video
+
+in october 2025 lightricks announced its latest model and renamed it ltx 2 the model was described as capable of generating synchronized audio and video at native 4k resolution and up to 50 frames per second fps using a variety of conditions and prompts including text to video and image to video
+
+google highlighted the fact that ltx 2 was trained on its infrastructure and saying it was the first open source ai video generation model powered by google cloud
+
+upon its release it was ranked in the top 3 models for image to video creation by artificial analysis behind kling 3 5 by kling ai and veo 3 1 by google its text to image option was ranked 7th
+
+in addition to its open source release lightricks offers api access to ltx 2 allowing developers to generate videos from text and image prompts through a hosted service without running the model locally
+
+in january 2026 lightricks officially released the full open source version of ltx 2 making the model s complete codebase weights and associated tooling publicly available
+
+in march 2026 the company released ltx 2 3 which was accompanied by a desktop video editor enabling the entire model to run locally on consumer hardware
+
+ltx 2 builds upon the ltx video architecture with several major improvements
+
+initial reception to ltx 2 was broadly positive with several technology and media outlets highlighting its open source approach and multimodal capabilities open source for you described ltx 2 as one of the first ai video systems to combine 4k output synchronized audio and an open model release noting that it positioned lightricks as a significant competitor to proprietary systems such as openai s sora and google s veo
+
+iea green said that the model could rewrite the ai filmmaking game emphasizing that its 50 fps rendering and unified audio video generation made it suitable for professional studios and independent creators alike
+
+ai news characterized ltx 2 as a major step forward in the democratization of cinematic quality video generation praising its consumer grade hardware efficiency and multi tier generation modes while also noting ongoing challenges in long form temporal stability
+
+financialcontent reported strong interest among creative agencies attributing the attention to lightricks decision to release model weights and datasets which reviewers said enabled a level of transparency not typically seen in commercial ai video models
+
+some early reviewers also pointed out quality limitations the ray3 technical review noted occasional inconsistencies in lip sync and motion tracking during long scenes though it stated these were in line with the challenges faced by all current ai video diffusion models and expected to improve with continued iteration

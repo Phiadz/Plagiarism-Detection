@@ -1,0 +1,72 @@
+the american invitational mathematics examination aime is a selective 15 question 3 hour test given since 1983 to those who rank in the top 5 on the amc 12 high school mathematics examination formerly known as the ahsme and starting in 2010 those who rank in the top 2 5 on the amc 10 since 2022 the aime competition has invited those who rank around the top 13 15 on the amc 12 to qualify for the aime and invites those who rank around the top 6 8 on the amc 10
+
+two different versions of the test are administered the aime i and aime ii all domestic students are automatically scheduled for the aime i and can reschedule for aime ii while international students are scheduled for the aime ii qualifying students can only take one of these two competitions the majority of the students who qualify for the aime take aime i
+
+additionally another pathway to qualify for the aime is through the usamts a free proof based math contest students who score at least a 68 out of 75 qualify for the aime
+
+the aime is the second of two tests used to determine qualification for the united states mathematical olympiad usamo the first being the amc or the additional pathway of the usamts if a student qualifies from both competitions the amc pathway is used over the usamts when calculating the index scores for the cutoff
+
+the use of calculators is not allowed on the test with only pencils erasers rulers and compasses permitted
+
+the competition consists of 15 questions of increasing difficulty where each answer is an integer between 000 and 999 inclusive thus the competition effectively removes the element of chance afforded by a multiple choice test while preserving the ease of automated grading answers are entered onto an omr sheet similar to the way grid in math questions are answered on the sat leading zeros must be filled in on the omr sheet for example answers of 7 and 43 must be recorded as 007 and 043
+
+concepts typically covered in the competition include topics in elementary algebra geometry trigonometry as well as number theory probability and combinatorics many of these concepts are not directly covered in typical high school mathematics courses thus participants often turn to supplementary resources to prepare for the competition
+
+one point is earned for each correct answer and no points are deducted for incorrect answers no partial credit is given so aime scores are integers from 0 to 15 inclusive
+
+some historical results are
+
+a student s score on the aime is used in combination with their score on the amc to determine eligibility for the usamo or usajmo before the 2025 2026 competition cycle a student s amc score would be added to 10 times their aime score to compute the usamo or usajmo index now a student s amc score would be added to 20 times their aime score to compute the usamo or usajmo index
+
+since 2017 the usamo and usajmo qualification cutoff has been split between the amc a and b as well as the aime i and ii hence there will be a total of 8 published usamo and usajmo qualification cutoffs per year and a student can have up to 2 usamo usajmo indices via participating in both amc contests the student only needs to reach one qualification cutoff to take the usamo or usajmo
+
+during the 1990s fewer than 2 000 students typically qualified for the aime however in 1994 an unprecedented 99 students achieved perfect scores on the ahsme causing delays in result distribution the usual pamphlets were replaced by thick newspaper bundles citation needed
+
+the aime began in 1983 it was given once per year on a tuesday or thursday in late march or early april beginning in 2000 the aime is administered twice per year the second date serves as an alternate test for students who miss the first due to conflicts such as spring break or illness however under no circumstances may a student officially participate both competitions the alternate competition commonly called the aime ii or aime 2 is usually given exactly two weeks after the first test on a tuesday in early april however like the amc the aime recently has been given on a tuesday in early march and on the wednesday 8 days later e g march 13 and 21 2019 in 2020 the rapid spread of the covid 19 pandemic led to the cancellation of the aime ii for that year instead qualifying students were able to take the american online invitational mathematics examination which contained the problems that were originally going to be on the aime ii 2021 s aime i and ii were also moved online citation needed 2022 s aime i and ii were administered both online and in person and from 2023 onward all aime contests were administered in person
+
+for the 2025 2026 competition cycle the aime i was held on february 5 2026 and the aime ii was held on february 11 2026
+
+where
+
+
+
+k
+
+
+displaystyle k
+
+and
+
+
+
+n
+
+
+displaystyle n
+
+are positive integers and
+
+
+
+n
+
+
+displaystyle n
+
+is as large as possible find
+
+
+
+k
+
+n
+
+
+
+displaystyle k n
+
+2003 aime i 1
+
+is strictly increasing and no set of four not necessarily consecutive terms forms an arithmetic progression 2022 aime i 6
+
+

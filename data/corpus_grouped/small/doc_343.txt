@@ -1,0 +1,13 @@
+the blocks world is a planning domain in artificial intelligence it consists of a set of wooden blocks of various shapes and colors sitting on a table the goal is to build one or more vertical stacks of blocks only one block may be moved at a time it may either be placed on the table or placed atop another block because of this any blocks that are at a given time under another block cannot be moved moreover some kinds of blocks cannot have other blocks stacked on top of them
+
+the simplicity of this toy world lends itself readily to classical symbolic artificial intelligence approaches in which the world is modeled as a set of abstract symbols which may be reasoned about
+
+artificial intelligence can be researched in theory and with practical applications the problem with most practical applications is that the engineers don t know how to program an ai system instead of rejecting the challenge at all the idea is to invent an easy to solve domain which is called a toy problem toy problems were invented with the aim to program an ai which can solve it the blocks world domain is an example of a toy problem its major advantage over more realistic ai applications is that many algorithms and software programs are available which can handle the situation this allows comparing different theories against each other
+
+in its basic form the blocks world problem consists of cubes of the same size which have all the color black a mechanical robot arm has to pick and place the cubes more complicated derivatives of the problem consist of cubes of different sizes shapes and colors from an algorithmic perspective blocks world is an np hard search and planning problem the task is to bring the system from an initial state into a goal state
+
+automated planning and scheduling problems are usually described in the planning domain definition language pddl notation which is an ai planning language for symbolic manipulation tasks if something was formulated in the pddl notation it is called a domain therefore the task of stacking blocks is a blocks world domain which stands in contrast to other planning problems like the dock worker robot domain and the monkey and banana problem
+
+
+
+this artificial intelligence related article is a stub you can help wikipedia by adding missing information

@@ -1,0 +1,70 @@
+
+
+human computer interaction hci is the process through which people operate and engage with computer systems research in hci covers the design and the use of computer technology which focuses on the interfaces between people users and computers hci researchers observe how people interact with computers and design technologies that allow humans to interact with computers in new ways these include visual auditory and tactile haptic feedback systems which serve as channels for interaction in both traditional interfaces and mobile computing contexts
+a device that allows interaction between human and a computer is known as a human computer interface
+
+as a field of research human computer interaction is situated at the intersection of computer science behavioral sciences design media studies and several other fields
+
+the term was popularized by stuart card allen newell and thomas p moran in their seminal 1983 book the psychology of human computer interaction the first known use was in 1975 by carlisle the term is intended to convey that unlike other tools with specific and limited uses computers have many uses which often involve an open ended dialogue between the user and the computer the notion of dialogue likens human computer interaction to human to human interaction an analogy that is crucial to theoretical considerations in the field
+
+humans interact with computers in many ways and the interface between the two is crucial to facilitating this interaction hci is also sometimes termed human machine interaction hmi man machine interaction mmi or computer human interaction chi desktop applications web browsers handheld computers and computer kiosks make use of the prevalent graphical user interfaces guis of today voice user interfaces vuis are used for speech recognition and synthesizing systems and the emerging multi modal and graphical user interfaces gui allow humans to engage with embodied character agents in a way that cannot be achieved with other interface paradigms
+
+the association for computing machinery acm defines human computer interaction as a discipline that is concerned with the design evaluation and implementation of interactive computing systems for human use and with the study of major phenomena surrounding them a key aspect of hci is user satisfaction also referred to as end user computing satisfaction it goes on to say
+
+because human computer interaction studies a human and a machine in communication it draws from supporting knowledge on both the machine and the human side on the machine side techniques in computer graphics operating systems programming languages and development environments are relevant on the human side communication theory graphic and industrial design disciplines linguistics social sciences cognitive psychology social psychology and human factors such as computer user satisfaction are relevant and of course engineering and design methods are relevant hci ensures that humans can safely and efficiently interact with complex technologies in fields like aviation and healthcare
+
+due to the multidisciplinary nature of hci people with different backgrounds contribute to its success
+
+poorly designed human machine interfaces can lead to many unexpected problems a classic example is the three mile island accident a nuclear meltdown accident where investigations concluded that the design of the human machine interface was at least partly responsible for the disaster similarly some accidents in aviation have resulted from manufacturers decisions to use non standard flight instruments or throttle quadrant layouts even though the new designs were proposed to be superior in basic human machine interaction pilots had already ingrained the standard layout thus the conceptually good idea had unintended results
+
+a human computer interface can be described as the interface of communication between a human user and a computer the flow of information between the human and computer is defined as the loop of interaction the loop of interaction has several aspects to it including
+
+human computer interaction involves the ways in which humans make use of computational artifacts systems and infrastructures much of the research in this field seeks to improve the human computer interaction by improving the usability of computer interfaces how usability is to be precisely understood how it relates to other social and cultural values and when it is and when it may not be a desirable property of computer interfaces is increasingly debated
+
+much of the research in the field of human computer interaction takes an interest in
+
+visions of what researchers in the field seek to achieve might vary when pursuing a cognitivist perspective researchers of hci may seek to align computer interfaces with the mental model that humans have of their activities when pursuing a post cognitivist perspective researchers of hci may seek to align computer interfaces with existing social practices or existing sociocultural values
+
+researchers in hci are interested in developing design methodologies experimenting with devices prototyping software and hardware systems exploring interaction paradigms and developing models and theories of interaction
+
+the following experimental design principles are considered when evaluating a current user interface or designing a new user interface
+
+the iterative design process is repeated until a sensible user friendly interface is created
+
+various strategies delineating methods for human pc interaction design have developed since the conception of the field during the 1980s most plan philosophies come from a model for how clients originators and specialized frameworks interface early techniques treated clients psychological procedures as unsurprising and quantifiable and urged plan specialists to look at subjective science to establish zones for example memory and consideration when structuring uis present day models in general center around a steady input and discussion between clients creators and specialists and push for specialized frameworks to be folded with the sorts of encounters clients need to have as opposed to wrapping user experience around a finished framework
+
+topics in human computer interaction include the following
+
+augmented reality ar integrates digital content with the real world it enhances human perception and interaction with physical environments ar research mainly focuses on adaptive user interfaces multimodal input techniques and real world object interaction advances in wearable ar technology improve usability enabling more natural interaction with ar applications
+
+virtual reality vr creates a fully immersive digital environment allowing users to interact with computer generated worlds through sensory input devices research focuses on user presence interaction techniques and cognitive effects of immersion a key area of study is the impact of vr on cognitive load and user adaptability influencing how users process information in virtual spaces
+
+mixed reality mr blends elements of both augmented reality ar and virtual reality vr it enables real time interaction with both physical and digital objects hci research in mr concentrates on spatial computing real world object interaction and context aware adaptive interfaces mr technologies are increasingly applied in education training simulations and healthcare enhancing learning outcomes and user engagement
+
+extended reality xr is an umbrella term encompassing ar vr and mr offering a continuum between real and virtual environments research investigates user adaptability interaction paradigms and ethical implications of immersive technologies recent studies highlight how ai driven personalization and adaptive interfaces improve the usability of xr applications
+
+human ai interaction explores how users engage with artificial intelligence systems particularly focusing on usability trust and interpretability the research mainly aims to design ai driven interfaces that are transparent explainable and ethically responsible studies highlight the importance of explainable ai xai and human in the loop decision making ensuring that ai outputs are understandable and trustworthy researchers also develop design guidelines for human ai interaction improving the collaboration between users and ai systems
+
+accessibility in human computer interaction hci focuses on designing digital experiences that are inclusive for those with disabilities such as in sight and movement research in this area is related to assistive technologies adaptive interfaces and universal design principles studies indicate that accessible design benefits not only people with disabilities but also enhances usability for all users
+
+social computing is an interactive and collaborative behavior considered between technology and people in recent years there has been an explosion of social science research focusing on interactions as the unit of analysis as there are a lot of social computing technologies that include blogs emails social networking quick messaging and various others much of this research draws from psychology social psychology and sociology for example one study found out that people expected a computer with a man s name to cost more than a machine with a woman s name other research finds that individuals perceive their interactions with computers more negatively than humans despite behaving the same way towards these machines
+
+in human and computer interactions a semantic gap usually exists between human and computer s understandings towards mutual behaviors ontology as a formal representation of domain specific knowledge can be used to address this problem by solving the semantic ambiguities between the two parties
+
+in the interaction of humans and computers research has studied how computers can detect process and react to human emotions to develop emotionally intelligent information systems researchers have suggested several affect detection channels the potential of telling human emotions in an automated and digital fashion lies in improvements to the effectiveness of human computer interaction the influence of emotions in human computer interaction has been studied in fields such as financial decision making using ecg and organizational knowledge sharing using eye tracking and face readers as affect detection channels in these fields it has been shown that affect detection channels have the potential to detect human emotions and those information systems can incorporate the data obtained from affect detection channels to improve decision models
+
+a brain computer interface bci is a direct communication pathway between an enhanced or wired brain and an external device bci differs from neuromodulation in that it allows for bidirectional information flow bcis are often directed at researching mapping assisting augmenting or repairing human cognitive or sensory motor functions
+
+security interactions are the study of interaction between humans and computers specifically as it pertains to information security its aim in plain terms is to improve the usability of security features in end user applications
+
+unlike hci which has roots in the early days of xerox parc during the 1970s hcisec is a nascent field of study by comparison interest in this topic tracks with that of internet security which has become an area of broad public concern only in very recent years
+
+when security features exhibit poor usability the following are common reasons
+
+traditionally computer use was modeled as a human computer dyad in which the two were connected by a narrow explicit communication channel such as text based terminals much work has been done to make the interaction between a computing system and a human more reflective of the multidimensional nature of everyday communication interaction and thought because of potential issues human computer interaction shifted focus beyond the interface to respond to observations as articulated by douglas engelbart if ease of use were the only valid criterion people would stick to tricycles and never try bicycles
+
+how humans interact with computers continues to evolve rapidly human computer interaction is affected by developments in computing these forces include
+
+one of the main conferences for new research in human computer interaction is the annually held association for computing machinery s acm conference on human factors in computing systems usually referred to by its short name chi pronounced kai or khai chi is organized by acm special interest group on computer human interaction sigchi chi is a large conference with thousands of attendants and is quite broad in scope it is attended by academics practitioners and industry people
+
+there are also dozens of other smaller regional or specialized hci related conferences held around the world each year including

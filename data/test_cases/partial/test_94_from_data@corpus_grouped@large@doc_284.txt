@@ -1,0 +1,1 @@
+ inputs is calculated at each node the mean squared errors between these calculated outputs and th

@@ -1,0 +1,100 @@
+frames are an artificial intelligence data structure used to divide knowledge into substructures by representing stereotyped situations
+
+they were proposed by marvin minsky in his 1974 article a framework for representing knowledge frames are the primary data structure used in artificial intelligence frame languages they are stored as ontologies of sets
+
+frames are also an extensive part of knowledge representation and reasoning schemes they were originally derived from semantic networks and are therefore part of structure based knowledge representations
+
+according to russell and norvig s artificial intelligence a modern approach structural representations assemble facts about particular object and event types and arrange the types into a large taxonomic hierarchy analogous to a biological taxonomy
+
+the frame contains information on how to use the frame what to expect next and what to do when these expectations are not met
+
+some information in the frame is generally unchanged while other information stored in terminals usually change terminals can be considered as variables
+
+top level frames carry information that is always true about the problem in hand however terminals do not have to be true their value might change with the new information encountered different frames may share the same terminals
+
+each piece of information about a particular frame is held in a slot
+
+the information can contain
+
+a frame s terminals are already filled with default values which is based on how the human mind works
+
+for example when a person is told a boy kicks a ball most people will visualize a particular ball such as a familiar soccer ball rather than imagining some abstract ball with no attributes
+
+one particular strength of frame based knowledge representations is that unlike semantic networks they allow for exceptions in particular instances this gives frames a degree of flexibility that allows representations to reflect real world phenomena more accurately
+
+like semantic networks frames can be queried using spreading activation following the rules of inheritance any value given to a slot that is inherited by subframes will be updated if added to the corresponding slots in the subframes and any new instances of a particular frame will feature that new value as the default
+
+because frames are based on structures it is possible to generate a semantic network given a set of frames even though it lacks explicit arcs references to noam chomsky and his generative grammar of 1950 are generally missing from minsky s work
+
+the simplified structures of frames allow for easy analogical reasoning a much prized feature in any intelligent agent the procedural attachments provided by frames also allow a degree of flexibility that makes for a more realistic representation and gives a natural affordance for programming applications
+
+worth noticing here is the easy analogical reasoning comparison that can be done between a boy and a monkey just by having similarly named slots
+
+also notice that alex an instance of a boy inherits default values like sex from the more general parent object boy
+but the boy may also have different instance values in the form of exceptions such as the number of legs
+
+a frame language is a technology used for knowledge representation in artificial intelligence they are similar to class hierarchies in object oriented languages although their fundamental design goals are different
+
+frames are focused on explicit and intuitive representation of knowledge whereas objects focus on encapsulation and information hiding frames originated in ai research and objects primarily in software engineering
+
+however in practice the techniques and capabilities of frame and object oriented languages overlap significantly
+
+a simple example of concepts modeled in a frame language is the friend of a friend foaf ontology defined as part of the semantic web as a foundation for social networking and calendar systems
+
+the primary frame in this simple example is a person
+
+example slots are the person s email home page phone etc
+
+the interests of each person can be represented by additional frames describing the space of business and entertainment domains
+
+the slot knows links each person with other persons
+
+default values for a person s interests can be inferred by the web of people they are friends of
+
+the earliest frame based languages were custom developed for specific research projects and were not packaged as tools to be re used by other researchers
+
+just as with expert system inference engines researchers soon realized the benefits of extracting part of the core infrastructure and developing general purpose frame languages that were not coupled to specific applications
+
+one of the first general purpose frame languages was krl one of the most influential early frame languages was kl one kl one spawned several subsequent frame languages
+
+one of the most widely used successors to kl one was the loom language developed by robert macgregor at the information sciences institute
+
+in the 1980s artificial intelligence generated a great deal of interest in the business world fueled by expert systems this led to the development of many commercial products for the development of knowledge based systems these early products were usually developed in lisp and integrated constructs such as if then rules for logical reasoning with frame hierarchies for representing data
+
+one of the most well known of these early lisp knowledge base tools was the knowledge engineering environment kee from intellicorp kee provided a full frame language with multiple inheritance slots triggers default values and a rule engine that supported backward and forward chaining as with most early commercial versions of ai software kee was originally deployed in lisp on lisp machine platforms but was eventually ported to pcs and unix workstations
+
+the research agenda of the semantic web spawned a renewed interest in automatic classification and frame languages an example is the web ontology language owl standard for describing information on the internet owl is a standard to provide a semantic layer on top of the internet the goal is that rather than searching the web using keywords as most search engines e g google do today the web can be organized by concepts organized in an ontology like a directory structure
+
+the name of the owl language itself provides a good example of the value of a semantic web if one were to search for owl using the internet today most of the pages retrieved would be on the bird owl rather than the standard owl with a semantic web it would be possible to specify the concept web ontology language and the user would not need to worry about the various possible acronyms or synonyms as part of the search likewise the user would not need to worry about homonyms crowding the search results with irrelevant data such as information about birds of prey as in this simple example
+
+in addition to owl various standards and technologies that are relevant to the semantic web and were influenced by frame languages include oil and daml the protege open source software tool from stanford university provides an ontology editing capability that is built on owl and has the full capabilities of a classifier however it ceased to explicitly support frames as of version 3 5 which is maintained for those preferring frame orientation with the current version being 5 6 8 as of 2025 the justification for moving from explicit frames being that owl dl is more expressive and industry standard
+
+frame languages have a significant overlap with object oriented languages the terminologies and goals of the two communities were different but as they moved from the academic world and labs to the commercial world developers tended to not care about philosophical issues and focused primarily on specific capabilities taking the best from either camp regardless of where the idea began what both paradigms have in common is a desire to reduce the distance between concepts in the real world and their implementation in software as such both paradigms arrived at the idea of representing the primary software objects in taxonomies starting with very general types and progressing to more specific types
+
+the following table illustrates the correlation between standard terminology from the object oriented and frame language communities
+
+the primary difference between the two paradigms was in the degree that encapsulation was considered a major requirement for the object oriented paradigm encapsulation was one of if not the most critical requirement the desire to reduce the potential interactions between software components and hence manage large complex systems was a key driver of object oriented technology for the frame language camp this requirement was less critical than the desire to provide a vast array of possible tools to represent rules constraints and programming logic in the object oriented world everything is controlled by methods and the visibility of methods so for example accessing the data value of an object property must be done via an accessor method this method controls things such as validating the data type and constraints on the value being retrieved or set on the property in frame languages these same types of constraints could be handled in multiple ways triggers could be defined to fire before or after a value was set or retrieved rules could be defined that managed the same types of constraints the slots themselves could be augmented with additional information called facets in some languages again with the same type of constraint information
+
+the other main differentiator between frame and oo languages was multiple inheritance allowing a frame or class to have two or more superclasses for frame languages multiple inheritance was a requirement this follows from the desire to model the world the way humans do human conceptualizations of the world seldom fall into rigidly defined non overlapping taxonomies for many oo languages especially in the later years of oo single inheritance was either strongly desired or required multiple inheritance was seen as a possible step in the analysis phase to model a domain but something that should be eliminated in the design and implementation phases in the name of maintaining encapsulation and modularity
+
+although the early frame languages such as krl did not include message passing driven by the demands of developers most of the later frame languages e g loom kee included the ability to define messages on frames
+
+on the object oriented side standards have also emerged that provide essentially the equivalent functionality that frame languages provided albeit in a different format and all standardized on object libraries for example the object management group has standardized specifications for capabilities such as associating test data and constraints with objects analogous to common uses for facets in frames and to constraints in frame languages such as loom and for integrating rule engines
+
+early work on frames was inspired by psychological research going back to the 1930s that indicated people use stored stereotypical knowledge to interpret and act in new cognitive situations the term frame was first used by marvin minsky as a paradigm to understand visual reasoning and natural language processing in these and many other types of problems the potential solution space for even the smallest problem is huge for example extracting the phonemes from a raw audio stream or detecting the edges of an object things that seem trivial to humans are actually quite complex in fact how difficult they really were was probably not fully understood until ai researchers began to investigate the complexity of getting computers to solve them
+
+the initial notion of frames or scripts as they were also called is that they would establish the context for a problem and in so doing automatically reduce the possible search space significantly the idea was also adopted by schank and abelson who used it to illustrate how an ai system could process common human interactions such as ordering a meal at a restaurant these interactions were standardized as frames with slots that stored relevant information about each frame slots are analogous to object properties in object oriented modeling and to relations in entity relation models slots often had default values but also required further refinement as part of the execution of each instance of the scenario i e the execution of a task such as ordering at a restaurant was controlled by starting with a basic instance of the frame and then instantiating and refining various values as appropriate essentially the abstract frame represented an object class and the frame instances an object instance in this early work the emphasis was primarily on the static data descriptions of the frame various mechanisms were developed to define the range of a slot default values etc however even in these early systems there were procedural capabilities one common technique was to use triggers similar to the database concept of triggers attached to slots a trigger is simply procedural code that have attached to a slot the trigger could fire either before and or after a slot value was accessed or modified
+
+as with object classes frames were organized in subsumption hierarchies for example a basic frame might be ordering at a restaurant an instance of that would be joe goes to dairy queen a specialization essentially a subclass of the restaurant frame would be a frame for ordering at a fancy restaurant the fancy restaurant frame would inherit all the default values from the restaurant frame but also would either add more slots or change one or more of the default values e g expected price range for the specialized frame
+
+much of the early frame language research e g schank and abelson had been driven by findings from experimental psychology and attempts to design knowledge representation tools that corresponded to the patterns humans were thought to use to function in daily tasks these researchers were less interested in mathematical formality since they believed such formalisms were not necessarily good models for the way the average human conceptualizes the world the way humans use language for example is often far from truly logical
+
+similarly in linguistics charles j fillmore in the mid 1970s started working on his theory of frame semantics which later would lead to computational resources like framenet frame semantics was motivated by reflections on human language and human cognition
+
+researchers such as ron brachman on the other hand wanted to give ai researchers the mathematical formalism and computational power that were associated with logic their aim was to map the frame classes slots constraints and rules in a frame language to set theory and logic one of the benefits of this approach is that the validation and even creation of the models could be automated using theorem provers and other automated reasoning capabilities the drawback was that it could be more difficult to initially specify the model in a language with a formal semantics
+
+this evolution also illustrates a classic divide in ai research known as the neats vs scruffies the neats were researchers who placed the most value on mathematical precision and formalism which could be achieved via first order logic and set theory the scruffies were more interested in modeling knowledge in representations that were intuitive and psychologically meaningful to humans
+
+the most notable of the more formal approaches was the kl one language kl one later went on to spawn several subsequent frame languages the formal semantics of languages such as kl one gave these frame languages a new type of automated reasoning capability known as the classifier the classifier is an engine that analyzes the various declarations in the frame language the definition of sets subsets relations etc the classifier can then automatically deduce various additional relations and can detect when some parts of a model are inconsistent with each other in this way many of the tasks that would normally be executed by forward or backward chaining in an inference engine can instead be performed by the classifier
+
+this technology is especially valuable in dealing with the internet it is an interesting result that the formalism of languages such as kl one can be most useful dealing with the highly informal and unstructured data found on the internet on the internet it is simply not feasible to require all systems to standardize on one data model it is inevitable that terminology will be used in multiple inconsistent forms the automatic classification capability of the classifier engine provides ai developers with a powerful toolbox to help bring order and consistency to a very inconsistent collection of data i e the internet the vision for an enhanced internet where pages are ordered not just by text keywords but by classification of concepts is known as the semantic web classification technology originally developed for frame languages is a key enabler of the semantic web the neats vs scruffies divide also emerged in semantic web research culminating in the creation of the linking open data community their focus was on exposing data on the web rather than modeling

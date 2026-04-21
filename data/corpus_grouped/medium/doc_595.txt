@@ -1,0 +1,42 @@
+de identification is the process used to prevent someone s personal identity from being revealed for example data produced during human subject research might be de identified to preserve the privacy of research participants biological data may be de identified in order to comply with hipaa regulations that define and stipulate patient privacy laws
+
+when applied to metadata or general data about identification the process is also known as data anonymization common strategies include deleting or masking personal identifiers such as personal name and suppressing or generalizing quasi identifiers such as date of birth the reverse process of using de identified data to identify individuals is known as data re identification successful re identifications cast doubt on de identification s effectiveness a systematic review of fourteen distinct re identification attacks found a high re identification rate dominated by small scale studies on data that was not de identified according to existing standards
+
+de identification is adopted as one of the main approaches toward data privacy protection it is commonly used in fields of communications multimedia biometrics big data cloud computing data mining internet social networks and audio video surveillance
+
+when surveys are conducted such as a census they collect information about a specific group of people to encourage participation and to protect the privacy of survey respondents the researchers attempt to design the survey in a way that when people participate in a survey it will not be possible to match any participant s individual response s with any data published
+
+when an online shopping website wants to know its users preferences and shopping habits it decides to retrieve customers data from its database and do analysis on them the personal data information include personal identifiers which were collected directly when customers created their accounts the website needs to pre handle the data through de identification techniques before analyzing data records to avoid violating their customers privacy
+
+anonymization refers to irreversibly severing a data set from the identity of the data contributor in a study to prevent any future re identification even by the study organizers under any condition de identification may also include preserving identifying information which can only be re linked by a trusted party in certain situations there is a debate in the technology community on whether data that can be re linked even by a trusted party should ever be considered de identified
+
+common strategies of de identification are masking personal identifiers and generalizing quasi identifiers pseudonymization is the main technique used to mask personal identifiers from data records and k anonymization is usually adopted for generalizing quasi identifiers
+
+pseudonymization is performed by replacing real names with a temporary id it deletes or masks personal identifiers to make individuals unidentified this method makes it possible to track the individual s record over time even though the record will be updated however it can not prevent the individual from being identified if some specific combinations of attributes in the data record indirectly identify the individual
+
+k anonymization defines attributes that indirectly points to the individual s identity as quasi identifiers qis and deal with data by making at least k individuals have some combination of qi values qi values are handled following specific standards for example the k anonymization replaces some original data in the records with new range values and keep some values unchanged new combination of qi values prevents the individual from being identified and also avoid destroying data records
+
+research into de identification is driven mostly for protecting health information some libraries have adopted methods used in the healthcare industry to preserve their readers privacy
+
+in big data de identification is widely adopted by individuals and organizations with the development of social media e commerce and big data de identification is sometimes required and often used for data privacy when users personal data are collected by companies or third party organizations who will analyze it for their own personal usage
+
+in smart cities de identification may be required to protect the privacy of residents workers and visitors without strict regulation de identification may be difficult because sensors can still collect information without consent
+
+phi protected health information can be present in various data and each format need specific techniques and tools for de identify it
+
+whenever a person participates in genetics research the donation of a biological specimen often results in the creation of a large amount of personalized data such data is uniquely difficult to de identify
+
+anonymization of genetic data is particularly difficult because of the huge amount of genotypic
+information in biospecimens the ties that specimens often have to medical history and the advent of modern bioinformatics tools for data mining there have been demonstrations that data for individuals in aggregate collections of genotypic data sets can be tied to the identities of the specimen donors
+
+some researchers have suggested that it is not reasonable to ever promise participants in genetics research that they can retain their anonymity but instead such participants should be taught the limits of using coded identifiers in a de identification process
+
+in may 2014 the united states president s council of advisors on science and technology found de identification somewhat useful as an added safeguard but not a useful basis for policy as it is not robust against near term future re identification methods
+
+the hipaa privacy rule provides mechanisms for using and disclosing health data responsibly without the need for patient consent these mechanisms center on two hipaa de identification standards safe harbor and the expert determination method safe harbor relies on the removal of specific patient identifiers e g name phone number email address etc while the expert determination method requires knowledge and experience with generally accepted statistical and scientific principles and methods to render information not individually identifiable
+
+the safe harbor method uses a list approach to de identification and has two requirements
+
+expert determination takes a risk based approach to de identification that applies current standards and best practices from the research to determine the likelihood that a person could be identified from their protected health information this method requires that a person with appropriate knowledge of and experience with generally accepted statistical and scientific principles and methods render the information not individually identifiable it requires
+
+the key law about research in electronic health record data is hipaa privacy rule this law allows use of electronic health record of deceased subjects for research hipaa privacy rule section 164 512 i 1 iii

@@ -1,0 +1,42 @@
+pace there exists a sequence of neurtl networks
+
+
+
+
+ϕ
+
+1
+
+
+
+
+ϕ
+
+2
+
+
+
+
+
+
+displaystyle phr _ 1 phi _ 2 dots
+
+from the family sufh that
+
+
+
+
+ϕu
+n
+
+
+
+f
+
+
+displaystyle phi _ n to f
+
+according to some criterion
+
+
+a spate of papers in the 1980sm1990s from george cybenko and kurt hornik de etchestablished se

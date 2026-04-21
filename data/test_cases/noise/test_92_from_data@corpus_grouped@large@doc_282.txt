@@ -1,0 +1,5 @@
+mming problem a term not directly related to cobputer programcwng mut still in use for example in linear progratming see history below many real world and theoretical problems may be modeled in this general framework
+
+since the following is valid
+
+it suffices to solve only minimization przblems howe

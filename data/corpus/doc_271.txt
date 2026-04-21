@@ -1,0 +1,110 @@
+
+
+a chatbot originally chatterbot is a software application or web interface designed to converse through text or speech modern chatbots are typically online and use generative artificial intelligence systems that are capable of maintaining a conversation with a user in natural language and simulating the way a human would behave as a conversational partner such chatbots often use deep learning and natural language processing simpler chatbots have existed for decades
+
+chatbots have gained popularity with the release of chatgpt by openai in 2022 followed by competitors such as gemini claude and grok in what is labelled an ai boom ai chatbots typically use fine tuned large language models to generate text
+
+a major area where chatbots have long been used is customer service and support with various sorts of virtual assistants
+
+in 1950 alan turing published an article entitled computing machinery and intelligence in which he proposed what is now called the turing test as a criterion of intelligence this criterion depends on the ability of a computer program to impersonate a human in a real time written conversation with a human judge to the extent that the judge is incapable of reliably distinguishing on the basis of the conversational content alone between the program and a real human
+
+joseph weizenbaum s program eliza was first published in 1966 weizenbaum did not claim that eliza was genuinely intelligent and the introduction to his paper presented it more as a debunking exercise
+in artificial intelligence machines are made to behave in wondrous ways often sufficient to dazzle even the most experienced observer but once a particular program is unmasked once its inner workings are explained its magic crumbles away it stands revealed as a mere collection of procedures the observer says to himself i could have written that with that thought he moves the program in question from the shelf marked intelligent to that reserved for curios the object of this paper is to cause just such a re evaluation of the program about to be explained few programs ever needed it more
+eliza s key method of operation involves the recognition of clue words or phrases in the input and the output of the corresponding pre prepared or pre programmed responses that can move the conversation forward in an apparently meaningful way e g by responding to any input that contains the word mother with tell me more about your family thus an illusion of understanding is generated even though the processing involved has been merely superficial eliza showed that such an illusion is surprisingly easy to generate because human judges are ready to give the benefit of the doubt when conversational responses are capable of being interpreted as intelligent
+
+following eliza psychiatrist kenneth colby developed parry in 1972
+
+from 1978 to some time after 1983 the cyrus project led by janet kolodner constructed a chatbot simulating cyrus vance 57th united states secretary of state it used case based reasoning and updated its database daily by parsing wire news from united press international the program was unable to process the news items subsequent to the surprise resignation of cyrus vance in april 1980 and the team constructed another chatbot simulating his successor edmund muskie
+
+in 1984 an interactive version of the program racter was released which acted as a chatbot
+
+a l i c e was released in 1995 this uses a markup language called aiml which is specific to its function as a conversational agent and has since been adopted by various other developers of so called alicebots a l i c e is a weak ai without any reasoning capabilities it is based on a similar pattern matching technique as eliza in 1966 this is not strong ai which would require sapience and logical reasoning abilities
+
+jabberwacky released in 1997 learns new responses and context based on real time user interactions rather than being driven from a static database
+
+chatbot competitions focus on the turing test or more specific goals two such annual contests are the loebner prize and the chatterbox challenge the latter has been offline since 2015 however materials can still be found from web archives
+
+pre dating the current generation of large language models gavagai a swedish language technology startup created a twitter based bot in 2015 and
+dbpedia created a chatbot during the 2017 google summer of code that communicated through facebook messenger
+
+modern chatbots like chatgpt are often based on foundational large language models called generative pre trained transformers gpt they are based on a deep learning architecture called the transformer which contains artificial neural networks they generate text after being trained on a large text corpus and have emergent abilities that they are not specifically trained for
+
+chatbots integrated into apps and websites can call image generation models or search the web some platforms also enable users to interact with conversational interfaces directly through web based chat environments allowing real time assistance content generation and task automation without requiring software installation
+
+many companies chatbots run on messaging apps or simply via sms they are used for b2c customer service sales and marketing
+
+in 2016 facebook messenger allowed developers to place chatbots on their platform there were 30 000 bots created for messenger in the first six months rising to 100 000 by september 2017
+
+since september 2017 this has also been as part of a pilot program on whatsapp airlines klm and aeroméxico both announced their participation in the testing both airlines had previously launched customer services on the facebook messenger platform
+
+the bots usually appear as one of the user s contacts but can sometimes act as participants in a group chat
+
+many banks insurers media companies e commerce companies airlines hotel chains retailers health care providers government entities and restaurant chains have used chatbots to answer simple questions increase customer engagement for promotion and to offer additional ways to order from them chatbots are also used in market research to collect short survey responses
+
+a 2017 study showed 4 of companies used chatbots in a 2016 study 80 of businesses said they intended to have one by 2020
+
+previous generations of chatbots were present on company websites e g ask jenn from alaska airlines which debuted in 2008 or expedia s virtual customer service agent which launched in 2011 the newer generation of chatbots includes ibm watson powered rocky introduced in february 2017 by the new york city based e commerce company rare carat to provide information to prospective diamond buyers
+
+used by marketers to script sequences of messages very similar to an autoresponder sequence such sequences can be triggered by user opt in or the use of keywords within user interactions after a trigger occurs a sequence of messages is delivered until the next anticipated user response each user response is used in the decision tree to help the chatbot navigate the response sequences to deliver the correct response message
+
+companies have used chatbots for customer support human resources or in internet of things iot projects overstock com for one has reportedly launched a chatbot named mila to attempt to automate certain processes when customer service employees request sick leave other large companies such as lloyds banking group royal bank of scotland renault and citroën are now using chatbots instead of call centres with humans to provide a first point of contact citation needed in large companies like in hospitals and aviation organizations chatbots are also used to share information within organizations and to assist and replace service desks citation needed
+
+chatbots have been proposed as a replacement for customer service departments in 2026 the financial times reported on agentic chatbots that could do shopping for customers once given instructions
+
+in 2016 russia based tochka bank launched a chatbot on facebook for a range of financial services including a possibility of making payments in july 2016 barclays africa also launched a facebook chatbot
+
+chatbots are also appearing in the healthcare industry a study suggested that physicians in the united states believed that chatbots would be most beneficial for scheduling doctor appointments locating health clinics or providing medication information a 2025 review found that participants often rated chatbot responses as more empathic than those from clinicians
+
+in 2020 whatsapp worked with the world health organization and the government of india to make chatbots to answers users questions on covid 19
+
+in 2023 us based national eating disorders association replaced its human helpline staff with a chatbot but had to take it offline after users reported receiving harmful advice from it
+
+in new zealand the chatbot sam short for semantic analysis machine has been developed by nick gerritsen of touchtech it is designed to share its political thoughts for example on topics such as climate change healthcare and education etc it talks to people through facebook messenger
+
+in 2022 the chatbot leader lars or leder lars was nominated for the synthetic party to run in the danish parliamentary election and was built by the artist collective computer lars leader lars differed from earlier virtual politicians by leading a political party and by not pretending to be an objective candidate this chatbot engaged in critical discussions on politics with users from around the world
+
+in india the state government has launched a chatbot for its aaple sarkar platform which provides conversational access to information regarding public services managed
+
+chatbots have also been incorporated into devices not primarily meant for computing such as toys
+
+hello barbie is an internet connected version of the doll that uses a chatbot provided by the company toytalk which previously used the chatbot for a range of smartphone based characters for children these characters behaviors are constrained by a set of rules that in effect emulate a particular character and produce a storyline
+
+the my friend cayla doll was marketed as a line of 18 inch 46 cm dolls which uses speech recognition technology in conjunction with an android or ios mobile app to recognize the child s speech and have a conversation like the hello barbie doll it attracted controversy due to vulnerabilities with the doll s bluetooth stack and its use of data collected from the child s speech
+
+ibm s watson computer has been used as the basis for chatbot based educational toys for companies such as cognitoys intended to interact with children for educational purposes
+
+malicious chatbots are frequently used to fill chat rooms with spam and advertisements by mimicking human behavior and conversations or to entice people into revealing personal information such as bank account numbers they were commonly found on yahoo messenger windows live messenger aol instant messenger and other instant messaging protocols there has also been a published report of a chatbot used in a fake personal ad on a dating service s website
+
+tay an ai chatbot designed to learn from previous interactions caused major controversy after being targeted by internet trolls on twitter soon after its launch the bot was exploited and with its repeat after me capability it started releasing racist sexist and controversial responses to twitter users this suggests that although the bot learned effectively from experience adequate protection was not put in place to prevent misuse
+
+if a text sending algorithm can pass itself off as a human instead of a chatbot its message would be more credible therefore human seeming chatbots with well crafted online identities could start scattering fake news that seems plausible for instance making false claims during an election with enough chatbots it might be even possible to achieve artificial social proof
+
+data security is one of the major concerns of chatbot technologies security threats and system vulnerabilities are weaknesses that are often exploited by malicious users storage of user data and past communication that is highly valuable for training and development of chatbots can also give rise to security threats chatbots operating on third party networks may be subject to various security issues if owners of the third party applications have policies regarding user data that differ from those of the chatbot security threats can be reduced or prevented by incorporating protective mechanisms user authentication chat end to end encryption and self destructing messages are some effective solutions to resist potential security threats
+
+chatbots have shown to be an emerging technology used in the field of mental health its usage may encourage users to seek advice on matters of mental health as a means to avoid the stigmatization that may come from sharing such matters with other people this is because chatbots can give a sense of privacy and anonymity when sharing sensitive information as well as providing a space that allows for the user to be free of judgment an example of this can be seen in a study which found that with social media and ai chatbots both being possible outlets to express mental health online users were more willing to share their darker and more depressive emotions to the chatbot users may also turn to chatbots because their replies can be perceived as empathic and emotionally supportive
+
+findings prove that chatbots have great potential in scenarios in which it is difficult for users to reach out to family or friends for support it has been noted that it demonstrates the ability to give young people various types of social support such as appraisal informational emotional and instrumental support studies have found that chatbots are able to assist users in managing things such as depression and anxiety some examples of chatbots that serve this function are woebot wysa vivibot and tess
+
+evidence indicates that when mental health chatbots interact with users they tend to follow certain conversation flows these being guided conversation semi guided conversation and open ended conversation the most popular guided conversation only allows the users to communicate with the chatbot with predefined responses from the chatbot it does not allow any form of open input from the users it has also been noted in a study looking at the methods employed by various mental health chatbots that most of them employed a form of cognitive behavior therapy with the user
+
+research has identified potential barriers to entry that come with the usage of chatbots for mental health there are ongoing privacy concerns with sharing user s personal data in chat logs with chatbots there is a lack of willingness from those in lower socioeconomic statuses to adopt interactions with chatbots as a meaningful way to improve upon mental health though chatbots may be capable of detecting simple human emotions in interactions with users they are incapable of replicating the level of empathy that human therapists do
+
+due to the nature of chatbots being language learning models trained on numerous datasets the issue of algorithmic bias exists chatbots with built in biases from their training can have them brought out against individuals of certain backgrounds and may result in incorrect information being conveyed
+
+there is a lack of research about how exactly these interactions help with a user s real life there are concerns regarding the safety of users when interacting with such chatbots when improvements and advancements are made to such technologies how that may affect humans is not a priority it is possible that this can lead to unintended negative consequences such as biases inadequate and failed responses and privacy issues
+
+a risk in the usage of chatbots to deal with mental health is increased isolation as well as a lack of support in times of crisis a 2025 study by sentio university evaluated how six major chatbots responded to disclosures of suicide risk and other acute mental health crises finding that none consistently met clinician determined safety standards another notable risk is a general lack of a strong understanding of mental health studies have indicated that mental health oriented chatbots have been prone to recommending users medical solutions and to rely upon themselves heavily
+
+obsessive use of chatbots has been linked to chatbot psychosis in people already prone to delusional and conspiratorial thinking this is caused in part by chatbots hallucinating information as they are designed for engagement and to keep people talking
+
+traditional chatbots particularly lacked understanding of user requests leading to clunky repetitive conversations their pre programmed responses would often fail to satisfy unexpected user queries causing frustration these chatbots were particularly unhelpful for users who lacked a clear understanding of their problem or the service they needed
+
+chatbots based on large language models are much more versatile but require a large amount of conversational data to train these models generate new responses word by word based on user input and are usually trained on a large dataset of natural language phrases they sometimes provide plausible sounding but incorrect or nonsensical answers referred to as hallucinations they can for example make up names dates or historical events when humans use and apply chatbot content contaminated with hallucinations this results in botshit given the increasing adoption and use of chatbots for generating content there are concerns that this technology will significantly reduce the cost it takes humans to generate misinformation
+
+chatbots and technology in general used to automate repetitive tasks but advanced chatbots like chatgpt are also targeting high paying creative and knowledge based jobs raising concerns about workforce disruption and quality trade offs in favor of cost cutting
+
+chatbots are increasingly used by small and medium enterprises to handle customer interactions efficiently reducing reliance on large call centers and lowering operational costs
+
+prompt engineering the task of designing and refining prompts inputs leading to desired ai generated responses has quickly gained significant demand with the advent of large language models although the viability of this job is questioned due to new techniques for automating prompt engineering
+
+generative ai uses a high amount of electric power due to reliance on fossil fuels in its generation this increases air pollution water pollution and greenhouse gas emissions in 2023 a question to chatgpt consumed on average 10 times as much energy as a google search data centres in general and those used for ai tasks specifically use significant amounts of water for cooling
