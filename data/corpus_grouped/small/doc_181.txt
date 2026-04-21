@@ -1,0 +1,13 @@
+data mesh is a sociotechnical approach to building a decentralized data architecture by leveraging a domain oriented self serve design in a software development perspective and borrows eric evans theory of domain driven design and manuel pais and matthew skelton s theory of team topologies data mesh mainly concerns itself with the data itself taking the data lake and the pipelines as a secondary concern the main proposition is scaling analytical data by domain oriented decentralization with data mesh the responsibility for analytical data is shifted from the central data team to the domain teams supported by a data platform team that provides a domain agnostic data platform this enables a decrease in data disorder or the existence of isolated data silos due to the presence of a centralized system that ensures the consistent sharing of fundamental principles across various nodes within the data mesh and allows for the sharing of data across different areas
+
+the term data mesh was first defined by zhamak dehghani in 2019 while she was working as a principal consultant at the technology company thoughtworks dehghani introduced the term in 2019 and then provided greater detail on its principles and logical architecture throughout 2020 the process was predicted to be a big contender for companies in 2022 data meshes have been implemented by companies such as zalando netflix intuit vistaprint paypal and others
+
+in 2022 dehghani left thoughtworks to found nextdata technologies to focus on decentralized data
+
+data mesh is based on four core principles
+
+in addition to these principles dehghani writes that the data products created by each domain team should be discoverable addressable trustworthy possess self describing semantics and syntax be interoperable secure and governed by global standards and access controls in other words the data should be treated as a product that is ready to use and reliable
+
+after its introduction in 2019 multiple companies started to implement a data mesh and share their experiences challenges c and best practices bp for practitioners include
+
+scott hirleman has started a data mesh community that contains over 7 500 people in their slack channel

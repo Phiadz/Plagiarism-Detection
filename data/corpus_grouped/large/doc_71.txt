@@ -1,0 +1,139 @@
+
+
+python is a high level general purpose programming language that emphasizes code readability simplicity and ease of writing with the use of significant indentation plain english naming an extensive batteries included standard library and garbage collection python supports multiple programming paradigms but with an emphasis on object oriented programming and dynamic typing
+
+guido van rossum began working on python in the late 1980s as a successor to the abc programming language python 3 0 released in 2008 was a major revision and not completely backward compatible with earlier versions beginning with python 3 5 capabilities and keywords for typing were added to the language allowing optional static typing as of 2026 update the python software foundation supports python 3 10 3 11 3 12 3 13 and 3 14 following the project s annual release cycle and five year support policy python 3 15 is currently in the alpha development phase and the stable release is expected to come out in october 2026 earlier versions in the 3 x series have reached end of life and no longer receive security updates
+
+python has gained widespread use in the machine learning community it is widely taught as an introductory programming language since 2003 python has consistently ranked in the top ten of the most popular programming languages in the tiobe programming community index which ranks based on searches in 24 platforms
+
+python was conceived in the late 1980s by guido van rossum at centrum wiskunde informatica cwi in the netherlands it was designed as a successor to the abc programming language which was inspired by setl capable of exception handling and interfacing with the amoeba operating system python implementation began in december 1989 van rossum first released it in 1991 as python 0 9 0 van rossum assumed sole responsibility for the project as the lead developer until 12 july 2018 when he announced his permanent vacation from responsibilities as python s benevolent dictator for life bdfl this title was bestowed on him by the python community to reflect his long term commitment as the project s chief decision maker he has since come out of retirement and is self titled bdfl emeritus in january 2019 active python core developers elected a five member steering council to lead the project
+
+the name python derives from the british comedy series monty python s flying circus see naming
+
+python 2 0 was released on 16 october 2000 featuring many new features such as list comprehensions cycle detecting garbage collection reference counting and unicode support python 2 7 s end of life was initially set for 2015 and then postponed to 2020 out of concern that a large body of existing code could not easily be forward ported to python 3 it no longer receives security patches or updates while python 2 7 and older versions are officially unsupported a different unofficial python implementation pypy continues to support python 2 i e 2 7 18 plus 3 11 with the plus signifying at least some backported security updates
+
+python 3 0 was released on 3 december 2008 and was a major revision and not completely backward compatible with earlier versions with some new semantics and changed syntax python 2 7 18 released in 2020 was the last release of python 2 several releases in the python 3 x series have added new syntax to the language and made a few considered very minor backward incompatible changes
+
+as of january 2026 update python 3 14 4 is the latest stable release all older 3 x versions had a security update down to python 3 9 24 then again with 3 9 25 the final version in 3 9 series python 3 10 is since november 2025 the oldest supported branch python 3 15 has an alpha released and android has an official downloadable executable available for python 3 14 releases receive two years of full support followed by three years of security support
+
+python is a multi paradigm programming language object oriented programming and structured programming are fully supported and many of their features support functional programming and aspect oriented programming including metaprogramming and metaobjects many other paradigms are supported via extensions including design by contract and logic programming python is often referred to as a glue language because it is purposely designed to be able to integrate components written in other languages
+
+python uses dynamic typing and a combination of reference counting and a cycle detecting garbage collector for memory management it uses dynamic name resolution late binding which binds method and variable names during program execution
+
+python s design offers some support for functional programming in the lisp tradition it has filter map and reduce functions list comprehensions dictionaries sets and generator expressions the standard library has two modules itertools and functools that implement functional tools borrowed from haskell and standard ml
+
+python s core philosophy is summarized in the zen of python pep 20 written by tim peters which includes aphorisms such as these
+
+however python has received criticism for violating these principles and adding unnecessary language bloat responses to these criticisms note that the zen of python is a guideline rather than a rule the addition of some new features had been controversial guido van rossum resigned as benevolent dictator for life after conflict about adding the assignment expression operator in python 3 8
+
+nevertheless rather than building all functionality into its core python was designed to be highly extensible via modules this compact modularity has made it particularly popular as a means of adding programmable interfaces to existing applications van rossum s vision of a small core language with a large standard library and easily extensible interpreter stemmed from his frustrations with abc which represented the opposite approach
+
+python claims to strive for a simpler less cluttered syntax and grammar while giving developers a choice in their coding methodology python lacks do while loops which rossum considered harmful in contrast to perl s motto there is more than one way to do it python advocates an approach where there should be one and preferably only one obvious way to do it in practice however python provides many ways to achieve a given goal there are at least three ways to format a string literal with no certainty as to which one a programmer should use alex martelli is a fellow at the python software foundation and python book author he wrote that to describe something as clever is not considered a compliment in the python culture
+
+python s developers typically prioritize readability over performance for example they reject patches to non critical parts of the cpython reference implementation that would offer increases in speed that do not justify the cost of clarity and readability failed verification execution speed can be improved by moving speed critical functions to extension modules written in languages such as c or by using a just in time compiler like pypy also it is possible to transpile to other languages however this approach either fails to achieve the expected speed up since python is a very dynamic language or only a restricted subset of python is compiled with potential minor semantic changes
+
+python is meant to be a fun language to use this goal is reflected in the name a tribute to the british comedy group monty python and in playful approaches to some tutorials and reference materials for instance some code examples use the terms spam and eggs in reference to a monty python sketch rather than the typical terms foo and bar
+
+a common neologism in the python community is pythonic which has a broad range of meanings related to program style pythonic code may use python idioms well be natural or show fluency in the language or conform with python s minimalist philosophy and emphasis on readability
+
+python is meant to be an easily readable language its formatting is visually uncluttered and often uses english keywords where other languages use punctuation unlike many other languages it does not use curly brackets to delimit blocks and semicolons after statements are allowed but rarely used it has fewer syntactic exceptions and special cases than c or pascal
+
+python uses whitespace indentation rather than curly brackets or keywords to delimit blocks an increase in indentation comes after certain statements a decrease in indentation signifies the end of the current block thus the program s visual structure accurately represents its semantic structure this feature is sometimes termed the off side rule some other languages use indentation this way but in most indentation has no semantic meaning the recommended indent size is four spaces
+
+python s statements include the following
+
+the assignment statement binds a name as a reference to a separate dynamically allocated object variables may subsequently be rebound at any time to any object in python a variable name is a generic reference holder without a fixed data type however it always refers to some object with a type this is called dynamic typing in contrast to statically typed languages where each variable may contain only a value of a certain type
+
+python does not support tail call optimization or first class continuations according to van rossum the language never will however better support for coroutine like functionality is provided by extending python s generators before 2 5 generators were lazy iterators data was passed unidirectionally out of the generator from python 2 5 on it is possible to pass data back into a generator function and from version 3 3 data can be passed through multiple stack levels
+
+python s expressions include the following
+
+in python a distinction between expressions and statements is rigidly enforced in contrast to languages such as common lisp scheme or ruby this distinction leads to duplicating some functionality for example
+
+a statement cannot be part of an expression because of this restriction expressions such as list and dict comprehensions and lambda expressions cannot contain statements as a particular case an assignment statement such as a 1 cannot be part of the conditional expression of a conditional statement
+
+python uses duck typing and it has typed objects but untyped variable names type constraints are not checked at definition time rather operations on an object may fail at usage time indicating that the object is not of an appropriate type despite being dynamically typed python is strongly typed forbidding operations that are poorly defined e g adding a number and a string rather than quietly attempting to interpret them
+
+python allows programmers to define their own types using classes most often for object oriented programming new instances of classes are constructed by calling the class for example spamclass or eggsclass the classes are instances of the metaclass type which is an instance of itself thereby allowing metaprogramming and reflection
+
+before version 3 0 python had two kinds of classes both using the same syntax old style and new style current python versions support the semantics of only the new style
+
+python supports optional type annotations these annotations are not enforced by the language but may be used by external tools such as mypy to catch errors python includes a module typing including several type names for type annotations also mypy supports a python compiler called mypyc which leverages type annotations for optimization
+
+1 33333
+
+frozenset
+
+python includes conventional symbols for arithmetic operators the floor division operator and the modulo operator with the modulo operator a remainder can be negative e g 4 3 2 also python offers the symbol for exponentiation e g 5 3 125 and 9 0 5 3 0 also it offers the matrix multiplication operator these operators work as in traditional mathematics with the same precedence rules the infix operators and can also be unary to represent positive and negative numbers respectively
+
+division between integers produces floating point results the behavior of division has changed significantly over time
+
+in python terms the operator represents true division or simply division while the operator represents floor division before version 3 0 the operator represents classic division
+
+rounding towards negative infinity though a different method than in most languages adds consistency to python for instance this rounding implies that the equation a b b a b 1 is always true also the rounding implies that the equation b a b a b a is valid for both positive and negative values of a as expected the result of a b lies in the half open interval 0 b where b is a positive integer however maintaining the validity of the equation requires that the result must lie in the interval b 0 when b is negative
+
+python provides a round function for rounding a float to the nearest integer for tie breaking python 3 uses the round to even method round 1 5 and round 2 5 both produce 2 python versions before 3 used the round away from zero method round 0 5 is 1 0 and round 0 5 is 1 0
+
+python allows boolean expressions that contain multiple equality relations to be consistent with general usage in mathematics for example the expression a b c tests whether a is less than b and b is less than c c derived languages interpret this expression differently in c the expression would first evaluate a b resulting in 0 or 1 and that result would then be compared with c
+
+python uses arbitrary precision arithmetic for all integer operations the decimal type class in the decimal module provides decimal floating point numbers to a pre defined arbitrary precision with several rounding modes the fraction class in the fractions module provides arbitrary precision for rational numbers
+
+due to python s extensive mathematics library and the third party library numpy the language is frequently used for scientific scripting in tasks such as numerical data processing and manipulation
+
+functions are created in python by using the def keyword a function is defined similarly to how it is called by first providing the function name and then the required parameters here is an example of a function that prints its inputs
+
+to assign a default value to a function parameter in case no actual value is provided at run time variable definition syntax can be used inside the function header
+
+hello world program
+
+program to calculate the factorial of a non negative integer
+
+python s large standard library is commonly cited as one of its greatest strengths for internet facing applications many standard formats and protocols such as mime and http are supported the language includes modules for creating graphical user interfaces connecting to relational databases generating pseudorandom numbers arithmetic with arbitrary precision decimals manipulating regular expressions and unit testing
+
+some parts of the standard library are covered by specifications for example the web server gateway interface wsgi implementation wsgiref follows pep 333 but most parts are specified by their code internal documentation and test suites however because most of the standard library is cross platform python code only a few modules must be altered or rewritten for variant implementations
+
+as of 13 march 2025 update the python package index pypi the official repository for third party python software contains over 614 339 packages
+
+most which python implementations including cpython include a read eval print loop repl this permits the environment to function as a command line interpreter with which users enter statements sequentially and receive results immediately
+
+also cpython is bundled with an integrated development environment ide called idle which is oriented toward beginners citation needed
+
+other shells including idle and ipython add additional capabilities such as improved auto completion session state retention and syntax highlighting
+
+standard desktop ides include pycharm spyder and visual studio code there are web browser based ides such as the following environments
+
+cpython is the reference implementation of python this implementation is written in c meeting the c11 standard since version 3 11 older versions use the c89 standard with several select c99 features but third party extensions are not limited to older c versions e g they can be implemented using c11 or c cpython compiles python programs into an intermediate bytecode which is then executed by a virtual machine cpython is distributed with a large standard library written in a combination of c and native python
+
+cpython is available for many platforms including windows and most modern unix like systems including macos and apple m1 macs since python 3 9 1 using an experimental installer starting with python 3 9 the python installer intentionally fails to install on windows 7 and 8 windows xp was supported until python 3 5 with unofficial support for vms platform portability was one of python s earliest priorities during development of python 1 and 2 even os 2 and solaris were supported since that time support has been dropped for many platforms
+
+all current python versions since 3 7 support only operating systems that feature multithreading by now supporting not nearly as many operating systems dropping many outdated than in the past
+
+all alternative implementations have at least slightly different semantics for example an alternative may include unordered dictionaries in contrast to other current python versions as another example in the larger python ecosystem pypy does not support the full c python api
+
+creating an executable with python often is done by bundling an entire python interpreter into the executable which causes binary sizes to be massive for small programs yet there exist implementations that are capable of truly compiling python alternative implementations include the following
+
+stackless python is a significant fork of cpython that implements microthreads this implementation uses the call stack differently thus allowing massively concurrent programs pypy also offers a stackless version
+
+just in time python compilers have been developed but are now unsupported
+
+there are several compilers transpilers to high level object languages the source language is unrestricted python a subset of python or a language similar to python
+
+there are also specialized compilers
+
+some older projects existed as well as compilers not designed for use with python 3 x and related syntax
+
+a performance comparison among various python implementations using a non numerical combinatorial workload was presented at euroscipy 13 in addition python s performance relative to other programming languages is benchmarked by the computer language benchmarks game
+
+there are several approaches to optimizing python performance despite the inherent slowness of an interpreted language these approaches include the following strategies or tools
+
+python s development is conducted mostly through the python enhancement proposal pep process this process is the primary mechanism for proposing major new features collecting community input on issues and documenting python design decisions python coding style is covered in pep 8 outstanding peps are reviewed and commented on by the python community and the steering council
+
+enhancement of the language corresponds with development of the cpython reference implementation the mailing list python dev is the primary forum for the language s development specific issues were originally discussed in the roundup bug tracker hosted by the foundation in 2022 all issues and discussions were migrated to github development originally took place on a self hosted source code repository running mercurial until python moved to github in january 2017
+
+cpython s public releases have three types distinguished by which part of the version number is incremented
+
+many alpha beta and release candidates are also released as previews and for testing before final releases although there is a rough schedule for releases they are often delayed if the code is not ready yet python s development team monitors the state of the code by running a large unit test suite during development
+
+the major academic conference on python is pycon also there are special python mentoring programs such as pyladies
+
+python s name is inspired by the british comedy group monty python whom python creator guido van rossum enjoyed while developing the language monty python references appear frequently in python code and culture for example the metasyntactic variables often used in python literature are spam and eggs rather than the traditional foo and bar also the official python documentation contains various references to monty python routines python users are sometimes referred to as pythonistas

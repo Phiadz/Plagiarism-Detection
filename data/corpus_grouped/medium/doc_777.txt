@@ -1,0 +1,48 @@
+the dartmouth summer research project on artificial intelligence was a 1956 summer workshop widely considered to be the founding event of artificial intelligence as a field the workshop has been referred to as the constitutional convention of ai the project s four organizers those being claude shannon john mccarthy nathaniel rochester and marvin minsky are considered some of the founding fathers of ai
+
+the project lasted approximately six to eight weeks and was essentially an extended brainstorming session eleven mathematicians and scientists originally planned to attend not all of them attended but more than ten others came for short times
+
+in the early 1950s there were various names for the field of thinking machines cybernetics automata theory and complex information processing the variety of names suggests the variety of conceptual orientations
+
+in 1955 john mccarthy then a young assistant professor of mathematics at dartmouth college decided to organize a group to clarify and develop ideas about thinking machines he picked the name artificial intelligence for the new field he chose the name partly for its neutrality avoiding a focus on narrow automata theory and avoiding cybernetics which was heavily focused on analog feedback as well as him potentially having to accept the assertive norbert wiener as guru or having to argue with him
+
+in early 1955 mccarthy approached the rockefeller foundation to request funding for a summer seminar at dartmouth for about 10 participants in june he and claude shannon a founder of information theory then at bell labs met with robert morison director of biological and medical research to discuss the idea and possible funding though morison was unsure whether money would be made available for such a visionary project
+
+on september 2 1955 the project was formally proposed by mccarthy marvin minsky nathaniel rochester and claude shannon the proposal is credited with introducing the term artificial intelligence
+
+the proposal states
+
+we propose that a 2 month 10 man study of artificial intelligence be carried out during the summer of 1956 at dartmouth college in hanover new hampshire the study is to proceed on the basis of the conjecture that every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it an attempt will be made to find how to make machines use language form abstractions and concepts solve kinds of problems now reserved for humans and improve themselves we think that a significant advance can be made in one or more of these problems if a carefully selected group of scientists work on it together for a summer
+the proposal goes on to discuss computers natural language processing neural networks theory of computation abstraction and creativity these areas within the field of artificial intelligence are considered still relevant to the work of the field
+
+on may 26 1956 mccarthy notified robert morison of the planned 11 attendees
+
+for the full period
+
+for four weeks
+
+for the first two weeks
+
+he noted we will concentrate on a problem of devising a way of programming a calculator to form concepts and to form generalizations this of course is subject to change when the group gets together
+
+the actual participants came at different times mostly for much shorter times trenchard more replaced rochester for three weeks and mackay and holland did not attend but the project was set to begin
+
+around june 18 1956 the earliest participants perhaps only ray solomonoff maybe with tom etter arrived at the dartmouth campus in hanover n h to join john mccarthy who already had an apartment there solomonoff and minsky stayed at professors apartments but most would stay at the hanover inn
+
+the dartmouth workshop is said to have run for six weeks in the summer of 1956 ray solomonoff s notes written during the workshop however say it ran for roughly eight weeks from about june 18 to august 17 solomonoff s dartmouth notes start on june 22 june 28 mentions minsky june 30 mentions hanover n h july 1 mentions tom etter on august 17 solomonoff gave a final talk
+
+initially mccarthy lost his list of attendees instead after the workshop mccarthy sent solomonoff a preliminary list of participants and visitors plus those interested in the subject there were 47 people listed
+
+solomonoff however made a complete list in his notes of the summer project
+
+shannon attended solomonoff s talk on july 10 and bigelow gave a talk on august 15 solomonoff doesn t mention bernard widrow but apparently he visited along with w a clark and b g farley trenchard mentions r culver and solomonoff mentions bill shutz herb gelernter didn t attend but was influenced later by what rochester learned
+
+in an article in ieee spectrum grace solomonoff additionally identifies peter milner on a photo taken by nathaniel rochester in front of dartmouth hall
+
+ray solomonoff marvin minsky and john mccarthy were the only three who stayed for the full time trenchard took attendance during two weeks of his three week visit from three to about eight people would attend the daily sessions
+
+they had the entire top floor of the dartmouth math department to themselves and most weekdays they would meet at the main math classroom where someone might lead a discussion focusing on his ideas or more frequently a general discussion would be held
+
+it was not a directed group research project discussions covered many topics but several directions are considered to have been initiated or encouraged by the workshop the rise of symbolic methods systems focused on limited domains early expert systems and deductive systems versus inductive systems one participant arthur samuel said it was very interesting very stimulating very exciting
+
+ray solomonoff kept notes giving his impression of the talks and the ideas from various discussions

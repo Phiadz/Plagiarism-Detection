@@ -1,0 +1,80 @@
+
+
+pubmed is an openly accessible free database which primarily includes the medline database of references and abstracts on life sciences and biomedical topics the united states national library of medicine nlm at the national institutes of health maintains the database as part of the entrez system of information retrieval
+
+from 1971 to 1997 online access to the medline database was provided via computer using phone lines primarily through institutional facilities such as university libraries pubmed first released in january 1996 ushered in the era of private free home and office based medline searching it was released alongside internet grateful med web version of grateful med in 2001 grateful med was deleted and entirely replaced by pubmed the pubmed system was offered free to the public starting in june 1997
+
+in addition to medline pubmed provides access to
+
+many pubmed records contain links to full text articles some of which are freely available often in pubmed central and local mirrors such as europe pubmed central
+
+information about the journals indexed in medline and available through pubmed is found in the nlm catalog
+
+as of 15 march 2025 update pubmed has more than 40 million citations and abstracts dating back to 1966 selectively to the year 1865 and highly selectively to 1809 as of 2023 update 24 6 million of pubmed s records were listed with their abstracts and 26 8 million records have links to full text versions of which 10 9 million articles are available full text for free over the last 10 years ending 31 december 2019 an average of nearly one million new records were added each year citation needed
+
+in 2016 nlm changed the indexing system so that publishers are able to directly correct typos and errors in pubmed indexed articles
+
+pubmed has been reported to include some articles published in predatory journals medline and pubmed policies for the selection of journals for database inclusion are slightly different weaknesses in the criteria and procedures for indexing journals in pubmed central may allow publications from predatory journals to leak into pubmed
+
+on march 4 2025 there was a temporary global outage of the pubmed database the outage lasted about a day and stoked fears about the database s future because researchers worldwide depend on pubmed to access peer reviewed scientific literature the disruption was apparently not deliberate and services were restored but the event highlighted concerns about the reliability and contingency planning for essential research infrastructure
+
+a new pubmed interface was launched in october 2009 and encouraged the use of such quick google like search formulations they have also been described as telegram searches by default the results are sorted by most recent but this can be changed to best match publication date first author last author journal or title
+
+the pubmed website design and domain was updated in january 2020 and became default on 15 may 2020 with the updated and new features there was a critical reaction from many researchers who frequently use the site
+
+pubmed medline can be accessed via handheld devices using for instance the pico option for focused clinical questions created by the nlm a pubmed mobile option providing access to a mobile friendly simplified pubmed version is also available
+
+simple searches on pubmed can be carried out by entering key aspects of a subject into pubmed s search window
+
+pubmed translates this initial search formulation and automatically adds field names relevant mesh medical subject headings terms synonyms boolean operators and nests the resulting terms appropriately enhancing the search formulation significantly in particular by routinely combining using the or operator textwords and mesh terms
+
+for optimal searches in pubmed it is necessary to understand its core component medline and especially of the mesh medical subject headings controlled vocabulary used to index medline articles they may also require complex search strategies use of field names tags proper use of limits and other features reference librarians and search specialists offer search services
+
+the search into pubmed s search window is only recommended for the search of unequivocal topics or new interventions that do not yet have a mesh heading created as well as for the search for commercial brands of medicines and proper nouns it is also useful when there is no suitable heading or the descriptor represents a partial aspect the search using the thesaurus mesh is more accurate and will give fewer irrelevant results in addition it saves the disadvantage of the free text search in which the spelling singular plural or abbreviated differences have to be taken into consideration on the other side articles more recently incorporated into the database to which descriptors have not yet been assigned will not be found therefore to guarantee an exhaustive search a combination of controlled language headings and free text terms must be used
+
+when a journal article is indexed numerous article parameters are extracted and stored as structured information such parameters are article type mesh terms e g clinical trial secondary identifiers mesh terms language country of the journal or publication history e publication date print journal publication date
+
+publication type parameter allows searching by the type of publication including reports of various kinds of clinical research
+
+since july 2005 the medline article indexing process extracts identifiers from the article abstract and puts those in a field called secondary identifier si the secondary identifier field is to store accession numbers to various databases of molecular sequence data gene expression or chemical compounds and clinical trial ids for clinical trials pubmed extracts trial ids for the two largest trial registries clinicaltrials gov nct identifier and the international standard randomized controlled trial number register irctn identifier
+
+a reference which is judged particularly relevant can be marked and related articles can be identified if relevant several studies can be selected and related articles to all of them can be generated on pubmed or any of the other ncbi entrez databases using the find related data option the related articles are then listed in order of relatedness to create these lists of related articles pubmed compares words from the title and abstract of each citation as well as the mesh headings assigned using a powerful word weighted algorithm the related articles function has been judged to be so precise that the authors of a paper suggested it can be used instead of a full search
+
+pubmed automatically links to mesh terms and subheadings examples would be bad breath links to and includes in the search halitosis and heart attack to myocardial infarction where appropriate these mesh terms are automatically expanded that is include more specific terms terms like nursing are automatically linked to nursing mesh or nursing subheading this feature is called auto term mapping and is enacted by default in free text searching but not exact phrase searching i e enclosing the search query with double quotes this feature makes pubmed searches more sensitive and avoids false negative missed hits by compensating for the diversity of medical terminology
+
+pubmed does not apply automatic mapping of the term in the following circumstances by writing the quoted phrase e g kidney allograft when truncated on the asterisk e g kidney allograft and when looking with field labels e g cancer ti
+
+the pubmed optional facility my ncbi with free registration provides tools for
+
+and a wide range of other options the my ncbi area can be accessed from any computer with web access
+an earlier version of my ncbi was called pubmed cubby
+
+linkout is an nlm facility to link and make available full text local journal holdings some 3 200 sites mainly academic institutions participate in this nlm facility as of march 2010 update from aalborg university in denmark to zymogenetics in seattle users at these institutions see their institution s logo within the pubmed search result if the journal is held at that institution and can access the full text link out is being consolidated with outside tool as of the major platform update coming in the summer of 2019
+
+in 2016 pubmed allows authors of articles to comment on articles indexed by pubmed this feature was initially tested in a pilot mode since 2013 and was made permanent in 2016 in february 2018 pubmed commons was discontinued due to the fact that usage has remained minimal
+
+askmedline was developed as a free text language query tool that would allow users to use natural language in their searches as opposed to using specialized vocabularies that an expert searcher may use this tool allowed users to conduct an efficient medline pubmed search solely with natural language it was also suitable for handhelds and intended for researchers clinicians or the general public who may not be familiar with formatting formal queries
+
+a pmid pubmed identifier or pubmed unique identifier is a unique integer value starting at 1 assigned to each pubmed record a pmid is not the same as a pmcid pubmed central identifier which is the identifier for all works published in the free to access pubmed central
+
+the assignment of a pmid or pmcid to a publication tells the reader nothing about the type or quality of the content pmids are assigned to letters to the editor editorial opinions op ed columns and any other piece that the editor chooses to include in the journal as well as peer reviewed papers the existence of the identification number is also not proof that the papers have not been retracted for fraud incompetence or misconduct the announcement about any corrections to original papers may be assigned a pmid citation needed
+
+each number that is entered in the pubmed search window is treated by default as if it were a pmid therefore any reference in pubmed can be located using the pmid citation needed
+
+the national library of medicine leases the medline information to a number of private vendors such as embase ovid dialog ebsco knowledge finder and many other commercial non commercial and academic providers as of october 2008 update more than 500 licenses had been issued more than 200 of them to providers outside the united states as licenses to use medline data are available for free the nlm in effect provides a free testing ground for a wide range of alternative interfaces and 3rd party additions to pubmed one of a very few large professionally curated databases which offers this option
+
+lu identifies a sample of 28 current and free web based pubmed versions requiring no installation or registration which are grouped into four categories
+
+as most of these and other alternatives rely essentially on pubmed medline data leased under license from the nlm pubmed the term pubmed derivatives has been suggested without the need to store about 90 gb of original pubmed datasets anybody can write pubmed applications using the eutils application program interface as described in the e utilities in depth parameters syntax and more by eric sayers phd various citation format generators taking pmid numbers as input are examples of web applications making use of the eutils application program interface sample web pages include citation generator mick schroeder pubmed citation generator ultrasound of the week and cite this for me
+
+in 2025 the zbmed the german national library of medicine announced plans to develop an internationally supported open source version of pubmed
+
+alternative methods to mine the data in pubmed use programming environments such as matlab python or r in these cases queries of pubmed are written as lines of code and passed to pubmed and the response is then processed directly in the programming environment citation needed code can be automated to systematically query with different keywords such as disease year organs etc
+
+for bulk processing the full pubmed database is available as xml which can be downloaded from an ftp server the annual baseline is released in december followed by daily update files
+
+in addition to its traditional role as a biomedical database pubmed has become common resource for training biomedical language models
+
+the data accessible by pubmed can be mirrored locally using an unofficial tool such as medoc
+
+millions of pubmed records augment various open data datasets about open access like unpaywall data analysis tools like unpaywall journals are used by libraries to assist with big deal cancellations libraries can avoid subscriptions for materials already served by instant open access via open archives like pubmed central

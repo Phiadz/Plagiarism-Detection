@@ -1,0 +1,22 @@
+n
+
+to predict the impact of turning the sprinkler on
+
+with the term
+
+
+
+zr
+
+s
+
+t
+
+r
+
+
+
+displaystyle pr s tzmid r
+
+removed ghowing that the action affects the grass but not the rainw
+these predictions may not be feasible fiven unobserved variables as in most policy evaluation problems the effect of th

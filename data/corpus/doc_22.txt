@@ -1,0 +1,44 @@
+informatics is the study of computational systems according to the acm europe council and informatics europe informatics is synonymous with computer science and computing as a profession in which the central notion is the transformation of information in some cases the term informatics may also be used with different meanings e g in the context of social computing or library science
+
+in some countries depending on local interpretations and contexts the term informatics is used synonymously to mean information systems information science information theory information engineering information technology information processing or other theoretical or practical fields in germany the term informatics closely corresponds to modern computer science accordingly universities in continental europe usually translate informatics as computer science or sometimes information and computer science although technical universities may translate it as computer science engineering in some countries this term is associated with natural computation and neural computation
+
+in the united states however the term informatics is mostly used in context of data science library science or its applications in healthcare health informatics where it first appeared in the us
+
+the university of washington uses this term to refer to social computing
+
+the government of canada uses the term to refer to operational units offering network and computer services to the various departments
+
+in 1956 the german informatician karl steinbuch and engineer helmut gröttrup coined the word informatik when they developed the informatik anlage for the quelle mail order management one of the earliest commercial applications of data processing in april 1957 steinbuch published a paper called informatik automatische informationsverarbeitung informatics automatic information processing the morphology informat ion ics uses the accepted form for names of sciences as conics mathematics linguistics optics or matters of practice as economics politics tactics and so linguistically the meaning extends easily to encompass both the science of information and the practice of information processing the german word informatik is usually translated to english as computer science by universities or computer science engineering by technical universities german equivalents for institutes of technology depending on the context informatics is also translated into computing scientific computing or information and computer technology the french term informatique was coined in 1962 by philippe dreyfus in the same month was also proposed independently by walter f bauer 1924 2015 and associates who co founded software company informatics inc the term for the new discipline quickly spread throughout europe but it did not catch on in the united states over the years many different definitions of informatics have been developed most of them claim that the essence of informatics is one of these concepts information processing algorithms computation information algorithmic processes computational processes or computational systems
+
+the earliest uses of the term informatics in the united states was during the 1950s with the beginning of computer use in healthcare early practitioners interested in the field soon learned that there were no formal education programs and none emerged until the late 1960s they introduced the term informatics only in the context of archival science which is only a small part of informatics professional development therefore played a significant role in the development of health informatics according to imhoff et al 2001 healthcare informatics is not only the application of computer technology to problems in healthcare but covers all aspects of generation handling communication storage retrieval management analysis discovery and synthesis of data information and knowledge in the entire scope of healthcare furthermore they stated that the primary goal of health informatics can be distinguished as follows to provide solutions for problems related to data information and knowledge processing to study general principles of processing data information and knowledge in medicine and healthcare the term health informatics quickly spread throughout the united states in various forms such as nursing informatics public health informatics or medical informatics analogous terms were later introduced for use of computers in various fields such as business informatics forest informatics legal informatics etc these fields still mainly use term informatics in context of library science
+
+in the early 1980s k a nicholas published informatics ready for the information society proposing a definition of informatics as the study and the practice of skills related to information its collection storage retrieval analysis and publication in short information handling it had been developed in the south australian education system at a grass roots level k a nicholas published informatics ready for the information society 1983 national library of australia
+
+in the early 1990s k k kolin proposed an interpretation of informatics as a fundamental science that studies information processes in nature society and technical systems
+
+a broad interpretation of informatics as the study of the structure algorithms behaviour and interactions of natural and artificial computational systems was introduced by the university of edinburgh in 1994 this has led to the merger of the institutes of computer science artificial intelligence and cognitive science into a single school of informatics in 2002
+
+more than a dozen nearby universities joined scottish informatics and computer science alliance some non european universities have also adopted this definition e g kyoto university school of informatics
+
+in 2003 yingxu wang popularized term cognitive informatics described as follows
+
+supplementary to matter and energy information is the third essence for modeling the world cognitive informatics focuses on internal information processing mechanisms and the natural intelligence of the brain
+informatics as a fundamental science of information in natural and artificial systems was proposed again in russia in 2006
+
+in 2007 the influential book decoding the universe was published
+
+former president of association for computing machinery peter denning wrote in 2007
+
+the old definition of computer science the study of phenomena surrounding computers is now obsolete computing is the study of natural and artificial information processes
+the 2008 research assessment exercise of the uk funding councils includes in computer science and informatics a new unit of assessment uoa whose scope is described as follows
+
+the uoa includes the study of methods for acquiring storing processing communicating and reasoning about information and the role of interactivity in natural and artificial systems through the implementation organisation and use of computer hardware software and other resources the subjects are characterised by the rigorous application of analysis experimentation and design
+in 2008 the construction of the informatics forum was completed in 2018 the mit schwarzman college of computing was established its construction is planned to be completed in 2021
+
+in the fields of geoinformatics or irrigation informatics the term informatics usually mean information science in context related to library science this was the first meaning of informatics introduced in russia in 1966 by a i mikhailov r s gilyarevskii and a i chernyi which referred to a scientific discipline that studies the structure and properties of scientific information in this context the term was also used by the international neuroinformatics coordinating facility some scientists use this term however to refer to the science of information processing not data management
+
+in the english speaking world the term informatics was first widely used in the compound medical informatics taken to include the cognitive information processing and communication tasks of medical practice education and research including information science and the technology to support these tasks many such compounds are now in use they can be viewed as different areas of applied informatics
+
+in some countries such as germany russia france and italy the term informatics in many contexts but not always can translate directly to computer science
+
+computer scientists study computational processes and systems computing research repository corr classification distinguishes the following main topics in computer science alphabetic order

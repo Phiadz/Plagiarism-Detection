@@ -1,0 +1,42 @@
+machine perception is the capability of a computer system to interpret data in a manner that is similar to the way humans use their senses to relate to the world around them the basic method that the computers take in and respond to their environment is through the attached hardware until recently input was limited to a keyboard or a mouse but advances in technology both in hardware and software have allowed computers to take in sensory input in a way similar to humans
+
+machine perception allows the computer to use this sensory input as well as conventional computational means of gathering information to gather information with greater accuracy and to present it in a way that is more comfortable for the user these include computer vision machine hearing machine touch and machine smelling as artificial scents are at a chemical compound molecular atomic level indiscernible and identical
+
+the end goal of machine perception is to give machines the ability to see feel and perceive the world as humans do and therefore for them to be able to explain in a human way why they are making their decisions to warn us when it is failing and more importantly the reason why it is failing this purpose is very similar to the proposed purposes for artificial intelligence generally except that machine perception would only grant machines limited sentience rather than bestow upon machines full consciousness self awareness and intentionality
+
+computer vision is a field that includes methods for acquiring processing analyzing and understanding images and high dimensional data from the real world to produce numerical or symbolic information e g in the forms of decisions computer vision has many applications already in use today such as facial recognition geographical modeling and even aesthetic judgment
+
+however machines still struggle to interpret visual impute accurately if it is blurry or if the viewpoint at which stimuli are viewed varies often computers also struggle to determine the proper nature of some stimulus if overlapped by or seamlessly touching another stimulus this refers to the principle of good continuation machines also struggle to perceive and record stimulus functioning according to the apparent movement principle which is a field of research in gestalt psychology
+
+machine hearing also known as machine listening or computer audition is the ability of a computer or machine to take in and process sound data such as speech or music
+this area has a wide range of application including music recording and compression speech synthesis and speech recognition
+moreover this technology allows the machine to replicate the human brain s ability to selectively focus on a specific sound against many other competing sounds and background noise this ability is called auditory scene analysis the technology enables the machine to segment several streams occurring at the same time
+many commonly used devices such as a smartphones voice translators and cars make use of some form of machine hearing present technology still has challenges in speech segmentation this means it is occasionally unable to correctly split words within sentences especially when spoken in an atypical accent
+
+machine touch is an area of machine perception where tactile information is processed by a machine or computer applications include tactile perception of surface properties and dexterity whereby tactile information can enable intelligent reflexes and interaction with the environment though this could possibly be done through measuring when and where friction occurs and also the nature and intensity of the friction machines however still do not have any way of measuring few ordinary physical human experiences including physical pain for example scientists have yet to invent a mechanical substitute for the nociceptors in the body and brain that are responsible for noticing and measuring physical human discomfort and suffering researchers are exploring ways to combine tactile sensors with machine learning algorithms to approximate human like touch perception enabling robots to handle delicate objects detect texture differences or respond adaptively to environmental changes emerging applications include robotic surgery prosthetics with sensory feedback and haptic interfaces in virtual reality which aim to provide more immersive and precise interaction between humans and machines
+
+scientists are developing computers known as machine olfaction which can recognize and measure smells as well airborne chemicals are sensed and classified with a device sometimes known as an electronic nose
+
+the electronic tongue is an instrument that measures and compares tastes as per the iupac technical report an electronic tongue as analytical instrument including an array of non selective chemical sensors with partial specificity to different solution components and an appropriate pattern recognition instrument capable to recognize quantitative and qualitative compositions of simple and complex solutions
+
+chemical compounds responsible for taste are detected by human taste receptors similarly the multi electrode sensors of electronic instruments detect the same dissolved organic and inorganic compounds like human receptors each sensor has a spectrum of reactions different from the other the information given by each sensor is complementary and the combination of all sensors results generates a unique fingerprint most of the detection thresholds of sensors are similar to or better than human receptors
+
+in the biological mechanism taste signals are transduced by nerves in the brain into electric signals e tongue sensors process is similar they generate electric signals as voltammetric and potentiometric variations
+
+taste quality perception and recognition are based on the building or recognition of activated sensory nerve patterns by the brain and the taste fingerprint of the product this step is achieved by the e tongue s statistical software which interprets the sensor data into taste patterns
+
+other than those listed above some of the future hurdles that the science of machine perception still has to overcome include but are not limited to
+
+embodied cognition the theory that cognition is a full body experience and therefore can only exist and therefore be measure and analyzed in fullness if all required human abilities and processes are working together through a mutually aware and supportive systems network
+
+the moravec s paradox see the link
+
+the principle of similarity the ability young children develop to determine what family a newly introduced stimulus falls under even when the said stimulus is different from the members with which the child usually associates said family with an example could be a child figuring that a chihuahua is a dog and house pet rather than vermin
+
+the unconscious inference the natural human behavior of determining if a new stimulus is dangerous or not what it is and then how to relate to it without ever requiring any new conscious effort
+
+the innate human ability to follow the likelihood principle in order to learn from circumstances and others over time
+
+the recognition by components theory being able to mentally analyze and break even complicated mechanisms into manageable parts with which to interact with for example a person seeing both the cup and the handle parts that make up a mug full of hot cocoa in order to use the handle to hold the mug so as to avoid being burned
+
+the free energy principle determining long before hand how much energy one can safely delegate to being aware of things outside one s self without the loss of the needed energy one requires for sustaining their life and function satisfactorily this allows one to become both optimally aware of the world around them self without depleting their energy so much that they experience damaging stress decision fatigue and or exhaustion

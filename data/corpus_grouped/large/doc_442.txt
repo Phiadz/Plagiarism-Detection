@@ -1,0 +1,1964 @@
+in machine learning the perceptron is an algorithm for supervised learning of binary classifiers a binary classifier is a function that can decide whether or not an input represented by a vector of numbers belongs to some specific class it is a type of linear classifier i e a classification algorithm that makes its predictions based on a linear predictor function combining a set of weights with the feature vector
+
+the artificial neuron network was invented in 1943 by warren mcculloch and walter pitts in a logical calculus of the ideas immanent in nervous activity
+
+in 1957 frank rosenblatt was at the cornell aeronautical laboratory he simulated the perceptron on an ibm 704 later he obtained funding by the information systems branch of the united states office of naval research and the rome air development center to build a custom made computer the mark i perceptron it was first publicly demonstrated on 23 june 1960 the machine was part of a previously secret four year npic the us national photographic interpretation center effort from 1963 through 1966 to develop this algorithm into a useful tool for photo interpreters
+
+rosenblatt described the details of the perceptron in a 1958 paper his organization of a perceptron is constructed of three kinds of cells units ai aii r which stand for projection association and response he presented at the first international symposium on ai mechanisation of thought processes which took place in 1958 november
+
+rosenblatt s project was funded under contract nonr 401 40 cognitive systems research program which lasted from 1959 to 1970 and contract nonr 2381 00 project para para means perceiving and recognition automata which lasted from 1957 to 1963
+
+in 1959 the institute for defense analysis awarded his group a 10 000 contract by september 1961 the onr awarded further 153 000 worth of contracts with 108 000 committed for 1962
+
+the onr research manager marvin denicoff stated that onr instead of arpa funded the perceptron project because the project was unlikely to produce technological results in the near or medium term funding from arpa go up to the order of millions dollars while from onr are on the order of 10 000 dollars meanwhile the head of ipto at arpa j c r licklider was interested in self organizing adaptive and other biologically inspired methods in the 1950s but by the mid 1960s he was openly critical of these including the perceptron instead he strongly favored the logical ai approach of simon and newell
+
+the perceptron was intended to be a machine rather than a program and while its first implementation was in software for the ibm 704 it was subsequently implemented in custom built hardware as the mark i perceptron with the project name project para designed for image recognition the machine is currently in smithsonian national museum of american history
+
+the mark i perceptron had three layers one version was implemented as follows
+
+rosenblatt called this three layered perceptron network the alpha perceptron to distinguish it from other perceptron models he experimented with
+
+the s units are connected to the a units randomly according to a table of random numbers via a plugboard see photo to eliminate any particular intentional bias in the perceptron the connection weights are fixed not learned rosenblatt was adamant about the random connections as he believed the retina was randomly connected to the visual cortex and he wanted his perceptron machine to resemble human visual perception
+
+the a units are connected to the r units with adjustable weights encoded in potentiometers and weight updates during learning were performed by electric motors 193 the hardware details are in an operators manual
+
+in a 1958 press conference organized by the us navy rosenblatt made statements about the perceptron that caused a heated controversy among the fledgling ai community based on rosenblatt s statements the new york times reported the perceptron to be the embryo of an electronic computer that the navy expects will be able to walk talk see write reproduce itself and be conscious of its existence
+
+the photo division of central intelligence agency from 1960 to 1964 studied the use of mark i perceptron machine for recognizing militarily interesting silhouetted targets such as planes and ships in aerial photos
+
+rosenblatt described his experiments with many variants of the perceptron machine in a book principles of neurodynamics 1962 the book is a published version of the 1961 report
+
+among the variants are
+
+the machine was shipped from cornell to smithsonian in 1967 under a government transfer administered by the office of naval research
+
+although the perceptron initially seemed promising it was quickly proved that perceptrons could not be trained to recognise many classes of patterns this caused the field of neural network research to stagnate for many years before it was recognised that a feedforward neural network with two or more layers also called a multilayer perceptron had greater processing power than perceptrons with one layer also called a single layer perceptron
+
+single layer perceptrons are only capable of learning linearly separable patterns for a classification task with some step activation function a single node will have a single line dividing the data points forming the patterns more nodes can create more dividing lines but those lines must somehow be combined to form more complex classifications a second layer of perceptrons or even linear nodes are sufficient to solve many otherwise non separable problems
+
+in 1969 a famous book entitled perceptrons by marvin minsky and seymour papert showed that it was impossible for these classes of network to learn an xor function it is often incorrectly believed that they also conjectured that a similar result would hold for a multi layer perceptron network however this is not true as both minsky and papert already knew that multi layer perceptrons were capable of producing an xor function see the page on perceptrons book for more information nevertheless the often miscited minsky and papert text caused a significant decline in interest and funding of neural network research it took ten more years until neural network research experienced a resurgence in the 1980s verification needed this text was reprinted in 1987 as perceptrons expanded edition where some errors in the original text are shown and corrected
+
+rosenblatt continued working on perceptrons despite diminishing funding the last attempt was tobermory built between 1961 and 1967 built for speech recognition it occupied an entire room it had 4 layers with 12 000 weights implemented by toroidal magnetic cores by the time of its completion simulation on digital computers had become faster than purpose built perceptron machines he died in a boating accident in 1971
+
+a simulation program for neural networks was written for ibm 7090 7094 and was used to study various pattern recognition applications such as character recognition particle tracks in bubble chamber photographs phoneme isolated word and continuous speech recognition speaker verification and center of attention mechanisms for image processing
+
+the kernel perceptron algorithm was already introduced in 1964 by aizerman et al margin bounds guarantees were given for the perceptron algorithm in the general non separable case first by freund and schapire 1998 and more recently by mohri and rostamizadeh 2013 who extend previous results and give new and more favorable l1 bounds
+
+the perceptron is a simplified model of a biological neuron while the complexity of biological neuron models is often required to fully understand neural behavior research suggests a perceptron like linear model can produce some behavior seen in real neurons
+
+the solution spaces of decision boundaries for all binary functions and learning behaviors are studied in
+
+in the modern sense the perceptron is an algorithm for learning a binary classifier called a threshold function a function that maps its input
+
+
+
+
+x
+
+
+
+displaystyle mathbf x
+
+a real valued vector to an output value
+
+
+
+f
+
+
+x
+
+
+
+
+displaystyle f mathbf x
+
+a single binary value
+
+
+
+
+
+f
+
+
+x
+
+
+
+h
+
+
+w
+
+
+
+x
+
+
+b
+
+
+
+displaystyle f mathbf x h mathbf w cdot mathbf x b
+
+
+
+where
+
+
+
+h
+
+
+displaystyle h
+
+is the heaviside step function where an input of
+
+
+
+
+0
+
+
+textstyle 0
+
+outputs 1 otherwise 0 is the output
+
+
+
+
+w
+
+
+
+displaystyle mathbf w
+
+is a vector of real valued weights
+
+
+
+
+w
+
+
+
+x
+
+
+
+displaystyle mathbf w cdot mathbf x
+
+is the dot product
+
+
+
+
+
+
+i
+
+1
+
+
+m
+
+
+
+w
+
+i
+
+
+
+x
+
+i
+
+
+
+
+textstyle sum _ i 1 m w_ i x_ i
+
+where m is the number of inputs to the perceptron and b is the bias the bias shifts the decision boundary away from the origin and does not depend on any input value
+
+equivalently since
+
+
+
+
+w
+
+
+
+x
+
+
+b
+
+
+
+w
+
+
+b
+
+
+
+
+x
+
+
+1
+
+
+
+displaystyle mathbf w cdot mathbf x b mathbf w b cdot mathbf x 1
+
+we can add the bias term
+
+
+
+b
+
+
+displaystyle b
+
+as another weight
+
+
+
+
+
+w
+
+
+m
+
+1
+
+
+
+
+displaystyle mathbf w _ m 1
+
+and add a coordinate
+
+
+
+1
+
+
+displaystyle 1
+
+to each input
+
+
+
+
+x
+
+
+
+displaystyle mathbf x
+
+and then write it as a linear classifier that passes the origin
+
+
+
+f
+
+
+x
+
+
+
+h
+
+
+w
+
+
+
+x
+
+
+
+
+displaystyle f mathbf x h mathbf w cdot mathbf x
+
+
+
+the binary value of
+
+
+
+f
+
+
+x
+
+
+
+
+displaystyle f mathbf x
+
+0 or 1 is used to perform binary classification on
+
+
+
+
+x
+
+
+
+displaystyle mathbf x
+
+as either a positive or a negative instance spatially the bias shifts the position though not the orientation of the planar decision boundary
+
+in the context of neural networks a perceptron is an artificial neuron using the heaviside step function as the activation function the perceptron algorithm is also termed the single layer perceptron to distinguish it from a multilayer perceptron which is a misnomer for a more complicated neural network as a linear classifier the single layer perceptron is the simplest feedforward neural network
+
+from an information theory point of view a single perceptron with k inputs has a capacity of 2k bits of information this result is due to thomas cover
+
+specifically let
+
+
+
+t
+
+n
+
+k
+
+
+
+displaystyle t n k
+
+be the number of ways to linearly separate n points in k dimensions then
+
+
+
+t
+
+n
+
+k
+
+
+
+
+
+
+
+
+
+2
+
+n
+
+
+
+
+k
+
+n
+
+
+
+
+2
+
+
+
+k
+
+0
+
+
+k
+
+1
+
+
+
+
+
+
+
+
+n
+
+1
+
+
+
+
+k
+
+
+
+
+
+
+
+
+k
+
+n
+
+
+
+
+
+
+
+
+displaystyle t n k left begin array cc 2 n k geq n 2 sum _ k 0 k 1 left begin array c n 1 k end array right k n end array right
+
+when k is large
+
+
+
+t
+
+n
+
+k
+
+
+
+
+
+2
+
+n
+
+
+
+
+displaystyle t n k 2 n
+
+is very close to one when
+
+
+
+n
+
+2
+k
+
+
+displaystyle n leq 2k
+
+but very close to zero when
+
+
+
+n
+
+2
+k
+
+
+displaystyle n 2k
+
+in words one perceptron unit can almost certainly memorize a random assignment of binary labels on n points when
+
+
+
+n
+
+2
+k
+
+
+displaystyle n leq 2k
+
+but almost certainly not when
+
+
+
+n
+
+2
+k
+
+
+displaystyle n 2k
+
+
+
+when operating on only binary inputs a perceptron is called a linearly separable boolean function or threshold boolean function the sequence of numbers of threshold boolean functions on n inputs is oeis a000609 the value is only known exactly up to
+
+
+
+n
+
+9
+
+
+displaystyle n 9
+
+case but the order of magnitude is known quite exactly it has upper bound
+
+
+
+
+2
+
+
+n
+
+2
+
+
+
+n
+
+log
+
+2
+
+
+
+n
+
+o
+
+n
+
+
+
+
+
+displaystyle 2 n 2 n log _ 2 n o n
+
+and lower bound
+
+
+
+
+2
+
+
+n
+
+2
+
+
+
+n
+
+log
+
+2
+
+
+
+n
+
+o
+
+n
+
+
+
+
+
+displaystyle 2 n 2 n log _ 2 n o n
+
+
+
+any boolean linear threshold function can be implemented with only integer weights furthermore the number of bits necessary and sufficient for representing a single integer weight parameter is
+
+
+
+θ
+
+n
+ln
+
+n
+
+
+
+displaystyle theta n ln n
+
+
+
+a single perceptron can learn to classify any half space it cannot solve any linearly nonseparable vectors such as the boolean exclusive or problem the famous xor problem
+
+a perceptron network with one hidden layer can learn to classify any compact subset arbitrarily closely similarly it can also approximate any compactly supported continuous function arbitrarily closely this is essentially a special case of the theorems by george cybenko and kurt hornik
+
+perceptrons minsky and papert 1969 studied the kind of perceptron networks necessary to learn various boolean functions
+
+consider a perceptron network with
+
+
+
+n
+
+
+displaystyle n
+
+input units one hidden layer and one output similar to the mark i perceptron machine it computes a boolean function of type
+
+
+
+f
+
+
+2
+
+n
+
+
+
+2
+
+
+displaystyle f 2 n to 2
+
+they call a function conjunctively local of order
+
+
+
+k
+
+
+displaystyle k
+
+iff there exists a perceptron network such that each unit in the hidden layer connects to at most
+
+
+
+k
+
+
+displaystyle k
+
+input units
+
+theorem theorem 3 1 1 the parity function is conjunctively local of order
+
+
+
+n
+
+
+displaystyle n
+
+
+
+theorem section 5 5 the connectedness function is conjunctively local of order
+
+
+
+ω
+
+
+n
+
+1
+
+
+
+2
+
+
+
+
+
+displaystyle omega n 1 2
+
+
+
+below is an example of a learning algorithm for a single layer perceptron with a single output unit for a single layer perceptron with multiple output units since the weights of one output unit are completely separate from all the others the same algorithm can be run for each output unit
+
+for multilayer perceptrons where a hidden layer exists more sophisticated algorithms such as backpropagation must be used if the activation function or the underlying process being modeled by the perceptron is nonlinear alternative learning algorithms such as the delta rule can be used as long as the activation function is differentiable nonetheless the learning algorithm described in the steps below will often work even for multilayer perceptrons with nonlinear activation functions
+
+when multiple perceptrons are combined in an artificial neural network each output neuron operates independently of all the others thus learning each output can be considered in isolation
+
+we first define some variables
+
+we show the values of the features as follows
+
+to represent the weights
+
+to show the time dependence of
+
+
+
+
+w
+
+
+
+displaystyle mathbf w
+
+we use
+
+for offline learning the second step may be repeated until the iteration error
+
+
+
+
+
+1
+s
+
+
+
+
+
+j
+
+1
+
+
+s
+
+
+
+
+
+
+d
+
+j
+
+
+
+
+y
+
+j
+
+
+
+t
+
+
+
+
+
+
+displaystyle frac 1 s sum _ j 1 s d_ j y_ j t
+
+is less than a user specified error threshold
+
+
+
+γ
+
+
+displaystyle gamma
+
+or a predetermined number of iterations have been completed where s is again the size of the sample set
+
+the algorithm updates the weights after every training sample in step 2b though one may note that the weights remain unchanged whenever
+
+
+
+
+d
+
+j
+
+
+
+
+y
+
+j
+
+
+
+t
+
+
+
+displaystyle d_ j y_ j t
+
+
+
+a single perceptron is a linear classifier it can only reach a stable state if all input vectors are classified correctly in case the training set d is not linearly separable i e if the positive examples cannot be separated from the negative examples by a hyperplane then the algorithm would not converge since there is no solution hence if linear separability of the training set is not known a priori one of the training variants below should be used detailed analysis and extensions to the convergence theorem are in chapter 11 of perceptrons 1969
+
+linear separability is testable in time
+
+
+
+min
+
+o
+
+
+n
+
+d
+
+
+
+2
+
+
+
+
+o
+
+
+d
+
+2
+n
+
+
+
+
+o
+
+
+n
+
+d
+
+1
+
+
+ln
+
+n
+
+
+
+
+displaystyle min o n d 2 o d 2n o n d 1 ln n
+
+where
+
+
+
+n
+
+
+displaystyle n
+
+is the number of data points and
+
+
+
+d
+
+
+displaystyle d
+
+is the dimension of each point
+
+if the training set is linearly separable then the perceptron is guaranteed to converge after making finitely many mistakes the theorem is proved by rosenblatt et al
+
+perceptron convergence theorem given a dataset
+
+
+
+d
+
+
+textstyle d
+
+such that
+
+
+
+
+max
+
+
+x
+
+y
+
+
+d
+
+
+
+x
+
+
+
+2
+
+
+
+r
+
+
+textstyle max _ x y in d x _ 2 r
+
+and it is linearly separable by some unit vector
+
+
+
+
+w
+
+
+
+
+
+
+textstyle w
+
+with margin
+
+
+
+γ
+
+
+textstyle gamma
+
+
+
+
+
+γ
+
+
+min
+
+
+x
+
+y
+
+
+d
+
+
+y
+
+
+w
+
+
+
+
+
+x
+
+
+
+displaystyle gamma min _ x y in d y w cdot x
+
+
+
+then the perceptron 0 1 learning algorithm converges after making at most
+
+
+
+
+r
+
+
+
+γ
+
+
+
+2
+
+
+
+
+textstyle r gamma 2
+
+mistakes for any learning rate and any method of sampling from the dataset
+
+the following simple proof is due to novikoff 1962 the idea of the proof is that the weight vector is always adjusted by a bounded amount in a direction with which it has a negative dot product and thus can be bounded above by o t where t is the number of changes to the weight vector however it can also be bounded below by o t because if there exists an unknown satisfactory weight vector then every change makes progress in this unknown direction by a positive amount that depends only on the input vector
+suppose at step
+
+
+
+t
+
+
+textstyle t
+
+the perceptron with weight
+
+
+
+
+w
+
+t
+
+
+
+
+textstyle w_ t
+
+makes a mistake on data point
+
+
+
+
+x
+
+y
+
+
+
+textstyle x y
+
+then it updates to
+
+
+
+
+w
+
+t
+
+1
+
+
+
+
+w
+
+t
+
+
+
+r
+
+y
+
+
+f
+
+
+w
+
+t
+
+
+
+
+
+x
+
+
+x
+
+
+textstyle w_ t 1 w_ t r y f_ w_ t x x
+
+
+
+if
+
+
+
+y
+
+0
+
+
+textstyle y 0
+
+the argument is symmetric so we omit it
+
+wlog
+
+
+
+y
+
+1
+
+
+textstyle y 1
+
+then
+
+
+
+
+f
+
+
+w
+
+t
+
+
+
+
+
+x
+
+
+0
+
+
+textstyle f_ w_ t x 0
+
+
+
+
+
+
+f
+
+
+w
+
+
+
+
+
+
+
+x
+
+
+1
+
+
+textstyle f_ w x 1
+
+and
+
+
+
+
+w
+
+t
+
+1
+
+
+
+
+w
+
+t
+
+
+
+r
+x
+
+
+textstyle w_ t 1 w_ t rx
+
+
+
+by assumption we have separation with margins
+
+
+
+
+w
+
+
+
+
+
+x
+
+γ
+
+
+displaystyle w cdot x geq gamma
+
+thus
+
+
+
+
+
+w
+
+
+
+
+
+
+w
+
+t
+
+1
+
+
+
+
+w
+
+
+
+
+
+
+w
+
+t
+
+
+
+
+w
+
+
+
+
+
+
+r
+x
+
+
+r
+γ
+
+
+displaystyle w cdot w_ t 1 w cdot w_ t w cdot rx geq r gamma
+
+
+
+also
+
+
+
+
+
+w
+
+t
+
+1
+
+
+
+
+
+2
+
+
+2
+
+
+
+
+
+w
+
+t
+
+
+
+
+
+2
+
+
+2
+
+
+
+
+
+w
+
+t
+
+
+
+r
+x
+
+
+
+2
+
+
+2
+
+
+
+
+
+w
+
+t
+
+
+
+
+
+2
+
+
+2
+
+
+
+2
+r
+
+
+w
+
+t
+
+
+
+x
+
+
+
+r
+
+2
+
+
+
+x
+
+
+
+2
+
+
+2
+
+
+
+
+displaystyle w_ t 1 _ 2 2 w_ t _ 2 2 w_ t rx _ 2 2 w_ t _ 2 2 2r w_ t cdot x r 2 x _ 2 2
+
+and since the perceptron made a mistake
+
+
+
+
+w
+
+t
+
+
+
+x
+
+0
+
+
+textstyle w_ t cdot x leq 0
+
+and so
+
+
+
+
+
+
+w
+
+t
+
+1
+
+
+
+
+
+2
+
+
+2
+
+
+
+
+
+w
+
+t
+
+
+
+
+
+2
+
+
+2
+
+
+
+
+r
+
+2
+
+
+
+x
+
+
+
+2
+
+
+2
+
+
+
+
+r
+
+2
+
+
+
+r
+
+2
+
+
+
+
+displaystyle w_ t 1 _ 2 2 w_ t _ 2 2 leq r 2 x _ 2 2 leq r 2 r 2
+
+
+
+since we started with
+
+
+
+
+w
+
+0
+
+
+
+0
+
+
+textstyle w_ 0 0
+
+after making
+
+
+
+n
+
+
+textstyle n
+
+mistakes
+
+
+
+
+w
+
+
+
+2
+
+
+
+
+
+n
+
+r
+
+2
+
+
+
+r
+
+2
+
+
+
+
+
+
+displaystyle w _ 2 leq sqrt nr 2 r 2
+
+but also
+
+
+
+
+
+w
+
+
+
+2
+
+
+
+w
+
+
+w
+
+
+
+
+
+n
+r
+γ
+
+
+displaystyle w _ 2 geq w cdot w geq nr gamma
+
+
+
+combining the two we have
+
+
+
+n
+
+
+r
+
+
+
+γ
+
+
+
+2
+
+
+
+
+textstyle n leq r gamma 2
+
+
+
+while the perceptron algorithm is guaranteed to converge on some solution in the case of a linearly separable training set it may still pick any solution and problems may admit many solutions of varying quality the perceptron of optimal stability nowadays better known as the linear support vector machine was designed to solve this problem krauth and mezard 1987
+
+when the dataset is not linearly separable then there is no way for a single perceptron to converge however we still have
+
+perceptron cycling theorem if the dataset
+
+
+
+d
+
+
+displaystyle d
+
+has only finitely many points then there exists an upper bound number
+
+
+
+m
+
+
+displaystyle m
+
+such that for any starting weight vector
+
+
+
+
+w
+
+0
+
+
+
+
+displaystyle w_ 0
+
+all weight vector
+
+
+
+
+w
+
+t
+
+
+
+
+displaystyle w_ t
+
+has norm bounded by
+
+
+
+
+
+w
+
+t
+
+
+
+
+
+
+w
+
+0
+
+
+
+
+m
+
+
+displaystyle w_ t leq w_ 0 m
+
+
+
+this is proved first by bradley efron
+
+consider a dataset where the
+
+
+
+x
+
+
+displaystyle x
+
+are from
+
+
+
+
+
+1
+
+
+1
+
+
+
+n
+
+
+
+
+displaystyle 1 1 n
+
+that is the vertices of an n dimensional hypercube centered at origin and
+
+
+
+y
+
+θ
+
+
+x
+
+i
+
+
+
+
+
+displaystyle y theta x_ i
+
+that is all data points with positive
+
+
+
+
+x
+
+i
+
+
+
+
+displaystyle x_ i
+
+have
+
+
+
+y
+
+1
+
+
+displaystyle y 1
+
+and vice versa by the perceptron convergence theorem a perceptron would converge after making at most
+
+
+
+n
+
+
+displaystyle n
+
+mistakes
+
+if we were to write a logical program to perform the same task each positive example shows that one of the coordinates is the right one and each negative example shows that its complement is a positive example by collecting all the known positive examples we eventually eliminate all but one coordinate at which point the dataset is learned
+
+this bound is asymptotically tight in terms of the worst case in the worst case the first presented example is entirely new and gives
+
+
+
+n
+
+
+displaystyle n
+
+bits of information but each subsequent example would differ minimally from previous examples and gives 1 bit each after
+
+
+
+n
+
+1
+
+
+displaystyle n 1
+
+examples there are
+
+
+
+2
+n
+
+
+displaystyle 2n
+
+bits of information which is sufficient for the perceptron with
+
+
+
+2
+n
+
+
+displaystyle 2n
+
+bits of information
+
+however it is not tight in terms of expectation if the examples are presented uniformly at random since the first would give
+
+
+
+n
+
+
+displaystyle n
+
+bits the second
+
+
+
+n
+
+
+
+2
+
+
+displaystyle n 2
+
+bits and so on taking
+
+
+
+o
+
+ln
+
+n
+
+
+
+displaystyle o ln n
+
+examples in total
+
+the pocket algorithm with ratchet gallant 1990 solves the stability problem of perceptron learning by keeping the best solution seen so far in its pocket the pocket algorithm then returns the solution in the pocket rather than the last solution it can be used also for non separable data sets where the aim is to find a perceptron with a small number of misclassifications however these solutions appear purely stochastically and hence the pocket algorithm neither approaches them gradually in the course of learning nor are they guaranteed to show up within a given number of learning steps
+
+the maxover algorithm wendemuth 1995 is robust in the sense that it will converge regardless of prior knowledge of linear separability of the data set in the linearly separable case it will solve the training problem if desired even with optimal stability maximum margin between the classes for non separable data sets it will return a solution with a computable small number of misclassifications in all cases the algorithm gradually approaches the solution in the course of learning without memorizing previous states and without stochastic jumps convergence is to global optimality for separable data sets and to local optimality for non separable data sets
+
+the voted perceptron freund and schapire 1999 is a variant using multiple weighted perceptrons the algorithm starts a new perceptron every time an example is wrongly classified initializing the weights vector with the final weights of the last perceptron each perceptron will also be given another weight corresponding to how many examples do they correctly classify before wrongly classifying one and at the end the output will be a weighted vote on all perceptrons
+
+in separable problems perceptron training can also aim at finding the largest separating margin between the classes the so called perceptron of optimal stability can be determined by means of iterative training and optimization schemes such as the min over algorithm krauth and mezard 1987 or the adatron anlauf and biehl 1989 adatron uses the fact that the corresponding quadratic optimization problem is convex the perceptron of optimal stability together with the kernel trick are the conceptual foundations of the support vector machine
+
+the
+
+
+
+α
+
+
+displaystyle alpha
+
+perceptron further used a pre processing layer of fixed random weights with thresholded output units this enabled the perceptron to classify analogue patterns by projecting them into a binary space in fact for a projection space of sufficiently high dimension patterns can become linearly separable
+
+another way to solve nonlinear problems without using multiple layers is to use higher order networks sigma pi unit in this type of network each element in the input vector is extended with each pairwise combination of multiplied inputs second order this can be extended to an n order network
+
+a generalization of the perceptron model is the receptron that incorporates non linear interactions between inputs a single receptron is able to classify non linear boolean functions
+
+it should be kept in mind however that the best classifier is not necessarily that which classifies all the training data perfectly indeed if we had the prior constraint that the data come from equi variant gaussian distributions the linear separation in the input space is optimal and the nonlinear solution is overfitted
+
+other linear classification algorithms include winnow support vector machine and logistic regression
+
+like most other techniques for training linear classifiers the perceptron generalizes naturally to multiclass classification here the input
+
+
+
+x
+
+
+displaystyle x
+
+and the output
+
+
+
+y
+
+
+displaystyle y
+
+are drawn from arbitrary sets a feature representation function
+
+
+
+f
+
+x
+
+y
+
+
+
+displaystyle f x y
+
+maps each possible input output pair to a finite dimensional real valued feature vector as before the feature vector is multiplied by a weight vector
+
+
+
+w
+
+
+displaystyle w
+
+but now the resulting score is used to choose among many possible outputs
+
+learning again iterates over the examples predicting an output for each leaving the weights unchanged when the predicted output matches the target and changing them when it does not the update becomes
+
+this multiclass feedback formulation reduces to the original perceptron when
+
+
+
+x
+
+
+displaystyle x
+
+is a real valued vector
+
+
+
+y
+
+
+displaystyle y
+
+is chosen from
+
+
+
+
+0
+
+1
+
+
+
+displaystyle 0 1
+
+and
+
+
+
+f
+
+x
+
+y
+
+
+y
+x
+
+
+displaystyle f x y yx
+
+
+
+for certain problems input output representations and features can be chosen so that
+
+
+
+
+
+a
+r
+g
+m
+a
+x
+
+
+y
+
+
+f
+
+x
+
+y
+
+
+w
+
+
+displaystyle mathrm argmax _ y f x y cdot w
+
+can be found efficiently even though
+
+
+
+y
+
+
+displaystyle y
+
+is chosen from a very large or even infinite set
+
+since 2002 perceptron training has become popular in the field of natural language processing for such tasks as part of speech tagging and syntactic parsing collins 2002 it has also been applied to large scale machine learning problems in a distributed computing setting

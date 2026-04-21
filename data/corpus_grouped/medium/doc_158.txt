@@ -1,0 +1,181 @@
+data augmentation is a statistical technique which allows maximum likelihood estimation from incomplete data data augmentation has important applications in bayesian analysis and the technique is widely used in machine learning to reduce overfitting when training machine learning models achieved by training models on several slightly modified copies of existing data
+
+synthetic minority over sampling technique smote is a method used to address imbalanced datasets in machine learning in such datasets the number of samples in different classes varies significantly leading to biased model performance for example in a medical diagnosis dataset with 90 samples representing healthy individuals and only 10 samples representing individuals with a particular disease traditional algorithms may struggle to accurately classify the minority class smote rebalances the dataset by generating synthetic samples for the minority class for instance if there are 100 samples in the majority class and 10 in the minority class smote can create synthetic samples by randomly selecting a minority class sample and its nearest neighbors then generating new samples along the line segments joining these neighbors this process helps increase the representation of the minority class improving model performance
+
+when convolutional neural networks grew larger in mid 1990s there was a lack of data to use especially considering that some part of the overall dataset should be spared for later testing it was proposed to perturb existing data with affine transformations to create new examples with the same labels which were complemented by so called elastic distortions in 2003 and the technique was widely used as of 2010s data augmentation can enhance cnn performance and acts as a countermeasure against cnn profiling attacks
+
+data augmentation has become fundamental in image classification enriching training dataset diversity to improve model generalization and performance the evolution of this practice has introduced a broad spectrum of techniques including geometric transformations color space adjustments and noise injection
+
+geometric transformations alter the spatial properties of images to simulate different perspectives orientations and scales common techniques include
+
+color space transformations modify the color properties of images addressing variations in lighting color saturation and contrast techniques include
+
+injecting noise into images simulates real world imperfections teaching models to ignore irrelevant variations techniques involve
+
+residual or block bootstrap can be used for time series augmentation
+
+synthetic data augmentation is of paramount importance for machine learning classification particularly for biological data which tend to be high dimensional and scarce the applications of robotic control and augmentation in disabled and able bodied subjects still rely mainly on subject specific analyses data scarcity is notable in signal processing problems such as for parkinson s disease electromyography signals which are difficult to source zanini et al noted that it is possible to use a generative adversarial network in particular a dcgan to perform style transfer in order to generate synthetic electromyographic signals that corresponded to those exhibited by sufferers of parkinson s disease
+
+the approaches are also important in electroencephalography brainwaves wang et al explored the idea of using deep convolutional neural networks for eeg based emotion recognition results show that emotion recognition was improved when data augmentation was used
+
+a common approach is to generate synthetic signals by re arranging components of real data lotte proposed a method of artificial trial generation based on analogy where three data examples
+
+
+
+
+x
+
+1
+
+
+
+
+x
+
+2
+
+
+
+
+x
+
+3
+
+
+
+
+displaystyle x_ 1 x_ 2 x_ 3
+
+provide examples and an artificial
+
+
+
+
+x
+
+s
+y
+n
+t
+h
+e
+t
+i
+c
+
+
+
+
+displaystyle x_ synthetic
+
+is formed which is to
+
+
+
+
+x
+
+3
+
+
+
+
+displaystyle x_ 3
+
+what
+
+
+
+
+x
+
+2
+
+
+
+
+displaystyle x_ 2
+
+is to
+
+
+
+
+x
+
+1
+
+
+
+
+displaystyle x_ 1
+
+a transformation is applied to
+
+
+
+
+x
+
+1
+
+
+
+
+displaystyle x_ 1
+
+to make it more similar to
+
+
+
+
+x
+
+2
+
+
+
+
+displaystyle x_ 2
+
+the same transformation is then applied to
+
+
+
+
+x
+
+3
+
+
+
+
+displaystyle x_ 3
+
+which generates
+
+
+
+
+x
+
+s
+y
+n
+t
+h
+e
+t
+i
+c
+
+
+
+
+displaystyle x_ synthetic
+
+this approach was shown to improve performance of a linear discriminant analysis classifier on three different datasets
+
+current research shows great impact can be derived from relatively simple techniques for example freer observed that introducing noise into gathered data to form additional data points improved the learning ability of several models which otherwise performed relatively poorly tsinganos et al studied the approaches of magnitude warping wavelet decomposition and synthetic surface emg models generative approaches for hand gesture recognition finding classification performance increases of up to 16 when augmented data was introduced during training more recently data augmentation studies have begun to focus on the field of deep learning more specifically on the ability of generative models to create artificial data which is then introduced during the classification model training process in 2018 luo et al observed that useful eeg signal data could be generated by conditional wasserstein generative adversarial networks gans which was then introduced to the training set in a classical train test learning framework the authors found classification performance was improved when such techniques were introduced
+
+the prediction of mechanical signals based on data augmentation brings a new generation of technological innovations such as new energy dispatch 5g communication field and robotics control engineering in 2022 yang et al integrate constraints optimization and control into a deep network framework based on data augmentation and data pruning with spatio temporal data correlation and improve the interpretability safety and controllability of deep learning in real industrial projects through explicit mathematical programming equations and analytical solutions

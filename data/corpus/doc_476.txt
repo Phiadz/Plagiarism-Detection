@@ -1,0 +1,282 @@
+
+
+nvidia corporation a ɛnˈvɪdiə en vid ee ə is an american technology company headquartered in santa clara california the company develops graphics processing units gpus systems on chips socs and application programming interfaces apis for data science high performance computing video games and mobile and automotive applications founded in 1993 by jensen huang chris malachowsky and curtis priem nvidia has been widely described as a big tech company
+
+originally focused on gpus for video gaming nvidia broadened their use into other markets including artificial intelligence ai professional visualization and supercomputing the company s product lines include geforce gpus for gaming and creative workloads and professional gpus for edge computing scientific research and industrial applications as of the first quarter of 2025 nvidia held a 92 share of the discrete desktop and laptop gpu market
+
+in the early 2000s the company invested over a billion dollars to develop cuda a software platform and api that enabled gpus to run massively parallel programs for a broad range of compute intensive applications as a result as of 2025 nvidia controlled more than 80 of the market for gpus used in training and deploying ai models and provided chips for over 75 of the world s top500 supercomputers the company has also expanded into gaming hardware and services with products such as the shield portable shield tablet and shield tv and operates the geforce now cloud gaming service furthermore it has developed the tegra line of mobile processors for smartphones tablets and automotive infotainment systems
+
+in 2023 nvidia became the seventh u s company to reach a us 1 trillion valuation in 2025 driven by soaring global demand for ai data center hardware in the midst of the ai boom nvidia became the first company in the world to surpass us 4 trillion and us 5 trillion in market capitalization for its strength size and market capitalization nvidia has been selected as one of bloomberg s magnificent seven the seven biggest companies on the stock market in these regards
+
+nvidia was founded on april 5 1993 by jensen huang a taiwanese american electrical engineer who was previously the director of coreware at lsi logic and a microprocessor designer at amd chris malachowsky an engineer who worked at sun microsystems and curtis priem who was previously a senior staff engineer and graphics chip designer at ibm and sun microsystems in late 1992 the three men agreed to start the company in a meeting at a denny s roadside diner on berryessa road in east san jose
+
+at the time malachowsky and priem were frustrated with sun s management and were looking to leave but huang was on firmer ground in that he was already running his own division at lsi the three co founders discussed a vision of the future which was so compelling that huang decided to leave lsi and become the chief executive officer of their new startup
+
+the three co founders envisioned graphics based processing as the best trajectory for tackling challenges that had eluded general purpose computing methods as huang later explained we also observed that video games were simultaneously one of the most computationally challenging problems and would have incredibly high sales volume those two conditions don t happen very often video games was our killer app a flywheel to reach large markets funding huge r d to solve massive computational problems
+
+the first problem was who would quit first huang s wife lori did not want him to resign from lsi unless malachowsky resigned from sun at the same time and malachowsky s wife melody felt the same way about huang priem broke that deadlock by resigning first from sun effective december 31 1992 according to priem this put pressure on huang and malachowsky to not leave him to flail alone so they gave notice too huang left lsi and officially joined priem on february 17 which was also huang s 30th birthday while malachowsky left sun in early march in early 1993 the three founders began working together on their new startup in priem s townhouse in fremont california
+
+with 40 000 in the bank equivalent to 89 000 in 2025 the company was born the company subsequently received 20 million of venture capital funding from sequoia capital sutter hill ventures and others
+
+during the late 1990s nvidia was one of 70 startup companies pursuing the idea that graphics acceleration for video games was the path to the future only two survived nvidia and ati technologies the latter of which merged into amd
+
+nvidia initially had no name priem s first idea was primal graphics a syllabic abbreviation of two of the founders last names but that left out huang they soon discovered it was impossible to create a workable name with syllables from all three founders names after considering huaprimal prihuamal malluapri etc the next idea came from priem s idea for the name of nvidia s first product priem originally wanted to call it the gxnv as in the next version of the gx graphics chips which he had worked on at sun then huang told priem to drop the gx resulting in the name nv priem made a list of words with the letters nv in them at one point malachowsky and priem wanted to call the company nvision but that name was already taken by a manufacturer of toilet paper both priem and huang have taken credit for coming up with the name nvidia from invidia the latin word for envy
+
+after the company outgrew priem s townhouse its original headquarters office was in sunnyvale california
+
+nvidia s first graphics accelerator the nv1 was designed to process quadrilateral primitives forward texture mapping a feature that set it apart from competitors who preferred triangle primitives however when microsoft introduced the directx platform it chose not to support any other graphics software and announced that its direct3d api would exclusively support triangles as a result the nv1 failed to gain traction in the market
+
+nvidia had also entered into a partnership with sega to supply the graphics chip for the dreamcast console and worked on the project for about a year however nvidia s technology was already lagging behind competitors this placed the company in a difficult position continue working on a chip that was likely doomed to fail or abandon the project risking financial collapse
+
+in a pivotal moment sega s president shoichiro irimajiri visited huang in person to inform him that sega had decided to choose another vendor for the dreamcast however irimajiri believed in nvidia s potential and persuaded sega s management to invest 5 million into the company huang later reflected that this funding was all that kept nvidia afloat and that irimajiri s understanding and generosity gave us six months to live
+
+in 1996 huang laid off more than half of nvidia s employees reducing headcount from 100 to 40 and focused the company s remaining resources on developing a graphics accelerator product optimized for processing triangle primitives the riva 128 by the time the riva 128 was released in august 1997 nvidia had only enough money left for one month s payroll the sense of impending failure became so pervasive that it gave rise to nvidia s unofficial company motto our company is thirty days from going out of business huang began internal presentations to nvidia staff with those words for many years
+
+nvidia sold about a million riva 128 units within four months and used the revenue to fund development of its next generation of products in 1998 the release of the riva tnt helped solidify nvidia s reputation as a leader in graphics technology
+
+nvidia went public on january 22 1999 investing in nvidia after it had already failed to deliver on its contract turned out to be irimajiri s best decision as sega s president after irimajiri left sega in 2000 sega sold its nvidia stock for 15 million
+
+in late 1999 nvidia released the geforce 256 nv10 its first product expressly marketed as a gpu which was most notable for introducing onboard transformation and lighting t l to consumer level 3d hardware running at 120 mhz and featuring four pixel pipelines it implemented advanced video acceleration motion compensation and hardware sub picture alpha blending the geforce outperformed existing products by a wide margin
+
+because its products were performing well nvidia won the contract to develop the graphics hardware for microsoft s xbox game console which included a 200 million advance however the project took many of its best engineers away from other projects in the short term this did not matter and the geforce 2 gts shipped in the summer of 2000 in december 2000 nvidia reached an agreement to acquire the intellectual assets of its one time rival 3dfx a pioneer in consumer 3d graphics technology leading the field from the mid 1990s until 2000 the acquisition process was finalized in april 2002
+
+in 2001 standard poor s selected nvidia to replace the departing enron in the s p 500 stock index meaning that index funds would need to hold nvidia shares going forward
+
+in july 2002 nvidia acquired exluna for an undisclosed sum exluna made software rendering tools and the personnel were merged into the cg project in august 2003 nvidia acquired mediaq for approximately us 70 million it launched goforce the following year on april 22 2004 nvidia acquired iready also a provider of high performance tcp offload engines and iscsi controllers in december 2004 it was announced that nvidia would assist sony with the design of the graphics processor rsx for the playstation 3 game console on december 14 2005 nvidia acquired uli electronics which at the time supplied third party southbridge parts for chipsets to ati nvidia s competitor in march 2006 nvidia acquired hybrid graphics in december 2006 nvidia along with its main rival in the graphics industry amd which had acquired ati received subpoenas from the united states department of justice regarding possible antitrust violations in the graphics card industry
+
+forbes named nvidia its company of the year for 2007 citing the accomplishments it made during the said period as well as during the previous five years on january 5 2007 nvidia announced that it had completed the acquisition of portalplayer inc in february 2008 nvidia acquired ageia developer of physx a physics engine and physics processing unit nvidia announced that it planned to integrate the physx technology into its future gpu products
+
+in july 2008 nvidia took a write down of approximately 200 million on its first quarter revenue after reporting that certain mobile chipsets and gpus produced by the company had abnormal failure rates due to manufacturing defects nvidia however did not reveal the affected products in september 2008 nvidia became the subject of a class action lawsuit over the defects claiming that the faulty gpus had been incorporated into certain laptop models manufactured by apple inc dell and hp in september 2010 nvidia reached a settlement in which it would reimburse owners of the affected laptops for repairs or in some cases replacement on january 10 2011 nvidia signed a six year 1 5 billion cross licensing agreement with intel ending all litigation between the two companies
+
+in november 2011 after initially unveiling it at mobile world congress nvidia released its arm based system on a chip for mobile devices tegra 3 nvidia claimed that the chip featured the first ever quad core mobile cpu in may 2011 it was announced that nvidia had agreed to acquire icera a baseband chip making company in the uk for 367 million in january 2013 nvidia unveiled the tegra 4 as well as the nvidia shield an android based handheld game console powered by the new system on a chip on july 29 2013 nvidia announced that it acquired pgi from stmicroelectronics
+
+in february 2013 nvidia announced its plans to build a new headquarters in the form of two giant triangle shaped buildings on the other side of san tomas expressway to the west of its existing headquarters complex the company selected triangles as its design theme as huang explained in a blog post the triangle is the fundamental building block of computer graphics
+
+in 2014 nvidia ported the valve games portal and half life 2 to its nvidia shield tablet as lightspeed studio since 2014 nvidia has diversified its business focusing on three markets gaming automotive electronics and mobile devices
+
+that same year nvidia also prevailed in litigation brought by the trustee of 3dfx s bankruptcy estate to challenge its 2000 acquisition of 3dfx s intellectual assets on november 6 2014 in an unpublished memorandum order the united states court of appeals for the ninth circuit affirmed the district court s judgment affirming the bankruptcy court s determination that nvidia did not pay less than fair market value for assets purchased from 3dfx shortly before 3dfx filed for bankruptcy
+
+on may 6 2016 nvidia unveiled the first gpus of the geforce 10 series the gtx 1080 and 1070 based on the company s new pascal microarchitecture nvidia claimed that both models outperformed its maxwell based titan x model the models incorporate gddr5x and gddr5 memory respectively and use a 16 nm manufacturing process the architecture also supports a new hardware feature known as simultaneous multi projection smp which is designed to improve the quality of multi monitor and virtual reality vr rendering laptops that include these gpus and are sufficiently thin as of late 2017 under 0 8 inches 20 mm have been designated as meeting nvidia s max q design standard
+
+in july 2016 nvidia agreed to a settlement for a false advertising lawsuit regarding its gtx 970 model as the models were unable to use all of their advertised 4 gb of vram due to limitations brought by the design of its hardware in may 2017 nvidia announced a partnership with toyota which would use nvidia s drive px series artificial intelligence platform for its autonomous vehicles in july 2017 nvidia and chinese search giant baidu announced a far reaching ai partnership that includes cloud computing autonomous driving consumer devices and baidu s open source ai framework paddlepaddle baidu unveiled that nvidia s drive px 2 ai will be the foundation of its autonomous vehicle platform
+
+nvidia released the titan v on december 7 2017
+
+nvidia released the nvidia quadro gv100 on march 27 2018 nvidia released the rtx 2080 gpus on september 27 2018 in 2018 google announced that nvidia s tesla p4 graphic cards would be integrated into google cloud service s artificial intelligence
+
+in may 2018 on the nvidia user forum a thread was started asking the company to update users when it would release web drivers for its cards installed on legacy mac pro machines up to mid 2012 5 1 running the macos mojave operating system 10 14 web drivers are required to enable graphics acceleration and multiple display monitor capabilities of the gpu on its mojave update info website apple stated that macos mojave would run on legacy machines with metal compatible graphics cards and listed metal compatible gpus including some manufactured by nvidia however this list did not include metal compatible cards that currently work in macos high sierra using nvidia developed web drivers in september nvidia responded apple fully controls drivers for macos but if apple allows our engineers are ready and eager to help apple deliver great drivers for macos 10 14 mojave in october nvidia followed this up with another public announcement apple fully controls drivers for macos unfortunately nvidia currently cannot release a driver unless it is approved by apple suggesting a possible rift between the two companies by january 2019 with still no sign of the enabling web drivers apple insider weighed into the controversy with a claim that apple management doesn t want nvidia support in macos the following month apple insider followed this up with another claim that nvidia support was abandoned because of relational issues in the past and that apple was developing its own gpu technology without apple approved nvidia web drivers apple users are faced with replacing their nvidia cards with a competing supported brand such as amd radeon from the list recommended by apple
+
+on march 11 2019 nvidia announced a deal to buy mellanox technologies for 6 9 billion to substantially expand its footprint in the high performance computing market the acquisition of the israeli firm a longtime supplier to the israeli military led to the 2023 launch of israel 1 described as the country s most powerful ai supercomputer in may 2019 nvidia announced new rtx studio laptops the creators say that the new laptop is going to be seven times faster than a top end macbook pro with a core i9 and amd s radeon pro vega 20 graphics in apps like maya and redcine x pro in august 2019 nvidia announced minecraft rtx an official nvidia developed patch for the game minecraft adding real time dxr ray tracing exclusively to the windows 10 version of the game the whole game is in nvidia s words refit with path tracing which dramatically affects the way light reflections and shadows work inside the engine
+
+in may 2020 nvidia announced it was acquiring cumulus networks post acquisition the company was absorbed into nvidia s networking business unit along with mellanox
+
+in may 2020 nvidia developed an open source ventilator to address the shortage resulting from the global coronavirus pandemic on may 14 2020 nvidia officially announced its ampere gpu microarchitecture and the nvidia a100 gpu accelerator in july 2020 it was reported that nvidia was in talks with softbank to buy arm a uk based chip designer for 32 billion
+
+on september 1 2020 nvidia officially announced the geforce 30 series based on the company s new ampere microarchitecture
+
+on september 13 2020 nvidia announced that it would buy arm from softbank group for 40 billion subject to the usual scrutiny with the latter retaining a 10 share of nvidia
+
+in october 2020 nvidia announced its plan to build the most powerful computer in cambridge england the computer called cambridge 1 launched in july 2021 with a 100 million investment and will employ ai to support healthcare research according to jensen huang the cambridge 1 supercomputer will serve as a hub of innovation for the uk and further the groundbreaking work being done by the nation s researchers in critical healthcare and drug discovery
+
+also in october 2020 along with the release of the nvidia rtx a6000 nvidia announced it is retiring its workstation gpu brand quadro shifting its product name to nvidia rtx for future products and the manufacturing to be ampere architecture based
+
+in august 2021 the proposed takeover of arm was stalled after the uk s competition and markets authority raised significant competition concerns in october 2021 the european commission opened a competition investigation into the takeover the commission stated that nvidia s acquisition could restrict competitors access to arm s products and provide nvidia with too much internal information on its competitors due to their deals with arm softbank the parent company of arm and nvidia announced in early february 2022 that they had agreed not to move forward with the transaction because of significant regulatory challenges the investigation was set to end on march 15 2022 that same month nvidia was reportedly compromised by a cyberattack this would have been the largest semiconductor acquisition in history
+
+in march 2022 nvidia s ceo jensen huang mentioned that they were open to having intel manufacture their chips in the future this was the first time the company mentioned that it would work together with intel s upcoming foundry services
+
+in april 2022 it was reported that nvidia planned to open a new research center in yerevan armenia
+
+in may 2022 nvidia opened voyager the second of the two giant buildings at its new headquarters complex to the west of the old one unlike its smaller and older sibling endeavor the triangle theming is used more sparingly in voyager
+
+in september 2022 nvidia announced its next generation automotive grade chip drive thor
+
+in september 2022 nvidia announced a collaboration with the broad institute of mit and harvard related to the entire suite of nvidia s ai powered healthcare software suite called clara that includes parabricks and monai
+
+following united states department of commerce regulations which placed an embargo on exports to china of advanced microchips which went into effect in october 2022 nvidia saw its data center chip added to the export control list the next month the company unveiled a new advanced chip in china called the a800 gpu that met the export control rules
+
+in september 2023 getty images announced that it was partnering with nvidia to launch generative ai by getty images a new tool that lets people create images using getty s library of licensed photos getty will use nvidia s edify model which is available on nvidia s generative ai model library picasso
+
+on september 26 2023 denny s ceo kelli valade joined huang in east san jose to celebrate the founding of nvidia at denny s on berryessa road where a plaque was installed to mark the relevant corner booth as the birthplace of a 1 trillion company by then nvidia s h100 gpus were in such demand that even other tech giants were beholden to how nvidia allocated supply larry ellison of oracle corporation said that month that during a dinner with huang at nobu in palo alto he and elon musk of tesla inc and xai were begging for h100s i guess is the best way to describe it an hour of sushi and begging
+
+in october 2023 it was reported that nvidia had quietly begun designing arm based central processing units cpus for microsoft s windows operating system with a target to start selling them in 2025
+
+in january 2024 forbes reported that nvidia has increased its lobbying presence in washington d c as american lawmakers consider proposals to regulate artificial intelligence from 2023 to 2024 the company reportedly hired at least four government affairs with professional backgrounds at agencies including the united states department of state and the department of the treasury it was noted that the 350 000 spent by the company on lobbying in 2023 was small compared to a number of major tech companies in the artificial intelligence space
+
+in january 2024 raymond james financial analysts estimated that nvidia was selling the h100 gpu in the price range of 25 000 to 30 000 each while on ebay individual h100s cost over 40 000 several major technology companies were purchasing tens or hundreds of thousands of gpus for their data centers to run generative artificial intelligence projects simple arithmetic implied that they were committing to billions of dollars in capital expenditures
+
+in february 2024 it was reported that nvidia was the hot employer in silicon valley because it was offering interesting work and good pay at a time when other tech employers were downsizing half of nvidia employees earned over 228 000 in 2023 by then nvidia gpus had become so valuable that they needed special security while in transit to data centers cisco chief information officer fletcher previn explained at a cio summit those gpus arrive by armored car
+
+on march 1 2024 nvidia became the third company in the history of the united states to close with a market capitalization in excess of 2 trillion nvidia needed only 180 days to get to 2 trillion from 1 trillion while the first two companies apple and microsoft each took over 500 days on march 18 nvidia announced its new ai chip and microarchitecture blackwell named after mathematician david blackwell
+
+in april 2024 reuters reported that china had allegedly acquired banned nvidia chips and servers from supermicro and dell via tenders
+
+in june 2024 the federal trade commission ftc and the justice department doj began antitrust investigations into nvidia microsoft and openai focusing on their influence in the ai industry the ftc led the investigations into microsoft and openai while the doj handled nvidia the probes centered on the companies conduct rather than mergers this development followed an open letter from openai employees expressing concerns about the rapid ai advancements and lack of oversight
+
+the company became the world s most valuable surpassing microsoft and apple on june 18 2024 after its market capitalization exceeded 3 3 trillion
+
+in june 2024 trend micro announced a partnership with nvidia to develop ai driven security tools notably to protect the data centers where ai workloads are processed this collaboration integrates nvidia nim and nvidia morpheus with trend vision one and its sovereign and private cloud solutions to improve data privacy real time analysis and rapid threat mitigation
+
+in october 2024 nvidia introduced a family of open source multimodal large language models called nvlm 1 0 which features a flagship version with 72 billion parameters designed to improve text only performance after multimodal training
+
+in october 2024 nvidia reported that it had been collaborating with raytheon a rtx corporation business to explore network pipelines that accelerate workloads on gpus and use gpu acceleration software libraries
+
+in november 2024 the company was added to the dow jones industrial average
+
+in november 2024 morgan stanley reported that the entire 2025 production of all of nvidia s blackwell chips was already sold out
+
+also in november 2024 the company bought 1 2 million shares of nebius group
+
+nvidia was ranked 3 on forbes best places to work list in 2024
+
+as of january 7 2025 nvidia s 3 66 trillion market cap was worth more than double of the combined value of amd arm broadcom and intel
+
+in january 2025 nvidia saw the largest one day loss in market capitalization for a u s company in history at 600 billion this was due to deepseek a chinese ai startup that developed an advanced ai model at a lower cost and computing power deepseek s ai assistant using the v3 model surpassed chatgpt as the highest rated free app in the u s on apple s app store
+
+on april 7 2025 nvidia released the llama 3 1 nemotron ultra 253b v1 reasoning large language model under the nvidia open model license it comes in three sizes nano super and ultra
+
+on may 28 2025 nvidia s second quarter revenue forecast fell short of market estimates due to u s export restrictions impacting ai chip sales to china yet the company s stock rose 5 as investors remained optimistic about long term ai demand
+
+in july 2025 it was announced that nvidia had acquired centl a canadian based ai firm
+
+on july 10 2025 nvidia closed for the first time with a market cap above 4 trillion after its market cap briefly touched and then retreated from that number during the previous day nvidia became the first company to reach a market cap of 4 trillion at that point nvidia was worth more than the combined value of all publicly traded companies in the united kingdom
+
+on july 29 2025 nvidia ordered 300 000 h20 ai chips from taiwan semiconductor manufacturing company tsmc due to strong demand from chinese tech firms like tencent and alibaba
+
+in august 2025 nvidia and competitor advanced micro devices agreed to pay 15 of the revenues from certain chip sales in china as part of an arrangement to obtain export licenses nvidia will pay only for sales of the h20 chips
+
+on september 17 2025 nvidia chief executive jensen huang said he was disappointed after the cyberspace administration of china cac ordered companies including tiktok parent company bytedance and alibaba not to purchase the rtx pro 6000d a graphics chip made specifically for the chinese market china s internet regulator banned the country s largest technology companies from buying nvidia s artificial intelligence chips as part of efforts to strengthen the domestic industry and compete with the united states the cac instructed companies this week to end both testing and orders of the rtx pro 6000d which nvidia had designed as a tailor made product for china according to three people with knowledge of the matter
+
+on september 18 2025 nvidia announced it would invest 5 billion in intel backing the struggling u s chipmaker just weeks after the white house arranged a deal for the federal government to take a major stake in the company the investment will give nvidia an immediate holding of about 4 in intel once new shares are issued to finalize the agreement nvidia s move provides intel with fresh support following years of unsuccessful turnaround efforts and will allow nvidia to offer its powerful gb300 data center servers based on blackwell gpus on intel s x86 architecture
+
+on september 22 2025 nvidia and openai announced a memorandum of understanding for a partnership wherein nvidia would invest 100 billion into openai and openai would use nvidia chips and systems in new data centers openai will build new ai data centers using nvidia systems amounting to at least 10 gigawatts system power which is the equivalent of energy produced by more than four hoover dams the deal was meant to be a circular arrangement where openai will pay back nvidia s investment through the purchase of nvidia s chips which is a model common in ai partnerships this circularity is estimated at 35 billion in new nvidia chips bought by openai for every 10 billion nvidia invests in openai as of january 2026 negotiations had not progressed beyond early stages and the two companies were rethinking the partnership s structure in the months leading up to this chief executive jensen huang privately emphasized to industry associates that the original deal was non binding and not finalized when announced
+
+in october 2025 a coalition of nvidia nonprofit electric power research institute and pjm interconnection announced that the first commercial application of software developed by startup emerald ai in which nvidia invests that adjusts the energy draw on a power grid in real time was to be deployed at a new data center under construction in virginia dubbed aurora the facility is expected to set a new flexible power standard
+
+a server farm dedicated to autonomous ai was also announced in october 2025 as a collaboration between sds schönfeld a data services firm owned by uc schönfeld and vast data an israeli company specializing in ai storage management that collaborates closely with nvidia reports indicate that approximately 30 billion has been secured for the bet yehoshua server farm it is expected to feature tens of petabytes of data infrastructure powered by vast along with thousands of nvidia blackwell gpus and nvidia network processors
+
+on october 29 2025 nvidia became the first company to reach a market capitalization of 5 trillion
+
+nvidia s stock prices fell by 2 on november 11 2025 as the softbank group dumped its entire nvidia portfolio worth 5 8 billion redirecting the capital towards openai instead
+
+on december 1 2025 nvidia released alpamayo r1 an open source vision language action ai model for self driving vehicles this was done so that developers and researchers can understand how these models work and come up with standard ways on how the industry can evaluate how they work
+
+on december 15 2025 nvidia announced the nemotron 3 family of models consisting of nano super and ultra models built on a hybrid mixture of experts moe architecture nvidia said nano has around 30 billion parameters super 100 billion and ultra 500 billion
+
+on december 18 2025 nvidia announced plans to build a major new research and development campus in kiryat tivon israel projected to employ more than 10 000 people and become one of the company s largest sites outside the united states the 22 acre complex is scheduled to begin construction in 2027 with initial operations expected in 2031 and will include laboratories green areas and public facilities the project reinforces israel s role as nvidia s principal international development hub in advanced ai and computing technologies
+
+in december 2025 it was announced that nvidia had acquired schedmd the company behind the open source workload manager slurm as part of an effort to expand its ai and high performance computing software capabilities nvidia stated that slurm would remain open source and vendor neutral after the acquisition with no financial terms disclosed
+
+in december 2025 cnbc reported nvidia had agreed to buy assets from groq for 20 billion in cash the deal included a non exclusive licensing agreement with nvidia for groq s inference technology several of groq s senior leaders including its ceo also agreed to join nvidia as part of the deal while both companies said groq would continue to operate as an individual company the transaction drew criticism from several industry analysts as a tactic to avoid regulatory scrutiny
+
+in late 2025 nvidia entered advanced negotiations to acquire ai21 labs an israeli developer of large language models in a deal valued at as much as 2 billion to 3 billion the proposed transaction is widely described as a talent focused acquihire aimed at integrating ai21 s workforce of approximately 200 specialists into nvidia s global artificial intelligence operations if completed the transaction would be nvidia s second largest israeli acquisition after its 7 billion purchase of mellanox in 2020
+
+at ces 2026 ceo jensen huang unveiled nvidia s vera rubin ai platform and the alpamayo open source model hesai was also picked as nvidia s laser technology partner supplying lidar sensors to the company streamlining software hardware and data in its autonomous driving products
+
+in january 2026 nvidia launched a new weather forecasting service called earth 2 it is an open sourced platform that can be incorporated to improve the ai function across models used by scientists businesses and local governments
+
+on february 24 2026 nvidia announced its acquisition of israeli startup illumex a developer of generative semantic data infrastructure in a deal reportedly valued at around 60 million
+
+on 11 march 2026 nvidia announced that it will invest 2 billion in artificial intelligence cloud company nebius
+
+in april 2026 nvidia announced the release of a new group of open source artificial intelligence models designed specifically for quantum computing the development caused a noticeable market surge for allied quantum computing companies during the same month nvidia s market momentum was further bolstered by its primary manufacturing partner tsmc which reported a 35 1 year on year revenue increase for the first quarter of 2026 largely driven by robust global demand for ai accelerators
+
+at the gtc conference in march 2026 nvidia announced the vera rubin platform the successor to its blackwell architecture the platform includes the rubin gpu and vera cpu designed to scale agentic ai and offering significant performance improvements in large scale ai factories
+
+nvidia s key management as of march 2024 consists of
+
+as of january 2026 update the company s board consisted of the following directors
+
+for the fiscal year 2020 nvidia reported earnings of us 2 796 billion with an annual revenue of us 10 918 billion a decline of 6 8 over the previous fiscal cycle nvidia s shares traded at over 531 per share and its market capitalization was valued at over us 328 7 billion in january 2021
+
+for the q2 of 2020 nvidia reported sales of 3 87 billion which was a 50 rise from the same period in 2019 the surge in sales was driven by people s higher demand for computer technology according to the financial chief of the company colette kress the effects of the pandemic will likely reflect this evolution in enterprise workforce trends with a greater focus on technologies such as nvidia laptops and virtual workstations that enable remote work and virtual collaboration in may 2023 nvidia crossed 1 trillion in market valuation during trading hours and grew to 1 2 trillion by the following november
+
+the 10 largest shareholders of nvidia in early 2026 were
+
+nvidia uses external suppliers for all phases of manufacturing including wafer fabrication assembly testing and packaging nvidia thus avoids most of the investment and production costs and risks associated with chip manufacturing although it does sometimes directly procure some components and materials used in the production of its products e g memory and substrates nvidia focuses its own resources on product design quality assurance marketing and customer support
+
+nvidia s gpu technology conference gtc is a series of technical conferences held around the world it originated in 2009 in san jose california with an initial focus on the potential for solving computing challenges through gpus in recent years when the conference s focus has shifted to various applications of artificial intelligence and deep learning including self driving cars healthcare high performance computing and nvidia deep learning institute dli training gtc 2018 attracted over 8400 attendees gtc 2020 was converted to a digital event and drew roughly 59 000 registrants after several years of remote only events gtc in march 2024 returned to an in person format in san jose california
+
+at gtc 2025 nvidia unveiled its next generation ai hardware the blackwell ultra and vera rubin chips signalling a leap toward agentic ai and reasoning capable computing huang projected that ai driven infrastructure would drive nvidia s data center revenue to 1 trillion by 2028 the announcement also introduced isaac gr00t n1 humanoid robotics model cosmos synthetic training data ai and the newton physics engine developed in collaboration with deepmind and disney research
+
+nvidia s product families include graphics processing units wireless communication devices and automotive hardware and software such as
+
+until september 23 2013 nvidia had not published any documentation for its advanced hardware meaning that programmers could not write free and open source device drivers for its products without resorting to reverse engineering additionally features like its compute platform cuda and the dlss technology suite are proprietary and only available on its hardware as such nvidia has been notable for proprietization and vendor locking practices
+
+nvidia has released linux open source gpu kernel modules under dual gpl mit licensing allowing developers to inspect the driver module code and contribute improvements in collaboration with the community the nvidia open gpu kernel modules repository on github provides the publicly accessible source code for these modules supporting modern gpu architectures in linux environments furthermore nvidia s acquisition of schedmd and the release of new open source ai models highlight its broader commitment to open source software and the ai ecosystem
+
+instead nvidia provides its own binary geforce graphics drivers for x org and an open source library that interfaces with the linux freebsd or solaris kernels and the proprietary graphics software nvidia also provided but stopped supporting an obfuscated open source driver that only supports two dimensional hardware acceleration and ships with the x org distribution
+
+the proprietary nature of nvidia s drivers has generated dissatisfaction within free software communities in a 2012 talk linus torvalds gave a middle finger gesture and criticized nvidia s stance toward linux some linux and bsd users insist on using only open source drivers and regard nvidia s insistence on providing nothing more than a binary only driver as inadequate given that competing manufacturers such as intel offer support and documentation for open source developers and others like amd release partial documentation and provide some active development
+
+nvidia only provides x86 x64 and armv7 a versions of its proprietary driver as a result features like cuda are unavailable on other platforms some users claim that nvidia s linux drivers impose artificial restrictions like limiting the number of monitors that can be used at the same time but the company has not commented on these accusations
+
+in 2014 with its maxwell gpus nvidia started to require firmware by it to unlock all features of its graphics cards
+
+on may 12 2022 nvidia announced that it is opensourcing its gpu kernel modules support for nvidia s firmware was implemented in nouveau in 2023 which allows proper power management and gpu reclocking for turing and newer graphics card generations
+
+on july 21 2025 nvidia announced to extend cuda support to risc v
+
+nvidia gpus are used in deep learning and accelerated analytics due to nvidia s cuda software platform and api which allows programmers to utilize the higher number of cores present in gpus to parallelize blas operations which are extensively used in machine learning algorithms they were included in many tesla inc vehicles before musk announced at tesla autonomy day in 2019 that the company developed its own soc and full self driving computer now and would stop using nvidia hardware for their vehicles these gpus are used by researchers laboratories tech companies and enterprise companies in 2009 nvidia was involved in what was called the big bang of deep learning as deep learning neural networks were combined with nvidia graphics processing units gpus that year the google brain team used nvidia gpus to create deep neural networks capable of machine learning where andrew ng determined that gpus could increase the speed of deep learning systems by about 100 times
+
+dgx is a line of supercomputers by nvidia
+
+in april 2016 nvidia produced the dgx 1 based on an 8 gpu cluster to improve the ability of users to use deep learning by combining gpus with integrated deep learning software nvidia gifted its first dgx 1 to openai in august 2016 to help it train larger and more complex ai models with the capability of reducing processing time from six days to two hours it also developed nvidia tesla k80 and p100 gpu based virtual machines which are available through google cloud which google installed in november 2016 microsoft added gpu servers in a preview offering of its n series based on nvidia s tesla k80s each containing 4992 processing cores later that year aws s p2 instance was produced using up to 16 nvidia tesla k80 gpus that month nvidia also partnered with ibm to create a software kit that boosts the ai capabilities of watson called ibm powerai nvidia also offers its own nvidia deep learning software development kit in 2017 the gpus were also brought online at the riken center for advanced intelligence project for fujitsu the company s deep learning technology led to a boost in its 2017 earnings
+
+in 2018 nvidia researchers demonstrated imitation learning techniques for industrial robots they have created a system that after a short revision and testing can already be used to control the universal robots of the next generation in addition to gpu manufacturing nvidia provides parallel processing capabilities to researchers and scientists that allow them to efficiently run high performance applications
+
+in 2020 nvidia unveiled omniverse a virtual environment designed for engineers nvidia also open sourced isaac sim which makes use of this omniverse to train robots through simulations that mimic the physics of the robots and the real world
+
+in 2024 huang oriented nvidia s focus towards humanoid robots and self driving cars which he expects to gain widespread adoption
+
+in 2025 nvidia announced isaac gr00t n1 an open source foundation model designed to expedite the development and capabilities of humanoid robots neura robotics 1x technologies and vention are among the first companies to use the model
+
+nvidia s inception program was created to support startups making exceptional advances in the fields of artificial intelligence and data science award winners are announced at nvidia s gtc conference in may 2017 the program had 1 300 companies as of march 2018 there were 2 800 startups in the inception program as of august 2021 the program has over 8 500 members in 90 countries with cumulative funding of us 60 billion
+
+issues with the geforce gtx 970 s specifications were first brought up by users when they found out that the cards while featuring 4 gb of memory rarely accessed memory over the 3 5 gb boundary further testing and investigation eventually led to nvidia issuing a statement that the card s initially announced specifications had been altered without notice before the card was made commercially available and that the card took a performance hit once memory over the 3 5 gb limit were put into use
+
+the card s back end hardware specifications initially announced as being identical to those of the geforce gtx 980 differed in the amount of l2 cache 1 75 mb versus 2 mb in the geforce gtx 980 and the number of rops 56 versus 64 in the 980 additionally it was revealed that the card was designed to access its memory as a 3 5 gb section plus a 0 5 gb one access to the latter being 7 times slower than the first one the company then went on to promise a specific driver modification to alleviate the performance issues produced by the cutbacks suffered by the card however nvidia later clarified that the promise had been a miscommunication and there would be no specific driver update for the gtx 970 nvidia claimed that it would assist customers who wanted refunds in obtaining them on february 26 2015 nvidia ceo jensen huang went on record in nvidia s official blog to apologize for the incident in february 2015 a class action lawsuit alleging false advertising was filed against nvidia and gigabyte technology in the united states district court for the northern district of california
+
+nvidia revealed that it is able to disable individual units each containing 256 kb of l2 cache and 8 rops without disabling whole memory controllers this comes at the cost of dividing the memory bus into high speed and low speed segments that cannot be accessed at the same time unless one segment is reading while the other segment is writing because the l2 rop unit managing both of the gddr5 controllers shares the read return channel and the write data bus between the two gddr5 controllers and itself this is used in the geforce gtx 970 which therefore can be described as having 3 5 gb in its high speed segment on a 224 bit bus and 0 5 gb in a low speed segment on a 32 bit bus
+
+on july 27 2016 nvidia agreed to a preliminary settlement of the u s class action lawsuit offering a 30 refund on gtx 970 purchases the agreed upon refund represents the portion of the cost of the storage and performance capabilities the consumers assumed they were obtaining when they purchased the card
+
+the nvidia geforce partner program was a marketing program designed to provide partnering companies with benefits such as public relations support video game bundling and marketing development funds the program proved to be controversial with complaints about it possibly being an anti competitive practice
+
+first announced in a blog post on march 1 2018 it was canceled on may 4 2018
+
+on december 10 2020 nvidia told youtube tech reviewer steven walton of hardware unboxed that it would no longer supply him with geforce founders edition graphics card review units in a twitter message hardware unboxed said nvidia have officially decided to ban us from receiving geforce founders edition gpu review samples their reasoning is that we are focusing on rasterization instead of ray tracing they have said they will revisit this should your editorial direction change
+
+
+in emails that were disclosed by walton from nvidia senior pr manager bryan del rizzo nvidia had said
+your gpu reviews and recommendations have continued to focus singularly on rasterization performance and you have largely discounted all of the other technologies we offer gamers it is very clear from your community commentary that you do not see things the same way that we gamers and the rest of the industry do
+techspot partner site of hardware unboxed said this and other related incidents raise serious questions around journalistic independence and what they are expecting of reviewers when they are sent products for an unbiased opinion
+
+a number of technology reviewers came out strongly against nvidia s move linus sebastian of linus tech tips titled the episode of his weekly wan show nvidia might actually be evil and was highly critical of the company s move to dictate specific outcomes of technology reviews the review site gamers nexus said it was nvidia s latest decision to shoot both its feet they ve now made it so that any reviewers covering rt will become subject to scrutiny from untrusting viewers who will suspect subversion by the company shortsighted self own from nvidia
+
+two days later nvidia reversed its stance hardware unboxed sent out a twitter message i just received an email from nvidia apologizing for the previous email they ve now walked everything back on december 14 hardware unboxed released a video explaining the controversy from their viewpoint via twitter they also shared a second apology sent by nvidia s del rizzo that said to withhold samples because i didn t agree with your commentary is simply inexcusable and crossed the line
+
+in 2018 nvidia s chips became popular for cryptomining the process of obtaining crypto rewards in exchange for verifying transactions on distributed ledgers the united states securities and exchange commission sec said however the company failed to disclose that it was a significant element of its revenue growth from sales of chips designed for gaming the sec further added in a statement and charging order those omissions misled investors and analysts who were interested in understanding the impact of cryptomining on nvidia s business the sec emphasized nvidia which did not admit or deny the findings has agreed to pay 5 5 million to settle civil charges according to a statement made by the sec in may 2022
+
+on september 26 2023 nvidia s french offices were searched by the french competition authority the raid authorized by a judge was part of an investigation into suspected anti competitive practices in the graphics card sector nvidia has not publicly commented on the incident
+
+in july 2025 a public dispute emerged between nvidia ceo jensen huang and anthropic ceo dario amodei over ai regulation and industry practices the conflict escalated when amodei vehemently denied huang s allegations that he sought to control the ai industry through safety concerns calling huang s claims an outrageous lie the dispute centered on differing philosophies regarding ai development with amodei advocating for stronger regulatory oversight and responsible scaling policies while huang promoted open source development and criticized what nvidia characterized as regulatory capture nvidia responded by stating that lobbying for regulatory capture against open source will only stifle innovation make ai less safe and secure and less democratic the controversy highlighted broader tensions within the ai industry between companies favoring rapid development and those emphasizing safety measures and regulation
+
+in may 2025 u s senators jim banks and elizabeth warren criticized a proposed nvidia facility in shanghai saying that it raises significant national security and economic security issues that warrant serious review
+
+in august 2025 nvidia ordered suppliers to halt production of its h20 ai chip following chinese government directives warning domestic companies against purchasing the processor due to security concerns the company directed suppliers including taiwan semiconductor manufacturing company samsung electronics and amkor technology to suspend work on the china focused processor
+
+the h20 was developed in late 2023 specifically for the chinese market to comply with u s export restrictions featuring 96gb of hbm3 memory and 4 0 tb s memory bandwidth higher than the h100 but with significantly reduced computational power at 296 tflops compared to the h100 s 1979 tflops despite lower raw performance the h20 demonstrated over 20 faster performance than the h100 in large language model inference tasks due to architectural optimizations
+
+prior to the production halt nvidia had placed substantial orders for the h20 including 300 000 units from tsmc in july 2025 driven by strong demand from chinese technology companies ceo jensen huang denied allegations that the h20 contained security backdoors stating the chips were designed solely for commercial use the production suspension occurred as nvidia was developing the b30a a new chip based on its blackwell architecture intended to succeed the h20 in the chinese market
+
+following prolonged negotiations the united states announced in 2026 that it would permit the export of newer h200 chips to china under specified conditions the move was expected to stimulate market activity the chinese market estimated to be worth hundreds of billions and potentially trillions of u s dollars presents significant profit opportunities for american firms with revenues reinforcing u s leading positions
+
+the decision also drew criticism for simultaneously constraining and strengthening china s technological capabilities and was described by some critics as unreasonable however some technology experts argue that china s development capacity has exceeded expectations and warn that the full ban policy could potentially enable real challenges to u s influence over technical standard setting china quickly responded by imposing restrictions on certain foreign chips to be imported despite china s efforts to shape technical standards still american products and ecosystem retain strong appeal raising government concerns over possible fragmentation and reduced reinvestment in their own artificial intelligence progress more broadly china is seen as seeking long term influence to counterbalance the united states rather than maintaining competitive complementarity rival
+
+nvidia has been involved in heavy data scraping for illegal ai model training in 2024 internal conversations revealed that nvidia was scraping large amounts of videos from youtube without permission and by circumventing protection measures in january 2026 a court filing revealed that nvidia developers contacted shadow library anna s archive to evaluate the use of pirated content for model training which management gave green light for despite legality concerns from the site nvidia denied the allegations and filed a motion to dismiss the lawsuit
+
+in february 2026 it was announced by the trump administration that deepseek s latest ai model which was trained on nvidia s most advanced ai chip would be released as soon as march 2026 this represented a potential violation of us export controls
+
+in march 2026 it was reported that during 2024 2025 three men plotted to smuggle ai servers containing nvidia chips to china according to the investigation they had shell companies with which they planed to move up to 2 5 billion worth of ai servers equipped with nvidia chips to china in 2026 they are facing charges by the us doj
+
+nvidia has made substantial investments in israel including a 500 million ai research and engineering centre near haifa during 2025 while also employing over 4 500 workers across seven r d centres in the country roughly 15 of the company s global workforce critics argue that the company s advanced technologies such as its blackwell chips and ai powered systems have dual use potential that could enhance israel s military surveillance facial recognition and targeting capabilities in gaza and the west bank during the gaza war the bds movement has called for a boycott of nvidia products

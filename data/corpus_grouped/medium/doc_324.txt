@@ -1,0 +1,185 @@
+unsupervised learning is a framework in machine learning where in contrast to supervised learning algorithms learn patterns exclusively from unlabeled data other frameworks in the spectrum of supervisions include weak or semi supervision where a small portion of the data is tagged and self supervision some researchers consider self supervised learning a form of unsupervised learning
+
+conceptually unsupervised learning divides into the aspects of data training algorithm and downstream applications typically the dataset is harvested cheaply in the wild such as massive text corpus obtained by web crawling with only minor filtering such as common crawl this compares favorably to supervised learning where the dataset such as the imagenet1000 is typically constructed manually which is much more expensive
+
+there are algorithms designed specifically for unsupervised learning such as clustering algorithms like k means dimensionality reduction techniques like principal component analysis pca boltzmann machine learning and autoencoders after the rise of deep learning most large scale unsupervised learning has been done by training general purpose neural network architectures by gradient descent adapted to performing unsupervised learning by designing an appropriate training procedure
+
+sometimes a trained model can be used as is but more often they are modified for downstream applications for example the generative pretraining method trains a model to generate a textual dataset before finetuning it for other applications such as text classification as another example autoencoders are trained to produce good features which can then be used as a module for other models such as in a latent diffusion model
+
+tasks are often categorized as discriminative recognition or generative imagination often but not always discriminative tasks use supervised methods and generative tasks use unsupervised see venn diagram however the separation is very hazy for example object recognition favors supervised learning but unsupervised learning can also cluster objects into groups furthermore as progress marches onward some tasks employ both methods and some tasks swing from one to another for example image recognition started off as heavily supervised but became hybrid by employing unsupervised pre training and then moved towards supervision again with the advent of dropout relu and adaptive learning rates
+
+a typical generative task is as follows at each step a datapoint is sampled from the dataset and part of the data is removed and the model must infer the removed part this is particularly clear for the denoising autoencoders and bert
+
+
+
+during the learning phase an unsupervised network tries to mimic the data it is given and uses the error in its mimicked output to correct itself i e correct its weights and biases sometimes the error is expressed as a low probability that the erroneous output occurs or it might be expressed as an unstable high energy state in the network
+
+in contrast to supervised methods dominant use of backpropagation unsupervised learning also employs other methods including hopfield learning rule boltzmann learning rule contrastive divergence wake sleep variational inference maximum likelihood maximum a posteriori gibbs sampling and backpropagating reconstruction errors or hidden state reparameterizations see the table below for more details
+
+an energy function is a macroscopic measure of a network s activation state in boltzmann machines it plays the role of the cost function this analogy with physics is inspired by ludwig boltzmann s analysis of a gas macroscopic energy from the microscopic probabilities of particle motion
+
+
+
+p
+
+
+e
+
+
+e
+
+
+
+k
+t
+
+
+
+
+displaystyle p propto e e kt
+
+where k is the boltzmann constant and t is temperature in the rbm network the relation is
+
+
+
+p
+
+
+e
+
+
+e
+
+
+
+
+
+z
+
+
+displaystyle p e e z
+
+where
+
+
+
+p
+
+
+displaystyle p
+
+and
+
+
+
+e
+
+
+displaystyle e
+
+vary over every possible activation pattern and
+
+
+
+
+
+z
+
+
+
+
+
+
+all patterns
+
+
+
+
+
+e
+
+
+e
+
+
+pattern
+
+
+
+
+
+
+
+
+displaystyle textstyle z sum _ scriptscriptstyle text all patterns e e text pattern
+
+to be more precise
+
+
+
+p
+
+a
+
+
+
+e
+
+
+e
+
+a
+
+
+
+
+
+
+z
+
+
+displaystyle p a e e a z
+
+where
+
+
+
+a
+
+
+displaystyle a
+
+is an activation pattern of all neurons visible and hidden hence some early neural networks bear the name boltzmann machine paul smolensky calls
+
+
+
+
+e
+
+
+
+displaystyle e
+
+the harmony a network seeks low energy which is high harmony
+
+this table shows connection diagrams of various unsupervised networks the details of which will be given in the section comparison of networks circles are neurons and edges between them are connection weights as network design changes features are added on to enable new capabilities or removed to make learning faster for instance neurons change between deterministic hopfield and stochastic boltzmann to allow robust output weights are removed within a layer rbm to hasten learning or connections are allowed to become asymmetric helmholtz
+
+of the networks bearing people s names only hopfield worked directly with neural networks boltzmann and helmholtz came before artificial neural networks but their work in physics and physiology inspired the analytical methods that were used
+
+here we highlight some characteristics of select networks the details of each are given in the comparison table below
+
+the classical example of unsupervised learning in the study of neural networks is donald hebb s principle that is neurons that fire together wire together in hebbian learning the connection is reinforced irrespective of an error but is exclusively a function of the coincidence between action potentials between the two neurons a similar version that modifies synaptic weights takes into account the time between the action potentials spike timing dependent plasticity or stdp hebbian learning has been hypothesized to underlie a range of cognitive functions such as pattern recognition and experiential learning
+
+among neural network models the self organizing map som and adaptive resonance theory art are commonly used in unsupervised learning algorithms the som is a topographic organization in which nearby locations in the map represent inputs with similar properties the art model allows the number of clusters to vary with problem size and lets the user control the degree of similarity between members of the same clusters by means of a user defined constant called the vigilance parameter art networks are used for many pattern recognition tasks such as automatic target recognition and seismic signal processing
+
+two of the main methods used in unsupervised learning are principal component and cluster analysis cluster analysis is used in unsupervised learning to group or segment datasets with shared attributes in order to extrapolate algorithmic relationships cluster analysis is a branch of machine learning that groups the data that has not been labelled classified or categorized instead of responding to feedback cluster analysis identifies commonalities in the data and reacts based on the presence or absence of such commonalities in each new piece of data this approach helps detect anomalous data points that do not fit into either group
+
+a central application of unsupervised learning is in the field of density estimation in statistics though unsupervised learning encompasses many other domains involving summarizing and explaining data features it can be contrasted with supervised learning by saying that whereas supervised learning intends to infer a conditional probability distribution conditioned on the label of input data unsupervised learning intends to infer an a priori probability distribution
+
+some of the most common algorithms used in unsupervised learning include 1 clustering 2 anomaly detection 3 approaches for learning latent variable models each approach uses several methods as follows
+
+one of the statistical approaches for unsupervised learning is the method of moments in the method of moments the unknown parameters of interest in the model are related to the moments of one or more random variables and thus these unknown parameters can be estimated given the moments the moments are usually estimated from samples empirically the basic moments are first and second order moments for a random vector the first order moment is the mean vector and the second order moment is the covariance matrix when the mean is zero higher order moments are usually represented using tensors which are the generalization of matrices to higher orders as multi dimensional arrays
+
+in particular the method of moments is shown to be effective in learning the parameters of latent variable models latent variable models are statistical models where in addition to the observed variables a set of latent variables also exists which is not observed a highly practical example of latent variable models in machine learning is the topic modeling which is a statistical model for generating the words observed variables in the document based on the topic latent variable of the document in the topic modeling the words in the document are generated according to different statistical parameters when the topic of the document is changed it is shown that method of moments tensor decomposition techniques consistently recover the parameters of a large class of latent variable models under some assumptions
+
+the expectation maximization algorithm em is also one of the most practical methods for learning latent variable models however it can get stuck in local optima and it is not guaranteed that the algorithm will converge to the true unknown parameters of the model in contrast for the method of moments the global convergence is guaranteed under some conditions

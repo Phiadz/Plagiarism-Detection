@@ -1,0 +1,11 @@
+student is an early artificial intelligence program that solves algebra word problems it is written in lisp by daniel g bobrow as his phd thesis in 1964 bobrow 1964 it was designed to read and solve the kind of word problems found in high school algebra books the program is often cited as an early accomplishment of ai in natural language processing
+
+within project mac at mit the student system was an early example of a question answering software which uniquely involved natural language processing and symbolic programming other early attempts for solving algebra story problems were realized with 1960s hardware and software as well for example the philips baseball and synthex systems
+
+student accepts an algebra story written in the english language as input and generates a number as output this is realized with a layered pipeline that consists of heuristics for pattern transformation at first sentences in english are converted into kernel sentences which each contain a single piece of information next the kernel sentences are converted into mathematical expressions the knowledge base that supports the transformation contains 52 facts clarification needed
+
+student uses a rule based system with logic inference the rules are pre programmed by the software developer and are able to parse natural language
+
+more powerful techniques for natural language processing such as machine learning came into use later as hardware grew more capable and gained popularity over simpler rule based systems
+
+this computer programming related article is a stub you can help wikipedia by adding missing information

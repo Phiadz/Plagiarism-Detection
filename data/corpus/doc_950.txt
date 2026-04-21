@@ -1,0 +1,89 @@
+logic theorist is a computer program completed in 1956 by allen newell herbert a simon and cliff shaw it was the first program deliberately engineered to perform automated reasoning and has been described as the first artificial intelligence program a logic theorist proved 38 of the first 52 theorems in chapter two of whitehead and bertrand russell s principia mathematica and found new and shorter proofs for some of them
+
+in 1955 when newell and simon began to work on the logic theorist the field of artificial intelligence did not yet exist the term artificial intelligence would not be coined until the following summer b
+
+simon was a political scientist who had previously studied the way bureaucracies function as well as developing his theory of bounded rationality for which he would later win the nobel memorial prize in economic sciences in 1978 he believed the study of business organizations requires like artificial intelligence an insight into the nature of human problem solving and decision making simon has stated that when consulting at rand corporation in the early 1950s he saw a printer typing out a map using ordinary letters and punctuation as symbols this led him to think that a machine that could manipulate symbols could simulate decision making and possibly even the process of human thought
+
+the program that printed the map had been written by newell a rand scientist studying logistics and organization theory for newell the decisive moment was in 1954 when oliver selfridge came to rand to describe his work on pattern matching watching the presentation newell suddenly understood how the interaction of simple programmable units could accomplish complex behavior including the intelligent behavior of human beings it all happened in one afternoon he would later say it was a rare moment of scientific epiphany
+
+
+i had such a sense of clarity that this was a new path and one i was going to go down i haven t had that sensation very many times i m pretty skeptical and so i don t normally go off on a toot but i did on that one completely absorbed in it without existing with the two or three levels consciousness so that you re working and aware that you re working and aware of the consequences and implications the normal mode of thought no completely absorbed for ten to twelve hours
+newell and simon began to talk about the possibility of teaching machines to think their first project was a program that could prove mathematical theorems like the ones used in bertrand russell and alfred north whitehead s principia mathematica they enlisted the help of computer programmer cliff shaw also from rand to develop the program newell says cliff was the genuine computer scientist of the three
+
+
+the first version was hand simulated they wrote the program onto 3x5 cards and as simon recalled
+in january 1956 we assembled my wife and three children together with some graduate students to each member of the group we gave one of the cards so that each one became in effect a component of the computer program here was nature imitating art imitating nature
+they succeeded in showing that the program could successfully prove theorems as well as a talented mathematician eventually shaw was able to run the program on the computer at rand s santa monica facility
+
+in the summer of 1956 john mccarthy marvin minsky claude shannon and nathan rochester organized a conference on the subject of what they called artificial intelligence a term coined by mccarthy for the occasion newell and simon proudly presented the group with the logic theorist it was met with a lukewarm reception pamela mccorduck writes the evidence is that nobody save newell and simon themselves sensed the long range significance of what they were doing simon confides that we were probably fairly arrogant about it all and adds
+
+they didn t want to hear from us and we sure didn t want to hear from them we had something to show them in a way it was ironic because we already had done the first example of what they were after and second they didn t pay much attention to it
+logic theorist soon proved 38 of the first 52 theorems in chapter 2 of the principia mathematica the proof of theorem 2 85 was actually more elegant than the proof produced laboriously by hand by russell and whitehead 2026 03 20 what is called here theorem 2 85 is in fact numbered as 2 53 in the page 107 of the 1963 cambridge university press edition https www uhu es francisco moreno gii_mac docs principia_mathematica_vol1 pdf and which appears under the same 2 53 number on page 112 of the 1910 cup edition according to the digitalization on wikibooks https en wikisource org wiki russell_ 26_whitehead 27s_principia_mathematica part_1 section_a discussion_2 simon was able to show the new proof to russell himself who responded with delight they attempted to publish the new proof in the journal of symbolic logic but it was rejected on the grounds that a new proof of an elementary mathematical theorem was not notable apparently overlooking the fact that one of the authors was a computer program
+
+newell and simon formed a lasting partnership founding one of the first ai laboratories at the carnegie institute of technology and developing a series of influential artificial intelligence programs and ideas including the general problem solver soar and their unified theory of cognition
+
+the logic theorist is a program that performs logical processes on logical expressions the logic theorist operates on the following principles
+
+for example the logical expression
+
+
+
+
+p
+
+
+q
+
+
+p
+
+
+
+displaystyle neg p to q wedge neg p
+
+is represented as a tree with a root element representing
+
+
+
+
+
+
+displaystyle to
+
+among the attributes of the root element are pointers to the two elements representing the subexpressions
+
+
+
+
+p
+
+
+displaystyle neg p
+
+and
+
+
+
+q
+
+
+p
+
+
+displaystyle q wedge neg p
+
+
+
+there are four kinds of processes from the lowest to the highest level
+
+logic theorist introduced several concepts that would be central to ai research
+
+pamela mccorduck writes that the logic theorist was proof positive that a machine could perform tasks heretofore considered intelligent creative and uniquely human and as such it represents a milestone in the development of artificial intelligence and our understanding of intelligence in general
+
+simon told a graduate class in january 1956 over christmas al newell and i invented a thinking machine
+and would write
+
+we invented a computer program capable of thinking non numerically and thereby solved the venerable mind body problem explaining how a system composed of matter can have the properties of mind
+this statement that machines can have minds just as people do would be later named strong ai by philosopher john searle it remains a serious subject of debate up to the present day
+
+pamela mccorduck also sees in the logic theorist the debut of a new theory of the mind the information processing model sometimes called computationalism or cognitivism she writes that this view would come to be central to their later work and in their opinion as central to understanding mind in the 20th century as darwin s principle of natural selection had been to understanding biology in the nineteenth century newell and simon would later formalize this proposal as the physical symbol systems hypothesis

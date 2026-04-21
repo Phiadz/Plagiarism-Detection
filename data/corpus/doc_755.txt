@@ -1,0 +1,54 @@
+
+the artificial intelligence industry in canada is a rapidly expanding sector although canada held a pioneering role in the early development of artificial intelligence transforming research excellence into broad commercial adoption has proven challenging despite globally recognized scientific achievements and a deep pool of skilled experts by june 2024 canada recorded the lowest rate of ai integration among oecd countries with only 12 of firms implementing ai in their products or services however ai adoption has shown significant momentum doubling from mid 2024 to mid 2025 rising from 6 1 to 12 2 as of september 2025 statistics canada indicated that while about one third of canadian businesses had no plans to adopt artificial intelligence in the next year 14 5 reported intentions to begin using ai for producing goods or delivering services the primary reasons for not moving forward with ai were lack of relevance insufficient knowledge and privacy concerns according to public works canada pwc the pace of ai adoption in canada is roughly three quarters of the united states rate highlighting a notable gap between the two countries in business integration of this technology british canadian computer scientist geoffrey hinton stated in 2025 that canadian companies are adopting artificial intelligence at a slower pace which may result in the loss of the country s early advantages in the field
+
+at the all in ai conference held in montreal in september 2025 the minister of artificial intelligence and digital innovation evan solomon described building digital sovereignty as the most pressing democratic issue of the time he introduced a 26 person task force focused on updating canada s ai strategy
+
+in their 2024 report learning together for responsible artificial intelligence report the innovation science and economic development canada stressed that public awareness trust and ai literacy are essential for the responsible adoption and governance of ai in canada montreal workshops in 2021 expanded the oecd s 2019 definition of ai as the set of computer techniques that enable a machine e g a computer or telephone to perform tasks that typically require intelligence such as reasoning or learning it is also referred to as the automation of intelligent tasks scientific developments in ai such as deep learning techniques have made it possible to design access to huge amounts of data and ever increasing computing power these new techniques have been rapidly deployed on a large scale in all areas of social life in transport education culture and health
+
+the 2025 federal budget allocates over 1 billion over the next five years to bolster canada s artificial intelligence and quantum computing ecosystem
+
+alexnet an influential deep convolutional neural network developed at the university of toronto by alex krizhevsky ilya sutskever and geoffrey hinton marked a pivotal turning point in modern artificial intelligence in 2012 it achieved a dramatic reduction in error rates for the imagenet large scale visual recognition challenge ilsvrc showcasing the practical power of deep learning and gpu acceleration the success of alexnet helped cement canada s reputation for ai leadership and inspired rapid adoption of deep learning across the technology sector with ongoing impact in both academic and commercial domains in healthcare alexnet has been adapted for medical imaging to assist with analyzing radiographs mammograms and other scans including identifying abnormalities and supporting clinical diagnosis
+
+in 2015 the ottawa based start up advanced symbolics inc asi began developing polly an artificial intelligence system designed to analyze and anticipate how target audiences behave enabling more effective communication strategies and advertising campaigns polly was named after its first assignment analyzing the politics of brexit the ai gained widespread attention in 2016 for accurately forecasting both the brexit referendum and the 2016 u s presidential election won by donald trump the company states that polly is used by organizations in diverse sectors including healthcare politics entertainment and mental health research to support decision making based on predictive analytics
+
+chartwatch an ai tool developed in canada has been shown to reduce unexpected hospital deaths by 26 according to a 2024 study the system analyzes patient data to detect subtle signs of deterioration supporting healthcare teams in providing timely interventions
+
+geoffrey hinton s decades long work eventually formed the foundation of artificial intelligence which earned him the nobel prize for physics in 2024
+
+yoshua bengio who won the turing award in 2018 for his pioneering work in deep learning founded what would become mila in 1993 mila is currently a collaboration between four montreal based academic partners the pan canadian artificial intelligence strategy includes alberta s amii toronto s vector institute and mila
+
+fakhreddine karray s work on operational ai has had tangible impact across several canadian relevant sectors notably intelligent transportation systems virtual healthcare and driver safety
+
+according to a 2020 ernst young report the oil and gas industry in canada is using ai in automating routine repetitive and dangerous tasks with technologies like robotic process automation and machine learning optimizing production and processing enhancing transportation logistics improving equipment operation and monitoring and enabling preventative maintenance ai is also deployed for data analysis to improve prediction and decision making and is expected to automate up to 50 of job competencies in upstream oil and gas by 2040 oilsands giant suncor energy operates a large fleet of autonomous trucks and has started using ai in its dispatch system at the mildred lake mine as of 2024 ai manages routine tasks such as allocating trucks to dump stations and sending them to refuelling locations
+
+indigenous organizations have been working on the creation of new technologies for language revitalization in partnership with national research council of canada since the mid 2010s in 2025 inuit researchers and technology partners launched an ai powered initiative to support the revitalization and preservation of inuktitut demonstrating how artificial intelligence can be adapted for indigenous language and cultural priorities a 2025 cbc article notes that while ai can help revitalize inuktitut inuit leaders emphasize concerns about data sovereignty information ownership and the need for indigenous leadership to ensure transparency privacy and accountability in ai development
+
+canada s artificial intelligence and data act aida was proposed in november 2022 as part of the digital charter implementation act bill c 27 as well voluntary codes such as the september 2023 code of conduct for generative ai and landmark investments in advanced computing infrastructure and the canadian artificial intelligence safety institute caisi reflect canada s commitment to both safety and global competitiveness
+
+a
+
+b
+
+c
+
+e
+
+g
+
+i
+
+k
+
+l
+
+m
+
+o
+
+p
+
+s
+
+t
+
+w

@@ -1,0 +1,79 @@
+
+
+nick bostrom ˈbɒstrəm bost rəm swedish niklas boström ˈnɪ kːlas ˈbûːstrœm born 10 march 1973 is a philosopher known for his work on existential risk the anthropic principle human enhancement ethics whole brain emulation superintelligence risks and the reversal test he was the founding director of the later defunct future of humanity institute at the university of oxford and has become principal researcher at the macrostrategy research initiative
+
+bostrom is the author of anthropic bias observation selection effects in science and philosophy 2002 superintelligence paths dangers strategies 2014 and deep utopia life and meaning in a solved world 2024
+
+bostrom believes that advances in artificial intelligence ai may lead to superintelligence which he defines as any intellect that greatly exceeds the cognitive performance of humans in virtually all domains of interest he views this as a major source of opportunities and existential risks
+
+born as niklas boström in 1973 in helsingborg sweden he disliked school at a young age and spent his last year of high school learning from home he was interested in a wide variety of academic areas including anthropology art literature and science
+
+he received a b a degree from the university of gothenburg in 1994 he then earned an m a degree in philosophy and physics from stockholm university and an msc degree in computational neuroscience from king s college london in 1996 during his time at stockholm university he researched the relationship between language and reality by studying the analytic philosopher w v quine he also did some turns on london s stand up comedy circuit
+
+in 2000 he was awarded a phd degree in philosophy from the london school of economics under the supervision of colin howson and craig callender his thesis was titled observational selection effects and probability he held a teaching position at yale university from 2000 to 2002 and was a british academy postdoctoral fellow at the university of oxford from 2002 to 2005
+
+bostrom s research concerns the future of humanity and long term outcomes he discusses existential risk which he defines as one in which an adverse outcome would either annihilate earth originating intelligent life or permanently and drastically curtail its potential bostrom is mostly concerned about anthropogenic risks which are risks arising from human activities particularly from new technologies such as advanced artificial intelligence molecular nanotechnology or synthetic biology
+
+in 2005 bostrom founded the future of humanity institute which until its shutdown in 2024 researched the far future of human civilization he is also an adviser to the centre for the study of existential risk
+
+in the 2008 essay collection global catastrophic risks editors bostrom and milan m ćirković characterize the relationship between existential risk and the broader class of global catastrophic risks and link existential risk to observer selection effects and the fermi paradox
+
+in a paper called the vulnerable world hypothesis bostrom suggests that there may be some technologies that destroy human civilization by default a when discovered bostrom proposes a framework for classifying and dealing with these vulnerabilities he also gives counterfactual thought experiments of how such vulnerabilities could have historically occurred e g if nuclear weapons had been easier to develop or had ignited the atmosphere as edward teller had feared
+
+bostrom supports the substrate independence principle the idea that consciousness can emerge on various types of physical substrates not only in carbon based biological neural networks like the human brain he considers that sentience is a matter of degree and that digital minds can in theory be engineered to have a much higher rate and intensity of subjective experience than humans using less resources such highly sentient machines which he calls super beneficiaries would be extremely efficient at achieving happiness he recommends finding paths that will enable digital minds and biological minds to coexist in a mutually beneficial way where all of these different forms can flourish and thrive
+
+bostrom has published numerous articles on anthropic reasoning as well as the book anthropic bias observation selection effects in science and philosophy in the book he criticizes previous formulations of the anthropic principle including those of brandon carter john leslie john barrow and frank tipler
+
+bostrom believes that the mishandling of indexical information is a common flaw in many areas of inquiry including cosmology philosophy evolution theory game theory and quantum physics he argues that an anthropic theory is needed to deal with these he introduces the self sampling assumption ssa and analyzes the self indication assumption sia shows how they lead to different conclusions in a number of cases and identifies how each is affected by paradoxes or counterintuitive implications in certain thought experiments he argues against sia and proposes refining ssa into the strong self sampling assumption sssa which replaces observers in the ssa definition with observer moments
+
+in later work he proposed with milan m ćirković and anders sandberg the phenomenon of anthropic shadow an observation selection effect that prevents observers from observing certain kinds of catastrophes in their recent geological and evolutionary past they suggest that events that lie in the anthropic shadow are likely to be underestimated unless statistical corrections are made
+
+bostrom s simulation argument posits that at least one of the following statements is very likely to be true
+
+bostrom is favorably disposed toward human enhancement or self improvement and human perfectibility through the ethical application of science as well as a critic of bio conservative views
+
+in 1998 bostrom co founded with david pearce the world transhumanist association which has since changed its name to humanity in 2004 he co founded with james hughes the institute for ethics and emerging technologies although he is no longer involved with either of these organisations
+
+in 2005 bostrom published the short story the fable of the dragon tyrant in the journal of medical ethics a shorter version was published in 2012 in philosophy now the fable personifies death as a dragon that demands a tribute of thousands of people every day the story explores how status quo bias and learned helplessness can prevent people from taking action to defeat aging even when the means to do so are at their disposal youtuber cgp grey created an animated version of the story
+
+with philosopher toby ord he proposed the reversal test in 2006 given humans irrational status quo bias how can one distinguish between valid criticisms of proposed changes in a human trait and criticisms merely motivated by resistance to change the reversal test attempts to do this by asking whether it would be a good thing if the trait was altered in the opposite direction
+
+bostrom s work also considers potential dysgenic effects in human populations but he thinks genetic engineering can provide a solution and that in any case the time scale for human natural genetic evolution seems much too grand for such developments to have any significant effect before other developments will have made the issue moot
+
+bostrom has suggested that technology policy aimed at reducing existential risk should seek to influence the order in which various technological capabilities are attained proposing the principle of differential technological development this principle states that we ought to retard the development of dangerous technologies particularly ones that raise the level of existential risk and accelerate the development of beneficial technologies particularly those that protect against the existential risks posed by nature or by other technologies
+
+in 2011 bostrom founded the oxford martin program on the impacts of future technology
+
+bostrom s theory of the unilateralist s curse has been cited as a reason for the scientific community to avoid controversial dangerous research such as reanimating pathogens
+
+in 2014 bostrom published superintelligence paths dangers strategies which became a new york times best seller
+the book argues that superintelligence is possible and explores different types of superintelligences their cognition the associated risks he also presents technical and strategic considerations on how to make it safe
+
+bostrom explores multiple possible paths to superintelligence including whole brain emulation and human intelligence enhancement but focuses on artificial general intelligence explaining that electronic devices have many advantages over biological brains
+
+bostrom draws a distinction between final goals and instrumental goals a final goal is what an agent tries to achieve for its own intrinsic value instrumental goals are just intermediary steps towards final goals bostrom contends there are instrumental goals that will be shared by most sufficiently intelligent agents because they are generally useful to achieve any objective e g preserving the agent s own existence or current goals acquiring resources improving its cognition this is the concept of instrumental convergence on the other side he writes that virtually any level of intelligence can in theory be combined with virtually any final goal even absurd final goals e g making paperclips a concept he calls the orthogonality thesis
+
+he argues that an ai with the ability to improve itself might initiate an intelligence explosion resulting potentially rapidly in a superintelligence such a superintelligence could have vastly superior capabilities notably in strategizing social manipulation hacking or economic productivity with such capabilities a superintelligence could outwit humans and take over the world establishing a singleton which is a world order in which there is at the global level a single decision making agency b and optimizing the world according to its final goals
+
+bostrom argues that giving simplistic final goals to a superintelligence could be catastrophic
+
+suppose we give an a i the goal to make humans smile when the a i is weak it performs useful or amusing actions that cause its user to smile when the a i becomes superintelligent it realizes that there is a more effective way to achieve this goal take control of the world and stick electrodes into the facial muscles of humans to cause constant beaming grins
+bostrom explores several pathways to reduce the existential risk from ai he emphasizes the importance of international collaboration notably to reduce race to the bottom and ai arms race dynamics he suggests potential techniques to help control ai including containment stunting ai capabilities or knowledge narrowing the operating context e g to question answering or tripwires diagnostic mechanisms that can lead to a shutdown but bostrom contends that we should not be confident in our ability to keep a superintelligent genie locked up in its bottle forever sooner or later it will out he thus suggests that in order to be safe for humanity superintelligence must be aligned with morality or human values so that it is fundamentally on our side potential ai normativity frameworks include yudkowsky s coherent extrapolated volition human values improved via extrapolation moral rightness doing what is morally right and moral permissibility following humanity s coherent extrapolated volition except when it s morally impermissible
+
+bostrom warns that an existential catastrophe can also occur from ai being misused by humans for destructive purposes or from humans failing to take into account the potential moral status of digital minds despite these risks he says that machine superintelligence seems involved at some point in all the plausible paths to a really great future
+
+the book became a new york times best seller and received positive feedback from personalities such as stephen hawking bill gates elon musk peter singer and derek parfit it was praised for offering clear and compelling arguments on a neglected yet important topic it was sometimes criticized for spreading pessimism about the potential of ai or for focusing on longterm and speculative risks some skeptics such as daniel dennett or oren etzioni contended that superintelligence is too far away for the risk to be significant yann lecun considers that there is no existential risk asserting that superintelligent ai will have no desire for self preservation and that experts can be trusted to make it safe
+
+raffi khatchadourian wrote that bostrom s book on superintelligence is not intended as a treatise of deep originality bostrom s contribution is to impose the rigors of analytic philosophy on a messy corpus of ideas that emerged at the margins of academic thought
+
+in his 2024 book deep utopia life and meaning in a solved world bostrom explores the concept of an ideal life if humanity transitions successfully into a post superintelligence world bostrom notes that the question is not how interesting a future is to look at but how good it is to live in he outlines some technologies that he considers physically possible in theory and available at technological maturity such as cognitive enhancement reversal of aging arbitrary sensory inputs taste sound or the precise control of motivation mood well being and personality according to him not only machines would be better than humans at working but they would also undermine the purpose of many leisure activities providing extreme welfare while challenging the quest for meaning
+
+bostrom has provided policy advice and consulted for many governments and organizations he gave evidence to the house of lords select committee on digital skills he is an advisory board member for the machine intelligence research institute future of life institute and an external advisor for the cambridge centre for the study of existential risk
+
+in january 2023 bostrom issued an apology for a 1996 listserv email he sent as a postgrad where he had stated that he thought blacks are more stupid than whites and where he also used the word niggers in a description of how he thought this statement might be perceived by others the apology posted on his website stated that the invocation of a racial slur was repulsive and that he completely repudiate d this disgusting email
+
+the email has been described as racist in several news sources according to andrew anthony of the guardian the apology did little to placate bostrom s critics not least because he conspicuously failed to withdraw his central contention regarding race and intelligence and seemed to make a partial defence of eugenics
+
+shortly afterward oxford university condemned the language used in the email and started an investigation the investigation concluded on 10 august 2023 w e do not consider you to be a racist or that you hold racist views and we consider that the apology you posted in january 2023 was sincere
+
+bostrom met his wife susan in 2002 as of 2015 she lived in montreal and bostrom in oxford they have one son

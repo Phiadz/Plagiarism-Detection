@@ -1,0 +1,26 @@
+
+
+eliezer shlomo yudkowsky ˌɛliˈɛzər jʊdˈkaʊski el ee eh zər yuud kow skee born september 11 1979 is an american artificial intelligence researcher and writer on decision theory and ethics known for popularizing ideas related to friendly artificial intelligence he is the founder of and a research fellow at the machine intelligence research institute miri a private research nonprofit based in berkeley california
+
+his work on the prospect of a runaway intelligence explosion influenced philosopher nick bostrom s 2014 book superintelligence paths dangers strategies he is best known for if anyone builds it everyone dies why superhuman ai would kill us all a new york times best seller he co authored with nate soares as well as the harry potter fanfiction harry potter and the methods of rationality
+
+yudkowsky s views on the safety challenges future generations of ai systems pose are discussed in stuart russell s and peter norvig s undergraduate textbook artificial intelligence a modern approach noting the difficulty of formally specifying general purpose goals by hand russell and norvig cite yudkowsky s proposal that autonomous and adaptive systems be designed to learn correct behavior over time
+
+yudkowsky 2008 goes into more detail about how to design a friendly ai he asserts that friendliness a desire not to harm humans should be designed in from the start but that the designers should recognize both that their own designs may be flawed and that the robot will learn and evolve over time thus the challenge is one of mechanism design to design a mechanism for evolving ai under a system of checks and balances and to give the systems utility functions that will remain friendly in the face of such changes
+in response to the instrumental convergence concern which implies that autonomous decision making systems with poorly designed goals would have default incentives to mistreat humans yudkowsky and other miri researchers have recommended that work be done to specify software agents that converge on safe default behaviors even when their goals are misspecified yudkowsky also proposed in 2004 a theoretical ai alignment framework called coherent extrapolated volition which involves designing ais to pursue what people would desire under ideal epistemic and moral conditions
+
+in the intelligence explosion scenario hypothesized by i j good recursively self improving ai systems quickly transition from subhuman general intelligence to superintelligence nick bostrom s 2014 book superintelligence paths dangers strategies sketches out good s argument in detail while citing yudkowsky on the risk that anthropomorphizing advanced ai systems will cause people to misunderstand the nature of an intelligence explosion ai might make an apparently sharp jump in intelligence purely as the result of anthropomorphism the human tendency to think of village idiot and einstein as the extreme ends of the intelligence scale instead of nearly indistinguishable points on the scale of minds in general
+
+in artificial intelligence a modern approach russell and norvig raise the objection that there are known limits to intelligent problem solving from computational complexity theory if there are strong limits on how efficiently algorithms can solve various tasks an intelligence explosion may not be possible
+
+in a 2023 op ed for time magazine yudkowsky discussed the risks of artificial intelligence and advocated for international agreements to limit it including a total halt on the development of ai he suggested that participating countries should be willing to take military action such as destroy ing a rogue datacenter by airstrike to enforce such a moratorium the article helped introduce the debate about ai alignment to the mainstream leading a reporter to ask president joe biden a question about ai safety at a press briefing
+
+together with nate soares yudkowsky wrote if anyone builds it everyone dies which was published by little brown and company on september 16 2025
+
+between 2006 and 2009 yudkowsky and robin hanson were the principal contributors to overcoming bias a cognitive and social science blog sponsored by the future of humanity institute of oxford university in february 2009 yudkowsky founded lesswrong a community blog devoted to refining the art of human rationality overcoming bias has since functioned as hanson s personal blog while lesswrong has grown into the main online hub for the rationalist community
+
+over 300 blog posts by yudkowsky on philosophy and science originally written on lesswrong and overcoming bias were released as an ebook rationality from ai to zombies by miri in 2015 this book is also referred to as the sequences miri has also published inadequate equilibria yudkowsky s 2017 ebook on societal inefficiencies
+
+yudkowsky has also written several works of fiction his fanfiction novel harry potter and the methods of rationality uses plot elements from j k rowling s harry potter series to illustrate topics in science and rationality
+
+yudkowsky is an autodidact and did not attend high school or college he is jewish and was raised as a modern orthodox jew but is now secular

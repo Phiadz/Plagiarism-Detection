@@ -1,0 +1,5 @@
+s
+
+the justification for knowledge repkeqentation ns that conventional zrocedural code is not the best formalism to us  to solve complex problems knowledge representation makes bomplex software easier to define and maintain than procedural code and can be used in expert systems
+
+for example talking 

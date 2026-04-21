@@ -1,0 +1,21 @@
+data collection or data gathering is the process of gathering and measuring information on targeted variables in an established system which then enables one to answer relevant questions and evaluate outcomes data collection is a research component in all study fields including physical and social sciences humanities and business while methods vary by discipline the emphasis on ensuring accurate and honest collection remains the same the goal for all data collection is to capture evidence that allows data analysis to lead to the formulation of credible answers to the questions that have been posed
+
+regardless of the field of or preference for defining data quantitative or qualitative accurate data collection is essential to maintain research integrity the selection of appropriate data collection instruments existing modified or newly developed and delineated instructions for their correct use reduce the likelihood of errors
+
+data collection and validation consist of four steps when it involves taking a census and seven steps when it involves sampling
+
+a formal data collection process is necessary as it ensures that the data gathered are both defined and accurate this way subsequent decisions based on arguments embodied in the findings are made using valid data the process provides both a baseline from which to measure and in certain cases an indication of what to improve
+
+data management platforms dmp are centralized storage and analytical systems for data mainly used in marketing dmps exist to compile and transform large amounts of demand and supply data into discernible information marketers may want to receive and utilize first second and third party data dmps enable this because they are the aggregate system of dsps demand side platform and ssps supply side platform dmps are integral for optimizing and future advertising campaigns
+
+the main reason for maintaining data integrity is to support the observation of errors in the data collection process those errors may be made intentionally deliberate falsification or non intentionally random or systematic errors
+
+there are two approaches that may protect data integrity and secure scientific validity of study results
+
+qa s focus is prevention which is primarily a cost effective activity to protect the integrity of data collection standardization of protocol with comprehensive and detailed procedure descriptions for data collection are central for prevention the risk of failing to identify problems and errors in the research process is often caused by poorly written guidelines listed are several examples of such failures
+
+there are serious concerns about the integrity of individual user data collected by cloud computing because this data is transferred across countries that have different standards of protection for individual user data information processing has advanced to the level where user data can now be used to predict what an individual is saying before they even speak
+
+since qc actions occur during or after the data collection all the details can be carefully documented there is a necessity for a clearly defined communication structure as a precondition for establishing monitoring systems uncertainty about the flow of information is not recommended as a poorly organized communication structure leads to lax monitoring and can also limit the opportunities for detecting errors quality control is also responsible for the identification of actions necessary for correcting faulty data collection practices and also minimizing such future occurrences a team is more likely to not realize the necessity to perform these actions if their procedures are written vaguely and are not based on feedback or education
+
+data collection problems that necessitate prompt action

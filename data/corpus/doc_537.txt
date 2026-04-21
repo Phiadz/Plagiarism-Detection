@@ -1,0 +1,477 @@
+in computer science monte carlo tree search mcts is a heuristic search algorithm for some kinds of decision processes most notably those employed in software that plays board games in that context mcts is used to solve the game tree
+
+mcts was combined with neural networks in 2016 and has been used in multiple board games like chess shogi checkers backgammon contract bridge go scrabble and clobber as well as in turn based strategy video games such as total war rome ii s implementation in the high level campaign ai and applications outside of games
+
+the monte carlo method which uses random sampling for deterministic problems which are difficult or impossible to solve using other approaches dates back to the 1940s in his 1987 phd thesis bruce abramson combined minimax search with an expected outcome model based on random game playouts to the end instead of the usual static evaluation function abramson said the expected outcome model is shown to be precise accurate easily estimable efficiently calculable and domain independent he experimented in depth with tic tac toe and then with machine generated evaluation functions for othello and chess
+
+such methods were then explored and successfully applied to heuristic search in the field of automated theorem proving by w ertel j schumann and c suttner in 1989 thus improving the exponential search times of uninformed search algorithms such as e g breadth first search depth first search or iterative deepening
+
+in 1992 b brügmann employed it for the first time in a go playing program in 2002 chang et al proposed the idea of recursive rolling out and backtracking with adaptive sampling choices in their adaptive multi stage sampling ams algorithm for the model of markov decision processes ams was the first work to explore the idea of ucb based exploration and exploitation in constructing sampled simulated monte carlo trees and was the main seed for uct upper confidence trees
+
+in 2006 inspired by its predecessors rémi coulom described the application of the monte carlo method to game tree search and coined the name monte carlo tree search l kocsis and cs szepesvári developed the uct upper confidence bounds applied to trees algorithm and s gelly et al implemented uct in their program mogo in 2008 mogo achieved dan master level in 9 9 go and the fuego program began to win against strong amateur players in 9 9 go
+
+in january 2012 the zen program won 3 1 in a go match on a 19 19 board with an amateur 2 dan player google deepmind developed the program alphago which in october 2015 became the first computer go program to beat a professional human go player without handicaps on a full sized 19x19 board in march 2016 alphago was awarded an honorary 9 dan master level in 19 19 go for defeating lee sedol in a five game match with a final score of four games to one alphago represents a significant improvement over previous go programs as well as a milestone in machine learning as it uses monte carlo tree search with artificial neural networks a deep learning method for policy move selection and value giving it efficiency far surpassing previous programs
+
+the mcts algorithm has also been used in programs that play other board games for example hex havannah game of the amazons and arimaa real time video games for instance ms pac man and fable legends and nondeterministic games such as skat poker magic the gathering or settlers of catan
+
+the focus of mcts is on the analysis of the most promising moves expanding the search tree based on random sampling of the search space
+the application of monte carlo tree search in games is based on many playouts also called roll outs in each playout the game is played out to the very end by selecting moves at random the final game result of each playout is then used to weight the nodes in the game tree so that better nodes are more likely to be chosen in future playouts
+
+the most basic way to use playouts is to apply the same number of playouts after each legal move of the current player then choose the move which led to the most victories the efficiency of this method called pure monte carlo game search often increases with time as more playouts are assigned to the moves that have frequently resulted in the current player s victory according to previous playouts each round of monte carlo tree search consists of four steps
+
+this graph shows the steps involved in one decision with each node showing the ratio of wins to total playouts from that point in the game tree for the player that the node represents in the selection diagram black is about to move the root node shows there are 11 wins out of 21 playouts for white from this position so far it complements the total of 10 21 black wins shown along the three black nodes under it each of which represents a possible black move note that this graph does not follow the uct algorithm described below
+
+if white loses the simulation all nodes along the selection incremented their simulation count the denominator but among them only the black nodes were credited with wins the numerator if instead white wins all nodes along the selection would still increment their simulation count but among them only the white nodes would be credited with wins in games where draws are possible a draw causes the numerator for both black and white to be incremented by 0 5 and the denominator by 1 this ensures that during selection each player s choices expand towards the most promising moves for that player which mirrors the goal of each player to maximize the value of their move
+
+rounds of search are repeated as long as the time allotted to a move remains then the move with the most simulations made i e the highest denominator is chosen as the final answer
+
+this basic procedure can be applied to any game whose positions necessarily have a finite number of moves and finite length for each position all feasible moves are determined k random games are played out to the very end and the scores are recorded the move leading to the best score is chosen ties are broken by fair coin flips pure monte carlo game search results in strong play in several games with random elements as in the game einstein würfelt nicht it converges to optimal play as k tends to infinity in board filling games with random turn order for instance in the game hex with random turn order deepmind s alphazero replaces the simulation step with an evaluation based on a neural network
+
+the main difficulty in selecting child nodes is maintaining some balance between the exploitation of deep variants after moves with high average win rate and the exploration of moves with few simulations the first formula for balancing exploitation and exploration in games called uct upper confidence bound 1 applied to trees was introduced by levente kocsis and csaba szepesvári uct is based on the ucb1 formula derived by auer cesa bianchi and fischer and the probably convergent ams adaptive multi stage sampling algorithm first applied to multi stage decision making models specifically markov decision processes by chang fu hu and marcus kocsis and szepesvári recommend to choose in each node of the game tree the move for which the expression
+
+
+
+
+
+
+w
+
+i
+
+
+
+n
+
+i
+
+
+
+
+
+c
+
+
+
+
+ln
+
+
+n
+
+i
+
+
+
+
+n
+
+i
+
+
+
+
+
+
+
+displaystyle frac w_ i n_ i c sqrt frac ln n_ i n_ i
+
+has the highest value in this formula
+
+the first component of the formula above corresponds to exploitation it is high for moves with high average win ratio the second component corresponds to exploration it is high for moves with few simulations
+
+most contemporary implementations of monte carlo tree search are based on some variant of uct that traces its roots back to the ams simulation optimization algorithm for estimating the value function in finite horizon markov decision processes mdps introduced by chang et al 2005 in operations research ams was the first work to explore the idea of ucb based exploration and exploitation in constructing sampled simulated monte carlo trees and was the main seed for uct
+
+although it has been proven that the evaluation of moves in monte carlo tree search converges to minimax when using uct the basic version of monte carlo tree search converges only in so called monte carlo perfect games however monte carlo tree search does offer significant advantages over alpha beta pruning and similar algorithms that minimize the search space
+
+in particular pure monte carlo tree search does not need an explicit evaluation function simply implementing the game s mechanics is sufficient to explore the search space i e the generating of allowed moves in a given position and the game end conditions as such monte carlo tree search can be employed in games without a developed theory or in general game playing
+
+the game tree in monte carlo tree search grows asymmetrically as the method concentrates on the more promising subtrees thus dubious discuss it achieves better results than classical algorithms in games with a high branching factor
+
+a disadvantage is that in certain positions there may be moves that look superficially strong but that actually lead to a loss via a subtle line of play such trap states require thorough analysis to be handled correctly particularly when playing against an expert player however mcts may not see such lines due to its policy of selective node expansion it is believed that this may have been part of the reason for alphago s loss in its fourth game against lee sedol in essence the search attempts to prune sequences which are less relevant in some cases a play can lead to a very specific line of play which is significant but which is overlooked when the tree is pruned and this outcome is therefore off the search radar
+
+various modifications of the basic monte carlo tree search method have been proposed to shorten the search time some employ domain specific expert knowledge others do not
+
+monte carlo tree search can use either light or heavy playouts light playouts consist of random moves while heavy playouts apply various heuristics to influence the choice of moves these heuristics may employ the results of previous playouts e g the last good reply heuristic or expert knowledge of a given game for instance in many go playing programs certain stone patterns in a portion of the board influence the probability of moving into that area paradoxically playing suboptimally in simulations sometimes makes a monte carlo tree search program play stronger overall
+
+domain specific knowledge may be employed when building the game tree to help the exploitation of some variants one such method assigns nonzero priors to the number of won and played simulations when creating each child node leading to artificially raised or lowered average win rates that cause the node to be chosen more or less frequently respectively in the selection step a related method called progressive bias consists in adding to the ucb1 formula a
+
+
+
+
+
+
+b
+
+i
+
+
+
+n
+
+i
+
+
+
+
+
+
+displaystyle frac b_ i n_ i
+
+element where bi is a heuristic score of the i th move
+
+the basic monte carlo tree search collects enough information to find the most promising moves only after many rounds until then its moves are essentially random this exploratory phase may be reduced significantly in a certain class of games using rave rapid action value estimation in these games permutations of a sequence of moves lead to the same position typically they are board games in which a move involves placement of a piece or a stone on the board in such games the value of each move is often only slightly influenced by other moves
+
+in rave for a given game tree node n its child nodes ci store not only the statistics of wins in playouts started in node n but also the statistics of wins in all playouts started in node n and below it if they contain move i also when the move was played in the tree between node n and a playout this way the contents of tree nodes are influenced not only by moves played immediately in a given position but also by the same moves played later
+
+when using rave the selection step selects the node for which the modified ucb1 formula
+
+
+
+
+1
+
+β
+
+
+n
+
+i
+
+
+
+
+
+
+
+n
+
+
+
+
+
+i
+
+
+
+
+
+
+
+w
+
+i
+
+
+
+n
+
+i
+
+
+
+
+
+β
+
+
+n
+
+i
+
+
+
+
+
+
+
+n
+
+
+
+
+
+i
+
+
+
+
+
+
+
+
+
+w
+
+
+
+
+
+i
+
+
+
+
+
+
+n
+
+
+
+
+
+i
+
+
+
+
+
+c
+
+
+
+
+ln
+
+t
+
+
+n
+
+i
+
+
+
+
+
+
+
+displaystyle 1 beta n_ i tilde n _ i frac w_ i n_ i beta n_ i tilde n _ i frac tilde w _ i tilde n _ i c sqrt frac ln t n_ i
+
+has the highest value in this formula
+
+
+
+
+
+
+
+w
+
+
+
+
+
+i
+
+
+
+
+displaystyle tilde w _ i
+
+and
+
+
+
+
+
+
+
+n
+
+
+
+
+
+i
+
+
+
+
+displaystyle tilde n _ i
+
+stand for the number of won playouts containing move i and the number of all playouts containing move i and the
+
+
+
+β
+
+
+n
+
+i
+
+
+
+
+
+
+
+n
+
+
+
+
+
+i
+
+
+
+
+
+displaystyle beta n_ i tilde n _ i
+
+function should be close to one and to zero for relatively small and relatively big ni and
+
+
+
+
+
+
+
+n
+
+
+
+
+
+i
+
+
+
+
+displaystyle tilde n _ i
+
+respectively one of many formulas for
+
+
+
+β
+
+
+n
+
+i
+
+
+
+
+
+
+
+n
+
+
+
+
+
+i
+
+
+
+
+
+displaystyle beta n_ i tilde n _ i
+
+proposed by d silver says that in balanced positions one can take
+
+
+
+β
+
+
+n
+
+i
+
+
+
+
+
+
+
+n
+
+
+
+
+
+i
+
+
+
+
+
+
+
+
+
+
+n
+
+
+
+
+
+i
+
+
+
+
+n
+
+i
+
+
+
+
+
+
+
+n
+
+
+
+
+
+i
+
+
+
+4
+
+b
+
+2
+
+
+
+n
+
+i
+
+
+
+
+
+
+n
+
+
+
+
+
+i
+
+
+
+
+
+
+
+displaystyle beta n_ i tilde n _ i frac tilde n _ i n_ i tilde n _ i 4b 2 n_ i tilde n _ i
+
+where b is an empirically chosen constant
+
+heuristics used in monte carlo tree search often require many parameters there are automated methods to tune the parameters to maximize the win rate
+
+monte carlo tree search can be concurrently executed by many threads or processes there are several fundamentally different methods of its parallel execution

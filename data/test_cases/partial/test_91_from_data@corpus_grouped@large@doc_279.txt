@@ -1,0 +1,1 @@
+ rule which turns lp into a non monotonic logic for default reasoning the resulting extended semantics 

@@ -1,0 +1,977 @@
+
+modal logic is a kind of logic used to represent statements about necessity and possibility in philosophy and related fields
+it is used as a tool for understanding concepts such as knowledge obligation and causation for instance in epistemic modal logic the formula
+
+
+
+
+p
+
+
+displaystyle box p
+
+can be used to represent the statement that
+
+
+
+p
+
+
+displaystyle p
+
+is known in deontic modal logic that same formula can represent that
+
+
+
+p
+
+
+displaystyle p
+
+is a moral obligation modal logic considers the inferences that modal statements give rise to for instance most epistemic modal logics treat the formula
+
+
+
+
+p
+
+p
+
+
+displaystyle box p rightarrow p
+
+as a tautology representing the principle that only true statements can count as knowledge however this formula is not a tautology in deontic modal logic since what ought to be true can be false
+
+modal logics are formal systems that include unary operators such as
+
+
+
+
+
+
+displaystyle diamond
+
+and
+
+
+
+
+
+
+displaystyle box
+
+representing possibility and necessity respectively for instance the modal formula
+
+
+
+
+p
+
+
+displaystyle diamond p
+
+can be read as possibly
+
+
+
+p
+
+
+displaystyle p
+
+while
+
+
+
+
+p
+
+
+displaystyle box p
+
+can be read as necessarily
+
+
+
+p
+
+
+displaystyle p
+
+in the standard relational semantics for modal logic formulas are assigned truth values relative to a possible world a formula s truth value at one possible world can depend on the truth values of other formulas at other accessible possible worlds in particular
+
+
+
+
+p
+
+
+displaystyle diamond p
+
+is true at a world if
+
+
+
+p
+
+
+displaystyle p
+
+is true at some accessible possible world while
+
+
+
+
+p
+
+
+displaystyle box p
+
+is true at a world if
+
+
+
+p
+
+
+displaystyle p
+
+is true at every accessible possible world a variety of proof systems exist which are sound and complete with respect to the semantics one gets by restricting the accessibility relation for instance the deontic modal logic d is sound and complete if one requires the accessibility relation to be serial
+
+while the intuition behind modal logic dates back to antiquity the first modal axiomatic systems were developed by c i lewis in 1912 the now standard relational semantics emerged in the mid twentieth century from work by arthur prior jaakko hintikka and saul kripke recent developments include alternative topological semantics such as neighborhood semantics as well as applications of the relational semantics beyond its original philosophical motivation such applications include game theory moral and legal theory web design multiverse based set theory and social epistemology
+
+modal logic differs from other kinds of logic in that it uses modal operators such as
+
+
+
+
+
+
+displaystyle box
+
+and
+
+
+
+
+
+
+displaystyle diamond
+
+the former is conventionally read aloud as necessarily and can be used to represent notions such as moral or legal obligation knowledge historical inevitability among others the latter is typically read as possibly and can be used to represent notions including permission ability compatibility with evidence while well formed formulas of modal logic include non modal formulas such as
+
+
+
+p
+
+q
+
+
+displaystyle p land q
+
+it also contains modal ones such as
+
+
+
+
+
+p
+
+q
+
+
+
+displaystyle box p land q
+
+
+
+
+
+p
+
+
+q
+
+
+displaystyle p land box q
+
+
+
+
+
+
+
+
+p
+
+
+q
+
+
+
+displaystyle box diamond p land diamond q
+
+and so on
+
+thus the language
+
+
+
+
+
+l
+
+
+
+
+displaystyle mathcal l
+
+of basic propositional logic can be defined recursively as follows
+
+modal operators can be added to other kinds of logic by introducing rules analogous to 4 and 5 above modal predicate logic is one widely used variant which includes formulas such as
+
+
+
+
+x
+
+p
+
+x
+
+
+
+displaystyle forall x diamond p x
+
+in systems of modal logic where
+
+
+
+
+
+
+displaystyle box
+
+and
+
+
+
+
+
+
+displaystyle diamond
+
+are duals
+
+
+
+
+ϕ
+
+
+displaystyle box phi
+
+can be taken as an abbreviation for
+
+
+
+
+
+
+ϕ
+
+
+displaystyle neg diamond neg phi
+
+thus eliminating the need for a separate syntactic rule to introduce it however separate syntactic rules are necessary in systems where the two operators are not interdefinable
+
+common notational variants include symbols such as
+
+
+
+
+k
+
+
+
+displaystyle k
+
+and
+
+
+
+
+k
+
+
+
+displaystyle langle k rangle
+
+in systems of modal logic used to represent knowledge and
+
+
+
+
+b
+
+
+
+displaystyle b
+
+and
+
+
+
+
+b
+
+
+
+displaystyle langle b rangle
+
+in those used to represent belief these notations are particularly common in systems which use multiple modal operators simultaneously multi modal logic for instance a combined epistemic deontic logic could use the formula
+
+
+
+
+k
+
+
+d
+
+p
+
+
+displaystyle k langle d rangle p
+
+read as i know p is permitted systems of modal logic can include infinitely many modal operators distinguished by indices i e
+
+
+
+
+
+
+1
+
+
+
+
+displaystyle box _ 1
+
+
+
+
+
+
+
+
+2
+
+
+
+
+displaystyle box _ 2
+
+
+
+
+
+
+
+
+3
+
+
+
+
+displaystyle box _ 3
+
+and so on
+
+the standard semantics for modal logic is called the relational semantics in this approach the truth of a formula is determined relative to a point which is often called a possible world for a formula that contains a modal operator its truth value can depend on what is true at other accessible worlds thus the relational semantics interprets formulas of modal logic using models defined as follows
+
+the set
+
+
+
+w
+
+
+displaystyle w
+
+is often called the universe the binary relation
+
+
+
+r
+
+
+displaystyle r
+
+is called an accessibility relation and it controls which worlds can see each other for the sake of determining what is true for example
+
+
+
+w
+r
+u
+
+
+displaystyle wru
+
+means that the world
+
+
+
+u
+
+
+displaystyle u
+
+is accessible from world
+
+
+
+w
+
+
+displaystyle w
+
+that is to say the state of affairs known as
+
+
+
+u
+
+
+displaystyle u
+
+is a live possibility for
+
+
+
+w
+
+
+displaystyle w
+
+finally the function
+
+
+
+v
+
+
+displaystyle v
+
+is known as a valuation function it determines which atomic formulas are true at which worlds
+
+then we recursively define the truth of a formula at a world
+
+
+
+w
+
+
+displaystyle w
+
+in a model
+
+
+
+
+
+m
+
+
+
+
+displaystyle mathfrak m
+
+
+
+according to this semantics a formula is necessary with respect to a world
+
+
+
+w
+
+
+displaystyle w
+
+if it holds at every world that is accessible from
+
+
+
+w
+
+
+displaystyle w
+
+it is possible if it holds at some world that is accessible from
+
+
+
+w
+
+
+displaystyle w
+
+possibility thereby depends upon the accessibility relation
+
+
+
+r
+
+
+displaystyle r
+
+which allows us to express the relative nature of possibility for example we might say that given our laws of physics it is not possible for humans to travel faster than the speed of light but that given other circumstances it could have been possible to do so using the accessibility relation we can translate this scenario as follows at all of the worlds accessible to our own world it is not the case that humans can travel faster than the speed of light but at one of these accessible worlds there is another world accessible from those worlds but not accessible from our own at which humans can travel faster than the speed of light
+
+the choice of accessibility relation alone can sometimes be sufficient to guarantee the truth or falsity of a formula for instance consider a model
+
+
+
+
+
+m
+
+
+
+
+displaystyle mathfrak m
+
+whose accessibility relation is reflexive because the relation is reflexive we will have that
+
+
+
+
+
+m
+
+
+
+w
+
+p
+
+
+p
+
+
+displaystyle mathfrak m w models p rightarrow diamond p
+
+for any
+
+
+
+w
+
+g
+
+
+displaystyle w in g
+
+regardless of which valuation function is used for this reason modal logicians sometimes talk about frames which are the portion of a relational model excluding the valuation function
+
+the different systems of modal logic are defined using frame conditions a frame is called
+
+the logics that system from these frame conditions are
+
+the euclidean property along with reflexivity yields symmetry and transitivity the euclidean property can be obtained as well from symmetry and transitivity hence if the accessibility relation r is reflexive and euclidean r is provably symmetric and transitive as well hence for models of s5 r is an equivalence relation because r is reflexive symmetric and transitive
+
+we can prove that these frames produce the same set of valid sentences as do the frames where all worlds can see all other worlds of w i e where r is a total relation this gives the corresponding modal graph which is total complete i e no more edges relations can be added for example in any modal logic based on frame conditions
+
+if we consider frames based on the total relation we can just say that
+
+we can drop the accessibility clause from the latter stipulation because in such total frames it is trivially true of all w and u that w r u but this does not have to be the case in all s5 frames which can still consist of multiple parts that are fully connected among themselves but still disconnected from each other
+
+all of these logical systems can also be defined axiomatically as is shown in the next section for example in s5 the axioms
+
+
+
+p
+
+
+
+
+
+p
+
+
+displaystyle p implies box diamond p
+
+
+
+
+
+
+p
+
+
+
+
+
+p
+
+
+displaystyle box p implies box box p
+
+and
+
+
+
+
+p
+
+
+
+p
+
+
+displaystyle box p implies p
+
+corresponding to symmetry transitivity and reflexivity respectively hold whereas at least one of these axioms does not hold in each of the other weaker logics
+
+modal logic has also been interpreted using topological structures for instance the interior semantics interprets formulas of modal logic as follows
+
+a topological model is a tuple
+
+
+
+
+x
+
+
+
+x
+
+τ
+
+v
+
+
+
+displaystyle mathrm x langle x tau v rangle
+
+where
+
+
+
+
+x
+
+τ
+
+
+
+displaystyle langle x tau rangle
+
+is a topological space and
+
+
+
+v
+
+
+displaystyle v
+
+is a valuation function which maps each atomic formula to some subset of
+
+
+
+x
+
+
+displaystyle x
+
+the basic interior semantics interprets formulas of modal logic as follows
+
+topological approaches subsume relational ones allowing non normal modal logics the extra structure they provide also allows a transparent way of modeling certain concepts such as the evidence or justification one has for one s beliefs topological semantics is widely used in recent work in formal epistemology and has antecedents in earlier work such as david lewis and angelika kratzer s logics for counterfactuals
+
+the first formalizations of modal logic were axiomatic numerous variations with very different properties have been proposed since c i lewis began working in the area in 1912 hughes and cresswell 1996 for example describe 42 normal and 25 non normal modal logics zeman 1973 describes some systems hughes and cresswell omit
+
+modern treatments of modal logic begin by augmenting the propositional calculus with two unary operations one denoting necessity and the other possibility the notation of c i lewis much employed since denotes necessarily p by a prefixed box p whose scope is established by parentheses likewise a prefixed diamond p denotes possibly p similar to the quantifiers in first order logic necessarily p p does not assume the range of quantification the set of accessible possible worlds in kripke semantics to be non empty whereas possibly p p often implicitly assumes
+
+
+
+
+
+
+
+displaystyle diamond top
+
+viz the set of accessible possible worlds is non empty regardless of notation each of these operators is definable in terms of the other in classical modal logic
+
+hence and form a dual pair of operators
+
+in many modal logics the necessity and possibility operators satisfy the following analogues of de morgan s laws from boolean algebra
+
+precisely what axioms and rules must be added to the propositional calculus to create a usable system of modal logic is a matter of philosophical opinion often driven by the theorems one wishes to prove or in computer science it is a matter of what sort of computational or deductive system one wishes to model many modal logics known collectively as normal modal logics include the following rule and axiom
+
+the weakest normal modal logic named k in honor of saul kripke is simply the propositional calculus augmented by the rule n and the axiom k k is weak in that it fails to determine whether a proposition can be necessary but only contingently necessary that is it is not a theorem of k that if p is true then p is true i e that necessary truths are necessarily necessary if such perplexities are deemed forced and artificial this defect of k is not a great one in any case different answers to such questions yield different systems of modal logic
+
+adding axioms to k gives rise to other well known modal systems one cannot prove in k that if p is necessary then p is true the axiom t remedies this defect
+
+t holds in most but not all modal logics zeman 1973 describes a few exceptions such as s10
+
+other well known elementary axioms are
+
+these yield the systems axioms in bold systems in italics
+
+k through s5 form a nested hierarchy of systems making up the core of normal modal logic but specific rules or sets of rules may be appropriate for specific systems for example in deontic logic
+
+
+
+
+p
+
+
+p
+
+
+displaystyle box p to diamond p
+
+if it ought to be that p then it is permitted that p seems appropriate but we should probably not include that
+
+
+
+p
+
+
+
+p
+
+
+displaystyle p to box diamond p
+
+in fact to do so is to commit the naturalistic fallacy i e to state that what is natural is also good by saying that if p is the case p ought to be permitted
+
+the commonly employed system s5 simply makes all modal truths necessary for example if p is possible then it is necessary that p is possible also if p is necessary then it is necessary that p is necessary other systems of modal logic have been formulated in part because s5 does not describe every kind of modality of interest
+
+sequent calculi and systems of natural deduction have been developed for several modal logics but it has proven hard to combine generality with other features expected of good structural proof theories such as purity the proof theory does not introduce extra logical notions such as labels and analyticity the logical rules support a clean notion of analytic proof more complex calculi have been applied to modal logic to achieve generality citation needed
+
+analytic tableaux provide the most popular decision method for modal logics
+
+modalities of necessity and possibility are called alethic modalities they are also sometimes called special modalities from the latin species modal logic was first developed to deal with these concepts and only afterward was extended to others for this reason or perhaps for their familiarity and simplicity necessity and possibility are often casually treated as the subject matter of modal logic moreover it is easier to make sense of relativizing necessity e g to legal physical nomological epistemic and so on than it is to make sense of relativizing other notions
+
+in classical modal logic a proposition is said to be
+
+in classical modal logic therefore the notion of either possibility or necessity may be taken to be basic where these other notions are defined in terms of it in the manner of de morgan duality intuitionistic modal logic treats possibility and necessity as not perfectly symmetric
+
+for example suppose that while walking to the convenience store we pass friedrich s house and observe that the lights are off on the way back we observe that they have been turned on
+
+of course this analogy does not apply alethic modality in a truly rigorous fashion for it to do so it would have to axiomatically make such statements as human beings cannot rise from the dead socrates was a human being and not an immortal vampire and we did not take hallucinogenic drugs which caused us to falsely believe the lights were on ad infinitum absolute certainty of truth or falsehood exists only in the sense of logically constructed abstract concepts such as it is impossible to draw a triangle with four sides and all bachelors are unmarried
+
+for those having difficulty with the concept of something being possible but not true the meaning of these terms may be made more comprehensible by thinking of multiple possible worlds in the sense of leibniz or alternate universes something necessary is true in all possible worlds something possible is true in at least one possible world
+
+something is physically or nomically possible if it is permitted by the laws of physics citation needed for example current theory is thought to allow for there to be an atom with an atomic number of 126 even if there are no such atoms in existence in contrast while it is logically possible to accelerate beyond the speed of light modern science stipulates that it is not physically possible for material particles or information
+
+philosophers who debate if objects have properties independent of those dictated by scientific laws for example it might be metaphysically necessary as some who advocate physicalism have thought that all thinking beings have bodies and can experience the passage of time saul kripke has argued that every person necessarily has the parents they do have anyone with different parents would not be the same person
+
+metaphysical possibility has been thought to be more restricting than bare logical possibility i e fewer things are metaphysically possible than are logically possible however its exact relation if any to logical possibility or to physical possibility is a matter of dispute philosophers who also disagree over whether metaphysical truths are necessary merely by definition or whether they reflect some underlying deep facts about the world or something else entirely
+
+epistemic modalities from the greek episteme knowledge deal with the certainty of sentences the operator is translated as x is certain that and the operator is translated as for all x knows it may be true that in ordinary speech both metaphysical and epistemic modalities are often expressed in similar words the following contrasts may help
+
+a person jones might reasonably say both 1 no it is not possible that bigfoot exists i am quite certain of that and 2 sure it s possible that bigfoots could exist what jones means by 1 is that given all the available information there is no question remaining as to whether bigfoot exists this is an epistemic claim by 2 he makes the metaphysical claim that it is possible for bigfoot to exist even though he does not there is no physical or biological reason that large featherless bipedal creatures with thick hair could not exist in the forests of north america regardless of whether or not they do similarly it is possible for the person reading this sentence to be fourteen feet tall and named chad is metaphysically true such a person would not somehow be prevented from doing so on account of their height and name but not alethically true unless you match that description and not epistemically true if it is known that fourteen foot tall human beings have never existed citation needed
+
+from the other direction jones might say 3 it is possible that goldbach s conjecture is true but also possible that it is false and also 4 if it is true then it is necessarily true and not possibly false here jones means that it is epistemically possible that it is true or false for all he knows goldbach s conjecture has not been proven either true or false but if there is a proof heretofore undiscovered then it would show that it is not logically possible for goldbach s conjecture to be false there could be no set of numbers that violated it logical possibility is a form of alethic possibility 4 makes a claim about whether it is possible i e logically speaking that a mathematical truth to have been false but 3 only makes a claim about whether it is possible for all jones knows i e speaking of certitude that the mathematical claim is specifically either true or false and so again jones does not contradict himself it is worthwhile to observe that jones is not necessarily correct it is possible epistemically that goldbach s conjecture is both true and unprovable
+
+epistemic possibilities also bear on the actual world in a way that metaphysical possibilities do not metaphysical possibilities bear on ways the world might have been but epistemic possibilities bear on the way the world may be for all we know suppose for example that i want to know whether or not to take an umbrella before i leave if you tell me it is possible that it is raining outside in the sense of epistemic possibility then that would weigh on whether or not i take the umbrella but if you just tell me that it is possible for it to rain outside in the sense of metaphysical possibility then i am no better off for this bit of modal enlightenment
+
+some features of epistemic modal logic are in debate for example if x knows that p does x know that it knows that p that is to say should p p be an axiom in these systems while the answer to this question is unclear there is at least one axiom that is generally included in epistemic modal logic because it is minimally true of all normal modal logics see the section on axiomatic systems
+
+it has been questioned whether the epistemic and alethic modalities should be considered distinct from each other the criticism states that there is no real difference between the truth in the world alethic and the truth in an individual s mind epistemic an investigation has not found a single language in which alethic and epistemic modalities are formally distinguished as by the means of a grammatical mood
+
+temporal logic is an approach to the semantics of expressions with tense that is expressions with qualifications of when some expressions such as 2 2 4 are true at all times while tensed expressions such as john is happy are only true sometimes
+
+in temporal logic tense constructions are treated in terms of modalities where a standard method for formalizing talk of time is to use two pairs of operators one for the past and one for the future p will just mean it is presently the case that p for example
+
+there are then at least three modal logics that we can develop for example we can stipulate that
+
+or we can trade these operators to deal only with the future or past for example
+
+or
+
+the operators f and g may seem initially foreign but they create normal modal systems fp is the same as g p we can combine the above operators to form complex statements for example pp pp says effectively everything that is past and true is necessary
+
+it seems reasonable to say that possibly it will rain tomorrow and possibly it will not on the other hand since we cannot change the past if it is true that it rained yesterday it cannot be true that it may not have rained yesterday it seems the past is fixed or necessary in a way the future is not this is sometimes referred to as accidental necessity but if the past is fixed and everything that is in the future will eventually be in the past then it seems plausible to say that future events are necessary too
+
+similarly the problem of future contingents considers the semantics of assertions about the future is either of the propositions there will be a sea battle tomorrow or there will not be a sea battle tomorrow now true considering this thesis led aristotle to reject the principle of bivalence for assertions concerning the future
+
+additional binary operators are also relevant to temporal logics see linear temporal logic
+
+versions of temporal logic can be used in computer science to model computer operations and prove theorems about them in one version p means at a future time in the computation it is possible that the computer state will be such that p is true p means at all future times in the computation p will be true in another version p means at the immediate next state of the computation p might be true p means at the immediate next state of the computation p will be true these differ in the choice of accessibility relation p always means p is true at the current computer state these two examples involve nondeterministic or not fully understood computations there are many other modal logics specialized to different types of program analysis each one naturally leads to slightly different axioms
+
+likewise talk of morality or of obligation and norms generally seems to have a modal structure the difference between you must do this and you may do this looks a lot like the difference between this is necessary and this is possible such logics are called deontic from the greek for duty
+
+deontic logics commonly lack the axiom t semantically corresponding to the reflexivity of the accessibility relation in kripke semantics in symbols
+
+
+
+
+ϕ
+
+ϕ
+
+
+displaystyle box phi to phi
+
+interpreting as it is obligatory that t informally says that every obligation is true for example if it is obligatory not to kill others i e killing is morally forbidden then t implies that people actually do not kill others the consequent is obviously false
+
+instead using kripke semantics we say that though our own world does not realize all obligations the worlds accessible to it do i e t holds at these worlds these worlds are called idealized worlds p is obligatory with respect to our own world if at all idealized worlds accessible to our world p holds though this was one of the first interpretations of the formal semantics it has recently come under criticism
+
+one other principle that is often at least traditionally accepted as a deontic principle is d
+
+
+
+
+ϕ
+
+
+ϕ
+
+
+displaystyle box phi to diamond phi
+
+which corresponds to the seriality or extendability or unboundedness of the accessibility relation it is an embodiment of the kantian idea that ought implies can clearly the can can be interpreted in various senses e g in a moral or alethic sense
+
+when we try to formalize ethics with standard modal logic we run into some problems suppose that we have a proposition k you have stolen some money and another q you have stolen a small amount of money now suppose we want to express the thought that if you have stolen some money it ought to be a small amount of money there are two likely candidates
+
+but 1 and k together entail q which says that it ought to be the case that you have stolen a small amount of money this surely is not right because you ought not to have stolen anything at all and 2 does not work either if the right representation of if you have stolen some money it ought to be a small amount is 2 then the right representation of 3 if you have stolen some money then it ought to be a large amount is
+
+
+
+
+
+k
+
+
+k
+
+
+q
+
+
+
+
+displaystyle box k to k land lnot q
+
+now suppose as seems reasonable that you ought not to steal anything or
+
+
+
+
+
+k
+
+
+displaystyle box lnot k
+
+but then we can deduce
+
+
+
+
+
+k
+
+
+k
+
+
+q
+
+
+
+
+displaystyle box k to k land lnot q
+
+via
+
+
+
+
+
+
+k
+
+
+
+
+k
+
+k
+
+
+k
+
+
+
+displaystyle box lnot k to box k to k land lnot k
+
+and
+
+
+
+
+
+k
+
+
+k
+
+
+k
+
+
+q
+
+
+
+
+displaystyle box k land lnot k to k land lnot q
+
+the contrapositive of
+
+
+
+q
+
+k
+
+
+displaystyle q to k
+
+so sentence 3 follows from our hypothesis of course the same logic shows sentence 2 but that cannot be right and is not right when we use natural language telling someone they should not steal certainly does not imply that they should steal large amounts of money if they do engage in theft
+
+doxastic logic concerns the logic of belief of some set of agents the term doxastic is derived from the ancient greek doxa which means belief typically a doxastic logic uses often written b to mean it is believed that or when relativized to a particular agent s it is believed by s that
+
+modal logics may be extended to fuzzy form with calculi in the class of fuzzy kripke models
+
+modal logics may also be enhanced via base extension semantics for the classical propositional systems in this case the validity of a formula can be shown by an inductive definition generated by provability in a base of atomic rules
+
+
+intuitionistic modal logics are used in different areas of application and they have often risen from different sources the areas include the foundations of mathematics computer science and philosophy in these approaches often modalities are added to intuitionistic logic to create new intuitionistic connectives and to simulate the monadic elements of intuitionistic first order logic
+
+in the most common interpretation of modal logic one considers logically possible worlds if a statement is true in all possible worlds then it is a necessary truth if a statement happens to be true in our world but is not true in all possible worlds then it is a contingent truth a statement that is true in some possible world not necessarily our own is called a possible truth
+
+under this possible worlds idiom to maintain that bigfoot s existence is possible but not actual one says there is some possible world in which bigfoot exists but in the actual world bigfoot does not exist however it is unclear what this claim commits us to are we really alleging the existence of possible worlds every bit as real as our actual world just not actual saul kripke believes that possible world is something of a misnomer that the term possible world is just a useful way of visualizing the concept of possibility for him the sentences you could have rolled a 4 instead of a 6 and there is a possible world where you rolled a 4 but you rolled a 6 in the actual world are not significantly different statements and neither commit us to the existence of a possible world david lewis on the other hand made himself notorious by biting the bullet asserting that all merely possible worlds are as real as our own and that what distinguishes our world as actual is simply that it is indeed our world this world that position is a major tenet of modal realism some philosophers decline to endorse any version of modal realism considering it ontologically extravagant and prefer to seek various ways to paraphrase away these ontological commitments robert adams holds that possible worlds are better thought of as world stories or consistent sets of propositions thus it is possible that you rolled a 4 if such a state of affairs can be described coherently
+
+computer scientists will generally pick a highly specific interpretation of the modal operators specialized to the particular sort of computation being analysed in place of all worlds you may have all possible next states of the computer or all possible future states of the computer
+
+modal logics have begun to be used in areas of the humanities such as literature poetry art and history in the philosophy of religion modal logics are commonly used in arguments for the existence of god
+
+the basic ideas of modal logic date back to antiquity aristotle developed a modal syllogistic in book i of his prior analytics ch 8 22 which theophrastus attempted to improve there are also passages in aristotle s work such as the famous sea battle argument in de interpretatione 9 that are now seen as anticipations of the connection of modal logic with potentiality and time in the hellenistic period the logicians diodorus cronus philo the dialectician and the stoic chrysippus each developed a modal system that accounted for the interdefinability of possibility and necessity accepted axiom t see axiomatic systems and combined elements of modal logic and temporal logic in attempts to solve the notorious master argument the earliest formal system of modal logic was developed by avicenna who ultimately developed a theory of temporally modal syllogistic modal logic as a self aware subject owes much to the writings of the scholastics in particular william of ockham and john duns scotus who reasoned informally in a modal manner mainly to analyze statements about essence and accident
+
+in the 19th century hugh maccoll made innovative contributions to modal logic but did not find much acknowledgment c i lewis founded modern modal logic in a series of scholarly articles beginning in 1912 with implication and the algebra of logic lewis was led to invent modal logic and specifically strict implication on the grounds that classical logic grants paradoxes of material implication such as the principle that a falsehood implies any proposition this work culminated in his 1932 book symbolic logic with c h langford which introduced the five systems s1 through s5
+
+after lewis modal logic received little attention for several decades nicholas rescher has argued that this was because bertrand russell rejected it however jan dejnozka has argued against this view stating that a modal system which dejnozka calls mdl is described in russell s works although russell did believe the concept of modality to come from confusing propositions with propositional functions as he wrote in the analysis of matter
+
+ruth c barcan later ruth barcan marcus developed the first axiomatic systems of quantified modal logic first and second order extensions of lewis s2 s4 and s5 arthur norman prior warned her to prepare well in the debates concerning quantified modal logic with willard van orman quine because of bias against modal logic
+
+the contemporary era in modal semantics began in 1959 when saul kripke then only a 18 year old harvard university undergraduate introduced the now standard kripke semantics for modal logics these are commonly referred to as possible worlds semantics kripke and a n prior had previously corresponded at some length kripke semantics is basically simple but proofs are eased using semantic tableaux or analytic tableaux as explained by e w beth
+
+a n prior created modern temporal logic closely related to modal logic in 1957 by adding modal operators f and p meaning eventually and previously vaughan pratt introduced dynamic logic in 1976 in 1977 amir pnueli proposed using temporal logic to formalise the behaviour of continually operating concurrent programs flavors of temporal logic include propositional dynamic logic pdl propositional linear temporal logic ltl computation tree logic ctl hennessy milner logic and t clarification needed
+
+the mathematical structure of modal logic namely boolean algebras augmented with unary operations often called modal algebras began to emerge with j c c mckinsey s 1941 proof that s2 and s4 are decidable and reached full flower in the work of alfred tarski and his student bjarni jónsson jónsson and tarski 1951 52 this work revealed that s4 and s5 are models of interior algebra a proper extension of boolean algebra originally designed to capture the properties of the interior and closure operators of topology texts on modal logic typically do little more than mention its connections with the study of boolean algebras and topology for a thorough survey of the history of formal modal logic and of the associated mathematics see robert goldblatt 2006

@@ -1,0 +1,60 @@
+this is an accepted version of this page
+
+
+poker is a family of comparing card games in which players wager over which hand is best according to that specific game s rules it is played worldwide with varying rules in different places while the earliest known form of the game was played with just 20 cards today it is usually played with a standard 52 card deck although in countries where short packs are common it may be played with 32 40 or 48 cards thus poker games vary in deck configuration the number of cards in play the number dealt face up or face down and the number shared by all players but all have rules that involve one or more rounds of betting
+
+in most modern poker games the first round of betting begins with one or more of the players making some form of a forced bet the blind or ante in standard poker each player bets according to the rank they believe their hand is worth as compared to the other players the action then proceeds clockwise as each player in turn must either match or call the maximum previous bet or fold losing the amount bet so far and all further involvement in the hand a player who matches a bet may also raise increase the bet the betting round ends when all players have either called the last bet or folded if all but one player folds on any round the remaining player collects the pot without being required to reveal their hand if more than one player remains in contention after the final betting round a showdown takes place where the hands are revealed and the player with the winning hand takes the pot
+
+with the exception of initial forced bets money is only placed into the pot voluntarily by a player who either believes the bet has a positive expected value or who is trying to bluff other players for various strategic reasons thus while the outcome of any particular hand significantly involves chance the long run expectations of the players are determined by their actions chosen on the basis of probability psychology and game theory
+
+poker has increased in popularity since the beginning of the 21st century and has gone from being primarily a recreational activity confined to small groups of enthusiasts to a widely popular activity both for participants and spectators including online with many professional players and multimillion dollar tournament prizes
+
+while poker s origin is the subject of debate many game scholars point to the french game poque and the iranian game as nas as possible early inspirations for example in the 1937 edition of foster s complete hoyle r f foster wrote that the game of poker as first played in the united states five cards to each player from a twenty card pack is undoubtedly the persian game of as nas however in the 1990s the notion that poker is a direct derivative of as nas began to be challenged by gaming historians including david parlett what is certain however is that poker was popularized in the american south in the early 19th century as gambling riverboats in the mississippi river and around new orleans during the 1830s helped spread the game one early description of poker that was played on a steamboat in 1829 is recorded by the english actor joe cowell the game was played with twenty cards ranking from ace high to ten low
+
+in contrast to this version of poker seven card stud only appeared in the middle of the 19th century and was largely spread by the us military it became a staple in many casinos following world war ii and grew in popularity with the advent of the world series of poker in the 1970s
+
+texas hold em and other community card games began to dominate the gambling scenes over the next couple of decades the televising of poker was a particularly strong influence increasing the popularity of the game during the turn of the millennium resulting in the poker boom a few years later between 2003 and 2006 today the game has grown to become an extremely popular pastime worldwide
+
+straight flush
+
+in casual play the right to deal a hand typically rotates among the players and is marked by a token called a dealer button or buck in a casino a house dealer handles the cards for each hand but the button typically a white plastic disk is rotated clockwise among the players to indicate a nominal dealer to determine the order of betting the cards are dealt clockwise around the poker table one at a time
+
+one or more players are usually required to make forced bets usually either an ante or a blind bet sometimes both the dealer shuffles the cards the player on the chair to their right cuts and the dealer deals the appropriate number of cards to the players one at a time beginning with the player to their left cards may be dealt either face up or face down depending on the variant of poker being played after the initial deal the first of what may be several betting rounds begins between rounds the players hands develop in some way often by being dealt additional cards or replacing cards previously dealt at the end of each round all bets are gathered into the central pot
+
+at any time during a betting round if one player bets no opponents choose to call match the bet and all opponents instead fold the hand ends immediately the bettor is awarded the pot no cards are required to be shown and the next hand begins this is what makes bluffing possible bluffing is a primary feature of poker distinguishing it from other vying games and from other games that use poker hand rankings
+
+at the end of the last betting round if more than one player remains there is a showdown in which the players reveal their previously hidden cards and evaluate their hands the player with the best hand according to the poker variant being played wins the pot a poker hand comprises five cards in variants where a player has more than five cards available to them only the best five card combination counts there are 10 different kinds of poker hands such as straight flush and four of a kind
+
+poker has many variations all following a similar pattern of play and generally using the same hand ranking hierarchy there are four main families of variants largely grouped by the protocol of card dealing and betting
+
+there are several methods for defining the structure of betting during a hand of poker the three most common structures are known as fixed limit pot limit and no limit in fixed limit poker betting and raising must be done by standardized amounts for instance if the required bet is x an initial bettor may only bet x if a player wishes to raise a bet they may only raise by x in pot limit poker a player may bet or raise any amount up to the size of the pot when calculating the maximum raise allowed all previous bets and calls including the intending raiser s call are first added to the pot the raiser may then raise the previous bet by the full amount of the pot in no limit poker a player may wager their entire betting stack at any point that they are allowed to make a bet in all games if a player does not have enough betting chips to fully match a bet they may go all in allowing them to show down their hand for the number of chips they have remaining
+
+while typical poker games award the pot to the highest hand as per the standard ranking of poker hands there are variations where the lowest ranked hand wins in such games the best hand contains the lowest cards rather than the highest cards some variations may be further complicated by whether or not hands such as flushes and straights are considered in the hand rankings there are also games where the highest and lowest hands divide the pot between them known as high low split games
+
+other games that use poker hand rankings may likewise be referred to as poker video poker is a single player video game that functions much like a slot machine most video poker machines play draw poker where the player bets a hand is dealt and the player can discard and replace cards payout is dependent on the hand resulting after the draw and the player s initial bet
+
+strip poker is a traditional poker variation where players remove clothing when they lose bets since it depends only on the basic mechanic of betting in rounds strip poker can be played with any form of poker however it is usually based on simple variants with few betting rounds like five card draw
+
+another game with the poker name but with a vastly different mode of play is called acey deucey or red dog poker this game is more similar to blackjack in its layout and betting each player bets against the house and then is dealt two cards for the player to win the third card dealt after an opportunity to raise the bet must have a value in between the first two payout is based on the odds that this is possible based on the difference in values of the first two cards other poker like games played at casinos against the house include three card poker and pai gow poker
+
+creating artificial intelligence capable of competing with professional poker players used to be considered a major challenge in chess even pc programs running on standard hardware have long been able to defeat any human opponent see e g deep blue computers benefit from the fact that chess is a scenario of perfect information where both players possess full knowledge regarding the state of the game consequently their ability to rapidly calculate and retrieve millions of possible move combinations is generally superior to the human capacity for abstract tactical thinking in poker however the computer does not know the other players cards and therefore has to play a game of imperfect information modern poker solvers simulate a vast number of hands to minimize counterfactual regret and converge towards a nash equilibrium reducing mathematical exploitability in order to approximate a game theory optimal gto strategy although artificial intelligence can now beat even the best poker players just as consistently as in chess the full game tree of no limit hold em is still considered unsolvable as more than
+
+
+
+
+10
+
+160
+
+
+
+
+displaystyle 10 160
+
+possible decisions would have to be calculated far more than there are atoms in the observable universe
+
+a variety of computer poker players have been developed by researchers at the university of alberta carnegie mellon university and the university of auckland amongst others
+
+in a january 2015 article published in science a group of researchers mostly from the university of alberta announced that they essentially weakly solved heads up limit texas hold em with their development of their cepheus poker bot the authors claimed that cepheus would lose at most 0 001 big blinds per game on average against its worst case opponent and the strategy is thus so close to optimal that it can t be beaten with statistical significance within a lifetime of human poker playing
+
+

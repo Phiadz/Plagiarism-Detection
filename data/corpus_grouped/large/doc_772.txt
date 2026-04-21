@@ -1,0 +1,1065 @@
+information theory is the mathematical study of the quantification storage and communication of a particular type of mathematically defined information the field was established and formalized by claude shannon in the 1940s though early contributions were made in the 1920s through the works of harry nyquist and ralph hartley
+
+information theory was initially formed in the context of telecommunication but soon found a wide range of other applications it is now at the intersection of mathematics statistics and computer science and has applications in diverse fields ranging from electrical engineering and physics to neurobiology
+
+as a simple example of the concept if one flips a fair coin and does not yet know the outcome heads or tails then they lack a certain amount of information after looking at the coin they gain information about the outcome for a fair coin the probability of either heads or tails is 1 2 and the amount of information is expressed as
+
+
+
+
+
+log
+
+2
+
+
+
+
+1
+
+
+
+2
+
+
+
+displaystyle log _ 2 1 2
+
+1 bit of information
+
+a key concept in information theory is information entropy in shannon s formulation entropy is equal to the lack of information about an event in the above coin flip example the entropy in the case where you don t know the outcome is 1 bit when you know the outcome after the coin has landed the entropy is zero because you have gained one bit
+
+information theory has been used in a wide range of applications such as source coding data compression e g for zip files and channel coding error detection and correction e g for dsl its impact has been crucial to the success of the voyager missions to deep space the invention of the compact disc the feasibility of mobile phones and the development of the internet and artificial intelligence the theory has also found applications in other areas including statistical inference cryptography neurobiology perception signal processing linguistics the evolution and function of molecular codes bioinformatics thermal physics molecular dynamics black holes quantum computing information retrieval intelligence gathering plagiarism detection pattern recognition anomaly detection the analysis of music art creation imaging system design study of outer space the dimensionality of space and epistemology
+
+information theory as conceived by claude shannon studies the processing and utilization of information within a probabilistic context abstractly in this approach information can be thought of as the resolution of uncertainty in the case of communication of information over a noisy channel this abstract concept was formalized in 1948 by claude shannon in a paper entitled a mathematical theory of communication in which information is thought of as a set of possible messages and the goal is to send these messages over a noisy channel and to have the receiver reconstruct the message with low probability of error in spite of the channel noise shannon s main result the noisy channel coding theorem showed that in the limit of many channel uses the rate of information that is asymptotically achievable is equal to the channel capacity a quantity dependent merely on the statistics of the channel over which the messages are sent
+
+coding theory is concerned with finding explicit methods called codes for increasing the efficiency and reducing the error rate of data communication over noisy channels to near the channel capacity these codes can be roughly subdivided into data compression source coding and error correction channel coding techniques in the latter case it took many years to find the methods shannon s work proved were possible
+
+a third class of information theory codes are cryptographic algorithms both codes and ciphers concepts methods and results from coding theory and information theory are widely used in cryptography and cryptanalysis such as the unit ban
+
+the landmark event establishing the discipline of information theory and bringing it to immediate worldwide attention was the publication of claude shannon s classic paper a mathematical theory of communication in the bell system technical journal in july and october 1948 historian james gleick rated the paper as the most important development of 1948 noting that the paper was even more profound and more fundamental than the transistor he came to be known as the father of information theory shannon outlined some of his initial ideas of information theory as early as 1939 in a letter to vannevar bush
+
+prior to this paper limited information theoretic ideas had been developed at bell labs all implicitly assuming events of equal probability harry nyquist s 1924 paper certain factors affecting telegraph speed contains a theoretical section quantifying intelligence and the line speed at which it can be transmitted by a communication system giving the relation w k log m recalling the boltzmann constant where w is the speed of transmission of intelligence m is the number of different voltage levels to choose from at each time step and k is a constant ralph hartley s 1928 paper transmission of information uses the word information as a measurable quantity reflecting the receiver s ability to distinguish one sequence of symbols from any other thus quantifying information as h log sn n log s where s was the number of possible symbols and n the number of symbols in a transmission the unit of information was therefore the decimal digit which since has sometimes been called the hartley in his honor as a unit or scale or measure of information alan turing in 1940 used similar ideas as part of the statistical analysis of the breaking of the german second world war enigma ciphers citation needed
+
+much of the mathematics behind information theory with events of different probabilities were developed for the field of thermodynamics by ludwig boltzmann and j willard gibbs connections between information theoretic entropy and thermodynamic entropy including the important contributions by rolf landauer in the 1960s are explored in entropy in thermodynamics and information theory
+
+in shannon s revolutionary and groundbreaking paper the work for which had been substantially completed at bell labs by the end of 1944 shannon for the first time introduced the qualitative and quantitative model of communication as a statistical process underlying information theory opening with the assertion
+
+with it came the ideas of
+
+information theory is based on probability theory and statistics where quantified information is usually described in terms of bits information theory often concerns itself with measures of information of the distributions associated with random variables one of the most important measures is called entropy which forms the building block of many other measures entropy allows quantification of measure of information in a single random variable
+
+another useful concept is mutual information defined on two random variables which quantifies the dependence between those variables which is done by comparing the conditional and unconditional distributions the former quantity is a property of the probability distribution of a random variable and gives a limit on the rate at which data generated by independent samples with the given distribution can be reliably compressed the latter is a property of the joint distribution of two random variables and is the maximum rate of reliable communication across a noisy channel in the limit of long block lengths when the channel statistics are determined by the joint distribution
+
+the choice of logarithmic base in the following formulae determines the unit of information entropy that is used a common unit of information is the bit or shannon based on the binary logarithm other units include the nat which is based on the natural logarithm and the decimal digit which is based on the common logarithm
+
+in what follows an expression of the form p log p is considered by convention to be equal to zero whenever p 0 this is justified because
+
+
+
+
+lim
+
+p
+
+
+0
+
+
+
+
+
+
+p
+log
+
+p
+
+0
+
+
+displaystyle lim _ p rightarrow 0 p log p 0
+
+for any logarithmic base
+
+based on the probability mass function of a source the shannon entropy h in units of bits per symbol is defined as the expected value of the information content of the symbols
+
+the amount of information conveyed by an individual source symbol
+
+
+
+
+x
+
+i
+
+
+
+
+displaystyle x_ i
+
+with probability
+
+
+
+
+p
+
+i
+
+
+
+
+displaystyle p_ i
+
+is known as its self information or surprisal
+
+
+
+i
+
+
+p
+
+i
+
+
+
+
+
+displaystyle i p_ i
+
+this quantity is defined as
+
+a less probable symbol has a larger surprisal meaning its occurrence provides more information the entropy
+
+
+
+h
+
+
+displaystyle h
+
+is the weighted average of the surprisal of all possible symbols from the source s probability distribution
+
+intuitively the entropy
+
+
+
+h
+
+x
+
+
+
+displaystyle h x
+
+of a discrete random variable x is a measure of the amount of uncertainty associated with the value of
+
+
+
+x
+
+
+displaystyle x
+
+when only its distribution is known a high entropy indicates the outcomes are more evenly distributed making the result harder to predict
+
+for example if one transmits 1000 bits 0s and 1s and the value of each of these bits is known to the receiver has a specific value with certainty ahead of transmission no information is transmitted if however each bit is independently and equally likely to be 0 or 1 1000 shannons of information more often called bits have been transmitted
+
+a key property of entropy is that it is maximized when all the messages in the message space are equiprobable for a source with n possible symbols where
+
+
+
+
+p
+
+i
+
+
+
+
+
+1
+n
+
+
+
+
+textstyle p_ i frac 1 n
+
+for all
+
+
+
+i
+
+
+displaystyle i
+
+the entropy is given by
+
+this maximum value represents the most unpredictable state
+
+for a source that emits a sequence of
+
+
+
+n
+
+
+displaystyle n
+
+symbols that are independent and identically distributed i i d the total entropy of the message is
+
+
+
+n
+
+h
+
+
+displaystyle n cdot h
+
+bits if the source data symbols are identically distributed but not independent the entropy of a message of length
+
+
+
+n
+
+
+displaystyle n
+
+will be less than
+
+
+
+n
+
+h
+
+
+displaystyle n cdot h
+
+
+
+the choice of the logarithmic base in the entropy formula determines the unit of entropy used
+
+the special case of information entropy for a random variable with two outcomes a bernoulli trial is the binary entropy function this is typically calculated using a base 2 logarithm and its unit is the shannon if one outcome has probability p the other has probability 1 p the entropy is given by
+
+this function is depicted in the plot shown above reaching its maximum of 1 bit when p 0 5 corresponding to the highest uncertainty
+
+the joint entropy of two discrete random variables x and y is merely the entropy of their pairing x y this implies that if x and y are independent then their joint entropy is the sum of their individual entropies
+
+for example if x y represents the position of a chess piece x the row and y the column then the joint entropy of the row of the piece and the column of the piece will be the entropy of the position of the piece
+
+despite similar notation joint entropy should not be confused with cross entropy
+
+the joint entropy of
+
+
+
+n
+
+
+displaystyle n
+
+discrete random variables
+
+
+
+
+x
+
+n
+
+
+
+
+
+x
+
+1
+
+
+
+
+x
+
+2
+
+
+
+
+
+
+x
+
+n
+
+
+
+
+
+displaystyle x n triangleq x_ 1 x_ 2 ldots x_ n
+
+is
+
+this can also be represented as a summation of their joint probability mass function
+
+thus joint entropy is just a subcase of entropy where the random variable is a vector giving values in the product space
+
+the conditional entropy or conditional uncertainty of x given random variable y also called the equivocation of x about y is the average conditional entropy over y
+
+because entropy can be conditioned on a random variable or on that random variable being a certain value care should be taken not to confuse these two definitions of conditional entropy the former of which is in more common use a basic property of this form of conditional entropy is that
+
+mutual information measures the amount of information that can be obtained about one random variable by observing another it is important in communication where it can be used to maximize the amount of information shared between sent and received signals the mutual information of x relative to y is given by
+
+where si specific mutual information is the pointwise mutual information
+
+a basic property of the mutual information is that
+
+that is knowing
+
+
+
+y
+
+
+textstyle y
+
+we can save an average of i x y bits in encoding
+
+
+
+x
+
+
+displaystyle x
+
+compared to not knowing
+
+
+
+y
+
+
+displaystyle y
+
+
+
+mutual information is symmetric
+
+mutual information can be expressed as the average kullback leibler divergence information gain between the posterior probability distribution of
+
+
+
+x
+
+
+displaystyle x
+
+given the value of
+
+
+
+y
+
+
+textstyle y
+
+and the prior distribution on
+
+
+
+x
+
+
+displaystyle x
+
+
+
+in other words this is a measure of how much on the average the probability distribution on
+
+
+
+x
+
+
+displaystyle x
+
+will change if we are given the value of
+
+
+
+y
+
+
+textstyle y
+
+this is often recalculated as the divergence from the product of the marginal distributions to the actual joint distribution
+
+mutual information is closely related to the log likelihood ratio test in the context of contingency tables and the multinomial distribution and to pearson s χ2 test mutual information can be considered a statistic for assessing independence between a pair of variables and has a well specified asymptotic distribution
+
+the kullback leibler divergence or information divergence information gain or relative entropy is a way of comparing two distributions a true probability distribution
+
+
+
+p
+
+x
+
+
+
+displaystyle p x
+
+and an arbitrary probability distribution
+
+
+
+q
+
+x
+
+
+
+displaystyle q x
+
+if we compress data in a manner that assumes
+
+
+
+q
+
+x
+
+
+
+displaystyle q x
+
+is the distribution underlying some data when in reality
+
+
+
+p
+
+x
+
+
+
+displaystyle p x
+
+is the correct distribution the kullback leibler divergence is the number of average additional bits per datum necessary for compression it is thus defined
+
+although it is sometimes used as a distance metric kl divergence is not a true metric since it is not symmetric and does not satisfy the triangle inequality making it a semi quasimetric
+
+another interpretation of the kl divergence is the unnecessary surprise introduced by a prior from the truth suppose a number
+
+
+
+x
+
+
+displaystyle x
+
+is about to be drawn randomly from a discrete set with probability distribution
+
+
+
+p
+
+x
+
+
+
+displaystyle p x
+
+if alice knows the true distribution
+
+
+
+p
+
+x
+
+
+
+displaystyle p x
+
+while bob believes has a prior that the distribution is
+
+
+
+q
+
+x
+
+
+
+displaystyle q x
+
+then bob will be more surprised than alice on average upon seeing the value of
+
+
+
+x
+
+
+displaystyle x
+
+the kl divergence is the objective expected value of bob s subjective surprisal minus alice s surprisal measured in bits if the log is in base 2 in this way the extent to which bob s prior is wrong can be quantified in terms of how unnecessarily surprised it is expected to make him
+
+directed information
+
+
+
+i
+
+
+x
+
+n
+
+
+
+
+y
+
+n
+
+
+
+
+
+displaystyle i x n to y n
+
+is an information theory measure that quantifies the information flow from the random process
+
+
+
+
+x
+
+n
+
+
+
+
+
+x
+
+1
+
+
+
+
+x
+
+2
+
+
+
+
+
+
+x
+
+n
+
+
+
+
+
+displaystyle x n x_ 1 x_ 2 dots x_ n
+
+to the random process
+
+
+
+
+y
+
+n
+
+
+
+
+
+y
+
+1
+
+
+
+
+y
+
+2
+
+
+
+
+
+
+y
+
+n
+
+
+
+
+
+displaystyle y n y_ 1 y_ 2 dots y_ n
+
+the term directed information was coined by james massey and is defined as
+
+where
+
+
+
+i
+
+
+x
+
+i
+
+
+
+
+y
+
+i
+
+
+
+
+
+
+y
+
+i
+
+1
+
+
+
+
+
+displaystyle i x i y_ i y i 1
+
+is the conditional mutual information
+
+
+
+i
+
+
+x
+
+1
+
+
+
+
+x
+
+2
+
+
+
+
+
+
+
+
+x
+
+i
+
+
+
+
+y
+
+i
+
+
+
+
+
+
+y
+
+1
+
+
+
+
+y
+
+2
+
+
+
+
+
+
+
+
+y
+
+i
+
+1
+
+
+
+
+
+displaystyle i x_ 1 x_ 2 x_ i y_ i y_ 1 y_ 2 y_ i 1
+
+
+
+in contrast to mutual information directed information is not symmetric the
+
+
+
+i
+
+
+x
+
+n
+
+
+
+
+y
+
+n
+
+
+
+
+
+displaystyle i x n to y n
+
+measures the information bits that are transmitted causally clarification needed from
+
+
+
+
+x
+
+n
+
+
+
+
+displaystyle x n
+
+to
+
+
+
+
+y
+
+n
+
+
+
+
+displaystyle y n
+
+the directed information has many applications in problems where causality plays an important role such as capacity of channel with feedback capacity of discrete memoryless networks with feedback gambling with causal side information compression with causal side information
+real time control communication settings and in statistical physics
+
+other important information theoretic quantities include the rényi entropy and the tsallis entropy generalizations of the concept of entropy differential entropy a generalization of quantities of information to continuous distributions and the conditional mutual information also pragmatic information has been proposed as a measure of how much information has been used in making a decision
+
+coding theory is one of the most important and direct applications of information theory it can be subdivided into source coding theory and channel coding theory using a statistical description for data information theory quantifies the number of bits needed to describe the data which is the information entropy of the source
+
+this division of coding theory into compression and transmission is justified by the information transmission theorems or source channel separation theorems that justify the use of bits as the universal currency for information in many contexts however these theorems only hold in the situation where one transmitting user wishes to communicate to one receiving user in scenarios with more than one transmitter the multiple access channel more than one receiver the broadcast channel or intermediary helpers the relay channel or more general networks compression followed by transmission may no longer be optimal for general sources and channels that are not necessarily stationary or ergodic information spectrum methods characterize coding limits using asymptotic distributions of information density rather than only single letter entropies or mutual information a related problem channel resolvability asks what rate is required for channel inputs to approximate a target output distribution han and sergio verdú connected this approximation problem to coding theorems for general channels
+
+any process that generates successive messages can be considered a source of information a memoryless source is one in which each message is an independent identically distributed random variable whereas the properties of ergodicity and stationarity impose less restrictive constraints all such sources are stochastic these terms are well studied in their own right outside information theory
+
+information rate is the average entropy per symbol for memoryless sources this is merely the entropy of each symbol while in the case of a stationary stochastic process it is
+
+that is the conditional entropy of a symbol given all the previous symbols generated for the more general case of a process that is not necessarily stationary the average rate is
+
+that is the limit of the joint entropy per symbol for stationary sources these two expressions give the same result
+
+the information rate is defined as
+
+it is common in information theory to speak of the rate or entropy of a language this is appropriate for example when the source of information is english prose the rate of a source of information is related to its redundancy and how well it can be compressed the subject of source coding
+
+communications over a channel is the primary motivation of information theory however channels often fail to produce exact reconstruction of a signal noise periods of silence and other forms of signal corruption often degrade quality
+
+consider the communications process over a discrete channel a simple model of the process is shown below
+
+here
+
+
+
+x
+
+
+displaystyle x
+
+represents the space of messages transmitted and
+
+
+
+y
+
+
+textstyle y
+
+the space of messages received during a unit time over our channel let p y x be the conditional probability distribution function of
+
+
+
+y
+
+
+textstyle y
+
+given
+
+
+
+x
+
+
+displaystyle x
+
+we will consider p y x to be an inherent fixed property of our communications channel representing the nature of the noise of our channel then the joint distribution of
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+y
+
+
+textstyle y
+
+is completely determined by our channel and by our choice of f x the marginal distribution of messages we choose to send over the channel under these constraints we would like to maximize the rate of information or the signal we can communicate over the channel the appropriate measure for this is the mutual information and this maximum mutual information is called the channel capacity and is given by
+
+this capacity has the following property related to communicating at information rate r where r is usually bits per symbol for any information rate r c and coding error ε 0 for large enough n there exists a code of length n and rate r and a decoding algorithm such that the maximal probability of block error is ε that is it is always possible to transmit with arbitrarily small block error in addition for any rate r c it is impossible to transmit with arbitrarily small block error
+
+channel coding is concerned with finding such nearly optimal codes that can be used to transmit data over a noisy channel with a small coding error at a rate near the channel capacity
+
+in practice many channels have memory namely at time
+
+
+
+i
+
+
+displaystyle i
+
+the channel is given by the conditional probability
+
+
+
+p
+
+
+y
+
+i
+
+
+
+
+
+
+x
+
+i
+
+
+
+
+x
+
+i
+
+1
+
+
+
+
+x
+
+i
+
+2
+
+
+
+
+
+
+
+
+x
+
+1
+
+
+
+
+y
+
+i
+
+1
+
+
+
+
+y
+
+i
+
+2
+
+
+
+
+
+
+
+
+y
+
+1
+
+
+
+
+
+displaystyle p y_ i x_ i x_ i 1 x_ i 2 x_ 1 y_ i 1 y_ i 2 y_ 1
+
+
+it is often more comfortable to use the notation
+
+
+
+
+x
+
+i
+
+
+
+
+
+x
+
+i
+
+
+
+
+x
+
+i
+
+1
+
+
+
+
+x
+
+i
+
+2
+
+
+
+
+
+
+
+
+x
+
+1
+
+
+
+
+
+displaystyle x i x_ i x_ i 1 x_ i 2 x_ 1
+
+and the channel become
+
+
+
+p
+
+
+y
+
+i
+
+
+
+
+
+
+x
+
+i
+
+
+
+
+y
+
+i
+
+1
+
+
+
+
+
+displaystyle p y_ i x i y i 1
+
+
+in such a case the capacity is given by the mutual information rate when there is no feedback available and the directed information rate in the case that either there is feedback or not if there is no feedback the directed information equals the mutual information
+
+fungible information is the information for which the means of encoding is not important classical information theorists and computer scientists are mainly concerned with information of this sort it is sometimes referred as speakable information
+
+information theory concepts methods and approaches have broad applications in network physiology a field which provides a quantitative framework based on adaptive networks of dynamical systems to investigate how physiological systems exchange process and integrate information as a network to i coordinate their functions across levels and scales from sub cellular to organs and organism level and ii generate distinct physiological states in health and disease through measures such as mutual information transfer entropy and co information information theory enables the detection of coupling strength directionality synergy redundancy and higher order interactions among physiological systems and sub systems revealing how network cross communication and regulation occur within the organism applications of information theoretic approaches span from analyzing information transfer between brain and body networks during various states cardio respiratory interactions cardio muscular interactions cortico muscular interactions brain wave interactions and brain functional networks network physiology in extreme environments
+
+information theoretic concepts apply to cryptography and cryptanalysis turing s information unit the ban was used in the ultra project breaking the german enigma machine code and hastening the end of world war ii in europe shannon himself defined an important concept now called the unicity distance based on the redundancy of the plaintext it attempts to give a minimum amount of ciphertext necessary to ensure unique decipherability
+
+information theory leads us to believe it is much more difficult to keep secrets than it might first appear a brute force attack can break systems based on asymmetric key algorithms or on most commonly used methods of symmetric key algorithms sometimes called secret key algorithms such as block ciphers the security of all such methods comes from the assumption that no known attack can break them in a practical amount of time
+
+information theoretic security refers to methods such as the one time pad that are not vulnerable to such brute force attacks in such cases the positive conditional mutual information between the plaintext and ciphertext conditioned on the key can ensure proper transmission while the unconditional mutual information between the plaintext and ciphertext remains zero resulting in absolutely secure communications in other words an eavesdropper would not be able to improve his or her guess of the plaintext by gaining knowledge of the ciphertext but not of the key however as in any other cryptographic system care must be used to correctly apply even information theoretically secure methods the venona project was able to crack the one time pads of the soviet union due to their improper reuse of key material
+
+pseudorandom number generators are widely available in computer language libraries and application programs they are almost universally unsuited to cryptographic use as they do not evade the deterministic nature of modern computer equipment and software a class of improved random number generators is termed cryptographically secure pseudorandom number generators but even they require random seeds external to the software to work as intended these can be obtained via extractors if done carefully the measure of sufficient randomness in extractors is min entropy a value related to shannon entropy through rényi entropy rényi entropy is also used in evaluating randomness in cryptographic systems although related the distinctions among these measures mean that a random variable with high shannon entropy is not necessarily satisfactory for use in an extractor and so for cryptography uses
+
+one early commercial application of information theory was in the field of seismic oil exploration work in this field made it possible to strip off and separate the unwanted noise from the desired seismic signal information theory and digital signal processing offer a major improvement of resolution and image clarity over previous analog methods
+
+semioticians doede nauta nl and winfried nöth both considered charles sanders peirce as having created a theory of information in his works on semiotics 171 137 nauta defined semiotic information theory as the study of the internal processes of coding filtering and information processing 91
+
+concepts from information theory such as redundancy and code control have been used by semioticians such as umberto eco and ferruccio rossi landi it to explain ideology as a form of message transmission whereby a dominant social class emits its message by using signs that exhibit a high degree of redundancy such that only one message is decoded among a selection of competing ones
+
+quantitative information theoretic methods have been applied in cognitive science to analyze the integrated process organization of neural information in the context of the binding problem in cognitive neuroscience in this context either an information theoretical measure such as functional clusters gerald edelman and giulio tononi s functional clustering model and dynamic core hypothesis dch or effective information tononi s integrated information theory iit of consciousness is defined on the basis of a reentrant process organization i e the synchronization of neurophysiological activity between groups of neuronal populations or the measure of the minimization of free energy on the basis of statistical methods karl j friston s free energy principle fep an information theoretical measure which states that every adaptive change in a self organized system leads to a minimization of free energy and the bayesian brain hypothesis
+
+information theory also has applications in the search for extraterrestrial intelligence black holes bioinformatics and gambling

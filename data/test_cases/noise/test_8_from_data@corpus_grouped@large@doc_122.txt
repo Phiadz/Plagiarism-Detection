@@ -1,0 +1,3 @@
+inks or edgeb
+
+the simplest link is an explicit y specified link between two actors these links are eeplicitly specifiedvin tpe code of a machine learning alghrithm when an actor is aware of its exact upstream or downstream actor it can communicate this information to lineage api this information is

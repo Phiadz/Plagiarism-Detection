@@ -1,0 +1,50 @@
+a tree structure tree diagram or tree model is a way of representing the hierarchical nature of a structure in a graphical form it is named a tree structure because the classic representation resembles a tree although the chart is generally upside down compared to a biological tree with the stem at the top and the leaves at the bottom
+
+a tree structure is conceptual and appears in several forms for a discussion of tree structures in specific fields see tree data structure for computer science insofar as it relates to graph theory see tree graph theory or tree set theory other related articles are listed below
+
+the tree elements are called nodes
+the lines connecting elements are called branches
+nodes without children are called leaf nodes end nodes or leaves
+
+every finite tree structure has a member that has no superior this member is called the root or root node the root is the starting node but the converse is not true infinite tree structures may or may not have a root node
+
+the names of relationships between nodes model the kinship terminology of family relations the gender neutral names parent and child have largely displaced the older father and son terminology the term uncle is still widely used for other nodes at the same level as the parent although it is sometimes replaced with gender neutral terms like ommer
+
+in the example encyclopedia is the parent of science and culture its children art and craft are siblings and children of culture which is their parent and thus one of their ancestors also encyclopedia as the root of the tree is the ancestor of science culture art and craft finally science art and craft as leaves are ancestors of no other node
+
+tree structures can depict all kinds of taxonomic knowledge such as family trees the biological evolutionary tree the evolutionary tree of a language family the grammatical structure of a language a key example being s np vp meaning a sentence is a noun phrase and a verb phrase with each in turn having other components which have other components the way web pages are logically ordered in a web site mathematical trees of integer sets et cetera
+
+the oxford english dictionary records use of both the terms tree structure and tree diagram from 1965 in noam chomsky s aspects of the theory of syntax
+
+in a tree structure there is one and only one path from any point to any other point
+
+computer science uses tree structures extensively see tree data structure and telecommunications
+
+for a formal definition see set theory and for a generalization in which children are not necessarily successors see prefix order
+
+there are many ways of visually representing tree structures
+almost always these boil down to variations or combinations
+of a few basic styles
+
+classical node link diagrams that connect nodes together with line segments
+
+nested sets that use enclosure or containment to show parenthood examples include treemaps fractal maps and euler diagrams
+
+layered icicle diagrams that use alignment adjacency
+
+
+lists or diagrams that use indentation sometimes called outlines or tree views
+
+an outline
+
+a tree view
+
+a correspondence to nested parentheses was first noticed by sir arthur cayley
+
+art craft culture science encyclopedia
+or
+encyclopedia culture art craft science
+
+trees can also be represented radially
+
+identification of some of the basic styles of tree structures can be found in

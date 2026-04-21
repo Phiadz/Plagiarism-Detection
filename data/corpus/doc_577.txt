@@ -1,0 +1,3 @@
+ai mode is a search feature used within google search in march 2025 google introduced an experimental ai mode within its search platform enabling users to input complex multi part queries and receive comprehensive ai generated responses this feature uses google s gemini model which enhances the system s reasoning capabilities and supports multimodal inputs including text images and voice users need to be signed in to be able to use the image generation features
+
+initially ai mode was available to google one ai premium subscribers in the united states who could access it through the search labs platform this phased rollout allowed google to gather user feedback and refine the feature before a broader release

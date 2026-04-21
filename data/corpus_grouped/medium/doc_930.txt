@@ -1,0 +1,53 @@
+
+
+john joseph hopfield born july 15 1933 is an american physicist and emeritus professor of princeton university most widely known for his study of associative neural networks in 1982 he is known for the development of the hopfield network before its invention research in artificial intelligence ai was in a decay period or ai winter hopfield s work revitalized large scale interest in this field
+
+in 2024 hopfield along with geoffrey hinton was awarded the nobel prize in physics for foundational discoveries and inventions that enable machine learning with artificial neural networks he has been awarded various major physics awards for his work in multidisciplinary fields including condensed matter physics statistical physics and biophysics
+
+john joseph hopfield was born in 1933 in chicago to physicists john joseph hopfield born in poland as jan józef chmielewski and helen hopfield née staff
+
+hopfield received a bachelor of arts with a major in physics from swarthmore college in pennsylvania in 1954 and a doctor of philosophy in physics from cornell university in 1958 his doctoral dissertation was titled a quantum mechanical theory of the contribution of excitons to the complex dielectric constant of crystals his doctoral advisor was albert overhauser
+
+he spent two years in the theory group at bell laboratories working on optical properties of semiconductors working with david gilbert thomas and later on a quantitative model to describe the cooperative behavior of hemoglobin in collaboration with robert g shulman subsequently he became a faculty member at university of california berkeley physics 1961 1964 princeton university physics 1964 1980 california institute of technology caltech chemistry and biology 1980 1997 and again at princeton 1997 where he is the howard a prior professor of molecular biology emeritus
+
+in 1976 he participated in a science short film on the structure of the hemoglobin featuring linus pauling
+
+from 1981 to 1983 richard feynman carver mead and hopfield gave a one year course at caltech called the physics of computation this collaboration inspired the computation and neural systems phd program at caltech in 1986 co founded by hopfield
+
+his former phd students include gerald mahan phd in 1964 bertrand halperin 1965 steven girvin 1977 terry sejnowski 1978 erik winfree 1998 josé onuchic 1987 li zhaoping 1990 and david j c mackay 1992
+
+in his doctoral work of 1958 he wrote on the interaction of excitons in crystals coining the term polariton for a quasiparticle that appears in solid state physics he wrote the polarization field particles analogous to photons will be called polaritons his polariton model is sometimes known as the hopfield dielectric
+
+from 1959 to 1963 hopfield and david g thomas investigated the exciton structure of cadmium sulfide from its reflection spectra their experiments and theoretical models allowed to understand the optical spectroscopy of ii vi semiconductor compounds
+
+condensed matter physicist philip w anderson reported that john hopfield was his hidden collaborator for his 1961 1970 works on the anderson impurity model which explained the kondo effect hopfield was not included as a co author in the papers but anderson admitted the importance of hopfield s contribution in various of his writings
+
+william c topp and hopfield introduced the concept of norm conserving pseudopotentials in 1973
+
+in 1974 he introduced a mechanism for error correction in biochemical reactions known as kinetic proofreading to explain the accuracy of dna replication
+
+hopfield published his first paper in neuroscience in 1982 titled neural networks and physical systems with emergent collective computational abilities where he introduced what is now known as hopfield network a type of artificial network that can serve as a content addressable memory made of binary neurons that can be on or off he extended his formalism to continuous activation functions in 1984 the 1982 and 1984 papers represent his two most cited works hopfield has said that the inspiration came from his knowledge of spin glasses from his collaborations with p w anderson
+
+together with david w tank hopfield developed a method in 1985 1986 for solving discrete optimization problems based on the continuous time dynamics using a hopfield network with continuous activation function the optimization problem was encoded in the interaction parameters weights of the network the effective temperature of the analog system was gradually decreased as in global optimization with simulated annealing
+
+hopfield is one of the pioneers of the critical brain hypothesis he was the first to link neural networks with self organized criticality in reference to the olami feder christensen model for earthquakes in 1994 in 1995 hopfield and andreas v herz showed that avalanches in neural activity follow power law distribution associated to earthquakes
+
+the original hopfield networks had a limited memory this problem was addressed by hopfield and dimitry krotov in 2016 large memory storage hopfield networks are now known as modern hopfield networks
+
+in march 2023 hopfield signed an open letter titled pause giant ai experiments calling for a pause on the training of artificial intelligence ai systems more powerful than gpt 4 the letter signed by over 30 000 individuals including ai researchers yoshua bengio and stuart russell cited risks such as human obsolescence and society wide loss of control
+
+upon being jointly awarded the 2024 nobel prize in physics hopfield revealed he was very unnerved by recent advances in ai capabilities and said as a physicist i m very unnerved by something which has no control in a followup press conference in princeton university hopfield compared ai with discovery of nuclear fission which led to nuclear weapons and nuclear power
+
+hopfield received a sloan research fellowship in 1962 and as his father he received a guggenheim fellowship 1968 hopfield was elected as a member of the american physical society aps in 1969 a member of the national academy of sciences in 1973 a member of the american academy of arts and sciences in 1975 and a member of the american philosophical society in 1988 he was the president of the aps in 2006
+
+in 1969 hopfield and david gilbert thomas were awarded the oliver e buckley prize of condensed matter physics by the aps for their joint work combining theory and experiment which has advanced the understanding of the interaction of light with solids
+
+in 1983 he was awarded the macarthur foundational prize by the macarthur fellows program in 1985 hopfield received the golden plate award of the american academy of achievement and the max delbruck prize in biophysics by the aps in 1988 he received the michelson morley award by case western reserve university hopfield received the neural networks pioneer award in 1997 by the institute of electrical and electronics engineers ieee
+
+he was awarded the dirac medal of the international centre for theoretical physics in 2001 for important contributions in an impressively broad spectrum of scientific subjects including an entirely different collective organizing principle in olfaction and a new principle in which neural function can take advantage of the temporal structure of the spiking interneural communication
+
+hopfield received the harold pender award in 2002 for his accomplishments in computational neuroscience and neural engineering from the moore school of electrical engineering university of pennsylvania he received the albert einstein world award of science in 2005 in the field of life sciences in 2007 he gave the fritz london memorial lecture at duke university titled how do we think so fast from neurons to brain computation hopfield received the ieee frank rosenblatt award in 2009 for his contributions in understanding information processing in biological systems in 2012 he was awarded the swartz prize by the society for neuroscience in 2019 he was awarded the benjamin franklin medal in physics by the franklin institute and in 2022 he shared the boltzmann medal award in statistical physics with deepak dhar
+
+he was jointly awarded the 2024 nobel prize in physics with geoffrey e hinton for foundational discoveries and inventions that enable machine learning with artificial neural networks
+
+in 2025 he was awarded the queen elizabeth prize for engineering jointly with yoshua bengio bill dally geoffrey e hinton yann lecun jen hsun huang and fei fei li for the development of modern machine learning

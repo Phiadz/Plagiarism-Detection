@@ -1,0 +1,1 @@
+sed structure named entities are replaced with a token to represent their class ted and erica would both be replaced with person class token then the statistical distribution and use of person names in general can be analyzed instead of looking at the distributions of ted and erica individually so that

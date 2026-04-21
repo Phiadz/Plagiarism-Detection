@@ -1,0 +1,305 @@
+
+
+artificial intelligence is the capability of computational systems to perform tasks typically associated with human intelligence such as learning reasoning problem solving perception and decision making artificial intelligence has been used in applications throughout industry and academia within the field of artificial intelligence there are multiple subfields the subfield of machine learning has been used for various scientific and commercial purposes including language translation image recognition decision making credit scoring and e commerce in recent years timeframe there have been massive advancements in the field of generative artificial intelligence which uses generative models to produce text images videos or other forms of data this article describes applications of ai in different sectors
+
+in agriculture ai has been proposed as a way for farmers to identify areas that need irrigation fertilization or pesticide treatments to increase yields thereby improving efficiency ai has been used to attempt to classify livestock pig call emotions automate greenhouses detect diseases and pests and optimize irrigation
+
+artificial intelligence in architecture is the use of artificial intelligence in automation design and planning in the architectural process or in assisting human skills in the field of architecture
+
+ai has been used by some architects for design and has been proposed as a way to automate planning and routine tasks in the field
+
+a 2023 study found that generative ai increased productivity by 15 in contact centers another 2023 study found it increased productivity by up to 40 in writing tasks an august 2025 review by mit found that of surveyed companies 95 did not report any improvement in revenue from the use of ai a september 2025 article by the harvard business review describes how increased use of ai does not automatically lead to increases in revenue or actual productivity referring to ai generated work content that masquerades as good work but lacks the substance to meaningfully advance a given task the article coins the term workslop per studies done in collaboration with the stanford social media lab workslop does not improve productivity and undermines trust and collaboration among colleagues
+
+in telehealth agentic ai is reportedly facilitating the creation of large business models millions in annual profit with 1 2 employees such as medvi which as of august 2025 only had 2 employees and 75m in annual profit for glp 1 weight loss telehealth services
+
+ai can be used for real time code completion chat and automated test generation these tools are typically integrated with editors and ides as plugins ai assisted software development systems differ in functionality quality speed and approach to privacy creating software primarily via ai is known as vibe coding code created or suggested by ai can be incorrect or inefficient the use of ai assisted coding can potentially speed up software development but can also slow down the process by creating more work when debugging and testing the rush to prematurely adopt ai technology can also incur additional technical debt ai also requires additional consideration and careful review for cybersecurity since ai coding software is trained on a wide range of code of inconsistent quality and often replicates poor practices
+
+ai can be used to create other ais for example around november 2017 google s automl project to evolve new neural net topologies created nasnet a system optimized for imagenet and poco f1 nasnet s performance exceeded all previously published performance on imagenet
+
+research and development of quantum computers has been performed with machine learning algorithms for example there is a prototype photonic quantum memristive device for neuromorphic computers nc artificial neural networks and nc using quantum materials with some variety of potential neuromorphic computing related applications the use of quantum machine learning for quantum simulators has been proposed for solving physics and chemistry problems better source needed
+
+ai researchers have created many tools to solve the most difficult problems in computer science many of their inventions have been adopted by mainstream computer science and are no longer considered ai all of the following were originally developed in ai laboratories
+
+another application of ai is in human resources ai can screen resumes and rank candidates based on their qualifications predict a candidate s likelihood of success in a given role and automate repetitive communication tasks using chatbots citation needed
+
+ai underlies avatars automated online assistants on web pages it can reduce operation and training costs pypestream automated customer service for its mobile application to streamline communication with customers
+
+a google app analyzes language and converts speech into text the platform can identify angry customers through their language and respond appropriately amazon uses a chatbot for customer service that can perform tasks like checking the status of an order cancelling orders offering refunds and connecting the customer with a human representative generative ai genai such as chatgpt is increasingly used in business to automate tasks and enhance decision making
+
+in the hospitality industry ai is used to reduce repetitive tasks analyze trends interact with guests and predict customer needs ai hotel services come in the form of a chatbot application virtual voice assistant and service robots
+
+in educational institutions ai has been used to automate routine tasks such as attendance tracking grading and marking ai tools have also been used to monitor student progress and analyze learning behaviors with the goal of facilitating timely interventions for students facing academic challenges
+
+the u s department of energy wrote in an april 2024 report that ai may have applications in modeling power grids reviewing federal permits with large language models predicting levels of renewable energy production and improving the planning process for electrical vehicle charging networks other studies have suggested that machine learning can be used for energy consumption prediction and scheduling e g to help with renewable energy intermittency management see also smart grid and climate change mitigation in the power grid
+
+autonomous ships that monitor the ocean ai driven satellite data analysis passive acoustics or remote sensing and other applications of environmental monitoring make use of machine learning
+
+for example global plastic watch is an ai based satellite monitoring platform for analysis tracking of plastic waste sites to help prevention of plastic pollution primarily ocean pollution by helping identify who and where mismanages plastic waste dumping it into oceans
+
+machine learning can be used to spot early warning signs of disasters and environmental issues possibly including natural pandemics earthquakes landslides heavy rainfall long term water supply vulnerability tipping points of ecosystem collapse cyanobacterial bloom outbreaks and droughts
+
+the university of southern california launched the center for artificial intelligence in society with the goal of using ai to address problems such as homelessness stanford researchers use ai to analyze satellite images to identify high poverty areas
+
+ai applications analyze media content such as movies tv programs advertisement videos or user generated content the solutions often involve computer vision
+
+typical scenarios include the analysis of images using object recognition or face recognition techniques or the analysis of video for scene recognizing scenes objects or faces ai based media analysis can facilitate media search the creation of descriptive keywords for content content policy monitoring such as verifying the suitability of content for a particular tv viewing time speech to text for archival or other purposes and the detection of logos products or celebrity faces for ad placement
+
+deep fakes can be used for comedic purposes but are better known for fake news and hoaxes
+
+deepfakes can portray individuals in harmful or compromising situations causing significant reputational damage and emotional distress especially when the content is defamatory or violates personal ethics while defamation and false light laws offer some recourse their focus on false statements rather than fabricated images or videos often leaves victims with limited legal protection and a challenging burden of proof
+
+in january 2016 the horizon 2020 program financed the invid project to help journalists and researchers detect fake documents made available as browser plugins
+
+in june 2016 the visual computing group of the technical university of munich and from stanford university developed face2face a program that animates photographs of faces mimicking the facial expressions of another person
+
+in september 2018 u s senator mark warner proposed to penalize social media companies that allow sharing of deep fake documents on their platforms
+
+in 2018 darius afchar and vincent nozick found a way to detect faked content by analyzing the mesoscopic properties of video frames darpa gave 68 million dollars to work on deep fake detection
+
+audio deepfakes and ai software capable of detecting deep fakes and cloning human voices have been developed
+
+artificial intelligence for video surveillance utilizes computer software programs that analyze the audio and images from video surveillance cameras in order to recognize humans vehicles objects and events security contractors program is the software to define restricted areas within the camera s view such as a fenced off area a parking lot but not the sidewalk or public street outside the lot and program for times of day such as after the close of business for the property being protected by the camera surveillance the artificial intelligence a i sends an alert if it detects a trespasser breaking the rule set that no person is allowed in that area during that time of day
+
+ai algorithms have been used to detect deepfake videos
+
+artificial intelligence is also starting to be used in video production with tools and software being developed that utilize generative ai in order to create new video or alter existing video some of the major tools that are being used in these processes currently timeframe are dall e mid journey and runway way mark studios utilized the tools offered by both dall e and mid journey to create a fully ai generated film called the frost in the summer of 2023 way mark studios is experimenting with using these ai tools to generate advertisements and commercials for companies in mere seconds yves bergquist a director of the ai neuroscience in media project at usc s entertainment technology center says post production crews in hollywood are already using generative ai and predicts that in the future more companies will embrace this new technology
+
+ai has been used to compose music of various genres
+
+david cope created an ai called emily howell that managed to become well known in the field of algorithmic computer music the algorithm behind emily howell is registered as a us patent
+
+in 2012 ai iamus created the first complete classical album
+
+aiva artificial intelligence virtual artist composes symphonic music mainly classical music for film scores it achieved a world first by becoming the first virtual composer to be recognized by a musical professional association
+
+melomics creates computer generated music for stress and pain relief
+
+the watson beat uses reinforcement learning and deep belief networks to compose music on a simple seed input melody and a select style the software was open sourced and musicians such as taryn southern collaborated with the project to create music
+
+south korean singer hayeon s debut song eyes on you was composed using ai which was supervised by real composers including nuvo
+
+narrative science sells computer generated news and reports it summarizes sporting events based on statistical data from the game it also creates financial reports and real estate analyses automated insights generates personalized recaps and previews for yahoo sports fantasy football
+
+yseop uses ai to turn structured data into natural language comments and recommendations yseop writes financial reports executive summaries personalized sales or marketing documents and more in multiple languages including english spanish french and german
+
+talespin made up stories similar to the fables of aesop the program started with a set of characters who wanted to achieve certain goals mark riedl and vadim bulitko asserted that the essence of storytelling was experience management or how to balance the need for a coherent story progression with user agency which is often at odds
+
+while ai storytelling focuses on story generation character and plot story communication also received attention in 2002 researchers developed an architectural framework for narrative prose generation they faithfully reproduced text variety and complexity on stories such as little red riding hood in 2016 a japanese ai co wrote a short story and almost won a literary prize
+
+south korean company hanteo global uses a journalism bot to write articles
+
+literary authors are also exploring uses of ai an example is david jhave johnston s work rerites 2017 2019 where the poet created a daily rite of editing the poetic output of a neural network to create a series of performances and publications
+
+in 2010 artificial intelligence used baseball statistics to automatically generate news articles this was launched by the big ten network using software from narrative science
+
+after being unable to cover every minor league baseball game with a large team associated press collaborated with automated insights in 2016 to create game recaps that were automated by artificial intelligence
+
+uol in brazil expanded the use of ai in its writing rather than just generating news stories they programmed the ai to include commonly searched words on google
+
+el pais a spanish news site that covers many things including sports allows users to make comments on each news article they use the perspective api to moderate these comments and if the software deems a comment to contain toxic language the commenter must modify it in order to publish it
+
+a local dutch media group used ai to create automatic coverage of amateur soccer set to cover 60 000 games in just a single season ndc partnered with united robots to create this algorithm and cover what would have never been possible before without an extremely large team
+
+lede ai has been used in 2023 to take scores from high school football games to generate stories automatically for the local newspaper this was met with significant criticism from readers for the very robotic diction that was published with some descriptions of games being a close encounter of the athletic kind readers were not pleased and let the publishing company gannett know on social media gannett has since halted their used of lede ai until they come up with a solution for what they call an experiment
+
+some editors of wikimedia projects use artificial intelligence ai and machine learning programs to edit existing articles or create new ones
+
+some applications of artificial intelligence like using large language models llms to create new articles from scratch have been more controversial than others for the wikipedia community in august 2025 english wikipedia adopted a policy that allowed editors to nominate suspected llm generated articles for speedy deletion this was followed by a march 2026 decision to prohibit the use of llms to generate or rewrite article content with exceptions for copyediting one s own writing and machine translation from another language s wikipedia
+
+wikipedia has also been a significant source of training data for some of the earliest artificial intelligence projects this has received mixed reactions including concern about companies not citing wikipedia when relying on it to answer a question as well as wikipedia s increased costs from data scraping
+
+millions of its articles have been edited by bots which however are usually not artificial intelligence software many ai platforms use wikipedia data mainly for training machine learning applications there is research and development of various artificial intelligence applications for wikipedia such as for identifying outdated sentences detecting covert vandalism or recommending articles and tasks to new editors
+
+machine translation see above has also be used for translating wikipedia articles and could play a larger role in creating updating expanding and generally improving articles in the future a content translation tool allows editors of some wikipedias to more easily translate articles across several select languages
+
+in video games ai is routinely used to generate behavior in non player characters npcs in addition ai is used for pathfinding games with less typical ai include the ai director of left 4 dead 2008 and the neuroevolutionary training of platoons in supreme commander 2 2010 ai is also used in alien isolation 2014 as a way to control the actions the alien will perform next
+
+games have been a major application relevant of ai s capabilities since the 1950s in the 21st century ais have beaten human players in many games including chess deep blue jeopardy watson go alphago excessive citations poker pluribus and cepheus e sports starcraft and general game playing alphazero and muzero excessive citations
+
+kuki ai is a set of chatbots and other apps which were designed for entertainment and as a marketing tool
+
+the first ai art program called aaron was developed by harold cohen in 1968 with the goal of being able to code the act of drawing it started by creating simple black and white drawings and later to painting using special brushes and dyes that were chosen by the program itself without mediation from cohen
+
+ai platforms such as dall e stable diffusion imagen and midjourney have been used for generating visual images from inputs such as text or other images some ai tools allow users to input images and output changed versions of that image such as to display an object or product in different environments ai image models can also attempt to replicate the specific styles of artists and can add visual complexity to rough sketches
+
+ai has been used to generate quantitative analysis of existing digital art collections two computational methods close reading and distant viewing are the typical approaches used to analyze digitized art while distant viewing includes the analysis of large collections close reading involves one piece of artwork
+
+in 2023 netflix of japan s usage of ai to generate background images for short the dog the boy was met with backlash online
+
+financial institutions have long used artificial neural network systems to detect charges or claims outside of the norm flagging these for human investigation the use of ai in banking began in 1987 when security pacific national bank launched a fraud prevention task force to counter the unauthorized use of debit cards
+
+banks use ai to organize operations for bookkeeping investing in stocks and managing properties ai can adapt to changes during non business hours ai is used to combat fraud and financial crimes by monitoring behavioral patterns for any abnormal changes or anomalies
+
+the use of ai in applications such as online trading and decision making has changed major economic theories for example ai based buying and selling platforms estimate personalized demand and supply curves thus enabling individualized pricing ai systems reduce information asymmetry in the market and thus make markets more efficient the application of artificial intelligence in the financial industry can alleviate the financing constraints of non state owned enterprises especially for smaller and more innovative enterprises
+
+large financial institutions use ai to assist with their investment practices blackrock s ai engine aladdin is used both within the company and by clients to help with investment decisions its functions include the use of natural language processing to analyze text such as news broker reports and social media feeds it then gauges the sentiment on the companies mentioned and assigns a score banks such as ubs and deutsche bank use sqreem sequential quantum reduction and extraction model to mine data to develop consumer profiles and match them with wealth management products
+
+online lender upstart uses machine learning for underwriting
+
+zestfinance s zest automated machine learning zaml platform is used for credit underwriting this platform uses machine learning to analyze data including purchase transactions and how a customer fills out a form to score borrowers the platform is handy for assigning credit scores to those with limited credit histories
+
+ai makes continuous auditing possible potential benefits include reducing audit risk increasing the level of assurance and reducing audit duration quantify
+
+continuous auditing with ai allows real time monitoring and reporting of financial activities and provides businesses with timely insights that can lead to quick decision making
+
+ai software such as laundrograph which uses contemporary suboptimal datasets could be used for anti money laundering aml
+
+in the 1980s ai started to become prominent in finance as expert systems were commercialized for example dupont created 100 expert systems which helped them to save almost 10 million per year one of the first systems was the pro trader expert system that predicted the 87 point drop in the dow jones industrial average in 1986 the major junctions of the system were to monitor premiums in the market determine the optimum investment strategy execute transactions when appropriate and modify the knowledge base through a learning mechanism
+
+one of the first expert systems to help with financial plans was planpowerm and client profiling system created by applied expert systems apex it was launched in 1986 it helped create personal financial plans for people
+
+in the 1990s ai was applied to fraud detection in 1993 fincen artificial intelligence system fais was launched it was able to review over 200 000 transactions per week and over two years it helped identify 400 potential cases of money laundering equal to 1 billion these expert systems were later replaced by machine learning systems
+
+outside finance the late 1980s and early 1990s also saw expert systems used in technical and environmental domains for example researchers built a fishway design advisor to recommend fish passage structures under varying hydraulic and biological conditions using the vp expert shell transportation researchers applied the same shell to balance airport capacity with noise mitigation plans in agriculture a potato insect expert system pies supported pest management decisions for colorado potato beetle the u s environmental protection agency s cormix system for modeling pollutant discharges combined rules with fortran hydrodynamic models
+
+in the european union the artificial intelligence act regulation eu 2024 1689 classifies several finance sector uses of ai as high risk including systems used to evaluate the creditworthiness of natural persons or to establish a credit score and ai used for risk assessment and pricing in life or health insurance these systems must meet requirements on risk management data governance technical documentation and logging transparency and human oversight the act s obligations are phased in prohibitions and ai literacy rules apply from 2 february 2025 governance and most gpai duties from 2 august 2025 the bulk of obligations from 2 august 2026 and certain safety component high risk obligations from 2 august 2027
+
+ai in healthcare is often used for classification to evaluate a ct scan or electrocardiogram or to identify high risk patients for population health ai is helping with the high cost problem of dosing one study suggested that ai could save 16 billion in 2016 a study reported that an ai derived formula derived the proper dose of immunosuppressant drugs to give to transplant patients current research timeframe clarification needed has indicated that non cardiac vascular illnesses are also being treated with artificial intelligence ai for certain disorders ai algorithms can aid in diagnosis recommended treatments outcome prediction and patient progress tracking as ai technology advances it is anticipated that it will become more significant in the healthcare industry
+
+the early detection of diseases like cancer is made possible by ai algorithms which diagnose diseases by analyzing complex sets of medical data for example the ibm watson system might be used to comb through massive data such as medical records and clinical trials to help diagnose a problem independent source needed microsoft s ai project hanover helps doctors choose cancer treatments from among the more than 800 medicines and vaccines its goal is to memorize all the relevant papers to predict which combinations of drugs will be most effective for each patient myeloid leukemia is one target another study reported on an ai that was as good as doctors in identifying skin cancers another project monitors multiple high risk patients by asking each patient questions based on data acquired from doctor patient interactions in one study done with transfer learning an ai diagnosed eye conditions similar to an ophthalmologist and recommended treatment referrals
+
+another study demonstrated surgery with an autonomous robot the team supervised the robot while it performed soft tissue surgery stitching together a pig s bowel judged better than a surgeon
+
+artificial neural networks are used as clinical decision support systems for medical diagnosis such as in concept processing technology in emr software
+
+other healthcare tasks thought suitable for an ai that are in development include
+
+ai enabled chatbots decrease the need for humans to perform basic call center tasks and machine learning in sentiment analysis can spot fatigue in order to prevent overwork
+
+decision support systems can potentially prevent industrial disasters and make disaster response more efficient for manual workers in material handling predictive analytics has been proposed to reduce musculoskeletal injury
+
+ai can attempt to process workers compensation claims ai has been proposed for detection of accident near misses which are underreported
+
+machine learning has been used for drug design drug discovery and development drug repurposing improving pharmaceutical productivity and clinical trials
+
+computer planned syntheses via computational reaction networks described as a platform that combines computational synthesis with ai algorithms to predict molecular properties has been used in drug syntheses and developing routes for recycling 200 industrial waste chemicals into important drugs and agrochemicals chemical synthesis design it has also been used to explore the origins of life on earth
+
+deep learning has been used with databases for the development of a 46 day process to design synthesize and test a drug which inhibits enzymes of a particular gene ddr1 ddr1 is involved in cancers and fibrosis which is one reason for the high quality datasets that enabled these results
+
+the ai program alphafold 2 can determine the 3d structure of a folded protein in hours rather than the months required by earlier automated approaches and was used to provide the likely structures of all proteins in the human body and essentially all proteins known to science more than 200 million excessive citations
+
+speech translation technology attempts to convert one language s spoken words into another language this potentially reduces language barriers in global commerce and cross cultural exchange enabling speakers of various languages to communicate with one another
+
+ai has been used to automatically translate spoken language and textual content in products such as microsoft translator google translate and deepl translator additionally research and development are in progress to decode and conduct animal communication
+
+meaning is conveyed not only by text but also through usage and context see semantics and pragmatics as a result the two primary categorization approaches for machine translations are statistical machine translation smt and neural machine translations nmts the old method of performing translation was to use statistical methodology to forecast the best probable output with specific algorithms however with nmt the approach employs dynamic algorithms to achieve better translations based on context
+
+ai facial recognition systems are used for mass surveillance notably in china in 2019 bengaluru india deployed ai managed traffic signals this system uses cameras to monitor traffic density and adjust signal timing based on the interval needed to clear traffic
+
+ai is a mainstay of law related professions algorithms and machine learning do some tasks previously done by entry level lawyers while its use is common it is not expected to replace most work done by lawyers in the near future
+
+the electronic discovery industry uses machine learning to reduce manual searching
+
+law enforcement has begun using facial recognition systems frs to identify suspects from visual data frs results have proven to be more accurate when compared to eyewitness results furthermore frs has shown to have much a better ability to identify individuals when video clarity and visibility are low in comparison to human participants
+
+compas is a commercial system used by u s courts to assess the likelihood of recidivism
+
+one concern relates to algorithmic bias ai programs may become biased after processing data that exhibits bias propublica claims that the average compas assigned recidivism risk level of black defendants is significantly higher than that of white defendants
+
+in 2019 the city of hangzhou china established a pilot program artificial intelligence based internet court to adjudicate disputes related to ecommerce and internet related intellectual property claims 124 parties appear before the court via videoconference and ai evaluates the evidence presented and applies relevant legal standards 124
+
+artificial intelligence has been combined with digital spectrometry by ideacuria inc enable applications such as at home water quality monitoring
+
+in the 1990s early artificial intelligence tools controlled tamagotchis and giga pets the internet and the first widely released robot furby aibo was a domestic robot in the form of a robotic dog with intelligent features and autonomy
+
+mattel created an assortment of ai enabled toys that understand conversations give intelligent responses and learn
+
+oil and gas companies have used artificial intelligence tools to automate functions foresee equipment issues and increase oil and gas output
+
+ai tools have been used to translate mathematical proofs into formal proofs in order to automatically verify them
+
+automated theorem proving also known as atp or automated deduction is a subfield of automated reasoning and mathematical logic dealing with proving mathematical theorems by computer programs automated reasoning over mathematical proof was a major motivating factor for the development of computer science
+
+alphageometry is an artificial intelligence ai program that can solve hard problems in euclidean geometry the system comprises a data driven large language model llm and a rule based symbolic engine deductive database arithmetic reasoning it was developed by deepmind a subsidiary of google the program solved 25 geometry problems out of 30 from the international mathematical olympiad imo under competition time limits a performance almost as good as the average human gold medallist for comparison the previous ai program called wu s method managed to solve only 10 problems
+
+deepmind published a paper about alphageometry in the peer reviewed journal nature on 17 january 2024 alphageometry was featured in mit technology review on the same day
+
+traditional geometry programs are symbolic engines that rely exclusively on human coded rules to generate rigorous proofs which makes them lack flexibility in unusual situations alphageometry combines such a symbolic engine with a specialized large language model trained on synthetic data of geometrical proofs when the symbolic engine doesn t manage to find a formal and rigorous proof on its own it solicits the large language model which suggests a geometrical construct to move forward however it is unclear how applicable this method is to other domains of mathematics or reasoning because symbolic engines rely on domain specific rules and because of the need for synthetic data
+
+various countries are deploying ai military applications research is targeting intelligence collection and analysis logistics cyber operations information operations and semiautonomous and autonomous vehicles
+
+ai has been used in military operations in iraq syria israel and ukraine excessive citations
+
+ai has been used in b2b sourcing and procurement academic literature and industry reports point out uses of ai for supplier evaluation and selection predictive demand forecasting automated contract and invoice processing and supply chain risk assessment machine learning natural language processing and robotic process automation are commonly used in procurement
+
+machine learning has been used for recommendation systems in determining which posts should show up in social media feeds various types of social media analysis also make use of machine learning and there is research into its use for semi automated tagging enhancement correction of online misinformation and related filter bubbles
+
+ai has been used to customize shopping options and personalize offers online gambling companies have used ai for targeting gamblers
+
+intelligent personal assistants use ai to attempt to respond to natural language requests siri released in 2010 for apple smartphones popularized the concept
+
+bing chat has used artificial intelligence as part of its search engine
+
+machine learning can be used to combat spam scams and phishing it can scrutinize the contents of spam and phishing attacks to attempt to identify malicious elements some models built via machine learning algorithms have over 90 accuracy in distinguishing between spam and legitimate emails these models can be refined using new data and evolving spam tactics machine learning also analyzes traits such as sender behavior email header information and attachment types potentially enhancing spam detection
+
+ai has been used in facial recognition systems some examples are apple s face id and android s face unlock which are used to secure mobile devices
+
+china has used facial recognition and artificial intelligence technology in xinjiang in 2017 reporters visiting the region found surveillance cameras installed every hundred meters or so in several cities as well as facial recognition checkpoints at areas like gas stations shopping centers and mosque entrances human rights groups have criticized the chinese government for using artificial intelligence facial recognition technology for use in political suppression
+
+the netherlands has deployed facial recognition and artificial intelligence technology since 2016 the database of the dutch police currently timeframe contains over 2 2 million pictures of 1 3 million dutch citizens this accounts for about 8 of the population in the netherlands face recognition is not used by the police on municipal cctv
+
+image labeling has been used by google image labeler to detect products in photos and to allow people to search based on a photo image labeling has also been demonstrated to generate speech to describe images to blind people
+
+in april 2024 the scientific advice mechanism to the european commission published advice including a comprehensive evidence review of the opportunities and challenges posed by artificial intelligence in scientific research
+
+as benefits the evidence review highlighted
+
+as challenges
+
+machine learning can help to restore and attribute ancient texts it can help to index texts for example to enable better and easier searching and classification of fragments
+
+
+artificial intelligence can also be used to investigate genomes to uncover genetic history such as interbreeding between archaic and modern humans by which for example the past existence of a ghost population not neanderthal or denisovan was inferred
+
+it can also be used for non invasive and non destructive access to internal structures of archaeological remains
+a deep learning system was reported to learn intuitive physics from visual data of virtual 3d environments based on an unpublished approach inspired by studies of visual cognition in infants other researchers have developed a machine learning algorithm that could discover sets of basic variables of various physical systems and predict the systems future dynamics from video recordings of their behavior in the future it may be possible that such can be used to automate the discovery of physical laws of complex systems
+
+in november 2023 researchers at google deepmind and lawrence berkeley national laboratory announced that the ai system gnome had documented over 2 million new materials gnome uses deep learning techniques to examine potential material structures and identify stable inorganic crystal structures the system s predictions were validated through autonomous robotic experiments with a success rate of 71 the data of newly discovered materials is publicly available through the materials project database
+
+machine learning is used in diverse types of reverse engineering for example machine learning has been used to reverse engineer a composite material part enabling unauthorized production of high quality parts and for quickly understanding the behavior of malware it can be used to reverse engineer artificial intelligence models it can also design components by engaging in a type of reverse engineering of not yet existent virtual components such as inverse molecular design for particular desired functionality or protein design for pre specified functional sites biological network reverse engineering could model interactions in a human understandable way e g bas on time series data of gene expression levels
+
+artificial intelligence is used in astronomy to analyze increasing amounts of available data and applications mainly for classification regression clustering forecasting generation discovery and the development of new scientific insights for example for discovering exoplanets forecasting solar activity and distinguishing between signals and instrumental effects in gravitational wave astronomy it could also be used for activities in space such as space exploration including analysis of data from space missions real time science decisions of spacecraft space debris avoidance and more autonomous operation
+
+in the search for extraterrestrial intelligence seti machine learning has been used in attempts to identify artificially generated electromagnetic waves in available data such as real time observations and other technosignatures e g via anomaly detection in ufology the skycam 5 project headed by prof hakan kayal and the galileo project headed by avi loeb use machine learning to attempt to detect and classify types of ufos excessive citations the galileo project also seeks to detect two further types of potential extraterrestrial technological signatures with the use of ai oumuamua like interstellar objects and non manmade artificial satellites
+
+machine learning can also be used to produce datasets of spectral signatures of molecules that may be involved in the atmospheric production or consumption of particular chemicals such as phosphine possibly detected on venus which could prevent miss assignments and if accuracy is improved be used in future detections and identifications of molecules on other planets
+
+there is research about which types of computer aided chemistry would benefit from machine learning a deep learning ai based process has been developed that uses genome databases to design novel proteins based on evolutionary algorithms
+machine learning has also been used for protein design with pre specified functional sites predicting molecular properties and exploring large chemical reaction spaces
+
+using drug discovery ai algorithms researchers generated 40 000 potential chemical weapon candidates helping in the regulation of such chemicals to prevent synthesizing them for real harm
+
+there are various types of applications for machine learning in decoding human biology such as helping to map gene expression patterns to functional activation patterns or identifying functional dna motifs it is widely used in genetic research
+there also is some use of machine learning in synthetic biology disease biology nanotechnology e g nanostructured materials and bionanotechnology and materials science
+
+cyber security companies are adopting neural networks machine learning and natural language processing to improve their systems
+
+applications of ai in cyber security include
+
+the use of artificial intelligence is increasingly observed in the aviation industry for predictive maintenance this has been helpful in reducing delays companies such as boeing and airbus are using ai to optimize repair procedures while maintaining operational performance
+
+transportation s complexity means that in most cases training an ai in a real world driving environment is impractical and is achieved through simulator based testing ai based systems control functions such as braking lane changing collision prevention navigation and mapping
+
+some autonomous vehicles do not allow human drivers they have no steering wheels or pedals
+
+there are prototypes of autonomous automotive public transport vehicles such as autonomous rail transport in operation electric mini buses and autonomous delivery vehicles including delivery robots
+
+autonomous trucks are in the testing phase the uk government passed legislation to begin testing of autonomous truck platoons in 2018 a group of autonomous trucks follow closely behind each other german corporation daimler is testing its freightliner inspiration
+
+ai has been used to optimize traffic management which can reduce wait times energy use and emissions
+
+aircraft simulators use ai for training aviators flight conditions can be simulated that allow pilots to make mistakes without risking themselves or expensive aircraft air combat can also be simulated
+
+ai can also be used to operate planes analogously to their control of ground vehicles autonomous drones can fly independently or in swarms
+
+aod uses the interactive fault diagnosis and isolation system or ifdis which is a rule based expert system using information from tf 30 documents and expert advice from mechanics that work on the tf 30 this system was designed to be used for the development of the tf 30 for the f 111c the system replaced specialized workers the system allowed regular workers to communicate with the system and avoid mistakes miscalculations or having to speak to one of the specialized workers
+
+speech recognition allows traffic controllers to give verbal directions to drones
+
+artificial intelligence supported design of aircraft or aida is used to help designers in the process of creating conceptual designs of aircraft this program allows the designers to focus more on the design itself and less on the design process the software also allows the user to focus less on the software tools the aida uses rule based systems to compute its data this is a diagram of the arrangement of the aida modules although simple the program is proving effective
+
+in 2003 a dryden flight research center project created software that could enable a damaged aircraft to continue flight until a safe landing can be achieved the software compensated for damaged components by relying on the remaining undamaged components
+
+the 2016 intelligent autopilot system combined apprenticeship learning and behavioral cloning whereby the autopilot observed low level actions required to maneuver the airplane and high level strategy used to apply those actions
+
+neural networks are used by situational awareness systems in ships and boats there also are autonomous boats

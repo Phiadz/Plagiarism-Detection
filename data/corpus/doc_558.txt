@@ -1,0 +1,150 @@
+
+
+prompt engineering is the process of structuring natural language inputs known as prompts to produce specified outputs from a generative artificial intelligence genai model context engineering is the related area of software engineering that focuses on the management of non prompt contexts supplied to the genai model such as metadata api tools and tokens
+
+it can also be defined as the practice of designing and refining input instructions given to a generative ai model in order to produce more accurate relevant or useful outputs effective prompt engineering involves understanding how a model interprets language and may include techniques such as few shot prompting chain of thought prompting and role assignment it is increasingly considered a key skill for working with large language models llms in both research and professional contexts
+
+during the 2020s ai boom prompt engineering became regarded as an important business capability across corporations and industries employees with the title prompt engineer were hired to create prompts that would increase productivity and efficacy although the individual title has since lost traction in light of ai models that produce better prompts than humans and corporate training in prompting for general employees
+
+common prompting techniques include multi shot chain of thought and tree of thought prompting as well as the use of assigning roles to the model automated prompt generation methods such as retrieval augmented generation rag provide for greater accuracy and a wider scope of functions for prompt engineers prompt injection is a type of cybersecurity attack that targets machine learning models through malicious prompts
+
+the oxford english dictionary defines prompt engineering as the action or process of formulating and refining prompts for an artificial intelligence program algorithm etc in order to optimize its output or to achieve a desired outcome the discipline or profession concerned with this in 2023 prompt an instruction given to an artificial intelligence program algorithm etc which determines or influences the content it generates was the runner up to oxford s word of the year
+
+a prompt is some natural language text that describes and prescribes the task that an artificial intelligence ai should perform a prompt for a text to text language model can be a query a command or a longer statement referencing context instructions and conversation history the process of prompt engineering may involve designing clear queries refining wording providing relevant context specifying the style of output and assigning a character for the ai to mimic in order to guide the model toward more accurate useful and consistent responses
+
+when communicating with a text to image or a text to audio model a typical prompt contains a description of a desired output such as a high quality photo of an astronaut riding a horse or lo fi slow bpm electro chill with organic samples prompt engineering may be applied to text to image models to achieve a desired subject style layout lighting and aesthetic
+
+common terms used to describe various specific prompt engineering techniques include chain of thought tree of thought and retrieval augmented generation rag a 2024 survey of the field identified over 50 distinct text based prompting techniques 40 multimodal variants and a vocabulary of 33 terms used across prompting research highlighting a present lack of standardised terminology for prompt engineering
+
+vibe coding is an ai assisted software development method where a user prompts an llm with a description of what they want and lets it generate or edit the code in 2025 vibe coding was the collins dictionary word of the year
+
+context engineering is a related process that focuses on the context elements that accompany user prompts which include system instructions retrieved knowledge tool definitions conversation summaries and task metadata context engineering is performed to improve reliability provenance and token efficiency in production llm systems the concept emphasises operational practices such as token budgeting provenance tags versioning of context artifacts observability logging which context was supplied and context regression tests to ensure that changes to supplied context do not silently alter system behaviour
+
+research has found that the performance of large language models llms is highly sensitive to choices such as the ordering of examples the quality of demonstration labels and even small variations in phrasing in some cases reordering examples in a prompt produced accuracy shifts of more than 40 percent
+
+a model s ability to temporarily learn from prompts is known as in context learning in context learning is an emergent ability of large language models it is an emergent property of model scale meaning that breaks in scaling laws occur leading to its efficacy increasing at a different rate in larger models than in smaller models unlike training and fine tuning which produce lasting changes in context learning is temporary training models to perform in context learning can be viewed as a form of meta learning or learning to learn
+
+research consistently demonstrates that llms are highly sensitive to subtle variations in prompt formatting structure and linguistic properties some studies have shown up to 76 accuracy points across formatting changes in few shot settings linguistic features significantly influence prompt effectiveness such as morphology syntax and lexico semantic changes which meaningfully enhance task performance across a variety of tasks clausal syntax for example improves consistency and reduces uncertainty in knowledge retrieval this sensitivity persists even with larger model sizes additional few shot examples or instruction tuning
+
+to address sensitivity of models and make them more robust several evaluative methods have been proposed formatspread facilitates systematic analysis by evaluating a range of plausible prompt formats offering a more comprehensive performance interval similarly prompteval estimates performance distributions across diverse prompts enabling robust metrics such as performance quantiles and accurate evaluations under constrained budgets
+
+a prompt may include a few examples for a model to learn from in context an approach called few shot learning for example the prompt may ask the model to complete maison house chat cat chien with the expected response being dog
+
+chain of thought cot prompting is a technique that allows large language models llms to solve a problem as a series of intermediate steps before giving a final answer in 2022 google brain reported that chain of thought prompting improves reasoning ability by inducing the model to answer a multi step problem with steps of reasoning that mimic a train of thought chain of thought techniques were developed to help llms handle multi step reasoning tasks such as arithmetic or commonsense reasoning questions
+
+when applied to palm a 540 billion parameter language model according to google cot prompting significantly aided the model allowing it to perform comparably with task specific fine tuned models on several tasks achieving state of the art results at the time on the gsm8k mathematical reasoning benchmark it is possible to fine tune models on cot reasoning datasets to enhance this capability further and stimulate better interpretability
+
+as originally proposed by google each cot prompt is accompanied by a set of input output examples called exemplars to demonstrate the desired model output making it a few shot prompting technique however according to a later paper from researchers at google and the university of tokyo simply appending the words let s think step by step was also effective which allowed for cot to be employed as a zero shot technique
+
+self consistency performs several chain of thought rollouts then selects the most commonly reached conclusion out of all the rollouts
+
+tree of thought prompting generalizes chain of thought by generating multiple lines of reasoning in parallel with the ability to backtrack or explore other paths it can use tree search algorithms like breadth first depth first or beam
+
+in 2022 text to image models like dall e 2 stable diffusion and midjourney were released to the public these models take text prompts as input and use them to generate images early text to image models typically do not understand negation grammar and sentence structure in the same way as large language models and may thus require a different set of prompting techniques the prompt a party with no cake may produce an image including a cake
+
+a text to image prompt commonly includes a description of the subject of the art the desired medium such as digital painting or photography style such as hyperrealistic or pop art lighting such as rim lighting or crepuscular rays color and texture word order also affects the output of a text to image prompt words closer to the start of a prompt may be emphasized more heavily
+
+some text to image models are capable of imitating the style of particular artists by name for example the phrase in the style of greg rutkowski has been used in stable diffusion and midjourney prompts to generate images in the distinctive style of polish digital artist greg rutkowski famous artists such as vincent van gogh and salvador dalí have also been used for styling and testing
+
+for text to image models textual inversion performs an optimization process to create a new word embedding based on a set of example images this embedding vector acts as a pseudo word which can be included in a prompt to express the content or style of the examples
+
+in 2023 meta s ai research released segment anything a computer vision model that can perform image segmentation by prompting as an alternative to text prompts segment anything can accept bounding boxes segmentation masks and foreground background points
+
+the process of writing and refining a prompt for an llm or generative ai shares some parallels with an iterative engineering design process such as by discovering reusable best practices through reproducible experimentation but the techniques that improve performance depend heavily on the specific model being used such patterns are also volatile and exhibit significantly different results from seemingly insignificant prompt changes
+
+recent research has explored automated prompt engineering using optimization algorithms to generate or refine prompts without human intervention these automated approaches aim to identify effective prompt patterns by analyzing model gradients reinforcement feedback or evolutionary processes reducing the need for manual experimentation
+
+retrieval augmented generation is a technique that enables genai models to retrieve and incorporate new information it modifies interactions with an llm so that the model responds to user queries with reference to a specified set of documents using this information to supplement information from its pre existing training data this allows llms to use domain specific and or updated information
+
+rag improves large language models by incorporating information retrieval before generating responses unlike traditional llms that rely on static training data rag pulls relevant text from databases uploaded documents or web sources by dynamically retrieving information rag enables ai to generate more accurate responses and fewer ai hallucinations without frequent retraining
+
+graphrag coined by microsoft research is a technique that extends rag with the use of a knowledge graph to allow the model to connect disparate pieces of information synthesize insights and understand summarized semantic concepts over large data collections it was shown to be effective on datasets like the violent incident information from news articles
+
+llms themselves can be used to compose prompts for llms the automatic prompt engineer algorithm uses one llm to beam search over prompts for another llm
+
+cot examples can be generated by llm themselves in auto cot a library of questions are converted to vectors by a model such as bert the question vectors are clustered questions close to the centroid of each cluster are selected in order to have a subset of diverse questions an llm does zero shot cot on each selected question the question and the corresponding cot answer are added to a dataset of demonstrations these diverse demonstrations can then added to prompts for few shot learning
+
+automatic prompt optimization techniques refine prompts for large language models by automatically searching over alternative prompt strings using evaluation datasets and task specific metrics
+
+in prefix tuning prompt tuning or soft prompting floating point vectors are searched directly by gradient descent to maximize the log likelihood on outputs an earlier result uses the same idea of gradient descent search but is designed for masked language models like bert and searches only over token sequences rather than numerical vectors formally it searches for
+
+
+
+arg
+
+
+max
+
+
+
+x
+
+
+
+
+
+
+
+
+i
+
+
+log
+
+p
+r
+
+
+y
+
+i
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+x
+
+i
+
+
+
+
+
+displaystyle arg max _ tilde x sum _ i log pr y i tilde x ast x i
+
+where
+
+
+
+
+
+
+x
+
+
+
+
+
+
+displaystyle tilde x
+
+ranges over token sequences of a specified length
+
+early precedents of structured user interaction with ruled based ai systems can be found in enterprise automation software from 1990s for example the intelligent filling manager 1999 developed by krishna c mukherjee used a dynamic q a interface driven by rule based expert system to collect user inputs for generating regulatory filings automatically across jurisdictions while not involving neural networks such systems featured prompt like workflows that influenced later human in the loop ai designs in 2018 researchers first proposed that all previously separate tasks in natural language processing nlp could be cast as question answer problems over a context in addition they trained a first single joint multi task model that would answer any task related question like what is the sentiment or translate this sentence to german or who is the president
+
+the ai boom saw an increased focus within academic literature and professional practice on applying prompting techniques to get the model to output the desired outcome and avoid nonsensical output a process characterized by trial and error after the release of chatgpt in 2022 prompt engineering was soon seen as an important business skill companies began hiring dedicated prompt engineers although given advances in ai s ability to generate prompts better than humans the employment market for prompt engineers has faced uncertainty according to the wall street journal in 2025 the job of prompt engineer was one of the hottest in 2023 but has become obsolete due to models that better intuit user intent and to company trainings
+
+a repository for prompts reported that over 2 000 public prompts for around 170 datasets were available in february 2022 in 2022 the chain of thought prompting technique was proposed by google researchers in 2023 several text to text and text to image prompt databases were made publicly available the personalized image prompt pip dataset a generated image text dataset that has been categorized by 3 115 users has also been made available publicly in 2024
+
+prompt injection is a cybersecurity exploit in which adversaries craft inputs that appear legitimate but are designed to cause unintended behavior in machine learning models particularly large language models this attack takes advantage of the model s inability to distinguish between developer defined prompts and user inputs allowing adversaries to bypass safeguards and influence model behaviour while llms are designed to follow trusted instructions they can be manipulated into carrying out unintended responses through carefully crafted inputs

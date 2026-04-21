@@ -1,0 +1,49 @@
+
+
+dhanurjay dj patil born august 3 1974 is an american mathematician and computer scientist who served as the chief data scientist of the united states office of science and technology policy from 2015 to 2017 he is the head of technology for devoted health
+he previously served as the vice president of product at relateiq which was acquired by salesforce com as chief product officer of color labs and as head of data products and chief scientist of linkedin his father suhas patil is a venture capitalist and the founder of cirrus logic
+
+patil attended kennedy middle school monta vista high school and de anza college all in cupertino california while at kennedy he participated in a student exchange program visiting toyokawa cupertino s sister city in japan in 1988 in high school he often got into trouble and graduated in 1992 near the bottom of his class he followed his girlfriend to de anza community college which he attended for one year he earned a b a in mathematics from earl warren college at university of california san diego he received a phd in applied mathematics from the university of maryland college of computer mathematical and natural sciences citation needed while a faculty member at university of maryland college park he used open datasets published by noaa to improve numerical weather forecasting citation needed
+
+patil has held positions at linkedin greylock partners skype paypal and ebay
+
+in 2004 patil worked in the advanced systems and concepts office in the department of defense he served as the project leader for the threat anticipation project his role was to anticipate threats connected to and surrounding terrorism weapons of mass destruction and failed states with an emphasis on human rights violations employing social network analysis to help anticipate these threats patil described himself as part of the second wave of people who were to use data to detect signalled noise a concern which grew following the 9 11 attacks
+
+while a data scientist in residence at greylock partners patil produced building data science teams the book provides advice and strategies on creating data science teams in business and technology it was published by o reilly media
+
+patil wrote data jujitsu the art of turning data into product also while a data scientist in residence at greylock partners the book gives instructions as to solving data science problems and whether they are worth solving at all it was also published by o reilly media
+
+on february 18 2015 the white house announced patil would be the first u s chief data scientist deputy chief technology officer for data policy and chief data scientist in addresses to the public patil explained the mission of the u s chief data scientist simply put is to responsibly unleash the power of data to benefit all americans he added that his team s priority was to do so by creating data
+
+in a memorandum on february 20 2015 entitled unleashing the power of data to serve the american people patil outlined his goals as chief data scientist
+
+in his tenure patil helped launch the white house s police data initiative as well as the white house s data driven justice initiative collecting data on police activities and worked on the precision medicine initiative aiming to build the largest database on genetic information
+
+in 2015 president obama initiated the president s task force on 21st century policing in response to the ferguson shootings in 2014 included were the police data initiative and the data driven justice initiative
+
+the police data initiative aimed to build trust between the police and their communities by releasing data sets on stops and searches uses of force officer involved shootings or other police actions
+
+open data was also thought to increase accountability within the police the initiative had gathered 126 jurisdictions across the country
+
+the information would enable investigation into patterns of injustice as well as the ability to see if systems in place were wanted or working police departments struggled to release their data primarily because it was not collected well as patil had mentioned in an interview disorganized datasets had prevented accurate assessments patil proposed that this was due to the absence of a dedicated technician whose purpose is to organize the data efforts were taken to improve coding abilities of police superintendents and homogenizing organization across the 18 000 jurisdictions on board
+
+more than 170 datasets were released at the start of the initiative in 2015
+
+with open police data patil saw that data helped track law enforcement actions disproportionate interactions with minorities the poor and those with mental health concerns in a memorandum to the american people patil said if all the data from law enforcement were effectively captured analyzed and shared imagine how the effective and analysis of data could advance proven reforms increase efficiency and prevent injustice efforts to decrease the injustice is considered the data driven justice initiative ddj
+ddj aimed to help governments from the county to the state level to filter low level offenders and those with mental illness from higher level offenders and the criminal system at large changing the approach to pre trial incarceration would allow low risk offenders to shorten jail time especially if they cannot afford bail
+at its start in 2015 more than 91 million people are covered by the ddj
+
+patil had a special interest in using data to improve the medical field by way of the precision medicine initiative pmi pmi aimed to build the largest database of genomic information to increase understanding of cancer treatments chronic disease and rare diseases
+the initiative was started as there is not a current dataset in which analyses and correlations can be made across gender and ethnic diversities this would help with curing diseases but also understand the health of the general population patil had often stated that it would be helpful because one may very well be able to see what diseases are not actually rare but very common a key issue in pmi that patil worked on was of trust
+considering vulnerability and the issue of ethics that arises in pursuing an initiative pmi patil sought to develop workshops and listening sessions to hear specific concerns regarding the initiative based on the feedback patil devised the privacy and trust principles
+the first principle in its section entitled data sharing access and use is that data access use and sharing should be permitted for authorized purposes only
+
+concerned with maintaining these principles grew for the future as patil addressed concerns about the effect of american healthcare act ahca on contributions to pmi he feared that with the ahca people will be scared to donate their genomic information because it will expose pre existing conditions while there are protections in place to secure data privacy such as the genetic information nondiscrimination act gina instilled in 2008 patil expressed a worry that the act would not be heeded
+
+patil was a member of the national infrastructure advisory council before resigning in august 2017
+
+in october 2017 it was reported that patil had joined the executive team of devoted health he is currently the head of technology
+
+on november 14 2017 patil announced that he was joining the american venture capital firm venrock as an adviser
+
+in february 2023 patil became a general partner at greatpoint ventures

@@ -1,0 +1,23 @@
+
+
+peter naur 25 october 1928 3 january 2016 was a danish computer science pioneer and 2005 turing award winner he is best remembered as a contributor with john backus to the backus naur form bnf notation used in describing the syntax for most programming languages he also contributed to creating the language algol 60
+
+naur began his career as an astronomer for which he received his doctor of philosophy ph d degree in 1957 but his encounter with computers led to a change of profession from 1959 to 1969 he was employed at regnecentralen the danish computing company while at the same time giving lectures at the niels bohr institute and the technical university of denmark from 1969 to 1998 naur was a professor of computer science at university of copenhagen
+
+he was a member of the international federation for information processing ifip ifip working group 2 1 on algorithmic languages and calculi which specified supports and maintains the languages algol 60 and algol 68 between the years 1960 and 1993 he was a member of the editorial board for bit numerical mathematics a journal focused on numerical analysis
+
+naur s main areas of inquiry were design structure and performance of computer programs and algorithms he also pioneered in software engineering and software architecture in his book computing a human activity 1992 which is a collection of his contributions to computer science he rejected the formalist school of programming that views programming as a branch of mathematics he did not like being associated with the backus naur form attributed to him by donald knuth and said that he would prefer it to be called the backus normal form
+
+naur was married to computer scientist christiane floyd
+
+naur disliked the term computer science and suggested it be called datalogy or data science the former term has been adopted in denmark and sweden as datalogi while the latter term is now used for data analysis including statistics and databases
+
+since the middle 1960s computer science has been practiced in denmark under peter naur s term datalogy the science of data processes starting at regnecentralen and the university of copenhagen the copenhagen tradition of computer science has developed its own special characteristics by means of a close connection with applications and other fields of knowledge the tradition is not least visible in the area of education comprehensive project activity is an integral part of the curriculum thus presenting theory as an aspect of realistic solutions known primarily through actual experience peter naur early recognized the particular educational challenges presented by computer science his innovations have shown their quality and vitality also at other universities there is a close connection between computer science training as it has been formed at copenhagen university and the view of computer science which characterized peter naur s research
+
+in later years he was quite outspoken of the pursuit of science as a whole naur can possibly be identified with the empiricist school that tells that one shall not seek deeper connections between things that manifest themselves in the world but keep to the observable facts he has attacked both certain strands of philosophy and psychology from this viewpoint he was also developing a theory of human thinking which he called synapse state theory of mental life
+
+naur won the 2005 association for computing machinery acm a m turing award for his work on defining the programming language algol 60 in particular his role as editor of the influential report on the algorithmic language algol 60 with its pioneering use of bnf was recognized naur is the only dane to have won the turing award
+
+naur died on 3 january 2016 after a short illness his former home in gentofte was subsequently owned by the sociologist claire maxwell citation needed
+
+numbers refer to the bibliography published by e sveinsdottir and e frøkjær citation needed naur published a large number of articles and chapters on astronomy computer science issues in society classical music psychology and education

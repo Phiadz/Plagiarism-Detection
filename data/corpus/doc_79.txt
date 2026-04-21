@@ -1,0 +1,19 @@
+a notebook interface or computational notebook is a virtual notebook environment used for literate programming a method of writing computer programs some notebooks are wysiwyg environments including executable calculations embedded in formatted documents others separate calculations and text into separate sections notebooks share some goals and features with spreadsheets and word processors but go beyond their limited data models
+
+modular notebooks may connect to a variety of computational back ends called kernels notebook interfaces are widely used for statistics data science machine learning and computer algebra
+
+at the notebook core is the idea of literate programming tools which let you arrange the parts of a program in any order and extract documentation and code from the same source file the notebook takes this approach to a new level extending it with some graphic functionality and a focus on interactivity according to stephen wolfram the idea of a notebook is to have an interactive document that freely mixes code results graphics text and everything else and according to the jupyter project documentation the notebook extends the console based approach to interactive computing in a qualitatively new direction providing a web based application suitable for capturing the whole computation process developing documenting and executing code as well as communicating the results
+
+visicalc the first spreadsheet for personal computers was published in 1979 its idea of visual calculations is still widely used today but limited to documents that fit into a table
+
+research on wysiwyg mathematical systems supporting mixed text and calculations with a document metaphor begin to be published in 1987 ron avitzur s milo william schelter s infor xerox parc s tioga and caminoreal
+
+the earliest commercial system using the document metaphor was mathcad which also came out in 1987 wolfram mathematica 1 0 followed in 1988 later came maple 5 2 1992 and macsyma 2 0 1995
+
+as the notebook interface increased in popularity over the next two decades notebooks for various computational back ends kernels have been introduced including matlab python julia r scala elixir sql and others
+
+the variety of notebook interface has since been extended and new forms are still evolving
+
+notebooks are traditionally used in the sciences as electronic lab notebooks to document research procedures data calculations and findings notebooks track methodology to make it easier to reproduce results and calculations with different data sets in education the notebook interface provides a digital learning environment particularly for the teaching of computational thinking their utility for combining text with code makes them unique in the realm of education digital notebooks are sometimes used for presentations as an alternative to powerpoint and other presentation software as they allow for the execution of code inside the notebook environment due to their ability to display data visually and retrieve data from different sources by modifying code notebooks are also entering the realm of business intelligence software
+
+example of projects or products of notebooks

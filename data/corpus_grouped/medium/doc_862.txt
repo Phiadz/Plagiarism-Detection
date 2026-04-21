@@ -1,0 +1,35 @@
+hans peter moravec born november 30 1948 kautzen austria is a computer scientist and an adjunct faculty member at the robotics institute of carnegie mellon university in pittsburgh usa he is known for his work on robotics artificial intelligence and writings on the impact of technology moravec also is a futurist with many of his publications and predictions focusing on transhumanism moravec developed techniques in computer vision for determining the region of interest roi in a scene
+
+moravec attended loyola college in montreal for two years and transferred to acadia university where he received his bsc in mathematics in 1969 he received his msc in computer science in 1971 from the university of western ontario he then earned a phd in computer science from stanford university in 1980 for a tv equipped robot which was remotely controlled by a large computer the stanford cart the robot was able to negotiate cluttered obstacle courses another achievement in robotics was the discovery of new approaches for robot spatial representation such as 3d occupancy grids he also developed the idea of bush robots
+
+moravec joined the newly established robotics institute at carnegie mellon in 1980 as a research scientist becoming research professor in 1995 he has been an adjunct professor at the institute since 2005
+
+moravec was a cofounder of seegrid corporation of pittsburgh pennsylvania in 2003 which is a robotics company with one of its goals being to develop a fully autonomous robot capable of navigating its environment without human intervention
+
+he is also somewhat known for his work on space tethers
+
+hans moravec has made some concrete predictions as to the future of intelligence by estimating the computational cost measured in instructions per second of various operations of human intelligence and comparing it with the future of computer computational power as predicted by moore s law
+
+in when will computer hardware match the human brain 1998 he estimated that human brains operate at about
+
+
+
+
+10
+
+15
+
+
+
+
+displaystyle 10 15
+
+instructions per second and that if moore s law continues a computer with the same speed would cost only 1000 usd 1997 dollars in mid 2020s thus computers suitable for humanlike robots will appear in the 2020s
+
+in his 1988 book mind children moravec outlines moore s law and predictions about the future of artificial life moravec outlines a timeline and a scenario in this regard in that the robots will evolve into a new series of artificial species starting around 2030 2040
+
+moravec also outlined the neural substitution argument in mind children 109 122 published 7 years before david chalmers published a similar argument in his paper absent qualia fading qualia dancing qualia which is sometimes cited as the source of the idea the neural substitution argument is that if each neuron in a conscious brain can be replaced successively by an electronic substitute with the same behavior as the neuron it replaces then a biological consciousness would be transferred seamlessly into an electronic computer thus proving that consciousness does not depend on biology and can be treated as an abstract computable process
+
+in robot mere machine to transcendent mind published in 1999 moravec further considers the implications of evolving robot intelligence generalizing moore s law to technologies predating the integrated circuit and extrapolating it to predict a coming mind fire of rapidly expanding superintelligence
+
+arthur c clarke wrote about this book robot is the most awesome work of controlled imagination i have ever encountered hans moravec stretched my mind until it hit the stops david brin also praised the book moravec blends hard scientific practicality with a prophet s far seeing vision on the other hand the book was reviewed less favorably by colin mcginn for the new york times mcginn wrote moravec writes bizarre confused incomprehensible things about consciousness as an abstraction like number and as a mere interpretation of brain activity he also loses his grip on the distinction between virtual and real reality as his speculations spiral majestically into incoherence

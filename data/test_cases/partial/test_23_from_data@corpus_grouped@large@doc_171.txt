@@ -1,0 +1,1 @@
+abase management by exploiting the way data is stored and indexed in databases to execute the actual learning and discovery alg

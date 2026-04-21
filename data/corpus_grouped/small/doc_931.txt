@@ -1,0 +1,14 @@
+henry j kelley 1926 1988 was christopher c kraft professor of aerospace and ocean engineering at the virginia polytechnic institute he produced major contributions to control theory especially in aeronautical engineering and flight optimization
+
+in 1948 he received a bachelor of science from nyu in aeronautical engineering and began to work for grumman aircraft in the same year his studies continued as a part time student leading
+to a master of science in mathematics 1951 and to the sc d in aeronautical
+engineering 1958 in 1963 he left grumman as assistant chief of the
+research department and founded analytical mechanics associates with two partners in 1978 he became a professor in the aerospace and ocean engineering department at the virginia polytechnic institute
+
+his paper on gradient theory of optimal flight paths 1960 is considered a major contribution to the field in the context of control theory kelley derived basics of backpropagation now widely used for machine learning and artificial neural networks
+
+kelley received nyu s founder s day award in 1959 the ias new york section award in 1961 the aiaa guidance and control of flight award in 1973 and the aiaa pendray award in 1979 he was a fellow of the aiaa and member of the aas the ieee and siam and founder and first chairman of ifac s mathematics of control committee
+
+
+
+this article about an american mathematician is a stub you can help wikipedia by adding missing information

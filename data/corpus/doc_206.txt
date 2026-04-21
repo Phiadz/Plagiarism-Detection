@@ -1,0 +1,271 @@
+in machine learning deep learning dl focuses on utilizing multilayered neural networks to perform tasks such as classification regression and representation learning the field takes inspiration from biological neuroscience and revolves around stacking artificial neurons into layers and training them to process data the adjective deep refers to the use of multiple layers ranging from three to several hundred or thousands in the network methods used can be supervised semi supervised or unsupervised
+
+some common deep learning network architectures include fully connected networks deep belief networks recurrent neural networks convolutional neural networks generative adversarial networks transformers and neural radiance fields these architectures have been applied to fields including computer vision speech recognition natural language processing machine translation bioinformatics drug design medical image analysis climate science material inspection and board game programs where they have produced results comparable to and in some cases surpassing human expert performance
+
+early forms of neural networks were inspired by information processing and distributed communication nodes in biological systems particularly the human brain however current neural networks do not intend to model the brain function of organisms and are generally seen as low quality models for that purpose
+
+most modern deep learning models are based on multi layered neural networks such as convolutional neural networks and transformers although they can also include propositional formulas or latent variables organized layer wise in deep generative models such as the nodes in deep belief networks and deep boltzmann machines
+
+fundamentally deep learning refers to a class of machine learning algorithms in which a hierarchy of layers is used to transform input data into a progressively more abstract and composite representation for example in an image recognition model the raw input may be an image represented as a tensor of pixels the first representational layer may attempt to identify basic shapes such as lines and circles the second layer may compose and encode arrangements of edges the third layer may encode a nose and eyes and the fourth layer may recognize that the image contains a face
+
+importantly a deep learning process can learn which features to optimally place at which level on its own prior to deep learning machine learning techniques often involved hand crafted feature engineering to transform the data into a more suitable representation for a classification algorithm to operate on in the deep learning approach features are not hand crafted and the model discovers useful feature representations from the data automatically this does not eliminate the need for hand tuning for example varying numbers of layers and layer sizes can provide different degrees of abstraction
+
+the word deep in deep learning refers to the number of layers through which the data is transformed more precisely deep learning systems have a substantial credit assignment path cap depth the cap is the chain of transformations from input to output caps describe potentially causal connections between input and output for a feedforward neural network the depth of the caps is that of the network and is the number of hidden layers plus one as the output layer is also parameterized for recurrent neural networks in which a signal may propagate through a layer more than once the cap depth is potentially unlimited no universally agreed upon threshold of depth divides shallow learning from deep learning but most researchers agree that deep learning involves cap depth higher than two cap of depth two has been shown to be a universal approximator in the sense that it can emulate any function beyond that more layers do not add to the function approximator ability of the network deep models cap two are able to extract better features than shallow models and hence extra layers help in learning the features effectively
+
+deep learning architectures can be constructed with a greedy layer by layer method deep learning helps to disentangle these abstractions and pick out which features improve performance
+
+deep learning algorithms can be applied to unsupervised learning tasks this is an important benefit because unlabeled data is more abundant than labeled data examples of deep structures that can be trained in an unsupervised manner are deep belief networks
+
+the term deep learning was introduced to the machine learning community by rina dechter in 1986 and to artificial neural networks by igor aizenberg and colleagues in 2000 in the context of boolean threshold neurons the etymology of the term is more complicated
+
+deep neural networks are generally interpreted in terms of the universal approximation theorem or probabilistic inference
+
+the classic universal approximation theorem concerns the capacity of feedforward neural networks with a single hidden layer of finite size to approximate continuous functions in 1989 the first proof was published by george cybenko for sigmoid activation functions and was generalised to feed forward multi layer architectures in 1991 by kurt hornik recent work also showed that universal approximation also holds for non bounded activation functions such as kunihiko fukushima s rectified linear unit
+
+the universal approximation theorem for deep neural networks concerns the capacity of networks with bounded width but the depth is allowed to grow lu et al proved that if the width of a deep neural network with relu activation is strictly larger than the input dimension then the network can approximate any lebesgue integrable function if the width is smaller or equal to the input dimension then a deep neural network is not a universal approximator
+
+the probabilistic interpretation derives from the field of machine learning it features inference as well as the optimization concepts of training and testing related to fitting and generalization respectively more specifically the probabilistic interpretation considers the activation nonlinearity as a cumulative distribution function the probabilistic interpretation led to the introduction of dropout as regularizer in neural networks the probabilistic interpretation was introduced by researchers including hopfield widrow and narendra and popularized in surveys such as the one by bishop
+
+there are two types of artificial neural network ann feedforward neural network fnn or multilayer perceptron mlp and recurrent neural networks rnn rnns have cycles in their connectivity structure whereas fnns do not in the 1920s wilhelm lenz and ernst ising created the ising model which is essentially a non learning rnn architecture consisting of neuron like threshold elements in 1972 shun ichi amari made this architecture adaptive his learning rnn was republished by john hopfield in 1982 other early recurrent neural networks were published by kaoru nakano in 1971 already in 1948 alan turing produced work on intelligent machinery that was not published in his lifetime containing ideas related to artificial evolution and learning rnns
+
+frank rosenblatt 1958 proposed the perceptron an mlp with 3 layers an input layer a hidden layer with randomized weights that did not learn and an output layer he later published a 1962 book that also introduced variants and computer experiments including a version with four layer perceptrons with adaptive preterminal networks where the last two layers have learned weights here he credits h d block and b w knight section 16 the book cites an earlier network by r d joseph 1960 functionally equivalent to a variation of this four layer system the book mentions joseph over 30 times should joseph therefore be considered the originator of proper adaptive multilayer perceptrons with learning hidden units unfortunately the learning algorithm was not a functional one and fell into oblivion
+
+the first working deep learning algorithm was the group method of data handling a method to train arbitrarily deep neural networks published by alexey ivakhnenko and lapa in 1965 they regarded it as a form of polynomial regression or a generalization of rosenblatt s perceptron to handle more complex nonlinear and hierarchical relationships a 1971 paper described a deep network with eight layers trained by this method which is based on layer by layer training through regression analysis superfluous hidden units are pruned using a separate validation set since the activation functions of the nodes are kolmogorov gabor polynomials these were also the first deep networks with multiplicative units or gates
+
+the first deep learning multilayer perceptron trained by stochastic gradient descent was published in 1967 by shun ichi amari in computer experiments conducted by amari s student saito a five layer mlp with two modifiable layers learned internal representations to classify non linearily separable pattern classes subsequent developments in hardware and hyperparameter tunings have made end to end stochastic gradient descent the currently dominant training technique
+
+in 1969 kunihiko fukushima introduced the relu rectified linear unit activation function the rectifier has become the most popular activation function for deep learning
+
+deep learning architectures for convolutional neural networks cnns with convolutional layers and downsampling layers began with the neocognitron introduced by kunihiko fukushima in 1979 though not trained by backpropagation
+
+backpropagation is an efficient application of the chain rule derived by gottfried wilhelm leibniz in 1673 to networks of differentiable nodes the terminology back propagating errors was actually introduced in 1962 by rosenblatt but he did not know how to implement this although henry j kelley had a continuous precursor of backpropagation in 1960 in the context of control theory the modern form of backpropagation was first published in seppo linnainmaa s master thesis 1970 g m ostrovski et al republished it in 1971 paul werbos applied backpropagation to neural networks in 1982 his 1974 phd thesis reprinted in a 1994 book did not yet describe the algorithm in 1986 david e rumelhart et al popularised backpropagation but did not cite the original work
+
+the time delay neural network tdnn was introduced in 1987 by alex waibel to apply cnn to phoneme recognition it used convolutions weight sharing and backpropagation in 1988 wei zhang applied a backpropagation trained cnn to alphabet recognition
+in 1989 yann lecun et al created a cnn called lenet for recognizing handwritten zip codes on mail training required 3 days in 1990 wei zhang implemented a cnn on optical computing hardware in 1991 a cnn was applied to medical image object segmentation and breast cancer detection in mammograms lenet 5 1998 a 7 level cnn by yann lecun et al that classifies digits was applied by several banks to recognize hand written numbers on checks digitized in 32x32 pixel images
+
+recurrent neural networks rnn were further developed in the 1980s recurrence is used for sequence processing and when a recurrent network is unrolled it mathematically resembles a deep feedforward layer consequently they have similar properties and issues and their developments had mutual influences in rnn two early influential works were the jordan network 1986 and the elman network 1990 which applied rnn to study problems in cognitive psychology
+
+in the 1980s backpropagation did not work well for deep learning with long credit assignment paths to overcome this problem in 1991 jürgen schmidhuber proposed a hierarchy of rnns pre trained one level at a time by self supervised learning where each rnn tries to predict its own next input which is the next unexpected input of the rnn below this neural history compressor uses predictive coding to learn internal representations at multiple self organizing time scales this can substantially facilitate downstream deep learning the rnn hierarchy can be collapsed into a single rnn by distilling a higher level chunker network into a lower level automatizer network in 1993 a neural history compressor solved a very deep learning task that required more than 1000 subsequent layers in an rnn unfolded in time the p in chatgpt refers to such pre training
+
+sepp hochreiter s diploma thesis 1991 implemented the neural history compressor and identified and analyzed the vanishing gradient problem hochreiter proposed recurrent residual connections to solve the vanishing gradient problem this led to the long short term memory lstm published in 1995 lstm can learn very deep learning tasks with long credit assignment paths that require memories of events that happened thousands of discrete time steps before that lstm was not yet the modern architecture which required a forget gate introduced in 1999 which became the standard rnn architecture
+
+in 1991 jürgen schmidhuber also published adversarial neural networks that contest with each other in the form of a zero sum game where one network s gain is the other network s loss the first network is a generative model that models a probability distribution over output patterns the second network learns by gradient descent to predict the reactions of the environment to these patterns this was called artificial curiosity in 2014 this principle was used in generative adversarial networks gans
+
+during 1985 1995 inspired by statistical mechanics several architectures and methods were developed by terry sejnowski peter dayan geoffrey hinton etc including the boltzmann machine restricted boltzmann machine helmholtz machine and the wake sleep algorithm these were designed for unsupervised learning of deep generative models however those were more computationally expensive compared to backpropagation boltzmann machine learning algorithm published in 1985 was briefly popular before being eclipsed by the backpropagation algorithm in 1986 p 112 a 1988 network became state of the art in protein structure prediction an early application of deep learning to bioinformatics
+
+both shallow and deep learning e g recurrent nets of anns for speech recognition have been explored for many years these methods never outperformed non uniform internal handcrafting gaussian mixture model hidden markov model gmm hmm technology based on generative models of speech trained discriminatively key difficulties have been analyzed including gradient diminishing and weak temporal correlation structure in neural predictive models additional difficulties were the lack of training data and limited computing power
+
+most speech recognition researchers moved away from neural nets to pursue generative modeling an exception was at sri international in the late 1990s funded by the us government s nsa and darpa sri researched in speech and speaker recognition the speaker recognition team led by larry heck reported significant success with deep neural networks in speech processing in the 1998 nist speaker recognition benchmark it was deployed in the nuance verifier representing the first major industrial application of deep learning
+
+the principle of elevating raw features over hand crafted optimization was first explored successfully in the architecture of deep autoencoder on the raw spectrogram or linear filter bank features in the late 1990s showing its superiority over the mel cepstral features that contain stages of fixed transformation from spectrograms the raw features of speech waveforms later produced excellent larger scale results
+
+neural networks entered a lull and simpler models that use task specific handcrafted features such as gabor filters and support vector machines svms became the preferred choices in the 1990s and 2000s because of artificial neural networks computational cost and a lack of understanding of how the brain wires its biological networks citation needed
+
+in 2003 lstm became competitive with traditional speech recognizers on certain tasks in 2006 alex graves santiago fernández faustino gomez and schmidhuber combined it with connectionist temporal classification ctc in stacks of lstms in 2009 it became the first rnn to win a pattern recognition contest in connected handwriting recognition
+
+in 2006 publications by geoff hinton ruslan salakhutdinov osindero and teh deep belief networks were developed for generative modeling they are trained by training one restricted boltzmann machine then freezing it and training another one on top of the first one and so on then optionally fine tuned using supervised backpropagation they could model high dimensional probability distributions such as the distribution of mnist images but convergence was slow
+
+the impact of deep learning in industry began in the early 2000s when cnns already processed an estimated 10 to 20 of all the checks written in the us according to yann lecun industrial applications of deep learning to large scale speech recognition started around 2010
+
+the 2009 nips workshop on deep learning for speech recognition was motivated by the limitations of deep generative models of speech and the possibility that given more capable hardware and large scale data sets that deep neural nets might become practical it was believed that pre training dnns using generative models of deep belief nets dbn would overcome the main difficulties of neural nets however it was discovered that replacing pre training with large amounts of training data for straightforward backpropagation when using dnns with large context dependent output layers produced error rates dramatically lower than then state of the art gaussian mixture model gmm hidden markov model hmm and also than more advanced generative model based systems the nature of the recognition errors produced by the two types of systems was characteristically different offering technical insights into how to integrate deep learning into the existing highly efficient run time speech decoding system deployed by all major speech recognition systems analysis around 2009 2010 contrasting the gmm and other generative speech models vs dnn models stimulated early industrial investment in deep learning for speech recognition that analysis was done with comparable performance less than 1 5 in error rate between discriminative dnns and generative models
+in 2010 researchers extended deep learning from timit to large vocabulary speech recognition by adopting large output layers of the dnn based on context dependent hmm states constructed by decision trees
+
+the deep learning revolution started around cnn and gpu based computer vision
+
+although cnns trained by backpropagation had been around for decades and gpu implementations of nns for years including cnns faster implementations of cnns on gpus were needed to progress on computer vision later as deep learning becomes widespread specialized hardware and algorithm optimizations were developed specifically for deep learning
+
+a key advance for the deep learning revolution was hardware advances especially gpu some early work dated back to 2004 in 2009 raina madhavan and andrew ng reported a 100m deep belief network trained on 30 nvidia geforce gtx 280 gpus an early demonstration of gpu based deep learning they reported up to 70 times faster training
+
+in 2011 a cnn named dannet by dan ciresan ueli meier jonathan masci luca maria gambardella and jürgen schmidhuber achieved for the first time superhuman performance in a visual pattern recognition contest outperforming traditional methods by a factor of 3 it then won more contests they also showed how max pooling cnns on gpu improved performance significantly
+
+in 2012 andrew ng and jeff dean created an fnn that learned to recognize higher level concepts such as cats only from watching unlabeled images taken from youtube videos
+
+in october 2012 alexnet by alex krizhevsky ilya sutskever and geoffrey hinton won the large scale imagenet competition by a significant margin over shallow machine learning methods further incremental improvements included the vgg 16 network by karen simonyan and andrew zisserman and google s inceptionv3
+
+the success in image classification was then extended to the more challenging task of generating descriptions captions for images often as a combination of cnns and lstms
+
+in 2014 the state of the art was training very deep neural network with 20 to 30 layers stacking too many layers led to a steep reduction in training accuracy known as the degradation problem in 2015 two techniques were developed to train very deep networks the highway network was published in may 2015 and the residual neural network resnet in dec 2015 resnet behaves like an open gated highway net
+
+around the same time deep learning started impacting the field of art early examples included google deepdream 2015 and neural style transfer 2015 both of which were based on pretrained image classification neural networks such as vgg 19
+
+generative adversarial network gan by ian goodfellow et al 2014 based on jürgen schmidhuber s principle of artificial curiosity
+became state of the art in generative modeling during 2014 2018 period excellent image quality is achieved by nvidia s stylegan 2018 based on the progressive gan by tero karras et al here the gan generator is grown from small to large scale in a pyramidal fashion image generation by gan reached popular success and provoked discussions concerning deepfakes diffusion models 2015 eclipsed gans in generative modeling since then with systems such as dall e 2 2022 and stable diffusion 2022
+
+in 2015 google s speech recognition improved by 49 by an lstm based model which they made available through google voice search on smartphone
+
+deep learning is part of state of the art systems in various disciplines particularly computer vision and automatic speech recognition asr results on commonly used evaluation sets such as timit asr and mnist image classification as well as a range of large vocabulary speech recognition tasks have steadily improved convolutional neural networks were superseded for asr by lstm but are more successful in computer vision
+
+yoshua bengio geoffrey hinton and yann lecun were awarded the 2018 turing award for conceptual and engineering breakthroughs that have made deep neural networks a critical component of computing
+
+artificial neural networks anns or connectionist systems are computing systems inspired by the biological neural networks that constitute animal brains such systems learn progressively improve their ability to do tasks by considering examples generally without task specific programming for example in image recognition they might learn to identify images that contain cats by analyzing example images that have been manually labeled as cat or no cat and using the analytic results to identify cats in other images they have found most use in applications difficult to express with a traditional computer algorithm using rule based programming
+
+an ann is based on a collection of connected units called artificial neurons analogous to biological neurons in a biological brain each connection synapse between neurons can transmit a signal to another neuron the receiving postsynaptic neuron can process the signal s and then signal downstream neurons connected to it neurons may have state generally represented by real numbers typically between 0 and 1 neurons and synapses may also have a weight that varies as learning proceeds which can increase or decrease the strength of the signal that it sends downstream
+
+typically neurons are organized in layers different layers may perform different kinds of transformations on their inputs signals travel from the first input to the last output layer possibly after traversing the layers multiple times
+
+the original goal of the neural network approach was to solve problems in the same way that a human brain would over time attention focused on matching specific mental abilities leading to deviations from biology such as backpropagation or passing information in the reverse direction and adjusting the network to reflect that information
+
+neural networks have been used on a variety of tasks including computer vision speech recognition machine translation social network filtering playing board and video games and medical diagnosis
+
+as of 2017 neural networks typically have a few thousand to a few million units and millions of connections despite this number being several order of magnitude less than the number of neurons on a human brain these networks can perform many tasks at a level beyond that of humans e g recognizing faces or playing go
+
+a deep neural network dnn is an artificial neural network with multiple layers between the input and output layers there are different types of neural networks but they always consist of the same components neurons synapses weights biases and functions these components as a whole function in a way that mimics functions of the human brain and can be trained like any other ml algorithm citation needed
+
+for example a dnn that is trained to recognize dog breeds will go over the given image and calculate the probability that the dog in the image is a certain breed the user can review the results and select which probabilities the network should display above a certain threshold etc and return the proposed label each mathematical manipulation as such is considered a layer and complex dnn have many layers hence the name deep networks
+
+dnns can model complex non linear relationships dnn architectures generate compositional models where the object is expressed as a layered composition of primitives the extra layers enable composition of features from lower layers potentially modeling complex data with fewer units than a similarly performing shallow network for instance it was proved that sparse multivariate polynomials are exponentially easier to approximate with dnns than with shallow networks
+
+deep architectures include many variants of a few basic approaches each architecture has found success in specific domains it is not always possible to compare the performance of multiple architectures unless they have been evaluated on the same data sets
+
+dnns are typically feedforward networks in which data flows from the input layer to the output layer without looping back at first the dnn creates a map of virtual neurons and assigns random numerical values or weights to connections between them the weights and inputs are multiplied and return an output between 0 and 1 if the network did not accurately recognize a particular pattern an algorithm would adjust the weights that way the algorithm can make certain parameters more influential until it determines the correct mathematical manipulation to fully process the data
+
+recurrent neural networks in which data can flow in any direction are used for applications such as language modeling long short term memory is particularly effective for this use
+
+convolutional neural networks cnns are used in computer vision cnns also have been applied to acoustic modeling for automatic speech recognition asr
+
+as with anns many issues can arise with naively trained dnns two common issues are overfitting and computation time
+
+dnns are prone to overfitting because of the added layers of abstraction which allow them to model rare dependencies in the training data regularization methods such as ivakhnenko s unit pruning or weight decay
+
+
+
+
+ℓ
+
+2
+
+
+
+
+displaystyle ell _ 2
+
+regularization or sparsity
+
+
+
+
+ℓ
+
+1
+
+
+
+
+displaystyle ell _ 1
+
+regularization can be applied during training to combat overfitting alternatively dropout regularization randomly omits units from the hidden layers during training this helps to exclude rare dependencies another interesting recent development is research into models of just enough complexity through an estimation of the intrinsic complexity of the task being modelled this approach has been successfully applied for multivariate time series prediction tasks such as traffic prediction finally data can be augmented via methods such as cropping and rotating such that smaller training sets can be increased in size to reduce the chances of overfitting
+
+dnns must consider many training parameters such as the size number of layers and number of units per layer the learning rate and initial weights sweeping through the parameter space for optimal parameters may not be feasible due to the cost in time and computational resources various tricks such as batching computing the gradient on several training examples at once rather than individual examples speed up computation large processing capabilities of many core architectures such as gpus or the intel xeon phi have produced significant speedups in training because of the suitability of such processing architectures for the matrix and vector computations
+
+alternatively engineers may look for other types of neural networks with more straightforward and convergent training algorithms cmac cerebellar model articulation controller is one such kind of neural network it doesn t require learning rates or randomized initial weights the training process can be guaranteed to converge in one step with a new batch of data and the computational complexity of the training algorithm is linear with respect to the number of neurons involved
+
+since the 2010s advances in both machine learning algorithms and computer hardware have led to more efficient methods for training deep neural networks that contain many layers of non linear hidden units and a very large output layer by 2019 graphics processing units gpus often with ai specific enhancements had displaced cpus as the dominant method for training large scale commercial cloud ai openai estimated the hardware computation used in the largest deep learning projects from alexnet 2012 to alphazero 2017 and found a 300 000 fold increase in the amount of computation required with a doubling time trendline of 3 4 months
+
+special electronic circuits called deep learning processors were designed to speed up deep learning algorithms deep learning processors include neural processing units npus in huawei cellphones and cloud computing servers such as tensor processing units tpu in the google cloud platform cerebras systems has also built a dedicated system to handle large deep learning models the cs 2 based on the largest processor in the industry the second generation wafer scale engine wse 2
+
+atomically thin semiconductors are considered promising for energy efficient deep learning hardware where the same basic device structure is used for both logic operations and data storage
+in 2020 marega et al published experiments with a large area active channel material for developing logic in memory devices and circuits based on floating gate field effect transistors fgfets
+
+in 2021 j feldmann et al proposed an integrated photonic hardware accelerator for parallel convolutional processing the authors identify two key advantages of integrated photonics over its electronic counterparts 1 massively parallel data transfer through wavelength division multiplexing in conjunction with frequency combs and 2 extremely high data modulation speeds their system can execute trillions of multiply accumulate operations per second indicating the potential of integrated photonics in data heavy ai applications
+
+large scale automatic speech recognition is the first and most convincing successful case of deep learning lstm rnns can learn very deep learning tasks that involve multi second intervals containing speech events separated by thousands of discrete time steps where one time step corresponds to about 10 ms lstm with forget gates is competitive with traditional speech recognizers on certain tasks
+
+the initial success in speech recognition was based on small scale recognition tasks based on timit the data set contains 630 speakers from eight major dialects of american english where each speaker reads 10 sentences its small size lets many configurations be tried more importantly the timit task concerns phone sequence recognition which unlike word sequence recognition allows weak phone bigram language models this lets the strength of the acoustic modeling aspects of speech recognition be more easily analyzed the error rates listed below including these early results and measured as percent phone error rates per have been summarized since 1991
+
+the debut of dnns for speaker recognition in the late 1990s and speech recognition around 2009 2011 and of lstm around 2003 2007 accelerated progress in eight major areas
+
+more recent speech recognition models use transformers or temporal convolution networks with significant success and widespread applications all major commercial speech recognition systems e g microsoft cortana xbox skype translator amazon alexa google now apple siri baidu and iflytek voice search and a range of nuance speech products etc are based on deep learning
+
+a common evaluation set for image classification is the mnist database data set mnist is composed of handwritten digits and includes 60 000 training examples and 10 000 test examples as with timit its small size lets users test multiple configurations a comprehensive list of results on this set is available
+
+deep learning based image recognition has become superhuman producing more accurate results than human contestants this first occurred in 2011 in recognition of traffic signs and in 2014 with recognition of human faces
+
+deep learning trained vehicles now interpret 360 camera views another example is facial dysmorphology novel analysis fdna used to analyze cases of human malformation connected to a large database of genetic syndromes
+
+closely related to the progress that has been made in image recognition is the increasing application of deep learning techniques to various visual art tasks dnns have proven themselves capable for example of
+
+neural networks have been used for implementing language models since the early 2000s lstm helped to improve machine translation and language modeling
+
+other key techniques in this field are negative sampling and word embedding word embedding such as word2vec can be thought of as a representational layer in a deep learning architecture that transforms an atomic word into a positional representation of the word relative to other words in the dataset the position is represented as a point in a vector space using word embedding as an rnn input layer allows the network to parse sentences and phrases using an effective compositional vector grammar a compositional vector grammar can be thought of as probabilistic context free grammar pcfg implemented by an rnn recursive auto encoders built atop word embeddings can assess sentence similarity and detect paraphrasing deep neural architectures provide the best results for constituency parsing sentiment analysis information retrieval spoken language understanding machine translation contextual entity linking writing style recognition named entity recognition token classification text classification and others
+
+recent developments generalize word embedding to sentence embedding
+
+google translate gt uses a large end to end long short term memory lstm network google neural machine translation gnmt uses an example based machine translation method in which the system learns from millions of examples it translates whole sentences at a time rather than pieces google translate supports over one hundred languages the network encodes the semantics of the sentence rather than simply memorizing phrase to phrase translations gt uses english as an intermediate between most language pairs
+
+a large percentage of candidate drugs fail to win regulatory approval these failures are caused by insufficient efficacy on target effect undesired interactions off target effects or unanticipated toxic effects research has explored use of deep learning to predict the biomolecular targets off targets and toxic effects of environmental chemicals in nutrients household products and drugs
+
+atomnet is a deep learning system for structure based rational drug design atomnet was used to predict novel candidate biomolecules for disease targets such as the ebola virus and multiple sclerosis
+
+in 2017 graph neural networks were used for the first time to predict various properties of molecules in a large toxicology data set in 2019 generative neural networks were used to produce molecules that were validated experimentally all the way into mice
+
+recommendation systems have used deep learning to extract meaningful features for a latent factor model for content based music and journal recommendations multi view deep learning has been applied for learning user preferences from multiple domains the model uses a hybrid collaborative and content based approach and enhances recommendations in multiple tasks
+
+an autoencoder ann was used in bioinformatics to predict gene ontology annotations and gene function relationships
+
+in medical informatics deep learning was used to predict sleep quality based on data from wearables and predictions of health complications from electronic health record data
+
+deep neural networks have shown unparalleled performance in predicting protein structure according to the sequence of the amino acids that make it up in 2020 alphafold a deep learning based system achieved a level of accuracy significantly higher than all previous computational methods
+
+deep neural networks can be used to estimate the entropy of a stochastic process through an arrangement called a neural joint entropy estimator njee such an estimation provides insights on the effects of input random variables on an independent random variable practically the dnn is trained as a classifier that maps an input vector or matrix x to an output probability distribution over the possible classes of random variable y given input x for example in image classification tasks the njee maps a vector of pixels color values to probabilities over possible image classes in practice the probability distribution of y is obtained by a softmax layer with number of nodes that is equal to the alphabet size of y njee uses continuously differentiable activation functions such that the conditions for the universal approximation theorem holds it is shown that this method provides a strongly consistent estimator and outperforms other methods in cases of large alphabet sizes
+
+deep learning has been shown to produce competitive results in medical applications such as cancer cell classification lesion detection organ segmentation and image enhancement modern deep learning tools demonstrate the high accuracy of detecting various diseases and the helpfulness of their use by specialists to improve the diagnosis efficiency
+
+finding the appropriate mobile audience for mobile advertising is always challenging since many data points must be considered and analyzed before a target segment can be created and used in ad serving by any ad server deep learning has been used to interpret large many dimensioned advertising datasets many data points are collected during the request serve click internet advertising cycle this information can form the basis of machine learning to improve ad selection
+
+deep learning has been successfully applied to inverse problems such as denoising super resolution inpainting and film colorization these applications include learning methods such as shrinkage fields for effective image restoration which trains on an image dataset and deep image prior which trains on the image that needs restoration
+
+deep learning is being applied to financial fraud detection tax evasion detection and anti money laundering
+
+in november 2023 researchers at google deepmind and lawrence berkeley national laboratory announced that they had developed an ai system known as gnome this system has contributed to materials science by discovering over 2 million new materials within a relatively short timeframe gnome employs deep learning techniques to efficiently explore potential material structures achieving a significant increase in the identification of stable inorganic crystal structures the system s predictions were validated through autonomous robotic experiments demonstrating a noteworthy success rate of 71 the data of newly discovered materials is publicly available through the materials project database offering researchers the opportunity to identify materials with desired properties for various applications this development has implications for the future of scientific discovery and the integration of ai in material science research potentially expediting material innovation and reducing costs in product development the use of ai and deep learning suggests the possibility of minimizing or eliminating manual lab experiments and allowing scientists to focus more on the design and analysis of unique compounds
+
+the united states department of defense applied deep learning to train robots in new tasks through observation
+
+physics informed neural networks have been used to solve partial differential equations in both forward and inverse problems in a data driven manner one example is the reconstructing fluid flow governed by the navier stokes equations using physics informed neural networks does not require the often expensive mesh generation that conventional cfd methods rely on it is evident that geometric and physical constraints have a synergistic effect on neural pde surrogates thereby enhancing their efficacy in predicting stable and super long rollouts
+
+deep backward stochastic differential equation method is a numerical method that combines deep learning with backward stochastic differential equation bsde this method is particularly useful for solving high dimensional problems in financial mathematics by leveraging the powerful function approximation capabilities of deep neural networks deep bsde addresses the computational challenges faced by traditional numerical methods in high dimensional settings specifically traditional methods like finite difference methods or monte carlo simulations often struggle with the curse of dimensionality where computational cost increases exponentially with the number of dimensions deep bsde methods however employ deep neural networks to approximate solutions of high dimensional partial differential equations pdes effectively reducing the computational burden
+
+in addition the integration of physics informed neural networks pinns into the deep bsde framework enhances its capability by embedding the underlying physical laws directly into the neural network architecture this ensures that the solutions not only fit the data but also adhere to the governing stochastic differential equations pinns leverage the power of deep learning while respecting the constraints imposed by the physical models resulting in more accurate and reliable solutions for financial mathematics problems
+
+image reconstruction is the reconstruction of the underlying images from the image related measurements several works showed the better and superior performance of the deep learning methods compared to analytical methods for various applications e g spectral imaging and ultrasound imaging
+
+traditional weather prediction systems solve a very complex system of partial differential equations graphcast is a deep learning based model trained on a long history of weather data to predict how weather patterns change over time it is able to predict weather conditions for up to 10 days globally at a very detailed level and in under a minute with precision similar to state of the art systems
+
+an epigenetic clock is a biochemical test that can be used to measure age galkin et al used deep neural networks to train an epigenetic aging clock of unprecedented accuracy using 6 000 blood samples the clock uses information from 1000 cpg sites and predicts people with certain conditions older than healthy controls ibd frontotemporal dementia ovarian cancer obesity the aging clock was planned to be released for public use in 2021 by an insilico medicine spinoff company deep longevity
+
+deep learning is closely related to a class of theories of brain development specifically neocortical development proposed by cognitive neuroscientists in the early 1990s these developmental theories were instantiated in computational models making them predecessors of deep learning systems these developmental models share the property that various proposed learning dynamics in the brain e g a wave of nerve growth factor support the self organization somewhat analogous to the neural networks utilized in deep learning models like the neocortex neural networks employ a hierarchy of layered filters in which each layer considers information from a prior layer or the operating environment and then passes its output and possibly the original input to other layers this process yields a self organizing stack of transducers well tuned to their operating environment a 1995 description stated the infant s brain seems to organize itself under the influence of waves of so called trophic factors different regions of the brain become connected sequentially with one layer of tissue maturing before another and so on until the whole brain is mature
+
+a variety of approaches have been used to investigate the plausibility of deep learning models from a neurobiological perspective on the one hand several variants of the backpropagation algorithm have been proposed in order to increase its processing realism other researchers have argued that unsupervised forms of deep learning such as those based on hierarchical generative models and deep belief networks may be closer to biological reality in this respect generative neural network models have been related to neurobiological evidence about sampling based processing in the cerebral cortex
+
+although a systematic comparison between the human brain organization and the neuronal encoding in deep networks has not yet been established several analogies have been reported for example the computations performed by deep learning units could be similar to those of actual neurons and neural populations similarly the representations developed by deep learning models are similar to those measured in the primate visual system both at the single unit and at the population levels
+
+facebook s ai lab performs tasks such as automatically tagging uploaded pictures with the names of the people in them
+
+google s deepmind technologies developed a system capable of learning how to play atari video games using only pixels as data input in 2015 they demonstrated their alphago system which learned the game of go well enough to beat a professional go player google translate uses a neural network to translate between more than 100 languages
+
+in 2017 covariant ai was launched which focuses on integrating deep learning into factories
+
+as of 2008 researchers at the university of texas at austin ut developed a machine learning framework called training an agent manually via evaluative reinforcement or tamer which proposed new methods for robots or computer programs to learn how to perform tasks by interacting with a human instructor first developed as tamer a new algorithm called deep tamer was later introduced in 2018 during a collaboration between u s army research laboratory arl and ut researchers deep tamer used deep learning to provide a robot with the ability to learn new tasks through observation using deep tamer a robot learned a task with a human trainer watching video streams or observing a human perform a task in person the robot later practiced the task with the help of some coaching from the trainer who provided feedback such as good job and bad job
+
+deep learning has attracted both criticism and comment in some cases from outside the field of computer science
+
+a main criticism concerns the lack of theory surrounding some methods learning in the most common deep architectures is implemented using well understood gradient descent however the theory surrounding other algorithms such as contrastive divergence is less clear citation needed e g does it converge if so how fast what is it approximating deep learning methods are often looked at as a black box with most confirmations done empirically rather than theoretically
+
+in further reference to the idea that artistic sensitivity might be inherent in relatively low levels of the cognitive hierarchy a published series of graphic representations of the internal states of deep 20 30 layers neural networks attempting to discern within essentially random data the images on which they were trained demonstrate a visual appeal the original research notice received well over 1 000 comments and was the subject of what was for a time the most frequently accessed article on the guardian s website
+
+with the support of innovation diffusion theory idt a study analyzed the diffusion of deep learning in brics and oecd countries using data from google trends
+
+some deep learning architectures display problematic behaviors such as confidently classifying unrecognizable images as belonging to a familiar category of ordinary images 2014 and misclassifying minuscule perturbations of correctly classified images 2013 goertzel hypothesized that these behaviors are due to limitations in their internal representations and that these limitations would inhibit integration into heterogeneous multi component artificial general intelligence agi architectures these issues may possibly be addressed by deep learning architectures that internally form states homologous to image grammar decompositions of observed entities and events learning a grammar visual or linguistic from training data would be equivalent to restricting the system to commonsense reasoning that operates on concepts in terms of grammatical production rules and is a basic goal of both human language acquisition and artificial intelligence ai
+
+as deep learning moves from the lab into the world research and experience show that artificial neural networks are vulnerable to hacks and deception by identifying patterns that these systems use to function attackers can modify inputs to anns in such a way that the ann finds a match that human observers would not recognize for example an attacker can make subtle changes to an image such that the ann finds a match even though the image looks to a human nothing like the search target such manipulation is termed an adversarial attack
+
+in 2016 researchers used one ann to doctor images in trial and error fashion identify another s focal points and thereby generate images that deceived it the modified images looked no different to human eyes another group showed that printouts of doctored images then photographed successfully tricked an image classification system one defense is reverse image search in which a possible fake image is submitted to a site such as tineye that can then find other instances of it a refinement is to search using only parts of the image to identify images from which that piece may have been taken
+
+another group showed that certain psychedelic spectacles could fool a facial recognition system into thinking ordinary people were celebrities potentially allowing one person to impersonate another in 2017 researchers added stickers to stop signs and caused an ann to misclassify them
+
+anns can however be further trained to detect attempts at deception potentially leading attackers and defenders into an arms race similar to the kind that already defines the malware defense industry anns have been trained to defeat ann based anti malware software by repeatedly attacking a defense with malware that was continually altered by a genetic algorithm until it tricked the anti malware while retaining its ability to damage the target
+
+in 2016 another group demonstrated that certain sounds could make the google now voice command system open a particular web address and hypothesized that this could serve as a stepping stone for further attacks e g opening a web page hosting drive by malware
+
+in data poisoning false data is continually smuggled into a machine learning system s training set to prevent it from achieving mastery
+
+the deep learning systems that are trained using supervised learning often rely on data that is created or annotated by humans or both it has been argued that not only low paid clickwork such as on amazon mechanical turk is regularly deployed for this purpose but also implicit forms of human microwork that are often not recognized as such the philosopher rainer mühlhoff distinguishes five types of machinic capture of human microwork to generate training data 1 gamification the embedding of annotation or computation tasks in the flow of a game 2 trapping and tracking e g captchas for image recognition or click tracking on google search results pages 3 exploitation of social motivations e g tagging faces on facebook to obtain labeled facial images 4 information mining e g by leveraging quantified self devices such as activity trackers and 5 clickwork

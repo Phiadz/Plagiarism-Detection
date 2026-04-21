@@ -1,0 +1,70 @@
+data fusion is the process of integrating multiple data sources to produce more consistent accurate and useful information than that provided by any individual data source
+
+data fusion processes are often categorized as low intermediate or high depending on the processing stage at which fusion takes place low level data fusion combines several sources of raw data to produce new raw data the expectation is that fused data is more informative and synthetic than the original inputs
+
+for example sensor fusion is also known as multi sensor data fusion and is a subset of information fusion
+
+the concept of data fusion has origins in the evolved capacity of humans and animals to incorporate information from multiple senses to improve their ability to survive for example a combination of sight touch smell and taste may indicate whether a substance is edible
+
+in the mid 1980s the joint directors of laboratories formed the data fusion subpanel which later became known as the data fusion group with the advent of the world wide web data fusion thus included data sensor and information fusion the jdl dfig introduced a model of data fusion that divided the various processes currently the six levels with the data fusion information group dfig model are
+
+although the jdl model level 1 4 is still in use today it is often criticized for its implication that the levels necessarily happen in order and also for its lack of adequate representation of the potential for a human in the loop the dfig model level 0 5 explored the implications of situation awareness user refinement and mission management despite these shortcomings the jdl dfig models are useful for visualizing the data fusion process facilitating discussion and common understanding and important for systems level information fusion design
+
+
+in the geospatial gis domain data fusion is often synonymous with data integration in these applications there is often a need to combine diverse data sets into a unified fused data set which includes all of the data points and time steps from the input data sets the fused data set is different from a simple combined superset in that the points in the fused data set contain attributes and metadata which might not have been included for these points in the original data set
+
+a simplified example of this process is shown below where data set α is fused with data set β to form the fused data set δ data points in set α have spatial coordinates x and y and attributes a1 and a2 data points in set β have spatial coordinates x and y and attributes b1 and b2 the fused data set contains all points and attributes
+
+in a simple case where all attributes are uniform across the entire analysis domain the attributes may be simply assigned m n q r to m n q r in a real application attributes are not uniform and some type of interpolation is usually required to properly assign attributes to the data points in the fused set
+
+in a much more complicated application marine animal researchers use data fusion to combine animal tracking data with bathymetric meteorological sea surface temperature sst and animal habitat data to examine and understand habitat utilization and animal behavior in reaction to external forces such as weather or water temperature each of these data sets exhibit a different spatial grid and sampling rate so a simple combination would likely create erroneous assumptions and taint the results of the analysis but through the use of data fusion all data and attributes are brought together into a single view in which a more complete picture of the environment is created this enables scientists to identify key locations and times and form new insights into the interactions between the environment and animal behaviors
+
+in the figure at right rock lobsters are studied off the coast of tasmania hugh pederson of the university of tasmania used data fusion software to fuse southern rock lobster tracking data color coded for in yellow and black for day and night respectively with bathymetry and habitat data to create a unique 4d picture of rock lobster behavior
+
+in applications outside of the geospatial domain differences in the usage of the terms data integration and data fusion apply in areas such as business intelligence for example data integration is used to describe the combining of data whereas data fusion is integration followed by reduction or replacement data integration might be viewed as set combination wherein the larger set is retained whereas fusion is a set reduction technique with improved confidence
+
+the data from the different sensing technologies can be combined in intelligent ways to determine the traffic state accurately a data fusion based approach that utilizes the road side collected acoustic image and sensor data has been shown to combine the advantages of the different individual methods
+
+in many cases geographically dispersed sensors are severely energy and bandwidth limited therefore the raw data concerning a certain phenomenon are often summarized in a few bits from each sensor when inferring on a binary event i e
+
+
+
+
+
+
+h
+
+
+
+0
+
+
+
+
+displaystyle mathcal h _ 0
+
+or
+
+
+
+
+
+
+h
+
+
+
+1
+
+
+
+
+displaystyle mathcal h _ 1
+
+in the extreme case only binary decisions are sent from sensors to a decision fusion center dfc and combined in order to obtain improved classification performance
+
+with a multitude of built in sensors including motion sensor environmental sensor position sensor a modern mobile device typically gives mobile applications access to a number of sensory data which could be leveraged to enhance the contextual awareness using signal processing and data fusion techniques such as feature generation feasibility study and principal component analysis pca such sensory data will greatly improve the positive rate of classifying the motion and contextual relevant status of the device many context enhanced information techniques are provided by snidaro et al
+
+gaussian processes are a popular machine learning model if an auto regressive relationship between the data is assumed and each data source is assumed to be a gaussian process this constitutes a non linear bayesian regression problem
+
+many data fusion methods assume common conditional distributions across several data sources recently methods have been developed to enable efficient estimation within the resulting semiparametric model

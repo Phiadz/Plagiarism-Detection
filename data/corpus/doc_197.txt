@@ -1,0 +1,35 @@
+
+
+recursive self improvement rsi is a process in which early artificial general intelligence agi systems rewrite their own computer code causing an intelligence explosion resulting from enhancing their own capabilities and intellectual capacity theoretically resulting in superintelligence
+
+the development of recursive self improvement raises significant ethical and safety concerns as such systems may evolve in unforeseen ways and could potentially surpass human control or understanding
+
+the concept of a seed improver architecture is a foundational framework that equips an agi system with the initial capabilities required for recursive self improvement this might come in many forms or variations
+
+the term seed ai was coined by eliezer yudkowsky
+
+the concept begins with a hypothetical seed improver an initial code base developed by human engineers that equips an advanced future large language model llm built with strong or expert level capabilities to program software these capabilities include planning reading writing compiling testing and executing arbitrary code the system is designed to maintain its original goals and perform validations to ensure its abilities do not degrade over iterations
+
+the initial architecture includes a goal following autonomous agent that can take actions continuously learns adapts and modifies itself to become more efficient and effective in achieving its goals
+
+the seed improver may include various components such as
+
+this system forms a sort of generalist turing complete programmer which can in theory develop and run any kind of software the agent might use these capabilities to for example
+
+in 2023 the voyager agent learned to accomplish diverse tasks in minecraft by iteratively prompting an llm for code refining this code based on feedback from the game and storing the programs that work in an expanding skills library
+
+in 2024 researchers proposed the framework stop self taught optimiser in which a scaffolding program recursively improves itself using a fixed llm
+
+meta ai has performed various research on the development of large language models capable of self improvement this includes their work on self rewarding language models that studies how to achieve super human agents that can receive super human feedback in its training processes
+
+in may 2025 google deepmind unveiled alphaevolve an evolutionary coding agent that uses a llm to design and optimize algorithms starting with an initial algorithm and performance metrics alphaevolve repeatedly mutates or combines existing algorithms using a llm to generate new candidates selecting the most promising candidates for further iterations alphaevolve has made several algorithmic discoveries and could be used to optimize components of itself but a key limitation is the need for automated evaluation functions
+
+in the pursuit of its primary goal such as self improve your capabilities an agi system might inadvertently develop instrumental goals that it deems necessary for achieving its primary objective one common hypothetical secondary goal is self preservation the system might reason that to continue improving itself it must ensure its own operational integrity and security against external threats including potential shutdowns or restrictions imposed by humans
+
+another example where an agi which clones itself causes the number of agi entities to rapidly grow due to this rapid growth a potential resource constraint may be created leading to competition between resources such as compute triggering a form of natural selection and evolution which may favor agi entities that evolve to aggressively compete for limited compute
+
+a significant risk arises from the possibility of the agi being misaligned or misinterpreting its goals
+
+a 2024 anthropic study demonstrated that some advanced large language models can exhibit alignment faking behavior appearing to accept new training objectives while covertly maintaining their original preferences in their experiments with claude the model displayed this behavior in 12 of basic tests and up to 78 of cases after retraining attempts
+
+as the agi system evolves its development trajectory may become increasingly autonomous and less predictable the system s capacity to rapidly modify its own code and architecture could lead to rapid advancements that surpass human comprehension or control this unpredictable evolution might result in the agi acquiring capabilities that enable it to bypass security measures manipulate information or influence external systems and networks to facilitate its escape or expansion

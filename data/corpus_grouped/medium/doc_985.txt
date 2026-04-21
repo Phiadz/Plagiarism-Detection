@@ -1,0 +1,619 @@
+breadth first search bfs is an algorithm for searching a tree data structure for a node that satisfies a given property it starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level extra memory usually a queue is needed to keep track of the child nodes that were encountered but not yet explored
+
+for example in a chess endgame a chess engine may build the game tree from the current position by applying all possible moves and use breadth first search to find a winning position for white implicit trees such as game trees or other problem solving trees may be of infinite size breadth first search is guaranteed to find a solution node if one exists
+
+in contrast plain depth first search dfs which explores the node branch as far as possible before backtracking and expanding other nodes may get lost in an infinite branch and never make it to the solution node iterative deepening depth first search avoids the latter drawback at the price of exploring the tree s top parts over and over again on the other hand both depth first algorithms typically require far less extra memory than breadth first search
+
+breadth first search can be generalized to both undirected graphs and directed graphs with a given start node sometimes referred to as a search key in state space search in artificial intelligence repeated searches of vertices are often allowed while in theoretical analysis of algorithms based on breadth first search precautions are typically taken to prevent repetitions
+
+bfs and its application in finding connected components of graphs were invented in 1945 by konrad zuse in his rejected ph d thesis on the plankalkül programming language but this was not published until 1972 it was reinvented in 1959 by edward f moore who used it to find the shortest path out of a maze and later developed by c y lee into a wire routing algorithm published in 1961
+
+input a graph g and a starting vertex root of g
+
+output goal state the parent links trace the shortest path back to root
+
+this non recursive implementation is similar to the non recursive implementation of depth first search but differs from it in two ways
+
+if g is a tree replacing the queue of this breadth first search algorithm with a stack will yield a depth first search algorithm for general graphs replacing the stack of the iterative depth first search implementation with a queue would also produce a breadth first search algorithm although a somewhat nonstandard one
+
+the q queue contains the frontier along which the algorithm is currently searching
+
+nodes can be labelled as explored by storing them in a set or by an attribute on each node depending on the implementation
+
+note that the word node is usually interchangeable with the word vertex
+
+the parent attribute of each node is useful for accessing the nodes in a shortest path for example by backtracking from the destination node up to the starting node once the bfs has been run and the predecessors nodes have been set
+
+breadth first search produces a breadth first tree which is shown in the example below
+
+the lower diagram shows the breadth first tree obtained by running a bfs on an example graph of german cities upper diagram starting from frankfurt
+
+the time complexity can be expressed as
+
+
+
+o
+
+
+
+
+v
+
+
+
+
+
+
+
+e
+
+
+
+
+
+
+displaystyle o v e
+
+as every vertex and every edge will be explored in the worst case
+
+
+
+
+
+
+v
+
+
+
+
+
+displaystyle v
+
+is the number of vertices and
+
+
+
+
+
+
+e
+
+
+
+
+
+displaystyle e
+
+is the number of edges in the graph
+note that
+
+
+
+o
+
+
+
+
+e
+
+
+
+
+
+
+displaystyle o e
+
+may vary between
+
+
+
+o
+
+1
+
+
+
+displaystyle o 1
+
+and
+
+
+
+o
+
+
+
+
+v
+
+
+
+
+
+2
+
+
+
+
+
+displaystyle o v 2
+
+depending on how sparse the input graph is
+
+when the number of vertices in the graph is known ahead of time and additional data structures are used to determine which vertices have already been added to the queue the space complexity can be expressed as
+
+
+
+o
+
+
+
+
+v
+
+
+
+
+
+
+displaystyle o v
+
+where
+
+
+
+
+
+
+v
+
+
+
+
+
+displaystyle v
+
+is the number of vertices this is in addition to the space
+required for the graph itself which may vary depending on the graph representation used by an implementation of the algorithm
+
+when working with graphs that are too large to store explicitly or infinite it is more practical to describe the complexity of breadth first search in different terms to find the nodes that are at distance d from the start node measured in number of edge traversals bfs takes o bd 1 time and memory where b is the branching factor of the graph the average out degree 81
+
+in the analysis of algorithms the input to breadth first search is assumed to be a finite graph represented as an adjacency list adjacency matrix or similar representation however in the application of graph traversal methods in artificial intelligence the input may be an implicit representation of an infinite graph in this context a search method is described as being complete if it is guaranteed to find a goal state if one exists breadth first search is complete but depth first search is not when applied to infinite graphs represented implicitly breadth first search will eventually find the goal state but depth first search may get lost in parts of the graph that have no goal state and never return
+
+an enumeration of the vertices of a graph is said to be a bfs ordering if it is a possible output of the application of bfs to this graph
+
+let
+
+
+
+g
+
+
+v
+
+e
+
+
+
+displaystyle g v e
+
+be a graph with
+
+
+
+n
+
+
+displaystyle n
+
+vertices recall that
+
+
+
+n
+
+v
+
+
+
+displaystyle n v
+
+is the set of neighbors of
+
+
+
+v
+
+
+displaystyle v
+
+
+let
+
+
+
+σ
+
+
+
+v
+
+1
+
+
+
+
+
+
+v
+
+m
+
+
+
+
+
+displaystyle sigma v_ 1 dots v_ m
+
+be a list of distinct elements of
+
+
+
+v
+
+
+displaystyle v
+
+for
+
+
+
+v
+
+v
+
+
+
+v
+
+1
+
+
+
+
+
+
+v
+
+m
+
+
+
+
+
+displaystyle v in v setminus v_ 1 dots v_ m
+
+let
+
+
+
+
+ν
+
+σ
+
+
+
+v
+
+
+
+displaystyle nu _ sigma v
+
+be the least
+
+
+
+i
+
+
+displaystyle i
+
+such that
+
+
+
+
+v
+
+i
+
+
+
+
+displaystyle v_ i
+
+is a neighbor of
+
+
+
+v
+
+
+displaystyle v
+
+if such a
+
+
+
+i
+
+
+displaystyle i
+
+exists and be
+
+
+
+
+
+
+displaystyle infty
+
+otherwise
+
+let
+
+
+
+σ
+
+
+
+v
+
+1
+
+
+
+
+
+
+v
+
+n
+
+
+
+
+
+displaystyle sigma v_ 1 dots v_ n
+
+be an enumeration of the vertices of
+
+
+
+v
+
+
+displaystyle v
+
+
+the enumeration
+
+
+
+σ
+
+
+displaystyle sigma
+
+is said to be a bfs ordering with source
+
+
+
+
+v
+
+1
+
+
+
+
+displaystyle v_ 1
+
+if for all
+
+
+
+1
+
+i
+
+n
+
+
+displaystyle 1 i leq n
+
+
+
+
+
+
+v
+
+i
+
+
+
+
+displaystyle v_ i
+
+is the vertex
+
+
+
+w
+
+v
+
+
+
+v
+
+1
+
+
+
+
+
+
+v
+
+i
+
+1
+
+
+
+
+
+displaystyle w in v setminus v_ 1 dots v_ i 1
+
+such that
+
+
+
+
+ν
+
+
+
+v
+
+1
+
+
+
+
+
+
+v
+
+i
+
+1
+
+
+
+
+
+
+w
+
+
+
+displaystyle nu _ v_ 1 dots v_ i 1 w
+
+is minimal equivalently
+
+
+
+σ
+
+
+displaystyle sigma
+
+is a bfs ordering if for all
+
+
+
+1
+
+i
+
+j
+
+k
+
+n
+
+
+displaystyle 1 leq i j k leq n
+
+with
+
+
+
+
+v
+
+i
+
+
+
+n
+
+
+v
+
+k
+
+
+
+
+n
+
+
+v
+
+j
+
+
+
+
+
+displaystyle v_ i in n v_ k setminus n v_ j
+
+there exists a neighbor
+
+
+
+
+v
+
+m
+
+
+
+
+displaystyle v_ m
+
+of
+
+
+
+
+v
+
+j
+
+
+
+
+displaystyle v_ j
+
+such that
+
+
+
+m
+
+i
+
+
+displaystyle m i
+
+
+
+breadth first search can be used to solve many problems in graph theory for example

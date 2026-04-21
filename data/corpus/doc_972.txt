@@ -1,0 +1,1047 @@
+the situation calculus is a logic formalism designed for representing and reasoning about dynamical domains it was first introduced by john mccarthy in 1963 the main version of the situational calculus that is presented in this article is based on that introduced by ray reiter in 1991 it is followed by sections about mccarthy s 1986 version and a logic programming formulation
+
+the situation calculus represents changing scenarios as a set of first order logic formulae the basic elements of the calculus are
+
+a domain is formalized by a number of formulae namely
+
+a simple robot world will be modeled as a running example in this world there is a single robot and several inanimate objects the world is laid out according to a grid so that locations can be specified in terms of
+
+
+
+
+x
+
+y
+
+
+
+displaystyle x y
+
+coordinate points it is possible for the robot to move around the world and to pick up and drop items some items may be too heavy for the robot to pick up or fragile so that they break when they are dropped the robot also has the ability to repair any broken items that it is holding
+
+the main elements of the situation calculus are the actions fluents and the situations a number of objects are also typically involved in the description of the world the situation calculus is based on a sorted domain with three sorts actions situations and objects where the objects include everything that is not an action or a situation variables of each sort can be used while actions situations and objects are elements of the domain the fluents are modeled as either predicates or functions
+
+the actions form a sort of the domain variables of sort action can be used and also functions whose result is of sort action actions can be quantified in the example robot world possible action terms would be
+
+
+
+m
+o
+v
+e
+
+x
+
+y
+
+
+
+displaystyle move x y
+
+to model the robot moving to a new location
+
+
+
+
+x
+
+y
+
+
+
+displaystyle x y
+
+and
+
+
+
+p
+i
+c
+k
+u
+p
+
+o
+
+
+
+displaystyle pickup o
+
+to model the robot picking up an object o a special predicate poss is used to indicate when an action is executable
+
+in the situation calculus a dynamic world is modeled as progressing through a series of situations as a result of various actions being performed within the world a situation represents a history of action occurrences in the reiter version of the situation calculus described here a situation does not represent a state contrarily to the literal meaning of the term and contrarily to the original definition by mccarthy and hayes this point has been summarized by reiter as follows
+
+the situation before any actions have been performed is typically denoted
+
+
+
+
+s
+
+0
+
+
+
+
+displaystyle s_ 0
+
+and called the initial situation the new situation resulting from the performance of an action is denoted using the function symbol do some other references also use result this function symbol has a situation and an action as arguments and a situation as a result the latter being the situation that results from performing the given action in the given situation
+
+the fact that situations are sequences of actions and not states is enforced by an axiom stating that
+
+
+
+d
+o
+
+a
+
+s
+
+
+
+displaystyle do a s
+
+is equal to
+
+
+
+d
+o
+
+
+a
+
+
+
+
+s
+
+
+
+
+
+displaystyle do a s
+
+if and only if
+
+
+
+a
+
+
+a
+
+
+
+
+displaystyle a a
+
+and
+
+
+
+s
+
+
+s
+
+
+
+
+displaystyle s s
+
+this condition makes no sense if situations were states as two different actions executed in two different states can result in the same state
+
+in the example robot world if the robot s first action is to move to location
+
+
+
+
+2
+
+3
+
+
+
+displaystyle 2 3
+
+the first action is
+
+
+
+m
+o
+v
+e
+
+2
+
+3
+
+
+
+displaystyle move 2 3
+
+and the resulting situation is
+
+
+
+d
+o
+
+m
+o
+v
+e
+
+2
+
+3
+
+
+
+s
+
+0
+
+
+
+
+
+displaystyle do move 2 3 s_ 0
+
+if its next action is to pick up the ball the resulting situation is
+
+
+
+d
+o
+
+p
+i
+c
+k
+u
+p
+
+b
+a
+l
+l
+
+
+d
+o
+
+m
+o
+v
+e
+
+2
+
+3
+
+
+
+s
+
+0
+
+
+
+
+
+
+displaystyle do pickup ball do move 2 3 s_ 0
+
+situations terms like
+
+
+
+d
+o
+
+m
+o
+v
+e
+
+2
+
+3
+
+
+
+s
+
+0
+
+
+
+
+
+displaystyle do move 2 3 s_ 0
+
+and
+
+
+
+d
+o
+
+p
+i
+c
+k
+u
+p
+
+b
+a
+l
+l
+
+
+d
+o
+
+m
+o
+v
+e
+
+2
+
+3
+
+
+
+s
+
+0
+
+
+
+
+
+
+displaystyle do pickup ball do move 2 3 s_ 0
+
+denote the sequences of executed actions and not the description of the state that result from execution
+
+statements whose truth value may change are modeled by relational fluents predicates that take a situation as their final argument also possible are functional fluents functions that take a situation as their final argument and return a situation dependent value fluents may be thought of as properties of the world
+
+in the example the fluent
+
+
+
+
+
+iscarrying
+
+
+
+o
+
+s
+
+
+
+displaystyle textit iscarrying o s
+
+can be used to indicate that the robot is carrying a particular object in a particular situation if the robot initially carries nothing
+
+
+
+
+
+iscarrying
+
+
+
+b
+a
+l
+l
+
+
+s
+
+0
+
+
+
+
+
+displaystyle textit iscarrying ball s_ 0
+
+is false while
+
+
+
+
+
+iscarrying
+
+
+
+b
+a
+l
+l
+
+d
+o
+
+p
+i
+c
+k
+u
+p
+
+b
+a
+l
+l
+
+
+
+s
+
+0
+
+
+
+
+
+
+displaystyle textit iscarrying ball do pickup ball s_ 0
+
+is true the location of the robot can be modeled using a functional fluent
+
+
+
+l
+o
+c
+a
+t
+i
+o
+n
+
+s
+
+
+
+displaystyle location s
+
+that returns the location
+
+
+
+
+x
+
+y
+
+
+
+displaystyle x y
+
+of the robot in a particular situation
+
+the description of a dynamic world is encoded in second order logic using three kinds of formulae formulae about actions preconditions and effects formulae about the state of the world and foundational axioms
+
+some actions may not be executable in a given situation for example it is impossible to put down an object unless one is in fact carrying it the restrictions on the performance of actions are modeled by literals of the form
+
+
+
+
+
+poss
+
+
+
+a
+
+s
+
+
+
+displaystyle textit poss a s
+
+where a is an action s a situation and poss is a special binary predicate denoting executability of actions in the example the condition that dropping an object is only possible when one is carrying it is modeled by
+
+as a more complex example the following models that the robot can carry only one object at a time and that some objects are too heavy for the robot to lift indicated by the predicate heavy
+
+given that an action is possible in a situation one must specify the effects of that action on the fluents this is done by the effect axioms for example the fact that picking up an object causes the robot to be carrying it can be modeled as
+
+it is also possible to specify conditional effects which are effects that depend on the current state the following models that some objects are fragile indicated by the predicate fragile and dropping them causes them to be broken indicated by the fluent broken
+
+while this formula correctly describes the effect of the actions it is not sufficient to correctly describe the action in logic because of the frame problem
+
+while the above formulae seem suitable for reasoning about the effects of actions they have a critical weakness they cannot be used to derive the non effects of actions for example it is not possible to deduce that after picking up an object the robot s location remains unchanged this requires a so called frame axiom a formula like
+
+the need to specify frame axioms has long been recognised as a problem in axiomatizing dynamic worlds and is known as the frame problem as there are generally a very large number of such axioms it is very easy for the designer to leave out a necessary frame axiom or to forget to modify all appropriate axioms when a change to the world description is made
+
+the successor state axioms solve the frame problem in the situation calculus according to this solution the designer must enumerate as effect axioms all the ways in which the value of a particular fluent can be changed the effect axioms affecting the value of fluent
+
+
+
+f
+
+
+
+x
+
+
+
+
+s
+
+
+
+displaystyle f overrightarrow x s
+
+can be written in generalised form as a positive and a negative effect axiom
+
+the formula
+
+
+
+
+γ
+
+f
+
+
+
+
+
+
+
+displaystyle gamma _ f
+
+describes the conditions under which action a in situation s makes the fluent f become true in the successor situation
+
+
+
+d
+o
+
+a
+
+s
+
+
+
+displaystyle do a s
+
+likewise
+
+
+
+
+γ
+
+f
+
+
+
+
+
+
+
+displaystyle gamma _ f
+
+describes the conditions under which performing action a in situation s makes fluent f false in the successor situation
+
+if this pair of axioms describe all the ways in which fluent f can change value they can be rewritten as a single axiom
+
+in words this formula states given that it is possible to perform action a in situation s the fluent f would be true in the resulting situation
+
+
+
+d
+o
+
+a
+
+s
+
+
+
+displaystyle do a s
+
+if and only if performing a in s would make it true or it is true in situation s and performing a in s would not make it false
+
+by way of example the value of the fluent broken introduced above is given by the following successor state axiom
+
+the properties of the initial or any other situation can be specified by simply stating them as formulae for example a fact about the initial state is formalized by making assertions about
+
+
+
+
+s
+
+0
+
+
+
+
+displaystyle s_ 0
+
+which is not a state but a situation the following statements model that initially the robot carries nothing is at
+location
+
+
+
+
+0
+
+0
+
+
+
+displaystyle 0 0
+
+and there are no broken objects
+
+the foundational axioms of the situation calculus formalize the idea that situations are histories by having
+
+
+
+d
+o
+
+a
+
+s
+
+
+d
+o
+
+
+a
+
+
+
+
+s
+
+
+
+
+
+
+a
+
+
+a
+
+
+
+s
+
+
+s
+
+
+
+
+displaystyle do a s do a s iff a a land s s
+
+they also include other properties such as the second order induction on situations
+
+regression is a mechanism for proving consequences in the situation calculus it is based on expressing a formula containing the situation
+
+
+
+d
+o
+
+a
+
+s
+
+
+
+displaystyle do a s
+
+in terms of a formula containing the action a and the situation s but not the situation
+
+
+
+d
+o
+
+a
+
+s
+
+
+
+displaystyle do a s
+
+by iterating this procedure one can end up with an equivalent formula containing only the initial situation s0 proving consequences is supposedly simpler from this formula than from the original one
+
+golog is a logic programming language based on the situation calculus
+
+the main difference between the original situation calculus by mccarthy and hayes and the one in use today is the interpretation of situations in the modern version of the situational calculus a situation is a sequence of actions originally situations were defined as the complete state of the universe at an instant of time it was clear from the beginning that such situations could not be completely described the idea was simply to give some statements about situations and derive consequences from them this is also different from the approach that is taken by the fluent calculus where a state can be a collection of known facts that is a possibly incomplete description of the universe
+
+in the original version of the situation calculus fluents are not reified in other words conditions that can change are represented by predicates and not by functions actually mccarthy and hayes defined a fluent as a function that depends on the situation but they then proceeded always using predicates to represent fluents for example the fact that it is raining at place x in the situation s is represented by the literal
+
+
+
+r
+a
+i
+n
+i
+n
+g
+
+x
+
+s
+
+
+
+displaystyle raining x s
+
+in the 1986 version of the situation calculus by mccarthy functional fluents are used for example the position of an object x in the situation s is represented by the value of
+
+
+
+l
+o
+c
+a
+t
+i
+o
+n
+
+x
+
+s
+
+
+
+displaystyle location x s
+
+where location is a function statements about such functions can be given using equality
+
+
+
+l
+o
+c
+a
+t
+i
+o
+n
+
+x
+
+s
+
+
+l
+o
+c
+a
+t
+i
+o
+n
+
+x
+
+
+s
+
+
+
+
+
+displaystyle location x s location x s
+
+means that the location of the object x is the same in the two situations s and
+
+
+
+
+s
+
+
+
+
+displaystyle s
+
+
+
+the execution of actions is represented by the function result the execution of the action a in the situation s is the situation
+
+
+
+
+
+result
+
+
+
+a
+
+s
+
+
+
+displaystyle textit result a s
+
+the effects of actions are expressed by formulae relating fluents in situation s and fluents in situations
+
+
+
+
+
+result
+
+
+
+a
+
+s
+
+
+
+displaystyle textit result a s
+
+for example that the action of opening the door results in the door being open if not locked is represented by
+
+the predicates locked and open represent the conditions of a door being locked and open respectively since these conditions may vary they are represented by predicates with a situation argument the formula says that if the door is not locked in a situation then the door is open after executing the action of opening this action being represented by the constant opens
+
+these formulae are not sufficient to derive everything that is considered plausible indeed fluents at different situations are only related if they are preconditions and effects of actions if a fluent is not affected by an action there is no way to deduce it did not change for example the formula above does not imply that
+
+
+
+
+l
+o
+c
+k
+e
+d
+
+d
+o
+o
+r
+
+
+
+result
+
+
+
+o
+p
+e
+n
+s
+
+s
+
+
+
+
+displaystyle neg locked door textit result opens s
+
+follows from
+
+
+
+
+l
+o
+c
+k
+e
+d
+
+d
+o
+o
+r
+
+s
+
+
+
+displaystyle neg locked door s
+
+which is what one would expect the door is not made locked by opening it in order for inertia to hold formulae called frame axioms are needed these formulae specify all non effects of actions
+
+in the original formulation of the situation calculus the initial situation later denoted by
+
+
+
+
+s
+
+0
+
+
+
+
+displaystyle s_ 0
+
+is not explicitly identified the initial situation is not needed if situations are taken to be descriptions of the world for example to represent the scenario in which the door was closed but not locked and the action of opening it is performed is formalized by taking a constant s to mean the initial situation and making statements about it e g
+
+
+
+
+l
+o
+c
+k
+e
+d
+
+d
+o
+o
+r
+
+s
+
+
+
+displaystyle neg locked door s
+
+that the door is open after the change is reflected by formula
+
+
+
+o
+p
+e
+n
+
+d
+o
+o
+r
+
+
+
+result
+
+
+
+o
+p
+e
+n
+s
+
+s
+
+
+
+
+displaystyle open door textit result opens s
+
+being entailed the initial situation is instead necessary if like in the modern situation calculus a situation is taken to be a history of actions as the initial situation represents the empty sequence of actions
+
+the version of the situation calculus introduced by mccarthy in 1986 differs to the original one by the use of functional fluents e g
+
+
+
+l
+o
+c
+a
+t
+i
+o
+n
+
+x
+
+s
+
+
+
+displaystyle location x s
+
+is a term representing the position of x in the situation s and for an attempt to use circumscription to replace the frame axioms
+
+it is also possible e g kowalski 1979 apt and bezem 1990 shanahan 1997 to write the situation calculus as a logic program
+
+here holds is a meta predicate and the variable f ranges over fluents the predicates poss initiates and terminates correspond to the predicates poss
+
+
+
+
+γ
+
+f
+
+
+
+
+
+
+
+
+x
+
+
+
+
+a
+
+s
+
+
+
+displaystyle gamma _ f overrightarrow x a s
+
+and
+
+
+
+
+γ
+
+f
+
+
+
+
+
+
+
+
+x
+
+
+
+
+a
+
+s
+
+
+
+displaystyle gamma _ f overrightarrow x a s
+
+respectively the left arrow is half of the equivalence the other half is implicit in the completion of the program in which negation is interpreted as negation as failure induction axioms are also implicit and are needed only to prove program properties backward reasoning as in sld resolution which is the usual mechanism used to execute logic programs implements regression implicitly

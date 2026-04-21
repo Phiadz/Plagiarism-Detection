@@ -1,0 +1,51 @@
+data as a service daas is a cloud based software tool used for working with data such as managing data in a data warehouse or analyzing data with business intelligence it is enabled by software as a service saas like all as a service aas technology daas builds on the concept that its data product can be provided to the user on demand regardless of geographic or organizational separation between provider and consumer service oriented architecture soa and the widespread use of apis have rendered the platform on which the data resides as irrelevant
+
+data as a service as a business model is a concept when two or more organizations buy sell or trade machine readable data in exchange for something of value
+
+daas began primarily in web mashups and since 2015 has been increasingly employed both commercially and within organizations such as the united nations
+
+traditionally most organisations have used data stored in a self contained repository for which software was specifically developed to access and present the data in a human readable form one result of this paradigm is the bundling of both the data and the software needed to interpret it into a single package sold as a consumer product as the number of bundled software with data packages proliferated and required interaction among one another another layer of interface was required these interfaces collectively known as enterprise application integration eai often tended to encourage vendor lock in as it is generally easy to integrate applications that are built upon the same foundation technology
+
+the result of the combined software data consumer package and required eai middleware has been an increased amount of software for organizations to manage and maintain simply for the use of particular data in addition to routine maintenance costs a cascading amount of software updates are required as the format of the data changes the existence of this situation contributes to the attractiveness of daas to data consumers because it allows for the separation of data cost and of data usage from the cost of a specific software environment or platform sensing as a service s2aas is a business model that integrates internet of things data to create data trading marketplaces
+
+vendors such as mulesoft oracle cloud and microsoft azure undertake development of daas that more rapidly computes large volumes of data integrates and analyzes that data and publish it in real time using web service apis that adhere to its rest architectural constraints restful api
+
+data as a service as a business model is a concept when two or more organizations buy sell or trade machine readable data in exchange for something of value
+data as a service is a general term that encompasses data related services now daas service providers are replacing traditional data analytics services or happily clustering with existing services to offer more value addition to customers the daas providers are curating aggregating analyzing multi source data in order to provide additional more valuable analytical data or information
+
+this data is being used to increment internal companies data to improve business processes and decision making for ai training and for supplementing organization s services or products wherein external daas uses data licensed from a vendor which is supplied to a customer on demand
+
+usually the data is delivered via network which is typically cloud based to this end organizations may buy sell or trade soft copy data as a daas service
+
+typically daas business is based on subscriptions and customers pay for a package of services or definite services at the same time investors must make sure that the revenue generated exceeds initial and operational costs of running the business
+the pricing model is usually classified into 2 categories
+
+since the customers only get access to the data stream delivered by daas vendors when they need it this eliminates the need to store data within a company and the corresponding costs which makes the business more flexible
+
+one of this business model parts is regulation in the field of user data turnover there are a number of regulations that require vendors to comply with specific customer service requirements in particular the website that collects the data must notify visitors about what kind of data is being collected and obtain consent to these actions sites should also promptly notify visitors if any of their personal data stored on the site has been breached in addition an assessment of the security of website data and ensuring their protection is required the general data protection regulation has become the model for many national laws outside the eu including the united kingdom turkey mauritius chile japan brazil south korea argentina and kenya and formed the basis for the california consumer privacy act
+
+another component of the business model is about ensuring that the customers may receive and use data to improve their own value propositions products services in this business model data provides value as a support mechanism or a tool for creating other value propositions that s why the revenue stream is typically quite a bit lower
+
+in turn data as a service is one of 3 categories of big data business models based on their value propositions and customers
+
+data as a service vendors use different types of data to provide services in different areas of business for example people data labs is collecting public data about people for their customers could empower recruiting platforms create ai models custom audiences etc nyne ai is a competitor in the people data space that emphasizes consumer and brand insights its platform connects fragmented signals from social media and hundreds of millions of websites to map the accounts a person owns from there ai agents analyze user activity to identify brand affinities interests and behavioral patterns providing intelligence for both business applications and ai driven systems
+
+in the field of financial technologies consumers financial and behavior data are being collected and aggregated to help organizations to make better decisions to increase profitability and reduce risk in lending to provide services to business government and individuals
+
+in another segment daas vendors assemble mobile operators data to provide various types of services for example onefactor platform where other businesses telecoms banks retailers payment systems etc may monetize their own data by processing and enriching it with additional information building machine learning models and launching them in production
+
+in the realm of business data daas vendors such as enigma technologies aggregate and provide insights into various aspects of business operations such as revenue profiling market analysis business onboarding and competitive benchmarking these services enable businesses to optimize their strategies identify market opportunities and enhance operational efficiency for instance some daas providers focus on collecting and analyzing data from retail locations to help companies understand revenue patterns customer behavior and market trends thereby informing site selection and expansion strategies
+
+there are companies in the daas market which offer weather forecasting services based on meteorological data collected around the world
+
+data as a service operates on the premise that data quality can occur in a centralized place cleansing and enriching data and offering it to different systems applications or users irrespective of where they were in the organization or on the network daas undertakes to provide the following advantages
+
+the drawbacks of daas are generally similar to those associated with any type of cloud computing such as the reliance of the user on the service provider s ability to avoid server downtime from terrorist attacks power outages or natural disasters a common criticism specific to the daas model is that when compared to traditional data delivery the consumer is merely renting the data and using it to produce analytics or insights and generally the original data is not available for download
+
+the pitfall of using data as a service business model is the problem of data piracy and leaks of sensitive data typically all daas business operators develop and use a licensing agreement to protect the intellectual property rights of the data they sell process or analyze in order to protect the data from any type of copyright infringement subscription violation or use violation
+
+despite the fact that daas providers sell anonymized data to customers in some cases the cleaning process leaves a lot of data available to customers and may allow exposing the people included in the dataset
+
+there is also a problem with user consent to the collection processing and storage of data mobile application developers may sell data from users smartphones at the same time the application users may not always be aware of what information is being tracked by the application
+
+publishers of public data like linkedin may consider scraping their public websites for reselling directly or as analytical products not desirable however they have had limited success in the courts there is an argument that scraping public data and making it available either free of charge or as commercial products has economic and social benefits like challenging data monopolies or helping journalism

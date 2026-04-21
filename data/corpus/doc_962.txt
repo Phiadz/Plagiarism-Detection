@@ -1,0 +1,19 @@
+microelectronics and computer technology corporation originally the microelectronics and computer consortium and widely seen by the acronym mcc was the first and at one time one of the largest computer industry research and development consortia in the united states mcc ceased operations in 2000 and was formally dissolved in 2004
+
+mcc did research and development in the following areas
+
+the mcc was a response to the announcement of japan s fifth generation project a large japanese research project launched in 1982 aimed at producing a new kind of computer by 1991 the japanese had formed similar industrial research consortia as early as 1956 many european and american computer companies saw this new japanese initiative as an attempt to take full control of the world s high end computer market and mcc was created in part as a defensive move against that threat
+
+in late 1982 several major computer and semiconductor manufacturers in the united states banded together and founded mcc under the leadership of admiral bobby ray inman whose previous positions had been director of the national security agency and deputy director of the central intelligence agency such formations were illegal in the united states until the 1984 congressional passage of the national cooperative research act
+
+several sites with relevant universities were considered including atlanta georgia georgia tech the research triangle n c unc the washington d c area george mason stanford university and austin texas ut which was the final selection the university of texas offered land upon which they would construct a new building specifically designed for the mcc within their austin campus ross perot also offered the use of his private plane for 2 years for staff recruitment austin was selected as the site for mcc in 1983
+
+despite this purpose and the background of inman and his senior staff mcc accepted no government funding for many years and was a refuge for some avoiding work on strategic defense initiative projects mcc was part of the artificial intelligence boom of the 1980s reportedly the single largest customer of both symbolics and lisp machines inc and like symbolics was one of the first companies to register a com domain in the 1980s its major programs were packaging software engineering cad and advanced computer architectures the latter comprised artificial intelligence human interface database and parallel processing the latter two merging in the late 1980s
+
+many of the early shareholder companies were mainframe computer companies under stress in the 1980s over the years mcc s membership diversified to include a broad range of high profile corporations involved in information technology products as well as government research and development agencies and leading universities
+
+in june 2000 the mcc board of directors voted to dissolve the consortium and the few remaining employees held a wake at scholz s beer garden in austin on october 25 formal dissolution papers were reportedly not filed until 2004
+
+while multiple technologies were transferred to member companies and government agencies in the final years fourteen companies were spun out of mcc those spinoffs include
+
+30 23 43 22 n 97 44 6 76 w 30 3953389 n 97 7352111 w 30 3953389 97 7352111

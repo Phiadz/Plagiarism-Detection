@@ -1,0 +1,56 @@
+
+
+yann andré le cun ləˈkʌn lə kun french ləkœ usually spelled lecun born 8 july 1960 is a french american computer scientist working in the fields of artificial intelligence machine learning computer vision robotics and image compression he is the jacob t schwartz professor of computer science at the courant institute of mathematical sciences at new york university he served as chief ai scientist at meta platforms before leaving to work at his own company
+
+he is well known for his work on optical character recognition and computer vision using convolutional neural networks cnns he is also one of the main creators of the djvu image compression technology alongside léon bottou and patrick haffner he co developed the lush programming language with léon bottou
+
+in 2018 lecun yoshua bengio and geoffrey hinton received the turing award from the association for computing machinery acm for their work on deep learning the four including jürgen schmidhuber
+are sometimes referred to as the godfathers of ai and godfathers of deep learning
+
+lecun was born on 8 july 1960 at soisy sous montmorency in the suburbs of paris his name le cun originates from the old breton form le cunff and was from the region of guingamp in northern brittany yann is the breton form for john
+
+he received a diplôme d ingénieur from the esiee paris in 1983 and a phd in computer science from université pierre et marie curie now sorbonne university in 1987 during which he proposed an early form of the back propagation learning algorithm for neural networks before joining at t lecun was a postdoctoral researcher for a year starting in 1987 supervised by geoffrey hinton at the university of toronto
+
+lecun has three sons and his brother is employed by google he acquired american citizenship
+
+lecun s career has been spent primarily at bell labs new york university and meta platforms inc
+
+in 1988 lecun joined the adaptive systems research department at at t bell laboratories in holmdel new jersey united states headed by lawrence d jackel where he developed a number of new machine learning methods such as a biologically inspired model of image recognition called convolutional neural networks lenet the optimal brain damage regularization methods and the graph transformer networks method similar to conditional random field which he applied to handwriting recognition and optical character recognition ocr the bank check recognition system that he helped develop was widely deployed by ncr and other companies
+
+in 1996 he joined at t labs research as head of the image processing research department which was part of lawrence rabiner s speech and image processing research lab and worked primarily on the djvu image compression technology a format designed for efficient distribution of scanned documents and used by the internet archive to provide access to digitized texts his collaborators at at t include léon bottou and vladimir vapnik
+
+after a brief tenure as a fellow of nec research institute lecun joined new york university in 2003 where he is jacob t schwartz chaired professor of computer science and neural science at the courant institute of mathematical sciences and the center for neural science at nyu he has worked primarily on energy based models for supervised and unsupervised learning feature learning for object recognition in computer vision and mobile robotics
+
+in 2012 he became the founding director of the nyu center for data science on 9 december 2013 lecun became the first director of meta ai research in new york city and in early 2014 stepped down from the nyu cds directorship
+
+in 2013 he and yoshua bengio co founded the international conference on learning representations which adopted a post publication open review process he previously advocated on his website he was the chair and organiser of the learning workshop held every year between 1986 and 2012 in snowbird utah he is a member of the science advisory board of the institute for pure and applied mathematics at ucla he is the co director of the learning in machines and brain research program formerly neural computation adaptive perception of cifar
+
+in 2016 he was the visiting professor of computer science on the chaire annuelle informatique et sciences numériques at collège de france in paris where he presented the leçon inaugurale inaugural lecture in 2023 he was named as the inaugural jacob t schwartz chaired professor in computer science at nyu s courant institute lecun is also a scientific advisor to french research group kyutai which is being funded by xavier niel rodolphe saadé eric schmidt and others
+
+lecun joined facebook now meta platforms in 2013 as chief ai scientist and led the company s ai research laboratory fair
+
+on 19 november 2025 lecun confirmed that he would be leaving meta after ten years to found his own company focused on world model architectures and human like artificial intelligence he calls superintelligence
+
+the company he founded advanced machine intelligence labs or ami labs is run by ceo alex lebrun with lecun serving as executive chair this venture is focused on building ai world models systems that learn to understand the physical world s structure and dynamics rather than just predict text like large language models
+
+in march 2026 ami announced it had raised 1 03 billion in funding at a 3 5 billion pre money valuation the funding round was co led by investors including cathay innovation greycroft hiro capital hv capital and bezos expeditions
+
+lecun is a member of the us national academy of sciences national academy of engineering and the french académie des sciences
+
+he has received honorary doctorates from instituto politécnico nacional ipn in mexico city in 2016 from epfl in 2018 from université côte d azur in 2021 from università di siena in 2023 and from hong kong university of science and technology in 2023
+
+in 2014 he received the ieee neural network pioneer award and in 2015 the pami distinguished researcher award
+
+in 2018 lecun was awarded the iri medal established by the industrial research institute iri and the harold pender award given by the university of pennsylvania
+
+in 2019 he received the golden plate award of the american academy of achievement
+
+in march 2019 lecun won the 2018 turing award sharing it with yoshua bengio and geoffrey hinton
+
+in 2022 he received the princess of asturias award in the category scientific research along with yoshua bengio geoffrey hinton and demis hassabis
+
+in 2023 the president of france made him a chevalier knight of the french legion of honour
+
+during the world economic forum wef 2024 in davos he received the global swiss ai award 2023 the same year he received the grand prize of the vinfuture prize alongside yoshua bengio jensen huang geoffrey hinton and fei fei li for their groundbreaking contributions to neural networks and deep learning algorithms
+
+in 2025 he was awarded the queen elizabeth prize for engineering jointly with yoshua bengio bill dally geoffrey e hinton john hopfield jensen huang and fei fei li

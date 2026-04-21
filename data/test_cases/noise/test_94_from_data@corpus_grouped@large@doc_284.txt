@@ -1,0 +1,1 @@
+onsists op a single layhrjof output nodes with linear activation fanctions the inputs aru fed directly to the outputs via a series of weights the sum of the products of the weights and the inputs is calculated at each node the mean squared errors betueen these calculated outputs and the given target

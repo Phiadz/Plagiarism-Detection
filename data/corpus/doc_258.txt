@@ -1,0 +1,73 @@
+
+
+this glossary of artificial intelligence is a list of definitions of terms and concepts relevant to the study of artificial intelligence ai its subdisciplines and related fields related glossaries include glossary of computer science glossary of robotics glossary of machine vision and glossary of logic
+
+
+
+pronounced a star
+also abduction
+also adaptive network based fuzzy inference system
+also artificial emotional intelligence or emotion ai
+also fuzzy string searching
+also argumentation system
+also machine intelligence
+also simply ai planning
+also self driving car robot car and driverless car
+also backward reasoning
+also stochastic hopfield network with hidden units
+also propositional satisfiability problem abbreviated satisfiability or sat
+also bagging or bootstrapping
+also self learning know how system
+also exhaustive search or generate and test
+also smartbot talkbot chatterbot bot im bot interactive agent conversational interface or artificial conversational entity
+also clustering
+also artificial creativity mechanical creativity creative computing or creative computation
+also theoretical neuroscience or mathematical neuroscience
+also algorithmic number theory
+also statistical computing
+also conlang
+also recombination
+also dataset
+also enterprise data warehouse edw
+also theory of choice
+also epigenetic robotics
+also conversational agent ca
+also dimension reduction
+also decentralized artificial intelligence
+also dilution
+also interface agent
+also representation learning
+also first order predicate calculus or predicate logic
+also forward reasoning
+also friendly ai or fai
+also graph search
+also cognitive augmentation machine augmented intelligence and enhanced intelligence
+also virtual assistant or personal digital assistant
+also logic tree
+also clique tree
+aka lethal autonomous weapon system laws autonomous weapon system aws robotic weapon or killer robot
+also mathematical programming
+also computer audition ca
+also mechatronic engineering
+also self organized system
+also entity identification entity chunking and entity extraction
+also brain computer interface bci neural control interface nci mind machine interface mmi direct neural interface dni or brain machine interface bmi
+also neuromorphic computing
+also non deterministic polynomial time hardness
+also ockham s razor or ocham s razor
+also ontology extraction ontology generation or ontology acquisition
+also pathing
+also first order logic predicate logic and first order predicate calculus
+also rationality principle
+also propositional logic statement logic sentential calculus sentential logic and zeroth order logic
+also random decision forest
+also known as a reasoning language model rlm or large reasoning model lrm
+also frame network
+also reasoning engine rules engine or simply reasoner
+also weak supervision
+also simply sld resolution
+also sparse coding or sdl
+also simply the singularity
+abbreviated h or h
+also tree search
+also narrow ai

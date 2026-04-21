@@ -1,0 +1,1943 @@
+in probability theory conditional independence describes situations in which an observation is irrelevant or redundant when evaluating the certainty of a hypothesis it is the opposite of conditional dependence conditional independence is usually formulated in terms of conditional probability as a special case where the probability of the hypothesis given the uninformative observation is equal to the probability without if
+
+
+
+a
+
+
+displaystyle a
+
+is the hypothesis and
+
+
+
+b
+
+
+displaystyle b
+
+and
+
+
+
+c
+
+
+displaystyle c
+
+are observations conditional independence can be stated as an equality
+
+where
+
+
+
+p
+
+a
+
+b
+
+c
+
+
+
+displaystyle p a mid b c
+
+is the probability of
+
+
+
+a
+
+
+displaystyle a
+
+given both
+
+
+
+b
+
+
+displaystyle b
+
+and
+
+
+
+c
+
+
+displaystyle c
+
+since the probability of
+
+
+
+a
+
+
+displaystyle a
+
+given
+
+
+
+c
+
+
+displaystyle c
+
+is the same as the probability of
+
+
+
+a
+
+
+displaystyle a
+
+given both
+
+
+
+b
+
+
+displaystyle b
+
+and
+
+
+
+c
+
+
+displaystyle c
+
+this equality expresses that
+
+
+
+b
+
+
+displaystyle b
+
+contributes nothing to the certainty of
+
+
+
+a
+
+
+displaystyle a
+
+in this case
+
+
+
+a
+
+
+displaystyle a
+
+and
+
+
+
+b
+
+
+displaystyle b
+
+are said to be conditionally independent given
+
+
+
+c
+
+
+displaystyle c
+
+written symbolically as
+
+
+
+
+a
+
+
+
+
+
+b
+
+c
+
+
+
+displaystyle a perp perp b mid c
+
+
+
+the concept of conditional independence is essential to graph based theories of statistical inference as it establishes a mathematical relation between a collection of conditional statements and a graphoid
+
+let
+
+
+
+a
+
+
+displaystyle a
+
+
+
+
+
+b
+
+
+displaystyle b
+
+and
+
+
+
+c
+
+
+displaystyle c
+
+be events
+
+
+
+a
+
+
+displaystyle a
+
+and
+
+
+
+b
+
+
+displaystyle b
+
+are said to be conditionally independent given
+
+
+
+c
+
+
+displaystyle c
+
+if and only if
+
+
+
+p
+
+c
+
+
+0
+
+
+displaystyle p c 0
+
+and
+
+
+
+p
+
+a
+
+b
+
+c
+
+
+p
+
+a
+
+c
+
+
+
+displaystyle p a mid b c p a mid c
+
+this property is symmetric more on this below and often written as
+
+
+
+
+a
+
+
+
+
+
+b
+
+c
+
+
+
+displaystyle a perp perp b mid c
+
+which should be read as
+
+
+
+
+
+a
+
+
+
+
+
+b
+
+
+c
+
+
+
+displaystyle a perp perp b vert c
+
+
+
+equivalently conditional independence may be stated as
+
+
+
+p
+
+a
+
+b
+
+
+
+c
+
+
+p
+
+a
+
+
+
+c
+
+p
+
+b
+
+
+
+c
+
+
+
+displaystyle p a b c p a c p b c
+
+where
+
+
+
+p
+
+a
+
+b
+
+
+
+c
+
+
+
+displaystyle p a b c
+
+is the joint probability of
+
+
+
+a
+
+
+displaystyle a
+
+and
+
+
+
+b
+
+
+displaystyle b
+
+given
+
+
+
+c
+
+
+displaystyle c
+
+this alternate formulation states that
+
+
+
+a
+
+
+displaystyle a
+
+and
+
+
+
+b
+
+
+displaystyle b
+
+are independent events given
+
+
+
+c
+
+
+displaystyle c
+
+
+
+it demonstrates that
+
+
+
+
+a
+
+
+
+
+
+b
+
+c
+
+
+
+displaystyle a perp perp b mid c
+
+is equivalent to
+
+
+
+
+b
+
+
+
+
+
+a
+
+c
+
+
+
+displaystyle b perp perp a mid c
+
+
+
+each cell represents a possible outcome the events
+
+
+
+
+r
+
+
+
+displaystyle color red r
+
+
+
+
+
+
+b
+
+
+
+displaystyle color blue b
+
+and
+
+
+
+
+y
+
+
+
+displaystyle color gold y
+
+are represented by the areas shaded red blue and yellow respectively the overlap between the events
+
+
+
+
+r
+
+
+
+displaystyle color red r
+
+and
+
+
+
+
+b
+
+
+
+displaystyle color blue b
+
+is shaded purple
+
+
+
+the probabilities of these events are shaded areas with respect to the total area in both examples
+
+
+
+
+r
+
+
+
+displaystyle color red r
+
+and
+
+
+
+
+b
+
+
+
+displaystyle color blue b
+
+are conditionally independent given
+
+
+
+
+y
+
+
+
+displaystyle color gold y
+
+because
+
+but not conditionally independent given
+
+
+
+
+
+
+
+not
+
+
+
+y
+
+
+
+
+
+
+
+displaystyle left text not color gold y right
+
+because
+
+let events a and b be defined as the probability that person a and person b will be home in time for dinner where both people are randomly sampled from the entire world events a and b can be assumed to be independent i e knowledge that a is late has minimal to no change on the probability that b will be late however if a third event is introduced person a and person b live in the same neighborhood the two events are now considered not conditionally independent traffic conditions and weather related events that might delay person a might delay person b as well given the third event and knowledge that person a was late the probability that person b will be late does meaningfully change
+
+conditional independence depends on the nature of the third event if you roll two dice one may assume that the two dice behave independently of each other looking at the results of one die will not tell you about the result of the second die that is the two dice are independent if however the 1st die s result is a 3 and someone tells you about a third event that the sum of the two results is even then this extra unit of information restricts the options for the 2nd result to an odd number in other words two events can be independent but not conditionally independent
+
+height and vocabulary are dependent since very small people tend to be children known for their more basic vocabularies but knowing that two people are 19 years old i e conditional on age there is no reason to think that one person s vocabulary is larger if we are told that they are taller
+
+two discrete random variables
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+y
+
+
+displaystyle y
+
+are conditionally independent given a third discrete random variable
+
+
+
+z
+
+
+displaystyle z
+
+if and only if they are independent in their conditional probability distribution given
+
+
+
+z
+
+
+displaystyle z
+
+that is
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+y
+
+
+displaystyle y
+
+are conditionally independent given
+
+
+
+z
+
+
+displaystyle z
+
+if and only if given any value of
+
+
+
+z
+
+
+displaystyle z
+
+the probability distribution of
+
+
+
+x
+
+
+displaystyle x
+
+is the same for all values of
+
+
+
+y
+
+
+displaystyle y
+
+and the probability distribution of
+
+
+
+y
+
+
+displaystyle y
+
+is the same for all values of
+
+
+
+x
+
+
+displaystyle x
+
+formally
+
+where
+
+
+
+
+f
+
+x
+
+y
+
+
+
+z
+
+
+
+z
+
+
+
+x
+
+y
+
+
+pr
+
+x
+
+x
+
+y
+
+y
+
+z
+
+z
+
+
+
+displaystyle f_ x y mid z z x y pr x leq x y leq y mid z z
+
+is the conditional cumulative distribution function of
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+y
+
+
+displaystyle y
+
+given
+
+
+
+z
+
+
+displaystyle z
+
+
+
+two events
+
+
+
+r
+
+
+displaystyle r
+
+and
+
+
+
+b
+
+
+displaystyle b
+
+are conditionally independent given a σ algebra
+
+
+
+σ
+
+
+displaystyle sigma
+
+if
+
+where
+
+
+
+pr
+
+a
+
+σ
+
+
+
+displaystyle pr a mid sigma
+
+denotes the conditional expectation of the indicator function of the event
+
+
+
+a
+
+
+displaystyle a
+
+
+
+
+
+
+χ
+
+a
+
+
+
+
+displaystyle chi _ a
+
+given the sigma algebra
+
+
+
+σ
+
+
+displaystyle sigma
+
+that is
+
+two random variables
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+y
+
+
+displaystyle y
+
+are conditionally independent given a σ algebra
+
+
+
+σ
+
+
+displaystyle sigma
+
+if the above equation holds for all
+
+
+
+r
+
+
+displaystyle r
+
+in
+
+
+
+σ
+
+x
+
+
+
+displaystyle sigma x
+
+and
+
+
+
+b
+
+
+displaystyle b
+
+in
+
+
+
+σ
+
+y
+
+
+
+displaystyle sigma y
+
+
+
+two random variables
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+y
+
+
+displaystyle y
+
+are conditionally independent given a random variable
+
+
+
+w
+
+
+displaystyle w
+
+if they are independent given σ w the σ algebra generated by
+
+
+
+w
+
+
+displaystyle w
+
+this is commonly written
+
+this is read
+
+
+
+x
+
+
+displaystyle x
+
+is independent of
+
+
+
+y
+
+
+displaystyle y
+
+given
+
+
+
+w
+
+
+displaystyle w
+
+the conditioning applies to the whole statement
+
+
+
+x
+
+
+displaystyle x
+
+is independent of
+
+
+
+y
+
+
+displaystyle y
+
+given
+
+
+
+w
+
+
+displaystyle w
+
+
+
+this notation extends
+
+
+
+x
+
+
+
+
+
+y
+
+
+displaystyle x perp perp y
+
+for
+
+
+
+x
+
+
+displaystyle x
+
+is independent of
+
+
+
+y
+
+
+displaystyle y
+
+
+
+if
+
+
+
+w
+
+
+displaystyle w
+
+assumes a countable set of values this is equivalent to the conditional independence of x and y for the events of the form
+
+
+
+
+w
+
+w
+
+
+
+displaystyle w w
+
+
+conditional independence of more than two events or of more than two random variables is defined analogously
+
+the following two examples show that
+
+
+
+x
+
+
+
+
+
+y
+
+
+displaystyle x perp perp y
+
+neither implies nor is implied by
+
+
+
+
+x
+
+
+
+
+
+y
+
+
+w
+
+
+displaystyle x perp perp y mid w
+
+
+
+first suppose
+
+
+
+w
+
+
+displaystyle w
+
+is 0 with probability 0 5 and 1 otherwise when w 0 take
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+y
+
+
+displaystyle y
+
+to be independent each having the value 0 with probability 0 99 and the value 1 otherwise when
+
+
+
+w
+
+1
+
+
+displaystyle w 1
+
+
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+y
+
+
+displaystyle y
+
+are again independent but this time they take the value 1 with probability 0 99 then
+
+
+
+
+x
+
+
+
+
+
+y
+
+
+w
+
+
+displaystyle x perp perp y mid w
+
+but
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+y
+
+
+displaystyle y
+
+are dependent because pr x 0 pr x 0 y 0 this is because pr x 0 0 5 but if y 0 then it s very likely that w 0 and thus that x 0 as well so pr x 0 y 0 0 5
+
+for the second example suppose
+
+
+
+x
+
+
+
+
+
+y
+
+
+displaystyle x perp perp y
+
+each taking the values 0 and 1 with probability 0 5 let
+
+
+
+w
+
+
+displaystyle w
+
+be the product
+
+
+
+x
+
+y
+
+
+displaystyle x cdot y
+
+then when
+
+
+
+w
+
+0
+
+
+displaystyle w 0
+
+pr x 0 2 3 but pr x 0 y 0 1 2 so
+
+
+
+
+x
+
+
+
+
+
+y
+
+
+w
+
+
+displaystyle x perp perp y mid w
+
+is false
+this is also an example of explaining away see kevin murphy s tutorial where
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+y
+
+
+displaystyle y
+
+take the values brainy and sporty
+
+two random vectors
+
+
+
+
+x
+
+
+
+
+x
+
+1
+
+
+
+
+
+
+x
+
+l
+
+
+
+
+
+
+t
+
+
+
+
+
+displaystyle mathbf x x_ 1 ldots x_ l mathrm t
+
+and
+
+
+
+
+y
+
+
+
+
+y
+
+1
+
+
+
+
+
+
+y
+
+m
+
+
+
+
+
+
+t
+
+
+
+
+
+displaystyle mathbf y y_ 1 ldots y_ m mathrm t
+
+are conditionally independent given a third random vector
+
+
+
+
+z
+
+
+
+
+z
+
+1
+
+
+
+
+
+
+z
+
+n
+
+
+
+
+
+
+t
+
+
+
+
+
+displaystyle mathbf z z_ 1 ldots z_ n mathrm t
+
+if and only if they are independent in their conditional cumulative distribution given
+
+
+
+
+z
+
+
+
+displaystyle mathbf z
+
+formally
+
+where
+
+
+
+
+x
+
+
+
+
+x
+
+1
+
+
+
+
+
+
+x
+
+l
+
+
+
+
+
+
+t
+
+
+
+
+
+displaystyle mathbf x x_ 1 ldots x_ l mathrm t
+
+
+
+
+
+
+y
+
+
+
+
+y
+
+1
+
+
+
+
+
+
+y
+
+m
+
+
+
+
+
+
+t
+
+
+
+
+
+displaystyle mathbf y y_ 1 ldots y_ m mathrm t
+
+and
+
+
+
+
+z
+
+
+
+
+z
+
+1
+
+
+
+
+
+
+z
+
+n
+
+
+
+
+
+
+t
+
+
+
+
+
+displaystyle mathbf z z_ 1 ldots z_ n mathrm t
+
+and the conditional cumulative distributions are defined as follows
+
+let p be the proportion of voters who will vote yes in an upcoming referendum in taking an opinion poll one chooses n voters randomly from the population for i 1 n let xi 1 or 0 corresponding respectively to whether or not the ith chosen voter will or will not vote yes
+
+in a frequentist approach to statistical inference one would not attribute any probability distribution to p unless the probabilities could be somehow interpreted as relative frequencies of occurrence of some event or as proportions of some population and one would say that x1 xn are independent random variables
+
+by contrast in a bayesian approach to statistical inference one would assign a probability distribution to p regardless of the non existence of any such frequency interpretation and one would construe the probabilities as degrees of belief that p is in any interval to which a probability is assigned in that model the random variables x1 xn are not independent but they are conditionally independent given the value of p in particular if a large number of the xs are observed to be equal to 1 that would imply a high conditional probability given that observation that p is near 1 and thus a high conditional probability given that observation that the next x to be observed will be equal to 1
+
+a set of rules governing statements of conditional independence have been derived from the basic definition
+
+these rules were termed graphoid axioms
+by pearl and paz because they hold in graphs where
+
+
+
+x
+
+
+
+
+
+a
+
+b
+
+
+displaystyle x perp perp a mid b
+
+is interpreted to mean all paths from x to a are intercepted by the set b
+
+proof
+
+from the definition of conditional independence
+
+proof
+from the definition of conditional independence we seek to show that
+
+the left side of this equality is
+
+where the expression on the right side of this equality is the summation over
+
+
+
+x
+
+
+displaystyle x
+
+such that
+
+
+
+h
+
+x
+
+
+a
+
+
+displaystyle h x a
+
+of the conditional probability of
+
+
+
+x
+
+y
+
+
+displaystyle x y
+
+on
+
+
+
+z
+
+
+displaystyle z
+
+
+further decomposing
+
+special cases of this property include
+
+proof
+
+given
+
+
+
+x
+
+
+
+
+
+y
+
+z
+
+
+displaystyle x perp perp y mid z
+
+we aim to show
+
+we begin with the left side of the equation
+
+from the given condition
+
+thus
+
+
+
+p
+
+y
+
+x
+
+z
+
+h
+
+x
+
+
+
+p
+
+y
+
+z
+
+h
+
+x
+
+
+
+
+displaystyle p y mid x z h x p y mid z h x
+
+so we have shown that
+
+
+
+x
+
+
+
+
+
+y
+
+
+z
+
+h
+
+x
+
+
+
+
+displaystyle x perp perp y mid z h x
+
+
+
+special cases
+
+some textbooks present the property as
+
+both versions can be shown to follow from the weak union property given initially via the same method as in the decomposition section above
+
+proof
+
+this property can be proved by noticing
+
+
+
+pr
+
+x
+
+a
+
+b
+
+
+pr
+
+x
+
+b
+
+
+pr
+
+x
+
+
+
+displaystyle pr x mid a b pr x mid b pr x
+
+each equality of which is asserted by
+
+
+
+x
+
+
+
+
+
+a
+
+b
+
+
+displaystyle x perp perp a mid b
+
+and
+
+
+
+x
+
+
+
+
+
+b
+
+
+displaystyle x perp perp b
+
+respectively
+
+for strictly positive probability distributions the following also holds
+
+proof
+
+by assumption
+
+using this equality together with the law of total probability applied to
+
+
+
+p
+
+x
+
+
+
+z
+
+
+
+displaystyle p x z
+
+
+
+since
+
+
+
+p
+
+x
+
+
+
+z
+
+w
+
+y
+
+
+p
+
+x
+
+
+
+z
+
+y
+
+
+
+displaystyle p x z w y p x z y
+
+and
+
+
+
+p
+
+x
+
+
+
+z
+
+y
+
+
+p
+
+x
+
+
+
+z
+
+
+
+displaystyle p x z y p x z
+
+it follows that
+
+
+
+p
+
+x
+
+
+
+z
+
+w
+
+y
+
+
+p
+
+x
+
+
+
+z
+
+
+
+
+x
+
+
+
+
+
+y
+
+w
+
+
+
+z
+
+
+displaystyle p x z w y p x z iff x perp perp y w z
+
+
+
+technical note since these implications hold for any probability space they will still hold if one considers a sub universe by conditioning everything on another variable say k for example
+
+
+
+x
+
+
+
+
+
+y
+
+y
+
+
+
+
+
+x
+
+
+displaystyle x perp perp y rightarrow y perp perp x
+
+would also mean that
+
+
+
+x
+
+
+
+
+
+y
+
+k
+
+y
+
+
+
+
+
+x
+
+k
+
+
+displaystyle x perp perp y mid k rightarrow y perp perp x mid k
+
+

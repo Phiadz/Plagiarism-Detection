@@ -1,0 +1,18 @@
+artificial intelligence a general survey commonly known as the lighthill report is a scholarly article by james lighthill published in artificial intelligence a paper symposium in 1973 it was compiled by lighthill for the british science research council as an evaluation of academic research in the field of artificial intelligence ai the report gave a very pessimistic prognosis for many core aspects of research in this field stating that in no part of the field have the discoveries made so far produced the major impact that was then promised it formed the basis for the decision by the british government to end support for ai research in most british universities contributing to an ai winter in the united kingdom
+
+it was commissioned by the src in 1972 for lighthill to make a personal review of the subject of ai lighthill completed the report in july the src discussed the report in september and decided to publish it together with some alternative points of view by stuart sutherland roger needham christopher longuet higgins and donald michie preface the src s decision to invite the report was partly a reaction to high levels of discord within the university of edinburgh s department of artificial intelligence one of the earliest and biggest centres for ai research in the uk
+
+on may 9 1973 lighthill debated several leading ai researchers donald michie john mccarthy richard gregory at the royal institution in london concerning the report
+
+while the report was supportive of research into the simulation of neurophysiological and psychological processes it was highly critical of basic research in foundational areas such as robotics and language processing
+the report stated that ai researchers had failed to address the issue of combinatorial explosion when solving problems within real world domains that is the report states that whilst ai techniques may have worked within the scope of small problem domains the techniques would not scale up well to solve more realistic problems the report represents a pessimistic view of ai that began after early excitement in the field
+
+the report divides ai research into three categories
+
+projects in category a had had some success but only in restricted domains where a large quantity of detailed knowledge was used in designing the program this was disappointing to researchers who hoped for generic methods due to the issue of the combinatorial explosion the amount of detailed knowledge required by the program quickly grew too large to be entered by hand thus restricting projects to restricted domains
+
+projects in category c had had some measure of success artificial neural networks were successfully used to model neurobiological data shrdlu demonstrated that human use of language even in fine details depends on the semantics or knowledge and is not purely syntactical this was influential in psycholinguistics attempts to extend shrdlu to larger domains of discourse was considered impractical again due to the issue of the combinatorial explosion
+
+projects in category b were held to be failures one important project that of programming and building a robot that would mimic human ability in a combination of eye hand co ordination and common sense problem solving was considered entirely disappointing similarly chess playing programs were no better than human amateurs due to the combinatorial explosion the run time of general algorithms quickly grew impractical requiring detailed problem specific heuristics
+
+the report stated that it was expected that within the next 25 years category a would simply become applied technologies engineering c would integrate with psychology and neurobiology while category b would be abandoned

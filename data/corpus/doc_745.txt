@@ -1,0 +1,108 @@
+llama a large language model meta ai serving as a backronym is a family of large language models llms released by meta ai starting in february 2023
+
+llama models come in different sizes ranging from 1 billion to 2 trillion parameters initially only a foundation model starting with llama 2 meta ai released instruction fine tuned versions alongside foundation models
+
+model weights for the first version of llama were only available to researchers on a case by case basis under a non commercial license unauthorized copies of the first model were shared via bittorrent subsequent versions of llama were made accessible outside academia and released under licenses that permitted some commercial use
+
+alongside the release of llama 3 meta rolled out meta ai an ai assistant built on llama meta ai has a dedicated website and is available on facebook and whatsapp the latest version is llama 4 released in april 2025
+
+in april 2026 meta superintelligence labs released muse spark as a replacement for llama
+
+after the release of large language models such as gpt 3 a focus of research was up scaling models which in some instances showed major increases in emergent capabilities the release of chatgpt and its surprise success caused an increase in attention to large language models
+
+compared with other responses to chatgpt meta s chief ai scientist yann lecun stated that large language models are best for aiding with writing
+
+the first version of llama stylized as llama and sometimes referred to as llama 1 was announced on february 24 2023 via a blog post and a paper describing the model s training architecture and performance the inference code used to run the model was publicly released under the open source gplv3 license access to the model s weights was managed by an application process with access to be granted on a case by case basis to academic researchers those affiliated with organizations in government civil society and academia and industry research laboratories around the world
+
+llama was trained on only publicly available information and was trained at various model sizes with the intention to make it more accessible to different hardware the model was exclusively a foundation model although the paper contained examples of instruction fine tuned versions of the model
+
+meta ai reported the 13b parameter model performance on most nlp benchmarks exceeded that of the much larger gpt 3 with 175b parameters and the largest 65b model was competitive with state of the art models such as palm and chinchilla
+
+on march 3 2023 a torrent containing llama s weights was uploaded with a link to the torrent shared on the 4chan imageboard and subsequently spread through online ai communities that same day a pull request on the main llama repository was opened requesting to add the magnet link to the official documentation on march 4 a pull request was opened to add links to huggingface repositories containing the model on march 6 meta filed takedown requests to remove the huggingface repositories linked in the pull request characterizing it as unauthorized distribution of the model huggingface complied with the requests on march 20 meta filed a dmca takedown request for copyright infringement against a repository containing a script that downloaded llama from a mirror and github complied the next day
+
+reactions to the leak varied some speculated that the model would be used for malicious purposes such as more sophisticated spam some have celebrated the model s accessibility as well as the fact that smaller versions of the model can be run relatively cheaply suggesting that this will promote the flourishing of additional research developments multiple commentators such as simon willison compared llama to stable diffusion a text to image model which unlike comparably sophisticated models which preceded it was openly distributed leading to a rapid proliferation of associated tools techniques and software
+
+on july 18 2023 in partnership with microsoft meta announced llama 2 stylized as llama 2 the next generation of llama meta trained and released llama 2 in three model sizes 7 13 and 70 billion parameters the model architecture remains largely unchanged from that of llama 1 models but 40 more data was used to train the foundational models
+
+llama 2 includes foundation models and models fine tuned for chat in a further departure from the original version of llama all models are released with weights and may be used for many commercial use cases because llama s license enforces an acceptable use policy that prohibits llama from being used for some purposes it is not open source meta s use of the term open source to describe llama has been disputed by the open source initiative which maintains the open source definition and others
+
+code llama is a fine tune of llama 2 with code specific datasets 7b 13b and 34b versions were released on august 24 2023 with a 70b version released on january 29 2024 starting with the foundation models from llama 2 meta ai would train an additional 500b tokens of code datasets before an additional 20b token of long context data creating the code llama foundation models this foundation model was further trained on 5b instruction following token to create the instruct fine tune another foundation model was created for python code which trained on 100b tokens of python only code before the long context data
+
+on april 18 2024 meta released llama 3 with two sizes 8b and 70b parameters the models have been pre trained on approximately 15 trillion tokens of text gathered from publicly available sources with the instruct models fine tuned on publicly available instruction datasets as well as over 10m human annotated examples meta ai s testing showed in april 2024 that llama 3 70b was beating gemini pro 1 5 and claude 3 sonnet on most benchmarks meta also announced plans to make llama 3 multilingual and multimodal better at coding and reasoning and to increase its context window
+
+regarding scaling laws llama 3 models empirically showed that when a model is trained on data that is more than the chinchilla optimal amount the performance continues to scale log linearly for example the chinchilla optimal dataset for llama 3 8b is 200 billion tokens but performance continued to scale log linearly to the 75 times larger dataset of 15 trillion tokens
+
+during an interview with dwarkesh patel mark zuckerberg said that the 8b version of llama 3 was nearly as powerful as the largest llama 2 compared to previous models zuckerberg stated the team was surprised that the 70b model was still learning even at the end of the 15t tokens training the decision was made to end training to focus gpu power elsewhere
+
+llama 3 1 was released on july 23 2024 with three sizes 8b 70b and 405b parameters
+
+the llama 4 series was released in 2025 the architecture was changed to a mixture of experts where only a fraction of the model s expert sub networks are activated per input token they are multimodal text and image input text output and multilingual 12 languages specifically on 5 april 2025 the following were released both as base and instruction tuned versions
+
+the behemoth model was also announced but was not released meta claimed it was a 288 billion active parameter model with 16 experts and around 2t parameters in total it was still in training when scout and maverick were released maverick was codistilled from behemoth while scout was trained from scratch
+
+the training data included publicly available data licensed data and meta proprietary data such as publicly shared posts from instagram and facebook and people s interactions with meta ai the knowledge cutoff was august 2024
+
+meta claimed in its release announcement that llama 4 bested gpt 4o s score on the lmarena ai benchmark the company also stated that llama 4 s benchmark score was achieved using an unreleased experimental chat version of the model that was optimized for conversationality which differed from the version of llama 4 released to the public lmarena indicated that it would change its policies to prevent this incident from reoccurring and responded meta s interpretation of our policy did not match what we expect from model providers meta should have made it clearer that llama 4 maverick 03 26 experimental was a customized model to optimize for human preference some users criticized meta on social media for its use of a separate model version tailored for benchmarking and some additionally accused meta of training llama 4 on test sets to further boost its benchmark scores which meta denied
+
+for the training cost column only the largest model s cost is written by default for example 21 000 is the training cost of llama 2 69b in units of petaflops day also 1 petaflops day 1 petaflop sec 1 day 8 64e19 flop t means trillion and b means billion
+
+the following table lists the main model versions of llama describing the significant changes included with each version
+
+here is the recommendation letter that i wrote for an application to a dragon feeder position at the magic unicorn corporation
+dear recruiter
+i have known ___ for two years and i believe that she would be an excellent dragon feeder for the magic unicorn corporation ___ has an ability to remember and process large amounts of information which is an important skill for a dragon feeder
+___ as an accomplished knight has a deep understanding of how to kill dragons and how to use each dragon s weaknesses against it this means that she knows what kinds of foods each dragon likes and what kinds of foods are dangerous to each dragon this knowledge and experience will be invaluable as she feeds the dragons
+i am confident that ___ s competence skill and experience will make her an excellent employee please contact me at ___ ___ ___ if you have any questions i look forward to hearing from you
+best regards
+honorable knight
+sir george
+
+like gpt 3 the llama series of models are autoregressive decoder only transformers but there are some minor differences
+
+llama s developers focused their effort on scaling the model s performance by increasing the volume of training data rather than the number of parameters reasoning that the dominating cost for llms is from doing inference on the trained model rather than the computational cost of the training process
+
+llama 1 foundational models were trained on a data set with 1 4 trillion tokens drawn from publicly available data sources including
+
+in april 2023 together ai launched a project named redpajama to reproduce and distribute an open source version of the llama dataset initially containing approximately 1 2 trillion tokens
+
+llama 2 foundational models were trained on a data set with 2 trillion tokens this data set was curated to remove web sites that often disclose personal data of people it also upsamples sources considered trustworthy llama 2 chat was additionally fine tuned on 27 540 prompt response pairs created for this project which performed better than larger but lower quality third party datasets for ai alignment reinforcement learning with human feedback rlhf was used with a combination of 1 418 091 meta examples and seven smaller datasets the average dialog depth was 3 9 in the meta examples 3 0 for anthropic helpful and anthropic harmless sets and 1 0 for five other sets including openai summarize stackexchange etc
+
+llama 3 consists of mainly english data with over 5 in over 30 other languages its dataset was filtered by a text quality classifier and the classifier was trained by text synthesized by llama 2
+
+in a lawsuit against meta platforms brought by authors including richard kadrey sarah silverman and ta nehisi coates ceo mark zuckerberg was alleged to have authorized the use of copyrighted content from library genesis to train llama ai models and conceal its actions by removing copyright markers from the data
+
+llama 1 models are only available as foundational models with self supervised learning and without fine tuning llama 2 chat models were derived from foundational llama 2 models unlike gpt 4 which increased context length during fine tuning llama 2 and code llama chat have the same context length of 4k tokens supervised fine tuning used an autoregressive loss function with token loss on user prompts zeroed out the batch size was 64
+
+for ai alignment human annotators wrote prompts and then compared two model outputs a binary protocol giving confidence levels and separate safety labels with veto power two separate reward models were trained from these preferences for safety and helpfulness using reinforcement learning from human feedback rlhf a major technical contribution is the departure from the exclusive use of proximal policy optimization ppo for rlhf a new technique based on rejection sampling was used followed by ppo
+
+multi turn consistency in dialogs was targeted for improvement to make sure that system messages initial instructions such as speak in french and act like napoleon are respected during the dialog this was accomplished using the new ghost attention technique during training which concatenates relevant instructions to each new user message but zeros out the loss function for tokens in the prompt earlier parts of the dialog
+
+the stanford university institute for human centered artificial intelligence hai center for research on foundation models crfm released alpaca a training recipe based on the llama 7b model that uses the self instruct method of instruction tuning to acquire capabilities comparable to the openai gpt 3 series text davinci 003 model at a modest cost the model files were officially removed on march 21 2023 over hosting costs and safety concerns though the code and paper remain online for reference
+
+meditron is a family of llama based finetuned on a corpus of clinical guidelines pubmed papers and articles it was created by researchers at école polytechnique fédérale de lausanne school of computer and communication sciences and the yale school of medicine it shows increased performance on medical related benchmarks such as medqa and medmcqa
+
+zoom used meta llama 2 to create an ai companion that can summarize meetings provide helpful presentation tips and assist with message responses this ai companion is powered by multiple models including meta llama 2
+
+reuters reported in 2024 that many chinese foundation models relied on llama models for their training
+
+software developer georgi gerganov released llama cpp as open source on march 10 2023 it s a re implementation of llama in c allowing systems without a powerful gpu to run the model locally the llama cpp project introduced the gguf file format a binary format that stores both tensors and metadata the format focuses on supporting different quantization types which can reduce memory usage and increase speed at the expense of lower model precision
+
+llamafile created by justine tunney is an open source tool that bundles llama cpp with the model into a single executable file tunney et al introduced new optimized matrix multiplication kernels for x86 and arm cpus improving prompt evaluation performance for fp16 and 8 bit quantized data types
+
+booz allen hamilton deployed meta s llama 3 2 model aboard the international space station iss national labs as part of a project called space llama the system runs on hewlett packard enterprise s spaceborne computer 2 and leverages booz allen s a2e2 ai for edge environments platform using nvidia cuda accelerated computing space llama demonstrates how large language models can operate in disconnected constrained environments such as space enabling astronauts to retrieve and summarize documents using natural language queries even without internet connectivity
+
+in 2024 researchers from the people s liberation army academy of military sciences top military academy of china were reported to have developed a military tool using llama which meta platforms stated was unauthorized due to llama s license prohibiting the use of the model for military purposes meta granted the us government and us military contractors permission to use llama in november 2024 but continued to prohibit military use by non us entities
+
+the first version of llama was released under a non commercial license to some researchers and entities on a case by case basis
+
+since the release of llama 2 meta has presented llama as open source a description opposed by the open source initiative osi and some academics and journalists the osi stated that llama s licenses do not meet several provisions of its policy document the open source definition osd which prohibits open source software licenses from discriminating against persons or groups and fields of endeavor and accused meta of openwashing llama according to the osi llama 2 s license prevented the software from being used commercially in some cases and restricted use in fields including controlled substances and critical infrastructure while later versions of llama s license also disallowed use by any individual in the european union the osi published the open source ai definition osaid in october 2024 which requires open source ai to be released with details about its training data that meta does not disclose for llama a meta spokesperson responded to the verge that the company disagrees with this definition the free software foundation classified llama 3 1 s license as a nonfree software license in january 2025 criticizing its acceptable use policy restrictions against users with popular applications and enforcement of trade regulations outside the user s jurisdiction
+
+in its coverage of llama 2 ars technica initially echoed meta s use of the term open source but later revised its reporting to describe llama as source available openly licensed and weights available after the publication recognized that llama 2 s license disallowed entities with over 700 million daily active users from using the llm and disallowed the llm s outputs from being used to improve other llms in july 2023 radboud university researchers scored llama 2 with the second lowest openness ranking in a comparison of 20 llms with chatgpt being assigned the lowest ranking one of the researchers mark dingemanse criticized meta s use of the term open source for llama 2 as positively misleading because there is no source to be seen the training data is entirely undocumented and beyond the glossy charts the technical documentation is really rather poor cio in november 2024 stated that llama was not open source due to its acceptable use policy a 630 word document that puts it at odds with the broader open source movement later that month a nature article asserted that describing llama 3 as open is a case of openwashing systems that are better understood as closed as llama 3 provides little more than an api or the ability to download a model subject to distinctly non open use restrictions
+
+wired describes the 8b parameter version of llama 3 as being surprisingly capable given its size
+
+the response to meta s integration of llama into facebook was mixed with some users confused after meta ai told a parental group that it had a child
+
+the release of llama models has sparked significant debates on the benefits and misuse risks of open weight models such models can be fine tuned to remove safeguards notably by cyber criminals until they comply with harmful requests some experts contend that future models may facilitate causing damage more than defending against it for example by making it relatively easy to engineer advanced bioweapons without specialized knowledge conversely open weight models can be useful for a wide variety of purposes including for safety research
+
+open source initiative head stefano maffulli criticized meta for describing llama as open source saying that it was causing confusion among users and polluting the term

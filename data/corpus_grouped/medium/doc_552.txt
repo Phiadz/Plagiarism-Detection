@@ -1,0 +1,45 @@
+
+
+a digital image is an image composed of picture elements also known as pixels each with finite discrete quantities of numeric representation for its intensity or gray level that is an output from its two dimensional functions fed as input by its spatial coordinates denoted with x y on the x axis and y axis respectively an image can be vector or raster type by itself the term digital image usually refers to raster images or bitmapped images as opposed to vector images
+
+raster images have a finite set of digital values called picture elements or pixels the digital image contains a fixed number of rows and columns of pixels pixels are the smallest individual element in an image holding quantized values that represent the brightness of a given color at any specific point
+
+typically the pixels are stored in computer memory as a raster image or raster map a two dimensional array of small integers these values are often transmitted or stored in a compressed form
+
+raster images can be created by a variety of input devices and techniques such as digital cameras scanners coordinate measuring machines seismographic profiling airborne radar and more they can also be synthesized from arbitrary non image data such as mathematical functions or three dimensional geometric models the latter being a major sub area of computer graphics the field of digital image processing is the study of algorithms for their transformation
+
+most users come into contact with raster images through digital cameras which use any of several image file formats
+
+some digital cameras give access to almost all the data captured by the camera using a raw image format the universal photographic imaging guidelines updig suggests these formats be used when possible since raw files produce the best quality images these file formats allow the photographer and the processing agent the greatest level of control and accuracy for output their use is inhibited by the prevalence of proprietary information trade secrets for some camera makers but there have been initiatives such as openraw to influence manufacturers to release these records publicly an alternative may be digital negative dng a proprietary adobe product described as the public archival format for digital camera raw data although this format is not yet universally accepted support for the product is growing and increasingly professional archivists and conservationists working for respectable organizations variously suggest or recommend dng for archival purposes
+
+vector images resulted from mathematical geometry vector in mathematical terms a vector consists of both a magnitude or length and a direction
+
+often both raster and vector elements will be combined in one image for example in the case of a billboard with text vector and photographs raster
+
+example of vector file types are eps pdf and ai
+
+image viewer software displayed on images web browsers can display standard internet images formats including jpeg gif and png some can show svg format which is a standard w3c format in the past when the internet was still slow it was common to provide preview images that would load and appear on the website before being replaced by the main image to give a preliminary impression now internet is fast enough and this preview image is seldom used
+
+some scientific images can be very large for instance the 46 gigapixel size image of the milky way about 194 gb in size such images are difficult to download and are usually browsed online through more complex web interfaces
+
+some viewers offer a slideshow utility to display a sequence of images
+
+early digital fax machines such as the bartlane cable picture transmission system preceded digital cameras and computers by decades the first picture to be scanned stored and recreated in digital pixels was displayed on the standards eastern automatic computer seac at nist the advancement of digital imagery continued in the early 1960s alongside development of the space program and in medical research projects at the jet propulsion laboratory mit bell labs and the university of maryland among others used digital images to advance satellite imagery wirephoto standards conversion medical imaging videophone technology character recognition and photo enhancement
+
+rapid advances in digital imaging began with the introduction of mos integrated circuits in the 1960s and microprocessors in the early 1970s alongside progress in related computer memory storage display technologies and data compression algorithms
+
+the invention of computerized axial tomography cat scanning using x rays to produce a digital image of a slice through a three dimensional object was of great importance to medical diagnostics as well as origination of digital images digitization of analog images allowed the enhancement and restoration of archaeological artifacts and began to be used in fields as diverse as nuclear medicine astronomy law enforcement defence and industry
+
+advances in microprocessor technology paved the way for the development and marketing of charge coupled devices ccds for use in a wide range of image capture devices and gradually displaced the use of analog film and tape in photography and videography towards the end of the 20th century the computing power necessary to process digital image capture also allowed computer generated digital images to achieve a level of refinement close to photorealism
+
+the first semiconductor image sensor was the ccd developed by willard s boyle and george e smith at bell labs in 1969 while researching mos technology they realized that an electric charge was the analogy of the magnetic bubble and that it could be stored on a tiny mos capacitor as it was fairly straightforward to fabricate a series of mos capacitors in a row they connected a suitable voltage to them so that the charge could be stepped along from one to the next the ccd is a semiconductor circuit that was later used in the first digital video cameras for television broadcasting
+
+early ccd sensors suffered from shutter lag this was largely resolved with the invention of the pinned photodiode ppd it was invented by nobukazu teranishi hiromitsu shiraki and yasuo ishihara at nec in 1980 it was a photodetector structure with low lag low noise high quantum efficiency and low dark current in 1987 the ppd began to be incorporated into most ccd devices becoming a fixture in consumer electronic video cameras and then digital still cameras since then the ppd has been used in nearly all ccd sensors and then cmos sensors
+
+the nmos active pixel sensor aps was invented by olympus in japan during the mid 1980s this was enabled by advances in mos semiconductor device fabrication with mosfet scaling reaching smaller micron and then sub micron levels the nmos aps was fabricated by tsutomu nakamura s team at olympus in 1985 the cmos active pixel sensor cmos sensor was later developed by eric fossum s team at the nasa jet propulsion laboratory in 1993 by 2007 sales of cmos sensors had surpassed ccd sensors
+
+an important development in digital image compression technology was the discrete cosine transform dct a lossy compression technique first proposed by nasir ahmed in 1972 dct compression is used in jpeg which was introduced by the joint photographic experts group in 1992 jpeg compresses images down to much smaller file sizes and has become the most widely used image file format on the internet
+
+in digital imaging a mosaic is a combination of non overlapping images arranged in some tessellation gigapixel images are an example of such digital image mosaics satellite imagery are often mosaicked to cover earth regions
+
+interactive viewing is provided by virtual reality photography

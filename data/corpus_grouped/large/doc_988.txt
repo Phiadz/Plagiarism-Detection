@@ -1,0 +1,786 @@
+a pronounced a star is a graph traversal and pathfinding algorithm that is used in many fields of computer science due to its completeness optimality and optimal efficiency given a weighted graph a source node and a goal node the algorithm finds the shortest path with respect to the given weights from source to goal
+
+one major practical drawback is its
+
+
+
+o
+
+
+b
+
+d
+
+
+
+
+
+displaystyle o b d
+
+space complexity where d is the depth of the shallowest solution the length of the shortest path from the source node to any given goal node and b is the branching factor the maximum number of successors for any given state in practical travel routing systems it is generally outperformed by algorithms that can pre process the graph to attain better performance as well as by memory bounded approaches however a is still the best solution in many cases
+
+peter hart nils nilsson and bertram raphael of stanford research institute now sri international first published the algorithm in 1968 it can be seen as an extension of dijkstra s algorithm a achieves better performance by using heuristics to guide its search
+
+the a algorithm terminates once it finds the shortest path to a specified goal rather than generating the entire shortest path tree from a specified source to all possible goals
+
+a was created as part of the shakey project which had the aim of building a mobile robot that could plan its own actions nils nilsson originally proposed using the graph traverser algorithm for shakey s path planning graph traverser is guided by a heuristic function h n the estimated distance from node n to the goal node it entirely ignores g n the distance from the start node to n bertram raphael suggested using the sum g n h n peter hart invented the concepts we now call admissibility and consistency of heuristic functions a was originally designed for finding least cost paths when the cost of a path is the sum of its costs but it has been shown that a can be used to find optimal paths for any problem satisfying the conditions of a cost algebra
+
+the original 1968 a paper contained a theorem stating that no a like algorithm a could expand fewer nodes than a if the heuristic function is consistent and a s tie breaking rule is suitably chosen a correction was published a few years later claiming that consistency was not required but this was shown to be false in 1985 in dechter and pearl s definitive study of a s optimality now called optimal efficiency which gave an example of a with a heuristic that was admissible but not consistent expanding arbitrarily more nodes than an alternative a like algorithm
+
+a is an informed search algorithm or a best first search meaning that it is formulated in terms of weighted graphs starting from a specific starting node of a graph it aims to find a path to the given goal node having the smallest cost least distance travelled shortest time etc it does this by maintaining a tree of paths originating at the start node and extending those paths one edge at a time until the goal node is reached
+
+at each iteration of its main loop a needs to determine which of its paths to extend it does so based on the cost of the path and an estimate of the cost required to extend the path all the way to the goal specifically a selects the path that minimizes
+
+where n is the next node on the path g n is the cost of the path from the start node to n and h n is a heuristic function that estimates the cost of the cheapest path from n to the goal the heuristic function is problem specific
+
+typical implementations of a use a priority queue to perform the repeated selection of minimum estimated cost nodes to expand this priority queue is known as the open set fringe or frontier at each step of the algorithm the node with the lowest f x value is removed from the queue the f and g values of its neighbors are updated accordingly and these neighbors are added to the queue the algorithm continues until a removed node thus the node with the lowest f value out of all fringe nodes is a goal node b the f value of that goal is then also the cost of the shortest path since h at the goal is zero in an admissible heuristic
+
+the algorithm described so far only gives the length of the shortest path to find the actual sequence of steps the algorithm can be easily revised so that each node on the path keeps track of its predecessor after this algorithm is run the ending node will point to its predecessor and so on until some node s predecessor is the start node
+
+as an example when searching for the shortest route on a map h x might represent the straight line distance to the goal since that is physically the smallest possible distance between any two points for a grid map from a video game using the taxicab distance or the chebyshev distance becomes better depending on the set of movements available 4 way or 8 way
+
+if the heuristic h satisfies the additional condition h x d x y h y for every edge x y of the graph where d denotes the length of that edge then h is called monotone or consistent with a consistent heuristic a is guaranteed to find an optimal path without processing any node more than once and a is equivalent to running dijkstra s algorithm with the reduced cost d x y d x y h y h x
+
+the following pseudocode describes the algorithm
+
+remark in this pseudocode if a node is reached by one path removed from open_set and subsequently reached by a cheaper path it will be added to open_set again this is essential to guarantee that the path returned is optimal if the heuristic function is admissible but not consistent if the heuristic is consistent when a node is removed from open_set the path to it is guaranteed to be optimal so the test tentative_g_score g_score neighbor will always fail if the node is reached again the pseudocode implemented here is sometimes called the graph search version of a this is in contrast with the version without the tentative_g_score g_score neighbor test to add nodes back to open_set which is sometimes called the tree search version of a and require a consistent heuristic to guarantee optimality
+
+an example of an a algorithm in action where nodes are cities connected with roads and h x is the straight line distance to the target point
+
+
+
+key green start blue goal orange visited
+
+the a algorithm has real world applications in this example edges are railroads and h x is the great circle distance the shortest possible distance on a sphere to the target the algorithm is searching for a path between washington d c and los angeles
+
+
+
+there are a number of simple optimizations or implementation details that can significantly affect the performance of an a implementation the first detail to note is that the way the priority queue handles ties can have a significant effect on performance in some situations if ties are broken so the queue behaves in a lifo manner a will behave like depth first search among equal cost paths avoiding exploring more than one equally optimal solution
+
+when a path is required at the end of the search it is common to keep with each node a reference to that node s parent at the end of the search these references can be used to recover the optimal path if these references are being kept then it can be important that the same node doesn t appear in the priority queue more than once each entry corresponding to a different path to the node and each with a different cost a standard approach here is to check if a node about to be added already appears in the priority queue if it does then the priority and parent pointers are changed to correspond to the lower cost path a standard binary heap based priority queue does not directly support the operation of searching for one of its elements but it can be augmented with a hash table that maps elements to their position in the heap allowing this decrease priority operation to be performed in logarithmic time alternatively a fibonacci heap can perform the same decrease priority operations in constant amortized time
+
+dijkstra s algorithm as another example of a uniform cost search algorithm can be viewed as a special case of a where
+
+
+
+h
+
+x
+
+
+0
+
+
+displaystyle h x 0
+
+for all x general depth first search can be implemented using a by considering that there is a global counter c initialized with a very large value every time we process a node we assign c to all of its newly discovered neighbors after every single assignment we decrease the counter c by one thus the earlier a node is discovered the higher its
+
+
+
+h
+
+x
+
+
+
+displaystyle h x
+
+value both dijkstra s algorithm and depth first search can be implemented more efficiently without including an
+
+
+
+h
+
+x
+
+
+
+displaystyle h x
+
+value at each node
+
+on finite graphs with non negative edge weights a is guaranteed to terminate and is complete i e it will always find a solution a path from start to goal if one exists on infinite graphs with a finite branching factor and edge costs that are bounded away from zero
+
+
+
+d
+
+x
+
+y
+
+
+ε
+
+0
+
+
+textstyle d x y varepsilon 0
+
+for some fixed
+
+
+
+ε
+
+
+displaystyle varepsilon
+
+a is guaranteed to terminate only if there exists a solution
+
+a search algorithm is said to be admissible if it is guaranteed to return an optimal solution if the heuristic function used by a is admissible then a is admissible an intuitive proof of this is as follows
+
+call a node closed if it has been visited and is not in the open set we close a node when we remove it from the open set a basic property of the a algorithm which we ll sketch a proof of below is that when
+
+
+
+n
+
+
+displaystyle n
+
+is closed
+
+
+
+f
+
+n
+
+
+
+displaystyle f n
+
+is an optimistic estimate lower bound of the true distance from the start to the goal so when the goal node
+
+
+
+g
+
+
+displaystyle g
+
+is closed
+
+
+
+f
+
+g
+
+
+
+displaystyle f g
+
+is no more than the true distance on the other hand it is no less than the true distance since it is the length of a path to the goal plus a heuristic term
+
+now we ll see that whenever a node
+
+
+
+n
+
+
+displaystyle n
+
+is closed
+
+
+
+f
+
+n
+
+
+
+displaystyle f n
+
+is an optimistic estimate it is enough to see that whenever the open set is not empty it has at least one node
+
+
+
+n
+
+
+displaystyle n
+
+on an optimal path to the goal for which
+
+
+
+g
+
+n
+
+
+
+displaystyle g n
+
+is the true distance from start since in that case
+
+
+
+g
+
+n
+
+
+
+displaystyle g n
+
+
+
+
+
+h
+
+n
+
+
+
+displaystyle h n
+
+underestimates the distance to goal and therefore so does the smaller value chosen for the closed vertex let
+
+
+
+p
+
+
+displaystyle p
+
+be an optimal path from the start to the goal let
+
+
+
+p
+
+
+displaystyle p
+
+be the last closed node on
+
+
+
+p
+
+
+displaystyle p
+
+for which
+
+
+
+g
+
+p
+
+
+
+displaystyle g p
+
+is the true distance from the start to
+
+
+
+p
+
+
+displaystyle p
+
+the start is one such vertex the next node in
+
+
+
+p
+
+
+displaystyle p
+
+has the correct
+
+
+
+g
+
+
+displaystyle g
+
+value since it was updated when
+
+
+
+p
+
+
+displaystyle p
+
+was closed and it is open since it is not closed
+
+algorithm a is optimally efficient with respect to a set of alternative algorithms alts on a set of problems p if for every problem p in p and every algorithm a in alts the set of nodes expanded by a in solving p is a subset possibly equal of the set of nodes expanded by a in solving p the definitive study of the optimal efficiency of a is due to rina dechter and judea pearl
+they considered a variety of definitions of alts and p in combination with a s heuristic being merely admissible or being both consistent and admissible the most interesting positive result they proved is that a with a consistent heuristic is optimally efficient with respect to all admissible a like search algorithms on all non pathological search problems roughly speaking their notion of the non pathological problem is what we now mean by up to tie breaking this result does not hold if a s heuristic is admissible but not consistent in that case dechter and pearl showed there exist admissible a like algorithms that can expand arbitrarily fewer nodes than a on some non pathological problems
+
+optimal efficiency is about the set of nodes expanded not the number of node expansions the number of iterations of a s main loop when the heuristic being used is admissible but not consistent it is possible for a node to be expanded by a many times an exponential number of times in the worst case
+in such circumstances dijkstra s algorithm could outperform a by a large margin however more recent research found that this pathological case only occurs in certain contrived situations where the edge weight of the search graph is exponential in the size of the graph and that certain inconsistent but admissible heuristics can lead to a reduced number of node expansions in a searches
+
+while the admissibility criterion guarantees an optimal solution path it also means that a must examine all equally meritorious paths to find the optimal path to compute approximate shortest paths it is possible to speed up the search at the expense of optimality by relaxing the admissibility criterion oftentimes we want to bound this relaxation so that we can guarantee that the solution path is no worse than 1 ε times the optimal solution path this new guarantee is referred to as ε admissible
+
+there are a number of ε admissible algorithms
+
+as a heuristic search algorithm the performance of a is heavily influenced by the quality of the heuristic function
+
+
+
+h
+
+n
+
+
+
+textstyle h n
+
+if the heuristic closely approximates the true cost to the goal a can significantly reduce the number of node expansions on the other hand a poor heuristic can lead to many unnecessary expansions
+
+in the worst case a expands all nodes
+
+
+
+n
+
+
+textstyle n
+
+for which
+
+
+
+f
+
+n
+
+
+g
+
+n
+
+
+h
+
+n
+
+
+
+c
+
+
+
+
+
+
+textstyle f n g n h n leq c
+
+where
+
+
+
+
+c
+
+
+
+
+
+
+textstyle c
+
+is the cost of the optimal goal node
+
+suppose there is a node
+
+
+
+
+n
+
+
+
+
+textstyle n
+
+in the open list with
+
+
+
+f
+
+
+n
+
+
+
+
+
+c
+
+
+
+
+
+
+textstyle f n c
+
+and it s the next node to be expanded since the goal node has
+
+
+
+f
+
+g
+o
+a
+l
+
+
+g
+
+g
+o
+a
+l
+
+
+h
+
+g
+o
+a
+l
+
+
+g
+
+g
+o
+a
+l
+
+
+
+c
+
+
+
+
+
+
+textstyle f goal g goal h goal g goal c
+
+and
+
+
+
+f
+
+
+n
+
+
+
+
+
+c
+
+
+
+
+
+
+textstyle f n c
+
+the goal node will have a lower f value and will be expanded before
+
+
+
+
+n
+
+
+
+
+textstyle n
+
+therefore a never expands nodes with
+
+
+
+f
+
+n
+
+
+
+c
+
+
+
+
+
+
+textstyle f n c
+
+
+
+assume there exists an optimal algorithm that expands fewer nodes than
+
+
+
+
+c
+
+
+
+
+
+
+textstyle c
+
+in the worst case using the same heuristic that means there must be some node
+
+
+
+
+n
+
+
+
+
+textstyle n
+
+such that
+
+
+
+f
+
+
+n
+
+
+
+
+
+c
+
+
+
+
+
+
+textstyle f n c
+
+yet the algorithm chooses not to expand it
+
+now consider a modified graph where a new edge of cost
+
+
+
+ε
+
+
+textstyle varepsilon
+
+with
+
+
+
+ε
+
+0
+
+
+textstyle varepsilon 0
+
+is added from
+
+
+
+
+n
+
+
+
+
+textstyle n
+
+to the goal if
+
+
+
+f
+
+
+n
+
+
+
+
+ε
+
+
+c
+
+
+
+
+
+
+textstyle f n varepsilon c
+
+then the new optimal path goes through
+
+
+
+
+n
+
+
+
+
+textstyle n
+
+however since the algorithm still avoids expanding
+
+
+
+
+n
+
+
+
+
+textstyle n
+
+it will miss the new optimal path violating its optimality
+
+therefore no optimal algorithm including a could expand fewer nodes than
+
+
+
+
+c
+
+
+
+
+
+
+textstyle c
+
+in the worst case
+
+the worst case complexity of a is often described as
+
+
+
+o
+
+
+b
+
+d
+
+
+
+
+
+textstyle o b d
+
+where
+
+
+
+b
+
+
+displaystyle b
+
+is the branching factor and
+
+
+
+d
+
+
+textstyle d
+
+is the depth of the shallowest goal while this gives a rough intuition it does not precisely capture the actual behavior of a
+
+a more accurate bound considers the number of nodes with
+
+
+
+f
+
+n
+
+
+
+c
+
+
+
+
+
+
+textstyle f n leq c
+
+if
+
+
+
+ε
+
+
+displaystyle varepsilon
+
+is the smallest possible difference in
+
+
+
+f
+
+
+textstyle f
+
+cost between distinct nodes then a may expand up to
+
+this represents both the time and space complexity in the worst case
+
+the space complexity of a is roughly the same as that of all other graph search algorithms as it keeps all generated nodes in memory in practice this turns out to be the biggest drawback of the a search leading to the development of memory bounded heuristic searches such as iterative deepening a memory bounded a and sma
+
+a is often used for the common pathfinding problem in applications such as video games but was originally designed as a general graph traversal algorithm
+it finds applications in diverse problems including the problem of parsing using stochastic grammars in nlp
+other cases include an informational search with online learning
+
+what sets a apart from a greedy best first search algorithm is that it takes the cost distance already traveled g n into account
+
+some common variants of dijkstra s algorithm can be viewed as a special case of a where the heuristic
+
+
+
+h
+
+n
+
+
+0
+
+
+displaystyle h n 0
+
+for all nodes in turn both dijkstra and a are special cases of dynamic programming
+a itself is a special case of a generalization of branch and bound
+
+a is similar to beam search except that beam search maintains a limit on the numbers of paths that it has to explore
+
+a can also be adapted to a bidirectional search algorithm but special care needs to be taken for the stopping criterion

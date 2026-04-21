@@ -1,0 +1,14 @@
+alphageometry is an artificial intelligence ai program that can solve hard problems in euclidean geometry the system comprises a data driven large language model llm and a rule based symbolic engine deductive database arithmetic reasoning it was developed by deepmind a subsidiary of google the program solved 25 geometry problems out of 30 from the international mathematical olympiad imo under competition time limits a performance almost as good as the average human gold medallist for comparison the previous ai program called wu s method managed to solve only 10 problems
+
+deepmind published a paper about alphageometry in the peer reviewed journal nature on 17 january 2024 alphageometry was featured in mit technology review on the same day
+
+traditional geometry programs are symbolic engines that rely exclusively on human coded rules to generate rigorous proofs which makes them lack flexibility in unusual situations alphageometry combines such a symbolic engine with a specialized large language model trained on synthetic data of geometrical proofs when the symbolic engine doesn t manage to find a formal and rigorous proof on its own it solicits the large language model which suggests a geometrical construct to move forward however it is unclear how applicable this method is to other domains of mathematics or reasoning because symbolic engines rely on domain specific rules and because of the need for synthetic data
+
+alphageometry 2 is an improved version of alphageometry published on february 5 2025 they added more features to the representation language to describe more geometry problems that involve movements of objects and problems containing linear equations of angles ratios and distances they targeted imo geometry questions from 2000 to 2024 the expanded representation language allowed them to cover 88 of the questions
+
+it uses gemini finetuned on a synthetically generated dataset of problems and solutions in the representation language the model is used for making auxiliary constructions like lines and points to help the tree search it is also used for autoformalization i e converting a problem in english to a problem in the representation language
+
+
+
+this google related article is a stub you can help wikipedia by adding missing information
+this artificial neural network related article is a stub you can help wikipedia by adding missing information

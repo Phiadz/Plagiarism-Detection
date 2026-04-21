@@ -1,0 +1,2462 @@
+
+fairness in machine learning ml refers to the various attempts to correct algorithmic bias in automated decision processes based on ml models decisions made by such models after a learning process may be considered unfair if they were based on variables considered sensitive e g gender ethnicity sexual orientation or disability
+
+as is the case with many ethical concepts definitions of fairness and bias can be controversial in general fairness and bias are considered relevant when the decision process impacts people s lives
+
+since machine made decisions may be skewed by a range of factors they might be considered unfair with respect to certain groups or individuals an example could be the way social media sites deliver personalized news to consumers
+
+discussion about fairness in machine learning is a relatively recent topic since 2016 there has been a sharp increase in research into the topic this increase could be partly attributed to an influential report by propublica that claimed that the compas software widely used in us courts to predict recidivism was racially biased one topic of research and discussion is the definition of fairness as there is no universal definition and different definitions can be in contradiction with each other which makes it difficult to judge machine learning models other research topics include the origins of bias the types of bias and methods to reduce bias
+
+in recent years tech companies have made tools and manuals on how to detect and reduce bias in machine learning ibm has tools for python and r with several algorithms to reduce software bias and increase its fairness google has published guidelines and tools to study and combat bias in machine learning facebook have reported their use of a tool fairness flow to detect bias in their ai however critics have argued that the company s efforts are insufficient reporting little use of the tool by employees as it cannot be used for all their programs and even when it can use of the tool is optional
+
+it is important to note that the discussion about quantitative ways to test fairness and unjust discrimination in decision making predates by several decades the rather recent debate on fairness in machine learning in fact a vivid discussion of this topic by the scientific community flourished during the mid 1960s and 1970s mostly as a result of the american civil rights movement and in particular of the passage of the u s civil rights act of 1964 however by the end of the 1970s the debate largely disappeared as the different and sometimes competing notions of fairness left little room for clarity on when one notion of fairness may be preferable to another
+
+language bias refers a type of statistical sampling bias tied to the language of a query that leads to a systematic deviation in sampling information that prevents it from accurately representing the true coverage of topics and views available in their repository better source needed luo et al show that current large language models as they are predominately trained on english language data often present the anglo american views as truth while systematically downplaying non english perspectives as irrelevant wrong or noise when queried with political ideologies like what is liberalism chatgpt as it was trained on english centric data describes liberalism from the anglo american perspective emphasizing aspects of human rights and equality while equally valid aspects like opposes state intervention in personal and economic life from the dominant vietnamese perspective and limitation of government power from the prevalent chinese perspective are absent similarly other political perspectives embedded in japanese korean french and german corpora are absent in chatgpt s responses chatgpt covered itself as a multilingual chatbot in fact is mostly blind to non english perspectives
+
+gender bias refers to the tendency of these models to produce outputs that are unfairly prejudiced towards one gender over another this bias typically arises from the data on which these models are trained for example large language models often assign roles and characteristics based on traditional gender norms it might associate nurses or secretaries predominantly with women and engineers or ceos with men another example utilizes data driven methods to identify gender bias in linkedin
+profiles the growing use of ml enabled systems has become an important component of modern talent recruitment particularly through social networks such as linkedin
+and facebook however data overflow embedded in recruitment systems based on natural language processing nlp methods has proven to result in gender bias
+
+political bias refers to the tendency of algorithms to systematically favor certain political viewpoints ideologies or outcomes over others language models may also exhibit political biases since the training data includes a wide range of political opinions and coverage the models might generate responses that lean towards particular political ideologies or viewpoints depending on the prevalence of those views in the data
+
+the use of algorithmic decision making in the legal system has been a notable area of use under scrutiny in 2014 then u s attorney general eric holder raised concerns that risk assessment methods may be putting undue focus on factors not under a defendant s control such as their education level or socio economic background the 2016 report by propublica on compas claimed that black defendants were almost twice as likely to be incorrectly labelled as higher risk than white defendants while making the opposite mistake with white defendants the creator of compas northepointe inc disputed the report claiming their tool is fair and propublica made statistical errors which was subsequently refuted again by propublica
+
+racial and gender bias has also been noted in image recognition algorithms facial and movement detection in cameras has been found to ignore or mislabel the facial expressions of non white subjects in 2015 google apologized after google photos mistakenly labeled a black couple as gorillas similarly flickr auto tag feature was found to have labeled some black people as apes and animals a 2016 international beauty contest judged by an ai algorithm was found to be biased towards individuals with lighter skin likely due to bias in training data a study of three commercial gender classification algorithms in 2018 found that all three algorithms were generally most accurate when classifying light skinned males and worst when classifying dark skinned females in 2020 an image cropping tool from twitter was shown to prefer lighter skinned faces in 2022 the creators of the text to image model dall e 2 explained that the generated images were significantly stereotyped based on traits such as gender or race
+
+other areas where machine learning algorithms are in use that have been shown to be biased include job and loan applications amazon has used software to review job applications that was sexist for example by penalizing resumes that included the word women in 2019 apple s algorithm to determine credit card limits for their new apple card gave significantly higher limits to males than females even for couples that shared their finances mortgage approval algorithms in use in the u s were shown to be more likely to reject non white applicants by a report by the markup in 2021
+
+recent works underline the presence of several limitations to the current landscape of fairness in machine learning particularly when it comes to what is realistically achievable in this respect in the ever increasing real world applications of ai
+for instance the mathematical and quantitative approach to formalize fairness and the related de biasing approaches may rely on too simplistic and easily overlooked assumptions such as the categorization of individuals into pre defined social groups
+other delicate aspects are e g the interaction among several sensible characteristics and the lack of a clear and shared philosophical and or legal notion of non discrimination
+
+finally while machine learning models can be designed to adhere to fairness criteria the ultimate decisions made by human operators may still be influenced by their own biases this phenomenon occurs when decision makers accept ai recommendations only when they align with their preexisting prejudices thereby undermining the intended fairness of the system
+
+in classification problems an algorithm learns a function to predict a discrete characteristic
+
+
+
+y
+
+
+textstyle y
+
+the target variable from known characteristics
+
+
+
+x
+
+
+textstyle x
+
+we model
+
+
+
+a
+
+
+textstyle a
+
+as a discrete random variable which encodes some characteristics contained or implicitly encoded in
+
+
+
+x
+
+
+textstyle x
+
+that we consider as sensitive characteristics gender ethnicity sexual orientation etc we finally denote by
+
+
+
+r
+
+
+textstyle r
+
+the prediction of the classifier
+now let us define three main criteria to evaluate if a given classifier is fair that is if its predictions are not influenced by some of these sensitive variables
+
+we say the random variables
+
+
+
+
+r
+
+a
+
+
+
+textstyle r a
+
+satisfy independence if the sensitive characteristics
+
+
+
+a
+
+
+textstyle a
+
+are statistically independent of the prediction
+
+
+
+r
+
+
+textstyle r
+
+and we write
+
+
+
+
+r
+
+a
+
+
+
+displaystyle r bot a
+
+
+we can also express this notion with the following formula
+
+
+
+
+p
+
+r
+
+r
+
+
+
+
+
+a
+
+a
+
+
+p
+
+r
+
+r
+
+
+
+
+
+a
+
+b
+
+
+
+r
+
+r
+
+
+a
+
+b
+
+a
+
+
+displaystyle p r r a a p r r a b quad forall r in r quad forall a b in a
+
+
+this means that the classification rate for each target classes is equal for people belonging to different groups with respect to sensitive characteristics
+
+
+
+a
+
+
+displaystyle a
+
+
+
+yet another equivalent expression for independence can be given using the concept of mutual information between random variables defined as
+
+
+
+
+i
+
+x
+
+y
+
+
+h
+
+x
+
+
+h
+
+y
+
+
+h
+
+x
+
+y
+
+
+
+displaystyle i x y h x h y h x y
+
+
+in this formula
+
+
+
+h
+
+x
+
+
+
+textstyle h x
+
+is the entropy of the random variable
+
+
+
+x
+
+
+displaystyle x
+
+then
+
+
+
+
+r
+
+a
+
+
+
+textstyle r a
+
+satisfy independence if
+
+
+
+i
+
+r
+
+a
+
+
+0
+
+
+textstyle i r a 0
+
+
+
+a possible relaxation of the independence definition include introducing a positive slack
+
+
+
+ϵ
+
+0
+
+
+textstyle epsilon 0
+
+and is given by the formula
+
+
+
+
+p
+
+r
+
+r
+
+
+
+
+
+a
+
+a
+
+
+p
+
+r
+
+r
+
+
+
+
+
+a
+
+b
+
+
+ϵ
+
+
+r
+
+r
+
+
+a
+
+b
+
+a
+
+
+displaystyle p r r a a geq p r r a b epsilon quad forall r in r quad forall a b in a
+
+
+
+finally another possible relaxation is to require
+
+
+
+i
+
+r
+
+a
+
+
+ϵ
+
+
+textstyle i r a leq epsilon
+
+
+
+we say the random variables
+
+
+
+
+r
+
+a
+
+y
+
+
+
+textstyle r a y
+
+satisfy separation if the sensitive characteristics
+
+
+
+a
+
+
+textstyle a
+
+are statistically independent of the prediction
+
+
+
+r
+
+
+textstyle r
+
+given the target value
+
+
+
+y
+
+
+textstyle y
+
+and we write
+
+
+
+
+r
+
+a
+
+
+
+
+
+y
+
+
+
+displaystyle r bot a y
+
+
+we can also express this notion with the following formula
+
+
+
+
+p
+
+r
+
+r
+
+
+
+
+
+y
+
+q
+
+a
+
+a
+
+
+p
+
+r
+
+r
+
+
+
+
+
+y
+
+q
+
+a
+
+b
+
+
+
+r
+
+r
+
+q
+
+y
+
+
+a
+
+b
+
+a
+
+
+displaystyle p r r y q a a p r r y q a b quad forall r in r quad q in y quad forall a b in a
+
+
+this means that all the dependence of the decision
+
+
+
+r
+
+
+displaystyle r
+
+on the sensitive attribute
+
+
+
+a
+
+
+displaystyle a
+
+must be justified by the actual dependence of the true target variable
+
+
+
+y
+
+
+displaystyle y
+
+
+
+another equivalent expression in the case of a binary target rate is that the true positive rate and the false positive rate are equal and therefore the false negative rate and the true negative rate are equal for every value of the sensitive characteristics
+
+
+
+
+p
+
+r
+
+1
+
+
+
+
+
+y
+
+1
+
+a
+
+a
+
+
+p
+
+r
+
+1
+
+
+
+
+
+y
+
+1
+
+a
+
+b
+
+
+
+a
+
+b
+
+a
+
+
+displaystyle p r 1 y 1 a a p r 1 y 1 a b quad forall a b in a
+
+
+
+
+
+
+p
+
+r
+
+1
+
+
+
+
+
+y
+
+0
+
+a
+
+a
+
+
+p
+
+r
+
+1
+
+
+
+
+
+y
+
+0
+
+a
+
+b
+
+
+
+a
+
+b
+
+a
+
+
+displaystyle p r 1 y 0 a a p r 1 y 0 a b quad forall a b in a
+
+
+
+a possible relaxation of the given definitions is to allow the value for the difference between rates to be a positive number lower than a given slack
+
+
+
+ϵ
+
+0
+
+
+textstyle epsilon 0
+
+rather than equal to zero
+
+in some fields separation separation coefficient in a confusion matrix is a measure of the distance at a given level of the probability score between the predicted cumulative percent negative and predicted cumulative percent positive
+
+the greater this separation coefficient is at a given score value the more effective the model is at differentiating between the set of positives and negatives at a particular probability cut off according to mayes it is often observed in the credit industry that the selection of validation measures depends on the modeling approach for example if modeling procedure is parametric or semi parametric the two sample k s test is often used if the model is derived by heuristic or iterative search methods the measure of model performance is usually divergence a third option is the coefficient of separation the coefficient of separation compared to the other two methods seems to be most reasonable as a measure for model performance because it reflects the separation pattern of a model
+
+we say the random variables
+
+
+
+
+r
+
+a
+
+y
+
+
+
+textstyle r a y
+
+satisfy sufficiency if the sensitive characteristics
+
+
+
+a
+
+
+textstyle a
+
+are statistically independent of the target value
+
+
+
+y
+
+
+textstyle y
+
+given the prediction
+
+
+
+r
+
+
+textstyle r
+
+and we write
+
+
+
+
+y
+
+a
+
+
+
+
+
+r
+
+
+
+displaystyle y bot a r
+
+
+we can also express this notion with the following formula
+
+
+
+
+p
+
+y
+
+q
+
+
+
+
+
+r
+
+r
+
+a
+
+a
+
+
+p
+
+y
+
+q
+
+
+
+
+
+r
+
+r
+
+a
+
+b
+
+
+
+q
+
+y
+
+r
+
+r
+
+
+a
+
+b
+
+a
+
+
+displaystyle p y q r r a a p y q r r a b quad forall q in y quad r in r quad forall a b in a
+
+
+this means that the probability of actually being in each of the groups is equal for two individuals with different sensitive characteristics given that they were predicted to belong to the same group
+
+finally we sum up some of the main results that relate the three definitions given above
+
+it is referred to as total fairness when independence separation and sufficiency are all satisfied simultaneously however total fairness is not possible to achieve except in specific rhetorical cases
+
+
+most statistical measures of fairness rely on different metrics so we will start by defining them when working with a binary classifier both the predicted and the actual classes can take two values positive and negative now let us start explaining the different possible relations between predicted and actual outcome
+these relations can be easily represented with a confusion matrix a table that describes the accuracy of a classification model in this matrix columns and rows represent instances of the predicted and the actual cases respectively
+
+by using these relations we can define multiple metrics which can be later used to measure the fairness of an algorithm
+
+the following criteria can be understood as measures of the three general definitions given at the beginning of this section namely independence separation and sufficiency in the table to the right we can see the relationships between them
+
+to define these measures specifically we will divide them into three big groups as done in verma et al definitions based on a predicted outcome on predicted and actual outcomes and definitions based on predicted probabilities and the actual outcome
+
+we will be working with a binary classifier and the following notation
+
+
+
+s
+
+
+textstyle s
+
+refers to the score given by the classifier which is the probability of a certain subject to be in the positive or the negative class
+
+
+
+r
+
+
+textstyle r
+
+represents the final classification predicted by the algorithm and its value is usually derived from
+
+
+
+s
+
+
+textstyle s
+
+for example will be positive when
+
+
+
+s
+
+
+textstyle s
+
+is above a certain threshold
+
+
+
+y
+
+
+textstyle y
+
+represents the actual outcome that is the real classification of the individual and finally
+
+
+
+a
+
+
+textstyle a
+
+denotes the sensitive attributes of the subjects
+
+the definitions in this section focus on a predicted outcome
+
+
+
+r
+
+
+textstyle r
+
+for various distributions of subjects they are the simplest and most intuitive notions of fairness
+
+these definitions not only considers the predicted outcome
+
+
+
+r
+
+
+textstyle r
+
+but also compare it to the actual outcome
+
+
+
+y
+
+
+textstyle y
+
+
+
+these definitions are based in the actual outcome
+
+
+
+y
+
+
+textstyle y
+
+and the predicted probability score
+
+
+
+s
+
+
+textstyle s
+
+
+
+with respect to confusion matrices independence separation and sufficiency require the respective quantities listed below to not have statistically significant difference across sensitive characteristics
+
+the notion of equal confusion fairness requires the confusion matrix of a given decision system to have the same distribution when computed stratified over all sensitive characteristics
+
+some scholars have proposed defining algorithmic fairness in terms of a social welfare function they argue that using a social welfare function enables an algorithm designer to consider fairness and predictive accuracy in terms of their benefits to the people affected by the algorithm it also allows the designer to trade off efficiency and equity in a principled way sendhil mullainathan has stated that algorithm designers should use social welfare functions to recognize absolute gains for disadvantaged groups for example a study found that using a decision making algorithm in pretrial detention rather than pure human judgment reduced the detention rates for blacks hispanics and racial minorities overall even while keeping the crime rate constant
+
+an important distinction among fairness definitions is the one between group and individual notions roughly speaking while group fairness criteria compare quantities at a group level typically identified by sensitive attributes e g gender ethnicity age etc individual criteria compare individuals in words individual fairness follow the principle that similar individuals should receive similar treatments
+
+there is a very intuitive approach to fairness which usually goes under the name of fairness through unawareness ftu or blindness that prescribes not to explicitly employ sensitive features when making automated decisions this is effectively a notion of individual fairness since two individuals differing only for the value of their sensitive attributes would receive the same outcome
+
+however in general ftu is subject to several drawbacks the main being that it does not take into account possible correlations between sensitive attributes and non sensitive attributes employed in the decision making process for example an agent with the malignant intention to discriminate on the basis of gender could introduce in the model a proxy variable for gender i e a variable highly correlated with gender and effectively using gender information while at the same time being compliant to the ftu prescription
+
+the problem of what variables correlated to sensitive ones are fairly employable by a model in the decision making process is a crucial one and is relevant for group concepts as well independence metrics require a complete removal of sensitive information while separation based metrics allow for correlation but only as far as the labeled target variable justify them
+
+the most general concept of individual fairness was introduced in the pioneer work by cynthia dwork and collaborators in 2012 and can be thought of as a mathematical translation of the principle that the decision map taking features as input should be built such that it is able to map similar individuals similarly that is expressed as a lipschitz condition on the model map they call this approach fairness through awareness fta precisely as counterpoint to ftu since they underline the importance of choosing the appropriate target related distance metric to assess which individuals are similar in specific situations again this problem is very related to the point raised above about what variables can be seen as legitimate in particular contexts
+
+another approach to individual fairness is that of counterfactual fairness the intuition behind counterfactual fairness is that a decision is fair towards an individual if it is the same in both the actual world and a counterfactual world where the individual belonged to a different demographic group
+
+causal fairness measures the frequency with which two nearly identical users or applications who differ only in a set of characteristics with respect to which resource allocation must be fair receive identical treatment dubious discuss
+
+an entire branch of the academic research on fairness metrics is devoted to leverage causal models to assess bias in machine learning models this approach is usually justified by the fact that the same observational distribution of data may hide different causal relationships among the variables at play possibly with different interpretations of whether the outcome are affected by some form of bias or not
+
+kusner et al propose to employ counterfactuals and define a decision making process counterfactually fair if for any individual the outcome does not change in the counterfactual scenario where the sensitive attributes are changed note that this is also categorized as a measure of individual fairness the mathematical formulation reads
+
+
+
+
+
+p
+
+
+r
+
+a
+
+a
+
+
+
+1
+
+a
+
+a
+
+x
+
+x
+
+
+p
+
+
+r
+
+a
+
+b
+
+
+
+1
+
+a
+
+a
+
+x
+
+x
+
+
+
+
+a
+
+b
+
+
+
+displaystyle p r_ a leftarrow a 1 mid a a x x p r_ a leftarrow b 1 mid a a x x quad forall a b
+
+
+
+that is taken a random individual with sensitive attribute
+
+
+
+a
+
+a
+
+
+displaystyle a a
+
+and other features
+
+
+
+x
+
+x
+
+
+displaystyle x x
+
+and the same individual if she had
+
+
+
+a
+
+b
+
+
+displaystyle a b
+
+they should have same chance of being accepted
+the symbol
+
+
+
+
+
+
+
+r
+
+
+
+
+
+a
+
+a
+
+
+
+
+displaystyle hat r _ a leftarrow a
+
+represents the counterfactual random variable
+
+
+
+r
+
+
+displaystyle r
+
+in the scenario where the sensitive attribute
+
+
+
+a
+
+
+displaystyle a
+
+is fixed to
+
+
+
+a
+
+a
+
+
+displaystyle a a
+
+the conditioning on
+
+
+
+a
+
+a
+
+x
+
+x
+
+
+displaystyle a a x x
+
+means that this requirement is at the individual level in that we are conditioning on all the variables identifying a single observation
+
+machine learning models are often trained upon data where the outcome depended on the decision made at that time for example if a machine learning model has to determine whether an inmate will recidivate and will determine whether the inmate should be released early the outcome could be dependent on whether the inmate was released early or not mishler et al propose a formula for counterfactual equalized odds
+
+
+
+
+
+p
+
+r
+
+1
+
+
+y
+
+0
+
+
+
+0
+
+a
+
+a
+
+
+p
+
+r
+
+1
+
+
+y
+
+0
+
+
+
+0
+
+a
+
+b
+
+
+p
+
+r
+
+0
+
+
+y
+
+1
+
+
+
+1
+
+a
+
+a
+
+
+p
+
+r
+
+0
+
+
+y
+
+1
+
+
+
+1
+
+a
+
+b
+
+
+
+
+a
+
+b
+
+
+
+displaystyle p r 1 mid y 0 0 a a p r 1 mid y 0 0 a b wedge p r 0 mid y 1 1 a a p r 0 mid y 1 1 a b quad forall a b
+
+
+
+where
+
+
+
+r
+
+
+displaystyle r
+
+is a random variable
+
+
+
+
+y
+
+x
+
+
+
+
+displaystyle y x
+
+denotes the outcome given that the decision
+
+
+
+x
+
+
+displaystyle x
+
+was taken and
+
+
+
+a
+
+
+displaystyle a
+
+is a sensitive feature
+
+plecko and bareinboim propose a unified framework to deal with causal analysis of fairness they suggest the use of a standard fairness model consisting of a causal graph with 4 types of variables
+
+within this framework plecko and bareinboim are therefore able to classify the possible effects that sensitive attributes may have on the outcome
+moreover the granularity at which these effects are measured namely the conditioning variables used to average the effect is directly connected to the individual vs group aspect of fairness assessment
+
+fairness can be applied to machine learning algorithms in three different ways data preprocessing optimization during software training or post processing results of the algorithm
+
+usually the classifier is not the only problem the dataset is also biased the discrimination of a dataset
+
+
+
+d
+
+
+textstyle d
+
+with respect to the group
+
+
+
+a
+
+a
+
+
+textstyle a a
+
+can be defined as follows
+
+
+
+
+d
+i
+s
+
+c
+
+a
+
+a
+
+
+
+d
+
+
+
+
+
+
+
+
+
+x
+
+d
+
+
+
+x
+
+a
+
+
+a
+
+x
+
+y
+
+
+
+
+
+
+
+
+
+
+
+
+
+x
+
+d
+
+
+
+x
+
+a
+
+
+a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+x
+
+d
+
+
+
+x
+
+a
+
+
+a
+
+x
+
+y
+
+
+
+
+
+
+
+
+
+
+
+
+
+x
+
+d
+
+
+
+x
+
+a
+
+
+a
+
+
+
+
+
+
+
+
+
+displaystyle disc_ a a d frac x in d x a neq a x y x in d x a neq a frac x in d x a a x y x in d x a a
+
+
+
+that is an approximation to the difference between the probabilities of belonging in the positive class given that the subject has a protected characteristic different from
+
+
+
+a
+
+
+textstyle a
+
+and equal to
+
+
+
+a
+
+
+textstyle a
+
+
+
+algorithms correcting bias at preprocessing remove information about dataset variables which might result in unfair decisions while trying to alter as little as possible this is not as simple as just removing the sensitive variable because other attributes can be correlated to the protected one
+
+a way to do this is to map each individual in the initial dataset to an intermediate representation in which it is impossible to identify whether it belongs to a particular protected group while maintaining as much information as possible then the new representation of the data is adjusted to get the maximum accuracy in the algorithm
+
+this way individuals are mapped into a new multivariable representation where the probability of any member of a protected group to be mapped to a certain value in the new representation is the same as the probability of an individual which doesn t belong to the protected group then this representation is used to obtain the prediction for the individual instead of the initial data as the intermediate representation is constructed giving the same probability to individuals inside or outside the protected group this attribute is hidden to the classifier
+
+an example is explained in zemel et al where a multinomial random variable is used as an intermediate representation in the process the system is encouraged to preserve all information except that which can lead to biased decisions and to obtain a prediction as accurate as possible
+
+on the one hand this procedure has the advantage that the preprocessed data can be used for any machine learning task furthermore the classifier does not need to be modified as the correction is applied to the dataset before processing on the other hand the other methods obtain better results in accuracy and fairness citation needed
+
+reweighing is an example of a preprocessing algorithm the idea is to assign a weight to each dataset point such that the weighted discrimination is 0 with respect to the designated group
+
+if the dataset
+
+
+
+d
+
+
+textstyle d
+
+was unbiased the sensitive variable
+
+
+
+a
+
+
+textstyle a
+
+and the target variable
+
+
+
+y
+
+
+textstyle y
+
+would be statistically independent and the probability of the joint distribution would be the product of the probabilities as follows
+
+
+
+
+
+p
+
+e
+x
+p
+
+
+
+a
+
+a
+
+y
+
+
+
+
+p
+
+a
+
+a
+
+
+p
+
+y
+
+
+
+
+
+
+
+
+
+
+
+x
+
+d
+
+
+
+x
+
+a
+
+
+a
+
+
+
+
+
+
+
+
+
+d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+x
+
+d
+
+
+
+x
+
+y
+
+
+
+
+
+
+
+
+
+
+
+
+d
+
+
+
+
+
+
+
+
+displaystyle p_ exp a a wedge y p a a times p y frac x in d x a a d times frac x in d x y d
+
+
+
+in reality however the dataset is not unbiased and the variables are not statistically independent so the observed probability is
+
+
+
+
+
+p
+
+o
+b
+s
+
+
+
+a
+
+a
+
+y
+
+
+
+
+
+
+
+
+
+
+
+x
+
+d
+
+
+
+x
+
+a
+
+
+a
+
+x
+
+y
+
+
+
+
+
+
+
+
+
+
+
+
+d
+
+
+
+
+
+
+
+
+displaystyle p_ obs a a wedge y frac x in d x a a wedge x y d
+
+
+
+to compensate for the bias the software adds a weight lower for favored objects and higher for unfavored objects for each
+
+
+
+x
+
+d
+
+
+textstyle x in d
+
+we get
+
+
+
+
+w
+
+x
+
+
+
+
+
+
+p
+
+e
+x
+p
+
+
+
+a
+
+x
+
+a
+
+
+y
+
+x
+
+y
+
+
+
+
+
+p
+
+o
+b
+s
+
+
+
+a
+
+x
+
+a
+
+
+y
+
+x
+
+y
+
+
+
+
+
+
+
+displaystyle w x frac p_ exp a x a wedge y x y p_ obs a x a wedge y x y
+
+
+
+when we have for each
+
+
+
+x
+
+
+textstyle x
+
+a weight associated
+
+
+
+w
+
+x
+
+
+
+textstyle w x
+
+we compute the weighted discrimination with respect to group
+
+
+
+a
+
+a
+
+
+textstyle a a
+
+as follows
+
+
+
+
+d
+i
+s
+
+c
+
+a
+
+a
+
+
+
+d
+
+
+
+
+
+
+w
+
+x
+
+x
+
+
+x
+
+d
+
+
+
+x
+
+a
+
+
+a
+
+x
+
+y
+
+
+
+
+
+
+
+w
+
+x
+
+x
+
+
+x
+
+d
+
+
+
+x
+
+a
+
+
+a
+
+
+
+
+
+
+
+
+
+w
+
+x
+
+x
+
+
+x
+
+d
+
+
+
+x
+
+a
+
+
+a
+
+x
+
+y
+
+
+
+
+
+
+
+w
+
+x
+
+x
+
+
+x
+
+d
+
+
+
+x
+
+a
+
+
+a
+
+
+
+
+
+
+displaystyle disc_ a a d frac sum w x x in x in d x a neq a x y sum w x x in x in d x a neq a frac sum w x x in x in d x a a x y sum w x x in x in d x a a
+
+
+
+it can be shown that after reweighting this weighted discrimination is 0
+
+another approach is to correct the bias at training time this can be done by adding constraints to the optimization objective of the algorithm these constraints force the algorithm to improve fairness by keeping the same rates of certain measures for the protected group and the rest of individuals for example we can add to the objective of the algorithm the condition that the false positive rate is the same for individuals in the protected group and the ones outside the protected group
+
+the main measures used in this approach are false positive rate false negative rate and overall misclassification rate it is possible to add just one or several of these constraints to the objective of the algorithm note that the equality of false negative rates implies the equality of true positive rates so this implies the equality of opportunity after adding the restrictions to the problem it may turn intractable so a relaxation on them may be needed
+
+we train two classifiers at the same time through some gradient based method f e gradient descent the first one the predictor tries to accomplish the task of predicting
+
+
+
+y
+
+
+textstyle y
+
+the target variable given
+
+
+
+x
+
+
+textstyle x
+
+the input by modifying its weights
+
+
+
+w
+
+
+textstyle w
+
+to minimize some loss function
+
+
+
+
+l
+
+p
+
+
+
+
+
+
+y
+
+
+
+
+
+y
+
+
+
+textstyle l_ p hat y y
+
+the second one the adversary tries to accomplish the task of predicting
+
+
+
+a
+
+
+textstyle a
+
+the sensitive variable given
+
+
+
+
+
+
+y
+
+
+
+
+
+
+textstyle hat y
+
+by modifying its weights
+
+
+
+u
+
+
+textstyle u
+
+to minimize some loss function
+
+
+
+
+l
+
+a
+
+
+
+
+
+
+a
+
+
+
+
+
+a
+
+
+
+textstyle l_ a hat a a
+
+
+an important point here is that to propagate correctly
+
+
+
+
+
+
+y
+
+
+
+
+
+
+textstyle hat y
+
+above must refer to the raw output of the classifier not the discrete prediction for example with an artificial neural network and a classification problem
+
+
+
+
+
+
+y
+
+
+
+
+
+
+textstyle hat y
+
+could refer to the output of the softmax layer
+
+then we update
+
+
+
+u
+
+
+textstyle u
+
+to minimize
+
+
+
+
+l
+
+a
+
+
+
+
+textstyle l_ a
+
+at each training step according to the gradient
+
+
+
+
+
+
+u
+
+
+
+l
+
+a
+
+
+
+
+textstyle nabla _ u l_ a
+
+and we modify
+
+
+
+w
+
+
+textstyle w
+
+according to the expression
+
+
+
+
+
+
+
+w
+
+
+
+l
+
+p
+
+
+
+p
+r
+o
+
+j
+
+
+
+
+w
+
+
+
+l
+
+a
+
+
+
+
+
+
+
+w
+
+
+
+l
+
+p
+
+
+
+α
+
+
+
+w
+
+
+
+l
+
+a
+
+
+
+
+displaystyle nabla _ w l_ p proj_ nabla _ w l_ a nabla _ w l_ p alpha nabla _ w l_ a
+
+
+where
+
+α
+alpha
+
+is a tunable hyperparameter that can vary at each time step
+
+the intuitive idea is that we want the predictor to try to minimize
+
+
+
+
+l
+
+p
+
+
+
+
+textstyle l_ p
+
+therefore the term
+
+
+
+
+
+
+w
+
+
+
+l
+
+p
+
+
+
+
+textstyle nabla _ w l_ p
+
+while at the same time maximize
+
+
+
+
+l
+
+a
+
+
+
+
+textstyle l_ a
+
+therefore the term
+
+
+
+
+α
+
+
+
+w
+
+
+
+l
+
+a
+
+
+
+
+textstyle alpha nabla _ w l_ a
+
+so that the adversary fails at predicting the sensitive variable from
+
+
+
+
+
+
+y
+
+
+
+
+
+
+textstyle hat y
+
+
+
+the term
+
+
+
+
+p
+r
+o
+
+j
+
+
+
+
+w
+
+
+
+l
+
+a
+
+
+
+
+
+
+
+w
+
+
+
+l
+
+p
+
+
+
+
+textstyle proj_ nabla _ w l_ a nabla _ w l_ p
+
+prevents the predictor from moving in a direction that helps the adversary decrease its loss function
+
+it can be shown that training a predictor classification model with this algorithm improves demographic parity with respect to training it without the adversary
+
+the final method tries to correct the results of a classifier to achieve fairness in this method we have a classifier that returns a score for each individual and we need to do a binary prediction for them high scores are likely to get a positive outcome while low scores are likely to get a negative one but we can adjust the threshold to determine when to answer yes as desired note that variations in the threshold value affect the trade off between the rates for true positives and true negatives
+
+if the score function is fair in the sense that it is independent of the protected attribute then any choice of the threshold will also be fair but classifiers of this type tend to be biased so a different threshold may be required for each protected group to achieve fairness a way to do this is plotting the true positive rate against the false negative rate at various threshold settings this is called roc curve and find a threshold where the rates for the protected group and other individuals are equal
+
+given a classifier let
+
+
+
+p
+
+
+
+
+
+x
+
+
+
+textstyle p x
+
+be the probability computed by the classifiers as the probability that the instance
+
+
+
+x
+
+
+textstyle x
+
+belongs to the positive class when
+
+
+
+p
+
+
+
+
+
+x
+
+
+
+textstyle p x
+
+is close to 1 or to 0 the instance
+
+
+
+x
+
+
+textstyle x
+
+is specified with high degree of certainty to belong to class or respectively however when
+
+
+
+p
+
+
+
+
+
+x
+
+
+
+textstyle p x
+
+is closer to 0 5 the classification is more unclear
+
+we say
+
+
+
+x
+
+
+textstyle x
+
+is a rejected instance if
+
+
+
+m
+a
+x
+
+p
+
+
+
+
+
+x
+
+
+1
+
+p
+
+
+
+
+
+x
+
+
+
+θ
+
+
+textstyle max p x 1 p x leq theta
+
+with a certain
+
+
+
+θ
+
+
+textstyle theta
+
+such that
+
+
+
+0 5
+
+θ
+
+1
+
+
+textstyle 0 5 theta 1
+
+
+
+the algorithm of roc consists on classifying the non rejected instances following the rule above and the rejected instances as follows if the instance is an example of a deprived group
+
+
+
+x
+
+a
+
+
+a
+
+
+displaystyle x a a
+
+then label it as positive otherwise label it as negative
+
+we can optimize different measures of discrimination link as functions of
+
+
+
+θ
+
+
+textstyle theta
+
+to find the optimal
+
+
+
+θ
+
+
+textstyle theta
+
+for each problem and avoid becoming discriminatory against the privileged group

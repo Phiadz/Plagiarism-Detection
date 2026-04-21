@@ -1,0 +1,43 @@
+
+
+flux also known as flux 1 and flux 2 is a text to image model developed by black forest labs bfl based in freiburg im breisgau germany black forest labs was founded by former employees of stability ai as with other text to image models flux generates images from natural language descriptions called prompts
+
+black forest labs bfl was founded in 2024 by robin rombach andreas blattmann and patrick esser former employees of stability ai all three founders had previously researched the artificial intelligence image generation at lmu munich as research assistants under björn ommer they published their research results on image generation in 2022 which resulted in creation of stable diffusion investors in bfl included venture capital firm andreessen horowitz brendan iribe michael ovitz garry tan and vladlen koltun the company received an initial investment of us 31 million
+
+in august 2024 flux was integrated into the grok chatbot developed by xai and made available as part of premium feature on x formerly twitter grok later switched to its own text to image model aurora in december 2024
+
+on 18 november 2024 mistral ai announced that its le chat chatbot had integrated flux pro as its image generation model
+
+on 21 november 2024 bfl announced the release of flux 1 tools a suite of editing tools designed to be used on top of existing flux models the tools consisting of flux 1 fill for inpainting and outpainting flux 1 depth for control based on extracted depth map of input images and prompts flux 1 canny for control based on extracted canny edges of input images and prompts and flux 1 redux for mixing existing input images and prompts each tools are available in both pro and dev models
+
+in january 2025 bfl announced a partnership with nvidia for inclusion of flux models as foundation models for nvidia s blackwell microarchitecture the company also announced the release of flux pro finetuning api designed for customisation and fine tuning of flux generated images and a partnership with german media company hubert burda media for usage of flux pro as part of content creation
+
+on 29 may 2025 bfl announced flux 1 kontext a suite of models that enable in context image generation and editing allowing users to prompt with both text and images alongside this bfl playground an interface for testing flux models was released
+
+on 31 july 2025 bfl announced flux 1 krea dev a model developed in collaboration with krea ai that trained to achieve better performance more varied aesthetics and better realism compared to existing text to image models
+
+in september 2025 adobe inc announced that photoshop beta users can use flux 1 kontext pro as a model for its generative fill tool bfl collaborated with meta on vibes a video generation app
+
+on 25 november 2025 bfl announced the release of flux 2 model series consisting of pro flex dev and apache 2 0 licensed klein meaning little or small in german language models along with flux 2 variational autoencoder which also released as open source software under apache 2 0 licence this series claimed improvements for image reference photorealism typography and prompt understanding
+
+flux is a series of text to image models the models are based on rectified flow transformer blocks scaled to 12 billion parameters flux 1 models were released under different licences with schnell meaning fast or quick in german language released as open source software under apache license dev released as source available software under a non commercial licence users can obtain a self serving commercial licence for dev from bfl and pro released as proprietary software and only available as api that can be licensed by third party users users retained the ownership of resulting output regardless of models used
+
+an improved flagship model flux 1 1 pro was released on 2 october 2024 two additional modes were added on 6 november ultra which can generate image at four times higher resolution and up to 4 megapixel without affecting generation speed and raw which can generate hyper realistic image in the style of candid photography
+
+flux 1 kontext is a series with in context image generation and editing capabilities it is available in max pro and dev models max is the highest quality model and can be used to iteratively modify an existing image by using prompt while pro is optimized to balance quality and speed of generation dev is an open weight model released under non commercial license same as flux 1 dev
+
+flux 2 models are based on latent flow matching architecture with mistral ai s mistral 3 model 24 billion parameters for its vision language model as with flux 1 flux 2 models were also released under different licences with klein released as open source software under apache license dev released as source available software under a non commercial licence users can obtain a self serving commercial licence from bfl and both flex and pro released as proprietary software and only available as api
+
+the models can be used either online or locally by using generative ai user interfaces such as comfyui recraft studio and stable diffusion webui forge a fork of automatic1111 webui
+
+related to flux is text to video model sota under development as of february 2026 update
+
+according to a test performed by ars technica the outputs generated by flux 1 dev and flux 1 pro are comparable with dall e 3 in terms of prompt fidelity with the photorealism closely matched midjourney 6 and generated human hands with more consistency over previous models such as stable diffusion xl
+
+flux has been criticised for its very realistic generated images according to media reports depictions ranged from an image of donald trump posing with guns to disturbing scenes which triggered discussions about ethical implications of flux models
+
+after the release of the model social media platform x was flooded with flux generated images black forest labs has not provided exact details of the data used to train the model ars technica suspected that flux is based on a large unauthorised collection of images scraped from the internet a controversial practice with potential legal consequences
+
+according to a test performed by japanese technology news website gigazine for flux 1 kontext the model series has a good understanding of the english language and can easily transfer style of the image from photorealistic into anime style according to prompts given by the user however its ability to understand japanese is quite poor
+
+in addition to the official bfl playground on its website the flux models are also widely available through various third party platforms for creative and professional use these include repositories on platforms like hugging face and replicate

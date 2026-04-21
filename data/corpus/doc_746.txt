@@ -1,0 +1,55 @@
+
+
+mistral ai sas french mistʁal is a french artificial intelligence ai company headquartered in paris founded in 2023 it has open weight large language models llms with both open source and proprietary ai models as of 2025 the company has a valuation of more than us 14 billion
+
+the company is named after the mistral a powerful cold wind in southern france a term which originates from the occitan language
+
+mistral ai was established in april 2023 by three french ai researchers arthur mensch guillaume lample and timothée lacroix
+
+mensch an expert in advanced ai systems is a former employee of google deepmind lample and lacroix meanwhile are large scale ai models specialists who had worked for meta platforms
+
+the trio originally met during their studies at école polytechnique
+
+in june 2023 the start up carried out a first fundraising of 105 million 117 million with investors including the american fund lightspeed venture partners eric schmidt xavier niel and jcdecaux the valuation was then estimated by the financial times at 240 million 267 million
+
+on 10 december 2023 mistral ai announced that it had raised 385 million 428 million as part of its second fundraising this round of financing involves the californian fund andreessen horowitz bnp paribas and the software publisher salesforce
+
+by december 2023 it was valued at over 2 billion
+
+on 16 april 2024 reporting revealed that mistral was in talks to raise 500 million a deal that would more than double its current valuation to at least 5 billion
+
+in june 2024 mistral ai secured a 600 million 645 million funding round increasing its valuation to 5 8 billion 6 2 billion based on valuation as of june 2024 the company was ranked fourth globally in the ai industry and first outside the san francisco bay area
+
+in august 2025 the financial times reported that mistral was in talks to raise 1 billion at a 10 billion valuation in september 2025 bloomberg announced that mistral ai has secured a 2 billion investment valuing it at 12 billion 14 billion this comes after 1 5 billion investment from dutch company asml which owns 11 of mistral
+
+in march 2026 mistral raised 830 million in order to build new datacenters near paris and in sweden
+
+on 26 february 2024 microsoft announced that mistral s language models would be made available on microsoft s azure cloud while the multilingual conversational assistant le chat would be launched in the style of chatgpt non primary source needed the partnership also included a financial investment of 16 million by microsoft in mistral ai
+
+in april 2025 mistral ai announced a 100 million partnership with the shipping company cma cgm
+
+on 19 november 2024 the company announced updates for le chat pronounced lə ʃa in french like the french word for cat it added the ability to create images using black forest labs flux pro model
+
+on 6 february 2025 mistral ai released le chat on ios and android mobile devices
+
+mistral ai also introduced a pro subscription tier priced at 14 99 per month which provides access to more advanced models unlimited messaging and web browsing
+
+the following table lists the main model versions of mistral describing the significant changes included with each version
+
+mistral ai claimed in the mistral 7b release blog post that the model outperforms llama 2 13b on all benchmarks tested and is on par with llama 34b on many benchmarks tested despite having only 7 billion parameters a small size compared to its competitors
+
+mistral ai claimed in 2023 that its model beat both llama 70b and gpt 3 5 in most benchmarks
+
+in march 2024 research conducted by patronus ai comparing performance of llms on a 100 question test with prompts to generate text from books protected under u s copyright law found that openai s gpt 4 mixtral meta ai s llama 2 and anthropic s claude 2 generated copyrighted text verbatim in 44 22 10 and 8 of responses respectively
+
+on 17 march 2025 mistral released mistral small 3 1 as a smaller more efficient model non primary source needed
+
+on 7 may 2025 mistral ai released mistral medium 3 non primary source needed
+
+on 10 june 2025 mistral ai released their first ai reasoning models magistral small open source and magistral medium models which are purported to have chain of thought capabilities
+
+on 2 december 2025 mistral ai released mistral large 3 a sparse mixture of experts model with 41 billion active parameters and 675 billion total parameters and ministral 3 three small dense models with 3 billion 7 billion and 14 billion parameters
+
+on 10 december 2025 mistral ai released devstral 2 and devstral small 2 devstral small 2 a 24b parameter model is claimed to achieve better performance at coding than qwen 3 coder flash model which is a 30b parameter model
+
+on 10 december 2025 mistral released mistral vibe a command line interface for ai assisted software development this was initially released with the devstral 2 and devstral small 2 models available

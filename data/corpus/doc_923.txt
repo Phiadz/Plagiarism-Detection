@@ -1,0 +1,21 @@
+in statistics latent variables from latin present participle of lateo lie hidden citation needed are variables that can only be inferred indirectly through a mathematical model from other observable variables that can be directly observed or measured such latent variable models are used in many disciplines including engineering medicine ecology physics machine learning artificial intelligence natural language processing bioinformatics chemometrics demography economics management political science psychology and the social sciences
+
+latent variables may correspond to aspects of physical reality these could in principle be measured but may not be for practical reasons among the earliest expressions of this idea is francis bacon s polemic the novum organum itself a challenge to the more traditional logic expressed in aristotle s organon
+
+but the latent process of which we speak is far from being obvious to men s minds beset as they now are for we mean not the measures symptoms or degrees of any process which can be exhibited in the bodies themselves but simply a continued process which for the most part escapes the observation of the senses
+francis bacon novum organum
+in this situation the term hidden variables is commonly used reflecting the fact that the variables are meaningful but not observable other latent variables correspond to abstract concepts like categories behavioral or mental states or data structures the terms hypothetical variables or hypothetical constructs may be used in these situations
+
+the use of latent variables can serve to reduce the dimensionality of data many observable variables can be aggregated in a model to represent an underlying concept making it easier to understand the data in this sense they serve a function similar to that of scientific theories at the same time latent variables link observable sub symbolic data in the real world to symbolic data in the modeled world
+
+latent variables as created by factor analytic methods generally represent shared variance or the degree to which variables move together variables that have no correlation cannot result in a latent construct based on the common factor model
+
+examples of latent variables from the field of economics include quality of life business confidence morale happiness and conservatism these are all variables which cannot be measured directly however by linking these latent variables to other observable variables the values of the latent variables can be inferred from measurements of the observable variables quality of life is a latent variable which cannot be measured directly so observable variables are used to infer quality of life observable variables to measure quality of life include wealth employment environment physical and mental health education recreation and leisure time and social belonging
+
+latent variable methodology is used in many branches of medicine a class of problems that naturally lend themselves to latent variables approaches are longitudinal studies where the time scale e g age of participant or time since study baseline is not synchronized with the trait being studied for such studies an unobserved time scale that is synchronized with the trait being studied can be modeled as a transformation of the observed time scale using latent variables examples of this include disease progression modeling and modeling of growth see box
+
+there exists a range of different model classes and methodology that make use of latent variables and allow inference in the presence of latent variables models include
+
+analysis and inference methods include
+
+bayesian statistics is often used for inferring latent variables

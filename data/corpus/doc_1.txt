@@ -1,0 +1,48 @@
+
+
+data science is an interdisciplinary academic field that uses statistics scientific computing scientific methods processing scientific visualization algorithms and systems to extract or extrapolate knowledge from potentially noisy structured or unstructured data
+
+data science plays a critical role in modern decision making by enabling organizations to extract actionable insights from large and complex datasets
+data science also integrates domain knowledge from the underlying application domain e g natural sciences information technology and medicine data science is multifaceted and can be described as a science a research paradigm a research method a discipline a workflow and a profession
+
+data science is a concept to unify statistics data analysis informatics and their related methods to understand and analyze actual phenomena with data it uses techniques and theories drawn from many fields within the context of mathematics statistics computer science information science and domain knowledge however data science is distinct from computer science and information science turing award winner jim gray imagined data science as a fourth paradigm of science empirical theoretical computational and now data driven and asserted that everything about science is changing because of the impact of information technology and the data deluge
+
+data science is often described as a multidisciplinary and rapidly evolving field because it draws on techniques from diverse areas such as computer science statistics information science and other subject specific disciplines some researchers argue that the combination of the different fields resembles how information science was decades ago mayernik 2023 these similarities help clarify how data science gradually became its own field of study
+
+a data scientist is a professional who creates programming code and combines it with statistical knowledge to summarize data
+
+data science is an interdisciplinary field focused on extracting knowledge from typically large data sets and applying the knowledge from that data to solve problems in other application domains the field encompasses preparing data for analysis formulating data science problems analyzing data and summarizing these findings as such it incorporates skills from computer science mathematics data visualization graphic design communication and business
+
+vasant dhar writes that statistics emphasizes quantitative data and description in contrast data science deals with quantitative and qualitative data e g from images text sensors transactions customer information etc and emphasizes prediction and action andrew gelman of columbia university has described statistics as a non essential part of data science stanford professor david donoho writes that data science is not distinguished from statistics by the size of datasets or use of computing and that many graduate programs misleadingly advertise their analytics and statistics training as the essence of a data science program he describes data science as an applied field growing out of traditional statistics
+
+in 1962 john tukey described a field he called data analysis which resembles modern data science in 1985 in a lecture given to the chinese academy of sciences in beijing c f jeff wu used the term data science for the first time as an alternative name for statistics later attendees at a 1992 statistics symposium at the university of montpellier ii acknowledged the emergence of a new discipline focused on data of various origins and forms combining established concepts and principles of statistics and data analysis with computing
+
+the term data science has been traced back to 1974 when peter naur proposed it as an alternative name to computer science in his 1974 book concise survey of computer methods peter naur proposed using the term data science rather than computer science to reflect the growing emphasis on data driven methods in 1996 the international federation of classification societies became the first conference to specifically feature data science as a topic however the definition was still in flux after the 1985 lecture at the chinese academy of sciences in beijing in 1997 c f jeff wu again suggested that statistics should be renamed data science he reasoned that a new name would help statistics shed inaccurate stereotypes such as being synonymous with accounting or limited to describing data in 1998 hayashi chikio argued for data science as a new interdisciplinary concept with three aspects data design collection and analysis
+
+in 2012 technologists thomas h davenport and dj patil declared data scientist the sexiest job of the 21st century a catchphrase that was picked up even by major city newspapers like the new york times and the boston globe a decade later they reaffirmed it stating that the job is more in demand than ever with employers
+
+the modern conception of data science as an independent discipline is sometimes attributed to william s cleveland in 2014 the american statistical association s section on statistical learning and data mining changed its name to the section on statistical learning and data science reflecting the ascendant popularity of data science
+
+over the last few years many colleges have begun to create more structured undergraduate programs in data science according to a report by the national academies strong programs typically include training in statistics computing ethics and communication as well as hands on work in a specific field national academies of sciences engineering and medicine 2018 as schools try to prepare students for jobs that use data these practices become more common
+
+the professional title of data scientist has been attributed to dj patil and jeff hammerbacher in 2008 though it was used by the national science board in their 2005 report long lived digital data collections enabling research and education in the 21st century it referred broadly to any key role in managing a digital data collection
+
+in data science data analysis is the process of inspecting cleaning transforming and modelling data to discover useful information draw conclusions and support decision making it includes exploratory data analysis eda which uses graphics and descriptive statistics to explore patterns and generate hypotheses and confirmatory data analysis which applies statistical inference to test hypotheses and quantify uncertainty
+
+typical activities comprise
+
+lifecycle frameworks such as crisp dm describe these steps from business understanding through deployment and monitoring
+
+data science involves working with larger datasets that often require advanced computational and statistical methods to analyze data scientists often work with unstructured data such as text or images and use machine learning algorithms to build predictive models data science often uses statistical analysis data preprocessing and supervised learning
+
+recent studies indicate that ai is moving towards data centric approaches focusing on the quality of datasets rather than just improving ai models this trend focuses on improving system performance by cleaning refining and labeling data bhatt et al 2024 as ai systems grow larger the data centric view has become increasingly important
+
+cloud computing can offer access to large amounts of computational power and storage in big data where volumes of information are continually generated and processed these platforms can be used to handle complex and resource intensive analytical tasks
+
+some distributed computing frameworks are designed to handle big data workloads these frameworks can enable data scientists to process and analyze large datasets in parallel which can reduce processing times
+
+data science involves collecting processing and analyzing data which often includes personal and sensitive information ethical concerns include potential privacy violations bias perpetuation and negative societal impacts
+
+ethics education in data science has grown to encompass both technical principles and more expansive philosophical questions research indicates that data science ethics courses are increasingly integrating human centric topics including fairness accountability and responsible decision making thereby connecting them to enduring discussions in moral and political philosophy colando hardin 2024 the goal of this method is to help students understand how data driven technologies affect society
+
+machine learning models can amplify existing biases present in training data leading to discriminatory or unfair outcomes another area of data science that is growing is the push for better ways to cite data citing datasets makes it easier for other researchers to understand what data was used and for studies to be repeated lafia et al 2023 these practices give the people who collect and manage data the credit they deserve which is becoming more important in modern research

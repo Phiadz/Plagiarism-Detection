@@ -1,0 +1,63 @@
+microsoft translator or bing translator is a multilingual machine translation cloud service provided by microsoft microsoft translator is a part of microsoft cognitive services and integrated across multiple consumer developer and enterprise products including bing microsoft office sharepoint microsoft edge microsoft lync yammer skype translator visual studio and microsoft translator apps for windows windows phone iphone and apple watch and android phone and android wear
+
+microsoft translator also offers text and speech translation through cloud services for businesses service for text translation via the translator text api ranges from a free tier supporting two million characters per month to paid tiers supporting billions of characters per month speech translation via microsoft speech services is offered based on the time of the audio stream
+
+the service supports text translation between many languages and language varieties it also supports several speech translation systems that currently power the microsoft translator live conversation feature skype translator and skype for windows desktop and the microsoft translator apps for ios and android
+
+the first version of microsoft s machine translation system was developed between 1999 and 2000 within microsoft research this system was based on semantic predicate argument structures known as logical forms lf and was spun from the grammar correction feature developed for microsoft word this system was eventually used to translate the entire microsoft knowledge base into spanish french german and japanese
+
+microsoft s approach to machine translation like most modern machine translation systems is data driven rather than relying on writing explicit rules to translate natural language algorithms are trained to understand and interpret translated parallel texts allowing them to automatically learn how to translate new natural language text microsoft s experience with the lf system led directly to a treelet translation system that simplified the lf to dependency trees and eventually to an order template model significantly improving in speed and enabling the incorporation of new target languages citation needed
+
+the consumer facing translation site known as bing translator previously known as windows live translator was launched in 2007 and provides free text and website translations on the web text is translated directly within the bing translator webpage while websites are translated through the bilingual viewer tools citation needed
+
+in 2011 the service was extended to include numerous microsoft translator products through a cloud based application programming interface which supports products available to both consumer and enterprise users an additional speech translation capability was introduced in march 2016
+
+in may 2018 an update to the api was introduced this new version offered neural machine translation as the default method of translating in addition to translation the new version features transliteration and a bilingual dictionary to look up words to find alternative translations and view examples in sentences
+
+speech translation was integrated into microsoft speech services in september 2018 providing end to end speech speech to text and text to speech translation citation needed
+
+microsoft translator uses machine translation to create instantaneous translations from one natural language to another this system is based on four distinct areas of computer learning research seen below
+
+the quality of microsoft translator s machine translation outputs are evaluated using a method called the bleu score
+
+bleu bilingual evaluation understudy is an algorithm for evaluating the quality of text which has been machine translated from one natural language to another quality is considered to be the correspondence between a machine s output and that of a human bleu was one of the first metrics to achieve a high correlation with human judgments of quality and remains one of the most popular automated and inexpensive metrics
+
+because machine translation is based on statistical algorithms rather than human translators the automatic translations it produces are not always entirely accurate microsoft translator has introduced various feedback features such as the collaborative translation framework into its products to allow users to suggest alternative translations these alternative translations are then integrated into the microsoft translator algorithms to improve future translations
+
+in november 2016 microsoft translator introduced translation using deep neural networks in nine of its highest traffic languages including all of its speech languages and japanese neural networks provide better translation than industry standard statistical machine learning
+
+microsoft translator is a cloud based api that is integrated into numerous microsoft products and services the translator api can be used on its own and can be customized for use in a pre publishing or post publishing environment the api which is available through subscription is free for lower translation volumes and is charged according to a tiered payment system for volumes exceeding two million characters per month the remaining core products are available for free
+
+the microsoft translator is a cloud based automatic translation service that can be used to build applications websites and tools requiring multi language support
+
+custom translator is a feature of the microsoft translator services that allows enterprises app developers and language service providers to build neural translation systems that understand the terminology used in their own business and industry the customized translations can then be delivered into existing applications workflows and websites using a normal call to the microsoft translator api custom translator can be used when translating text with the microsoft translator text api and when translating speech with microsoft speech services
+
+a personal universal translator that enables up to 500 people to have live multi device multi language in person translated conversations this feature is currently free and available in the microsoft translator apps android ios or windows and from the microsoft translator website
+
+the microsoft translator hub allows enterprises and language service providers to build their own translation systems that understand business and industry specific terminology the hub can also be used in conjunction with the ctf allowing administrators to approve ctf results and add them directly to the hub the microsoft translator hub is only available for statistical machine translation and cannot be used with the newest version of the microsoft translator api
+
+the hub has also been used for language preservation allowing communities to create their own language translation systems for language and cultural preservation the hub has been used to create translation systems for languages such as hmong mayan nepali and welsh
+
+the multilingual app toolkit mat is an integrated visual studio tool which allows developers to streamline localization workflows of their windows windows phone and desktop apps mat improves localization of file management translation support and editing tools
+
+bing microsoft translator previously live search translator windows live translator and bing translator is a user facing translation portal provided by microsoft as part of its bing services to translate texts or entire web pages into different languages all translation pairs are powered by the microsoft translator a neural machine translation platform and web service developed by microsoft research as its backend translation software two transliteration pairs between simplified chinese and traditional chinese are provided by microsoft s windows international team
+
+bing translator can translate phrases entered by the user or acquire a link to a web page and translate it entirely when translating an entire web page or when the user selects translate this page in bing search results the bilingual viewer is shown which allows users to browse the original web page text and translation in parallel supported by synchronized highlights scrolling and navigation four bilingual viewer layouts are available
+
+bing translator integrates with several other microsoft products the following is a table of products into which bing translator could be integrated
+
+through its core product offerings microsoft translator supports the translation features of many microsoft products at the consumer and enterprise levels these products fall broadly into three categories communication products microsoft office and apps
+
+
+
+the collaborative translation framework ctf is an extension of the microsoft translator api that allows post publishing improvement of translated text by using the ctf readers have the ability to suggest alternative translations to those provided by the api or vote on previously offered alternatives this information is then delivered to the api to improve future translations
+
+the translator web widget is a translation tool that can be added to web pages by pasting a predefined snippet of javascript code into the page the web widget is offered for free by microsoft and supports both pre publishing customized translations using the translator hub and post publishing improvements using the collaborative translation framework
+
+as of april 2026 update microsoft translator supports 179 languages and language varieties the list of supported languages is available at the microsoft translator website and can also be retrieved programmatically through the cloud services
+
+as of april 2026 microsoft translate supports 76 languages for the text to speech tool
+
+microsoft translator has engaged with community partners to increase the number of languages and to improve overall language translation quality below is a list of community partners that microsoft translator has teamed with
+
+additionally microsoft has teamed with the klingon language institute which promotes the constructed language klingon which is used within the fictional star trek universe produced by paramount and cbs studios klingon has been supported by microsoft translator since may 2013

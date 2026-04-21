@@ -1,0 +1,15 @@
+knowledge acquisition is the process used to define the rules and ontologies required for a knowledge based system the phrase was first used in conjunction with expert systems to describe the initial tasks associated with developing an expert system namely finding and interviewing domain experts and capturing their knowledge via rules objects and frame based ontologies
+
+expert systems were one of the first successful applications of artificial intelligence technology to real world business problems researchers at stanford and other ai laboratories worked with doctors and other highly skilled experts to develop systems that could automate complex tasks such as medical diagnosis until this point computers had mostly been used to automate highly data intensive tasks but not for complex reasoning technologies such as inference engines allowed developers for the first time to tackle more complex problems
+
+as expert systems scaled up from demonstration prototypes to industrial strength applications it was soon realized that the acquisition of domain expert knowledge was one of if not the most critical task in the knowledge engineering process this knowledge acquisition process became an intense area of research on its own one of the earlier works on the topic used batesonian theories of learning to guide the process
+
+one approach to knowledge acquisition investigated was to use natural language parsing and generation to facilitate knowledge acquisition natural language parsing could be performed on manuals and other expert documents and an initial first pass at the rules and objects could be developed automatically text generation was also extremely useful in generating explanations for system behavior this greatly facilitated the development and maintenance of expert systems
+
+a more recent approach to knowledge acquisition is a re use based approach knowledge can be developed in ontologies that conform to standards such as the web ontology language owl in this way knowledge can be standardized and shared across a broad community of knowledge workers one example domain where this approach has been successful is bioinformatics
+
+knowledge acquisition has been applied to many fields beyond expert systems including natural language processing decision support systems training simulations and intelligent tutoring systems it also plays an essential role in building knowledge based agents and cognitive architectures
+
+a variety of techniques exist for knowledge acquisition ranging from manual to automatic methods manual approaches include structured interviews protocol analysis card sorting and repertory grid analysis automated approaches include machine learning data mining and natural language processing
+
+8 informatika web id akuisisi pengetahuan knowledge acquisition sistem pakar

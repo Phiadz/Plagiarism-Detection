@@ -1,0 +1,41 @@
+
+
+experian plc is a multinational data broker and consumer credit reporting company headquartered in dublin ireland it is listed on the london stock exchange and is a constituent of the ftse 100 index experian is a partner in usps address validation it is one of the big three alongside transunion and equifax
+
+in addition to its credit services experian also sells decision analytic and marketing assistance to businesses including individual fingerprinting and targeting like all credit reporting agencies the company is required by u s law to provide consumers with one free credit report every year
+
+the company has its origins in credit data corporation a business which was acquired by trw inc in 1968 and subsequently renamed trw information services
+
+in november 1996 trw sold the unit as experian to bain capital and thomas h lee partners just one month later the two firms sold experian to the great universal stores limited in manchester england a retail conglomerate with millions of customers paying for goods on credit later renamed gus gus merged its own credit information business ccn which at the time was the largest credit service company in the uk into experian
+
+in october 2006 experian was demerged from gus and listed on the london stock exchange
+
+in august 2005 experian accepted a settlement with the federal trade commission ftc over charges that experian had violated a previous settlement with the ftc the ftc alleged that ads for the free credit report did not adequately disclose that experian customers would automatically be enrolled in experian s 79 95 credit monitoring program note 1
+
+in january 2008 experian announced that it would cut more than 200 jobs at its nottingham office
+
+experian shut down its canadian operations on 14 april 2009
+
+in march 2017 the u s consumer financial protection bureau fined experian 3 million for providing invalid credit scores to consumers
+
+in october 2017 experian acquired clarity services a credit bureau specialising in alternative consumer data
+
+in may 2024 experian acquired a strategic minority in reward a uk based customer engagement and commerce media technology company
+
+in october 2024 experian agreed to acquire brazilian digital fraud prevention provider clearsale for 350 million
+
+in october 2025 experian shut down its dutch operations after receiving a 2 7 million fine from the dutch data protection authority for illegally processing credit reference data on dutch consumers
+
+in the united states like the other major credit reporting bureaus experian is chiefly regulated by the fair credit reporting act fcra the fair and accurate credit transactions act of 2003 signed into law in 2003 amended the fcra to require the credit reporting companies to provide consumers with one free copy of their credit report per 12 month period like its main competitors transunion and equifax experian markets credit reports directly to consumers experian heavily markets its for profit credit reporting service freecreditreport com and all three agencies have been criticised and even sued for selling credit reports that can be obtained at no cost
+
+its market segmentation tool mosaic is used by political parties to identify groups of voters in the british version there are 15 main groups broken down into 89 hyperspecific categories from corporate chieftains to golden empty nesters which can be taken down to the level of individual postcodes it was first used by the labour party but then taken up by the conservatives in the 2015 general election campaign
+
+in 2013 a vietnamese national hieu minh ngo was charged by the u s department of justice with attempting to sell personally identifiable information on hundreds of thousands of u s residents this information had been allegedly purchased from experian subsidiary and data aggregator court ventures however ngo testified under oath that the information he had sold to identity thieves had actually been acquired from another hacker based in russia and not experian or court ventures ngo then resold the information he acquired from the russian hacker through the identity fraud enabling websites superget info and findget me the information offered for anonymous sale on these websites included individual s name address social security number date of birth place of work duration of work state driver s licence number mother s maiden name bank account number s bank routing number s email account s and other account passwords
+
+on 1 october 2015 experian announced that they had discovered a data breach existing between 1 september 2013 and 16 september 2015 as many as 15 million people who used the company s services among them customers of american cellular company t mobile who had applied for experian credit checks may have had their private information exposed
+
+in 2020 it was revealed that experian had suffered a further data breach on this occasion in south africa initially experian claimed that the incident had been contained but subsequently this was shown to be untrue data on 24 million south africans was leaked as well as on nearly 800 000 businesses of these 24 838 had financial details leaked
+
+in january 2021 a new leak was revealed in brazil with the source being linked to experian s brazilian subsidiary serasa experian the breach resulted in data of 220 million citizens including some already dead being sold in the web this is probably the most severe data breach in history as it includes names social security numbers income tax declaration forms addresses and other private information on nearly all brazilian citizens experian claims there s no evidence that its systems have been compromised but this lack of evidence doesn t explain it being the only probable source for the data according to a brazilian consumer rights foundation the company has not been handling the breach appropriately
+
+in late 2022 a flaw was revealed in experian s website which allowed access to individual credit reports without full authentication simply by changing the last part of the url being requested from acr oow to acr report the flaw was fixed in early 2023 but it was not known how much data had been stolen through this security weakness

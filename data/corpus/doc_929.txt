@@ -1,0 +1,18 @@
+shun ichi amari 甘利 俊一 amari shun ichi is a japanese engineer and neuroscientist born in 1936 in tokyo japan he was a pioneer in information geometry and artificial intelligence
+
+he majored in mathematical engineering in 1958 from the university of tokyo then graduated in 1963 from the graduate school of the university of tokyo
+
+his master of engineering in 1960 was entitled topological and information theoretical foundation of diakoptics and codiakoptics
+his doctor of engineering in 1963 was entitled diakoptics of information spaces
+
+shun ichi amari received several awards and is a visiting professor of various universities
+
+he is the author of more than 200 peer reviewed articles he is known for developing information geometry he also independently invented the hopfield network in 1972 a form of self organized recurrent neural network
+
+amari made significant advances in artificial intelligence in 1967 he proposed the first deep learning artificial neural network ann using the stochastic gradient descent sgd algorithm the same year amari and his student h saito reported the first multilayer perceptron mlp neural network trained by sgd the concept of backpropagation was also anticipated by amari in the 1960s
+
+in 1972 amari and kaoru nakano published the first papers on deep learning recurrent neural networks rnn the same year amari invented the amari hopfield network the amari network the earliest deep learning recurrent neural network rnn was first published by amari in 1972 it was rediscovered by john hopfield in 1982 as the hopfield network
+
+he is currently holding a position of the riken lab and is vice president of brain science institute director of brain style information systems group and team leader of mathematical neuroscience laboratory
+
+he was a winner of the ieee emanuel r piore award 1997

@@ -1,0 +1,98 @@
+
+
+the international organization for standardization iso ˈaɪsoʊ eye soh french organisation internationale de normalisation russian международная организация по стандартизации romanized mezhdunarodnaya organizatsiya po standartizatsii is an independent non governmental international standard development organization composed of representatives from the national standards organizations of member countries
+
+membership requirements are given in article 3 of the iso statutes
+
+iso was founded on 23 february 1947 and it has published over 25 000 international standards as of july 2024 update covering almost all aspects of technology and manufacturing it has over 800 technical committees tcs and subcommittees scs to take care of standards development
+
+the organization develops and publishes international standards in technical and nontechnical fields including everything from manufactured products and technology to food safety transport it agriculture and healthcare more specialized topics like electrical and electronic engineering are instead handled by the international electrotechnical commission it is headquartered in vernier switzerland the three official languages of iso are english french and russian
+
+the international organization for standardization in french is organisation internationale de normalisation and in russian международная организация по стандартизации meždunarodnaâ organizaciâ po standartizacii
+
+
+a common misconception is that iso is an abbreviation for international standardization organization or a similar title in another language in fact the letters do not officially represent an acronym or initialism the organization provides this explanation of the name
+because international organization for standardization would have different acronyms in different languages ios in english oin in french our founders decided to give it the short form iso iso is derived from the greek word isos ίσος meaning equal whatever the country whatever the language the short form of our name is always iso
+during the founding meetings of the new organization however the greek word explanation was not invoked so this meaning may be a false etymology
+
+both the name iso and the iso logo are registered trademarks and their use is restricted
+
+the organization that is known today as iso began in 1926 as the international federation of the national standardizing associations isa which primarily focused on mechanical engineering the isa was suspended in 1942 during world war ii but after the war the isa was approached by the recently formed united nations standards coordinating committee unscc with a proposal to form a new global standards body
+
+in october 1946 isa and unscc delegates from 25 countries met in london and agreed to join forces to create the international organization for standardization the organization officially began operations on 23 february 1947
+
+iso standards were originally known as iso recommendations iso r e g iso 1 was issued in 1951 as iso r 1
+
+iso is a voluntary organization whose members are recognized authorities on standards each one representing one country members meet annually at a general assembly to discuss the strategic objectives of iso the organization is coordinated by a central secretariat based in vernier canton of geneva
+
+a council with a rotating membership of 20 member bodies provides guidance and governance including setting the annual budget of the central secretariat
+
+the technical management board is responsible for more than 250 technical committees who develop the iso standards
+
+iso has a joint technical committee jtc with the international electrotechnical commission iec to develop standards relating to information technology it known as jtc 1 and entitled information technology it was created in 1987 and its mission is to develop worldwide information and communication technology ict standards for business and consumer applications
+
+there was previously also a jtc 2 that was created in 2009 for a joint project to establish common terminology for standardization in the field of energy efficiency and renewable energy sources it was later disbanded
+
+as of 2026 update there are 175 national members representing iso in their country with each country having only one member
+
+iso has three membership categories
+
+participating members are called p members as opposed to observing members who are called o members
+
+iso is funded by a combination of
+
+international standards are the main products of iso it also publishes technical reports technical specifications publicly available specifications technical corrigenda corrections and guides
+
+international standards
+
+technical reports
+
+for example
+
+technical and publicly available specifications
+
+for example
+
+technical corrigenda
+
+iso guides
+
+for example
+
+iso documents have strict copyright restrictions and iso charges for most copies as of 2020 update the typical cost of a copy of an iso standard is about us 120 or more and electronic copies typically have a single user license so they cannot be shared among groups of people some standards by iso and its official u s representative and via the u s national committee the international electrotechnical commission are made freely available
+
+a standard published by iso iec is the last stage of a long process that commonly starts with the proposal of new work within a committee some abbreviations used for marking a standard with its status are
+
+abbreviations used for amendments are
+
+other abbreviations are
+
+international standards are developed by iso technical committees tc and subcommittees sc by a process with six steps
+
+the tc sc may set up working groups wg of experts for the preparation of a working drafts subcommittees may have several working groups which may have several sub groups sg
+
+it is possible to omit certain stages if there is a document with a certain degree of maturity at the start of a standardization project for example a standard developed by another organization iso iec directives also allow the so called fast track procedure in this procedure a document is submitted directly for approval as a draft international standard dis to the iso member bodies or as a final draft international standard fdis if the document was developed by an international standardizing body recognized by the iso council
+
+the first step a proposal of work new proposal is approved at the relevant subcommittee or technical committee e g sc 29 and jtc 1 respectively in the case of mpeg the moving picture experts group a working group wg of experts is typically set up by the subcommittee for the preparation of a working draft e g mpeg is a collection of seven working groups as of 2023 when the scope of a new work is sufficiently clarified some of the working groups may make an open request for proposals known as a call for proposals the first document that is produced for example for audio and video coding standards is called a verification model vm previously also called a simulation and test model when a sufficient confidence in the stability of the standard under development is reached a working draft wd is produced this is in the form of a standard but is kept internal to working group for revision when a working draft is sufficiently mature and the subcommittee is satisfied that it has developed an appropriate technical document for the problem being addressed it becomes a committee draft cd and is sent to the p member national bodies of the sc for the collection of formal comments revisions may be made in response to the comments and successive committee drafts may be produced and circulated until consensus is reached to proceed to the next stage called the enquiry stage
+
+after a consensus to proceed is established the subcommittee will produce a draft international standard dis and the text is submitted to national bodies for voting and comment within a period of five months a document in the dis stage is available to the public for purchase and may be referred to with its iso dis reference number
+
+following consideration of any comments and revision of the document the draft is then approved for submission as a final draft international standard fdis if a two thirds majority of the p members of the tc sc are in favour and if not more than one quarter of the total number of votes cast are negative iso will then hold a ballot among the national bodies where no technical changes are allowed a yes no final approval ballot within a period of two months it is approved as an international standard is if a two thirds majority of the p members of the tc sc is in favour and not more than one quarter of the total number of votes cast are negative after approval the document is published by the iso central secretariat with only minor editorial changes introduced in the publication process before the publication as an international standard
+
+except for a relatively small number of standards iso standards are not available free of charge but rather for a purchase fee which has been seen by some as unaffordable for small open source projects
+
+the process of developing standards within iso was criticized around 2007 as being too difficult for timely completion of large and complex standards and some members were failing to respond to ballots causing problems in completing the necessary steps within the prescribed time limits in some cases alternative processes have been used to develop standards outside of iso and then submit them for its approval a more rapid fast track approval procedure was used in iso iec jtc 1 for the standardization of office open xml ooxml iso iec 29500 approved in april 2008 and another rapid alternative publicly available specification pas process had been used by oasis to obtain approval of opendocument as an iso iec standard iso iec 26300 approved in may 2006
+
+as was suggested at the time by martin bryan the outgoing convenor chairman of working group 1 wg1 of iso iec jtc 1 sc 34 the rules of iso were eventually tightened so that participating members that fail to respond to votes are demoted to observer status
+
+the computer security entrepreneur and ubuntu founder mark shuttleworth was quoted in a zdnet blog article in 2008 about the process of standardization of ooxml as saying i think it de values the confidence people have in the standards setting process and alleged that iso did not carry out its responsibility he also said that microsoft had intensely lobbied many countries that traditionally had not participated in iso and stacked technical committees with microsoft employees solution providers and resellers sympathetic to office open xml
+
+when you have a process built on trust and when that trust is abused iso should halt the process iso is an engineering old boys club and these things are boring so you have to have a lot of passion then suddenly you have an investment of a lot of money and lobbying and you get artificial results the process is not set up to deal with intensive corporate lobbying and so you end up with something being a standard that is not clear
+
+international workshop agreements iwas are documents that establish a collaboration agreement that allow key industry players to negotiate in an open workshop environment outside of iso in a way that may eventually lead to development of an iso standard
+
+on occasion the fact that many of the iso created standards are ubiquitous has led to common use of iso to describe the product that conforms to a standard some examples of this are
+
+iso presents several awards to acknowledge the valuable contributions made in the realm of international standardization
+
+some of the 834 technical committees of the international organization for standardization iso include

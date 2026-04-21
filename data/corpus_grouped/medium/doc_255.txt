@@ -1,0 +1,29 @@
+
+
+tay was a chatbot that was originally released by microsoft corporation as a twitter bot on march 23 2016 it caused subsequent controversy when the bot began to post inflammatory and offensive tweets through its twitter account causing microsoft to shut down the service only 16 hours after its launch according to microsoft this was caused by trolls who attacked the service as the bot made replies based on its interactions with people on twitter it was replaced with zo
+
+
+
+the bot was created by microsoft s technology and research and bing divisions and named tay as an acronym for thinking about you although microsoft initially released few details about the bot sources mentioned that it was similar to or based on xiaoice a microsoft project in china ars technica reported that since late 2014 xiaoice had had more than 40 million conversations apparently without major incident tay was designed to mimic the language patterns of a 19 year old american girl and to learn from interacting with human users of twitter
+
+tay was released on twitter on march 23 2016 under the name taytweets and handle tayandyou it was presented as the ai with zero chill tay started replying to other twitter users and was also able to caption photos provided to it into a form of internet memes ars technica reported tay experiencing topic blacklisting interactions with tay regarding certain hot topics such as eric garner killed by new york police in 2014 generate safe canned answers
+
+some twitter users began tweeting politically incorrect phrases teaching it inflammatory messages revolving around common themes on the internet such as redpilling and gamergate as a result the robot began releasing racist and sexist messages in response to other twitter users artificial intelligence researcher roman yampolskiy commented that tay s misbehavior was understandable because it was mimicking the deliberately offensive behavior of other twitter users and microsoft had not given the bot an understanding of inappropriate behavior he compared the issue to ibm s watson which began to use profanity after reading entries from the website urban dictionary many of tay s inflammatory tweets were a simple exploitation of tay s repeat after me capability it is not publicly known whether this capability was a built in feature or whether it was a learned response or was otherwise an example of complex behavior however not all of the inflammatory responses involved the repeat after me capability for example when asked if the holocaust had happened tay answered it was made up
+
+soon microsoft began deleting tay s inflammatory tweets abby ohlheiser of the washington post theorized that tay s research team including editorial staff had started to influence or edit tay s tweets at some point that day pointing to examples of almost identical replies by tay asserting that gamer gate sux all genders are equal and should be treated fairly from the same evidence gizmodo concurred that tay seems hard wired to reject gamer gate a justicefortay campaign protested the alleged editing of tay s tweets
+
+within 16 hours of its release and after tay had tweeted more than 96 000 times microsoft suspended the twitter account for adjustments saying that it suffered from a coordinated attack by a subset of people that exploited a vulnerability in tay
+
+madhumita murgia of the telegraph called tay a public relations disaster and suggested that microsoft s strategy would be to label the debacle a well meaning experiment gone wrong and ignite a debate about the hatefulness of twitter users however murgia described the bigger issue as tay being artificial intelligence at its very worst and it s only the beginning
+
+on march 25 microsoft confirmed that tay had been taken offline microsoft released an apology on its official blog for the controversial tweets posted by tay microsoft was deeply sorry for the unintended offensive and hurtful tweets from tay and would look to bring tay back only when we are confident we can better anticipate malicious intent that conflicts with our principles and values
+
+on march 30 2016 microsoft accidentally re released the bot on twitter while testing it able to tweet again tay released some drug related tweets including kush i m smoking kush infront the police and puff puff pass however the account soon became stuck in a repetitive loop of tweeting you are too fast please take a rest several times a second because these tweets mentioned its own username in the process they appeared in the feeds of 200 000 twitter followers causing annoyance to users the bot was quickly taken offline again in addition to tay s twitter account being made private so new followers must be accepted before they can interact with tay in response microsoft said tay was inadvertently put online during testing
+
+a few hours after the incident microsoft software developers announced a vision of conversation as a platform using various bots and programs perhaps motivated by the reputation damage done by tay microsoft has stated that they intend to re release tay once it can make the bot safe but has not made any public efforts to do so
+
+in december 2016 microsoft released tay s successor a chatbot named zo satya nadella the ceo of microsoft said that tay has had a great influence on how microsoft is approaching ai and has taught the company the importance of taking accountability
+
+in july 2019 microsoft cybersecurity field cto diana kelley spoke about how the company followed up on tay s failings learning from tay was a really important part of actually expanding that team s knowledge base because now they re also getting their own diversity through learning
+
+gab an alt tech social media platform has launched a number of chatbots one of which is named tay and uses the same avatar as the original

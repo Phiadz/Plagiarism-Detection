@@ -1,0 +1,657 @@
+the event calculus is a logical theory for representing and reasoning about events and about the way in which they change the state of some real or artificial world it deals both with action events which are performed by agents and with external events which are outside the control of any agent
+
+the event calculus represents the state of the world at any time by the set of all the facts called fluents that hold at the time events initiate and terminate fluents
+
+a fluent holds at a time
+if the fluent is initiated by an event that happens at an earlier time
+and the fluent is not terminated by any event that happens in the meantime citation needed
+
+the event calculus differs from most other approaches for reasoning about change by reifying time associating events with the time at which they happen and associating fluents with the times at which they hold
+
+the original version of the event calculus introduced by robert kowalski and marek sergot in 1986 was formulated as a logic program and developed for representing narratives and database updates kave eshghi showed how to use the event calculus for planning by using abduction to generate hypothetical actions to achieve a desired state of affairs
+
+it was extended by murray shanahan and rob miller in the 1990s and reformulated in first order logic with circumscription
+these and later extensions have been used to formalize non deterministic actions concurrent actions actions with delayed effects gradual changes actions with duration continuous change and non inertial fluents
+
+van lambalgen and hamm showed how a formulation of the event calculus as a constraint logic program can be used to give an algorithmic semantics to tense and aspect in natural language
+
+in the event calculus fluents are reified this means that fluents are represented by terms for example
+
+
+
+
+
+h
+o
+l
+d
+s
+a
+t
+
+
+
+o
+n
+
+g
+r
+e
+e
+n
+_
+b
+l
+o
+c
+k
+
+t
+a
+b
+l
+e
+
+
+1
+
+
+
+displaystyle mathit holdsat on green _block table 1
+
+expresses that the
+
+
+
+
+
+g
+r
+e
+e
+n
+_
+b
+l
+o
+c
+k
+
+
+
+
+displaystyle mathit green _block
+
+is on the
+
+
+
+
+
+t
+a
+b
+l
+e
+
+
+
+
+displaystyle mathit table
+
+at time
+
+
+
+1
+
+
+displaystyle 1
+
+here
+
+
+
+
+
+h
+o
+l
+d
+s
+a
+t
+
+
+
+
+displaystyle mathit holdsat
+
+is a predicate while
+
+
+
+
+
+o
+n
+
+g
+r
+e
+e
+n
+_
+b
+l
+o
+c
+k
+
+t
+a
+b
+l
+e
+
+
+
+
+
+displaystyle mathit on green _block table
+
+is a term in general the atomic formula
+
+events are also reified and represented by terms for example
+
+
+
+
+
+h
+a
+p
+p
+e
+n
+s
+a
+t
+
+
+
+m
+o
+v
+e
+
+g
+r
+e
+e
+n
+_
+b
+l
+o
+c
+k
+
+r
+e
+d
+_
+b
+l
+o
+c
+k
+
+
+3
+
+
+
+displaystyle mathit happensat move green _block red _block 3
+
+expresses that the
+
+
+
+
+
+g
+r
+e
+e
+n
+_
+b
+l
+o
+c
+k
+
+
+
+
+displaystyle mathit green _block
+
+is moved onto the
+
+
+
+
+
+r
+e
+d
+_
+b
+l
+o
+c
+k
+
+
+
+
+
+displaystyle mathit red _block
+
+at time
+
+
+
+3
+
+
+displaystyle 3
+
+in general
+
+the relationships between events and the fluents that they initiate and terminate are also represented by atomic formulae
+
+the event calculus was developed in part as an alternative to the situation calculus as a solution to the frame problem of representing and reasoning about the way in which actions and other events change the state of some world
+
+there are many variants of the event calculus but the core axiom of one of the simplest and most useful variants can be expressed as a single domain independent axiom
+
+the axiom states that
+
+the event calculus solves the frame problem by interpreting this axiom in a non monotonic logic such as first order logic with circumscription or as a logic program in horn clause logic with negation as failure in fact circumscription is one of the several semantics that can be given to negation as failure and it is closely related to the completion semantics for logic programs which interprets if as if and only if
+
+the core event calculus axiom defines the
+
+
+
+h
+o
+l
+d
+s
+a
+t
+
+
+displaystyle holdsat
+
+predicate in terms of the
+
+
+
+h
+a
+p
+p
+e
+n
+s
+a
+t
+
+
+displaystyle happensat
+
+
+
+
+
+i
+n
+i
+t
+i
+a
+t
+e
+s
+
+
+displaystyle initiates
+
+
+
+
+
+t
+e
+r
+m
+i
+n
+a
+t
+e
+s
+
+
+displaystyle terminates
+
+
+
+
+
+
+
+
+displaystyle
+
+and
+
+
+
+
+
+
+displaystyle leq
+
+predicates to apply the event calculus to a particular problem these other predicates also need to be defined
+
+the event calculus is compatible with different definitions of the temporal predicates
+
+
+
+
+
+
+displaystyle
+
+and
+
+
+
+
+
+
+displaystyle leq
+
+in most applications times are represented discretely by the natural numbers or continuously by non negative real numbers however times can also be partially ordered
+
+to apply the event calculus in a particular problem domain it is necessary to define the
+
+
+
+i
+n
+i
+t
+i
+a
+t
+e
+s
+
+
+displaystyle initiates
+
+and
+
+
+
+t
+e
+r
+m
+i
+n
+a
+t
+e
+s
+
+
+displaystyle terminates
+
+predicates for that domain for example in the blocks world domain an event
+
+
+
+m
+o
+v
+e
+
+o
+b
+j
+e
+c
+t
+
+p
+l
+a
+c
+e
+
+
+
+displaystyle move object place
+
+of moving an object onto a place initiates the fluent
+
+
+
+o
+n
+
+o
+b
+j
+e
+c
+t
+
+p
+l
+a
+c
+e
+
+
+
+displaystyle on object place
+
+which expresses that the object is on the place and terminates the fluent
+
+
+
+o
+n
+
+o
+b
+j
+e
+c
+t
+
+p
+l
+a
+c
+e
+1
+
+
+
+displaystyle on object place1
+
+which expresses that the object is on a different place
+
+if we want to represent the fact that a
+
+
+
+f
+l
+u
+e
+n
+t
+
+
+displaystyle fluent
+
+holds in an initial state say at time 1 then with the simple core axiom above we need an event say
+
+
+
+i
+n
+i
+t
+i
+a
+l
+i
+s
+e
+
+f
+l
+u
+e
+n
+t
+
+
+
+displaystyle initialise fluent
+
+which initiates the
+
+
+
+f
+l
+u
+e
+n
+t
+
+
+displaystyle fluent
+
+at any time
+
+to apply the event calculus given the definitions of the
+
+
+
+h
+o
+l
+d
+s
+a
+t
+
+
+displaystyle holdsat
+
+
+
+
+
+i
+n
+i
+t
+i
+a
+t
+e
+s
+
+
+displaystyle initiates
+
+
+
+
+
+t
+e
+r
+m
+i
+n
+a
+t
+e
+s
+
+
+displaystyle terminates
+
+
+
+
+
+
+
+
+displaystyle
+
+and
+
+
+
+
+
+
+displaystyle leq
+
+predicates it is necessary to define the
+
+
+
+h
+a
+p
+p
+e
+n
+s
+a
+t
+
+
+displaystyle happensat
+
+predicates that describe the specific context of the problem
+
+for example in the blocks world domain we might want to describe an initial state in which there are two blocks a red block on a green block on a table like a toy traffic light followed by moving the red block to the table at time 1 and moving the green block onto the red block at time 3 turning the traffic light upside down
+
+the event calculus has a natural implementation in pure prolog without any features that do not have a logical interpretation for example the blocks world scenario above can be implemented with minor modifications by the program
+
+the prolog program differs from the earlier formalisation in the following ways
+
+given an appropriate definition note 1 of the predicate before time1 time2 the prolog program generates all answers to the query what holds when in temporal order
+
+the program can also answer negative queries such as which fluents do not hold at which times however to work correctly all variables in negative conditions must first be instantiated to terms containing no variables for example
+
+in addition to prolog and its variants several other tools for reasoning using the event calculus are also available
+
+notable extensions of the event calculus include markov logic networks based variants probabilistic epistemic and their combinations

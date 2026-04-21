@@ -1,0 +1,826 @@
+in artificial neural networks recurrent neural networks rnns are designed for processing sequential data such as text speech and time series where the order of elements is important unlike feedforward neural networks which process inputs independently rnns utilize recurrent connections where the output of a neuron at one time step is fed back as input to the network at the next time step this enables rnns to capture temporal dependencies and patterns within sequences
+
+the fundamental building block of rnn is the recurrent unit which maintains a hidden state a form of memory that is updated at each time step based on the current input and the previous hidden state this feedback mechanism allows the network to learn from past inputs and incorporate that knowledge into its current processing rnns have been successfully applied to tasks such as unsegmented connected handwriting recognition speech recognition natural language processing and neural machine translation
+
+however traditional rnns suffer from the vanishing gradient problem which limits their ability to learn long range dependencies this issue was addressed by the development of the long short term memory lstm architecture in 1997 making it the standard rnn variant for handling long term dependencies later gated recurrent units grus were introduced as a more computationally efficient alternative
+
+in recent years transformers which rely on self attention mechanisms instead of recurrence have become the dominant architecture for many sequence processing tasks particularly in natural language processing due to their superior handling of long range dependencies and greater parallelizability nevertheless rnns remain relevant for applications where computational efficiency real time processing or the inherent sequential nature of data is crucial
+
+
+one origin of rnn was neuroscience the word recurrent is used to describe loop like structures in anatomy in 1901 cajal observed recurrent semicircles in the cerebellar cortex formed by parallel fiber purkinje cells and granule cells in 1933 lorente de nó discovered recurrent reciprocal connections by golgi s method and proposed that excitatory loops explain certain aspects of the vestibulo ocular reflex during 1940s multiple people proposed the existence of feedback in the brain which was a contrast to the previous understanding of the neural system as a purely feedforward structure hebb considered reverberating circuit as an explanation for short term memory the mcculloch and pitts paper 1943 which proposed the mcculloch pitts neuron model considered networks that contains cycles the current activity of such networks can be affected by activity indefinitely far in the past they were both interested in closed loops as possible explanations for e g epilepsy and causalgia recurrent inhibition was proposed in 1946 as a negative feedback mechanism in motor control neural feedback loops were a common topic of discussion at the macy conferences see for an extensive review of recurrent neural network models in neuroscience
+frank rosenblatt in 1960 published close loop cross coupled perceptrons which are 3 layered perceptron networks whose middle layer contains recurrent connections that change by a hebbian learning rule 73 75 later in principles of neurodynamics 1961 he described closed loop cross coupled and back coupled perceptron networks and made theoretical and experimental studies for hebbian learning in these networks chapter 19 21 and noted that a fully cross coupled perceptron network is equivalent to an infinitely deep feedforward network section 19 11
+
+similar networks were published by kaoru nakano in 1971 shun ichi amari in 1972 and william a little de in 1974 who was acknowledged by hopfield in his 1982 paper
+
+another origin of rnn was statistical mechanics the ising model was developed by wilhelm lenz and ernst ising in the 1920s as a simple statistical mechanical model of magnets at equilibrium glauber in 1963 studied the ising model evolving in time as a process towards equilibrium glauber dynamics adding in the component of time
+
+the sherrington kirkpatrick model of spin glass published in 1975 is the hopfield network with random initialization sherrington and kirkpatrick found that it is highly likely for the energy function of the sk model to have many local minima in the 1982 paper hopfield applied this recently developed theory to study the hopfield network with binary activation functions in a 1984 paper he extended this to continuous activation functions it became a standard model for the study of neural networks through statistical mechanics
+
+modern rnn networks are mainly based on two architectures lstm and brnn
+
+at the resurgence of neural networks in the 1980s recurrent networks were studied again they were sometimes called iterated nets two early influential works were the jordan network 1986 and the elman network 1990 which applied rnn to study cognitive psychology in 1993 a neural history compressor system solved a very deep learning task that required more than 1000 subsequent layers in an rnn unfolded in time
+
+long short term memory lstm networks were invented by hochreiter and schmidhuber in 1995 and set accuracy records in multiple applications domains it became the default choice for rnn architecture
+
+bidirectional recurrent neural networks brnn use two rnns that process the same input in opposite directions these two are often combined giving the bidirectional lstm architecture
+
+around 2006 bidirectional lstm started to revolutionize speech recognition outperforming traditional models in certain speech applications they also improved large vocabulary speech recognition and text to speech synthesis and was used in google voice search and dictation on android devices they broke records for improved machine translation language modeling and multilingual language processing also lstm combined with convolutional neural networks cnns improved automatic image captioning
+
+the idea of encoder decoder sequence transduction had been developed in the early 2010s the papers most commonly cited as the originators that produced seq2seq are two papers from 2014 a seq2seq architecture employs two rnn typically lstm an encoder and a decoder for sequence transduction such as machine translation they became state of the art in machine translation and were instrumental in the development of attention mechanisms and transformers
+
+an rnn based model can be factored into two parts configuration and architecture multiple rnns can be combined in a data flow and the data flow itself is the configuration each rnn itself may have any architecture including lstm gru etc
+
+rnns come in many variants abstractly speaking an rnn is a function
+
+
+
+
+f
+
+θ
+
+
+
+
+displaystyle f_ theta
+
+of type
+
+
+
+
+
+x
+
+t
+
+
+
+
+h
+
+t
+
+
+
+
+
+
+y
+
+t
+
+
+
+
+h
+
+t
+
+1
+
+
+
+
+
+displaystyle x_ t h_ t mapsto y_ t h_ t 1
+
+where
+
+in words it is a neural network that maps an input
+
+
+
+
+x
+
+t
+
+
+
+
+displaystyle x_ t
+
+into an output
+
+
+
+
+y
+
+t
+
+
+
+
+displaystyle y_ t
+
+with the hidden vector
+
+
+
+
+h
+
+t
+
+
+
+
+displaystyle h_ t
+
+playing the role of memory a partial record of all previous input output pairs at each step it transforms input to an output and modifies its memory to help it to better perform future processing
+
+the illustration to the right may be misleading to many because practical neural network topologies are frequently organized in layers and the drawing gives that appearance however what appears to be layers are in fact different steps in time unfolded to produce the appearance of layers
+
+a stacked rnn or deep rnn is composed of multiple rnns stacked one above the other abstractly it is structured as follows
+
+each layer operates as a stand alone rnn and each layer s output sequence is used as the input sequence to the layer above there is no conceptual limit to the depth of stacked rnn
+
+a bidirectional rnn birnn is composed of two rnns one processing the input sequence in one direction and another in the opposite direction abstractly it is structured as follows
+
+the two output sequences are then concatenated to give the total output
+
+
+
+
+
+
+y
+
+0
+
+
+
+
+y
+
+0
+
+
+
+
+
+
+
+y
+
+1
+
+
+
+
+y
+
+1
+
+
+
+
+
+
+
+
+
+y
+
+n
+
+
+
+
+y
+
+n
+
+
+
+
+
+
+
+displaystyle y_ 0 y_ 0 y_ 1 y_ 1 dots y_ n y_ n
+
+
+
+bidirectional rnn allows the model to process a token both in the context of what came before it and what came after it by stacking multiple bidirectional rnns together the model can process a token increasingly contextually the elmo model 2018 is a stacked bidirectional lstm which takes character level as inputs and produces word level embeddings
+
+two rnns can be run front to back in an encoder decoder configuration the encoder rnn processes an input sequence into a sequence of hidden vectors and the decoder rnn processes the sequence of hidden vectors to an output sequence with an optional attention mechanism this was used to construct state of the art neural machine translators during the 2014 2017 period this was an instrumental step towards the development of transformers
+
+an rnn may process data with more than one dimension pixelrnn processes two dimensional data with many possible directions for example the row by row direction processes an
+
+
+
+n
+
+n
+
+
+displaystyle n times n
+
+grid of vectors
+
+
+
+
+x
+
+i
+
+j
+
+
+
+
+displaystyle x_ i j
+
+in the following order
+
+
+
+
+x
+
+1
+
+1
+
+
+
+
+x
+
+1
+
+2
+
+
+
+
+
+
+x
+
+1
+
+n
+
+
+
+
+x
+
+2
+
+1
+
+
+
+
+x
+
+2
+
+2
+
+
+
+
+
+
+x
+
+2
+
+n
+
+
+
+
+
+
+x
+
+n
+
+n
+
+
+
+
+displaystyle x_ 1 1 x_ 1 2 dots x_ 1 n x_ 2 1 x_ 2 2 dots x_ 2 n dots x_ n n
+
+the diagonal bilstm uses two lstms to process the same grid one processes it from the top left corner to the bottom right such that it processes
+
+
+
+
+x
+
+i
+
+j
+
+
+
+
+displaystyle x_ i j
+
+depending on its hidden state and cell state on the top and the left side
+
+
+
+
+h
+
+i
+
+1
+
+j
+
+
+
+
+c
+
+i
+
+1
+
+j
+
+
+
+
+displaystyle h_ i 1 j c_ i 1 j
+
+and
+
+
+
+
+h
+
+i
+
+j
+
+1
+
+
+
+
+c
+
+i
+
+j
+
+1
+
+
+
+
+displaystyle h_ i j 1 c_ i j 1
+
+the other processes it from the top right corner to the bottom left
+
+fully recurrent neural networks frnn connect the outputs of all neurons to the inputs of all neurons in other words it is a fully connected network this is the most general neural network topology because all other topologies can be represented by setting some connection weights to zero to simulate the lack of connections between those neurons
+
+the hopfield network is an rnn in which all connections across layers are equally sized it requires stationary inputs and is thus not a general rnn as it does not process sequences of patterns however it guarantees that it will converge if the connections are trained using hebbian learning then the hopfield network can perform as robust content addressable memory resistant to connection alteration
+
+an elman network is a three layer network arranged horizontally as x y and z in the illustration with the addition of a set of context units u in the illustration the middle hidden layer is connected to these context units fixed with a weight of one at each time step the input is fed forward and a learning rule is applied the fixed back connections save a copy of the previous values of the hidden units in the context units since they propagate over the connections before the learning rule is applied thus the network can maintain a sort of state allowing it to perform tasks such as sequence prediction that are beyond the power of a standard multilayer perceptron
+
+jordan networks are similar to elman networks the context units are fed from the output layer instead of the hidden layer the context units in a jordan network are also called the state layer they have a recurrent connection to themselves
+
+elman and jordan networks are also known as simple recurrent networks srn
+
+variables and functions
+
+long short term memory lstm is the most widely used rnn architecture it was designed to solve the vanishing gradient problem lstm is normally augmented by recurrent gates called forget gates lstm prevents backpropagated errors from vanishing or exploding instead errors can flow backward through unlimited numbers of virtual layers unfolded in space that is lstm can learn tasks that require memories of events that happened thousands or even millions of discrete time steps earlier problem specific lstm like topologies can be evolved lstm works even given long delays between significant events and can handle signals that mix low and high frequency components
+
+many applications use stacks of lstms for which it is called deep lstm lstm can learn to recognize context sensitive languages unlike previous models based on hidden markov models hmm and similar concepts
+
+gated recurrent unit gru introduced in 2014 was designed as a simplification of lstm they are used in the full form and several further simplified variants they have fewer parameters than lstm as they lack an output gate
+
+their performance on polyphonic music modeling and speech signal modeling was found to be similar to that of long short term memory there does not appear to be particular performance difference between lstm and gru
+
+introduced by bart kosko a bidirectional associative memory bam network is a variant of a hopfield network that stores associative data as a vector the bidirectionality comes from passing information through a matrix and its transpose typically bipolar encoding is preferred to binary encoding of the associative pairs recently stochastic bam models using markov stepping are optimized for increased network stability and relevance to real world applications
+
+a bam network has two layers either of which can be driven as an input to recall an association and produce an output on the other layer
+
+echo state networks esn have a sparsely connected random hidden layer the weights of output neurons are the only part of the network that can change be trained esns are good at reproducing certain time series a variant for spiking neurons is known as a liquid state machine
+
+a recursive neural network is created by applying the same set of weights recursively over a differentiable graph like structure by traversing the structure in topological order such networks are typically also trained by the reverse mode of automatic differentiation they can process distributed representations of structure such as logical terms a special case of recursive neural networks is the rnn whose structure corresponds to a linear chain recursive neural networks have been applied to natural language processing the recursive neural tensor network uses a tensor based composition function for all nodes in the tree
+
+neural turing machines ntms are a method of extending recurrent neural networks by coupling them to external memory resources with which they interact the combined system is analogous to a turing machine or von neumann architecture but is differentiable end to end allowing it to be efficiently trained with gradient descent
+
+differentiable neural computers dncs are an extension of neural turing machines allowing for the usage of fuzzy amounts of each memory address and a record of chronology
+
+neural network pushdown automata nnpda are similar to ntms but tapes are replaced by analog stacks that are differentiable and trained in this way they are similar in complexity to recognizers of context free grammars cfgs
+
+recurrent neural networks are turing complete and can run arbitrary programs to process arbitrary sequences of inputs
+
+an rnn can be trained into a conditionally generative model of sequences aka autoregression
+
+concretely let us consider the problem of machine translation that is given a sequence
+
+
+
+
+
+x
+
+1
+
+
+
+
+x
+
+2
+
+
+
+
+
+
+x
+
+n
+
+
+
+
+
+displaystyle x_ 1 x_ 2 dots x_ n
+
+of english words the model is to produce a sequence
+
+
+
+
+
+y
+
+1
+
+
+
+
+
+
+y
+
+m
+
+
+
+
+
+displaystyle y_ 1 dots y_ m
+
+of french words it is to be solved by a seq2seq model
+
+now during training the encoder half of the model would first ingest
+
+
+
+
+
+x
+
+1
+
+
+
+
+x
+
+2
+
+
+
+
+
+
+x
+
+n
+
+
+
+
+
+displaystyle x_ 1 x_ 2 dots x_ n
+
+then the decoder half would start generating a sequence
+
+
+
+
+
+
+
+
+y
+
+
+
+
+
+1
+
+
+
+
+
+
+
+y
+
+
+
+
+
+2
+
+
+
+
+
+
+
+
+
+y
+
+
+
+
+
+l
+
+
+
+
+
+displaystyle hat y _ 1 hat y _ 2 dots hat y _ l
+
+the problem is that if the model makes a mistake early on say at
+
+
+
+
+
+
+
+y
+
+
+
+
+
+2
+
+
+
+
+displaystyle hat y _ 2
+
+then subsequent tokens are likely to also be mistakes this makes it inefficient for the model to obtain a learning signal since the model would mostly learn to shift
+
+
+
+
+
+
+
+y
+
+
+
+
+
+2
+
+
+
+
+displaystyle hat y _ 2
+
+towards
+
+
+
+
+y
+
+2
+
+
+
+
+displaystyle y_ 2
+
+but not the others
+
+teacher forcing makes it so that the decoder uses the correct output sequence for generating the next entry in the sequence so for example it would see
+
+
+
+
+
+y
+
+1
+
+
+
+
+
+
+y
+
+k
+
+
+
+
+
+displaystyle y_ 1 dots y_ k
+
+in order to generate
+
+
+
+
+
+
+
+y
+
+
+
+
+
+k
+
+1
+
+
+
+
+displaystyle hat y _ k 1
+
+
+
+gradient descent is a first order iterative optimization algorithm for finding the minimum of a function in neural networks it can be used to minimize the error term by changing each weight in proportion to the derivative of the error with respect to that weight provided the non linear activation functions are differentiable
+
+the standard method for training rnn by gradient descent is the backpropagation through time bptt algorithm which is a special case of the general algorithm of backpropagation a more computationally expensive online variant is called real time recurrent learning or rtrl which is an instance of automatic differentiation in the forward accumulation mode with stacked tangent vectors unlike bptt this algorithm is local in time but not local in space
+
+in this context local in space means that a unit s weight vector can be updated using only information stored in the connected units and the unit itself such that update complexity of a single unit is linear in the dimensionality of the weight vector local in time means that the updates take place continually on line and depend only on the most recent time step rather than on multiple time steps within a given time horizon as in bptt biological neural networks appear to be local with respect to both time and space
+
+for recursively computing the partial derivatives rtrl has a time complexity of o number of hidden x number of weights per time step for computing the jacobian matrices while bptt only takes o number of weights per time step at the cost of storing all forward activations within the given time horizon an online hybrid between bptt and rtrl with intermediate complexity exists along with variants for continuous time
+
+a major problem with gradient descent for standard rnn architectures is that error gradients vanish exponentially quickly with the size of the time lag between important events lstm combined with a bptt rtrl hybrid learning method attempts to overcome these problems this problem is also solved in the independently recurrent neural network indrnn by reducing the context of a neuron to its own past state and the cross neuron information can then be explored in the following layers memories of different ranges including long term memory can be learned without the gradient vanishing and exploding problems
+
+the online algorithm called causal recursive backpropagation crbp implements and combines bptt and rtrl paradigms for locally recurrent networks it works with the most general locally recurrent networks the crbp algorithm can minimize the global error term this fact improves the stability of the algorithm providing a unifying view of gradient calculation techniques for recurrent networks with local feedback
+
+one approach to gradient information computation in rnns with arbitrary architectures is based on signal flow graphs diagrammatic derivation it uses the bptt batch algorithm based on lee s theorem for network sensitivity calculations it was proposed by wan and beaufays while its fast online version was proposed by campolucci uncini and piazza
+
+the connectionist temporal classification ctc is a specialized loss function for training rnns for sequence modeling problems where the timing is variable
+
+training the weights in a neural network can be modeled as a non linear global optimization problem a target function can be formed to evaluate the fitness or error of a particular weight vector as follows first the weights in the network are set according to the weight vector next the network is evaluated against the training sequence typically the sum squared difference between the predictions and the target values specified in the training sequence is used to represent the error of the current weight vector arbitrary global optimization techniques may then be used to minimize this target function
+
+the most common global optimization method for training rnns is genetic algorithms especially in unstructured networks
+
+initially the genetic algorithm is encoded with the neural network weights in a predefined manner where one gene in the chromosome represents one weight link the whole network is represented as a single chromosome the fitness function is evaluated as follows
+
+many chromosomes make up the population therefore many different neural networks are evolved until a stopping criterion is satisfied a common stopping scheme can be
+
+the fitness function evaluates the stopping criterion as it receives the mean squared error reciprocal from each network during training therefore the goal of the genetic algorithm is to maximize the fitness function reducing the mean squared error
+
+other global and or evolutionary optimization techniques may be used to seek a good set of weights such as simulated annealing or particle swarm optimization
+
+the independently recurrent neural network indrnn addresses the gradient vanishing and exploding problems in the traditional fully connected rnn each neuron in one layer only receives its own past state as context information instead of full connectivity to all other neurons in this layer and thus neurons are independent of each other s history the gradient backpropagation can be regulated to avoid gradient vanishing and exploding in order to keep long or short term memory the cross neuron information is explored in the next layers indrnn can be robustly trained with non saturated nonlinear functions such as relu deep networks can be trained using skip connections
+
+the neural history compressor is an unsupervised stack of rnns at the input level it learns to predict its next input from the previous inputs only unpredictable inputs of some rnn in the hierarchy become inputs to the next higher level rnn which therefore recomputes its internal state only rarely each higher level rnn thus studies a compressed representation of the information in the rnn below this is done such that the input sequence can be precisely reconstructed from the representation at the highest level
+
+the system effectively minimizes the description length or the negative logarithm of the probability of the data given a lot of learnable predictability in the incoming data sequence the highest level rnn can use supervised learning to easily classify even deep sequences with long intervals between important events
+
+it is possible to distill the rnn hierarchy into two rnns the conscious chunker higher level and the subconscious automatizer lower level once the chunker has learned to predict and compress inputs that are unpredictable by the automatizer then the automatizer can be forced in the next learning phase to predict or imitate through additional units the hidden units of the more slowly changing chunker this makes it easy for the automatizer to learn appropriate rarely changing memories across long intervals in turn this helps the automatizer to make many of its once unpredictable inputs predictable such that the chunker can focus on the remaining unpredictable events
+
+a generative model partially overcame the vanishing gradient problem of automatic differentiation or backpropagation in neural networks in 1992 in 1993 such a system solved a very deep learning task that required more than 1000 subsequent layers in an rnn unfolded in time
+
+second order rnns use higher order weights
+
+
+
+w
+
+
+
+
+i
+j
+k
+
+
+
+
+displaystyle w _ ijk
+
+instead of the standard
+
+
+
+w
+
+
+
+
+i
+j
+
+
+
+
+displaystyle w _ ij
+
+weights and states can be a product this allows a direct mapping to a finite state machine both in training and representation long short term memory is an example of this but has no such formal mappings or proof of stability
+
+hierarchical recurrent neural networks hrnn connect their neurons in various ways to decompose hierarchical behavior into useful subprograms such hierarchical structures of cognition are present in theories of memory presented by philosopher henri bergson whose philosophical views have inspired hierarchical models
+
+hierarchical recurrent neural networks are useful in forecasting helping to predict disaggregated inflation components of the consumer price index cpi the hrnn model leverages information from higher levels in the cpi hierarchy to enhance lower level predictions evaluation of a substantial dataset from the us cpi u index demonstrates the superior performance of the hrnn model compared to various established inflation prediction methods
+
+generally a recurrent multilayer perceptron network rmlp network consists of cascaded subnetworks each containing multiple layers of nodes each subnetwork is feed forward except for the last layer which can have feedback connections each of these subnets is connected only by feed forward connections
+
+a multiple timescales recurrent neural network mtrnn is a neural based computational model that can simulate the functional hierarchy of the brain through self organization depending on the spatial connection between neurons and on distinct types of neuron activities each with distinct time properties with such varied neuronal activities continuous sequences of any set of behaviors are segmented into reusable primitives which in turn are flexibly integrated into diverse sequential behaviors the biological approval of such a type of hierarchy was discussed in the memory prediction theory of brain function by hawkins in his book on intelligence citation needed such a hierarchy also agrees with theories of memory posited by philosopher henri bergson which have been incorporated into an mtrnn model
+
+greg snider of hp labs describes a system of cortical computing with memristive nanodevices the memristors memory resistors are implemented by thin film materials in which the resistance is electrically tuned via the transport of ions or oxygen vacancies within the film darpa s synapse project has funded ibm research and hp labs in collaboration with the boston university department of cognitive and neural systems cns to develop neuromorphic architectures that may be based on memristive systems
+memristive networks are a particular type of physical neural network that have very similar properties to little hopfield networks as they have continuous dynamics a limited memory capacity and natural relaxation via the minimization of a function which is asymptotic to the ising model in this sense the dynamics of a memristive circuit have the advantage compared to a resistor capacitor network to have a more interesting non linear behavior from this point of view engineering analog memristive networks account for a peculiar type of neuromorphic engineering in which the device behavior depends on the circuit wiring or topology
+the evolution of these networks can be studied analytically using variations of the caravelli traversa di ventra equation
+
+a continuous time recurrent neural network ctrnn uses a system of ordinary differential equations to model the effects on a neuron of the incoming inputs they are typically analyzed by dynamical systems theory many rnn models in neuroscience are continuous time
+
+for a neuron
+
+
+
+i
+
+
+displaystyle i
+
+in the network with activation
+
+
+
+
+y
+
+i
+
+
+
+
+displaystyle y_ i
+
+the rate of change of activation is given by
+
+where
+
+ctrnns have been applied to evolutionary robotics where they have been used to address vision co operation and minimal cognitive behaviour
+
+note that by the shannon sampling theorem discrete time recurrent neural networks can be viewed as continuous time recurrent neural networks where the differential equations have transformed into equivalent difference equations this transformation can be thought of as occurring after the post synaptic node activation functions
+
+
+
+
+y
+
+i
+
+
+
+t
+
+
+
+displaystyle y_ i t
+
+have been low pass filtered but prior to sampling
+
+they are in fact recursive neural networks with a particular structure that of a linear chain whereas recursive neural networks operate on any hierarchical structure combining child representations into parent representations recurrent neural networks operate on the linear progression of time combining the previous time step and a hidden representation into the representation for the current time step
+
+from a time series perspective rnns can appear as nonlinear versions of finite impulse response and infinite impulse response filters and also as a nonlinear autoregressive exogenous model narx rnn has infinite impulse response whereas convolutional neural network has finite impulse response both classes of networks exhibit temporal dynamic behavior a finite impulse recurrent network is a directed acyclic graph that can be unrolled and replaced with a strictly feedforward neural network while an infinite impulse recurrent network is a directed cyclic graph that cannot be unrolled
+
+the effect of memory based learning for the recognition of sequences can also be implemented by a more biological based model which uses the silencing mechanism exhibited in neurons with a relatively high frequency spiking activity
+
+additional stored states and the storage under direct control by the network can be added to both infinite impulse and finite impulse networks another network or graph can also replace the storage if that incorporates time delays or has feedback loops such controlled states are referred to as gated states or gated memory and are part of long short term memory networks lstms and gated recurrent units this is also called feedback neural network fnn
+
+modern libraries provide runtime optimized implementations of the above functionality or allow to speed up the slow loop by just in time compilation
+
+applications of recurrent neural networks include

@@ -1,0 +1,60 @@
+alexnet is a convolutional neural network architecture developed for image classification tasks notably achieving prominence through its performance in the imagenet large scale visual recognition challenge ilsvrc it classifies images into 1 000 distinct object categories and is regarded as the first widely recognized application of deep convolutional networks in large scale visual recognition
+
+developed in 2012 by alex krizhevsky in collaboration with ilya sutskever and his ph d advisor geoffrey hinton at the university of toronto the model contains 60 million parameters and 650 000 neurons the original paper s primary result was that the depth of the model was essential for its high performance which was computationally expensive but made feasible due to the utilization of graphics processing units gpus during training
+
+the three formed team supervision and submitted alexnet in the imagenet large scale visual recognition challenge on september 30 2012 the network achieved a top 5 error rate of 15 3 to win the contest more than 10 8 above the runner up
+
+the architecture influenced a large number of subsequent work in deep learning especially in applying neural networks to computer vision
+
+
+alexnet contains eight layers the first five are convolutional layers some of them followed by max pooling layers and the last three are fully connected layers the network except the last layer is split into two copies each run on one gpu because the network did not fit the vram of a single nvidia gtx 580 3gb gpu section 3 2 the entire structure can be written as
+conv rn mp 2 conv3 mp fc do 2 linear softmax
+where
+
+notably the convolutional layers 3 4 5 were connected to one another without any pooling or normalization it used the non saturating relu activation function which trained better than tanh and sigmoid
+
+the imagenet training set contained 1 2 million images the model was trained for 90 epochs over a period of five to six days using two nvidia gtx 580 gpus 3gb each these gpus have a theoretical performance of 1 581 tflops in float32 and were priced at us 500 upon release each forward pass of alexnet required approximately 1 43 gflops based on these values the two gpus together were theoretically capable of performing over 2 200 forward passes per second under ideal conditions
+
+the dataset images were stored in jpeg format they took up 27gb of disk the neural network took up 2gb of ram on each gpu and around 5gb of system ram during training the gpus were responsible for training while the cpus were responsible for loading images from disk and data augmenting the images
+
+alexnet was trained with momentum gradient descent with a batch size of 128 examples momentum of 0 9 and weight decay of 0 0005 learning rate started at 10 2 and was manually decreased 10 fold whenever validation error appeared to stop decreasing it was reduced three times during training ending at 10 5
+
+it used two forms of data augmentation both computed on the fly on the cpu thus computationally free
+
+the resolution 224 224 was picked because 256 16 16 224 meaning that given a 256 256 image framing out a width of 16 on its 4 sides results in a 224 224 image
+
+it used local response normalization and dropout regularization with drop probability 0 5
+
+all weights were initialized as gaussians with 0 mean and 0 01 standard deviation biases in convolutional layers 2 4 5 and all fully connected layers were initialized to constant 1 to avoid the dying relu problem
+
+at test time to use a trained alexnet for predicting the class of an image that image is first scaled so that its shorter side was of length 256 then the central 256 256 patch was cropped out then the five 224 224 patches the four corner patches and the center patch as well as their horizontal reflections are computed 10 patches in all the network s predicted probabilities on all 10 patches are averaged and that is the final predicted probability
+
+the version they used to enter the 2012 imagenet competition was an ensemble of 7 alexnets
+
+specifically they trained 5 alexnets of the previously described architecture with 5 conv layers on the ilsvrc 2012 training set 1 2 million images they also trained 2 variant alexnets obtained by adding one extra conv layer over the last pooling layer these were trained by first training on the entire imagenet fall 2011 release 15 million images in 22k categories and then finetuning it on the ilsvrc 2012 training set the final system of 7 alexnets was used by averaging their predicted probabilities
+
+in 1980 kunihiko fukushima proposed an early cnn named neocognitron it was trained by an unsupervised learning algorithm the lenet 5 yann lecun et al 1989 was trained by supervised learning with backpropagation algorithm with an architecture that is essentially the same as alexnet on a small scale
+
+max pooling was used in 1990 for speech processing essentially a 1 dimensional cnn and for image processing was first used in the cresceptron of 1992
+
+during the 2000s as gpu hardware improved some researchers adapted these for general purpose computing including neural network training k chellapilla et al 2006 trained a cnn on gpu that was 4 times faster than an equivalent cpu implementation raina et al 2009 trained a deep belief network with 100 million parameters on an nvidia geforce gtx 280 at up to 70 times speedup over cpus a deep cnn of dan cireșan et al 2011 at idsia was 60 times faster than an equivalent cpu implementation between may 15 2011 and september 10 2012 their cnn won four image competitions and achieved state of the art for multiple image databases according to the alexnet paper cireșan s earlier net is somewhat similar both were written with cuda to run on gpu
+
+during the 1990 2010 period neural networks were not better than other machine learning methods like kernel regression support vector machines adaboost structured estimation among others for computer vision in particular much progress came from manual feature engineering such as sift features surf features hog features bags of visual words etc it was a minority position in computer vision that features can be learned directly from data a position which became dominant after alexnet
+
+in 2011 geoffrey hinton started reaching out to colleagues about what do i have to do to convince you that neural networks are the future and jitendra malik a sceptic of neural networks recommended the pascal visual object classes challenge hinton said its dataset was too small so malik recommended to him the imagenet challenge
+
+the imagenet dataset which became central to alexnet s success was created by fei fei li and her collaborators beginning in 2007 aiming to advance visual recognition through large scale data li built a dataset far larger than earlier efforts ultimately containing over 14 million labeled images across 22 000 categories the images were labeled using amazon mechanical turk and organized via the wordnet hierarchy initially met with skepticism imagenet later became the foundation of the imagenet large scale visual recognition challenge ilsvrc and a key resource in the rise of deep learning
+
+sutskever and krizhevsky were both graduate students before 2011 krizhevsky had already written cuda convnet to train small cnns on cifar 10 with a single gpu sutskever convinced krizhevsky who could do gpgpu well to train a cnn on imagenet with hinton serving as principal investigator so krizhevsky extended cuda convnet for multi gpu training alexnet was trained on 2 nvidia gtx 580 in krizhevsky s bedroom at his parents house during 2012 krizhevsky performed hyperparameter optimization on the network until it won the imagenet competition later the same year hinton commented that ilya thought we should do it alex made it work and i got the nobel prize at the 2012 european conference on computer vision following alexnet s win researcher yann lecun described the model as an unequivocal turning point in the history of computer vision
+
+alexnet s success in 2012 was enabled by the convergence of three developments that had matured over the previous decade large scale labeled datasets general purpose gpu computing and improved training methods for deep neural networks the availability of imagenet provided the data necessary for training deep models on a broad range of object categories advances in gpu programming through nvidia s cuda platform enabled practical training of large models together with algorithmic improvements these factors enabled alexnet to achieve high performance on large scale visual recognition benchmarks reflecting on its significance over a decade later fei fei li stated in a 2024 interview that moment was pretty symbolic to the world of ai because three fundamental elements of modern ai converged for the first time
+
+while alexnet and lenet share essentially the same design and algorithm alexnet is much larger than lenet and was trained on a much larger dataset on much faster hardware over the period of 20 years both data and compute became cheaply available
+
+alexnet is highly influential resulting in much subsequent work in using cnns for computer vision and using gpus to accelerate deep learning as of early 2025 the alexnet paper has been cited over 184 000 times according to google scholar
+
+at the time of publication there was no framework available for gpu based neural network training and inference the codebase for alexnet was released under a bsd license and had been commonly used in neural network research for several subsequent years
+
+in one direction subsequent works aimed to train increasingly deep cnns that achieve increasingly higher performance on imagenet in this line of research are googlenet 2014 vggnet 2014 highway network 2015 and resnet 2015 another direction aimed to reproduce the performance of alexnet at a lower cost in this line of research are squeezenet 2016 mobilenet 2017 efficientnet 2019
+
+geoffrey hinton ilya sutskever and alex krizhevsky formed dnnresearch soon afterwards and sold the company and the alexnet source code along with it to google there had been improvements and reimplementations for the alexnet but the original version as of 2012 at the time of its winning of imagenet had been released under bsd 2 license via computer history museum

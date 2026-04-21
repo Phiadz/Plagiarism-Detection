@@ -1,0 +1,1 @@
+facts which are dimensions that are shared in a specific way between facts in two or more information marts the top down approach is designed using a normalized enterprise information structure atomic information that is information at the greatest level of detail are stored in the information warehouse dimensional information marts containing

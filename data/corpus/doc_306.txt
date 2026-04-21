@@ -1,0 +1,276 @@
+default logic is a non monotonic logic proposed by raymond reiter to formalize reasoning with default assumptions
+
+default logic can express facts like by default something is true by contrast standard logic can only express that something is true or that something is false this is a problem because reasoning often involves facts that are true in the majority of cases but not always a classical example is birds typically fly this rule can be expressed in standard logic either by all birds fly which is inconsistent with the fact that penguins do not fly or by all birds that are not penguins and not ostriches and fly which requires all exceptions to the rule to be specified default logic aims at formalizing inference rules like this one without explicitly mentioning all their exceptions
+
+a default theory is a pair
+
+
+
+
+w
+
+d
+
+
+
+displaystyle langle w d rangle
+
+w is a set of logical formulas called the background theory that formalize the facts that are known for sure d is a set of default rules each one being of the form
+
+according to this default if we believe that prerequisite is true and each
+
+
+
+
+
+j
+u
+s
+t
+i
+f
+i
+c
+a
+t
+i
+o
+n
+
+
+i
+
+
+
+
+displaystyle mathrm justification _ i
+
+for
+
+
+
+i
+
+1
+
+
+
+n
+
+
+displaystyle i 1 dots n
+
+is consistent with our current beliefs we are led to believe that conclusion is true
+
+the logical formulae in w and all formulae in a default were originally assumed to be first order logic formulae but they can potentially be formulae in an arbitrary formal logic the case in which they are formulae in propositional logic is one of the most studied
+
+the default rule birds typically fly is formalized by the following default
+
+this rule means that if x is a bird and it can be assumed that it flies then we can conclude that it flies a background theory containing some facts about birds is the following one
+
+according to this default rule a condor flies because the precondition bird condor is true and the justification flies condor is not inconsistent with what is currently known on the contrary bird penguin does not allow concluding flies penguin even if the precondition of the default bird penguin is true the justification flies penguin is inconsistent with what is known from this background theory and this default bird bee cannot be concluded because the default rule only allows deriving flies x from bird x but not vice versa deriving the antecedents of an inference rule from the consequences is a form of explanation of the consequences and is the aim of abductive reasoning
+
+a common default assumption is that what is not known to be true is believed to be false this is known as the closed world assumption and is formalized in default logic using a default like the following one for every fact f
+
+for example the computer language prolog uses a sort of default assumption when dealing with negation if a negative atom cannot be proved to be true then it is assumed to be false
+note however that prolog uses the so called negation as failure when the interpreter has to evaluate the atom
+
+
+
+
+f
+
+
+displaystyle neg f
+
+it tries to prove that f is true and conclude that
+
+
+
+
+f
+
+
+displaystyle neg f
+
+is true if it fails in default logic instead a default having
+
+
+
+
+f
+
+
+displaystyle neg f
+
+as a justification can only be applied if
+
+
+
+
+f
+
+
+displaystyle neg f
+
+is consistent with the current knowledge
+
+a default is categorical or prerequisite free if it has no prerequisite or equivalently its prerequisite is tautological a default is normal if it has a single justification that is equivalent to its conclusion a default is supernormal if it is both categorical and normal a default is seminormal if all its justifications entail its conclusion a default theory is called categorical normal supernormal or seminormal if all defaults it contains are categorical normal supernormal or seminormal respectively
+
+a default rule can be applied to a theory if its precondition is entailed by the theory and its justifications are all consistent with the theory the application of a default rule leads to the addition of its consequence to the theory other default rules may then be applied to the resulting theory when the theory is such that no other default can be applied the theory is called an extension of the default theory the default rules may be applied in different order and this may lead to different extensions the nixon diamond example is a default theory with two extensions
+
+since nixon is both a republican and a quaker both defaults can be applied however applying the first default leads to the conclusion that nixon is not a pacifist which makes the second default not applicable in the same way applying the second default we obtain that nixon is a pacifist thus making the first default not applicable this particular default theory has therefore two extensions one in which pacifist nixon is true and one in which pacifist nixon is false
+
+the original semantics of default logic was based on the fixed point of a function the following is an equivalent algorithmic definition if a default contains formulae with free variables it is considered to represent the set of all defaults obtained by giving a value to all these variables a default
+
+
+
+
+
+
+α
+
+
+β
+
+1
+
+
+
+
+
+
+β
+
+n
+
+
+
+γ
+
+
+
+
+displaystyle frac alpha beta _ 1 ldots beta _ n gamma
+
+is applicable to a propositional theory t if
+
+
+
+t
+
+α
+
+
+displaystyle t models alpha
+
+and all theories
+
+
+
+t
+
+
+
+β
+
+i
+
+
+
+
+
+displaystyle t cup beta _ i
+
+are consistent the application of this default to t leads to the theory
+
+
+
+t
+
+
+γ
+
+
+
+displaystyle t cup gamma
+
+an extension can be generated by applying the following algorithm
+
+this algorithm is non deterministic as several defaults can alternatively be applied to a given theory t in the nixon diamond example the application of the first default leads to a theory to which the second default cannot be applied and vice versa as a result two extensions are generated one in which nixon is a pacifist and one in which nixon is not a pacifist
+
+the final check of consistency of the justifications of all defaults that have been applied implies that some theories do not have any extensions in particular this happens whenever this check fails for every possible sequence of applicable defaults the following default theory has no extension
+
+since
+
+
+
+a
+
+b
+
+
+
+displaystyle a b
+
+is consistent with the background theory the default can be applied thus leading to the conclusion that
+
+
+
+a
+
+b
+
+
+
+displaystyle a b
+
+is false this result however undermines the assumption that has been made for applying the first default consequently this theory has no extensions
+
+in a normal default theory all defaults are normal each default has the form
+
+
+
+
+
+
+ϕ
+
+ψ
+
+ψ
+
+
+
+
+displaystyle frac phi psi psi
+
+a normal default theory is guaranteed to have at least one extension furthermore the extensions of a normal default theory are mutually inconsistent i e inconsistent with each other
+
+a default theory can have zero one or more extensions entailment of a formula from a default theory can be defined in two ways
+
+thus the nixon diamond example theory has two extensions one in which nixon is a pacifist and one in which he is not a pacifist consequently neither pacifist nixon nor pacifist nixon are skeptically entailed while both of them are credulously entailed as this example shows the credulous consequences of a default theory may be inconsistent with each other
+
+the following alternative inference rules for default logic are all based on the same syntax as the original system
+
+the justified and constrained versions of the inference rule assign at least an extension to every default theory
+
+the following variants of default logic differ from the original one on both syntax and semantics
+
+default theories can be translated into theories in other logics and vice versa the following conditions on translations have been considered
+
+translations are typically required to be faithful or at
+least consequence preserving while the conditions of
+modularity and same alphabet are sometimes ignored
+
+the translatability between propositional default logic and
+the following logics have been studied
+
+translations exist or not depending on which conditions are imposed translations from propositional default logic to classical propositional logic cannot always generate a polynomially sized propositional theory unless the polynomial hierarchy collapses translations to autoepistemic logic exist or not depending on whether modularity or the use of the same alphabet is required
+
+the computational complexity of the following problems about default logic is known
+
+four systems implementing default logics are
+deres dead link
+xray
+gadel archived 2007 04 06 at the wayback machine and catala

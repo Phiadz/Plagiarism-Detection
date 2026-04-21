@@ -1,0 +1,964 @@
+in mathematical logic and automated theorem proving resolution is a rule of inference leading to a refutation complete theorem proving technique for sentences in propositional logic and first order logic for propositional logic systematically applying the resolution rule acts as a decision procedure for formula unsatisfiability solving the complement of the boolean satisfiability problem for first order logic resolution can be used as the basis for a semi algorithm for the unsatisfiability problem of first order logic providing a more practical method than one following from gödel s completeness theorem
+
+the resolution rule can be traced back to davis and putnam 1960 however their algorithm required trying all ground instances of the given formula this source of combinatorial explosion was eliminated in 1965 by john alan robinson s syntactical unification algorithm which allowed one to instantiate the formula during the proof on demand just as far as needed to keep refutation completeness
+
+the clause produced by a resolution rule is sometimes called a resolvent
+
+the resolution rule in propositional logic is a single valid inference rule that produces a new clause implied by two clauses containing complementary literals a literal is a propositional variable or the negation of a propositional variable two literals are said to be complements if one is the negation of the other in the following
+
+
+
+
+
+c
+
+
+displaystyle lnot c
+
+is taken to be the complement to
+
+
+
+c
+
+
+displaystyle c
+
+the resulting clause contains all the literals that do not have complements
+formally
+
+where
+
+the above may also be written as
+
+or schematically as
+
+we have the following terminology
+
+the clause produced by the resolution rule is called the resolvent of the two input clauses it is the principle of consensus applied to clauses rather than terms
+
+when the two clauses contain more than one pair of complementary literals the resolution rule can be applied independently for each such pair however the result is always a tautology
+
+modus ponens can be seen as a special case of resolution of a one literal clause and a two literal clause
+
+is equivalent to
+
+when coupled with a complete search algorithm the resolution rule yields a sound and complete algorithm for deciding the satisfiability of a propositional formula and by extension the validity of a sentence under a set of axioms
+
+this resolution technique uses proof by contradiction and is based on the fact that any sentence in propositional logic can be transformed into an equivalent sentence in conjunctive normal form the steps are as follows
+
+one instance of this algorithm is the original davis putnam algorithm that was later refined into the dpll algorithm that removed the need for explicit representation of the resolvents
+
+this description of the resolution technique uses a set s as the underlying data structure to represent resolution derivations lists trees and directed acyclic graphs are other possible and common alternatives tree representations are more faithful to the fact that the resolution rule is binary together with a sequent notation for clauses a tree representation also makes it clear to see how the resolution rule is related to a special case of the cut rule restricted to atomic cut formulas however tree representations are not as compact as set or list representations because they explicitly show redundant subderivations of clauses that are used more than once in the derivation of the empty clause graph representations can be as compact in the number of clauses as list representations and they also store structural information regarding which clauses were resolved to derive each resolvent
+
+
+
+
+
+
+
+
+a
+
+b
+
+
+
+a
+
+c
+
+
+b
+
+c
+
+
+
+
+
+displaystyle frac a vee b quad neg a vee c b vee c
+
+
+
+in plain language suppose
+
+
+
+a
+
+
+displaystyle a
+
+is false in order for the premise
+
+
+
+a
+
+b
+
+
+displaystyle a vee b
+
+to be true
+
+
+
+b
+
+
+displaystyle b
+
+must be true
+alternatively suppose
+
+
+
+a
+
+
+displaystyle a
+
+is true in order for the premise
+
+
+
+
+a
+
+c
+
+
+displaystyle neg a vee c
+
+to be true
+
+
+
+c
+
+
+displaystyle c
+
+must be true therefore regardless of falsehood or veracity of
+
+
+
+a
+
+
+displaystyle a
+
+if both premises hold then the conclusion
+
+
+
+b
+
+c
+
+
+displaystyle b vee c
+
+is true
+
+resolution rule can be generalized to first order logic to
+
+where
+
+
+
+ϕ
+
+
+displaystyle phi
+
+is a most general unifier of
+
+
+
+
+l
+
+1
+
+
+
+
+displaystyle l_ 1
+
+and
+
+
+
+
+
+
+l
+
+2
+
+
+
+
+
+
+
+displaystyle overline l_ 2
+
+and
+
+
+
+
+γ
+
+1
+
+
+
+
+displaystyle gamma _ 1
+
+and
+
+
+
+
+γ
+
+2
+
+
+
+
+displaystyle gamma _ 2
+
+have no common variables
+
+the clauses
+
+
+
+p
+
+x
+
+
+q
+
+x
+
+
+
+displaystyle p x q x
+
+and
+
+
+
+
+p
+
+b
+
+
+
+displaystyle neg p b
+
+can apply this rule with
+
+
+
+
+b
+
+
+
+x
+
+
+
+displaystyle b x
+
+as unifier
+
+here x is a variable and b is a constant
+
+here we see that
+
+in first order logic resolution condenses the traditional syllogisms of logical inference down to a single rule
+
+to understand how resolution works consider the following example syllogism of term logic
+
+or more generally
+
+to recast the reasoning using the resolution technique first the clauses must be converted to conjunctive normal form cnf in this form all quantification becomes implicit universal quantifiers on variables x y are simply omitted as understood while existentially quantified variables are replaced by skolem functions
+
+so the question is how does the resolution technique derive the last clause from the first two the rule is simple
+
+to apply this rule to the above example we find the predicate p occurs in negated form
+
+in the first clause and in non negated form
+
+in the second clause x is an unbound variable while a is a bound value term unifying the two produces the substitution
+
+discarding the unified predicates and applying this substitution to the remaining predicates just q x in this case produces the conclusion
+
+for another example consider the syllogistic form
+
+or more generally
+
+in cnf the antecedents become
+
+the variable in the second clause was renamed to make it clear that variables in different clauses are distinct
+
+now unifying q x in the first clause with q y in the second clause means that x and y become the same variable anyway substituting this into the remaining clauses and combining them gives the conclusion
+
+the resolution rule as defined by robinson also incorporated factoring which unifies two literals in the same clause before or during the application of resolution as defined above the resulting inference rule is refutation complete in that a set of clauses is unsatisfiable if and only if there exists a derivation of the empty clause using only resolution enhanced by factoring
+
+an example for an unsatisfiable clause set for which factoring is needed to derive the empty clause is
+
+since each clause consists of two literals so does each possible resolvent therefore by resolution without factoring the empty clause can never be obtained
+using factoring it can be obtained e g as follows
+
+generalizations of the above resolution rule have been devised that do not require the originating formulas to be in clausal normal form
+
+these techniques are useful mainly in interactive theorem proving where it is important to preserve human readability of intermediate result formulas besides they avoid combinatorial explosion during transformation to clause form 98 and sometimes save resolution steps 425
+
+for propositional logic murray 18 and manna and waldinger 98 use the rule
+
+where
+
+
+
+p
+
+
+displaystyle p
+
+denotes an arbitrary formula
+
+
+
+f
+
+p
+
+
+
+displaystyle f p
+
+denotes a formula containing
+
+
+
+p
+
+
+displaystyle p
+
+as a subformula and
+
+
+
+f
+
+
+
+true
+
+
+
+
+
+displaystyle f textit true
+
+is built by replacing in
+
+
+
+f
+
+p
+
+
+
+displaystyle f p
+
+every occurrence of
+
+
+
+p
+
+
+displaystyle p
+
+by
+
+
+
+
+
+true
+
+
+
+
+displaystyle textit true
+
+likewise for
+
+
+
+g
+
+
+displaystyle g
+
+
+the resolvent
+
+
+
+f
+
+
+
+true
+
+
+
+
+g
+
+
+
+false
+
+
+
+
+
+displaystyle f textit true lor g textit false
+
+is intended to be simplified using rules like
+
+
+
+q
+
+
+
+true
+
+
+
+
+
+q
+
+
+displaystyle q land textit true implies q
+
+etc
+in order to prevent generating useless trivial resolvents the rule shall be applied only when
+
+
+
+p
+
+
+displaystyle p
+
+has at least one negative and positive occurrence in
+
+
+
+f
+
+
+displaystyle f
+
+and
+
+
+
+g
+
+
+displaystyle g
+
+respectively murray has shown that this rule is complete if augmented by appropriate logical transformation rules 103
+
+traugott uses the rule
+
+where the exponents of
+
+
+
+p
+
+
+displaystyle p
+
+indicate the polarity of its occurrences while
+
+
+
+g
+
+
+
+true
+
+
+
+
+
+displaystyle g textit true
+
+and
+
+
+
+g
+
+
+
+false
+
+
+
+
+
+displaystyle g textit false
+
+are built as before the formula
+
+
+
+f
+
+g
+
+
+
+true
+
+
+
+
+
+g
+
+
+
+false
+
+
+
+
+
+
+displaystyle f g textit true lnot g textit false
+
+is obtained by replacing each positive and each negative occurrence of
+
+
+
+p
+
+
+displaystyle p
+
+in
+
+
+
+f
+
+
+displaystyle f
+
+with
+
+
+
+g
+
+
+
+true
+
+
+
+
+
+displaystyle g textit true
+
+and
+
+
+
+g
+
+
+
+false
+
+
+
+
+
+displaystyle g textit false
+
+respectively similar to murray s approach appropriate simplifying transformations are to be applied to the resolvent traugott proved his rule to be complete provided
+
+
+
+
+
+
+
+
+
+
+
+
+displaystyle land lor rightarrow lnot
+
+are the only connectives used in formulas 398 400
+
+traugott s resolvent is stronger than murray s 395 moreover it does not introduce new binary junctors thus avoiding a tendency towards clausal form in repeated resolution however formulas may grow longer when a small
+
+
+
+p
+
+
+displaystyle p
+
+is replaced multiple times with a larger
+
+
+
+g
+
+
+
+true
+
+
+
+
+
+displaystyle g textit true
+
+and or
+
+
+
+g
+
+
+
+false
+
+
+
+
+
+displaystyle g textit false
+
+398
+
+as an example starting from the user given assumptions
+
+the murray rule can be used as follows to infer a contradiction
+
+for the same purpose the traugott rule can be used as follows 397
+
+from a comparison of both deductions the following issues can be seen
+
+for first order predicate logic murray s rule is generalized to allow distinct but unifiable subformulas
+
+
+
+
+p
+
+1
+
+
+
+
+displaystyle p_ 1
+
+and
+
+
+
+
+p
+
+2
+
+
+
+
+displaystyle p_ 2
+
+of
+
+
+
+f
+
+
+displaystyle f
+
+and
+
+
+
+g
+
+
+displaystyle g
+
+respectively if
+
+
+
+ϕ
+
+
+displaystyle phi
+
+is the most general unifier of
+
+
+
+
+p
+
+1
+
+
+
+
+displaystyle p_ 1
+
+and
+
+
+
+
+p
+
+2
+
+
+
+
+displaystyle p_ 2
+
+then the generalized resolvent is
+
+
+
+f
+ϕ
+
+
+
+true
+
+
+
+
+g
+ϕ
+
+
+
+false
+
+
+
+
+
+displaystyle f phi textit true lor g phi textit false
+
+while the rule remains sound if a more special substitution
+
+
+
+ϕ
+
+
+displaystyle phi
+
+is used no such rule applications are needed to achieve completeness citation needed
+
+traugott s rule is generalized to allow several pairwise distinct subformulas
+
+
+
+
+p
+
+1
+
+
+
+
+
+
+p
+
+m
+
+
+
+
+displaystyle p_ 1 ldots p_ m
+
+of
+
+
+
+f
+
+
+displaystyle f
+
+and
+
+
+
+
+p
+
+m
+
+1
+
+
+
+
+
+
+p
+
+n
+
+
+
+
+displaystyle p_ m 1 ldots p_ n
+
+of
+
+
+
+g
+
+
+displaystyle g
+
+as long as
+
+
+
+
+p
+
+1
+
+
+
+
+
+
+p
+
+n
+
+
+
+
+displaystyle p_ 1 ldots p_ n
+
+have a common most general unifier say
+
+
+
+ϕ
+
+
+displaystyle phi
+
+the generalized resolvent is obtained after applying
+
+
+
+ϕ
+
+
+displaystyle phi
+
+to the parent formulas thus making the propositional version applicable traugott s completeness proof relies on the assumption that this fully general rule is used 401 it is not clear whether his rule would remain complete if restricted to
+
+
+
+
+p
+
+1
+
+
+
+
+
+
+p
+
+m
+
+
+
+
+displaystyle p_ 1 cdots p_ m
+
+and
+
+
+
+
+p
+
+m
+
+1
+
+
+
+
+
+
+p
+
+n
+
+
+
+
+displaystyle p_ m 1 cdots p_ n
+
+
+
+paramodulation is a related technique for reasoning on sets of clauses where the predicate symbol is equality it generates all equal versions of clauses except reflexive identities the paramodulation operation takes a positive from clause which must contain an equality literal it then searches an into clause with a subterm that unifies with one side of the equality the subterm is then replaced by the other side of the equality the general aim of paramodulation is to reduce the system to atoms reducing the size of the terms when substituting

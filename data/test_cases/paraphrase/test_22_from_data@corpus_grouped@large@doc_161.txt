@@ -1,0 +1,1 @@
+d with re assembly of information chunks is unlikely to impact application performance another concern is the interaction of compression and encryption the goal of encryption is to eliminate any discernible patterns in the information thus encrypted information cannot be deduplicated even though the underlying information may

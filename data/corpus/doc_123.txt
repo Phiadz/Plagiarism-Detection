@@ -1,0 +1,26 @@
+data curation is the organization and integration of data collected from various sources this process involves annotation publication and presentation of the data with the objective of preserving its value over time and ensuring its continued availability for reuse and preservation data curation includes all the processes needed for principled and controlled data creation maintenance and management together with the capacity to add value to data in science data curation may indicate the process of extracting important information from scientific texts such as research articles by experts and converting it into an electronic format such as an entry into a biological database
+
+in the contemporary era of big data the curation of data has become increasingly prominent particularly for software processing high volume and complex data systems the term is also used within the humanities where increasing cultural and scholarly data from digital humanities projects requires the expertise and analytical practices of data curation in broad terms curation encompasses a range of activities and processes involved in the creation management maintenance and validation of a component specifically data curation is the attempt to determine what information is worth saving and for how long
+
+the user rather than the database itself typically initiates data curation and maintains metadata according to the university of illinois graduate school of library and information science data curation is the active and on going management of data through its lifecycle of interest and usefulness to scholarship science and education curation activities enable data discovery and retrieval maintain quality add value and provide for re use over time the data curation workflow is distinct from data quality management data protection lifecycle management and data movement
+
+census data has been available in tabulated punch card form since the early 20th century and has been electronic since the 1960s the inter university consortium for political and social research icpsr website marks 1962 as the date of their first survey data archive
+
+deep background on data libraries appeared in a 1982 issue of the illinois journal library trends for historical background on the data archive movement see social scientific information needs for numeric data the evolution of the international data archive infrastructure the exact curation process undertaken within any organisation depends on the volume of data how much noise the data contains and what the expected future use of the data means to its dissemination
+
+the crises in space data led to the 1999 creation of the open archival information system oais model stewarded by the consultative committee for space data systems ccsds which was formed in 1982
+
+the term data curation is sometimes used in the context of biological databases where specific biological information is firstly obtained from a range of research articles and then stored within a specific category of database for instance information about anti depressant drugs can be obtained from various sources and after checking whether they are available as a database or not they are saved under a drug s database s anti depressive category enterprises are also utilizing data curation within their operational and strategic processes to ensure data quality and accuracy
+
+the dissemination information packages dips for information reuse dipir project is studying research data produced and used by quantitative social scientists archaeologists and zoologists the intended audience is researchers who use secondary data and the digital curators digital repository managers data center staff and others who collect manage and store digital information
+
+the protein data bank was established in 1971 at brookhaven national laboratory and has grown into a global project a database for three dimensional structural data of proteins and other large biological molecules the pdb contains over 120 000 structures all standardized validated against experimental data and annotated
+
+flybase the primary repository of genetic and molecular data for the insect family drosophilidae dates back to 1992 flybase annotates the entire drosophila melanogaster genome
+
+the linguistic data consortium is a data repository for linguistic data dating back to 1992
+
+the sloan digital sky survey began surveying the night sky in 2000 computer scientist jim gray while working on the data architecture of the sdss championed the idea of data curation in the sciences
+
+datanet was a research program of the u s national science foundation office of cyberinfrastructure funding data management projects in the sciences dataone data observation network for earth is one of the projects funded through datanet helping the environmental science community preserve and share data
+the commercial importance of data curation is highlighted by the existence of patents in the field for example companies like tamr inc and praxi data hold patents related to data curation technologies and processes

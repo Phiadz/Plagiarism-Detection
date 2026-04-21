@@ -1,0 +1,362 @@
+logical consequence also entailment or logical implication is a fundamental concept in logic which describes the relationship between statements that hold true when one statement logically follows from one or more statements a valid logical argument is one in which the conclusion is entailed by the premises because the conclusion is the consequence of the premises the philosophical analysis of logical consequence involves the following questions in what sense does a conclusion follow from its premises and what does it mean for a conclusion to be a consequence of premises all of philosophical logic is meant to provide accounts of the nature of logical consequence and the nature of logical truth
+
+logical consequence is necessary and formal by way of examples that explain with formal proof and models of interpretation a sentence is said to be a logical consequence of a set of sentences for a given language if and only if using only logic i e without regard to any personal interpretations of the sentences the sentence must be true if every sentence in the set is true
+
+logicians make precise accounts of logical consequence regarding a given language
+
+
+
+
+
+l
+
+
+
+
+displaystyle mathcal l
+
+either by constructing a deductive system for
+
+
+
+
+
+l
+
+
+
+
+displaystyle mathcal l
+
+or by formal intended semantics for language
+
+
+
+
+
+l
+
+
+
+
+displaystyle mathcal l
+
+the polish logician alfred tarski identified three features of an adequate characterization of entailment 1 the logical consequence relation relies on the logical form of the sentences 2 the relation is a priori i e it can be determined with or without regard to empirical evidence sense experience and 3 the logical consequence relation has a modal component
+
+the most widely prevailing view on how best to account for logical consequence is to appeal to formality this is to say that whether statements follow from one another logically depends on the structure or logical form of the statements without regard to the contents of that form
+
+syntactic accounts of logical consequence rely on schemes using inference rules for instance we can express the logical form of a valid argument as
+
+this argument is formally valid because every instance of arguments constructed using this scheme is valid
+
+this is in contrast to an argument like fred is mike s brother s son therefore fred is mike s nephew since this argument depends on the meanings of the words brother son and nephew the statement fred is mike s nephew is a so called material consequence of fred is mike s brother s son not a formal consequence a formal consequence must be true in all cases however this is an incomplete definition of formal consequence since even the argument p is q s brother s son therefore p is q s nephew is valid in all cases but is not a formal argument
+
+if it is known that
+
+
+
+q
+
+
+displaystyle q
+
+follows logically from
+
+
+
+p
+
+
+displaystyle p
+
+then no information about the possible interpretations of
+
+
+
+p
+
+
+displaystyle p
+
+or
+
+
+
+q
+
+
+displaystyle q
+
+will affect that knowledge our knowledge that
+
+
+
+q
+
+
+displaystyle q
+
+is a logical consequence of
+
+
+
+p
+
+
+displaystyle p
+
+cannot be influenced by empirical knowledge deductively valid arguments can be known to be so without recourse to experience so they must be knowable a priori however formality alone does not guarantee that logical consequence is not influenced by empirical knowledge so the a priori property of logical consequence is considered to be independent of formality
+
+the two prevailing techniques for providing accounts of logical consequence involve expressing the concept in terms of proofs and via models the study of the syntactic consequence of a logic is called its proof theory whereas the study of its semantic consequence is called its model theory
+
+a formula
+
+
+
+a
+
+
+displaystyle a
+
+is a syntactic consequence within some formal system
+
+
+
+
+
+f
+s
+
+
+
+
+displaystyle mathcal fs
+
+of a set
+
+
+
+γ
+
+
+displaystyle gamma
+
+of formulas if there is a formal proof in
+
+
+
+
+
+f
+s
+
+
+
+
+displaystyle mathcal fs
+
+of
+
+
+
+a
+
+
+displaystyle a
+
+from the set
+
+
+
+γ
+
+
+displaystyle gamma
+
+this is denoted
+
+
+
+γ
+
+
+
+
+f
+s
+
+
+
+a
+
+
+displaystyle gamma vdash _ mathcal fs a
+
+the turnstile symbol
+
+
+
+
+
+
+displaystyle vdash
+
+was originally introduced by frege in 1879 but its current use only dates back to rosser and kleene 1934 1935
+
+syntactic consequence does not depend on any interpretation of the formal system
+
+a formula
+
+
+
+a
+
+
+displaystyle a
+
+is a semantic consequence within some formal system
+
+
+
+
+
+f
+s
+
+
+
+
+displaystyle mathcal fs
+
+of a set of statements
+
+
+
+γ
+
+
+displaystyle gamma
+
+if and only if there is no model
+
+
+
+
+
+i
+
+
+
+
+displaystyle mathcal i
+
+in which all members of
+
+
+
+γ
+
+
+displaystyle gamma
+
+are true and
+
+
+
+a
+
+
+displaystyle a
+
+is false this is denoted
+
+
+
+γ
+
+
+
+
+f
+s
+
+
+
+a
+
+
+displaystyle gamma models _ mathcal fs a
+
+or in other words the set of the interpretations that make all members of
+
+
+
+γ
+
+
+displaystyle gamma
+
+true is a subset of the set of the interpretations that make
+
+
+
+a
+
+
+displaystyle a
+
+true
+
+modal accounts of logical consequence are variations on the following basic idea
+
+alternatively and most would say equivalently
+
+such accounts are called modal because they appeal to the modal notions of logical necessity and logical possibility it is necessary that is often expressed as a universal quantifier over possible worlds so that the accounts above translate as
+
+consider the modal account in terms of the argument given as an example above
+
+the conclusion is a logical consequence of the premises because we can not imagine a possible world where a all frogs are green b kermit is a frog and c kermit is not green
+
+modal formal accounts of logical consequence combine the modal and formal accounts above yielding variations on the following basic idea
+
+the accounts considered above are all truth preservational in that they all assume that the characteristic feature of a good inference is that it never allows one to move from true premises to an untrue conclusion as an alternative some have proposed warrant preservational accounts according to which the characteristic feature of a good inference is that it never allows one to move from justifiably assertible premises to a conclusion that is not justifiably assertible this is roughly the account favored by intuitionists
+
+the accounts discussed above all yield monotonic consequence relations i e ones such that if
+
+
+
+a
+
+
+displaystyle a
+
+is a consequence of
+
+
+
+γ
+
+
+displaystyle gamma
+
+then
+
+
+
+a
+
+
+displaystyle a
+
+is a consequence of any superset of
+
+
+
+γ
+
+
+displaystyle gamma
+
+it is also possible to specify non monotonic consequence relations to capture the idea that e g tweety can fly is a logical consequence of
+
+but not of

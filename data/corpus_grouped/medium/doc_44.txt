@@ -1,0 +1,23 @@
+andrew eric gelman born february 11 1965 is an american statistician who is higgins professor of statistics and a professor of political science at columbia university gelman attended the massachusetts institute of technology as a national merit scholar and graduated with bachelor of science degrees in mathematics and in physics in 1986 he then received a master of science degree in 1987 and a doctor of philosophy in 1990 both in statistics from harvard university under the supervision of donald rubin
+
+gelman is the higgins professor of statistics and professor of political science and the director of the applied statistics center at columbia university he is a major contributor to statistical philosophy and methods especially in bayesian statistics and hierarchical models
+
+he is one of the leaders of the development of the statistical programming framework stan
+
+gelman s approach to statistical inference emphasizes studying variation and the associations between data rather than searching for statistical significance
+
+gelman says his approach to hypothesis testing is nearly the opposite of the conventional view of what is typical for statistical inference while the standard approach may be seen as having the goal of rejecting a null hypothesis gelman argues that you can t learn much from a rejection on the other hand a non rejection tells you something it tells you that your study is noisy that you don t have enough information in your study to identify what you care about even if the study is done perfectly even if measurements are unbiased and your sample is representative of your population etc that can be some useful knowledge it means you re off the hook trying to explain some pattern that might just be noise gelman also works within the context of larger confirmationist and falsificationist paradigms of science
+
+gelman s approach to statistical inference is a major recurring theme of his work
+
+gelman is notable for his efforts to make political science and statistics more accessible to journalists and to the public he was one of the primary authors of the monkey cage blog published by the washington post the blog is dedicated to providing informed commentary on politics and making political science more accessible
+
+gelman also keeps his own blog which deals with statistical practices in social science he frequently writes about bayesian statistics displaying data and interesting trends in social science according to the new york times on the blog he posts his thoughts on best statistical practices in the sciences with a frequent emphasis on what he sees as the absurd and unscientific he is respected enough that his posts are well read he is cutting enough that many of his critiques are enjoyed with a strong sense of schadenfreude
+
+gelman is a prominent critic of poor methodological work and he identifies such work as contributing to the replication crisis
+
+he has received the outstanding statistical application award from the american statistical association three times in 1998 2000 and 2008 he is an elected fellow of the american statistical association and the institute of mathematical statistics he was elected fellow of the american academy of arts and sciences aaas in 2020
+
+gelman married caroline rosenthal in 2002 and has three children the psychologist susan gelman is his older sister and cartoonist woody gelman was his uncle
+
+gelman is a participant in study of mathematically precocious youth

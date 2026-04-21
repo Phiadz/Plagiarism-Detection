@@ -1,0 +1,63 @@
+knowledge extraction is the creation of knowledge from structured relational databases xml and unstructured text documents images sources the resulting knowledge needs to be in a machine readable and machine interpretable format and must represent knowledge in a manner that facilitates inferencing although it is methodically similar to information extraction nlp and etl data warehouse the main criterion is that the extraction result goes beyond the creation of structured information or the transformation into a relational schema it requires either the reuse of existing formal knowledge reusing identifiers or ontologies or the generation of a schema based on the source data
+
+the rdb2rdf w3c group was standardizing a language for extraction of resource description frameworks rdf from relational databases when another popular example for knowledge extraction is the transformation of wikipedia into structured data and also the mapping to existing knowledge see dbpedia and freebase
+
+after the standardization of knowledge representation languages such as rdf and owl much research has been conducted in the area especially regarding transforming relational databases into rdf identity resolution knowledge discovery and ontology learning the general process uses traditional methods from information extraction and extract transform and load etl which transform the data from the sources into structured formats so understanding how the interact and learn from each other
+
+the following criteria can be used to categorize approaches in this topic some of them only account for extraction from relational databases
+
+president obama called wednesday on congress to extend a tax break for students included in last year s economic stimulus package arguing that the policy provides more generous assistance
+when building a rdb representation of a problem domain the starting point is frequently an entity relationship diagram erd typically each entity is represented as a database table each attribute of the entity becomes a column in that table and relationships between entities are indicated by foreign keys each table typically defines a particular class of entity each column one of its attributes each row in the table describes an entity
+instance uniquely identified by a primary key the table rows collectively describe an entity set in an equivalent rdf representation of the same entity set
+
+so to render an equivalent view based on rdf semantics the basic mapping algorithm would be as follows
+
+early mentioning of this basic or direct mapping can be found in tim berners lee s comparison of the er model to the rdf model
+
+the 1 1 mapping mentioned above exposes the legacy data as rdf in a straightforward way additional refinements can be employed to improve the usefulness of rdf output respective the given use cases normally information is lost during the transformation of an entity relationship diagram erd to relational tables details can be found in object relational impedance mismatch and has to be reverse engineered from a conceptual view approaches for extraction can come from two directions the first direction tries to extract or learn an owl schema from the given database schema early approaches used a fixed amount of manually created mapping rules to refine the 1 1 mapping more elaborate methods are employing heuristics or learning algorithms to induce schematic information methods overlap with ontology learning while some approaches try to extract the information from the structure inherent in the sql schema analysing e g foreign keys others analyse the content and the values in the tables to create conceptual hierarchies e g a columns with few values are candidates for becoming categories the second direction tries to map the schema and its contents to a pre existing domain ontology see also ontology alignment often however a suitable domain ontology does not exist and has to be created first
+
+as xml is structured as a tree any data can be easily represented in rdf which is structured as a graph xml2rdf is one example of an approach that uses rdf blank nodes and transforms xml elements and attributes to rdf properties the topic however is more complex as in the case of relational databases in a relational table the primary key is an ideal candidate for becoming the subject of the extracted triples an xml element however can be transformed depending on the context as a subject a predicate or object of a triple xslt can be used a standard transformation language to manually convert xml to rdf
+
+the largest portion of information contained in business documents about 80 is encoded in natural language and therefore unstructured because unstructured data is rather a challenge for knowledge extraction more sophisticated methods are required which generally tend to supply worse results compared to structured data the potential for a massive acquisition of extracted knowledge however should compensate the increased complexity and decreased quality of extraction in the following natural language sources are understood as sources of information where the data is given in an unstructured fashion as plain text if the given text is additionally embedded in a markup document e g html document the mentioned systems normally remove the markup elements automatically
+
+as a preprocessing step to knowledge extraction it can be necessary to perform linguistic annotation by one or multiple nlp tools individual modules in an nlp workflow normally build on tool specific formats for input and output but in the context of knowledge extraction structured formats for representing linguistic annotations have been applied
+
+typical nlp tasks relevant to knowledge extraction include
+
+in nlp such data is typically represented in tsv formats csv formats with tab as separators often referred to as conll formats for knowledge extraction workflows rdf views on such data have been created in accordance with the following community standards
+
+other platform specific formats include
+
+traditional information extraction is a technology of natural language processing which extracts information from typically natural language texts and structures these in a suitable manner the kinds of information to be identified must be specified in a model before beginning the process which is why the whole process of traditional information extraction is domain dependent the ie is split in the following five subtasks
+
+the task of named entity recognition is to recognize and to categorize all named entities contained in a text assignment of a named entity to a predefined category this works by application of grammar based methods or statistical models
+
+coreference resolution identifies equivalent entities which were recognized by ner within a text there are two relevant kinds of equivalence relationship the first one relates to the relationship between two different represented entities e g ibm europe and ibm and the second one to the relationship between an entity and their anaphoric references e g it and ibm both kinds can be recognized by coreference resolution
+
+during template element construction the ie system identifies descriptive properties of entities recognized by ner and co these properties correspond to ordinary qualities like red or big
+
+template relation construction identifies relations which exist between the template elements these relations can be of several kinds such as works for or located in with the restriction that both domain and range correspond to entities
+
+in the template scenario production events which are described in the text will be identified and structured with respect to the entities recognized by ner and co and relations identified by tr
+
+ontology based information extraction is a subfield of information extraction with which at least one ontology is used to guide the process of information extraction from natural language text the obie system uses methods of traditional information extraction to identify concepts instances and relations of the used ontologies in the text which will be structured to an ontology after the process thus the input ontologies constitute the model of information to be extracted
+
+ontology learning is the automatic or semi automatic creation of ontologies including extracting the corresponding domain s terms from natural language text as building ontologies manually is extremely labor intensive and time consuming there is great motivation to automate the process
+
+during semantic annotation natural language text is augmented with metadata often represented in rdfa which should make the semantics of contained terms machine understandable at this process which is generally semi automatic knowledge is extracted in the sense that a link between lexical terms and for example concepts from ontologies is established thus knowledge is gained which meaning of a term in the processed context was intended and therefore the meaning of the text is grounded in machine readable data with the ability to draw inferences semantic annotation is typically split into the following two subtasks
+
+at the terminology extraction level lexical terms from the text are extracted for this purpose a tokenizer determines at first the word boundaries and solves abbreviations afterwards terms from the text which correspond to a concept are extracted with the help of a domain specific lexicon to link these at entity linking
+
+in entity linking a link between the extracted lexical terms from the source text and the concepts from an ontology or knowledge base such as dbpedia is established for this candidate concepts are detected appropriately to the several meanings of a term with the help of a lexicon finally the context of the terms is analyzed to determine the most appropriate disambiguation and to assign the term to the correct concept
+
+note that semantic annotation in the context of knowledge extraction is not to be confused with semantic parsing as understood in natural language processing also referred to as semantic annotation semantic parsing aims a complete machine readable representation of natural language whereas semantic annotation in the sense of knowledge extraction tackles only a very elementary aspect of that
+
+the following criteria can be used to categorize tools which extract knowledge from natural language text
+
+the following table characterizes some tools for knowledge extraction from natural language sources
+
+knowledge discovery describes the process of automatically searching large volumes of data for patterns that can be considered knowledge about the data it is often described as deriving knowledge from the input data knowledge discovery developed out of the data mining domain and is closely related to it both in terms of methodology and terminology
+
+the most well known branch of data mining is knowledge discovery also known as knowledge discovery in databases kdd just as many other forms of knowledge discovery it creates abstractions of the input data the knowledge obtained through the process may become additional data that can be used for further usage and discovery often the outcomes from knowledge discovery are not actionable techniques like domain driven data mining aims to discover and deliver actionable knowledge and insights
+
+another promising application of knowledge discovery is in the area of software modernization weakness discovery and compliance which involves understanding existing software artifacts this process is related to a concept of reverse engineering usually the knowledge obtained from existing software is presented in the form of models to which specific queries can be made when necessary an entity relationship is a frequent format of representing knowledge obtained from existing software object management group omg developed the specification knowledge discovery metamodel kdm which defines an ontology for the software assets and their relationships for the purpose of performing knowledge discovery in existing code knowledge discovery from existing software systems also known as software mining is closely related to data mining since existing software artifacts contain enormous value for risk management and business value key for the evaluation and evolution of software systems instead of mining individual data sets software mining focuses on metadata such as process flows e g data flows control flows call maps architecture database schemas and business rules terms process

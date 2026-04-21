@@ -1,0 +1,25 @@
+
+
+peter norvig born 14 december 1956 is an american computer scientist and distinguished education fellow at the stanford institute for human centered ai he previously served as a director of research and search quality at google norvig is the co author with stuart j russell of the most popular textbook in the field of ai artificial intelligence a modern approach used in more than 1 500 universities in 135 countries
+
+norvig grew up in an academic family his father was danish and came to the united states after world war ii to study math at the university of minnesota norvig received a bachelor of science in applied mathematics from brown university and a ph d in computer science from the university of california berkeley
+
+norvig is a councilor of the association for the advancement of artificial intelligence and co author with stuart j russell of artificial intelligence a modern approach now the leading college text in the field he was head of the computational sciences division now the intelligent systems division at nasa ames research center where he oversaw a staff of 200 scientists performing nasa s research and development in autonomy and robotics automated software engineering and data analysis neuroengineering collaborative systems research and simulation based decision making before that he was chief scientist at junglee where he helped develop one of the first internet comparison shopping services chief designer at harlequin inc and senior scientist at sun microsystems laboratories
+
+norvig has served as an assistant professor at the university of southern california and as a research faculty member at berkeley he has over fifty publications in various areas of computer science concentrating on artificial intelligence natural language processing information retrieval and software engineering including the books artificial intelligence a modern approach paradigms of ai programming case studies in common lisp verbmobil a translation system for face to face dialog and intelligent help systems for unix
+
+norvig is one of the creators of jscheme norvig is listed under academic faculty advisors for the singularity university in 2011 norvig worked with sebastian thrun to develop a popular online course in artificial intelligence that had more than 160 000 students enrolled he also teaches an online course via the udacity platform
+
+by 2022 artificial intelligence a modern approach which norvig first co authored with stuart j russell in 1995 was the leading textbook in the field used by over 1400 schools globally
+
+in 2001 norvig published a short article titled teach yourself programming in ten years arguing against the fashionable introductory programming textbooks that purported to teach programming in days or weeks the article was widely shared and discussed and has attracted contributed translations to over 20 languages
+
+norvig is also known for his 2003 gettysburg powerpoint presentation a satire about bad presentation practices using abraham lincoln s famous gettysburg address
+
+his 2009 ieee intelligent systems article the unreasonable effectiveness of data co authored with alon y halevy and fernando pereira described how the best approach to highly complex natural language understanding problems is to harness large quantities of data not to depend on tidy simple formulas they said that by generating large amounts of unlabeled noisy data new algorithms can be used to build high quality models from the data this has informed the development of foundation models but invariably simple models and a lot of data trump more elaborate models based on less data 9 choose a representation that can use unsupervised learning on unlabeled data which is so much more plentiful than labeled data 12 the title refers to the physicist eugene wigner s 1960 journal article the unreasonable effectiveness of mathematics in the natural sciences
+
+in a 23 september 2010 lecture presented as part of the vancouver based university of british columbia s department of computer science s distinguished lecture series norvig who was then the director of research at google described how large quantities of data deepen our understanding of phenomena
+
+in his june 2012 ted talk norvig described the fall of 2011 hybrid class on artificial intelligence attended by 100 000 online students around the globe that he co taught with sebastian thrun at stanford university
+
+norvig was elected an aaai fellow in 2001 and a fellow of the association for computing machinery in 2006

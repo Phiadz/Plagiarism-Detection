@@ -1,0 +1,9 @@
+data extraction is the act or process of retrieving data out of usually unstructured or poorly structured data sources for further data processing or data storage data migration the import into the intermediate extracting system is thus usually followed by data transformation and possibly the addition of metadata prior to export to another stage in the data workflow
+
+usually the term data extraction is applied when experimental data is first imported into a computer from primary sources like measuring or recording devices today s electronic devices will usually present an electrical connector e g usb through which raw data can be streamed into a personal computer
+
+typical unstructured data sources include web pages emails documents pdfs social media scanned text mainframe reports spool files multimedia files etc extracting data from these unstructured sources has grown into a considerable technical challenge where as historically data extraction has had to deal with changes in physical hardware formats the majority of current data extraction deals with extracting data from these unstructured data sources and from different software formats this growing process of data extraction from the web is referred to as web data extraction or web scraping
+
+the act of adding structure to unstructured data takes a number of forms
+
+

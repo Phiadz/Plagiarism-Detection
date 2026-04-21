@@ -1,0 +1,150 @@
+this is an accepted version of this page
+
+
+a programming language is an engineered language for expressing computer programs typically allowing software to be written in a human readable manner
+
+execution of a program requires an implementation there are two main approaches for implementing a programming language compilation where programs are compiled ahead of time to machine code and interpretation where programs are directly executed in addition to these two extremes some implementations use hybrid approaches such as just in time compilation and bytecode interpreters
+
+the design of programming languages has been strongly influenced by computer architecture with most imperative languages designed around the ubiquitous von neumann architecture while early programming languages were closely tied to the hardware modern languages often hide hardware details via abstraction in an effort to enable better software with less effort citation needed
+
+programming languages have some similarity to natural languages in that they can allow communication of ideas between people that is programs are generally human readable and can express complex ideas however the kinds of ideas that programming languages can express are ultimately limited to the domain of computation
+
+the term computer language is sometimes used interchangeably with programming language but some contend they are different concepts some contend that programming languages are a subset of computer languages some use computer language to classify a language used in computing that is not considered a programming language citation needed some regard a programming language as a theoretical construct for programming an abstract machine and a computer language as the subset thereof that runs on a physical computer which has finite hardware resources
+
+john c reynolds emphasizes that a formal specification language is as much a programming language as it is a language intended for execution he argues that textual and even graphical input formats that affect the behavior of a computer are programming languages despite the fact they are commonly not turing complete and remarks that ignorance of programming language concepts is the reason for many flaws in input formats
+
+the first programmable computers were invented during the 1940s and with them the first programming languages the earliest computers were programmed in first generation programming languages 1gls machine language simple instructions that could be directly executed by the processor this code was very difficult to debug and was not portable between different computer systems in order to improve the ease of programming assembly languages or second generation programming languages 2gls were invented diverging from the machine language to make programs easier to understand for humans although they did not increase portability
+
+initially hardware resources were scarce and expensive while human resources were cheaper therefore cumbersome languages that were time consuming to use but were closer to the hardware for higher efficiency were favored the introduction of high level programming languages third generation programming languages 3gls revolutionized programming these languages abstracted away the details of the hardware instead being designed to express algorithms that could be understood more easily by humans for example arithmetic expressions could now be written in symbolic notation and later translated into machine code that the hardware could execute in 1957 fortran formula translation was invented often considered the first compiled high level programming language fortran has remained in use into the twenty first century
+
+around 1960 the first mainframes general purpose computers were developed although they could only be operated by professionals and the cost was extreme the data and instructions were input by punch cards meaning that no input could be added while the program was running the languages developed at this time therefore are designed for minimal interaction after the invention of the microprocessor computers in the 1970s became dramatically cheaper new computers also allowed more user interaction which was supported by newer programming languages
+
+lisp implemented in 1958 was the first functional programming language unlike fortran it supported recursion and conditional expressions and it also introduced dynamic memory management on a heap and automatic garbage collection for the next decades lisp dominated artificial intelligence applications in 1978 another functional language ml introduced inferred types and polymorphic parameters
+
+after algol algorithmic language was released in 1958 and 1960 it became the standard in computing literature for describing algorithms although its commercial success was limited most popular imperative languages including c pascal ada c java and c are directly or indirectly descended from algol 60 among its innovations adopted by later programming languages included greater portability and the first use of context free bnf grammar simula the first language to support object oriented programming including subtypes dynamic dispatch and inheritance also descends from algol and achieved commercial success c another algol descendant has sustained popularity into the twenty first century c allows access to lower level machine operations than other contemporary languages its power and efficiency generated in part with flexible pointer operations comes at the cost of making it more difficult to write correct code
+
+prolog designed in 1972 was the first logic programming language communicating with a computer using formal logic notation with logic programming the programmer specifies a desired result and allows the interpreter to decide how to achieve it
+
+during the 1980s the invention of the personal computer transformed the roles for which programming languages were used new languages introduced in the 1980s included c a superset of c that can compile c programs but also supports classes and inheritance ada and other new languages introduced support for concurrency the japanese government invested heavily into the so called fifth generation languages that added support for concurrency to logic programming constructs but these languages were outperformed by other concurrency supporting languages
+
+due to the rapid growth of the internet and the world wide web in the 1990s new programming languages were introduced to support web pages and networking java based on c and designed for increased portability across systems and security enjoyed large scale success because these features are essential for many internet applications another development was that of dynamically typed scripting languages python javascript php and ruby designed to quickly produce small programs that coordinate existing applications due to their integration with html they have also been used for building web pages hosted on servers
+
+during the 2000s there was a slowdown in the development of new programming languages that achieved widespread popularity one innovation was service oriented programming designed to exploit distributed computing systems which components are connected by a network services are similar to objects in object oriented programming but run on a separate process c and f cross pollinated ideas between imperative and functional programming after 2010 several new languages rust go swift zig and carbon competed for the performance critical software for which c had historically been used most of the new programming languages use static typing while a few numbers of new languages use dynamic typing like julia
+
+some of the new programming languages are classified as visual programming languages like scratch and labview also some of these languages mix between textual and visual programming usage like ballerina also this trend lead to developing projects that help in developing new visual languages like blockly by google many game engines like unreal and unity support visual scripting
+
+a language can be defined in terms of syntax form and semantics meaning and often is defined via a formal language specification
+
+a programming language s surface form is known as its syntax most programming languages are purely textual they use sequences of text including words numbers and punctuation much like written natural languages in contrast some programming languages are graphical using visual relationships between symbols to specify a program
+
+the syntax of a language describes the possible combinations of symbols that form a syntactically correct program the meaning given to a combination of symbols is handled by semantics either formal or hard coded in a reference implementation since most languages are textual this article discusses textual syntax
+
+the programming language syntax is usually defined using a combination of regular expressions for lexical structure and backus naur form for grammatical structure below is a simple grammar based on lisp
+
+this grammar specifies the following
+
+the following are examples of well formed token sequences in this grammar 12345 and a b c232 1
+
+not all syntactically correct programs are semantically correct many syntactically correct programs are nonetheless ill formed per the language s rules and may depending on the language specification and the soundness of the implementation result in an error on translation or execution in some cases such programs may exhibit undefined behavior even when a program is well defined within a language it may still have a meaning that is not intended by the person who wrote it
+
+using natural language as an example it may not be possible to assign a meaning to a grammatically correct sentence or the sentence may be false
+
+the following c language fragment is syntactically correct but performs operations that are not semantically defined the operation p 4 has no meaning for a value having a complex type and p im is not defined because the value of p is the null pointer
+
+if the type declaration on the first line were omitted the program would trigger an error on the undefined variable p during compilation however the program would still be syntactically correct since type declarations provide only semantic information
+
+the grammar needed to specify a programming language can be classified by its position in the chomsky hierarchy the syntax of most programming languages can be specified using a type 2 grammar i e they are context free grammars some languages including perl and lisp contain constructs that allow execution during the parsing phase languages that have constructs that allow the programmer to alter the behavior of the parser make syntax analysis an undecidable problem and generally blur the distinction between parsing and execution in contrast to lisp s macro system and perl s begin blocks which may contain general computations c macros are merely string replacements and do not require code execution
+
+semantics refers to the meaning of content that conforms to a language s syntax
+
+static semantics defines restrictions on the structure of valid texts that are hard or impossible to express in standard syntactic formalisms failed verification for compiled languages static semantics essentially include those semantic rules that can be checked at compile time examples include checking that every identifier is declared before it is used in languages that require such declarations or that the labels on the arms of a case statement are distinct many important restrictions of this type like checking that identifiers are used in the appropriate context e g not adding an integer to a function name or that subroutine calls have the appropriate number and type of arguments can be enforced by defining them as rules in a logic called a type system other forms of static analyses like data flow analysis may also be part of static semantics programming languages such as java and c have definite assignment analysis a form of data flow analysis as part of their respective static semantics
+
+once data has been specified the machine must be instructed to perform operations on the data for example the semantics may define the strategy by which expressions are evaluated to values or the manner in which control structures conditionally execute statements the dynamic semantics also known as execution semantics of a language defines how and when the various constructs of a language should produce a program behavior there are many ways of defining execution semantics natural language is often used to specify the execution semantics of languages commonly used in practice a significant amount of academic research goes into formal semantics of programming languages which allows execution semantics to be specified in a formal manner results from this field of research have seen limited application to programming language design and implementation outside academia
+
+a language provides features for a programmer to develop software some notable features are described below
+
+a data type is a set of allowable values and operations that can be performed on these values each programming language s type system defines which data types exist the type of an expression and how type equivalence and type compatibility function in the language
+
+according to type theory a language is fully typed if the specification of every operation defines types of data to which the operation is applicable in contrast an untyped language such as most assembly languages allows any operation to be performed on any data generally sequences of bits of various lengths in practice while few languages are fully typed most offer a degree of typing
+
+because different types such as integers and floats represent values differently unexpected results will occur if one type is used when another is expected type checking will flag this error usually at compile time runtime type checking is more costly with strong typing type errors can always be detected unless variables are explicitly cast to a different type weak typing occurs when languages allow implicit casting for example to enable operations between variables of different types without the programmer making an explicit type conversion the more cases in which this type coercion is allowed the fewer type errors can be detected
+
+early programming languages often supported only built in numeric types such as the integer signed and unsigned and floating point to support operations on real numbers that are not integers most programming languages support multiple sizes of floats often called float and double and integers depending on the size and precision required by the programmer storing an integer in a type that is too small to represent it leads to integer overflow the most common way of representing negative numbers with signed types is twos complement although ones complement is also used other common types include boolean which is either true or false and character traditionally one byte sufficient to represent all ascii characters
+
+arrays are a data type whose elements in many languages must consist of a single type of fixed length other languages define arrays as references to data stored elsewhere and support elements of varying types depending on the programming language sequences of multiple characters called strings may be supported as arrays of characters or their own primitive type strings may be of fixed or variable length which enables greater flexibility at the cost of increased storage space and more complexity other data types that may be supported include lists associative unordered arrays accessed via keys records in which data is mapped to names in an ordered structure and tuples similar to records but without names for data fields pointers store memory addresses typically referencing locations on the heap where other data is stored
+
+the simplest user defined type is an ordinal type often called an enumeration whose values can be mapped onto the set of positive integers since the mid 1980s most programming languages also support abstract data types in which the representation of the data and operations are hidden from the user who can only access an interface the benefits of data abstraction can include increased reliability reduced complexity less potential for name collision and allowing the underlying data structure to be changed without the client needing to alter its code
+
+in static typing all expressions have their types determined before a program executes typically at compile time most widely used statically typed programming languages require the types of variables to be specified explicitly in some languages types are implicit one form of this is when the compiler can infer types based on context the downside of implicit typing is the potential for errors to go undetected complete type inference has traditionally been associated with functional languages such as haskell and ml
+
+with dynamic typing the type is not attached to the variable but only the value encoded in it a single variable can be reused for a value of a different type although this provides more flexibility to the programmer it is at the cost of lower reliability and less ability for the programming language to check for errors some languages allow variables of a union type to which any type of value can be assigned in an exception to their usual static typing rules
+
+in computing multiple instructions can be executed simultaneously many programming languages support instruction level and subprogram level concurrency by the twenty first century additional processing power on computers was increasingly coming from the use of additional processors which requires programmers to design software that makes use of multiple processors simultaneously to achieve improved performance interpreted languages such as python and ruby do not support the concurrent use of multiple processors other programming languages do support managing data shared between different threads by controlling the order of execution of key instructions via the use of semaphores controlling access to shared data via monitor or enabling message passing between threads
+
+many programming languages include exception handlers a section of code triggered by runtime errors that can deal with them in two main ways
+
+some programming languages support dedicating a block of code to run regardless of whether an exception occurs before the code is reached this is called finalization
+
+there is a tradeoff between increased ability to handle exceptions and reduced performance for example even though array index errors are common c does not check them for performance reasons although programmers can write code to catch user defined exceptions this can clutter a program standard libraries in some languages such as c use their return values to indicate an exception some languages and their compilers have the option of turning on and off error handling capability either temporarily or permanently
+
+one of the most important influences on programming language design has been computer architecture imperative languages the most commonly used type were designed to perform well on von neumann architecture the most common digital computer architecture in von neumann architecture the memory stores both data and instructions while the cpu that performs instructions on data is separate and data must be piped back and forth to the cpu the central elements in these languages are variables assignment and iteration which is more efficient than recursion on these machines
+
+many programming languages have been designed from scratch altered to meet new needs and combined with other languages many have eventually fallen into disuse citation needed the birth of programming languages in the 1950s was stimulated by the desire to make a universal programming language suitable for all machines and uses avoiding the need to write code for different computers by the early 1960s the idea of a universal language was rejected due to the differing requirements of the variety of purposes for which code was written
+
+desirable qualities of programming languages include readability writability and reliability these features can reduce the cost of training programmers in a language the amount of time needed to write and maintain programs in the language the cost of compiling the code and increase runtime performance
+
+programming language design often involves tradeoffs for example features to improve reliability typically come at the cost of performance increased expressivity due to a large number of operators makes writing code easier but comes at the cost of readability
+
+
+natural language programming has been proposed as a way to eliminate the need for a specialized language for programming however this goal remains distant and its benefits are open to debate edsger w dijkstra took the position that the use of a formal language is essential to prevent the introduction of meaningless constructs alan perlis was similarly dismissive of the idea
+
+the specification of a programming language is an artifact that the language users and the implementors can use to agree upon whether a piece of source code is a valid program in that language and if so what its behavior shall be
+
+a programming language specification can take several forms including the following
+
+an implementation of a programming language is the conversion of a program into machine code that can be executed by the hardware the machine code then can be executed with the help of the operating system the most common form of interpretation in production code is by a compiler which translates the source code via an intermediate level language into machine code known as an executable once the program is compiled it will run more quickly than with other implementation methods some compilers are able to provide further optimization to reduce memory or computation usage when the executable runs but increasing compilation time
+
+another implementation method is to run the program with an interpreter which translates each line of software into machine code just before it executes although it can make debugging easier the downside of interpretation is that it runs 10 to 100 times slower than a compiled executable hybrid interpretation methods provide some of the benefits of compilation and some of the benefits of interpretation via partial compilation one form this takes is just in time compilation in which the software is compiled ahead of time into an intermediate language and then into machine code immediately before execution
+
+although most of the most commonly used programming languages have fully open specifications and implementations many programming languages exist only as proprietary programming languages with the implementation available only from a single vendor which may claim that such a proprietary language is their intellectual property proprietary programming languages are commonly domain specific languages or internal scripting languages for a single product some proprietary languages are used only internally within a vendor while others are available to external users citation needed
+
+some programming languages exist on the border between proprietary and open for example oracle corporation asserts proprietary rights to some aspects of the java programming language and microsoft s c programming language which has open implementations of most parts of the system also has common language runtime clr as a closed environment
+
+many proprietary languages are widely used in spite of their proprietary nature examples include matlab vbscript and wolfram language some languages may make the transition from closed to open for example erlang was originally ericsson s internal programming language
+
+open source programming languages are particularly helpful for open science applications enhancing the capacity for replication and code sharing
+
+thousands of different programming languages have been created mainly in the computing field
+individual software projects commonly use five programming languages or more
+
+programming languages differ from most other forms of human expression in that they require a greater degree of precision and completeness when using a natural language to communicate with other people human authors and speakers can be ambiguous and make small errors and still expect their intent to be understood however figuratively speaking computers do exactly what they are told to do and cannot understand what code the programmer intended to write the combination of the language definition a program and the program s inputs must fully specify the external behavior that occurs when the program is executed within the domain of control of that program in contrast ideas about an algorithm can be communicated to humans without the precision needed for execution by using pseudocode which interleaves natural language with code written in a programming language
+
+a programming language provides a structured mechanism for defining pieces of data and the operations or transformations that may be carried out automatically on that data a programmer uses the abstractions present in the language to represent the concepts involved in a computation these concepts are represented as a collection of the simplest elements available called primitives programming is the process by which programmers combine these primitives to compose new programs or adapt existing ones to new uses or a changing environment
+
+programs for a computer might be executed in a batch process without any human interaction or a user might type commands in an interactive session of an interpreter in this case the commands are simply programs whose execution is chained together when a language can run its commands through an interpreter such as a unix shell or other command line interface without compiling it is called a scripting language
+
+determining which is the most widely used programming language is difficult since the definition of usage varies by context one language may occupy the greater number of programmer hours a different one has more lines of code and a third may consume the most cpu time some languages are very popular for particular kinds of applications for example cobol is still strong in the corporate data center often on large mainframes fortran in scientific and engineering applications ada in aerospace transportation military real time and embedded applications and c in embedded applications and operating systems other languages are regularly used to write many different kinds of applications
+
+various methods of measuring language popularity each subject to a different bias over what is measured have been proposed
+
+combining and averaging information from various internet sites stackify com reported the ten most popular programming languages in descending order by overall popularity java c c python c javascript vb net r php and matlab
+
+as of june 2024 the top five programming languages as measured by tiobe index are python c c java and c tiobe provides a list of the top 100 programming languages according to their index and updates this list every month
+
+according to ieee spectrum staff today s most popular programming languages may remain dominant because of how ai works as a result new languages will have a harder time gaining popularity since coders will not write many programs in them
+
+a dialect of a programming language or a data exchange language is a relatively small variation or extension of the language that does not change its intrinsic nature with languages such as scheme and forth standards may be considered insufficient inadequate or illegitimate by implementors so often they will deviate from the standard making a new dialect in other cases a dialect is created for use in a domain specific language often a subset in the lisp world most languages that use basic s expression syntax and lisp like semantics are considered lisp dialects although they vary wildly as do say racket and clojure as it is common for one language to have several dialects it can become quite difficult for an inexperienced programmer to find the right documentation the basic language has many dialects
+
+programming languages can be described per the following high level yet sometimes overlapping classifications
+
+an imperative programming language supports implementing logic encoded as a sequence of ordered operations most popularly used languages are classified as imperative
+
+a functional programming language supports successively applying functions to the given parameters although appreciated by many researchers for their simplicity and elegance problems with efficiency have prevented them from being widely adopted
+
+a logic programming language is designed so that the software rather than the programmer decides what order in which the instructions are executed
+
+object oriented programming oop is characterized by features such as data abstraction inheritance and dynamic dispatch oop is supported by most popular imperative languages and some functional languages
+
+although a markup language is not a programming language per se it might support integration with a programming language
+
+there are special purpose languages that are not easily compared to other programming languages

@@ -1,0 +1,21 @@
+in computer science a data structure is a data organization and storage format that is usually chosen for efficient access to data more precisely a data structure is a collection of data values the relationships among them and the functions or operations that can be applied to the data i e it is an algebraic structure about data
+
+data structures serve as the basis for abstract data types adt the adt defines the logical form of the data type the data structure implements the physical form of the data type
+
+various types of data structures are suited to different kinds of applications and some are highly defined to specific tasks for example relational databases commonly use b tree indice for data retrieval while compiler implementations usually use hash tables to look up identifiers
+
+data structures provide a means to manage large amounts of data efficiently for uses such as large databases and internet indexing services usually efficient data structures are key to designing efficient algorithms some formal design methods and programming languages emphasize data structures rather than algorithms as the key organizing factor in software design data structures can be used to organize the storage and retrieval of data stored in both main memory and secondary memory
+
+data structures can be implemented using a variety of programming languages and techniques but they all share the common goal of efficiently organizing and storing data data structures are generally based on the ability of a computer to fetch and store data at any place in its memory specified by a pointer a bit string representing a memory address that can be itself stored in memory and manipulated by the program thus the array and record data structures are based on computing the addresses of data items with arithmetic operations while the linked data structures are based on storing addresses of data items within the structure itself this approach to data structuring has profound implications for the efficiency and scalability of algorithms for instance the contiguous memory allocation in arrays facilitates rapid access and modification operations leading to optimized performance in sequential data processing scenarios
+
+the implementation of a data structure usually requires writing a set of procedures that create and manipulate instances of that structure the efficiency of a data structure cannot be analyzed separately from those operations this observation motivates the theoretical concept of an abstract data type a data structure that is defined indirectly by the operations that may be performed on it and the mathematical properties of those operations including their space and time cost
+
+there are numerous types of data structures generally built upon simpler primitive data types well known examples are
+
+most assembly languages and some low level languages such as bcpl basic combined programming language lack built in support for data structures on the other hand many high level programming languages and some higher level assembly languages such as masm have special syntax or other built in support for certain data structures such as records and arrays for example the c a direct descendant of bcpl and pascal languages support structs and records respectively in addition to vectors one dimensional arrays and multi dimensional arrays
+
+most programming languages feature some sort of library mechanism that allows data structure implementations to be reused by different programs modern languages usually come with standard libraries that implement the most common data structures examples are the c standard template library the java collections framework and the microsoft net framework
+
+modern languages also generally support modular programming the separation between the interface of a library module and its implementation some provide opaque data types that allow clients to hide implementation details object oriented programming languages such as c java and smalltalk typically use classes for this purpose
+
+many known data structures have concurrent versions which allow multiple computing threads to access a single concrete instance of a data structure simultaneously

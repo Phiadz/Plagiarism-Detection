@@ -1,0 +1,179 @@
+data synchronization is the process of establishing consistency between source and target data stores and the continuous harmonization of the data over time it is fundamental to a wide variety of applications including file synchronization and mobile device synchronization
+data synchronization can also be useful in encryption for synchronizing public key servers
+
+data synchronization is needed to update and keep multiple copies of a set of data coherent with one another or to maintain data integrity figure 3 for example database replication is used to keep multiple copies of data synchronized with database servers that store data in different locations
+
+examples include
+
+some of the challenges which user may face in data synchronization
+
+data formats tend to grow more complex with time as the organization grows and evolves this results not only in building simple interfaces between the two applications source and target but also in a need to transform the data while passing them to the target application etl extraction transformation loading tools can be helpful at this stage for managing data format complexities
+
+in real time systems customers want to see the current status of their order in e shop the current status of a parcel delivery a real time parcel tracking the current balance on their account etc this shows the need of a real time system which is being updated as well to enable smooth manufacturing process in real time e g ordering material when enterprise is running out stock synchronizing customer orders with manufacturing process etc from real life there exist so many examples where real time processing gives successful and competitive advantage
+
+there are no fixed rules and policies to enforce data security it may vary depending on the system which you are using even though the security is maintained correctly in the source system which captures the data the security and information access privileges must be enforced on the target systems as well to prevent any potential misuse of the information this is a serious issue and particularly when it comes for handling secret confidential and personal information so because of the sensitivity and confidentiality data transfer and all in between information must be encrypted
+
+data quality is another serious constraint for better management and to maintain good quality of data the common practice is to store the data at one location and share with different people and different systems and or applications from different locations it helps in preventing inconsistencies in the data
+
+there are five different phases involved in the data synchronization process
+
+each of these steps is critical in case of large amounts of data the synchronization process needs to be carefully planned and executed to avoid any negative impact on performance
+
+there are tools available for file synchronization version control cvs subversion etc distributed filesystems coda etc and mirroring rsync etc in that all these attempt to keep sets of files synchronized however only version control and file synchronization tools can deal with modifications to more than one copy of the files
+
+several theoretical models of data synchronization exist in the research literature and the problem is also related to the problem of slepian wolf coding in information theory the models are classified based on how they consider the data to be synchronized
+
+the problem of synchronizing unordered data also known as the set reconciliation problem is modeled as an attempt to compute the symmetric difference
+
+
+
+
+
+s
+
+a
+
+
+
+
+s
+
+b
+
+
+
+
+
+s
+
+a
+
+
+
+
+s
+
+b
+
+
+
+
+
+
+s
+
+b
+
+
+
+
+s
+
+a
+
+
+
+
+
+displaystyle s_ a oplus s_ b s_ a s_ b cup s_ b s_ a
+
+between two remote sets
+
+
+
+
+s
+
+a
+
+
+
+
+displaystyle s_ a
+
+
+and
+
+
+
+
+s
+
+b
+
+
+
+
+displaystyle s_ b
+
+of b bit numbers some solutions to this problem are typified by
+
+in this case two remote strings
+
+
+
+
+σ
+
+a
+
+
+
+
+displaystyle sigma _ a
+
+and
+
+
+
+
+σ
+
+b
+
+
+
+
+displaystyle sigma _ b
+
+need to be reconciled typically it is assumed that these strings differ by up to a fixed number of edits i e character insertions deletions or modifications then data synchronization is the process of reducing edit distance between
+
+
+
+
+σ
+
+a
+
+
+
+
+displaystyle sigma _ a
+
+and
+
+
+
+
+σ
+
+b
+
+
+
+
+displaystyle sigma _ b
+
+up to the ideal distance of zero this is applied in all filesystem based synchronizations where the data is ordered many practical applications of this are discussed or referenced above
+
+it is sometimes possible to transform the problem to one of unordered data through a process known as shingling splitting the strings into shingles clarification needed
+
+in fault tolerant systems distributed databases must be able to cope with the loss or corruption of part of their data the first step is usually replication which involves making multiple copies of the data and keeping them all up to date as changes are made however it is then necessary to decide which copy to rely on when loss or corruption of an instance occurs
+
+the simplest approach is to have a single master instance that is the sole source of truth changes to it are replicated to other instances and one of those instances becomes the new master when the old master fails
+
+paxos and raft are more complex protocols that exist to solve problems with transient effects during failover such as two instances thinking they are the master at the same time
+
+secret sharing is useful if failures of whole nodes are very common this moves synchronization from an explicit recovery process to being part of each read where a read of some data requires retrieving encoded data from several different nodes if corrupt or out of date data may be present on some nodes this approach may also benefit from the use of an error correction code
+
+dhts and blockchains try to solve the problem of synchronization between many nodes hundreds to billions

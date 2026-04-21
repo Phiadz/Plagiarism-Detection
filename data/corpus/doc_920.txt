@@ -1,0 +1,139 @@
+ray solomonoff july 25 1926 december 7 2009 was an american mathematician who invented algorithmic probability his general theory of inductive inference also known as universal inductive inference and was a founder of algorithmic information theory he was an originator of the branch of artificial intelligence based on machine learning prediction and probability he circulated the first report on non semantic machine learning in 1956
+
+solomonoff first described algorithmic probability in 1960 publishing the theorem that launched kolmogorov complexity and algorithmic information theory he first described these results at a conference at caltech in 1960 and in a report feb 1960 a preliminary report on a general theory of inductive inference he clarified these ideas more fully in his 1964 publications a formal theory of inductive inference part i and part ii
+
+algorithmic probability is a mathematically formalized combination of occam s razor and the principle of multiple explanations
+it is a machine independent method of assigning a probability value to each hypothesis algorithm program that explains a given observation with the simplest hypothesis the shortest program having the highest probability and the increasingly complex hypotheses receiving increasingly small probabilities
+
+solomonoff founded the theory of universal inductive inference which is based on solid philosophical foundations and has its root in kolmogorov complexity and algorithmic information theory the theory uses algorithmic probability in a bayesian framework the universal prior is taken over the class of all computable measures no hypothesis will have a zero probability this enables bayes rule of causation to be used to predict the most likely next event in a series of events and how likely it will be
+
+although he is best known for algorithmic probability and his general theory of inductive inference he made many other important discoveries throughout his life most of them directed toward his goal in artificial intelligence to develop a machine that could solve hard problems using probabilistic methods
+
+ray solomonoff was born on july 25 1926 in cleveland ohio the son of jewish russian immigrants phillip julius and sarah mashman solomonoff he attended glenville high school graduating in 1944 in 1944 he joined the united states navy as instructor in electronics from 1947 1951 he attended the university of chicago studying under professors such as rudolf carnap and enrico fermi and graduated with an m s in physics in 1951
+
+from his earliest years he was motivated by the pure joy of mathematical discovery and by the desire to explore where no one had gone before citation needed at the age of 16 in 1942 he began to search for a general method to solve mathematical problems
+
+in 1952 he met marvin minsky john mccarthy and others interested in machine intelligence in 1956 minsky and mccarthy and others organized the dartmouth summer research conference on artificial intelligence where solomonoff was one of the original 10 invitees he mccarthy and minsky were the only ones to stay all summer it was for this group that artificial intelligence was first named as a science computers at the time could solve very specific mathematical problems but not much else solomonoff wanted to pursue a bigger question how to make machines more generally intelligent and how computers could use probability for this purpose
+
+he wrote three papers two with anatol rapoport in 1950 52 that are regarded as the earliest statistical analysis of networks
+
+he was one of the 10 attendees at the 1956 dartmouth summer research project on artificial intelligence he wrote and circulated a report among the attendees an inductive inference machine it viewed machine learning as probabilistic with an emphasis on the importance of training sequences and on the use of parts of previous solutions to problems in constructing trial solutions for new problems he published a version of his findings in 1957 these were the first papers to be written on probabilistic machine learning
+
+in the late 1950s he invented probabilistic languages and their associated grammars a probabilistic language assigns a probability value to every possible string
+
+generalizing the concept of probabilistic grammars led him to his discovery in 1960 of algorithmic probability and general theory of inductive inference
+
+prior to the 1960s the usual method of calculating probability was based on frequency taking the ratio of favorable results to the total number of trials in his 1960 publication and more completely in his 1964 publications solomonoff seriously revised this definition of probability he called this new form of probability algorithmic probability and showed how to use it for prediction in his theory of inductive inference as part of this work he produced the philosophical foundation for the use of bayes rule of causation for prediction
+
+the basic theorem of what was later called kolmogorov complexity was part of his general theory writing in 1960 he begins consider a very long sequence of symbols we shall consider such a sequence of symbols to be simple and have a high a priori probability if there exists a very brief description of this sequence using of course some sort of stipulated description method more exactly if we use only the symbols 0 and 1 to express our description we will assign the probability 2 n to a sequence of symbols if its shortest possible binary description contains n digits
+
+the probability is with reference to a particular universal turing machine solomonoff showed and in 1964 proved that the choice of machine while it could add a constant factor would not change the probability ratios very much these probabilities are machine independent
+
+in 1965 the russian mathematician kolmogorov independently published similar ideas when he became aware of solomonoff s work he acknowledged solomonoff and for several years solomonoff s work was better known in the soviet union than in the western world the general consensus in the scientific community however was to associate this type of complexity with kolmogorov who was more concerned with randomness of a sequence algorithmic probability and universal solomonoff induction became associated with solomonoff who was focused on prediction the extrapolation of a sequence
+
+later in the same 1960 publication solomonoff describes his extension of the single shortest code theory this is algorithmic
+probability he states it would seem that if there are several different methods of describing a sequence each of these methods should be given some weight in determining the probability of that sequence he then shows how this idea can be used to generate the universal a priori probability distribution and how it enables the use of bayes rule in inductive inference inductive inference by adding up the predictions of all models describing a particular sequence using suitable weights based on the lengths of those models gets the probability distribution for the extension of that sequence this method of prediction has since become known as solomonoff induction
+
+he enlarged his theory publishing a number of reports leading up to the publications in 1964 the 1964 papers give a more detailed description of algorithmic probability and solomonoff induction presenting five different models including the model popularly called the universal distribution
+
+other scientists who had been at the 1956 dartmouth summer conference such as newell and simon were developing the branch of artificial intelligence that used machines governed by if then rules fact based solomonoff was developing the branch of artificial intelligence that focussed on probability and prediction his specific view of a i described machines that were governed by the algorithmic probability distribution the machine generates theories together with their associated probabilities to solve problems and as new problems and theories develop updates the probability distribution on the theories
+
+in 1968 he found a proof for the
+efficacy of algorithmic probability but mainly because of lack of general interest at that time did not publish it until 10 years later in his report he published the proof for the convergence theorem
+
+in the years following his discovery of algorithmic probability he focused on how to use this probability and solomonoff induction in actual prediction and problem solving for a i he also wanted to understand the deeper implications of this probability system
+
+one important aspect of algorithmic probability is that it is complete and incomputable
+
+in the 1968 report he shows that algorithmic probability is complete that is if there is any describable regularity in a body of data algorithmic probability will eventually discover that regularity requiring a relatively small sample of that data algorithmic probability is the only probability system known to be complete in this way as a necessary consequence of its completeness it is incomputable the incomputability is because some algorithms a subset of those that are partially recursive can never be evaluated fully because it would take too long but these programs will at least be recognized as possible solutions on the other hand any computable system is incomplete there will always be descriptions outside that system s search space which will never be acknowledged or considered even in an infinite amount of time computable prediction models hide this fact by ignoring such algorithms
+
+in many of his papers he described how to search for solutions to problems and in the 1970s and early 1980s developed what he felt was the best way to update the machine
+
+the use of probability in a i however did not have a completely smooth path in the early years of a i the relevance of probability was problematic many in the a i community felt probability was not usable in their work the area of pattern recognition did use a form of probability but because there was no broadly based theory of how to incorporate probability in any a i field most fields did not use it at all
+
+there were however researchers such as pearl and peter cheeseman who argued that probability could be used in artificial intelligence
+
+about 1984 at an annual meeting of the american association for artificial intelligence aaai it was decided that probability was in no way relevant to a i
+
+a protest group formed and the next year there was a workshop at the aaai meeting devoted to probability and uncertainty in ai this yearly workshop has continued to the present day
+
+as part of the protest at the first workshop solomonoff gave a paper on how to apply the universal distribution to problems in a i this was an early version of the system he has been developing since that time
+
+in that report he described the search technique he had developed in search problems the best order of search is time
+
+
+
+
+t
+
+i
+
+
+
+
+
+
+p
+
+i
+
+
+
+
+displaystyle t_ i p_ i
+
+where
+
+
+
+
+t
+
+i
+
+
+
+
+displaystyle t_ i
+
+is the time needed to test the trial and
+
+
+
+
+p
+
+i
+
+
+
+
+displaystyle p_ i
+
+is the probability of success of that trial he called this the conceptual jump size of the problem levin s search technique approximates this order and so solomonoff who had studied levin s work called this search technique lsearch
+
+in other papers he explored how to limit the time needed to search for solutions writing on resource bounded search the search space is limited by available time or computation cost rather than by cutting out search space as is done in some other prediction methods such as minimum description length
+
+throughout his career solomonoff was concerned with the potential benefits and dangers of a i discussing it in many of his published reports in 1985 he analyzed a likely evolution of a i giving a formula predicting when it would reach the infinity point this work is part of the history of thought about a possible technological singularity
+
+originally algorithmic induction methods extrapolated ordered sequences of strings methods were needed for dealing with other kinds of data
+
+a 1999 report generalizes the universal distribution and associated convergence theorems to unordered sets of strings and a 2008 report to unordered pairs of strings
+
+in 1997 2003 and 2006 he showed that incomputability and subjectivity are both necessary and desirable characteristics of any high performance induction system
+
+in 1970 he formed his own one man company oxbridge research and continued his research there except for periods at other
+institutions such as mit university of saarland in germany and the dalle molle institute for artificial intelligence in lugano switzerland in 2003 he was the first recipient of the kolmogorov award by the computer learning research center at the royal holloway university of london where he gave the inaugural kolmogorov lecture solomonoff was most recently a visiting professor at the clrc
+
+in 2006 he spoke at ai 50 dartmouth artificial intelligence conference the next fifty years commemorating the fiftieth anniversary
+of the original dartmouth summer study group solomonoff was one of five original participants to attend
+
+in feb 2008 he gave the keynote address at the conference current trends in the theory and application of computer science cttacs held at notre dame university in lebanon he followed this with a short series of lectures and began research on new applications of algorithmic probability
+
+algorithmic probability and solomonoff induction have many advantages for artificial intelligence algorithmic probability gives extremely accurate probability estimates these estimates can be revised by a reliable method so that they continue to be acceptable it utilizes search time in a very efficient way in addition to probability estimates algorithmic probability has for ai another important value its multiplicity of models gives us many different ways to understand our data
+
+a description of solomonoff s life and work prior to 1997 is in the discovery of algorithmic probability journal of computer and system sciences vol 55 no 1 pp 73 88 august 1997 the paper as well as most of the others mentioned here are available on his website at the publications page
+
+in an article published the year of his death a journal article said of solomonoff a very conventional scientist understands his science using a single current paradigm the way of understanding that is most in vogue at the present time a more creative scientist understands his science in very many ways and can more easily create new theories new ways of understanding when the current paradigm no longer fits the current data
+
+in 2011 as part of a comprehensive volume on algorithmic information theory and artificial intelligence randomness through computation some answers more questions he published his final paper alongside other notable figures in those fields such as gregory chaitin or jürgen schmidhuber in which he reflected on the potential of algorithmic probability to achieve agi and strong ai

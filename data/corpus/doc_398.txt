@@ -1,0 +1,1221 @@
+
+
+rules of inference are ways of deriving conclusions from premises they are integral parts of formal logic serving as the logical structure of valid arguments if an argument with true premises follows a rule of inference then the conclusion cannot be false modus ponens an influential rule of inference connects two premises of the form if
+
+
+
+p
+
+
+displaystyle p
+
+then
+
+
+
+q
+
+
+displaystyle q
+
+and
+
+
+
+p
+
+
+displaystyle p
+
+to the conclusion
+
+
+
+q
+
+
+displaystyle q
+
+as in the argument if it rains then the ground is wet it rains therefore the ground is wet there are many other rules of inference for different patterns of valid arguments such as modus tollens disjunctive syllogism constructive dilemma and existential generalization
+
+rules of inference include rules of implication which operate only in one direction from premises to conclusions and rules of replacement which state that two expressions are equivalent and can be freely swapped they contrast with formal fallacies invalid argument forms involving logical errors
+
+logicians construct formal systems to precisely capture and codify valid patterns of reasoning with distinct systems using different rules of inference for example propositional logic examines how statements formed through logical operators like not and if then support conclusions first order logic extends propositional logic by analyzing how the internal structure of propositions like names and predicates influences reasoning other logical systems explore inferential patterns associated with what is possible and necessary with what people believe and with what happened at different times various formalisms are used to express logical systems natural deduction systems employ many intuitive rules of inference to reflect how people naturally reason while hilbert systems provide minimalistic frameworks to represent foundational principles without redundancy
+
+rules of inference are relevant to many areas such as proofs in mathematics and automated reasoning in computer science their conceptual and psychological underpinnings are studied by philosophers of logic and cognitive psychologists
+
+a rule of inference is a way of drawing a conclusion from a set of premises also called inference rule and transformation rule it is a norm of correct inferences that can be used to guide reasoning justify conclusions and criticize arguments as part of deductive logic rules of inference are argument forms that preserve the truth of the premises meaning that the conclusion is always true if the premises are true a an inference is deductively valid if it follows a correct rule of inference whether this is the case depends only on the form or syntactic structure of the premises and the conclusion that is the actual content or concrete meaning of the statements does not affect validity for instance modus ponens is a rule of inference that connects two premises of the form if
+
+
+
+p
+
+
+displaystyle p
+
+then
+
+
+
+q
+
+
+displaystyle q
+
+and
+
+
+
+p
+
+
+displaystyle p
+
+to the conclusion
+
+
+
+q
+
+
+displaystyle q
+
+the letters
+
+
+
+p
+
+
+displaystyle p
+
+and
+
+
+
+q
+
+
+displaystyle q
+
+in this example and in later formulas are so called metavariables they stand for any simple or compound proposition any argument following modus ponens is valid independent of the specific meanings of
+
+
+
+p
+
+
+displaystyle p
+
+and
+
+
+
+q
+
+
+displaystyle q
+
+such as the argument if it is day then it is light it is day therefore it is light in addition to modus ponens there are many other rules of inference such as modus tollens disjunctive syllogism and constructive dilemma
+
+there are different formats to represent rules of inference a common approach is to use a new line for each premise and to separate the premises from the conclusion using a horizontal line with this format modus ponens is written as b
+
+
+
+
+
+
+
+
+p
+
+q
+
+
+
+
+p
+
+
+
+
+q
+
+
+
+
+
+
+displaystyle begin array l p to q p hline q end array
+
+
+
+some logicians employ the therefore sign
+
+
+
+
+
+
+displaystyle therefore
+
+either together with or instead of the horizontal line to indicate where the conclusion begins the sequent notation a different approach uses a single line in which the premises are separated by commas and connected to the conclusion with the turnstile symbol
+
+
+
+
+
+
+displaystyle vdash
+
+as in
+
+
+
+p
+
+q
+
+p
+
+q
+
+
+displaystyle p to q p vdash q
+
+
+
+rules of inference are part of logical systems and different systems employ distinct sets of rules for example universal instantiation c is a rule of inference in the system of first order logic but not in propositional logic rules of inference play a central role in proofs as explicit procedures for deriving new lines of a proof from preceding lines proofs involve a series of inferential steps and often use various rules of inference to establish the theorem they intend to demonstrate d rules of inference are definitory rules rules about which inferences are allowed they contrast with strategic rules which govern the inferential steps needed to prove a certain theorem from a specific set of premises mastering definitory rules by itself is not sufficient for effective reasoning since they provide little guidance on how to reach the intended conclusion e as standards or procedures governing the transformation of symbolic expressions rules of inference are similar to mathematical functions taking premises as input and producing a conclusion as output according to one interpretation rules of inference are inherent in logical operators f found in statements making the meaning and function of these operators explicit without adding any additional information
+
+logicians distinguish two types of rules of inference rules of implication and rules of replacement g rules of implication like modus ponens operate only in one direction meaning that the conclusion can be deduced from the premises but the premises cannot be deduced from the conclusion rules of replacement by contrast operate in both directions stating that two expressions are equivalent and can be freely replaced with each other in classical logic for example a proposition
+
+
+
+p
+
+
+displaystyle p
+
+is equivalent to the negation h of its negation
+
+
+
+
+
+p
+
+
+displaystyle lnot lnot p
+
+i as a result one can infer one from the other in either direction making it a rule of replacement other rules of replacement include de morgan s laws as well as the commutative and associative properties of conjunction and disjunction while rules of implication apply only to complete statements rules of replacement can be applied to any part of a compound statement
+
+deductive rules of inference differ from defeasible argumentation schemes which describe patterns of reasoning that provide some support to a conclusion without guaranteeing its truth such as the argument from authority and the argument from analogy however the term rule of inference is sometimes used in a looser sense to include non deductive argumentation schemes similarly the term is occasionally interpreted broadly to include general standards of research such as the principle that scientific experiments should be replicable
+
+one of the first discussions of formal rules of inference dates to antiquity in aristotle s logic his explanations of valid syllogisms were further refined in medieval and early modern philosophy the development of symbolic logic in the 19th century such as george boole s articulation of boolean algebra led to the formulation of many additional rules of inference belonging to classical propositional and first order logic in the 20th and 21st centuries logicians developed various non classical systems of logic with alternative rules of inference
+
+rules of inference describe the structure of arguments which consist of premises that support a conclusion premises and conclusions are statements or propositions about what is true for instance the assertion the door is open is a statement that is either true or false while the question is the door open and the command open the door are not statements and have no truth value an inference is a step of reasoning from premises to a conclusion while an argument is the outward expression of an inference
+
+logic is the study of correct reasoning and examines how to distinguish good from bad arguments deductive logic is the branch that investigates the strongest arguments called deductively valid arguments for which the conclusion cannot be false if all the premises are true this is expressed by saying that the conclusion is a logical consequence of the premises rules of inference belong to deductive logic and describe argument forms that fulfill this requirement in order to precisely assess whether an argument follows a rule of inference logicians use formal languages to express statements in a rigorous manner similar to mathematical formulas they combine formal languages with rules of inference to construct formal systems frameworks for formulating propositions and drawing conclusions j different formal systems may employ different formal languages or different rules of inference k the basic rules of inference within a formal system can often be expanded by introducing new rules known as admissible rules admissible rules do not change which arguments in a formal system are valid but can simplify proofs if an admissible rule can be expressed through a combination of the system s basic rules it is called a derived or derivable rule statements that can be deduced in a formal system are called theorems of this formal system widely used systems of logic include propositional logic first order logic and modal logic
+
+rules of inference only ensure that the conclusion is true if the premises are true an argument with false premises can still be valid but its conclusion may be false for example the argument if pigs can fly then the sky is purple pigs can fly therefore the sky is purple is valid because it follows modus ponens even though it contains false premises a valid argument is called a sound argument if all of its premises are true
+
+rules of inference are closely related to tautologies or logical truths in logic a tautology is a statement that is true only because of the logical vocabulary it uses independent of the meanings of its non logical vocabulary for example the statement if the tree is green and the sky is blue then the tree is green is true independently of the meanings of terms like tree and green making it a tautology every argument following a rule of inference can be transformed into a tautology this is achieved by forming a conjunction and of all premises and connecting it through implication if then to the conclusion thereby combining all the individual statements of the argument into a single statement for example the valid argument the tree is green and the sky is blue therefore the tree is green can be transformed into the tautology if the tree is green and the sky is blue then the tree is green
+
+rules of inference are not the only way to demonstrate that an argument is valid alternative methods include the use of truth tables which apply to propositional logic and truth trees which can also be employed in first order logic
+
+propositional logic examines the inferential patterns of simple and compound propositions it uses letters such as
+
+
+
+p
+
+
+displaystyle p
+
+and
+
+
+
+q
+
+
+displaystyle q
+
+to represent simple propositions compound propositions are formed by modifying or combining simple propositions with logical operators such as
+
+
+
+
+
+
+displaystyle lnot
+
+not
+
+
+
+
+
+
+displaystyle land
+
+and
+
+
+
+
+
+
+displaystyle lor
+
+or and
+
+
+
+
+
+
+displaystyle to
+
+if then for example if
+
+
+
+p
+
+
+displaystyle p
+
+stands for the statement it is raining and
+
+
+
+q
+
+
+displaystyle q
+
+stands for the statement the streets are wet then
+
+
+
+
+p
+
+
+displaystyle lnot p
+
+expresses it is not raining and
+
+
+
+p
+
+q
+
+
+displaystyle p to q
+
+expresses if it is raining then the streets are wet these logical operators are truth functional meaning that the truth value of a compound proposition depends only on the truth values of the simple propositions composing it for instance the compound proposition
+
+
+
+p
+
+q
+
+
+displaystyle p land q
+
+is only true if both
+
+
+
+p
+
+
+displaystyle p
+
+and
+
+
+
+q
+
+
+displaystyle q
+
+are true in all other cases it is false propositional logic is not concerned with the concrete meaning of propositions other than their truth values key rules of inference in propositional logic are modus ponens modus tollens hypothetical syllogism disjunctive syllogism and double negation elimination further rules include conjunction introduction conjunction elimination disjunction introduction disjunction elimination constructive dilemma destructive dilemma absorption and de morgan s laws
+
+first order logic also employs the logical operators from propositional logic but includes additional devices to articulate the internal structure of propositions basic propositions in first order logic consist of a predicate symbolized with uppercase letters like
+
+
+
+p
+
+
+displaystyle p
+
+and
+
+
+
+q
+
+
+displaystyle q
+
+which is applied to singular terms symbolized with lowercase letters like
+
+
+
+a
+
+
+displaystyle a
+
+and
+
+
+
+b
+
+
+displaystyle b
+
+for example if
+
+
+
+a
+
+
+displaystyle a
+
+stands for aristotle and
+
+
+
+p
+
+
+displaystyle p
+
+stands for is a philosopher then the formula
+
+
+
+p
+
+a
+
+
+
+displaystyle p a
+
+means that aristotle is a philosopher another innovation of first order logic is the use of the quantifiers
+
+
+
+
+
+
+displaystyle exists
+
+and
+
+
+
+
+
+
+displaystyle forall
+
+which express that a predicate applies to some or all individuals for instance the formula
+
+
+
+
+x
+p
+
+x
+
+
+
+displaystyle exists xp x
+
+expresses that philosophers exist while
+
+
+
+
+x
+p
+
+x
+
+
+
+displaystyle forall xp x
+
+expresses that everyone is a philosopher the rules of inference from propositional logic are also valid in first order logic additionally first order logic introduces new rules of inference that govern the role of singular terms predicates and quantifiers in arguments key rules of inference are universal instantiation and existential generalization other rules of inference include universal generalization and existential instantiation
+
+modal logics are formal systems that extend propositional logic and first order logic with additional operators alethic modal logic introduces the operator
+
+
+
+
+
+
+displaystyle diamond
+
+to express that something is possible and the operator
+
+
+
+
+
+
+displaystyle box
+
+to express that something is necessary for example if
+
+
+
+p
+
+
+displaystyle p
+
+means that parvati works then
+
+
+
+
+p
+
+
+displaystyle diamond p
+
+means that it is possible that parvati works while
+
+
+
+
+p
+
+
+displaystyle box p
+
+means that it is necessary that parvati works these two operators are related by a rule of replacement stating that
+
+
+
+
+p
+
+
+displaystyle box p
+
+is equivalent to
+
+
+
+
+
+
+p
+
+
+displaystyle lnot diamond lnot p
+
+in other words if something is necessarily true then it is not possible that it is not true further rules of inference include the necessitation rule which asserts that a statement is necessarily true if it is provable in a formal system without any additional premises and the distribution axiom which allows one to derive
+
+
+
+
+p
+
+
+q
+
+
+displaystyle diamond p to diamond q
+
+from
+
+
+
+
+
+p
+
+q
+
+
+
+displaystyle diamond p to q
+
+these rules of inference belong to system k a weak form of modal logic with only the most basic rules of inference many formal systems of alethic modal logic include additional rules of inference such as system t which allows one to deduce
+
+
+
+p
+
+
+displaystyle p
+
+from
+
+
+
+
+p
+
+
+displaystyle box p
+
+
+
+non alethic systems of modal logic introduce operators that behave like
+
+
+
+
+
+
+displaystyle diamond
+
+and
+
+
+
+
+
+
+displaystyle box
+
+in alethic modal logic following similar rules of inference but with different meanings deontic logic is one type of non alethic logic it uses the operator
+
+
+
+
+p
+
+
+
+displaystyle mathbf p
+
+to express that an action is permitted and the operator
+
+
+
+
+o
+
+
+
+displaystyle mathbf o
+
+to express that an action is required where
+
+
+
+
+p
+
+
+
+displaystyle mathbf p
+
+behaves similarly to
+
+
+
+
+
+
+displaystyle diamond
+
+and
+
+
+
+
+o
+
+
+
+displaystyle mathbf o
+
+behaves similarly to
+
+
+
+
+
+
+displaystyle box
+
+for instance the rule of replacement in alethic modal logic which asserts that
+
+
+
+
+q
+
+
+displaystyle box q
+
+is equivalent to
+
+
+
+
+
+
+q
+
+
+displaystyle lnot diamond lnot q
+
+also applies to deontic logic as a result one can deduce from
+
+
+
+
+o
+
+q
+
+
+displaystyle mathbf o q
+
+e g quinn has an obligation to help that
+
+
+
+
+
+p
+
+
+q
+
+
+displaystyle lnot mathbf p lnot q
+
+e g quinn is not permitted not to help other systems of modal logic include temporal modal logic which has operators for what is always or sometimes the case as well as doxastic and epistemic modal logics which have operators for what people believe and know
+
+many other systems of logic have been proposed in ancient greece one of the earliest systems was aristotelian logic according to which each statement is made up of two terms a subject and a predicate connected by a copula for example the statement all humans are mortal has the subject all humans the predicate mortal and the copula is all rules of inference in aristotelian logic have the form of syllogisms which consist of two premises and a conclusion for instance the barbara rule of inference describes the validity of arguments of the form all men are mortal all greeks are men therefore all greeks are mortal the nyaya school in ancient india also explored rules of inference in the form of syllogisms such as the argument all things which have smoke have fire this hill has smoke therefore this hill has fire
+
+second order logic extends first order logic by allowing quantifiers to apply to predicates in addition to singular terms for example to express that the individuals adam
+
+
+
+a
+
+
+displaystyle a
+
+and bianca
+
+
+
+b
+
+
+displaystyle b
+
+share a property one can use the formula
+
+
+
+
+x
+
+x
+
+a
+
+
+x
+
+b
+
+
+
+
+displaystyle exists x x a land x b
+
+second order logic also comes with new rules of inference m for instance one can infer
+
+
+
+p
+
+a
+
+
+
+displaystyle p a
+
+adam is a philosopher from
+
+
+
+
+x
+x
+
+a
+
+
+
+displaystyle forall xx a
+
+every property applies to adam
+
+intuitionistic logic is a non classical variant of propositional and first order logic it shares with them many rules of inference such as modus ponens but excludes certain rules for example in classical logic one can infer
+
+
+
+p
+
+
+displaystyle p
+
+from
+
+
+
+
+
+p
+
+
+displaystyle lnot lnot p
+
+using the rule of double negation elimination however in intuitionistic logic this inference is invalid as a result every theorem that can be deduced in intuitionistic logic can also be deduced in classical logic but some theorems provable in classical logic cannot be proven in intuitionistic logic one motivation for this modification is the idea that proofs should demonstrate that an object exists or can be constructed not merely that its nonexistence would lead to a contradiction
+
+paraconsistent logics revise classical logic to allow the existence of contradictions in logic a contradiction happens if the same proposition is both affirmed and denied meaning that a formal system contains both
+
+
+
+p
+
+
+displaystyle p
+
+and
+
+
+
+
+p
+
+
+displaystyle lnot p
+
+as theorems classical logic prohibits contradictions because classical rules of inference bring with them the principle of explosion an admissible rule of inference that makes it possible to infer
+
+
+
+q
+
+
+displaystyle q
+
+from the premises
+
+
+
+p
+
+
+displaystyle p
+
+and
+
+
+
+
+p
+
+
+displaystyle lnot p
+
+since
+
+
+
+q
+
+
+displaystyle q
+
+is unrelated to
+
+
+
+p
+
+
+displaystyle p
+
+any arbitrary statement can be deduced from a contradiction making the affected systems useless for deciding what is true and false n paraconsistent logics solve this problem by modifying the rules of inference in such a way that the principle of explosion is not an admissible rule of inference as a result it is possible to reason about inconsistent information without deriving absurd conclusions
+
+many valued logics modify classical logic by introducing additional truth values in classical logic a proposition is either true or false with nothing in between in many valued logics some propositions are neither true nor false kleene logic for example is a three valued logic that introduces the additional truth value undefined to describe situations where information is incomplete or uncertain many valued logics have adjusted rules of inference to accommodate the additional truth values for instance the classical rule of replacement stating that
+
+
+
+p
+
+q
+
+
+displaystyle p to q
+
+is equivalent to
+
+
+
+
+p
+
+q
+
+
+displaystyle lnot p lor q
+
+is invalid in many three valued systems some many valued logics take the form of probability logics which make it possible to reason from uncertain information to probabilistic conclusions
+
+various formalisms or proof systems have been suggested as distinct ways of codifying reasoning and demonstrating the validity of arguments unlike different systems of logic these formalisms do not impact what can be proven they only influence how proofs are formulated influential frameworks include natural deduction systems hilbert systems and sequent calculi
+
+natural deduction systems aim to reflect how people naturally reason by introducing many intuitive rules of inference to make logical derivations more accessible they break complex arguments into simple steps often using subproofs based on temporary premises the rules of inference in natural deduction target specific logical operators governing how an operator can be added with introduction rules or removed with elimination rules for example the rule of conjunction introduction asserts that one can infer
+
+
+
+p
+
+q
+
+
+displaystyle p land q
+
+from the premises
+
+
+
+p
+
+
+displaystyle p
+
+and
+
+
+
+q
+
+
+displaystyle q
+
+thereby producing a conclusion with the conjunction operator from premises that do not contain it conversely the rule of conjunction elimination asserts that one can infer
+
+
+
+p
+
+
+displaystyle p
+
+from
+
+
+
+p
+
+q
+
+
+displaystyle p land q
+
+thereby producing a conclusion that no longer includes the conjunction operator similar rules of inference are disjunction introduction and elimination implication introduction and elimination negation introduction and elimination and biconditional introduction and elimination as a result systems of natural deduction usually include many rules of inference o
+
+hilbert systems by contrast aim to provide a minimal and efficient framework of logical reasoning by including as few rules of inference as possible many hilbert systems only have modus ponens as the sole rule of inference to ensure that all theorems can be deduced from this minimal foundation they introduce axiom schemes an axiom scheme is a template to create axioms or true statements it uses metavariables placeholders that can be replaced by specific terms or formulas to generate an infinite number of true statements for example propositional logic can be defined with the following three axiom schemes 1
+
+
+
+p
+
+
+q
+
+p
+
+
+
+displaystyle p to q to p
+
+2
+
+
+
+
+p
+
+
+q
+
+r
+
+
+
+
+
+p
+
+q
+
+
+
+p
+
+r
+
+
+
+
+displaystyle p to q to r to p to q to p to r
+
+and 3
+
+
+
+
+
+p
+
+
+q
+
+
+
+q
+
+p
+
+
+
+displaystyle lnot p to lnot q to q to p
+
+to formulate proofs logicians create new statements from axiom schemes and then apply modus ponens to these statements to derive conclusions compared to natural deduction this procedure tends to be less intuitive since its heavy reliance on symbolic manipulation can obscure the underlying logical reasoning
+
+sequent calculi another approach introduce sequents as formal representations of arguments a sequent has the form
+
+
+
+
+a
+
+1
+
+
+
+
+
+
+a
+
+m
+
+
+
+
+b
+
+1
+
+
+
+
+
+
+b
+
+n
+
+
+
+
+displaystyle a_ 1 dots a_ m vdash b_ 1 dots b_ n
+
+where
+
+
+
+
+a
+
+i
+
+
+
+
+displaystyle a_ i
+
+and
+
+
+
+
+b
+
+i
+
+
+
+
+displaystyle b_ i
+
+stand for propositions sequents are conditional assertions stating that at least one
+
+
+
+
+b
+
+i
+
+
+
+
+displaystyle b_ i
+
+is true if all
+
+
+
+
+a
+
+i
+
+
+
+
+displaystyle a_ i
+
+are true rules of inference operate on sequents to produce additional sequents sequent calculi define two rules of inference for each logical operator one to introduce it on the left side of a sequent and another to introduce it on the right side for example through the rule for introducing the operator
+
+
+
+
+
+
+displaystyle lnot
+
+on the left side one can infer
+
+
+
+
+r
+
+p
+
+q
+
+
+displaystyle lnot r p vdash q
+
+from
+
+
+
+p
+
+q
+
+r
+
+
+displaystyle p vdash q r
+
+the cut rule an additional rule of inference makes it possible to simplify sequents by removing certain propositions
+
+while rules of inference describe valid patterns of deductive reasoning formal fallacies are invalid argument forms that involve logical errors the premises of a formal fallacy do not properly support its conclusion the conclusion can be false even if all premises are true formal fallacies often mimic the structure of valid rules of inference and can thereby mislead people into unknowingly committing them and accepting their conclusions
+
+the formal fallacy of affirming the consequent concludes
+
+
+
+p
+
+
+displaystyle p
+
+from the premises
+
+
+
+p
+
+q
+
+
+displaystyle p to q
+
+and
+
+
+
+q
+
+
+displaystyle q
+
+as in the argument if leo is a cat then leo is an animal leo is an animal therefore leo is a cat this fallacy resembles valid inferences following modus ponens with the key difference that the fallacy swaps the second premise and the conclusion the formal fallacy of denying the antecedent concludes
+
+
+
+
+q
+
+
+displaystyle lnot q
+
+from the premises
+
+
+
+p
+
+q
+
+
+displaystyle p to q
+
+and
+
+
+
+
+p
+
+
+displaystyle lnot p
+
+as in the argument if laya saw the movie then laya had fun laya did not see the movie therefore laya did not have fun this fallacy resembles valid inferences following modus tollens with the key difference that the fallacy swaps the second premise and the conclusion other formal fallacies include affirming a disjunct the existential fallacy and the fallacy of the undistributed middle
+
+rules of inference are relevant to many fields especially the formal sciences such as mathematics and computer science where they are used to prove theorems mathematical proofs often start with a set of axioms to describe the logical relationships between mathematical constructs to establish theorems mathematicians apply rules of inference to these axioms aiming to demonstrate that the theorems are logical consequences they distinguish various types of proof based on the inferential strategy to arrive at a conclusion such as direct proof proof by contradiction and mathematical induction mathematical logic a subfield of mathematics and logic uses mathematical methods and frameworks to study rules of inference and other logical concepts
+
+computer science also relies on deductive reasoning employing rules of inference to establish theorems and validate algorithms logic programming frameworks such as prolog allow developers to represent knowledge and use computation to draw inferences and solve problems these frameworks often include an automated theorem prover a program that uses rules of inference to generate or verify proofs automatically expert systems utilize automated reasoning to simulate the decision making processes of human experts in specific fields such as medical diagnosis and assist in complex problem solving tasks they have a knowledge base to represent the facts and rules of the field and use an inference engine to extract relevant information and respond to user queries
+
+rules of inference are central to the philosophy of logic regarding the definition of logical consequence which describes the relation between the premises of a deductively valid argument and its conclusion different theories of this concept debate its nature and the conditions under which it exists according to the deductive theoretic conception logical consequence is defined in terms of rules of inference a conclusion follows logically from a set of premises if it can be deduced through a series of inferential steps the model theoretic conception by contrast focuses on how the non logical vocabulary of statements can be interpreted according to this view logical consequence means that no counterexamples are possible under no interpretation are the premises true and the conclusion false a related topic in the epistemology of logic concerns the question of how to justify that modus ponens and other rules of inference are acceptable forms of correct reasoning
+
+cognitive psychologists study mental processes including logical reasoning they are interested in how humans use rules of inference to draw conclusions examining the factors that influence correctness and efficiency they observe for example that people are better at using modus ponens than modus tollens resulting in a higher rate of successful inferences a related topic focuses on biases that lead individuals to mistake formal fallacies for valid arguments for instance fallacies of the types affirming the consequent and denying the antecedent are often mistakenly accepted as valid the assessment of arguments also depends on the concrete meaning of the propositions individuals are more likely to accept a fallacy if its conclusion sounds plausible
+
+rules of inference are also relevant to the field of law for establishing the validity of one s argument or undermining the opponent s case by exposing logical fallacies however legal reasoning is not limited to strict deductive inferences incorporating aspects such as legal norms and evidentiary standards that go beyond pure formal logic

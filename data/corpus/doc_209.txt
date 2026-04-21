@@ -1,0 +1,8 @@
+
+hybrid intelligent system denotes a software system which employs in parallel a combination of methods and techniques from artificial intelligence subfields such as
+
+from the cognitive science perspective every natural intelligent system is hybrid because it performs mental operations on both the symbolic and subsymbolic levels for the past few years there has been an increasing discussion of the importance of a i systems integration based on notions that there have already been created simple and specific ai systems such as systems for computer vision speech synthesis etc or software that employs some of the models mentioned above and now is the time for integration to create broad ai systems proponents of this approach are researchers such as marvin minsky ron sun aaron sloman angelo dalli and michael a arbib
+
+an example hybrid is a hierarchical control system in which the lowest reactive layers are sub symbolic the higher layers having relaxed time constraints are capable of reasoning from an abstract world model and performing planning even by hybrid wisdom
+
+intelligent systems usually rely on hybrid reasoning processes which include induction deduction abduction and reasoning by analogy

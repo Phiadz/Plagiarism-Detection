@@ -1,0 +1,96 @@
+this is an accepted version of this page
+
+
+the robots exclusion protocol often referred to by the filename used to implement it robots txt is a standard used by websites to indicate to visiting web crawlers and other web robots which portions of the website they are allowed to visit
+
+the standard developed in 1994 relies on voluntary compliance malicious bots can use the file as a directory of which pages to visit though standards bodies discourage countering this with security through obscurity some archival sites ignore robots txt the standard was used in the 1990s to mitigate server overload in the 2020s websites began denying bots that collect information for generative artificial intelligence
+
+the robots txt file can be used in conjunction with sitemaps another robot inclusion standard for websites
+
+the standard was proposed by martijn koster when working for nexor in february 1994 on the www talk mailing list the main communication channel for www related activities at the time charles stross claims to have provoked koster to suggest robots txt after he wrote a badly behaved web crawler that inadvertently caused a denial of service attack on koster s server
+
+the standard initially robotsnotwanted txt allowed web developers to specify which bots should not access their website or which pages bots should not access the internet was small enough in 1994 to maintain a complete list of all bots server overload was a primary concern by june 1994 it had become a de facto standard most complied including those operated by search engines such as webcrawler lycos and altavista
+
+on july 1 2019 google announced the proposal of the robots exclusion protocol as an official standard under internet engineering task force a proposed standard was published in september 2022 as rfc 9309
+
+a site owner wishing to give instructions to web robots places a text file called robots txt in the root of the web site hierarchy e g https www example com robots txt this text file contains the instructions in a specific format see examples below robots that choose to follow the instructions try to fetch this file and read the instructions before fetching any other file from the website if this file does not exist web robots assume that the website owner does not wish to place any limitations on crawling the entire site
+
+a robots txt file contains instructions for bots indicating which web pages they can and cannot access robots txt files are particularly important for web crawlers from search engines such as google
+
+a robots txt file on a website will function as a request that specified robots ignore specified files or directories when crawling a site this might be for example out of a preference for privacy from search engine results or the belief that the content of the selected directories might be misleading or irrelevant to the categorization of the site as a whole or out of a desire that an application only operates on certain data links to pages listed in robots txt can still appear in search results if they are linked to from a page that is crawled
+
+a robots txt file covers one origin for websites with multiple subdomains each subdomain must have its own robots txt file if example com had a robots txt file but foo example com did not the rules that would apply for example com would not apply to foo example com in addition each uri scheme and port needs its own robots txt file http example com robots txt does not apply to pages under http example com 8080 or https example com
+
+the robots txt protocol is widely complied with by bot operators
+
+the robots txt played a role in the 1999 legal case of ebay v bidder s edge where ebay attempted to block a bot that did not comply with robots txt and in may 2000 a court ordered the company operating the bot to stop crawling ebay s servers using any automatic means by legal injunction on the basis of trespassing bidder s edge appealed the ruling but agreed in march 2001 to drop the appeal pay an undisclosed amount to ebay and stop accessing ebay s auction information
+
+in 2007 healthcare advocates v harding a company was sued for accessing protected web pages archived via the wayback machine despite robots txt rules that prevented those pages from being archived a pennsylvania court ruled in this situation the robots txt file qualifies as a technological measure under the dmca due to a malfunction at internet archive harding could temporarily access these pages from the archive and thus the court found the harding firm did not circumvent the protective measure
+
+in 2013 associated press v meltwater u s holdings inc the associated press sued meltwater for copyright infringement and misappropriation over copying of ap news items meltwater claimed that they did not require a license and that it was fair use because the content was freely available and not protected by robots txt the court decided in march 2013 that meltwater s copying is not protected by the fair use doctrine mentioning among several factors that failure to employ the robots txt protocol did not give meltwater license to copy and publish ap content
+
+some major search engines following this standard include ask aol baidu bing duckduckgo kagi google yahoo and yandex
+
+some web archiving projects ignore robots txt archive team uses the file to discover more links such as sitemaps co founder jason scott said that unchecked and left alone the robots txt file ensures no mirroring or reference for items that may have general use and meaning beyond the website s context in 2017 the internet archive announced that it would stop complying with robots txt directives according to digital trends this followed widespread use of robots txt to remove historical sites from search engine results and contrasted with the nonprofit s aim to archive snapshots of the internet as it previously existed
+
+starting in the 2020s web operators began using robots txt to deny access to bots collecting training data for generative ai in 2023 originality ai found that 306 of the thousand most visited websites blocked openai s gptbot in their robots txt file and 85 blocked google s google extended many robots txt files named gptbot as the only bot explicitly disallowed on all pages denying access to gptbot was common among news websites such as the bbc and the new york times in 2023 blog host medium announced it would deny access to all artificial intelligence web crawlers as ai companies have leached value from writers in order to spam internet readers
+
+gptbot complies with the robots txt standard and advises web operators about how to disallow it but the verge s david pierce said this only began after training the underlying models that made it so powerful also some bots are used both for search engines and artificial intelligence and it may be impossible to block only one of these options 404 media reported that companies like anthropic and perplexity ai circumvented robots txt by renaming or spinning up new scrapers to replace the ones that appeared on popular blocklists
+
+in 2025 the nonprofit rsl collective announced the launch of the really simple licensing rsl open content licensing standard allowing web publishers to set terms for ai bots in their robots txt files participating companies at launch included medium reddit and yahoo
+
+despite the use of the terms allow and disallow the protocol is purely advisory and relies on the compliance of the web robot it cannot enforce any of what is stated in the file malicious web robots are unlikely to honor robots txt some may even use the robots txt as a guide to find disallowed links and go straight to them while this is sometimes claimed to be a security risk this sort of security through obscurity is discouraged by standards bodies the national institute of standards and technology nist in the united states specifically recommends against this practice system security should not depend on the secrecy of the implementation or its components in the context of robots txt files security through obscurity is not recommended as a security technique
+
+many robots also pass a special user agent to the web server when fetching content a web administrator could also configure the server to automatically return failure or pass alternative content when it detects a connection using one of the robots
+
+some sites such as google host a humans txt file that displays information meant for humans to read some sites such as github redirect humans txt to an about page
+
+previously google had a joke file hosted at killer robots txt instructing the terminator not to kill the company founders larry page and sergey brin
+
+this example tells all robots that they can visit all files because the wildcard stands for all robots and the disallow directive has no value meaning no pages are disallowed
+
+this example has the same effect allowing all files rather than prohibiting none
+
+the same result can be accomplished with an empty or missing robots txt file
+
+this example tells all robots to stay out of a website
+
+this example tells all robots not to enter three directories
+
+this example tells all robots to stay away from one specific file
+
+all other files in the specified directory will be processed
+
+example demonstrating how comments can be used
+
+this example tells one specific robot to stay out of a website
+
+this example tells two specific robots not to enter one specific directory
+
+it is also possible to list multiple robots with their own rules the actual robot string is defined by the crawler a few robot operators such as google support several user agent strings that allow the operator to deny access to a subset of their services by using specific user agent strings
+
+example demonstrating multiple user agents
+
+the directive disallow something blocks all files and subdirectories starting with something
+
+in contrast using a wildcard if supported by the crawler allows for more complex patterns in specifying paths and files to allow or disallow from crawling for example disallow something other blocks urls such as
+
+it would not prevent the crawling of something foo else as that would not match the pattern
+
+the wildcard allows greater flexibility but may not be recognized by all crawlers although it is part of the robots exclusion protocol rfc
+
+a wildcard at the end of a rule in effect does nothing as that is the standard behaviour
+
+the crawl delay value is supported by some crawlers to throttle their visits to the host since this value is not part of the standard its interpretation is dependent on the crawler reading it it is used when the multiple burst of visits from bots is slowing down the host yandex interprets the value as the number of seconds to wait between subsequent visits bing defines crawl delay as the size of a time window from 1 to 30 seconds during which bingbot will access a web site only once google ignores this directive but provides an interface in its search console for webmasters to control the googlebot s subsequent visits
+
+some crawlers support a sitemap directive allowing multiple sitemaps in the same robots txt in the form sitemap full url
+
+the robot exclusion standard does not mention the character in the disallow statement
+
+cloudflare introduced content signal as a directive to suggest acceptable crawler behavior by type ai train ai input and search with values of yes or no for each
+
+in addition to root level robots txt files robots exclusion directives can be applied at a more granular level through the use of robots meta tags and x robots tag http headers the robots meta tag cannot be used for non html files such as images text files or pdf documents on the other hand the x robots tag can be added to non html files by using htaccess and httpd conf files
+
+the x robots tag is only effective after the page has been requested and the server responds and the robots meta tag is only effective after the page has loaded whereas robots txt is effective before the page is requested thus if a page is excluded by a robots txt file any robots meta tags or x robots tag headers are effectively ignored because the robot will not see them in the first place
+
+the robots exclusion protocol requires crawlers to parse at least 500 kibibytes 512000 bytes of robots txt files which google maintains as a 500 kibibyte file size restriction for robots txt files

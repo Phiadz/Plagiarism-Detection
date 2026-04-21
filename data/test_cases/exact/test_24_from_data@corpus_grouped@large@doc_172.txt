@@ -1,0 +1,3 @@
+facts which are dimensions that are shared in a specific way between facts in two or more data marts
+
+the top down approach is designed using a normalized enterprise data model atomic data that is data at the greatest level of detail are stored in the data warehouse dimensional data marts containing

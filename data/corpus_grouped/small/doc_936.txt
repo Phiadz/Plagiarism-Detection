@@ -1,0 +1,7 @@
+paul john werbos born september 4 1947 is an american social scientist and machine learning pioneer he is best known for his 1974 dissertation which first described the process of training artificial neural networks through backpropagation of errors he also was a pioneer of recurrent neural networks
+
+werbos was one of the original three two year presidents of the international neural network society inns in 1995 he was awarded the ieee neural network pioneer award for the discovery of backpropagation and other basic neural network learning frameworks such as adaptive dynamic programming
+
+werbos has also written on quantum mechanics and other areas of physics he also has interest in larger questions relating to consciousness the foundations of physics and human potential
+
+he served as program director in the national science foundation for several years until 2015

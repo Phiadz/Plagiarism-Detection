@@ -1,0 +1,15 @@
+master data represents data about the business entities that provide context for business transactions the most commonly found categories of master data are parties individuals and organisations and their roles such as customers suppliers employees products financial structures such as ledgers and cost centres and locational concepts
+
+master data should be distinguished from reference data while both provide context for business transactions reference data is concerned with classification and categorisation while master data is concerned with business entities
+
+master data is by its nature almost always non transactional in nature there exist edge cases where an organization may need to treat certain transactional processes and operations as master data this arises for example where information about master data entities such as customers or products is only contained within transactional data such as orders and receipts and is not housed separately
+
+iso 8000 is the international standard for data quality and data portability in master data
+
+an alternative definition of the term master data is that it represents the business objects that contain the most valuable agreed upon information shared across an organization in this sense it gives context to business activities and transactions answering questions like who what when and how as well as expanding the ability to make sense of these activities through categorizations groupings and hierarchies it can cover relatively static reference data transactional unstructured analytical hierarchical and metadata what constitutes master data under this definition is therefore not about an essential quality of the data e g it is a business entity that provides context for business transactions but rather about the context in which the organisation has decided to treat the data
+
+for most organisations most or all master data is defined and managed within that organisation
+
+some master data however may be externally defined and managed this represents the single source of basic business data used across a marketplace regardless of organisation or location thus it can be used by multiple enterprises within a value chain facilitating integration of multiple data sources and literally putting everyone in the market on the same page an example of market master data is the universal product code upc found on consumer products
+
+curating and managing master data is key to ensuring its quality and thus fitness for purpose all aspects of an organisation operational and analytical are greatly dependent on the quality of an organization s master data master data is therefore the focus of the information technology it discipline of master data management mdm without this discipline in place organisations commonly encounter difficulties with having multiple versions of the truth about a business entity both within individual applications and distributed across applications

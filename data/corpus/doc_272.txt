@@ -1,0 +1,104 @@
+
+
+a virtual assistant va is a software agent that can perform a range of tasks or services for a user based on user input such as commands or questions including verbal ones such technologies often incorporate chatbot capabilities to streamline task execution the interaction may be via text graphical interface or voice as some virtual assistants are able to interpret human speech and respond via synthesized voices
+
+in many cases users can ask their virtual assistants questions control home automation devices and media playback and manage other basic tasks such as email to do lists and calendars all with verbal commands in recent years prominent virtual assistants for direct consumer use have included apple siri amazon alexa google assistant gemini microsoft copilot and samsung bixby also companies in various industries often incorporate some kind of virtual assistant technology into their customer service or support
+
+into the 2020s the emergence of artificial intelligence based chatbots such as chatgpt has brought increased capability and interest to the field of virtual assistant products and services
+
+radio rex was the first voice activated toy patented in 1916 and released in 1922 it was a wooden toy in the shape of a dog that would come out of its house when its name is called
+
+in 1952 bell labs presented audrey the automatic digit recognition machine it occupied a six foot high relay rack consumed substantial power had streams of cables and exhibited the myriad maintenance problems associated with complex vacuum tube circuitry it could recognize the fundamental units of speech phonemes it was limited to the accurate recognition of digits spoken by designated talkers it could therefore be used for voice dialing but in most cases push button dialing was cheaper and faster rather than speaking the consecutive digits
+
+another early tool which was enabled to perform digital speech recognition was the ibm shoebox voice activated calculator presented to the general public during the 1962 seattle world s fair after its initial market launch in 1961 this early computer developed almost 20 years before the introduction of the first ibm personal computer in 1981 was able to recognize 16 spoken words and the digits 0 to 9
+
+the first natural language processing computer program or the chatbot eliza was developed by mit professor joseph weizenbaum in the 1960s it was created to demonstrate that the communication between man and machine was superficial eliza used pattern matching and substitution methodology into scripted responses to simulate conversation which gave an illusion of understanding on the part of the program
+
+weizenbaum s own secretary reportedly asked weizenbaum to leave the room so that she and eliza could have a real conversation weizenbaum was surprised by this later writing i had not realized that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people
+
+this gave name to the eliza effect the tendency to unconsciously assume computer behaviors are analogous to human behaviors that is anthropomorphisation a phenomenon present in human interactions with virtual assistants
+
+the next milestone in the development of voice recognition technology was achieved in the 1970s at the carnegie mellon university in pittsburgh pennsylvania with substantial support of the united states department of defense and its darpa agency funded five years of a speech understanding research program aiming to reach a minimum vocabulary of 1 000 words companies and academia including ibm carnegie mellon university cmu and stanford research institute took part in the program
+
+the result was harpy it mastered about 1000 words the vocabulary of a three year old and it could understand sentences it could process speech that followed pre programmed vocabulary pronunciation and grammar structures to determine which sequences of words made sense together and thus reducing speech recognition errors
+
+in 1986 tangora was an upgrade of the shoebox it was a voice recognizing typewriter named after the world s fastest typist at the time it had a vocabulary of 20 000 words and used prediction to decide the most likely result based on what was said in the past ibm s approach was based on a hidden markov model which adds statistics to digital signal processing techniques the method makes it possible to predict the most likely phonemes to follow a given phoneme still each speaker had to individually train the typewriter to recognize their voice and pause between each word
+
+in 1983 gus searcy invented the butler in a box an electronic voice home controller system
+
+in the 1990s digital speech recognition technology became a feature of the personal computer with ibm philips and lernout hauspie fighting for customers much later the market launch of the first smartphone ibm simon in 1994 laid the foundation for smart virtual assistants as we know them today citation needed
+
+in 1997 dragon s naturallyspeaking software could recognize and transcribe natural human speech without pauses between each word into a document at a rate of 100 words per minute a version of naturally speaking is still available for download and it is still used today for instance by many doctors in the us and the uk to document their medical records citation needed
+
+in 2001 colloquis publicly launched smarterchild on platforms like aim and msn messenger while entirely text based smarterchild was able to play games check the weather look up facts and converse with users to an extent
+
+the first modern digital virtual assistant installed on a smartphone was siri which was introduced as a feature of the iphone 4s on 4 october 2011 apple inc developed siri following the 2010 acquisition of siri inc a spin off of sri international which is a research institute financed by darpa and the united states department of defense its aim was to aid in tasks such as sending a text message making phone calls checking the weather or setting up an alarm over time it has developed to provide restaurant recommendations search the internet and provide driving directions
+
+in november 2014 amazon announced alexa alongside the echo in 2016 salesforce debuted einstein developed from a set of technologies underlying the salesforce platform einstein was replaced by agentforce an agentic ai in september 2024
+
+in april 2017 amazon released a service for building conversational interfaces for any type of virtual assistant or interface
+
+in the 2020s artificial intelligence ai systems like chatgpt have gained popularity for their ability to generate human like responses to text based conversations in february 2020 microsoft introduced its turing natural language generation t nlg which was then the largest language model ever published at 17 billion parameters on november 30 2022 chatgpt was launched as a prototype and quickly garnered attention for its detailed responses and articulate answers across many domains of knowledge the advent of chatgpt and its introduction to the wider public increased interest and competition in the space in february 2023 google began introducing an experimental service called bard which is based on its lamda program to generate text responses to questions asked based on information gathered from the web
+
+while chatgpt and other generalized chatbots based on the latest generative ai are capable of performing various tasks associated with virtual assistants there are also more specialized forms of such technology that are designed to target more specific situations or needs
+
+virtual assistants work via
+
+many virtual assistants are accessible via multiple methods offering versatility in how users can interact with them whether through chat voice commands or other integrated technologies
+
+virtual assistants use natural language processing nlp to match user text or voice input to executable commands some continually learn using artificial intelligence techniques including machine learning and ambient intelligence
+
+to activate a virtual assistant using the voice a wake word might be used this is a word or groups of words such as hey siri ok google or hey google alexa and hey microsoft as virtual assistants become more popular there are increasing legal risks involved 815
+
+virtual assistants may be integrated into many types of platforms or like amazon alexa across several of them
+
+virtual assistants can provide a wide variety of services these include
+
+conversational commerce is e commerce via various means of messaging including via voice assistants but also live chat on e commerce web sites live chat on messaging applications such as wechat facebook messenger and whatsapp and chatbots on messaging applications or web sites
+
+a virtual assistant can work with customer support team of a business to provide 24x7 support to customers it provides quick responses which enhances a customer s experience businesses in service industries have deployed ai voice assistants to handle routine customer interactions such as appointment booking and order taking particularly for after hours coverage these implementations often use industry specific training to understand domain terminology and integrate with existing business software
+
+amazon enables alexa skills and google actions essentially applications that run on the assistant platforms
+
+virtual assistants have a variety of privacy concerns associated with them features such as activation by voice pose a threat as such features requires the device to always be listening modes of privacy such as the virtual security button have been proposed to create a multilayer authentication for virtual assistants
+
+the privacy policy of google assistant states that it does not store the audio data without the user s permission but may store the conversation transcripts to personalise its experience personalisation can be turned off in settings if a user wants google assistant to store audio data they can go to voice audio activity vaa and turn on this feature audio files are sent to the cloud and used by google to improve the performance of google assistant but only if the vaa feature is turned on
+
+the privacy policy of amazon s virtual assistant alexa states that it only listens to conversations when its wake word like alexa amazon echo is used it starts recording the conversation after the call of a wake word and stops recording after 8 seconds of silence it sends the recorded conversation to the cloud it is possible to delete the recording from the cloud by visiting alexa privacy in alexa
+
+apple states that it does not record audio to improve siri instead it claims to use transcripts transcript data is only sent if it is deemed important for analysis users can opt out anytime if they don t want siri to send the transcripts in the cloud
+
+cortana is a voice only virtual assistant with singular authentication this voice activated device accesses user data to perform common tasks like checking weather or making calls raising privacy concerns due to the lack of secondary authentication
+
+added value of the virtual assistants can come among others from the following
+
+in 2019 antonio a casilli a french sociologist criticized artificial intelligence and virtual assistants in particular in the following way
+
+at a first level the fact that the consumer provides free data for the training and improvement of the virtual assistant often without knowing it is ethically disturbing
+
+but at a second level it might be even more ethically disturbing to know how these ais are trained with this data
+
+this artificial intelligence is trained via neural networks which require a huge amount of labelled data however this data needs to be labelled through a human process which explains the rise of microwork in the last decade that is remotely using some people worldwide doing some repetitive and very simple tasks for a few cents such as listening to virtual assistant speech data and writing down what was said microwork has been criticized for the job insecurity it causes and for the total lack of regulation the average salary was 1 38 dollar hour in 2010 and it provides neither healthcare nor retirement benefits sick pay minimum wage hence virtual assistants and their designers are controversial for spurring job insecurity and the ais they propose are still human in the way that they would be impossible without the microwork of millions of human workers
+
+privacy concerns are raised by the fact that voice commands are available to the providers of virtual assistants in unencrypted form and can thus be shared with third parties and be processed in an unauthorized or unexpected manner additionally to the linguistic content of recorded speech a user s manner of expression and voice characteristics can implicitly contain information about their biometric identity personality traits body shape physical and mental health condition sex gender moods and emotions socioeconomic status and geographical origin
+
+most virtual assistants such as siri cortana and alexa all feature feminine voices and personas by default which draws attention to issues of the labour politics of secratorial work the feminization of these va voices brings up concerns regarding ingrained gender biases of women s work and reinforces ideas of women s subservience as users interact with them as a virtual secretary these assistants are connected to the gendered stereotypes that the secretary is connected to tropes of feminine supportive non threatening service work
+
+scholars draw attention to the feminized voices of virtual assistants addressing gender based issues in technology this is an issue of interest as gender biased technologies could intensify women s objectification and gender stereotyping as well as widen the gender gap further there is the concern of enforcing sexist narratives as the unconscious bias is manifested in children and adults that hard wire women and commands
+
+
+
+notable developer platforms for virtual assistants include
+
+in previous generations of text chat based virtual assistants the assistant was often represented by an avatar a k a interactive online character or automated character this was known as an embodied agent
+
+digital experiences enabled by virtual assistants are considered to be among the major recent technological advances and most promising consumer trends experts claim that digital experiences will achieve a status weight comparable to real experiences if not become more sought after and prized the trend is verified by a high number of frequent users and the substantial growth of worldwide user numbers of virtual digital assistants in mid 2017 the number of frequent users of digital virtual assistants is estimated to be around 1 bn worldwide in addition it can be observed that virtual digital assistant technology is no longer restricted to smartphone applications but present across many industry sectors incl automotive telecommunications retail healthcare and education
+in response to the significant r d expenses of firms across all sectors and an increasing implementation of mobile devices the market for speech recognition technology is predicted to grow at a cagr of 34 9 globally over the period of 2016 to 2024 and thereby surpass a global market size of us 7 5 billion by 2024 according to an ovum study the native digital assistant installed base is projected to exceed the world s population by 2021 with 7 5 billion active voice ai capable devices according to ovum by that time google assistant will dominate the voice ai capable device market with 23 3 market share followed by samsung s bixby 14 5 apple s siri 13 1 amazon s alexa 3 9 and microsoft s cortana 2 3
+
+taking into consideration the regional distribution of market leaders north american companies e g nuance communications ibm egain are expected to dominate the industry over the next years due to the significant impact of byod bring your own device and enterprise mobility business models furthermore the increasing demand for smartphone assisted platforms are expected to further boost the north american intelligent virtual assistant iva industry growth despite its smaller size in comparison to the north american market the intelligent virtual assistant industry from the asia pacific region with its main players located in india and china is predicted to grow at an annual growth rate of 40 above global average over the 2016 2024 period
+
+virtual assistants should not be only seen as a gadget for individuals as they could have a real economic utility for enterprises as an example a virtual assistant can take the role of an always available assistant with an encyclopedic knowledge and which can organize meetings check inventories verify informations virtual assistants are all the more important that their integration in small and middle sized enterprises often consists in an easy first step through the more global adaptation and use of internet of things iot indeed iot technologies are first perceived by small and medium sized enterprises as technologies of critical importance but too complicated risky or costly to be used
+
+in may 2018 researchers from the university of california berkeley published a paper that showed audio commands undetectable for the human ear could be directly embedded into music or spoken text thereby manipulating virtual assistants into performing certain actions without the user taking note of it the researchers made small changes to audio files which cancelled out the sound patterns that speech recognition systems are meant to detect these were replaced with sounds that would be interpreted differently by the system and command it to dial phone numbers open websites or even transfer money the possibility of this has been known since 2016 and affects devices from apple amazon and google
+
+in addition to unintentional actions and voice recording another security and privacy risk associated with intelligent virtual assistants is malicious voice commands an attacker who impersonates a user and issues malicious voice commands to for example unlock a smart door to gain unauthorized entry to a home or garage or order items online without the user s knowledge although some ivas provide a voice training feature to prevent such impersonation it can be difficult for the system to distinguish between similar voices thus a malicious person who is able to access an iva enabled device might be able to fool the system into thinking that they are the real owner and carry out criminal or mischievous acts

@@ -1,0 +1,17 @@
+data rescue is a movement among scientists researchers and others to preserve primarily government hosted data sets often scientific in nature to ward off their removal from publicly available websites while the concept of preserving federal data existed before it gained new impetus with the election in 2016 of u s president donald trump as trump reemerged in 2025 there were renewed concerns about the need for data rescue
+
+the concept of harvesting and preserving federal web pages began as early as 2008 at the conclusion of president george w bush s second term under the name end of term presidential harvest
+
+soon after trump s election scientists librarians and others in the u s and canada fearing that the administration of trump who had denied the validity of the scientific consensus on the existence of climate change would act to remove scientific data from government websites began working to preserve those data
+
+quickly the concept of data rescue became a grassroots movement with organized hackathon events at cities across the u s and elsewhere often hosted at universities and other institutions of higher education
+
+the guerrilla archiving event saving environmental data from trump was a meeting arranged by two professors at the university of toronto in december 2016 in an effort to pre emptively preserve us government climate data from possible deletion by the first trump administration
+
+during his run for presidency president trump expressed in various occasions climate change denialism calling climate change a chinese hoax in order to make u s manufacturing non competitive and voiced his hostility towards climate science and paris climate agreement in early december 2016 a prominent climate change denier scott pruitt was selected as a new administrator of the united states environmental protection agency epa these proceedings raised concerns among the academic community that the scientific opinion on climate change might be suppressed during trump s presidency indeed according to reuters sources on 25 january 2017 trump s administration instructed the united states environmental protection agency to remove climate change page from their website
+
+fearing for possible deletion or alteration of the us government websites containing government climate data as happened in canada citation needed people from various academic backgrounds and training such as coders environmental scientists social scientists archivists and librarians gathered together in order to save us government websites at risk of changing or disappearing during or after government transition the event collaborated with the internet archive s end of term project
+
+climate mirror is an open project to mirror public climate datasets that is an open access project to mirror to back up the data of publicly owned datasets from climate science such as data from u s federally funded research datasets from the national oceanic and atmospheric administration noaa the environmental protection agency epa and nasa are considered primary examples
+
+the idea behind climate mirror is comparable to the notion that lots of copies keep stuff safe from disappearing through censorship link rot lapses of professionalism in preserving the integrity of the scientific record or lack of digital permanence it offers a parallel type of massive backup

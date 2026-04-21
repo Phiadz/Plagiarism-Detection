@@ -1,0 +1,11 @@
+facenet is a facial recognition system developed by florian schroff dmitry kalenichenko and james philbin a group of researchers affiliated with google the system was first presented at the 2015 ieee conference on computer vision and pattern recognition the system uses a deep convolutional neural network to learn a mapping also called an embedding from a set of face images to a 128 dimensional euclidean space and assesses the similarity between faces based on the square of the euclidean distance between the images corresponding normalized vectors in the 128 dimensional euclidean space the system uses the triplet loss function as its cost function and introduced a new online triplet mining method the system achieved an accuracy of 99 63 which is the highest score to date on the labeled faces in the wild dataset using the unrestricted with labeled outside data protocol
+
+the structure of facenet is represented schematically in figure 1
+
+for training researchers used input batches of about 1800 images for each identity represented in the input batches there were 40 similar images of that identity and several randomly selected images of other identities these batches were fed to a deep convolutional neural network which was trained using stochastic gradient descent with standard backpropagation and the adaptive gradient optimizer adagrad algorithm the learning rate was initially set at 0 05 which was later lowered while finalizing the model
+
+the researchers used two types of architectures which they called nn1 and nn2 and explored their trade offs the practical differences between the models lie in the difference of parameters and flops the details of the nn1 model are presented in the table below
+
+a key innovation of the system was the triplet loss function and its associated mining method this function has since become central in a variety of other one shot learning problems
+
+on the widely used labeled faces in the wild lfw dataset the facenet system achieved an accuracy of 99 63 which is the highest score on lfw in the unrestricted with labeled outside data protocol on youtube faces db the system achieved an accuracy of 95 12

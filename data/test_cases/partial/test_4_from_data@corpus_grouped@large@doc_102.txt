@@ -1,0 +1,1 @@
+ as ascii or unicode character and string types can have different subtypes according to the character encoding the original 7 bit wide ascii was found to be limited and superseded

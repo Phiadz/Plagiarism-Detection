@@ -1,0 +1,83 @@
+an ai data center is a specialized data center facility designed for the computationally intensive tasks of training and running inference for artificial intelligence ai and machine learning models unlike general purpose data centers they are optimized for the parallel processing demands of ai workloads typically utilizing hardware such as ai accelerators e g gpus tpus and high speed interconnects
+
+the global push to construct these specialized facilities accelerated dramatically during the ai boom of the 2020s this demand impacted supply chains driving memory manufacturers to prioritize production of high bandwidth memory hbm essential for ai servers which has led to a global memory supply shortage and triggering a broader competition for advanced chips power and infrastructure
+
+major tech companies are estimated to spend 650 billion on ai data centers in 2026
+
+data centers for building and running large machine learning models contain specialized computer chips gpus that used 2 to 4 times as much energy as their regular cpu counterparts 250 500 watts
+
+according to pcmag ai data centers use 60 kilowatts of power per server rack whereas more standard data centers typically use 5 10 kilowatts per rack
+
+as of august 2025 the information tracked 18 planned or existing ai data centers in the united states operated by amazon web services coreweave crusoe meta microsoft openai oracle tesla and xai other ai data center operators include digital realty and alibaba data centers are also being built in china india europe saudi arabia and canada the new yorker described coreweave as the most prominent ai data center operator in the united states
+
+two types of data center providers for machine learning have been noted hyperscalers and neoclouds the verge listed large technology companies such as google meta microsoft oracle and amazon as hyperscalers the new york times described neoclouds as a new generation of data center providers coreweave nebius nscale and lambda have been described as examples of neoclouds
+
+in january 2025 openai in partnership with oracle and softbank announced the stargate project which as of september 2025 is composed of six built or proposed ai data centers in the united states
+
+in response to the stargate project amazon launched in october 2025 an ai data center on 1 200 acres of farmland in indiana this data center known as project rainier is one of the largest ai data centers in the world with amazon spending 11 billion on the project rainier is specifically intended for training and running machine learning models from anthropic as of that time this facility contains seven data centers out of an estimated 30 planned and will use 2 2 gigawatts of electricity equivalent to 1 million households and millions of gallons of water per year computer chips from annapurna labs and anthropic trainium 2 were designed for use in such facilities amazon pumped millions of gallons of water out of the ground to construct the data center and as of june 2025 indiana state officials are investigating whether this dewatering process led to dry wells for local residents
+
+in november 2025 anthropic announced a plan in partnership with fluidstack to develop artificial intelligence infrastructure in the united states including data centers in new york and texas worth 50 billion
+
+other ai data center projects include the colossus supercomputer from xai a louisiana based project from meta hyperion expected to use 5 gw of power and a second ohio based meta project prometheus with a capacity of 1 gw a 3 200 acre ai data center capable of 4 4 4 5 gw of power and located on the decommissioned homer city generating station is under construction as of 2025 and will use seven 30 acre gas generating stations supplied by eqt
+
+as of december 2025 crh is working on over 100 data centers in the united states
+
+in 2025 exxonmobil and nextera announced plans to build a data center powered by natural gas and using carbon capture technology with 1 2 gw of power capacity they previously purchased 2 500 acres of land in the southeastern united states and plan to market the data center to an artificial intelligence company
+
+the increased interest in ai data centers has led to several executives from companies in that space becoming billionaires including coreweave qts nebius astera labs groq fermi which is connected to former united states secretary of energy rick perry snowflake and cipher mining
+
+several companies involved in cryptocurrency mining such as bitdeer coreweave cipher mining terawulf iren core scientific and cleanspark have also been involved with ai data centers
+
+between january and august 2024 microsoft meta google and amazon collectively spent 125 billion on ai data centers citigroup forecasted that 2 8 trillion would be spent on ai data centers by 2030 while mckinsey and company estimated that almost 7 trillion would be spent globally by that time according to s p global 61 billion has been spent on the data center market as a whole in 2025 while debt issuance for data centers was 182 billion during the same year
+
+large technology companies have offloaded the financial risks of building ai data centers by setting up special purpose vehicles or by contracting with neoclouds for example meta s hyperion was mostly funded by blue owl capital which did so using a bond offering from pimco those bonds were sold to a number of clients including blackrock meta did not borrow money itself and instead established a special purpose vehicle from which it would rent the data center this deal was structured by morgan stanley for 30 billion the largest known private capital transaction as of 2025
+
+neoclouds such as coreweave have gone into debt to buy computer chips from nvidia for their data centers and the chips themselves have been used for loan collateral as of december 2025 coreweave took out three gpu backed loans collectively worth 12 4 billion from private credit firms blackstone coatue blackrock pimco and from banks goldman sachs jpmorgan chase wells fargo thus these companies provide an indirect connection between private credit and established banks data centers have also established asset backed securities and debt for data centers has its own derivative financial products
+
+the real estate industry including asset managers public companies and private investors has also invested in data centers
+
+energy consumption is a central issue for data centers power draw ranges from a few kilowatts kw for small server racks to several tens of megawatts mw for large facilities modern hyperscale data centers can exhibit power densities exceeding 100 times those of conventional office buildings primarily due to the high concentration of servers and cooling systems required to manage continuous digital workloads for higher power density facilities electricity costs are a dominant operating expense and account for over 10 of the total cost of ownership tco of a data center
+
+as of 2024 data centers in the united states are primarily powered by natural gas which supplies 40 of their electricity with renewable energy at 24 nuclear at about 20 and coal at about 15 the associated press reported that electricity for ai data centers in the united states would likely come from natural gas or oil as companies prefer using currently available power plants which primarily use fossil fuels fossil energy is also often cheaper in locations where data centers are developed and experts believe that energy demands from generative ai and data centers would be difficult to fulfill with renewable energy alone some companies such as google amazon and meta have expressed interest in nuclear power for their data centers other data centers including xai s colossus openai s stargate and meta s prometheus use their own off grid natural gas plants electric vehicle and lithium ion batteries have also been used for powering data centers including for colossus
+
+power utility companies make upgrades to their infrastructure to handle demands of new data centers and the price for these changes typically falls on residential or smaller commercial consumers in 2025 the mountain valley pipeline announced plans to expand its capacity by 25 to meet energy needs for data centers
+
+in december 2025 the federal energy regulatory commission published a unanimous order allowing data centers in the united states to have a direct connection with power plants united states secretary of energy chris wright expressed support for un retiring coal plants to power ai data centers electricity demands from ai data centers have slowed or reversed the retirement of peaking power plants in the united states for example in 2025 southern company announced that energy use from data centers would prevent the company from retiring coal fired power plants as it had earlier promised
+
+average ai data centers have an electricity footprint equivalent to 100 000 households and use billions of gallons of water for cooling their hardware in 2025 the international energy agency estimated that the larger ai data centers currently under construction could consume as much electricity as 2 million households a 2024 report from the united states department of energy stated that data centers overall used 17 billion gallons of water per year in the united states primarily due to rapid proliferation of ai servers and that this usage was forecasted to grow to nearly 80 billion gallons by 2028 researchers estimated that ai data centers in the united states would emit 24 44 metric tons of carbon dioxide and use 731 1 125 million cubic meters of water per year between 2024 and 2030
+
+peaking power plants which have been proposed as a power source for ai data centers emit sulfur dioxide and have historically been located disproportionately near communities of color in the united states
+
+reciprocating internal combustion engines proposed as another power source for a data center emit pm 2 5 nitrogen oxides and volatile organic compounds
+
+in the united states both the biden administration and second trump administration supported the construction of ai data centers in january 2025 then president joe biden signed an executive order for federal government agencies to support ai data centers on federal sites built by private companies study their effect on energy prices and encourage their use of renewable energy in april 2025 the united states department of energy suggested 16 possible sites including los alamos national laboratory sandia national laboratories and oak ridge national laboratory in its july 2025 ai action plan the second trump administration supported increased production of ai data centers
+
+several us states have incentivized local data center construction for example in 2024 lawmakers in michigan approved tax breaks for data center equipment and construction material some data center companies have also invested or promised to invest in the infrastructure of local communities
+
+in december 2025 democratic senators elizabeth warren chris van hollen and richard blumenthal wrote to seven technology companies google microsoft amazon meta coreweave digital realty and equinix that they will investigate the effects of those companies operations on consumer energy bills highlighting ai data centers in particular that same month 25 democratic lawmakers wrote to the inspector general of the united states department of commerce over possible conflict of interest concerns involving secretary of commerce howard lutnick and ai data centers lutnick met with a co founder of fermi which proposed an ai data center project financed by cantor fitzgerald and newmark group
+
+ai infrastructure coalition aiic an organization led by brian o walsh kyrsten sinema and garret graves has supported trump s ai action plan with sinema becoming personally involved in a local meeting on an ai data center in arizona venture capital firm andreessen horowitz big tech companies google meta microsoft telecommunications companies cisco corning inc lumen technologies data center providers digital realty qts energy companies duke energy entergy exxonmobil nextera energy and utility companies pg e pinnacle west capital are members of aiic as of november 2025 aiic has been supported by hogan lovells
+
+some analysts have expressed concerns about overbuilding of ai data centers warning that their infrastructure risks obsolescence due to changes in demand and technology estimates for the lifespan of the gpus used to power data centers range from one to eight years by contrast cpus in more traditional data centers have a shelf life of about 5 7 years machine learning model training causes significant stress on computer chips
+
+the increased costs and shortages of computer memory including high bandwidth memory dram and nand flash memory have been attributed to the ai data center boom increased prices and smaller memory storage for smart devices have also been linked to the ai data center boom an agreement with samsung and sk hynix would supply the stargate project with 900 000 dram wafers per month about 40 of all dram produced worldwide
+
+advocates have also linked data center construction to the ai bubble wisconsin watch expressed concern that data centers could become stranded assets in the context of an ai bubble leaving energy customers to pay for the costs journalists have warned that the large number of links between actors and organizations in the ai ecosystem as well as the large number of companies involved each indicate strong risks for the global economy and financial markets
+
+a hedge fund founder questioned the economics of ai data centers concluding that they need about 1 trillion of revenue for profitability
+
+in november 2025 the north american electric reliability corporation warned that building new data centers could negatively affect the electrical grid and cause power outages during extreme weather the independent monitor of pjm interconnection warned that its power grid cannot support new data centers and supported a federal moratorium on data centers
+
+machine learning developers when training large language models often use data centers at their full capacity conflicting with other users including households during peak usage which may lead to blackouts
+
+power disruptions in data centers can cause errors in machine learning model calculations silent data corruption
+
+large technology companies who are building data centers have asked public officials and land owners to sign non disclosure agreements and have appeared to use shell companies in one case when a joint openai oracle data center was rejected by saline township in michigan landowners and developers responded by suing the town the developers acquired the land from the resulting settlement the michigan public service commission approved dte energy to provide power to the data center part of stargate the approval was part of an ex parte motion with no public input
+
+in 2025 over 230 groups have signed a letter supporting a moratorium on constructing ai data centers in the united states concerned by impact on the environment and energy bills signatories include food water watch greenpeace friends of the earth and physicians for social responsibility senator bernie sanders has also supported a moratorium on ai data centers
+
+ashley lamont of honor the earth argued that data centers on tribal lands would not help native americans obtain data sovereignty
+
+the naacp has also expressed opposition to ai data centers
+
+several tech companies including starcloud google nvidia blue origin and spacex have announced projects for or otherwise expressed interest in building data centers in outer space google announced project suncatcher which plans to test whether its tensor processing unit tpu chips which are specifically designed for machine learning can function in the environment of space the company aims to deploy satellites with these chips in a data center by 2027 in november 2025 starcloud a startup supported by nvidia launched a satellite with an nvidia h100 gpu that the company used to deploy and develop a large language model cnbc reported that this model nanogpt was the first model trained in space starcloud deployed a second model based on google s gemma

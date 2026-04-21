@@ -1,0 +1,90 @@
+advanced driver assistance systems adas are technologies that assist drivers with the safe operation of a vehicle through a human machine interface adas increases car and road safety adas uses automated technology such as sensors and cameras to detect nearby obstacles or driver errors and respond accordingly adas can enable various levels of autonomous driving
+
+as most road crashes occur due to human error adas are developed to automate adapt and enhance vehicle technology for safety and better driving adas is proven to reduce road fatalities by minimizing human error safety features are designed to avoid crashes and collisions by offering technologies that alert the driver to problems implementing safeguards and taking control of the vehicle if necessary adas may provide adaptive cruise control assist in avoiding collisions alert drivers to possible obstacles warn of lane departure assist in lane centering incorporate satellite navigation provide traffic warnings provide navigational assistance through smartphones automate lighting or provide other features according to the national crash database in the us forward collision prevention systems have the potential to reduce crashes by 29 similarly lane keeping assistance is shown to offer a reduction potential of 19 while blind zone detection could decrease crash incidents by 9
+
+according to a 2021 research report from canalys approximately 33 of new vehicles sold in the united states europe japan and china had adas the firm also predicted that 50 of all automobiles on the road by the year 2030 would be adas enabled
+
+some who groups advocate standardization of the name such as forward collision warning and automatic emergency braking rather than forward collision alert or smart city brake support
+
+such standardization is promoted by aaa consumer reports j d power national safety council pave and sae international
+
+after wwii an engineer named nathaniel korman who worked on radar systems during wwii experimented with a system to control the speed of a train based on the speed of a train in front of it using radar he noted that it could also be used for on road vehicles
+
+in 1948 ralph teetor applied for a us patent in a speed control device for resisting operation of the accelerator or what is now known as cruise control granted in 1950 general motors later displayed a concept car in 1959 which used some variation of the system with radar embedded in the front nacelles of the car
+
+adas were first used in production vehicles in the 1970s with the adoption of the anti lock braking system early adas include electronic stability control anti lock brakes blind spot information systems lane departure warning adaptive cruise control and traction control these systems can be affected by mechanical alignment adjustments or damage from a collision this has led many manufacturers to require automatic resets for these systems after a mechanical alignment is performed
+
+the reliance on data that describes the outside environment of the vehicle compared to internal data differentiates adas from driver assistance systems das adas rely on inputs from multiple data sources including automotive imaging lidar radar image processing computer vision telemetry and in car networking additional inputs are possible from other sources separate from the primary vehicle platform such as telematics data from other vehicles vehicle to vehicle or v2v communication and infrastructure vehicle to infrastructure or v2i communication modern cars have adas integrated into their electronics manufacturers can add these new features during the design process or after production via over the air ota updates
+
+adas are considered real time systems since they react quickly to multiple inputs and prioritize the incoming information to prevent crashes the systems use preemptive priority scheduling to organize which task needs to be done first the incorrect assignment of these priorities is what can cause more harm than good
+
+the sae classification of levels is based on the role of the driver rather than the vehicle s capabilities although these are related in the form of a driving mode aka driving scenario the mode is determined by both an operational design domain odd and a dynamic driving requirement the odd is the circumstance in which the car is driving and the driving requirement is what the system must do while remaining safe within the boundaries of that odd these two things define the sae level
+
+while most adas features are installed by the vehicle manufacturer during production oem there is a growing market for aftermarket systems that can be retrofitted to existing vehicles particularly in commercial fleets these systems are designed to provide key safety alerts and warnings to drivers of vehicles that were not originally equipped with adas
+
+the most common type of aftermarket adas is based on computer vision and utilizes a windshield mounted camera this device which often combines the functionality of a dashcam with adas software continuously scans the road ahead sometimes they are referred as ai dashcams they provide features such as
+
+these systems are often a component of modern video telematics as they not only provide safety alerts but also record video footage of the events this data is then transmitted via a telematic control unit to a fleet management platform where it can be used for driver coaching and incident analysis
+
+this list is not a comprehensive list of all of the adas instead it provides information on critical examples of adas that have progressed and become more commonly available since 2015
+
+ford and general motors provide hands off eyes on systems such as blue cruise and super cruise in north america these systems allow drivers to take their hands off the steering wheel while the system is engaged however drivers must keep their eyes on the road and be ready to take immediate action at all times
+
+in europe in q2 2018 3 of sold passenger cars had level 2 autonomy driving features in europe in q2 2019 325 000 passenger cars are sold with level 2 autonomy driving features that is 8 of all new cars sold
+
+according to a 2021 research report from canalys approximately 33 percent of new vehicles sold in the united states europe japan and china had adas features the firm also predicted that fifty percent of all automobiles on the road by the year 2030 would be adas enabled
+
+major car brands with level 2 features include lexus audi bmw mercedes benz tesla volvo tata citroën ford hyundai kia mazda nissan peugeot mahindra and subaru full level 2 features are included with full self driving from tesla pilot assist from volvo openpilot from comma ai and propilot assist from nissan
+
+level 3 features are included in honda sensing elite from honda and drive pilot from mercedes benz
+
+on june 29 2021 the national highway traffic safety administration nhtsa the branch of the united states department of transportation responsible for federal motor vehicle regulations issued standing general order 2021 01 sgo 2021 01 which required manufacturers of adas levels 1 or 2 and automated driving systems ads levels 3 through 5 to promptly report crashes that occurred when driver assistance or automation systems were in use sgo 2021 01 subsequently was amended on august 5 2021 under the amended sgo 2021 01 a crash involving ads or level 2 adas is reportable to the nhtsa if it meets the following criteria 13 15
+
+a severe crash is one that results in one or more of the following 14
+
+the incident report to the nhtsa must be made according to the following schedule 13 14
+
+sgo 2021 01 is in effect for three years starting on june 29 2021 9 after gathering data for almost a year july 1 2021 through may 15 2022 the nhtsa released the initial set of data in june 2022 and stated they plan to update the data on a monthly basis the data are subject to several caveats and limitations for instance manufacturers are not required to report the number of vehicles that have been built and equipped with ads adas the number of vehicles operating with ads adas or the total distance traveled with ads adas active which would be helpful to normalize the incident report data
+
+according to the initial data covering july 2021 to may 15 2022 ads levels 3 5 from 25 different manufacturers were involved in 130 crashes led by waymo llc 62 transdev alternative services 34 cruise llc 23 general motors 16 and argo ai 10 because multiple manufacturers can report the same crash the sum exceeds the total number of reportable incidents 4 5 of the 130 crashes 108 had no associated injuries reported there was only one serious injury associated with the remaining crashes 6 the most commonly reported damage location was the rear of the ads equipped vehicle 7
+
+similarly adas level 2 from 12 different manufacturers were involved in 367 crashes over the same period 392 crashes were reported in total but 25 either occurred before july 2021 or had no associated date reported incidents were led by tesla 273 honda 90 and subaru 10 5 6 of the 392 crashes 98 included injury reporting of the 98 46 had no injuries reported 5 resulted in serious injuries and 6 resulted in fatalities 7 the most commonly reported damage location was the front of the adas equipped vehicle 8
+
+according to pacts lack of full standardization may make adas in different cars difficult for drivers to understand button names and locations as well as dashboard symbols change from car to car due to lack of standardization
+
+we can t help feeling that this lack of standardisation is one of the more problematic aspects of driver assistance systems and it s one that is likely to be felt more keenly as systems become increasingly commonplace in years to come particularly if traffic laws change to allow hands off driving in the future
+euroncap
+adas might have many limitations for instance a pre collision system might have 12 pages to explain 23 exceptions where adas may operate when not needed and 30 exceptions where adas may not operate when a collision is likely
+
+names for adas features are not standardized for instance adaptive cruise control is called adaptive cruise control by fiat ford gm vw volvo and peugeot but intelligent cruise control by nissan active cruise control by citroen and bmw and distronic by mercedes to help with standardization sae international has endorsed a series of recommendations for generic adas terminology for car manufacturers created with consumer reports the american automobile association j d power and the national safety council
+
+adas behavior might change from car to car as well for instanc e acc speed might be temporarily overridden in most cars while some switch to standby after one minute
+
+the av industry is growing exponentially and according to a report by market research future the market is expected to hit over 65 billion by 2027 av insurance and rising competition are expected to fuel that growth auto insurance for adas has directly affected the global economy and many questions have arisen within the general public adas allow autonomous vehicles to enable self driving features but there are associated risks with adas av companies and manufacturers are recommended to have insurance in the following areas in order to avoid any serious litigations depending on the level ranging from 0 to 5 each car manufacturer would find it in its best interest to find the right combination of different insurances to best match their products note that this list is not exhaustive and may be constantly updated with more types of insurances and risks in the years to come
+
+with the technology embedded in autonomous vehicles these self driving cars are able to distribute data if a car crash occurs this in turn will invigorate the claims administration and their operations fraud reduction will also disable any fraudulent staging of car crashes by recording the car s monitoring of every minute on the road adas are expected to streamline the insurance industry and its economic efficiency with capable technology to fight off fraudulent human behavior in september 2016 the nhtsa published the federal automated vehicles policy which describes the u s department of transportation s policies related to highly automated vehicles hav which range from vehicles with adas features to autonomous vehicles
+
+in march 2014 the us department of transportation s national highway traffic safety administration nhtsa announced that it will require all new vehicles under 10 000 pounds 4 500 kg to have rear view cameras by may 2018 the rule was required by congress as part of the cameron gulbransen kids transportation safety act of 2007 the act is named after two year old cameron gulbransen cameron s father backed up his suv over him when he did not see the toddler in the family s driveway
+
+the advancement of autonomous driving is accompanied by ethical concerns the earliest moral issue associated with autonomous driving can be dated back to as early as the age of the trolleys the trolley problem is one of the most well known ethical issues introduced by english philosopher philippa foot in 1967 the trolley problem asks that under a situation which the trolley s brake does not work and there are five people ahead of the trolley the driver may go straight killing the five persons ahead or turn to the side track killing the one pedestrian what should the driver do before the development of autonomous vehicles the trolley problem remains an ethical dilemma between utilitarianism and deontological ethics however as the advancement in adas proceeds the trolley problem becomes an issue that needs to be addressed by the programming of self driving cars the crashes that autonomous vehicles might face could be very similar to those depicted in the trolley problem although adas make vehicles generally safer than only human driven cars crashes are unavoidable this raises questions such as whose lives should be prioritized in the event of an inevitable crash or what should be the universal principle for these crash algorithms
+
+many researchers have been working on ways to address the ethical concerns associated with adas for instance the artificial intelligence approach allows computers to learn human ethics by feeding them data regarding human actions such a method is useful when the rules cannot be articulated because the computer can learn and identify the ethical elements on its own without precisely programming whether an action is ethical however there are limitations to this approach for example many human actions are done out of self preservation instincts which is realistic but not ethical feeding such data to the computer cannot guarantee that the computer captures the ideal behavior furthermore the data fed to an artificial intelligence must be carefully selected to avoid producing undesired outcomes
+
+another notable method is a three phase approach proposed by noah j goodall this approach first necessitates a system established with the agreement of car manufacturers transportation engineers lawyers and ethicists and should be set transparently the second phase is letting artificial intelligence learn human ethics while being bound by the system established in phase one lastly the system should provide constant feedback that is understandable by humans
+
+in october 2023 consumer reports rated 17 active driving assistance systems their criteria were
+
+their ratings were
+
+in march 2024 the american insurance institute for highway safety iihs reported its first partial automation safeguard ratings their criteria were
+
+the ratings were no system received a good rating
+
+intelligent transportation systems its highly resemble adas but go beyond automatic traffic to include any enterprise that safely transports humans such as public transport with its transportation technology is integrated with a city s infrastructure this would then lead to a smart city these systems promote active safety by increasing the efficiency of roads possibly by adding 22 5 capacity on average
+
+adas have aided in this increase in active safety according to a study in 2008 its use a wide system of communication technology including wireless technology and traditional technology to enhance productivity
+
+a draft adas regulation where named driver control assistance systems dcas
+would allow hands free driving with a possible risk of lack of attentiveness
+such dcas regulation would allow system such as tesla fsd in europe
+the unece driver control assistance systems regulation plan that dcas shall be designed to ensure that the driver performs the driving task that the driver s hands must remain on the wheel and that the system shall monitor the driver s visual engagement

@@ -1,0 +1,132 @@
+
+
+in mathematics and computer science an algorithm ˈælɡərɪðəm is a finite sequence of mathematically rigorous instructions typically used to solve a class of specific problems or to perform a computation algorithms are used as specifications for performing calculations and data processing more advanced algorithms can use conditionals to divert the code execution through various routes referred to as automated decision making and deduce valid inferences referred to as automated reasoning
+
+in contrast a heuristic is an approach to solving problems without well defined correct or optimal results for example although social media recommender systems are commonly called algorithms they actually rely on heuristics as there is no truly correct recommendation
+
+as an effective method an algorithm can be expressed within a finite amount of space and time and in a well defined formal language for calculating a function starting from an initial state and initial input perhaps empty the instructions describe a computation that when executed proceeds through a finite number of well defined successive states eventually producing output and terminating at a final ending state the transition from one state to the next is not necessarily deterministic some algorithms known as randomized algorithms incorporate random input
+
+around 825 ad persian scientist and polymath muḥammad ibn mūsā al khwārizmī wrote kitāb al ḥisāb al hindī book of indian computation and kitab al jam wa l tafriq al ḥisāb al hindī addition and subtraction in indian arithmetic in the early 12th century latin translations of these texts involving the hindu arabic numeral system and arithmetic appeared for example liber alghoarismi de practica arismetrice attributed to john of seville and liber algoritmi de numero indorum attributed to adelard of bath here alghoarismi or algoritmi is the latinization of al khwarizmi s name the text starts with the phrase dixit algoritmi or thus spoke al khwarizmi
+
+the word algorism in english came to mean the use of place value notation in calculations it occurs in the ancrene wisse from circa 1225 by the time geoffrey chaucer wrote the canterbury tales in the late 14th century he used a variant of the same word in describing augrym stones stones used for place value calculation in the 15th century under the influence of the greek word ἀριθμός arithmos number cf arithmetic the latin word was altered to algorithmus by 1596 this form of the word was used in english as algorithm by thomas hood
+
+one informal definition is a set of rules that precisely defines a sequence of operations which would include all computer programs including programs that do not perform numeric calculations and any prescribed bureaucratic procedure
+or cook book recipe in general a program is an algorithm only if it stops eventually even though infinite loops may sometimes prove desirable boolos jeffrey 1974 1999 define an algorithm to be an explicit set of instructions for determining an output that can be followed by a computing machine or a human who could only carry out specific elementary operations on symbols
+
+step by step procedures for solving mathematical problems have been recorded since antiquity this includes in babylonian mathematics around 2500 bc egyptian mathematics around 1550 bc indian mathematics around 800 bc and later the ifa oracle around 500 bc greek mathematics around 240 bc chinese mathematics around 200 bc and later and arabic mathematics around 800 ad
+
+the earliest evidence of algorithms is found in ancient mesopotamian mathematics a sumerian clay tablet found in shuruppak near baghdad and dated to c 2500 bc describes the earliest division algorithm during the hammurabi dynasty c 1800 c 1600 bc babylonian clay tablets described algorithms for computing formulas algorithms were also used in babylonian astronomy babylonian clay tablets describe and employ algorithmic procedures to compute the time and place of significant astronomical events
+
+algorithms for arithmetic are also found in ancient egyptian mathematics dating back to the rhind mathematical papyrus c 1550 bc algorithms were later used in ancient hellenistic mathematics two examples are the sieve of eratosthenes which was described in the introduction to arithmetic by nicomachus ch 9 2 and the euclidean algorithm which was first described in euclid s elements c 300 bc ch 9 1 examples of ancient indian mathematics included the shulba sutras the kerala school and the brāhmasphuṭasiddhānta
+
+in the 9th century muḥammad ibn mūsā al khwārizmī revolutionized the field by establishing the algorithm as a systematic finite sequence of logical steps to solve mathematical problems in his influential work the compendious book on calculation by completion and balancing he moved beyond specific numerical solutions to introduce general procedures for algebraic reduction and balancing this transformed mathematics into a mechanical process of well defined rules a fundamental shift that laid the groundwork for modern algorithmic theory the latin translation of his arithmetic treatise titled algoritmi de numero indorum led to the term algorithm being derived from the latinization of his name algoritmi specifically to describe this new rule based approach to
+
+the first cryptographic algorithm for deciphering encrypted code was developed by al kindi a 9th century arab mathematician in a manuscript on deciphering cryptographic messages he gave the first description of cryptanalysis by frequency analysis the earliest codebreaking algorithm
+
+david bolter credits the invention of the weight driven clock as the key invention of europe in the middle ages specifically the verge escapement mechanism producing the tick and tock of a mechanical clock the accurate automatic machine led immediately to mechanical automata in the 13th century and computational machines the difference and analytical engines of charles babbage and ada lovelace in the mid 19th century lovelace designed the first algorithm intended for processing on a computer babbage s analytical engine which is the first device considered a real turing complete computer instead of just a calculator although the full implementation of babbage s second device was not realized for decades after her lifetime lovelace has been called history s first programmer
+
+bell and newell 1971 write that the jacquard loom a precursor to hollerith cards punch cards and telephone switching technologies led to the development of the first computers by the mid 19th century the telegraph the precursor of the telephone was in use throughout the world by the late 19th century the ticker tape c 1870s was in use as were hollerith cards c 1890 then came the teleprinter c 1910 with its punched paper use of baudot code on tape
+
+telephone switching networks of electromechanical relays were invented in 1835 these led to the invention of the digital adding device by george stibitz in 1937 while working in bell laboratories he observed the burdensome use of mechanical calculators with gears he went home one evening in 1937 intending to test his idea when the tinkering was over stibitz had constructed a binary adding device
+
+in 1928 a partial formalization of the modern concept of algorithms began with attempts to solve the entscheidungsproblem decision problem posed by david hilbert later formalizations were framed as attempts to define effective calculability or effective method those formalizations included the gödel herbrand kleene recursive functions of 1930 1934 and 1935 alonzo church s lambda calculus of 1936 emil post s formulation 1 of 1936 and alan turing s turing machines of 1936 37 and 1939
+
+algorithms have evolved and improved in many ways as time goes on common uses of algorithms today include social media apps like instagram and youtube algorithms are used as a way to analyze what people like and push more of those things to the people who interact with them quantum computing uses quantum algorithm procedures to solve problems faster more recently in 2024 nist updated their post quantum encryption standards which includes new encryption algorithms to enhance defenses against attacks using quantum computing
+
+algorithms can be expressed in many kinds of notation including natural languages pseudocode flowcharts drakon charts programming languages or control tables processed by interpreters natural language expressions of algorithms tend to be verbose and ambiguous and are rarely used for complex or technical algorithms pseudocode flowcharts drakon charts and control tables are structured expressions of algorithms that avoid common ambiguities of natural language programming languages are primarily for expressing algorithms in a computer executable form but are also used to define or document algorithms
+
+there are many possible representations and turing machine programs can be expressed as a sequence of machine tables see finite state machine state transition table and control table for more as flowcharts and drakon charts see state diagram for more as a form of rudimentary machine code or assembly code called sets of quadruples and more algorithm representations can also be classified into three accepted levels of turing machine description high level description implementation description and formal description a high level description describes the qualities of the algorithm itself ignoring how it is implemented on the turing machine an implementation description describes the general manner in which the machine moves its head and stores data to carry out the algorithm but does not give exact states in the most detail a formal description gives the exact state table and list of transitions of the turing machine
+
+the graphical aid called a flowchart offers a way to describe and document an algorithm and a computer program corresponding to it it has four primary symbols arrows showing program flow rectangles sequence goto diamonds if then else and dots or tie sub structures can nest in rectangles but only if a single exit occurs from the superstructure
+
+it is often important to know how much time storage or other cost an algorithm may require methods have been developed for the analysis of algorithms to obtain such quantitative answers estimates for example an algorithm that adds up the elements of a list of n numbers would have a time requirement of
+
+
+
+o
+
+n
+
+
+
+displaystyle o n
+
+using big o notation the algorithm only needs to remember two values the sum of all the elements so far and its current position in the input list if the space required to store the input numbers is not counted it has a space requirement of
+
+
+
+o
+
+1
+
+
+
+displaystyle o 1
+
+otherwise
+
+
+
+o
+
+n
+
+
+
+displaystyle o n
+
+is required
+
+different algorithms may complete the same task with a different set of instructions in less or more time space or effort than others for example a binary search algorithm with cost
+
+
+
+o
+
+log
+
+n
+
+
+
+displaystyle o log n
+
+outperforms a sequential search cost
+
+
+
+o
+
+n
+
+
+
+displaystyle o n
+
+when used for table lookups on sorted lists or arrays
+
+the analysis and study of algorithms is a discipline of computer science algorithms are often studied abstractly without referencing any specific programming language or implementation algorithm analysis resembles other mathematical disciplines as it focuses on the algorithm s properties not implementation pseudocode is typical for analysis as it is a simple and general representation most algorithms are implemented on particular hardware software platforms and their algorithmic efficiency is tested using real code the efficiency of a particular algorithm may be insignificant for many one off problems but it may be critical for algorithms designed for fast interactive commercial or long life scientific usage scaling from small n to large n frequently exposes inefficient algorithms that are otherwise benign
+
+empirical testing is useful for uncovering unexpected interactions that affect performance benchmarks may be used to compare before after potential improvements to an algorithm after program optimization
+empirical tests cannot replace formal analysis though and are non trivial to perform fairly
+
+to illustrate the potential improvements possible even in well established algorithms a recent significant innovation relating to fft algorithms used heavily in the field of image processing can decrease processing time up to 1 000 times for applications like medical imaging in general speed improvements depend on special properties of the problem which are very common in practical applications speedups of this magnitude enable computing devices that make extensive use of image processing like digital cameras and medical equipment to consume less power
+
+the best case of an algorithm refers to the scenario or input for which the algorithm or data structure takes the least time and resources to complete its tasks the worst case of an algorithm is the case that causes the algorithm or data structure to consume the maximum period of time and computational resources
+
+algorithm design is a method or mathematical process for problem solving and engineering algorithms the design of algorithms is part of many solution theories such as divide and conquer or dynamic programming within operation research techniques for designing and implementing algorithm designs are also called algorithm design patterns with examples including the template method pattern and the decorator pattern one of the most important aspects of algorithm design is resource run time memory usage efficiency the big o notation is used to describe e g an algorithm s run time growth as the size of its input increases
+
+per the church turing thesis any algorithm can be computed by any turing complete model turing completeness only requires four instruction types conditional goto unconditional goto assignment halt however kemeny and kurtz observe that while undisciplined use of unconditional gotos and conditional if then gotos can result in spaghetti code a programmer can write structured programs using only these instructions on the other hand it is also possible and not too hard to write badly structured programs in a structured language tausworthe augments the three böhm jacopini canonical structures sequence if then else and while do with two more do while and case an additional benefit of a structured program is that it lends itself to proofs of correctness using mathematical induction
+
+by themselves algorithms are not usually patentable in the united states a claim consisting solely of simple manipulations of abstract concepts numbers or signals does not constitute processes uspto 2006 so algorithms are not patentable as in gottschalk v benson however practical applications of algorithms are sometimes patentable for example in diamond v diehr the application of a simple feedback algorithm to aid in the curing of synthetic rubber was deemed patentable the patenting of software is controversial and there are criticized patents involving algorithms especially data compression algorithms such as unisys s lzw patent additionally some cryptographic algorithms have export restrictions see export of cryptography
+
+another way of classifying algorithms is by their design methodology or paradigm some common paradigms are
+
+for optimization problems there is a more specific classification of algorithms an algorithm for such problems may fall into one or more of the general categories described above as well as into one of the following
+
+one of the simplest algorithms finds the largest number in a list of numbers of random order finding the solution requires looking at every number in the list from this follows a simple algorithm which can be described in plain english as
+
+high level description
+
+quasi formal description
+written in prose but much closer to the high level language of a computer program the following is the more formal coding of the algorithm in pseudocode or pidgin code

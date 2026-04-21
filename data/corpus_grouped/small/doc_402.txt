@@ -1,0 +1,29 @@
+forward chaining or forward reasoning is one of the two main methods of reasoning when using an inference engine and can be described logically as repeated application of modus ponens forward chaining is a popular implementation strategy for expert systems business and production rule systems the opposite of forward chaining is backward chaining
+
+forward chaining starts with the available data and uses inference rules to extract more data from an end user for example until a goal is reached an inference engine using forward chaining searches the inference rules until it finds one where the antecedent if clause is known to be true when such a rule is found the engine can conclude or infer the consequent then clause resulting in the addition of new information to its data
+
+inference engines will iterate through this process until a goal is reached
+
+suppose that the goal is to conclude the color of a pet named fritz given that he croaks and eats flies and that the rule base contains the following four rules
+
+let us illustrate forward chaining by following the pattern of a computer as it evaluates the rules
+assume the following facts
+
+with forward reasoning the inference engine can derive that fritz is green in a series of steps
+
+1 since the base facts indicate that fritz croaks and fritz eats flies the antecedent of rule 1 is satisfied by substituting fritz for x and the inference engine concludes
+
+2 the antecedent of rule 3 is then satisfied by substituting fritz for x and the inference engine concludes
+
+the name forward chaining comes from the fact that the inference engine starts with the data and reasons its way to the answer
+as opposed to backward chaining which works the other way around
+in the derivation the rules are used in the opposite order as compared to backward chaining
+in this example rules 2 and 4 were not used in determining that fritz is green
+
+because the data determines which rules are selected and used this method is called data driven in contrast to goal driven backward chaining inference the forward chaining approach is often employed by expert systems such as clips
+
+one of the advantages of forward chaining over backward chaining is that the reception of new data can trigger new inferences which makes the engine better suited to dynamic situations in which conditions are likely to change
+
+forward chaining is a powerful reasoning strategy with numerous applications in ai and related fields some of the prominent applications include
+
+

@@ -1,0 +1,31 @@
+in computing data validation or input validation is the process of ensuring data has undergone data cleansing to confirm it has data quality that is that it is both correct and useful it uses routines often called validation rules validation constraints or check routines that check for correctness meaningfulness and security of data that are input to the system the rules may be implemented through the automated facilities of a data dictionary or by the inclusion of explicit application program validation logic of the computer and its application
+
+this is distinct from formal verification which attempts to prove or disprove the correctness of algorithms for implementing a specification or property
+
+data validation is intended to provide certain well defined guarantees for fitness and consistency of data in an application or automated system data validation rules can be defined and designed using various methodologies and be deployed in various contexts their implementation can use declarative data integrity rules or procedure based business rules
+
+the guarantees of data validation do not necessarily include accuracy and it is possible for data entry errors such as misspellings to be accepted as valid other clerical and or computer controls may be applied to reduce inaccuracy within a system
+
+in evaluating the basics of data validation generalizations can be made regarding the different kinds of validation according to their scope complexity and purpose
+
+for example
+
+data type validation is customarily carried out on one or more simple data fields
+
+the simplest kind of data type validation verifies that the individual characters provided through user input are consistent with the expected characters of one or more known primitive data types as defined in a programming language or data storage and retrieval mechanism
+
+for example an integer field may require input to use only characters 0 through 9
+
+simple range and constraint validation may examine input for consistency with a minimum maximum range or consistency with a test for evaluating a sequence of characters such as one or more tests against regular expressions for example a counter value may be required to be a non negative integer and a password may be required to meet a minimum length and contain characters from multiple categories
+
+code and cross reference validation includes operations to verify that data is consistent with one or more possibly external rules requirements or collections relevant to a particular organization context or set of underlying assumptions these additional validity constraints may involve cross referencing supplied data with a known look up table or directory information service such as ldap
+
+for example a user provided country code might be required to identify a current geopolitical region
+
+structured validation allows for the combination of other kinds of validation along with more complex processing such complex processing may include the testing of conditional constraints for an entire complex data object or set of process operations within a system
+
+consistency validation ensures that data is logical for example the delivery date of an order can be prohibited from preceding its shipment date
+
+multiple kinds of data validation are relevant to 10 digit pre 2007 isbns the 2005 edition of iso 2108 required isbns to have 13 digits from 2007 onwards
+
+failures or omissions in data validation can lead to data corruption or a security vulnerability data validation checks that data are fit for purpose valid sensible reasonable and secure before they are processed

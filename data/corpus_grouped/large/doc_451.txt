@@ -1,0 +1,96 @@
+
+the imagenet project is a large visual database designed for use in visual object recognition software research more than 14 million images have been hand annotated by the project to indicate what objects are pictured and in at least one million of the images bounding boxes are also provided imagenet contains more than 20 000 categories with a typical category such as balloon or strawberry consisting of several hundred images the database of annotations of third party image urls is freely available directly from imagenet though the actual images are not owned by imagenet since 2010 the imagenet project runs an annual software contest the imagenet large scale visual recognition challenge ilsvrc where software programs compete to correctly classify and detect objects and scenes the challenge uses a trimmed list of one thousand non overlapping classes
+
+ai researcher fei fei li began working on the idea for imagenet in 2006 at a time when most ai research focused on models and algorithms li wanted to expand and improve the data available to train ai algorithms in 2007 li met with princeton professor christiane fellbaum one of the creators of wordnet to discuss the project as a result of this meeting li went on to build imagenet starting from the roughly 22 000 nouns of wordnet and using many of its features she was also inspired by a 1987 estimate that the average person recognizes roughly 30 000 different kinds of objects
+
+as an assistant professor at princeton li assembled a team of researchers to work on the imagenet project they used amazon mechanical turk to help with the classification of images labeling started in july 2008 and ended in april 2010 it took 49k workers from 167 countries filtering and labeling over 160m candidate images they had enough budget to have each of the 14 million images labelled three times
+
+the original plan called for 10 000 images per category for 40 000 categories at 400 million images each verified 3 times they found that humans can classify at most 2 images sec at this rate it was estimated to take 19 human years of labor without rest
+
+they presented their database for the first time as a poster at the 2009 conference on computer vision and pattern recognition cvpr in florida titled imagenet a preview of a large scale hierarchical dataset the poster was reused at vision sciences society 2009
+
+in 2009 alex berg suggested adding object localization as a task li approached pascal visual object classes contest in 2009 for a collaboration it resulted in the subsequent imagenet large scale visual recognition challenge starting in 2010 which has 1000 classes and object localization as compared to pascal voc which had just 20 classes and 19 737 images in 2010
+
+on 30 september 2012 a convolutional neural network cnn called alexnet achieved a top 5 error of 15 3 in the imagenet 2012 challenge more than 10 8 percentage points lower than that of the runner up using convolutional neural networks was feasible due to the use of graphics processing units gpus during training an essential ingredient of the deep learning revolution according to the economist suddenly people started to pay attention not just within the ai community but across the technology industry as a whole
+
+in 2015 alexnet was outperformed by microsoft s very deep cnn with over 100 layers which won the imagenet 2015 contest having 3 57 error on the test set
+
+andrej karpathy estimated in 2014 that with concentrated effort he could reach 5 1 error rate and 10 people from his lab reached 12 13 with less effort it was estimated that with maximal effort a human could reach 2 4
+
+imagenet crowdsources its annotation process image level annotations indicate the presence or absence of an object class in an image such as there are tigers in this image or there are no tigers in this image object level annotations provide a bounding box around the visible part of the indicated object imagenet uses a variant of the broad wordnet schema to categorize objects augmented with 120 categories of dog breeds to showcase fine grained classification
+
+in 2012 imagenet was the world s largest academic user of mechanical turk the average worker identified 50 images per minute
+
+the original plan of the full imagenet would have roughly 50m clean diverse and full resolution images spread over approximately 50k synsets this was not achieved
+
+the summary statistics given on april 30 2010
+
+the categories of imagenet were filtered from the wordnet concepts each concept since it can contain multiple synonyms for example kitty and young cat so each concept is called a synonym set or synset there were more than 100 000 synsets in wordnet 3 0 majority of them are nouns 80 000 the imagenet dataset filtered these to 21 841 synsets that are countable nouns that can be visually illustrated
+
+each synset in wordnet 3 0 has a wordnet id wnid which is a concatenation of part of speech and an offset a unique identifying number every wnid starts with n because imagenet only includes nouns for example the wnid of synset dog domestic dog canis familiaris is n02084071
+
+the categories in imagenet fall into 9 levels from level 1 such as mammal to level 9 such as german shepherd
+
+the images were scraped from online image search google picsearch msn yahoo flickr etc using synonyms in multiple languages for example german shepherd german police dog german shepherd dog alsatian ovejero alemán pastore tedesco 德国牧羊犬
+
+imagenet consists of images in rgb format with varying resolutions for example in imagenet 2012 fish category the resolution ranges from 4288 x 2848 to 75 x 56 in machine learning these are typically preprocessed into a standard constant resolution and whitened before further processing by neural networks
+
+for example in pytorch imagenet images are by default normalized by dividing the pixel values so that they fall between 0 and 1 then subtracting by 0 485 0 456 0 406 then dividing by 0 229 0 224 0 225 these are the mean and standard deviations for imagenet so this whitens the input data
+
+each image is labelled with exactly one wnid
+
+dense sift features raw sift descriptors quantized codewords and coordinates of each descriptor codeword for imagenet 1k were available for download designed for bag of visual words
+
+the bounding boxes of objects were available for about 3000 popular synsets with on average 150 images in each synset
+
+furthermore some images have attributes they released 25 attributes for 400 popular synsets
+
+the full original dataset is referred to as imagenet 21k imagenet 21k contains 14 197 122 images divided into 21 841 classes some papers round this up and name it imagenet 22k
+
+the full imagenet 21k was released in fall of 2011 as fall11_whole tar there is no official train validation test split for imagenet 21k some classes contain only 1 10 samples while others contain thousands
+
+there are various subsets of the imagenet dataset used in various context sometimes referred to as versions
+
+one of the most highly used subsets of imagenet is the imagenet large scale visual recognition challenge ilsvrc 2012 2017 image classification and localization dataset this is also referred to in the research literature as imagenet 1k or ilsvrc2017 reflecting the original ilsvrc challenge that involved 1 000 classes imagenet 1k contains 1 281 167 training images 50 000 validation images and 100 000 test images
+
+each category in imagenet 1k is a leaf category meaning that there are no child nodes below it unlike imagenet 21k for example in imagenet 21k there are some images categorized as simply mammal whereas in imagenet 1k there are only images categorized as things like german shepherd since there are no child words below german shepherd
+
+in the wordnet they built imagenet on there were 2832 synsets in the person subtree during 2018 2020 period they removed the download of the imagenet 21k as they went through extensive filtering in these person synsets out of these 2832 synsets 1593 were deemed potentially offensive out of the remaining 1239 1081 were deemed not really visual the result was that only 158 synsets remained of these only 139 contained more than 100 images for further exploration
+
+in 2021 winter imagenet 21k was updated 2702 categories in the person subtree were removed to prevent problematic behaviors in a trained model the result was that only 130 synsets in person subtree remained furthermore in 2021 imagenet 1k was updated by blurring out faces appearing in the 997 non person categories they found out of all 1 431 093 images in imagenet 1k 243 198 images 17 contain at least one face and the total number of faces adds up to 562 626 they found training models on the dataset with these faces blurred caused minimal loss in performance
+
+imagenet c is an adversarially perturbed version of imagenet constructed in 2019
+
+imagenetv2 was a new dataset containing three test sets with 10 000 each constructed by the same methodology as the original imagenet
+
+imagenet 21k p was a filtered and cleaned subset of imagenet 21k with 12 358 688 images from 11 221 categories all images were resized to 224 x 224px
+
+the ilsvrc aims to follow in the footsteps of the smaller scale pascal voc challenge established in 2005 which contained only about 20 000 images and twenty object classes to democratize imagenet fei fei li proposed to the pascal voc team a collaboration beginning in 2010 where research teams would evaluate their algorithms on the given data set and compete to achieve higher accuracy on several visual recognition tasks
+
+the resulting annual competition is now known as the imagenet large scale visual recognition challenge ilsvrc the ilsvrc uses a trimmed list of only 1000 image categories or classes including 90 of the 120 dog breeds classified by the full imagenet schema
+
+the 2010s saw dramatic progress in image processing
+
+the first competition in 2010 had 11 participating teams the winning team was a linear support vector machine svm the features are a dense grid of hog and lbp sparsified by local coordinate coding and pooling it achieved 52 9 in classification accuracy and 71 8 in top 5 accuracy it was trained for 4 days on three 8 core machines dual quad core 2 ghz intel xeon cpu
+
+the second competition in 2011 had fewer teams with another svm winning at top 5 error rate 25 the winning team was xrce by florent perronnin jorge sanchez the system was another linear svm running on quantized fisher vectors it achieved 74 2 in top 5 accuracy
+
+in 2012 a deep convolutional neural net called alexnet achieved 84 7 in top 5 accuracy a great leap forward the second place was by oxford vgg which uses the previous generic architecture of svm sift color statistics fisher vectors etc in the next couple of years top 5 accuracy grew to above 90 while the 2012 breakthrough combined pieces that were all there before the dramatic quantitative improvement marked the start of an industry wide artificial intelligence boom
+
+in 2013 most high ranking entries used convolutional neural networks the winning entry for object localization was the overfeat an architecture for simultaneous object classification and localization the winning entry for classification was an ensemble of multiple cnns by clarifai
+
+by 2014 more than 50 institutions participated in the ilsvrc the winning entry for classification was googlenet the winning entry for localization was vggnet in 2017 29 of 38 competing teams had greater than 95 accuracy in 2017 imagenet stated it would roll out a new much more difficult challenge in 2018 that involves classifying 3d objects using natural language because creating 3d data is more costly than annotating a pre existing 2d image the dataset is expected to be smaller the applications of progress in this area would range from robotic navigation to augmented reality
+
+in 2015 the winning entry was resnet which exceeded human performance however as one of the challenge s organizers olga russakovsky pointed out in 2015 the ilsvrc is over only 1000 categories humans can recognize a larger number of categories and also unlike the programs can judge the context of an image
+
+in 2016 the winning entry was cuimage an ensemble model of 6 networks inception v3 inception v4 inception resnet v2 resnet 200 wide resnet 68 and wide resnet 3 the runner up was resnext which combines the inception module with resnet
+
+in 2017 the winning entry was the squeeze and excitation network senet reducing the top 5 error to 2 251
+
+the organizers of the competition stated in 2017 that the 2017 competition would be the last one since the benchmark has been solved and no longer posed a challenge they also stated that they would organize a new competition on 3d images however such a competition never materialized
+
+it is estimated that over 6 of labels in the imagenet 1k validation set are wrong it is also found that around 10 of imagenet 1k contains ambiguous or erroneous labels and that when presented with a model s prediction and the original imagenet label human annotators prefer the prediction of a state of the art model in 2020 trained on the original imagenet suggesting that imagenet 1k has been saturated
+
+a study of the history of the multiple layers taxonomy object classes and labeling of imagenet and wordnet in 2019 described how bias clarification needed is deeply embedded in most classification approaches for all sorts of images imagenet is working to address various sources of bias
+
+one downside of wordnet use is the categories may be more elevated than would be optimal for imagenet most people are more interested in lady gaga or the ipod mini than in this rare kind of diplodocus clarification needed

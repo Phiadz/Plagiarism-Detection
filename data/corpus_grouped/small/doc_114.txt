@@ -1,0 +1,31 @@
+data hierarchy refers to the systematic organization of data often in hierarchical form data organization involves characters fields records files and so on this concept is a starting point when trying to see what makes up data and whether data has a structure for example how does a person make sense of data such as employee name department marcy smith sales department and so on assuming that they are all related one way to understand them is to see these terms as smaller or larger components in a hierarchy one might say that marcy smith is one of the employees in the sales department or an example of an employee in that department the data we want to capture about all our employees and not just marcy is the name id number address etc
+
+data hierarchy is a basic concept in data and database theory and helps to show the relationships between smaller and larger components in a database or data file it is used to give a better sense of understanding about the components of data and how they are related
+
+it is particularly important in databases with referential integrity third normal form or perfect key data hierarchy is the result of proper arrangement of data without redundancy avoiding redundancy eventually leads to proper data hierarchy representing the relationship between data and revealing its relational structure
+
+the components of the data hierarchy are listed below
+
+a data field holds a single fact or attribute of an entity consider a date field e g 19 september 2004 this can be treated as a single date field e g birthdate or three fields namely day of month month and year
+
+a record is a collection of related fields an employee record may contain a name field s address fields birthdate field and so on
+
+a file is a collection of related records if there are 100 employees then each employee would have a record e g called employee personal details record and the collection of 100 such records would constitute a file in this case called employee personal details file
+
+files are integrated into a database this is done using a database management system if there are other facets of employee data that we wish to capture then other files such as employee training history file and employee work history file could be created as well
+
+an illustration of the above description is shown in this diagram below
+
+
+
+the following terms are for better clarity with reference to the example in the above diagram
+
+data field label employee name or emp_name
+
+data field value jeffrey tan
+
+the above description is a view of data as understood by a user e g a person working in human resource department
+
+the above structure can be seen in the hierarchical model which is one way to organize data in a database
+
+in terms of data storage data fields are made of bytes and these in turn are made up of bits

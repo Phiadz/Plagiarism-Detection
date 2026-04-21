@@ -1,0 +1,43 @@
+
+
+sir michael james lighthill frs fraes 23 january 1924 17 july 1998 was a british applied mathematician known for his pioneering work in the field of aeroacoustics and for writing the lighthill report in 1973 which pessimistically stated that in no part of the field of ai have the discoveries made so far produced the major impact that was then promised contributing to the gloomy climate of ai winter
+
+james lighthill was born to ernest balzar lichtenberg and marjorie holmes an alsatian mining engineer who changed his name to lighthill in 1917 and the daughter of an engineer the family lived in paris until 1927 when the father retired and returned to live in england as a young man james lighthill was known as michael lighthill
+
+lighthill was educated at winchester college and graduated with a bachelor of arts degree from the university of cambridge where he was an undergraduate student of trinity college cambridge in 1943
+
+lighthill specialised in fluid dynamics and worked at the national physical laboratory between 1946 and 1959 he was beyer professor of applied mathematics at the university of manchester lighthill then moved from manchester to become director of the royal aircraft establishment at farnborough there he worked on the development of television and communications satellites and on the development of crewed spacecraft this latter work was used in the development of the concorde supersonic airliner
+
+in 1955 together with gerald b whitham lighthill set out the first comprehensive theory of kinematic waves an application of the method of characteristics with a multitude of applications prime among them fluid flow and traffic flow
+
+lighthill s early work included two dimensional aerofoil theory and supersonic flow around solids of revolution in addition to the dynamics of gas at high speeds he studied shock and blast waves and introduced the squirmer model he is credited with founding the subject of aeroacoustics a subject vital to the reduction of noise in jet engines lighthill s eighth power law states that the acoustic power radiated by a jet engine is proportional to the eighth power of the jet speed he also founded non linear acoustics and showed that the same non linear differential equations could model both flood waves in rivers and traffic flow in highways
+
+in 1964 he became the royal society s resident professor in imperial college london before returning to trinity college cambridge five years later as lucasian professor of mathematics a chair he held until 1979 when he was succeeded by stephen hawking lighthill then became provost of university college london ucl a post he held until 1989
+
+lighthill founded the institute of mathematics and its applications ima in 1964 alongside professor sir bryan thwaites in 1968 he was awarded an honorary degree doctor of science by the university of bath in 1972 he was invited to deliver the macmillan memorial lecture to the institution of engineers and shipbuilders in scotland he chose the subject aquatic animal locomotion
+
+in the early 1970s partly in reaction to significant internal discord within that field the science research council src as it was then known asked lighthill to compile a review of academic research in artificial intelligence lighthill s report which was published in 1973 and became known as the lighthill report was highly critical of basic research in foundational areas such as robotics and language processing and formed the basis for the decision by the british government to end support for ai research in all but two universities starting what is sometimes referred to as the ai winter
+
+in 1982 lighthill and alan b tayler were jointly awarded the first ever gold medal of the institute of mathematics and its applications in recognition of their outstanding contributions to mathematics and its applications over a period of years in 1983 lighthill was awarded the ludwig prandtl ring from the deutsche gesellschaft für luft und raumfahrt german society for aeronautics and astronautics for outstanding contribution in the field of aerospace engineering
+
+his former students include gerald b whitham and steve furber
+
+lighthill was elected frs in 1953 and fras in 1961
+
+he was awarded the royal medal of the royal society in 1964 and the copley medal also of the royal society posthumously in 1998
+
+in 1958 lightill was elected to the american academy of arts and sciences
+
+the james lighthill building at the university of manchester and james lighthill house are named in his honour
+
+lighthill was elected to the american philosophical society in 1970
+
+in 1971 lighthill was made knight in the new year s honours
+
+in 1976 lighthill was elected a member of the national academy of sciences one of at least nine such foreign academies to elect him including the french and russian
+
+in 1992 lighthill was awarded the rayleigh medal by the institute of acoustics united kingdom
+
+lighthill was also made an honorary member of many bodies and received twenty four honorary doctorates he was invited to give and delivered many prize and plenary lectures
+
+his hobby was open water swimming he died in the water in 1998 when the mitral valve in his heart ruptured while he was swimming round the island of sark a feat which he had accomplished many times before

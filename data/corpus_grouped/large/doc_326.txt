@@ -1,0 +1,1804 @@
+in statistical modeling regression analysis is a statistical method for estimating the relationship between a dependent variable often called the outcome or response variable or a label in machine learning parlance and one or more independent variables often called regressors predictors covariates explanatory variables or features
+
+the most common form of regression analysis is linear regression in which one finds the line or a more complex linear combination that most closely fits the data according to a specific mathematical criterion for example the method of ordinary least squares computes the unique line or hyperplane that minimizes the sum of squared differences between the true data and that line or hyperplane for specific mathematical reasons see linear regression this allows the researcher to estimate the conditional expectation or population average value of the dependent variable when the independent variables take on a given set of values less common forms of regression use slightly different procedures to estimate alternative location parameters e g quantile regression or necessary condition analysis or estimate the conditional expectation across a broader collection of non linear models e g nonparametric regression
+
+regression analysis is primarily used for two conceptually distinct purposes first regression analysis is widely used for prediction and forecasting where its use has substantial overlap with the field of machine learning second in some situations regression analysis can be used to infer causal relationships between the independent and dependent variables importantly regressions by themselves only reveal relationships between a dependent variable and a collection of independent variables in a fixed dataset to use regressions for prediction or to infer causal relationships respectively a researcher must carefully justify why existing relationships have predictive power for a new context or why a relationship between two variables has a causal interpretation the latter is especially important when researchers hope to estimate causal relationships using observational data
+
+the earliest regression form was seen in isaac newton s work in 1700 while studying equinoxes being credited with introducing an embryonic linear regression analysis as not only did he perform the averaging of a set of data 50 years before tobias mayer but by summing the residuals to zero he forced the regression line to pass through the average point he also distinguished between two inhomogeneous sets of data and might have thought of an optimal solution in terms of bias though not in terms of effectiveness he previously used an averaging method in his 1671 work on newton s rings which was unprecedented at the time
+
+the method of least squares was published by legendre in 1805 and by gauss in 1809 legendre and gauss both applied the method to the problem of determining from astronomical observations the orbits of bodies about the sun mostly comets but also later the then newly discovered minor planets gauss published a further development of the theory of least squares in 1821 including a version of the gauss markov theorem
+
+the term regression was coined by francis galton in the 19th century to describe a biological phenomenon the phenomenon was that the heights of descendants of tall ancestors tend to regress down towards a normal average a phenomenon also known as regression toward the mean
+for galton regression had only this biological meaning but his work was later extended by udny yule and karl pearson to a more general statistical context in the work of yule and pearson the joint distribution of the response and explanatory variables is assumed to be gaussian this assumption was weakened by r a fisher in his works of 1922 and 1925 fisher assumed that the conditional distribution of the response variable is gaussian but the joint distribution need not be in this respect fisher s assumption is closer to gauss s formulation of 1821
+
+in the 1950s and 1960s economists used electromechanical desk calculators to calculate regressions before 1970 it sometimes took up to 24 hours to receive the result from one regression
+
+regression methods continue to be an area of active research in recent decades new methods have been developed for robust regression regression involving correlated responses such as time series and growth curves regression in which the predictor independent variable or response variables are curves images graphs or other complex data objects regression methods accommodating various types of missing data nonparametric regression bayesian methods for regression regression in which the predictor variables are measured with error regression with more predictor variables than observations and causal inference with regression modern regression analysis is typically done with statistical and spreadsheet software packages on computers as well as on handheld scientific and graphing calculators
+
+in practice researchers first select a model they would like to estimate and then use their chosen method e g ordinary least squares to estimate the parameters of that model regression models involve the following components
+
+in various fields of application different terminologies are used in place of dependent and independent variables
+
+most regression models propose that
+
+
+
+
+y
+
+i
+
+
+
+
+displaystyle y_ i
+
+is a function regression function of
+
+
+
+
+x
+
+i
+
+
+
+
+displaystyle x_ i
+
+and
+
+
+
+β
+
+
+displaystyle beta
+
+with
+
+
+
+
+e
+
+i
+
+
+
+
+displaystyle e_ i
+
+representing an additive error term that may stand in for un modeled determinants of
+
+
+
+
+y
+
+i
+
+
+
+
+displaystyle y_ i
+
+or random statistical noise
+
+in the standard regression model the independent variables
+
+
+
+
+x
+
+i
+
+
+
+
+displaystyle x_ i
+
+are assumed to be free of error the errors in variables model can be used if the independent variables are assumed to contain errors other modifications to the standard regression model can be made to account for various scenarios such as situations involving omitted variables confounding variables or endogeneity
+
+the researchers goal is to estimate the function
+
+
+
+f
+
+
+x
+
+i
+
+
+
+β
+
+
+
+displaystyle f x_ i beta
+
+that most closely fits the data to carry out regression analysis the form of the function
+
+
+
+f
+
+
+displaystyle f
+
+must be specified sometimes the form of this function is based on knowledge about the relationship between
+
+
+
+
+y
+
+i
+
+
+
+
+displaystyle y_ i
+
+and
+
+
+
+
+x
+
+i
+
+
+
+
+displaystyle x_ i
+
+that does not rely on the data if no such knowledge is available a flexible or convenient form for
+
+
+
+f
+
+
+displaystyle f
+
+is chosen for example a simple univariate regression may propose
+
+
+
+f
+
+
+x
+
+i
+
+
+
+β
+
+
+
+β
+
+0
+
+
+
+
+β
+
+1
+
+
+
+x
+
+i
+
+
+
+
+displaystyle f x_ i beta beta _ 0 beta _ 1 x_ i
+
+suggesting that the researcher believes
+
+
+
+
+y
+
+i
+
+
+
+
+β
+
+0
+
+
+
+
+β
+
+1
+
+
+
+x
+
+i
+
+
+
+
+e
+
+i
+
+
+
+
+displaystyle y_ i beta _ 0 beta _ 1 x_ i e_ i
+
+to be a reasonable approximation for the statistical process generating the data
+
+once researchers determine their preferred statistical model different forms of regression analysis provide tools to estimate the parameters
+
+
+
+β
+
+
+displaystyle beta
+
+for example least squares including its most common variant ordinary least squares finds the value of
+
+
+
+β
+
+
+displaystyle beta
+
+that minimizes the sum of squared errors
+
+
+
+
+
+
+i
+
+
+
+
+y
+
+i
+
+
+
+f
+
+
+x
+
+i
+
+
+
+β
+
+
+
+
+2
+
+
+
+
+displaystyle sum _ i y_ i f x_ i beta 2
+
+a given regression method will ultimately provide an estimate of
+
+
+
+β
+
+
+displaystyle beta
+
+usually denoted
+
+
+
+
+
+
+β
+
+
+
+
+
+
+displaystyle hat beta
+
+to distinguish the estimate from the true unknown parameter value that generated the data using this estimate the researcher can then use the fitted value
+
+
+
+
+
+
+
+y
+
+i
+
+
+
+
+
+
+
+f
+
+
+x
+
+i
+
+
+
+
+
+
+β
+
+
+
+
+
+
+
+displaystyle hat y_ i f x_ i hat beta
+
+for prediction or to assess the accuracy of the model in explaining the data whether the researcher is intrinsically interested in the estimate
+
+
+
+
+
+
+β
+
+
+
+
+
+
+displaystyle hat beta
+
+or the predicted value
+
+
+
+
+
+
+
+y
+
+i
+
+
+
+
+
+
+
+
+displaystyle hat y_ i
+
+will depend on context and their goals as described in ordinary least squares least squares is widely used because the estimated function
+
+
+
+f
+
+
+x
+
+i
+
+
+
+
+
+
+β
+
+
+
+
+
+
+
+displaystyle f x_ i hat beta
+
+approximates the conditional expectation
+
+
+
+e
+
+
+y
+
+i
+
+
+
+
+
+
+x
+
+i
+
+
+
+
+
+displaystyle e y_ i x_ i
+
+however alternative variants e g least absolute deviations or quantile regression are useful when researchers want to model other functions
+
+
+
+f
+
+
+x
+
+i
+
+
+
+β
+
+
+
+displaystyle f x_ i beta
+
+
+
+there must be sufficient data to estimate a regression model for example suppose that a researcher has access to
+
+
+
+n
+
+
+displaystyle n
+
+rows of data with one dependent and two independent variables
+
+
+
+
+
+y
+
+i
+
+
+
+
+x
+
+1
+i
+
+
+
+
+x
+
+2
+i
+
+
+
+
+
+displaystyle y_ i x_ 1i x_ 2i
+
+suppose further that the researcher wants to estimate a bivariate linear model via least squares
+
+
+
+
+y
+
+i
+
+
+
+
+β
+
+0
+
+
+
+
+β
+
+1
+
+
+
+x
+
+1
+i
+
+
+
+
+β
+
+2
+
+
+
+x
+
+2
+i
+
+
+
+
+e
+
+i
+
+
+
+
+displaystyle y_ i beta _ 0 beta _ 1 x_ 1i beta _ 2 x_ 2i e_ i
+
+if the researcher only has access to
+
+
+
+n
+
+2
+
+
+displaystyle n 2
+
+data points then they could find infinitely many combinations
+
+
+
+
+
+
+
+
+β
+
+
+
+
+
+0
+
+
+
+
+
+
+
+β
+
+
+
+
+
+1
+
+
+
+
+
+
+
+β
+
+
+
+
+
+2
+
+
+
+
+
+displaystyle hat beta _ 0 hat beta _ 1 hat beta _ 2
+
+that explain the data equally well any combination can be chosen that satisfies
+
+
+
+
+
+
+
+y
+
+
+
+
+
+i
+
+
+
+
+
+
+
+β
+
+
+
+
+
+0
+
+
+
+
+
+
+
+β
+
+
+
+
+
+1
+
+
+
+x
+
+1
+i
+
+
+
+
+
+
+
+β
+
+
+
+
+
+2
+
+
+
+x
+
+2
+i
+
+
+
+
+displaystyle hat y _ i hat beta _ 0 hat beta _ 1 x_ 1i hat beta _ 2 x_ 2i
+
+all of which lead to
+
+
+
+
+
+
+i
+
+
+
+
+
+
+e
+
+
+
+
+
+i
+
+
+2
+
+
+
+
+
+
+i
+
+
+
+
+
+
+
+y
+
+
+
+
+
+i
+
+
+
+
+
+
+
+
+β
+
+
+
+
+
+0
+
+
+
+
+
+
+
+β
+
+
+
+
+
+1
+
+
+
+x
+
+1
+i
+
+
+
+
+
+
+
+β
+
+
+
+
+
+2
+
+
+
+x
+
+2
+i
+
+
+
+
+
+
+2
+
+
+
+0
+
+
+displaystyle sum _ i hat e _ i 2 sum _ i hat y _ i hat beta _ 0 hat beta _ 1 x_ 1i hat beta _ 2 x_ 2i 2 0
+
+and are therefore valid solutions that minimize the sum of squared residuals to understand why there are infinitely many options note that the system of
+
+
+
+n
+
+2
+
+
+displaystyle n 2
+
+equations is to be solved for 3 unknowns which makes the system underdetermined alternatively one can visualize infinitely many 3 dimensional planes that go through
+
+
+
+n
+
+2
+
+
+displaystyle n 2
+
+fixed points
+
+more generally to estimate a least squares model with
+
+
+
+k
+
+
+displaystyle k
+
+distinct parameters one must have
+
+
+
+n
+
+k
+
+
+displaystyle n geq k
+
+distinct data points if
+
+
+
+n
+
+k
+
+
+displaystyle n k
+
+then there does not generally exist a set of parameters that will perfectly fit the data the quantity
+
+
+
+n
+
+k
+
+
+displaystyle n k
+
+appears often in regression analysis and is referred to as the degrees of freedom in the model moreover to estimate a least squares model the independent variables
+
+
+
+
+
+x
+
+1
+i
+
+
+
+
+x
+
+2
+i
+
+
+
+
+
+
+
+
+x
+
+k
+i
+
+
+
+
+
+displaystyle x_ 1i x_ 2i x_ ki
+
+must be linearly independent one must not be able to reconstruct any of the independent variables by adding and multiplying the remaining independent variables as discussed in ordinary least squares this condition ensures that
+
+
+
+
+x
+
+t
+
+
+x
+
+
+displaystyle x t x
+
+is an invertible matrix and therefore that a unique solution
+
+
+
+
+
+
+β
+
+
+
+
+
+
+displaystyle hat beta
+
+exists
+
+by itself a regression is just a computation performed on a set of data in order to interpret the resultant regression as a meaningful statistical model that quantifies real world relationships researchers often rely on a number of classical assumptions these assumptions often include
+
+a handful of conditions are sufficient for the least squares estimator to possess desirable properties in particular the gauss markov assumptions imply that the parameter estimates will be unbiased consistent and efficient in the class of linear unbiased estimators practitioners have developed a variety of methods to maintain some or all of these desirable properties in real world settings because these classical assumptions are unlikely to hold exactly for example modeling errors in variables can lead to reasonable estimates independent variables are measured with errors heteroscedasticity consistent standard errors allow the variance of
+
+
+
+
+e
+
+i
+
+
+
+
+displaystyle e_ i
+
+to change across values of
+
+
+
+
+x
+
+i
+
+
+
+
+displaystyle x_ i
+
+correlated errors that exist within subsets of the data or follow specific patterns can be handled using clustered standard errors geographic weighted regression or newey west standard errors among other techniques when rows of data correspond to locations in space the choice of how to model
+
+
+
+
+e
+
+i
+
+
+
+
+displaystyle e_ i
+
+within geographic units can have important consequences the subfield of econometrics is largely focused on developing techniques that allow researchers to make reasonable real world conclusions in real world settings where classical assumptions do not hold exactly
+
+in linear regression the model specification is that the dependent variable
+
+
+
+
+y
+
+i
+
+
+
+
+displaystyle y_ i
+
+is a linear combination of the parameters but need not be linear in the independent variables for example in simple linear regression for modeling
+
+
+
+n
+
+
+displaystyle n
+
+data points there is one independent variable
+
+
+
+
+x
+
+i
+
+
+
+
+displaystyle x_ i
+
+and two parameters
+
+
+
+
+β
+
+0
+
+
+
+
+displaystyle beta _ 0
+
+and
+
+
+
+
+β
+
+1
+
+
+
+
+displaystyle beta _ 1
+
+
+
+in multiple linear regression there are several independent variables or functions of independent variables
+
+adding a term in
+
+
+
+
+x
+
+i
+
+
+2
+
+
+
+
+displaystyle x_ i 2
+
+to the preceding regression gives
+
+this is still linear regression although the expression on the right hand side is quadratic in the independent variable
+
+
+
+
+x
+
+i
+
+
+
+
+displaystyle x_ i
+
+it is linear in the parameters
+
+
+
+
+β
+
+0
+
+
+
+
+displaystyle beta _ 0
+
+
+
+
+
+
+β
+
+1
+
+
+
+
+displaystyle beta _ 1
+
+and
+
+
+
+
+β
+
+2
+
+
+
+
+
+displaystyle beta _ 2
+
+
+
+in both cases
+
+
+
+
+ε
+
+i
+
+
+
+
+displaystyle varepsilon _ i
+
+is an error term and the subscript
+
+
+
+i
+
+
+displaystyle i
+
+indexes a particular observation
+
+returning our attention to the straight line case given a random sample from the population we estimate the population parameters and obtain the sample linear regression model
+
+the residual
+
+
+
+
+e
+
+i
+
+
+
+
+y
+
+i
+
+
+
+
+
+
+
+y
+
+
+
+
+
+i
+
+
+
+
+displaystyle e_ i y_ i widehat y _ i
+
+is the difference between the value of the dependent variable predicted by the model
+
+
+
+
+
+
+
+y
+
+
+
+
+
+i
+
+
+
+
+displaystyle widehat y _ i
+
+and the true value of the dependent variable
+
+
+
+
+y
+
+i
+
+
+
+
+displaystyle y_ i
+
+one method of estimation is ordinary least squares this method obtains parameter estimates that minimize the sum of squared residuals ssr
+
+minimization of this function results in a set of normal equations a set of simultaneous linear equations in the parameters which are solved to yield the parameter estimators
+
+
+
+
+
+
+
+β
+
+
+
+
+
+0
+
+
+
+
+
+
+
+β
+
+
+
+
+
+1
+
+
+
+
+displaystyle widehat beta _ 0 widehat beta _ 1
+
+
+
+in the case of simple regression the formulas for the least squares estimates are
+
+where
+
+
+
+
+
+
+x
+
+
+
+
+
+
+displaystyle bar x
+
+is the mean average of the
+
+
+
+x
+
+
+displaystyle x
+
+values and
+
+
+
+
+
+
+y
+
+
+
+
+
+
+displaystyle bar y
+
+is the mean of the
+
+
+
+y
+
+
+displaystyle y
+
+values
+
+under the assumption that the population error term has a constant variance the estimate of that variance is given by
+
+this is called the mean square error mse of the regression the denominator is the sample size reduced by the number of model parameters estimated from the same data
+
+
+
+
+n
+
+p
+
+
+
+displaystyle n p
+
+for
+
+
+
+p
+
+
+displaystyle p
+
+regressors or
+
+
+
+
+n
+
+p
+
+1
+
+
+
+displaystyle n p 1
+
+if an intercept is used in this case
+
+
+
+p
+
+1
+
+
+displaystyle p 1
+
+so the denominator is
+
+
+
+n
+
+2
+
+
+displaystyle n 2
+
+
+
+the standard errors of the parameter estimates are given by
+
+under the further assumption that the population error term is normally distributed the researcher can use these estimated standard errors to create confidence intervals and conduct hypothesis tests about the population parameters
+
+in the more general multiple regression model there are
+
+
+
+p
+
+
+displaystyle p
+
+independent variables
+
+where
+
+
+
+
+x
+
+i
+j
+
+
+
+
+displaystyle x_ ij
+
+is the
+
+
+
+i
+
+
+displaystyle i
+
+th observation on the
+
+
+
+j
+
+
+displaystyle j
+
+th independent variable
+if the first independent variable takes the value 1 for all
+
+
+
+i
+
+
+displaystyle i
+
+
+
+
+
+
+x
+
+i
+1
+
+
+
+1
+
+
+displaystyle x_ i1 1
+
+then
+
+
+
+
+β
+
+1
+
+
+
+
+displaystyle beta _ 1
+
+is called the regression intercept
+
+the least squares parameter estimates are obtained from
+
+
+
+p
+
+
+displaystyle p
+
+normal equations the residual can be written as
+
+the normal equations are
+
+in matrix notation the normal equations are written as
+
+where the
+
+
+
+i
+j
+
+
+displaystyle ij
+
+element of
+
+
+
+
+x
+
+
+
+displaystyle mathbf x
+
+is
+
+
+
+
+x
+
+i
+j
+
+
+
+
+displaystyle x_ ij
+
+the
+
+
+
+i
+
+
+displaystyle i
+
+element of the column vector
+
+
+
+y
+
+
+displaystyle y
+
+is
+
+
+
+
+y
+
+i
+
+
+
+
+displaystyle y_ i
+
+and the
+
+
+
+j
+
+
+displaystyle j
+
+element of
+
+
+
+
+
+
+β
+
+
+
+
+
+
+displaystyle hat boldsymbol beta
+
+is
+
+
+
+
+
+
+
+β
+
+
+
+
+
+j
+
+
+
+
+displaystyle hat beta _ j
+
+thus
+
+
+
+
+x
+
+
+
+displaystyle mathbf x
+
+is
+
+
+
+n
+
+p
+
+
+displaystyle n times p
+
+
+
+
+
+y
+
+
+displaystyle y
+
+is
+
+
+
+n
+
+1
+
+
+displaystyle n times 1
+
+and
+
+
+
+
+
+
+β
+
+
+
+
+
+
+displaystyle hat boldsymbol beta
+
+is
+
+
+
+p
+
+1
+
+
+displaystyle p times 1
+
+the solution is
+
+once a regression model has been constructed it may be important to confirm the goodness of fit of the model and the statistical significance of the estimated parameters commonly used checks of goodness of fit include the r squared analyses of the pattern of residuals and hypothesis testing statistical significance can be checked by an f test of the overall fit followed by t tests of individual parameters
+
+interpretations of these diagnostic tests rest heavily on the model s assumptions although examination of the residuals can be used to invalidate a model the results of a t test or f test are sometimes more difficult to interpret if the model s assumptions are violated for example if the error term does not have a normal distribution in small samples the estimated parameters will not follow normal distributions and complicate inference with relatively large samples however a central limit theorem can be invoked such that hypothesis testing may proceed using asymptotic approximations
+
+limited dependent variables which are response variables that are categorical or constrained to fall only in a certain range often arise in econometrics
+
+the response variable may be non continuous limited to lie on some subset of the real line for binary zero or one variables if analysis proceeds with least squares linear regression the model is called the linear probability model nonlinear models for binary dependent variables include the probit and logit model the multivariate probit model is a standard method of estimating a joint relationship between several binary dependent variables and some independent variables for categorical variables with more than two values there is the multinomial logit for ordinal variables with more than two values there are the ordered logit and ordered probit models censored regression models may be used when the dependent variable is only sometimes observed and heckman correction type models may be used when the sample is not randomly selected from the population of interest
+
+an alternative to such procedures is linear regression based on polychoric correlation or polyserial correlations between the categorical variables such procedures differ in the assumptions made about the distribution of the variables in the population if the variable is positive with low values and represents the repetition of the occurrence of an event then count models like the poisson regression or the negative binomial model may be used
+
+when the model function is not linear in the parameters the sum of squares must be minimized by an iterative procedure this introduces many complications which are summarized in differences between linear and non linear least squares
+
+regression models predict a value of the y variable given known values of the x variables prediction within the range of values in the dataset used for model fitting is known informally as interpolation prediction outside this range of the data is known as extrapolation performing extrapolation relies strongly on the regression assumptions the further the extrapolation goes outside the data the more room there is for the model to fail due to differences between the assumptions and the sample data or the true values
+
+a prediction interval that represents the uncertainty may accompany the point prediction such intervals tend to expand rapidly as the values of the independent variable s moved outside the range covered by the observed data
+
+for such reasons and others some tend to say that it might be unwise to undertake extrapolation
+
+the assumption of a particular form for the relation between y and x is another source of uncertainty a properly conducted regression analysis will include an assessment of how well the assumed form is matched by the observed data but it can only do so within the range of values of the independent variables actually available this means that any extrapolation is particularly reliant on the assumptions being made about the structural form of the regression relationship if this knowledge includes the fact that the dependent variable cannot go outside a certain range of values this can be made use of in selecting the model even if the observed dataset has no values particularly near such bounds the implications of this step of choosing an appropriate functional form for the regression can be great when extrapolation is considered at a minimum it can ensure that any extrapolation arising from a fitted model is realistic or in accord with what is known
+
+there are no generally agreed methods for relating the number of observations versus the number of independent variables in the model one method conjectured by good and hardin is
+
+
+
+n
+
+
+m
+
+n
+
+
+
+
+displaystyle n m n
+
+where
+
+
+
+n
+
+
+displaystyle n
+
+is the sample size
+
+
+
+n
+
+
+displaystyle n
+
+is the number of independent variables and
+
+
+
+m
+
+
+displaystyle m
+
+is the number of observations needed to reach the desired precision if the model had only one independent variable for example a researcher is building a linear regression model using a dataset that contains 1000 patients
+
+
+
+n
+
+
+displaystyle n
+
+if the researcher decides that five observations are needed to precisely define a straight line
+
+
+
+m
+
+
+displaystyle m
+
+then the maximum number of independent variables
+
+
+
+n
+
+
+displaystyle n
+
+the model can support is 4 because
+
+although the parameters of a regression model are usually estimated using the method of least squares other methods which have been used include
+
+all major statistical software packages perform least squares regression analysis and inference simple linear regression and multiple regression using least squares can be done in some spreadsheet applications and on some calculators while many statistical software packages can perform various types of nonparametric and robust regression these methods are less standardized different software packages implement different methods and a method with a given name may be implemented differently in different packages specialized regression software has been developed for use in fields such as survey analysis and neuroimaging

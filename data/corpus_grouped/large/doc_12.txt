@@ -1,0 +1,121 @@
+
+
+wide field infrared survey explorer wise observatory code c51 explorer 92 and midex 6 was a nasa infrared astronomy space telescope in the explorers program launched in december 2009 wise discovered thousands of minor planets and numerous star clusters its observations also supported the discovery of the first y type brown dwarf and earth trojan asteroid
+wise performed an all sky astronomical survey with images in 3 4 4 6 12 and 22 μm wavelength range bands over ten months using a 40 cm 16 in diameter infrared telescope in earth orbit
+
+after its solid hydrogen coolant depleted it was placed in hibernation mode in february 2011
+in 2013 nasa reactivated the wise telescope to search for near earth objects neo such as comets and asteroids that could collide with earth
+
+the reactivation mission was called near earth object wide field infrared survey explorer neowise as of august 2023 neowise was 40 through the 20th coverage of the full sky citation needed
+
+science operations and data processing for wise and neowise take place at the infrared processing and analysis center at the california institute of technology in pasadena california the wise all sky wisea data including processed images source catalogs and raw data was released to the public on 14 march 2012 and is available at the infrared science archive
+
+the neowise mission was originally expected to end in early 2025 with the satellite reentering the atmosphere some time after however the neowise mission concluded its science survey on 31 july 2024 with the satellite expected to reenter earth s atmosphere later the same year 2 november 2024 this decision was made due to increased solar activity hastening the decay of its orbit and the lack of an onboard propulsion system for orbital maintenance the onboard transmitter was turned off on 8 august marking the formal decommissioning of the spacecraft
+
+the mission was planned to create infrared images of 99 of the sky with at least eight images made of each position on the sky in order to increase accuracy the spacecraft was placed in a 525 km 326 mi circular polar sun synchronous orbit for its ten month mission during which it has taken 1 5 million images one every 11 seconds the satellite orbited above the terminator its telescope pointing always to the opposite direction to the earth except for pointing towards the moon which was avoided and its solar cells towards the sun each image covers a 47 arcminute field of view fov which means a 6 arcsecond resolution each area of the sky was scanned at least 10 times at the equator the poles were scanned at theoretically every revolution due to the overlapping of the images the produced image library contains data on the local solar system the milky way and the more distant universe among the objects wise studied are asteroids cool and dim stars such as brown dwarfs and the most luminous infrared galaxies
+
+wise was not able to detect kuiper belt objects because their temperatures are too low pluto is the only kuiper belt object that was detected it was able to detect any objects warmer than 70 100 k a neptune sized object would be detectable out to 700 astronomical unit au a jupiter mass object out to 1 light year 63 000 au where it would still be within the sun s zone of gravitational control a larger object of 2 3 jupiter masses would be visible at a distance of up to 7 10 light years
+
+at the time of planning it was estimated that wise would detect about 300 000 main belt asteroids of which approximately 100 000 will be new and some 700 near earth objects neo including about 300 undiscovered that translates to about 1000 new main belt asteroids per day and 1 3 neos per day the peak of magnitude distribution for neos will be about 21 22 v wise would detect each typical solar system object 10 12 times over about 36 hours in intervals of 3 hours needs update
+
+star formation a process where visible light is normally obscured by interstellar dust is detectable in infrared since at this wavelength electromagnetic radiation can penetrate the dust infrared measurements from the wise astronomical survey have been particularly effective at unveiling previously undiscovered star clusters examples of such embedded star clusters are camargo 18 camargo 440 majaess 101 and majaess 116 in addition galaxies of the young universe and interacting galaxies where star formation is intensive are bright in infrared at infrared wavelengths interstellar gas clouds are also detectable as well as proto planetary discs the wise satellite was expected to find at least 1 000 proto planetary discs
+
+the wise satellite bus was built by ball aerospace technologies in boulder colorado the spacecraft was derived from the ball aerospace technologies rs 300 spacecraft architecture particularly the nextsat spacecraft built for the successful orbital express mission launched on 9 march 2007 the flight system had an estimated mass of 560 kg 1 230 lb the spacecraft was three axis stabilized with body fixed solar arrays it used a high gain antenna in the ku band to transmit to the ground through the tracking and data relay satellite system tdrss geostationary system ball also performed the testing and flight system integration
+
+construction of the wise telescope was divided between ball aerospace technologies spacecraft operations support ssg precision optronics inc telescope optics scan mirror drs technologies and rockwell international focal planes lockheed martin cryostat cooling for the telescope and space dynamics laboratory instruments electronics and testing the program was managed through the jet propulsion laboratory
+
+the wise instrument was built by the space dynamics laboratory in logan utah
+
+wise surveyed the sky in four wavelengths of the infrared band at a very high sensitivity its design specified as goals that the full sky atlas of stacked images it produced have 5 sigma sensitivity limits of 120 160 650 and 2600 microjanskies μjy at 3 3 4 7 12 and 23 μm aka microns wise achieved at least 68 98 860 and 5400 μjy 5 sigma sensitivity at 3 4 4 6 12 and 22 μm for the wise all sky data release this is a factor of 1 000 times better sensitivity than the survey completed in 1983 by the iras satellite in the 12 and 23 μm bands and a factor of 500 000 times better than the 1990s survey by the cosmic background explorer cobe satellite at 3 3 and 4 7 μm on the other hand iras could also observe 60 and 100 μm wavelengths
+
+the primary mission lasted 10 months one month for checkout six months for a full sky survey then an additional three months of survey until the cryogenic coolant which kept the instruments at 17 k ran out the partial second survey pass facilitated the study of changes e g orbital movement in observed objects
+
+on 8 november 2007 the house committee on science and technology s subcommittee on space and aeronautics held a hearing to examine the status of nasa s near earth object neo survey program the prospect of using wise was proposed by nasa officials
+
+nasa officials told committee staff that nasa planned to use wise to detect near earth objects in addition to performing its science goals it was projected that wise could detect 400 neos or roughly 2 of the estimated neo population of interest within its one year mission
+
+by october 2010 over 33 500 new asteroids and comets were discovered and nearly 154 000 solar system objects had been observed by wise
+
+discovery of an ultra cool brown dwarf wisepc j045853 90 643451 9 about 10 30 light years away from earth was announced in late 2010 based on early data in july 2011 it was announced that wise had discovered the first earth trojan asteroid 2010 tk7 also the third closest star system luhman 16
+
+as of may 2018 wise neowise had also discovered 290 near earth objects and comets see section below
+
+the wise mission is led by edward l wright of the university of california los angeles the mission has a long history under wright s efforts and was first funded by nasa in 1999 as a candidate for a nasa medium class explorer midex mission under the name next generation sky survey ngss the history of the program from 1999 to date is briefly summarized as follows citation needed
+
+hibernation
+
+reactivation
+
+the launch of the delta ii launch vehicle carrying the wise spacecraft was originally scheduled for 11 december 2009 this attempt was scrubbed to correct a problem with a booster rocket steering engine the launch was then rescheduled for 14 december 2009 the second attempt launched on time at 14 09 33 utc from vandenberg air force base in california the launch vehicle successfully placed the wise spacecraft into the planned polar orbit at an altitude of 525 km 326 mi above the earth
+
+wise avoided the problem that affected wide field infrared explorer wire which failed within hours of reaching orbit in march 1999 in addition wise was 1 000 times more sensitive than prior surveys such as iras akari and cobe s dirbe
+
+a month long checkout after launch found all spacecraft systems functioning normally and both the low and high rate data links to the operations center working properly the instrument cover was successfully jettisoned on 29 december 2009 a first light image was released on 6 january 2010 an eight second exposure in the carina constellation showing infrared light in false color from three of wise s four wavelength bands blue green and red corresponding to 3 4 4 6 and 12 μm respectively on 14 january 2010 the wise mission started its official sky survey
+
+the wise group s bid for continued funding for an extended warm mission scored low by a nasa review board in part because of a lack of outside groups publishing on wise data such a mission would have allowed use of the 3 4 and 4 6 μm detectors after the last of cryo coolant had been exhausted with the goal of completing a second sky survey to detect additional objects and obtain parallax data on putative brown dwarf stars nasa extended the mission in october 2010 to search for near earth objects neo
+
+by october 2010 over 33 500 new asteroids and comets were discovered and over 154 000 solar system objects were observed by wise while active it found dozens of previously unknown asteroids every day in total it captured more than 2 7 million images during its primary mission
+
+in october 2010 nasa extended the mission by one month with a program called near earth object wise neowise due to its success the program was extended a further three months the focus was to look for asteroids and comets close to earth orbit using the remaining post cryogenic detection capability two of four detectors on wise work without cryogenic in february 2011 nasa announced that neowise had discovered many new objects in the solar system including twenty comets during its primary and extended missions the spacecraft delivered characterizations of 158 000 minor planets including more than 35 000 newly discovered objects
+
+after completing a full scan of the asteroid belt for the neowise mission the spacecraft was put into hibernation on 1 february 2011 the spacecraft was briefly contacted to check its status on 20 september 2012
+
+on 21 august 2013 nasa announced it would recommission neowise to continue its search for near earth objects neo and potentially dangerous asteroids it would additionally search for asteroids that a robotic spacecraft could intercept and redirect to orbit the moon the extended mission would be for three years at a cost of us 5 million per year and was brought about in part due to calls for nasa to step up asteroid detection after the chelyabinsk meteor exploded over russia in february 2013
+
+neowise was successfully taken out of hibernation in september 2013 with its coolant depleted the spacecraft s temperature was reduced from 200 k 73 c 100 f a relatively high temperature resulting from its hibernation to an operating temperature of 75 k 198 2 c 324 7 f by having the telescope stare into deep space its instruments were then re calibrated and the first post hibernation photograph was taken on 19 december 2013
+
+the post hibernation neowise mission was anticipated to discover 150 previously unknown near earth objects and to learn more about the characteristics of 2 000 known asteroids few objects smaller than 100 m 330 ft in diameter were detected by neowise s automated detection software known as the wise moving object processing software wmops because it requires five or more detections to be reported the average albedo of asteroids larger than 100 m 330 ft discovered by neowise is 0 14
+
+the telescope was turned on again in 2013 and by december 2013 the telescope had cooled down sufficiently to be able to resume observations between then and may 2017 the telescope made almost 640 000 detections of over 26 000 previously known objects including asteroids and comets in addition it discovered 416 new objects and about a quarter of those were near earth objects classification
+
+as of july 2024 wise neowise statistics lists a total of 399 near earth objects neos including 2016 wf9 and c 2016 u1 discovered by the spacecraft
+
+of the 365 near earth asteroids neas 66 of them are considered potentially hazardous asteroids phas a subset of the much larger family of neos but particularly more likely to hit earth and cause significant destruction neos can be divided into necs comets only and neas asteroids only and further into subcategories such as atira asteroids aten asteroids apollo asteroids amor asteroids and the potentially hazardous asteroids phas
+
+neowise has provided an estimate of the size of over 1 850 near earth objects neowise mission was extended for two more years 1 july 2021 30 june 2023
+
+as of june 2021 update neowise s replacement the next generation neo surveyor is scheduled to launch in 2028 and will greatly expand on what humans have learned and continue to learn from neowise
+
+as of august 2023 neowise is 40 through the 20th coverage of the full sky since the start of the reactivation mission
+
+on 13 december 2023 the jet propulsion laboratory jpl announced that the satellite would enter a low orbit causing it to be unusable by early 2025 increased solar activity as the sun approaches solar maximum during solar cycle 25 was expected to increase atmospheric drag causing orbital decay the satellite was expected to subsequently reenter the earth s atmosphere on 8 august 2024 the jet propulsion laboratory updated its estimate of orbital decay to sometime in late 2024 and announced that neowise s science survey had ended on 31 july neowise entered and burnt up in the earth s atmosphere at 8 49 p m edt on 1 november 2024
+
+on 14 april 2011 a preliminary release of wise data was made public covering 57 of the sky observed by the spacecraft on 14 march 2012 a new atlas and catalog of the entire infrared sky as imaged by wise was released to the astronomic community on 31 july 2012 neowise post cryo preliminary data was released a release called allwise combining all data was released on 13 november 2013 neowise data is released annually
+
+the wise data include diameter estimates of intermediate precision better than from an assumed albedo but not nearly as precise as good direct measurements can be obtained from the combination of reflected light and thermal infrared emission using a thermal model of the asteroid to estimate both its diameter and its albedo in may 2016 technologist nathan myhrvold questioned the precision of the diameters and claimed systemic errors arising from the spacecraft s design the original version of his criticism itself faced criticism for its methodology and did not pass peer review but a revised version was subsequently published the same year an analysis of 100 asteroids by an independent group of astronomers gave results consistent with the original wise analysis
+
+the allwise co added images were intentionally blurred which is optimal for detecting isolated point sources this has the disadvantage that many sources are not detected in crowded regions the unofficial unblurred coadds of the wise imaging unwise creates sharp images and masks defects and transients unwise coadded images can be searched by coordinates on the unwise website unwise images are used for the citizen science projects disk detective and backyard worlds
+
+in 2019 a preliminary catalog was released the catalog is called catwise this catalog combines the wise and neowise data and provides photometry at 3 4 and 4 6 μm it uses the unwise images and the allwise pipeline to detect sources catwise includes fainter sources and far more accurate measurement of the motion of objects the catalog is used to extend the number of discovered brown dwarfs especially the cold and faint y dwarfs catwise is led by jet propulsion laboratory jpl california institute of technology with funding from nasa s astrophysics data analysis program the catwise preliminary catalog can be accessed through infrared science archive irsa
+
+in addition to numerous comets and minor planets wise and neowise discovered many brown dwarfs some just a few light years from the solar system the first earth trojan and the most luminous galaxies in the universe
+
+nearby stars discovered using wise within 30 light years
+
+the nearest brown dwarfs discovered by wise within 20 light years include
+
+before the discovery of luhman 16 in 2013 wise 1506 7027 at a distance of 11 1 2 3 1 3 light years was suspected to be closest brown dwarf on the list of nearest stars also see map with nearby wise stars
+
+directly imaged exoplanets first detected with wise see definition of exoplanets iau working definition as of 2018 requires mplanet 13 mj and mplanet mcentral 0 04006 mmin and mmax are the lower and upper mass limit of the planet in jupiter masses
+
+mmax 7 8 13
+mmax mcentral 0 02 0 04
+
+mmax 20 13
+mmax mcentral 0 019 0 04
+
+mplanet mcentral 0 009 0 04
+
+0558 b
+
+mmax mcentral
+
+the sensitivity of wise in the infrared enabled the discovery of disk around young stars and old white dwarf systems these discoveries usually require a combination of optical near infrared and wise or spitzer mid infrared observations examples are the red dwarf wise j080822 18 644357 3 the brown dwarf wisea j120037 79 784508 3 and the white dwarf lspm j0207 3331 the nasa citizen science project disk detective is using wise data additionally researchers used neowise to discover erupting young stellar objects
+
+researchers discovered a few nebulae using wise such as the type iax remnant pa 30 nebulae around the massive b type stars bd 60 2668 and als 19653 an obscured shell around the wolf rayet star wr 35 and a halo around the helix nebula a planetary nebula were also discovered with wise
+
+active galactic nuclei agn can be identified from their mid infrared color one work used for example a combination of gaia and unwise data to identify agns luminous infrared galaxies can be detected in the infrared one study used sdss and wise to identify such galaxies neowise observed the entire sky for more than 10 years and can be used to find transient events some of these discovered transients are tidal disruption events tde in galaxies and infrared detection of supernovae similar to sn 2010jl
+
+wise is credited with discovering 3 088 numbered minor planets examples of the mission s numbered minor planet discoveries include
+
+on 27 march 2020 the comet c 2020 f3 neowise was discovered by the wise spacecraft it eventually became a naked eye comet and was widely photographed by professional and amateur astronomers it was the brightest comet visible in the northern hemisphere since comet hale bopp in 1997

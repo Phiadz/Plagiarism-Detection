@@ -1,0 +1,22 @@
+data anonymization is a type of information sanitization whose intent is privacy protection it is the process of removing personally identifiable information from data sets so that the people whom the data describe remain anonymous
+
+data anonymization has been defined as a process by which personal data is altered in such a way that a data subject can no longer be identified directly or indirectly either by the data controller alone or in collaboration with any other party data anonymization may enable the transfer of information across a boundary such as between two departments within an agency or between two agencies while reducing the risk of unintended disclosure and in certain environments in a manner that enables evaluation and analytics post anonymization
+
+in the context of medical data anonymized data refers to data from which the patient cannot be identified by the recipient of the information the name address and full postcode must be removed together with any other information which in conjunction with other data held by or disclosed to the recipient could identify the patient
+
+there will always be a risk that anonymized data may not stay anonymous over time pairing the anonymized dataset with other data clever techniques and raw power are some of the ways previously anonymous data sets have become de anonymized the data subjects are no longer anonymous
+
+de anonymization is the reverse process in which anonymous data is cross referenced with other data sources to re identify the anonymous data source
+generalization and perturbation are the two popular anonymization approaches for relational data the process of obscuring data with the ability to re identify it later is also called pseudonymization and is one way companies can store data in a way that is hipaa compliant
+
+however according to article 29 data protection working party directive 95 46 ec refers to anonymisation in recital 26 signifies that to anonymise any data the data must be stripped of sufficient elements such that the data subject can no longer be identified more precisely that data must be processed in such a way that it can no longer be used to identify a natural person by using all the means likely reasonably to be used by either the controller or a third party an important factor is that the processing must be irreversible the directive does not clarify how such a de identification process should or could be performed the focus is on the outcome that data should be such as not to allow the data subject to be identified via all likely and reasonable means reference is made to codes of conduct as a tool to set out possible anonymisation mechanisms as well as retention in a form in which identification of the data subject is no longer possible
+
+there are five types of data anonymization operations generalization suppression anatomization permutation and perturbation
+
+the european union s general data protection regulation gdpr requires that stored data on people in the eu undergo either anonymization or a pseudonymization process gdpr recital 26 establishes a very high bar for what constitutes anonymous data thereby exempting the data from the requirements of the gdpr namely information which does not relate to an identified or identifiable natural person or to personal data rendered anonymous in such a manner that the data subject is not or no longer identifiable the european data protection supervisor edps and the spanish agencia española de protección de datos aepd have issued joint guidance related to requirements for anonymity and exemption from gdpr requirements according to the edps and aepd no one including the data controller should be able to re identify data subjects in a properly anonymized dataset research by data scientists at imperial college in london and uclouvain in belgium as well as a ruling by judge michal agmon gonen of the tel aviv district court highlight the shortcomings of anonymisation in today s big data world anonymisation reflects an outdated approach to data protection that was developed when the processing of data was limited to isolated siloed applications prior to the popularity of big data processing involving the widespread sharing and combining of data
+
+structured data
+
+unstructured data
+
+removing identifying metadata from computer files is important for anonymizing them metadata removal tools are useful for achieving this

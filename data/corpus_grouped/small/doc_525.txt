@@ -1,0 +1,21 @@
+alphago versus ke jie was a three game go match between the computer go program alphago master and current world no 1 ranking player ke jie being part of the future of go summit in wuzhen china played on 23 25 and 27 may 2017 alphago defeated ke jie in all three games
+
+
+
+at the time of the match ke jie was ranked 1st among all human players worldwide under rémi coulom s ranking system and had held that position since late 2014 ke jie was also ranked number one in the world under korea baduk association s japan go association s and chinese weiqi association s ranking systems
+
+the version of alphago in this match was alphago master the one that defeated top pros in 60 online games using four tpus on a single machine with elo rating 4 858 deepmind claimed that this version was 3 stone stronger than the version used in alphago v lee sedol alphago master was actually the second best version that deepmind had at the time for it was already in possession of alphago zero a version much stronger than the master version this can be known by the fact that nature received their paper on alphago zero on april 7 before the games with ke jie deepmind did not reveal the existence of alphago zero until the paper was published in nature in october 2017
+
+before the future of go summit alphago master defeated ke jie by three to zero during its 60 straight wins in the online games at the end of 2016 and beginning of 2017
+
+google deepmind offered 1 5 million winner prizes for this match while the losing side took 300 000 for participating in the three games alphago won all three games against ke jie after the match between alphago and ke jie alphago retired while deepmind continued ai research in other areas alphago was subsequently awarded a professional 9 dan title by the chinese weiqi association
+
+on 23 may alphago white won by 0 5 points
+
+the second game was played on 25 may about 1 hour into the game demis hassabis tweeted that according to alphago s evaluations ke was playing perfectly however ke later lost ground on the lower part of the board about 4 hours into the game alphago simplified the position and it became clear that ke was losing
+
+alphago black won by resignation after move 155
+
+on 27 may ke jie white resigned in game three finishing the series with a 3 0 win for alphago at resignation alphago black had roughly an hour and a half of its time remaining while ke jie had roughly 32 minutes left on the clock
+
+the match was barred from being live streamed in china the game however has been covered in china both online and on national television via zhejiang tv

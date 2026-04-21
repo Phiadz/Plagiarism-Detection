@@ -1,0 +1,81 @@
+
+
+tensorflow is a software library for machine learning and artificial intelligence it can be used across a range of tasks but is used mainly for training and inference of neural networks it is one of the most popular deep learning frameworks alongside others such as pytorch it is free and open source software released under the apache license 2 0
+
+it was developed by the google brain team for google s internal use in research and production the initial version was released under the apache license 2 0 in 2015 google released an updated version tensorflow 2 0 in september 2019
+
+tensorflow can be used in a wide variety of programming languages including python javascript c and java facilitating its use in a range of applications in many sectors
+
+starting in 2011 google brain built distbelief as a proprietary machine learning system based on deep learning neural networks its use grew rapidly across diverse alphabet companies in both research and commercial applications google assigned multiple computer scientists including jeff dean to simplify and refactor the codebase of distbelief into a faster more robust application grade library which became tensorflow in 2009 the team led by geoffrey hinton had implemented generalized backpropagation and other improvements which allowed generation of neural networks with substantially higher accuracy for instance a 25 reduction in errors in speech recognition
+
+tensorflow is google brain s second generation system version 1 0 0 was released on february 11 2017 while the reference implementation runs on single devices tensorflow can run on multiple cpus and gpus with optional cuda and sycl extensions for general purpose computing on graphics processing units tensorflow is available on 64 bit linux macos windows and mobile computing platforms including android and ios
+
+its flexible architecture allows for easy deployment of computation across a variety of platforms cpus gpus tpus and from desktops to clusters of servers to mobile and edge devices
+
+tensorflow computations are expressed as stateful dataflow graphs the name tensorflow derives from the operations that such neural networks perform on multidimensional data arrays which are referred to as tensors during the google i o conference in june 2016 jeff dean stated that 1 500 repositories on github mentioned tensorflow of which only 5 were from google
+
+in march 2018 google announced tensorflow js version 1 0 for machine learning in javascript
+
+in jan 2019 google announced tensorflow 2 0 it became officially available in september 2019
+
+in may 2019 google announced tensorflow graphics for deep learning in computer graphics
+
+in may 2016 google announced its tensor processing unit tpu an application specific integrated circuit asic a hardware chip built specifically for machine learning and tailored for tensorflow a tpu is a programmable ai accelerator designed to provide high throughput of low precision arithmetic e g 8 bit and oriented toward using or running models rather than training them google announced they had been running tpus inside their data centers for more than a year and had found them to deliver an order of magnitude better optimized performance per watt for machine learning
+
+in may 2017 google announced the second generation as well as the availability of the tpus in google compute engine the second generation tpus deliver up to 180 teraflops of performance and when organized into clusters of 64 tpus provide up to 11 5 petaflops citation needed
+
+in may 2018 google announced the third generation tpus delivering up to 420 teraflops of performance and 128 gb high bandwidth memory hbm cloud tpu v3 pods offer 100 petaflops of performance and 32 tb hbm
+
+in february 2018 google announced that they were making tpus available in beta on the google cloud platform
+
+in july 2018 the edge tpu was announced edge tpu is google s purpose built asic chip designed to run tensorflow lite machine learning ml models on small client computing devices such as smartphones known as edge computing
+
+in may 2017 google announced tensorflow lite as a software stack to support machine learning models for mobile and embedded devices and in november 2017 provided the developer preview in january 2019 the tensorflow team released a developer preview of the mobile gpu inference engine with opengl es 3 1 compute shaders on android devices and metal compute shaders on ios devices in may 2019 google announced that their tensorflow lite micro also known as tensorflow lite for microcontrollers and arm s utensor would be merging it was renamed as litert in 2024
+
+as tensorflow s market share among research papers was declining to the advantage of pytorch the tensorflow team announced a release of a new major version of the library in september 2019 tensorflow 2 0 introduced many changes the most significant being tensorflow eager which changed the automatic differentiation scheme from the static computational graph to the define by run scheme originally made popular by chainer and later pytorch other major changes included removal of old libraries cross compatibility between trained models on different versions of tensorflow and significant improvements to the performance on gpu
+
+autodifferentiation is the process of automatically calculating the gradient vector of a model with respect to each of its parameters with this feature tensorflow can automatically compute the gradients for the parameters in a model which is useful to algorithms such as backpropagation which require gradients to optimize performance to do so the framework must keep track of the order of operations done to the input tensors in a model and then compute the gradients with respect to the appropriate parameters
+
+tensorflow includes an eager execution mode which means that operations are evaluated immediately as opposed to being added to a computational graph which is executed later code executed eagerly can be examined step by step through a debugger since data is augmented at each line of code rather than later in a computational graph this execution paradigm is considered to be easier to debug because of its step by step transparency
+
+in both eager and graph executions tensorflow provides an api for distributing computation across multiple devices with various distribution strategies this distributed computing can often speed up the execution of training and evaluating of tensorflow models and is a common practice in the field of ai
+
+to train and assess models tensorflow provides a set of loss functions also known as cost functions some popular examples include mean squared error mse and binary cross entropy bce
+
+in order to assess the performance of machine learning models tensorflow gives api access to commonly used metrics examples include various accuracy metrics binary categorical sparse categorical along with other metrics such as precision recall and intersection over union iou
+
+tensorflow nn is a module for executing primitive neural network operations on models some of these operations include variations of convolutions 1 2 3d atrous depthwise activation functions softmax relu gelu sigmoid etc and their variations and other operations max pooling bias add etc
+
+tensorflow offers a set of optimizers for training neural networks including adam adagrad and stochastic gradient descent sgd when training a model different optimizers offer different modes of parameter tuning often affecting a model s convergence and performance
+
+tensorflow serves as a core platform and library for machine learning tensorflow s apis use keras to allow users to make their own machine learning models in addition to building and training their model tensorflow can also help load the data to train the model and deploy it using tensorflow serving
+
+tensorflow provides a stable python application program interface api as well as apis without backwards compatibility guarantee for javascript c and java third party language binding packages are also available for c haskell julia matlab object pascal r scala rust ocaml and crystal bindings that are now archived and unsupported include go and swift
+
+tensorflow also has a library for machine learning in javascript using the provided javascript apis tensorflow js allows users to use either tensorflow js models or converted models from tensorflow or tflite retrain the given models and run on the web
+
+litert formerly known as tensorflow lite has apis for mobile apps or embedded devices to generate and deploy tensorflow models these models are compressed and optimized in order to be more efficient and have a higher performance on smaller capacity devices
+
+litert uses flatbuffers as the data serialization format for network models eschewing the protocol buffers format used by standard tensorflow models
+
+tensorflow extended abbrev tfx provides numerous components to perform all the operations needed for end to end production components include loading validating and transforming data tuning training and evaluating the machine learning model and pushing the model itself into production
+
+numpy is one of the most popular python data libraries and tensorflow offers integration and compatibility with its data structures numpy ndarrays the library s native datatype are automatically converted to tensorflow tensors in tf operations the same is also true vice versa this allows for the two libraries to work in unison without requiring the user to write explicit data conversions moreover the integration extends to memory optimization by having tf tensors share the underlying memory representations of numpy ndarrays whenever possible
+
+tensorflow also offers a variety of libraries and extensions to advance and extend the models and methods used for example tensorflow recommenders and tensorflow graphics are libraries for their respective functional other add ons libraries and frameworks include tensorflow model optimization tensorflow probability tensorflow quantum and tensorflow decision forests
+
+google also released collaboratory a tensorflow jupyter notebook environment that does not require any setup it runs on google cloud and allows users free access to gpus and the ability to store and share notebooks on google drive
+
+google jax is a machine learning framework for transforming numerical functions it is described as bringing together a modified version of autograd automatic obtaining of the gradient function through differentiation of a function and tensorflow s xla accelerated linear algebra it is designed to follow the structure and workflow of numpy as closely as possible and works with tensorflow as well as other frameworks such as pytorch the primary functions of jax are
+
+ge healthcare used tensorflow to increase the speed and accuracy of mris in identifying specific body parts google used tensorflow to create dermassist a free mobile application that allows users to take pictures of their skin and identify potential health complications sinovation ventures used tensorflow to identify and classify eye diseases from optical coherence tomography oct scans
+
+twitter implemented tensorflow to rank tweets by importance for a given user and changed their platform to show tweets in order of this ranking previously tweets were simply shown in reverse chronological order the photo sharing app vsco used tensorflow to help suggest custom filters for photos
+
+google officially released rankbrain on october 26 2015 backed by tensorflow
+
+inspace a virtual learning platform used tensorflow to filter out toxic chat messages in classrooms liulishuo an online english learning platform utilized tensorflow to create an adaptive curriculum for each student tensorflow was used to assess the current abilities of students and also helped decide which content to show based on those capabilities
+
+the e commerce platform carousell used tensorflow to provide personalized recommendations for customers the cosmetics company modiface used tensorflow to create an augmented reality experience for customers to test various shades of make up on their face
+
+tensorflow is the foundation for the automated image captioning software deepdream

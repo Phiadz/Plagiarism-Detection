@@ -1,0 +1,92 @@
+
+
+r is a programming language for statistical computing and data visualization it has been widely adopted in the fields of data mining bioinformatics data analysis and data science
+
+the core r language is extended by a large number of software packages which contain reusable code documentation and sample data some of the most popular r packages are in the tidyverse collection which enhances functionality for visualizing transforming and modelling data as well as improves the ease of programming according to the authors and users
+
+r is free and open source software distributed under the gnu general public license the language is implemented primarily in c fortran and r itself precompiled executables are available for the major operating systems including linux macos and microsoft windows
+
+its core is an interpreted language with a native command line interface in addition multiple third party applications are available as graphical user interfaces such applications include rstudio an integrated development environment jupyter a notebook interface as well as termux and google colab for mobile devices
+
+r was started by professors ross ihaka and robert gentleman as a programming language to teach introductory statistics at the university of auckland the language was inspired by the s programming language with most s programs able to run unaltered in r the language was also inspired by scheme s lexical scoping allowing for local variables
+
+the name of the language r comes from being both an s language successor and the shared first letter of the authors ross and robert in august 1993 ihaka and gentleman posted a binary file of r on statlib a data archive website at the same time they announced the posting on the s news mailing list on 5 december 1997 r became a gnu project when version 0 60 was released on 29 february 2000 the 1 0 version was released
+
+r packages are collections of functions documentation and data that expand r for example packages can add reporting features using packages such as r markdown quarto knitr and sweave and support for various statistical techniques such as linear generalized linear and nonlinear modeling classical statistical tests spatial analysis time series analysis and clustering ease of package installation and use have contributed to the language s adoption in data science
+
+immediately available when starting r after installation base packages provide the fundamental and necessary syntax and commands for programming computing graphics production basic arithmetic and statistical functionality
+
+an example is the tidyverse collection of r packages which bundles several subsidiary packages to provide a common api the collection specializes in tasks related to accessing and processing tidy data which are data contained in a two dimensional table with a single row for each observation and a single column for each variable
+
+installing a package occurs only once for example to install the tidyverse collection
+
+to load the functions data and documentation of a package one calls the library function to load the tidyverse collection one can execute the following code a
+
+the comprehensive r archive network cran was founded in 1997 by kurt hornik and friedrich leisch to host r s source code executable files documentation and user created packages cran s name and scope mimic the comprehensive tex archive network ctan and the comprehensive perl archive network cpan cran originally had only three mirror sites and twelve contributed packages as of 30 june 2025 update it has 90 mirrors and 22 390 contributed packages packages are also available in repositories such as r forge omegahat and github
+
+to provide guidance on the cran web site its task views area lists packages that are relevant for specific topics sample topics include causal inference finance genetics high performance computing machine learning medical imaging meta analysis social sciences and spatial statistics
+
+the bioconductor project provides packages for genomic data analysis complementary dna microarray and high throughput sequencing methods
+
+there are three main groups that help support r software development
+
+the r journal is an open access academic journal that features short to medium length articles on the use and development of r the journal includes articles on packages programming tips cran news and foundation news
+
+the r community hosts many conferences and in person meetups b these groups include
+
+on social media sites such as twitter the hashtag rstats can be used to follow new developments in the r community
+
+the following is a hello world program
+
+here is an alternative version which uses the cat function
+the following examples illustrate the basic syntax of the language and use of the command line interface c
+
+in r the generally preferred assignment operator is an arrow made from two characters although can be used in some cases
+
+r can create functions that add new functionality and enable code reuse objects created within the body of the function which are enclosed by curly brackets remain accessible only from within the function and any data type may be returned in r almost all functions and all user defined functions are closures
+
+the following is an example of creating a function to perform an arithmetic calculation
+
+the following is some output from using the function defined above
+
+it is possible to define functions to be used as infix operators by using the special syntax name where name is the function variable name
+
+since r version 4 1 0 functions can be written in a short notation inspired by the lambda calculus which is useful for passing anonymous functions to higher order functions
+
+in r version 4 1 0 a native pipe operator was introduced this operator allows users to chain functions together rather than using nested function calls
+
+an alternative to nested functions is the use of intermediate objects rather than the pipe operator
+
+while the pipe operator can produce code that is easier to read influential r programmers like hadley wickham suggest to chain together at most 10 15 lines of code using this operator and saving them into objects having meaningful names to avoid code obfuscation
+
+the r language has native support for object oriented programming there are two native frameworks the so called s3 and s4 systems the former being more informal supports single dispatch on the first argument and objects are assigned to a class simply by setting a class attribute in each object the latter is a system like the common lisp object system clos with formal classes also derived from s and generic methods which supports multiple dispatch and multiple inheritance
+
+in the example below summary is a generic function that dispatches to different methods depending on whether its argument is a numeric vector or a factor
+
+the r language has built in support for data modeling and graphics the following example shows how r can generate and plot a linear model with residuals
+
+the output from the summary function in the preceding code block is as follows
+
+this example of a mandelbrot set highlights the use of complex numbers it models the first 20 iterations of the equation z z2 c where c represents different complex constants
+
+to run this sample code it is necessary to first install the package that provides the write gif function
+
+the sample code is as follows
+
+all r version releases from 2 14 0 onward have codenames that make reference to peanuts comics and films
+
+in 2018 core r developer peter dalgaard presented a history of r releases since 1997 some notable early releases before the named releases include the following
+
+the idea of naming r version releases was inspired by the naming system for debian and ubuntu versions dalgaard noted an additional reason for the use of peanuts references in r codenames the humorous observation that everyone in statistics is a p nut
+
+r is installed with a command line console by default but there are multiple ways to interface with the language
+
+statistical frameworks that use r in the background include jamovi and jasp citation needed
+
+the main r implementation is written primarily in c fortran and r itself other implementations include the following
+
+microsoft r open mro was an r implementation as of 30 june 2021 microsoft began to phase out mro in favor of the cran distribution
+
+
+
+although r is an open source project some companies provide commercial support

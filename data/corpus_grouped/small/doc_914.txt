@@ -1,0 +1,39 @@
+the following outline is provided as an overview of and topical guide to machine learning
+
+machine learning ml is a subfield of artificial intelligence within computer science that evolved from the study of pattern recognition and computational learning theory in 1959 arthur samuel defined machine learning as a field of study that gives computers the ability to learn without being explicitly programmed ml involves the study and construction of algorithms that can learn from and make predictions on data these algorithms operate by building a model from a training set of example observations to make data driven predictions or decisions expressed as outputs rather than following strictly static program instructions
+
+dimensionality reduction
+
+ensemble learning
+
+meta learning
+
+reinforcement learning
+
+supervised learning
+
+bayesian statistics
+
+decision tree algorithm
+
+linear classifier
+
+unsupervised learning
+
+artificial neural network
+
+association rule learning
+
+hierarchical clustering
+
+cluster analysis
+
+anomaly detection
+
+semi supervised learning
+
+deep learning
+
+history of machine learning
+
+machine learning projects

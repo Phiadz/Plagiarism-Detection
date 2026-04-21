@@ -1,0 +1,15 @@
+perfect information is a concept in game theory and economics that describes a situation where all players in a game or all participants in a market have knowledge of all relevant information in the system this is different than complete information which implies common knowledge of each agent s utility functions payoffs strategies and types a system with perfect information may or may not have complete information
+
+in economics this is sometimes described as no hidden information and is a feature of perfect competition in a market with perfect information all consumers and producers would have complete and instantaneous knowledge of all market prices their own utility and cost functions
+
+in game theory a sequential game has perfect information if each player when making any decision is perfectly informed of all the events that have previously occurred including the initialisation event of the game e g the starting hands of each player in a card game
+
+games where some aspect of play is hidden from opponents such as the cards in poker and bridge are examples of games with imperfect information
+
+chess is an example of a game with perfect information as each player can see all the pieces on the board at all times other games with perfect information include tic tac toe reversi checkers shogi and go
+
+academic literature has not produced consensus on a standard definition of perfect information which defines whether games with chance but no secret information and games with simultaneous moves are games of perfect information
+
+games which are sequential players alternate in moving and which have chance events with known probabilities to all players but no secret information are sometimes considered games of perfect information this includes games such as backgammon however some academic papers do not regard such games as games of perfect information because the results of chance themselves are unknown prior to them occurring
+
+games with simultaneous moves are generally not considered games of perfect information this is because each player holds information which is secret and must play a move without knowing the opponent s secret information nevertheless some such games are symmetrical and fair an example of a game in this category is rock paper scissors

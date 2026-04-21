@@ -1,0 +1,30 @@
+
+
+zbmath open formerly zentralblatt math is a major reviewing service providing reviews and abstracts for articles in pure and applied mathematics produced by the berlin office of fiz karlsruhe leibniz institute for information infrastructure gmbh editors are the european mathematical society fiz karlsruhe and the heidelberg academy of sciences zbmath is distributed by springer science business media it uses the mathematics subject classification codes for organising reviews by topic
+
+mathematicians richard courant otto neugebauer and harald bohr together with the publisher ferdinand springer took the initiative for a new mathematical reviewing journal harald bohr worked in copenhagen courant and neugebauer were professors at the university of göttingen at that time göttingen was considered one of the central places for mathematical research having appointed mathematicians like david hilbert hermann minkowski carl runge and felix klein the great organiser of mathematics and physics in göttingen his dream of a building for an independent mathematical institute with a spacious and rich reference library was realised four years after his death the credit for this achievement is particularly due to richard courant who convinced the rockefeller foundation to donate a large amount of money for the construction
+
+the service was founded in 1931 by otto neugebauer as zentralblatt für mathematik und ihre grenzgebiete it contained the bibliographical data of all recently published mathematical articles and book together with peer reviews done by mathematicians over the world in the preface to the first volume the intentions of zentralblatt are formulated as follows
+
+zentralblatt für mathematik und ihre grenzgebiete aims to publish in an efficient and reliable manner reviews of the entire world literature in mathematics and related areas in issues initially appearing monthly as the name suggests the main focus of the journal is mathematics however those areas that are closely related to mathematics will be treated as seriously as the so called pure mathematics
+
+zentralblatt and the jahrbuch über die fortschritte der mathematik had in essence the same agenda but zentralblatt published several issues per year an issue was published as soon as sufficiently many reviews were available in a frequency of three or four weeks
+
+in the late 1930s it began rejecting some jewish reviewers and a number of reviewers in england and united states resigned in protest some of them helped start mathematical reviews a competing publication
+
+the electronic form was provided under the name inka math acronym for information system karlsruhe database on mathematics since at least 1980 the name was later shortened to zentralblatt math
+
+in addition to the print issue the services were offered online under the name zbmath since 1996 since 2004 older issues were incorporated back to 1826
+
+the printed issue was discontinued in 2013 since january 2021 the access to the database is now open under the name zbmath open
+
+the jahrbuch über die fortschritte der mathematik yearbook on the progress of mathematics was internationally the first comprehensive journal of abstracts in the history of mathematics it contains information about almost all of the most important publications in mathematics and their areas of application from the period 1868 to 1942 the jahrbuch was written in 1868 by the mathematicians carl ohrtmann 1839 1885 and felix müller 1843 1928 it appeared annually with a few exceptions and initially contained 880 references per year 1868 and up to 7000 references in the later phase around 1930 some of the mathematical abstracts were written by famous mathematicians such as felix klein sophus lie richard courant or emmy noether during ww ii publication of the jahrbuch was stopped the jahrbuch s founding concept was characterized by its documentary completeness the jahrbuch only appeared when all papers in a year had been completely processed this was later paid for with a great loss of relevance in addition there was since 1931 the zentralblatt math which surpassed the jahrbuch in terms of speed of publication
+
+the zentralblatt math abstracting service provides reviews brief accounts of contents of current articles conference papers books and other publications in mathematics its applications and related areas the reviews are predominantly in english with occasional entries in german and french reviewers are volunteers invited by the editors based on their published work or a recommendation by an existing reviewer
+
+zentralblatt math is provided both over the web and in printed form the service reviews more than 2 300 journals and serials worldwide as well as books and conference proceedings zentralblatt math is now edited by the european mathematical society fiz karlsruhe and the heidelberg academy of sciences
+
+
+the database also incorporates the 200 000 entries of the earlier similar publication jahrbuch über die fortschritte der mathematik from 1868 to 1942 added in 2003
+
+as of january 2021 the complete database is accessible for free previously only the first three records in a search were available without a subscription

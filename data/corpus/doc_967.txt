@@ -1,0 +1,67 @@
+in mathematics a combinatorial explosion is the rapid growth of the complexity of a problem due to the way its combinatorics depends on input constraints and bounds combinatorial explosion is sometimes used to justify the intractability of certain problems examples of such problems include certain mathematical functions the analysis of some puzzles and games and some pathological examples further explanation needed which can be modelled as the ackermann function
+
+a latin square of order n is an n n array with entries from a set of n elements with the property that each element of the set occurs exactly once in each row and each column of the array an example of a latin square of order three is given by
+
+a common example of a latin square would be a completed sudoku puzzle a latin square is a combinatorial object as opposed to an algebraic object since only the arrangement of entries matters and not what the entries actually are the number of latin squares as a function of the order independent of the set from which the entries are drawn sequence a002860 in the oeis provides an example of combinatorial explosion as illustrated by the following table
+
+a combinatorial explosion can also occur in some puzzles played on a grid such as sudoku a sudoku is a type of latin square with the additional property that each element occurs exactly once in sub sections of size n n called boxes combinatorial explosion occurs as n increases creating limits to the properties of sudokus that can be constructed analyzed and solved as illustrated in the following table
+
+one example in a game where combinatorial complexity leads to a solvability limit is in solving chess a game with 64 squares and 32 pieces chess is not a solved game in 2005 all chess game endings with six pieces or fewer were solved showing the result of each position if played perfectly it took ten more years to complete the tablebase with one more chess piece added thus completing a 7 piece tablebase adding one more piece to a chess ending thus making an 8 piece tablebase is considered intractable due to the added combinatorial complexity
+
+furthermore the prospect of solving larger chess like games becomes more difficult as the board size is increased such as in large chess variants and infinite chess
+
+combinatorial explosion can occur in computing environments in a way analogous to communications and multi dimensional space imagine a simple system with only one variable a boolean called a the system has two possible states a true or a false adding another boolean variable b will give the system four possible states a true and b true a true and b false a false and b true a false and b false a system with n booleans has 2n possible states while a system of n variables each with z allowed values rather than just the 2 true and false of booleans will have zn possible states
+
+the possible states can be thought of as the leaf nodes of a tree of height n where each node has z children this rapid increase of leaf nodes can be useful in areas like searching since many results can be accessed without having to descend very far it can also be a hindrance when manipulating such structures
+
+a class hierarchy in an object oriented language can be thought of as a tree with different types of object inheriting from their parents if different classes need to be combined such as in a comparison like a b then the number of possible combinations which may occur explodes if each type of comparison needs to be programmed then this soon becomes intractable for even small numbers of classes multiple inheritance can solve this by allowing subclasses to have multiple parents and thus a few parent classes can be considered rather than every child without disrupting any existing hierarchy
+
+an example is a taxonomy where different vegetables inherit from their ancestor species attempting to compare the tastiness of each vegetable with the others becomes intractable since the hierarchy only contains information about genetics and makes no mention of tastiness however instead of having to write comparisons for carrot carrot carrot potato carrot sprout potato potato potato sprout sprout sprout they can all multiply inherit from a separate class of tasty whilst keeping their current ancestor based hierarchy then all of the above can be implemented with only a tasty tasty comparison
+
+in administration and computing a combinatorial explosion is the rapidly accelerating increase in communication lines as organizations are added in a process this growth is often casually described as exponential but is actually polynomial
+
+if two organizations need to communicate about a particular topic it may be easiest to communicate directly in an ad hoc manner only one channel of communication is required however if a third organization is added three separate channels are required adding a fourth organization requires six channels five ten six fifteen etc
+
+in general it will take
+
+
+
+
+l
+
+
+
+
+n
+
+n
+
+1
+
+
+2
+
+
+
+
+
+
+
+
+
+n
+2
+
+
+
+
+
+
+
+
+displaystyle l frac n n 1 2 n choose 2
+
+
+communication lines for n organizations which is just the number of 2 combinations of n elements see also binomial coefficient
+
+the alternative approach is to realize when this communication will not be a one off requirement and produce a generic or intermediate way of passing information the drawback is that this requires more work for the first pair since each must convert its internal approach to the common one rather than the superficially easier approach of just understanding the other

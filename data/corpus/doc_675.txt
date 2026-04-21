@@ -1,0 +1,73 @@
+in cybersecurity a threat actor bad actor or malicious actor is either a person or a group of people that take part in malicious acts in the cyber realm including computers devices systems or networks threat actors engage in cyber related offenses to exploit open vulnerabilities and disrupt operations threat actors have different educational backgrounds skills and resources the frequency and classification of cyber attacks changes rapidly the background of threat actors helps dictate who they target how they attack and what information they seek there are a number of threat actors including cyber criminals nation state actors ideologues thrill seekers trolls insiders and competitors these threat actors all have distinct motivations techniques targets and uses of stolen data
+
+the development of cyberspace has brought both advantages and disadvantages to society while cyberspace has helped further technological innovation it has also brought various forms of cyber crime since the dawn of cyberspace individual group and nation state threat actors have engaged in cyber related offenses to exploit victim vulnerabilities there are a number of threat actor categories who have different motives and targets
+
+cyber criminals have two main objectives first they want to infiltrate a system to access valuable data or items second they want to ensure that they avoid legal consequence after infiltrating a system cyber criminal can be broken down into three sub groups mass scammers automated hackers criminal infrastructure providers and big game hunters
+
+mass scammers and automated hackers include cyber criminals who attacks a system to gain monetary success these threat actors use tools to infect organization computer systems they then seek to gain financial compensation for victims to retrieve their data criminal infrastructure providers are a group of threat actors that aim to use tools to infect a computer system of an organization criminal infrastructure providers then sell the organization s infrastructure to an outside organization so they can exploit the system typically victims of criminal infrastructure providers are unaware that their system has been infected big game hunters are another sub group of cyber criminals that aim to attack one single but high value target big game hunters spend extra time learning about their target including system architecture and other technologies used by their target victims can be targeted by email phone attacks or by social engineering skills
+
+nation state threat actors aim to gain intelligence of national interest nation state actors can be interested in a number of sectors including nuclear financial and technology information there are two ways nations use nation state actors first some nations make use of their own governmental intelligence agencies second some nations work with organizations that specialize in cyber crime states that use outside groups can be tracked however states might not necessarily take accountability for the act conducted by the outside group nation state actors can attack both other nations or other outside organizations including private companies and non governmental organizations they typically aim to bolster their nation state s counterintelligence strategy nation state attacks can include strategic sabotage or critical infrastructure attacks nation states are considered an incredibly large group of threat actors in the cyber realm
+
+threat actors that are considered ideologues include two groups of attackers hackers and terrorists these two groups of attackers can be grouped together because they are similar in goals however hacktivists and terrorists differ in how they commit cyber crimes
+
+hacktivism is a term that was coined in the early days of the world wide web it is derived from a combination of two words hacking and activism hacktivists typically are individuals or entities that are ready to commit cyber crimes to further their own beliefs and ideologues many hacktivists include anti capitalists or anti corporate idealists and their attacks are inspired by similar political and social issues terrorism includes individuals or groups of people that aim to cause terror to achieve their goals the main difference between hacktivists and terrorists is their end goal hacktivists are willing to break security laws to spread their message while terrorists aim to cause terror to achieve their goals ideologues unlike other types of threat actors are typically not motivated by financial incentives
+
+a thrill seeker is a threat actor that attacks a system for the sole purpose of experimentation thrill seekers are interested in learning more about how computer systems and networks operate and want to see how much data they can infiltrate within a computer system while they do not aim to cause major damage they can cause problems to an organization s system as time has gone on thrill seekers have evolved into modern trolls similar to thrill seekers a troll is a type of person or group that attacks a system for recreation however unlike thrill seekers trolls aim to cause malice modern day trolls can cause misinformation and harm
+
+insiders are a type of threat actor that can either be an insider who sells network information to other adversaries or it can be a disgruntled employee who feels like they need to retaliate because they feel like they have been treated unfairly insider attacks can be challenging to prevent however with a structured logging and analysis plan in place insider threat actors can be detected after a successful attack business competitors can be another threat actor that can harm organizations competitors can gain access to organization secrets that are typically secure organizations can try to gain a stronger knowledge of business intelligence to protect themselves against a competition threat actor
+
+united states us national institute for standards and technology nist
+
+the national institute for standards and technology nist is a government agency that works on issues dealing with cyber security on the national level nist has written reports on cyber security guidelines including guidelines on conducting risk assessments nist typically classifies cyber threat actors as national governments terrorists organized crime groups hactivists and hackers
+
+european union eu the european union agency for cybersecurity enisa
+
+the european union agency for cybersecurity is a european union based agency tasked in working on cyber security capabilities the enisa provides both research and assistance to information security experts within the eu this organization published a cyber threat report up until 2019 the goal of this report is to identify incidents that have been published and attribute those attacks to the most likely threat actor the latest report identifies nation states cyber criminals hactivists cyber terrorists and thrill seekers
+
+united nations un
+
+the united nations general assembly unga has also been working to bring awareness to issues in cyber security the unga came out with a report in 2019 regarding the developments in the field of information and telecommunications in the context of international security this report has identified the following threat actors nation states cyber criminals hactivists terrorist groups thrill seekers and insiders
+
+canada canadian centre for cyber security cccs
+
+canada defines threat actors as states groups or individuals who aim to cause harm by exploiting a vulnerability with malicious intent a threat actor must be trying to gain access to information systems to access or alter data devices systems or networks
+
+japan national center of incident readiness and strategy nisc
+
+the japanese government s national center of incident readiness and strategy nisc was established in 2015 to create a free fair and secure cyberspace in japan the nics created a cybersecurity strategy in 2018 that outlines nation states and cybercrime to be some of the most key threats it also indicates that terrorist usage of the cyberspace needs to be monitored and understood
+
+russia security council of the russian federation
+
+the security council of the russian federation published the cyber security strategy doctrine in 2016 this strategy highlights the following threat actors as a risk to cyber security measures nation state actors cyber criminals and terrorists
+
+crowdstrike
+
+crowdstrike is a cybersecurity technology company and antivirus company that publishes an annual threat report the 2021 global threat report reports nation states and cybercriminals as two major threats to cyber security
+
+fireeye
+
+fireeye is a cybersecurity firm that is involved with detecting and preventing cyber attacks it publishes a report on detected threat trends annually containing results from their customers sensor systems their threat report lists state sponsored actors cyber criminals and insiders as current threats
+
+mcafee
+
+mcafee is an american global computer security software company the company publishes a quarterly threat report that identifies key issues in cybersecurity the october 2021 threat report outlines cybercriminals as one of the biggest threats in the field
+
+verizon
+
+verizon is an american multinational telecommunications company that has provided a threat report based on past customer incidents they ask the following questions when defining threat actors who is behind the event this could be the external bad guy who launches a phishing campaign or an employee who leaves sensitive documents in their seat back pocket they outline nation state actors and cybercriminals as two types of threat actors in their report
+
+phishing
+
+phishing is one method that threat actors use to obtain sensitive data including usernames passwords credit card information and social security numbers phishing attacks typically occur when a threat actor sends a message designed to trick a victim into either revealing sensitive information to the threat actor or to deploy malicious software on the victim s system
+
+cross site scripting
+
+cross site scripting is a type of security vulnerability that can be found when a threat actor injects a client side script into an otherwise safe and trusted web applications the code then launches an infectious script onto a victim s system this allows a threat actor to access sensitive data
+
+sql injections
+
+sql injection is a code injection technique used by threat actors to attack any data driven applications threat actors can inject malicious sql statements this allows threat actors to extract alter or delete victim s information
+
+denial of service attacks
+
+a denial of service attack dos attack is a cyber attack in which a threat actor seeks to make an automated resource unavailable to its victims by temporarily or indefinitely disrupting services of a network host threat actors conduct a dos attack by overwhelming a network with false requests to disrupt operations

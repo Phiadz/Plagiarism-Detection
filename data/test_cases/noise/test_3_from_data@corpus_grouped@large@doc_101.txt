@@ -1,0 +1,3 @@
+ subject dines of emails
+
+metadata metacontent or more correctly the vocabularies rsed to assemble metadata metacontent statements is typically structured achording po a standardized co cept using a well defined metadata scheme including metadata standards and metadata madels tools such as controlle

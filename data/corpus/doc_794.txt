@@ -1,0 +1,23 @@
+
+
+judea pearl hebrew יהודה פרל born september 4 1936 is an israeli american electrical engineer computer scientist and philosopher best known for championing the probabilistic approach to artificial intelligence and the development of bayesian networks see the article on belief propagation he is also credited for developing a theory of causal and counterfactual inference based on structural models see article on causality in 2011 the association for computing machinery acm awarded pearl with the turing award the highest distinction in computer science for fundamental contributions to artificial intelligence through the development of a calculus for probabilistic and causal reasoning he is the author of several books including the technical causality models reasoning and inference and the book of why a book on causality aimed at the general public
+
+judea pearl is the father of journalist daniel pearl who was kidnapped and murdered by terrorists in pakistan connected with al qaeda and the international islamic front in 2002
+
+judea pearl was born in tel aviv british mandate for palestine in 1936 to eliezer and tova pearl who were polish jewish immigrants grew up in bnei brak his grandfather chaim pearl was one of bnei brak s founders he is a descendant of menachem mendel of kotzk on his mother s side after serving in the israel defense forces and joining a kibbutz pearl decided to study engineering in 1956 he received a b s in electrical engineering from the technion 1960 that same year he emigrated to the united states and pursued graduate studies he received an m s in electrical engineering from the newark college of engineering now new jersey institute of technology in 1961 and went on to receive an m s in physics from rutgers university and a phd in electrical engineering from the polytechnic institute of brooklyn now the new york university tandon school of engineering in 1965 he worked at rca research laboratories now sri international in princeton new jersey on superconductive parametric amplifiers and storage devices and at electronic memories inc on advanced memory systems when semiconductors wiped out pearl s work as he later expressed it he joined ucla s school of engineering in 1970 and started work on probabilistic artificial intelligence he is one of the founding editors of the journal of causal inference
+
+pearl is currently a professor of computer science and statistics and director of the cognitive systems laboratory at ucla he and his wife ruth had three children in addition as of 2011 update he is a member of the international advisory board of ngo monitor
+
+former israeli chief rabbi rabbi yisrael meir lau partnered with judea pearl in the documentary with my whole broken heart
+
+in 2002 his son daniel pearl a journalist working for the wall street journal was kidnapped and murdered in pakistan leading judea and the other members of the family and friends to create the daniel pearl foundation on the seventh anniversary of daniel s death judea wrote an article in the wall street journal titled daniel pearl and the normalization of evil when will our luminaries stop making excuses for terror
+
+emeritus chief rabbi jonathan sacks quoted judea pearl s beliefs in a lesson on judaism i asked judea pearl father of the murdered journalist daniel pearl why he was working for reconciliation between jews and muslims he replied with heartbreaking lucidity hate killed my son therefore i am determined to fight hate
+
+on his religious views pearl states that he is a practicing disbeliever he is very connected to jewish traditions such as holidays and kiddush on friday night
+
+pearl sits on the ngo monitor international advisory board a organization based in jerusalem that reports on non governmental organization activity from a pro israel perspective
+
+judea pearl is credited for laying the foundations of modern artificial intelligence so computer systems can process uncertainty and relate causes to effects
+
+he is one of the pioneers of bayesian networks and the probabilistic approach to artificial intelligence and one of the first to mathematize causal modeling in the empirical sciences his work is also intended as a high level cognitive model he is interested in the philosophy of science knowledge representation nonstandard logics and learning pearl is described as one of the giants in the field of artificial intelligence by ucla computer science professor richard e korf his work on causality has revolutionized the understanding of causality in statistics psychology medicine and the social sciences according to the association for computing machinery

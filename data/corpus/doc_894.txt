@@ -1,0 +1,41 @@
+artificial intelligence detection software aims to determine whether some content text image video or audio was generated using artificial intelligence ai this software is often unreliable
+
+many ai detection tools have been shown to be unreliable in detecting ai generated text in a 2023 study conducted by weber wulff et al researchers evaluated 14 detection tools including turnitin and gptzero and found that all scored below 80 of accuracy and only 5 over 70 they also found that these tools tend to have a bias for classifying texts more as human than as ai and that accuracy of these tools worsens upon paraphrasing
+
+in ai content detection a false positive is when human written work is incorrectly flagged as ai written many ai detection platforms claim to have a minimal level of false positives with turnitin claiming a less than 1 false positive rate however later research by the washington post produced much higher rates of 50 though they used a smaller sample size false positives in an academic setting frequently lead to accusations of academic misconduct which can have serious consequences for a student s academic record additionally studies have shown evidence that many ai detection models are prone to give false positives to work written by people whose first language is not english and people with neurodivergence
+
+in june 2023 janelle shane wrote that portions of her book you look like a thing and i love you were flagged as ai generated
+
+a false negative is a failure to identify documents with ai written text false negatives often happen as a result of a detection software s sensitivity level or because evasive techniques were used when generating the work to make it sound more human false negatives are less of a concern academically since they aren t likely to lead to accusations and ramifications notably turnitin stated they have a 15 false negative rate
+
+for text this is usually done to prevent alleged plagiarism often by detecting repetition of words as telltale signs that a text was ai generated including hallucinations they are often used by teachers marking their students usually on an ad hoc basis following the release of chatgpt and similar ai text generative software many educational establishments have issued policies against the use of ai by students ai text detection software is also used by those assessing job applicants as well as online search engines
+
+current detectors may sometimes be unreliable and have incorrectly marked work by humans as originating from ai while failing to detect ai generated work in other instances mit technology review said that the technology struggled to pick up chatgpt generated text that had been slightly rearranged by humans and obfuscated by a paraphrasing tool ai text detection software has also been shown to discriminate against non native speakers of english
+
+two students from the university of california davis were referred to the university s office of student success and judicial affairs ossja after their professors scanned their essays with positive results the first with an ai detector called gptzero and the second with an ai detector integration in turnitin however following media coverage and a thorough investigation the students were cleared of any wrongdoing
+
+in april 2023 cambridge university and other members of the russell group of universities in the united kingdom opted out of turnitin s ai text detection tool after expressing concerns it was unreliable the university of texas at austin opted out of the system six months later
+
+in may 2023 a professor at texas a m university commerce used chatgpt to detect whether his students content was written by it which chatgpt said was the case as such he threatened to fail the class despite chatgpt not being able to detect ai generated writing no students were prevented from graduating because of the issue and all but one student who admitted to using the software were exonerated from accusations of having used chatgpt in their content
+
+in july 2023 a paper titled gpt detectors are biased against non native english writers was released reporting that gpts discriminate against non native english authors the paper compared seven gpt detectors against essays from both non native english speakers and essays from united states students the essays from non native english speakers had an average false positive rate of 61 3
+
+an article by thomas germain published on gizmodo in june 2024 reported job losses among freelance writers and journalists due to ai text detection software mistakenly classifying their work as ai generated
+
+in september 2024 common sense media reported that generative ai detectors had a 20 false positive rate for black students compared to 10 of latino students and 7 of white students
+
+to improve the reliability of ai text detection researchers have explored digital watermarking techniques a 2023 paper titled a watermark for large language models presents a method to embed imperceptible watermarks into text generated by large language models llms this watermarking approach allows content to be flagged as ai generated with a high level of accuracy even when text is slightly paraphrased or modified the technique is designed to be subtle and hard to detect for casual readers thereby preserving readability while providing a detectable signal for those employing specialized tools however while promising watermarking faces challenges in remaining robust under adversarial transformations and ensuring compatibility across different llms
+
+there is software available designed to bypass ai text detection
+
+a study published in august 2023 analyzed 20 abstracts from papers published in the eye journal which were then paraphrased using gpt 4 0 the ai paraphrased abstracts were examined for plagiarism using quetext and for ai generated content using originality ai the texts were then re processed through an adversarial software called undetectable ai in order to reduce the ai detection scores the study found that the ai detection tool originality ai identified text generated by gpt 4 with a mean accuracy of 91 3 however after reprocessing by undetectable ai the detection accuracy of originality ai dropped to a mean accuracy of 27 8
+
+some experts also believe that techniques like digital watermarking are ineffective because they can be removed or added to trigger false positives a watermark for large language models paper by kirchenbauer et al 2023 also addresses potential vulnerabilities of watermarking techniques the authors outline a range of adversarial tactics including text insertion deletion and substitution attacks that could be used to bypass watermark detection these attacks vary in complexity from simple paraphrasing to more sophisticated approaches involving tokenization and homoglyph alterations the study highlights the challenge of maintaining watermark robustness against attackers who may employ automated paraphrasing tools or even specific language model replacements to alter text spans iteratively while retaining semantic similarity experimental results show that although such attacks can degrade watermark strength they also come at the cost of text quality and increased computational resources
+
+several purported ai image detection software exist to detect ai generated images for example those originating from midjourney or dall e they are not completely reliable
+
+industry analyses have also noted that ai driven image recognition systems often struggle in real world environments where inconsistent lighting noise and variable visual inputs reduce detection reliability a challenge highlighted in modern agricultural quality control research
+
+others claim to identify video and audio deepfakes but this technology is also not fully reliable yet either
+
+despite debate around the efficacy of watermarking google deepmind is actively developing a detection software called synthid which works by inserting a digital watermark that is invisible to the human eye into the pixels of an image

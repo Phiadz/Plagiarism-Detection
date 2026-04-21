@@ -1,0 +1,38 @@
+data scrubbing is an error correction technique that uses a background task to periodically inspect main memory or storage for errors then corrects detected errors using redundant data in the form of different checksums or copies of data data scrubbing reduces the likelihood that single correctable errors will accumulate leading to reduced risks of uncorrectable errors
+
+data integrity is a high priority concern in writing reading storage transmission or processing of data in computer operating systems and in computer storage and data transmission systems however only a few of the currently existing and used file systems provide sufficient protection against data corruption
+
+to address this issue data scrubbing provides routine checks of all inconsistencies in data and in general prevention of hardware or software failure this scrubbing feature occurs commonly in memory disk arrays file systems or fpgas as a mechanism of error detection and correction
+
+with data scrubbing a raid controller may periodically read all hard disk drives in a raid array and check for defective blocks before applications might actually access them this reduces the probability of silent data corruption and data loss due to bit level errors
+
+in dell poweredge raid environments a feature called patrol read can perform data scrubbing and preventive maintenance
+
+
+in openbsd the bioctl 8 utility allows the system administrator to control these patrol reads through the biocpatrol ioctl on the dev bio pseudo device as of 2019 this functionality is supported in some device drivers for lsi logic and dell controllers this includes mfi 4 since openbsd 5 8 2015 and mfii 4 since openbsd 6 4 2018
+
+
+in freebsd and dragonfly bsd patrol can be controlled through a raid controller specific utility mfiutil 8 since freebsd 8 0 2009 and 7 3 2010 the implementation from freebsd was used by the openbsd developers for adding patrol support to their generic bio 4 framework and the bioctl utility without a need for a separate controller specific utility
+
+
+in netbsd in 2008 the bio 4 framework from openbsd was extended to feature support for consistency checks which was implemented for dev bio pseudo device under biocsetstate ioctl command with the options being start and stop bioc_sscheckstart_vol and bioc_sscheckstop_vol respectively this is supported only by a single driver as of 2019 arcmsr 4
+
+linux md raid as a software raid implementation makes data consistency checks available and provides automated repairing of detected data inconsistencies such procedures are usually performed by setting up a weekly cron job maintenance is performed by issuing operations check repair or idle to each of the examined md devices statuses of all performed operations as well as general raid statuses are always available
+
+as a copy on write cow file system for linux btrfs provides fault isolation corruption detection and correction and file system scrubbing if the file system detects a checksum mismatch while reading a block it first tries to obtain or create a good copy of this block from another device if its internal mirroring or raid techniques are in use
+
+btrfs can initiate an online check of the entire file system by triggering a file system scrub job that is performed in the background the scrub job scans the entire file system for integrity and automatically attempts to report and repair any bad blocks it finds along the way
+
+refs features automatic data scrubbing files that should not be scrubbed can be marked with the file_attribute_no_scrub_data flag
+
+the features of zfs which is a combined file system and logical volume manager include the verification against data corruption modes continuous integrity checking and automatic repair sun microsystems designed zfs from the ground up with a focus on data integrity and to protect the data on disks against issues such as disk firmware bugs and phantom writes a write that never actually makes it to disk
+
+zfs provides a repair utility called scrub that examines and repairs silent data corruption caused by data rot and other problems
+
+due to the high integration density of contemporary computer memory chips the individual memory cell structures became small enough to be vulnerable to cosmic rays and or alpha particle emission the errors caused by these phenomena are called soft errors this can be a problem for dram and sram based memories
+
+memory scrubbing does error detection and correction of bit errors in computer ram by using ecc memory other copies of the data or other error correction codes
+
+scrubbing is a technique used to reprogram an fpga it can be used periodically to avoid the accumulation of errors without the need to find one in the configuration bitstream thus simplifying the design
+
+numerous approaches can be taken with respect to scrubbing from simply reprogramming the fpga to partial reconfiguration the simplest method of scrubbing is to completely reprogram the fpga at some periodic rate typically 1 10 the calculated upset rate however the fpga is not operational during that reprogram time on the order of micro to milliseconds for situations that cannot tolerate that type of interruption partial reconfiguration is available this technique allows the fpga to be reprogrammed while still operational

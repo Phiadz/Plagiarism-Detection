@@ -1,0 +1,1 @@
+nclude some or all of the following information quality assurance is the process of information profiling to discover inconsistencies and other anomalies in the information as well as performing information cleansing activities e g removing outliers missing information interpolation to improve the information quality these activities can

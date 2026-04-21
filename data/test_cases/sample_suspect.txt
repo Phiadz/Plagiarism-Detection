@@ -1,1 +1,0 @@
-This paper discusses string matching in algorithm design. KMP and Boyer-Moore are popular for fast searching.

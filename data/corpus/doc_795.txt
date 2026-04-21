@@ -1,0 +1,68 @@
+
+
+lotfi aliasger zadeh ˈzɑːdeɪ azerbaijani lütfəli rəhim oğlu ələsgərzadə persian لطفی علی عسکرزاده 4 february 1921 6 september 2017 was a mathematician computer scientist electrical engineer artificial intelligence researcher and professor of computer science at the university of california berkeley
+zadeh is best known for proposing fuzzy mathematics consisting of several fuzzy related concepts fuzzy sets fuzzy logic fuzzy algorithms fuzzy semantics fuzzy languages fuzzy control fuzzy systems fuzzy probabilities fuzzy events and fuzzy information
+zadeh was a founding member of the eurasian academy
+
+zadeh was born in baku azerbaijan ssr as lotfi aliasgerzadeh his father was rahim aleskerzade a muslim iranian azerbaijani journalist from ardabil on assignment from iran and his mother was fanya feyga korenman a jewish pediatrician from odesa ukraine who was an iranian citizen the soviet government at this time courted foreign correspondents and the family lived well while in baku zadeh attended elementary school for three years there which he said had a significant and long lasting influence on my thinking and my way of looking at things
+
+in 1931 when stalin began agricultural collectivization and zadeh was ten his father moved his family back to tehran iran zadeh was enrolled in alborz high school a missionary school where he was educated for the next eight years and where he met his future wife fay faina zadeh who said that he was deeply influenced by the extremely decent fine honest and helpful presbyterian missionaries from the united states who ran the college to me they represented the best that you could find in the united states people from the midwest with strong roots they were really good samaritans willing to give of themselves for the benefit of others so this kind of attitude influenced me deeply it also instilled in me a deep desire to live in the united states during this time zadeh was awarded several patents
+
+zadeh sat for the iran national university exams and placed third in the nation as a student he ranked first in his class in his first two years in 1942 he graduated from the university of tehran with a degree in electrical engineering one of only three students in that field to graduate that year due to the turmoil created by world war ii when the united states britain and the soviet union invaded iran over 30 000 american soldiers were based there and zadeh worked with his father who did business with them as a contractor for hardware and building materials
+
+in 1943 zadeh decided to leave for the united states to continue his education he travelled to philadelphia by way of cairo after months of delay waiting first for the proper papers and later for the right ship to appear citation needed he arrived in mid 1944 lived in new york and worked for an electronic association and entered the massachusetts institute of technology mit as a graduate student in september that year while in the united states he shortened his family name creating a new middle name from the part he removed and was thenceforth known as lotfi aliasker zadeh he received an ms degree in electrical engineering from mit in 1946
+
+in 1947 as his parents had settled in new york city zadeh went to work as an engineer at columbia university zadeh then applied to columbia university columbia admitted him as a doctoral student and offered him an instructorship as well he received his phd in electrical engineering from columbia in 1949 and became an assistant professor the next year zadeh taught for ten years at columbia and was promoted to full professor in 1957
+
+the chairman of the electronic engineering department at the university of california wrote and offered him work in 1959 zadeh joined the electrical engineering faculty at the university of california berkeley during his lengthy research career zadeh made important scientific contributions in two distinct areas 1 linear system theory and classical control systems and 2 fuzzy sets fuzzy logic and related science and technology
+
+zadeh was awarded a guggenheim fellowship in 1967 for natural sciences in applied mathematics
+
+zadeh s first important research contribution well known among scholars of his generation in the electrical engineering community was in the area of classical control systems his pioneer work co authored with charles desoer linear system theory the state space approach laid a critical foundation for all modern approaches to system analysis and control the second and more well known contribution of zadeh s research is his lifelong dedication to the creation enhancement and the real world impacts of a broad collection of science and technology based on fuzzy sets and fuzzy logic he published his seminal work on fuzzy sets in 1965 in which he described the motivation of replicating human like reasoning and detailed the mathematics of fuzzy set theory
+
+in 1973 he proposed his theory of fuzzy logic together fuzzy sets and fuzzy logic provide the necessary foundations for a broad class of related innovations including but not limited to
+
+he was also on the board of governors for international neural network society inns in 2003
+
+zadeh became the chair of department of electrical engineering at the university of california berkeley in 1963 one of the lasting impacts of his leadership in this role is the expansion and the integration of computer science he initiated and completed in 1968 the transformation of the electrical engineering department at uc berkeley to the department of electrical engineering and computer science eecs this strategic move not only led uc berkeley s advancement into the top ranks of computer science education and research but also led other research universities globally to add computer science to their electrical engineering departments
+
+in 1973 zadeh received the prestigious institute of electronic and electrical engineers ieee education award largely in recognition of his performance as chair of ee and then eecs other important services to uc berkeley include his academic senate committee memberships academic planning resource allocation 1992 95 committees 1969 70 1980 81 courses of instruction 1975 80 and faculty awards 1990 92 professor zadeh graduated more than 50 phd students many of whom went on to become leaders in various areas of engineering management and information sciences
+
+zadeh photographed people around him
+
+zadeh was called quick to shrug off nationalism insisting there are much deeper issues in life and was quoted as saying in an interview the question really isn t whether i m american russian iranian azerbaijani or anything else i ve been shaped by all these people and cultures and i feel quite comfortable among all of them he noted in the same interview obstinacy and tenacity not being afraid to get embroiled in controversy that s very much a turkish tradition that s part of my character too i can be very stubborn that has probably been beneficial for the development of fuzzy logic he described himself as an american mathematically oriented electrical engineer of iranian descent born in russia
+
+he and his wife fay zadeh had two children stella and norman zada his wife wrote a book my life and travels with the father of fuzzy logic about their travels and experiences together visiting exotic places and meeting interesting people around the world
+
+zadeh died in his home in berkeley california on 6 september 2017 at the age of 96 unreliable source he was buried at the first alley of honors on 29 september 2017 in baku azerbaijan the city in which he was born his funeral was well attended by highly respected people a month prior to his death the university of tehran had released an erroneous report that zadeh had died but withdrew it several days later
+
+according to google scholar as of november 2021 zadeh s work has been cited at least 269 091 times in scholarly works with the 1965 fuzzy sets paper receiving at least 122 743 citations
+
+zadeh in his theory of fuzzy sets proposed using a membership function with a range covering the interval 0 1 operating on the domain of all possible values he proposed new operations for the calculus of logic and showed that fuzzy logic was a generalisation of classical and boolean logic he also proposed fuzzy numbers as a special case of fuzzy sets as well as the corresponding rules for consistent mathematical operations fuzzy arithmetic
+
+zadeh s research career has had a lasting impact on artificial intelligence ai fuzzy sets and fuzzy logic are both motivated by our understanding of human cognition that we are comfortable with concepts that have vague boundaries this is well aligned with the physical symbol system assumption in ai by allen newell and herbert a simon inspired by another aspect of human cognition that humans are comfortable with concepts that are described by symbols
+
+the concept of a linguistic variable in fuzzy logic connects a symbol that is typically a predicate in classical logic e g john is bold or in predicate logic bold john to linguistic values e g john is somewhat bold or in fuzzy logic bold john somewhat which generalizes the binary value of predicate logic in two ways
+first the two possible values true or false in predicate logic are generalized to a continuum typically from 0 which corresponds to false to 1 which corresponds to true this allows the expression of bold john 0 5 which indicates that john is midway between being devoid of boldness and being entirely bold
+
+the second generalization enabled by fuzzy logic is to use a fuzzy set such as somewhat bold to describe a person s boldness level in a way that is more natural to human understanding and communication without this generalization we can only describe the value of a person s boldness as a number e g 0 5 or as an interval e g 0 25 0 75 with this generalization one can express the semantic meaning of somewhat bold as a fuzzy set in the domain of 0 and 1
+
+zadeh was also an active contributor to the ai community including at the dartmouth workshop that coined the term artificial intelligence he was subsequently a frequent contributor to leading ai conferences such as aaai and ijcai as well as other top venues such as ai magazine
+
+zadeh is credited along with john r ragazzini in 1952 with having pioneered the development of the z transform method in discrete time signal processing and analysis these methods are now standard in digital signal processing digital control and other discrete time systems used in industry and research he was an editor of the international journal of computational cognition
+
+zadeh s work also included computing with words and perceptions his later papers include from search engines to question answering systems and toward a generalized theory of uncertainty gtu an outline
+
+a complete list of publications is available
+
+zadeh was a fellow of the institute of electrical and electronics engineers the american academy of arts and sciences the association for computing machinery the association for the advancement of artificial intelligence and the international fuzzy systems association and a member of the national academy of engineering he was also a member of the academies of science of azerbaijan bulgaria finland korea and poland and of the international academy of systems studies in moscow he received 24 honorary doctorates
+
+awards received by zadeh include among many others
+
+in 2014 the ieee systems man and cybernetics society established the lotfi a zadeh pioneer award which is given to honour a person or persons with outstanding and pioneering contributions to academic and or industrial research in systems science and engineering human machine systems and or cybernetics the award is funded from a 100 000 donation from zadeh s son norm zadeh and is administered by the ieee nominees must have pioneered and developed innovative research executed in either academe or industry that has resulted in major scientific advances in systems science and engineering human machine systems and or cybernetics contributions must have been made at least 15 years prior to the award date
+
+in february 2019 ada university in baku azerbaijan presented the first lotfi zadeh scholarships which honour the academic success of undergraduate students in the university s school of it and engineering winners of the scholarship receive a complete tuition waiver for the semester or semester equivalent in which they achieved a 4 0 average
+
+on 4 february 2021 the ieee computational intelligence society and the international fuzzy systems association ifsa jointly celebrated the centenary of zadeh s birth
+
+on 30 november 2021 google honored zadeh with a google doodle his seminal paper fuzzy sets was submitted for publication on this day in 1964

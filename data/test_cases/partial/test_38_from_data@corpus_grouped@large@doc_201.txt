@@ -1,0 +1,1 @@
+best formalism to use to solve complex problems knowledge representation makes complex software easier to define and maintain than procedural code and can be used in expert sys

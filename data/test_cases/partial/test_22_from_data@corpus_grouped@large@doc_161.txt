@@ -1,0 +1,1 @@
+ion is to eliminate any discernible patterns in the data thus encrypted data cannot be deduplicated even though the underlying data may

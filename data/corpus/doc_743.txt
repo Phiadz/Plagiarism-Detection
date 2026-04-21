@@ -1,0 +1,15 @@
+hugging face inc is an american company based in new york city that develops computation tools for building applications using machine learning its transformers library built for natural language processing applications and its platform allow users to share machine learning models and datasets and showcase their work
+
+the company was founded in 2016 by french entrepreneurs clément delangue julien chaumond and thomas wolf in new york city originally as a company that developed a chatbot app targeted at teenagers the company was named after the u 1f917 hugging face emoji after open sourcing the model behind the chatbot the company pivoted to focus on being a platform for machine learning
+
+on april 28 2021 the company launched the bigscience research workshop in collaboration with several other research groups to release an open large language model in 2022 the workshop concluded with the announcement of bloom a multilingual large language model with 176 billion parameters
+
+in february 2023 the company announced partnership with amazon web services aws which would allow hugging face s products to be available to aws customers to use them as the building blocks for their custom applications the company also said the next generation of bloom will be run on trainium a proprietary machine learning chip created by aws
+
+in june 2024 the company announced along with meta and scaleway their launch of a new ai accelerator program for european startups the initiative aimed to help startups integrate open foundation models into their products accelerating the eu ai ecosystem the program based at station f in paris ran from september 2024 to february 2025 selected startups received mentoring and access to ai models and tools and scaleway s computing power
+
+on september 23 2024 to further the international decade of indigenous languages hugging face teamed up with meta and unesco to launch a new online language translator it was built on meta s no language left behind open source ai model enabling free text translation across 200 languages including many low resource languages
+
+in april 2025 hugging face announced that they acquired a humanoid robotics startup pollen robotics based in france and founded by matthieu lapeyre and pierre rouanet in 2016 in an x tweet delangue shared his vision to make artificial intelligence robotics open source
+
+in early 2026 hackers hijacked the hugging face platform to launch android targeted attacks involving powerful malware which could completely take over a compromised target

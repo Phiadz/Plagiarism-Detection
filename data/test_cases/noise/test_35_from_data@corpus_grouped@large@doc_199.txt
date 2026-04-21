@@ -1,0 +1,1 @@
+automate tasks that the human visual system can do computer vision is concerjed with the automatic extraction analysis and understanding of useful information from a single image or a sequencefofzimages it involven the development of a theoretical and algorithmic basik to acpieve automatic visual un

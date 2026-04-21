@@ -1,0 +1,13 @@
+business process automation bpa also known as business automation refers to the technology enabled automation of business processes
+
+there are three main approaches to developing bpa
+
+bpa toolsets vary in capability with the increasing adoption of artificial intelligence ai organizations are implementing ai driven technologies that can process natural language interpret unstructured datasets and interact with users these systems are designed to adapt to new types of problems with reduced reliance on human intervention
+
+a business process management system differs from bpa however it is possible to implement automation based on a bpm implementation the methods to achieve this vary from writing custom application code to using specialist bpa tools
+
+robotic process automation rpa involves the deployment of attended or unattended software agents in an organization s environment these software agents or robots are programmed to perform predefined structured and repetitive sets of business tasks or processes robotic process automation is designed to streamline workflows by delegating repetitive tasks to software agents allowing human workers to focus on more complex and strategic activities
+
+bpa providers typically focus on different industry sectors but the underlying approach is generally similar in that they aim to provide the shortest route to automation by interacting with the user interface rather than modifying the application code or database behind it
+
+artificial intelligence software robots are used to handle unstructured data sets like images texts audios and are often deployed after implementing robotic process automation they can for instance generate an automatic transcript from a video the combination of automation and artificial intelligence ai enables autonomy for robots along with the capability to perform cognitive tasks at this stage robots can learn and improve processes by analyzing and adapting them

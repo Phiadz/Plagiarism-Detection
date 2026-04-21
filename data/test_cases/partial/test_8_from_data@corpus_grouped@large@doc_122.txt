@@ -1,0 +1,1 @@
+orithm when an actor is aware of its exact upstream or downstream actor it can communicate this information to lineage api

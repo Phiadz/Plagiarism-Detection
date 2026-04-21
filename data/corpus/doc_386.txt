@@ -1,0 +1,719 @@
+in computer science and operations research the ant colony optimization algorithm aco is a probabilistic technique for solving computational problems that can be reduced to finding good paths through graphs artificial ants represent multi agent methods inspired by the behavior of real ants
+the pheromone based communication of biological ants is often the predominant paradigm used combinations of artificial ants and local search algorithms have become a preferred method for numerous optimization tasks involving some sort of graph e g vehicle routing and internet routing
+
+as an example ant colony optimization is a class of optimization algorithms modeled on the actions of an ant colony artificial ants e g simulation agents locate optimal solutions by moving through a parameter space representing all possible solutions real ants lay down pheromones to direct each other to resources while exploring their environment the simulated ants similarly record their positions and the quality of their solutions so that in later simulation iterations more ants locate better solutions one variation on this approach is the bees algorithm which is more analogous to the foraging patterns of the honey bee another social insect
+
+this algorithm is a member of the ant colony algorithms family in swarm intelligence methods and it constitutes some metaheuristic optimizations initially proposed by marco dorigo in 1992 in his phd thesis the first algorithm was aiming to search for an optimal path in a graph based on the behavior of ants seeking a path between their colony and a source of food the original idea has since diversified to solve a wider class of numerical problems and as a result several problems have emerged drawing on various aspects of the behavior of ants from a broader perspective aco performs a model based search and shares some similarities with estimation of distribution algorithms
+
+in the natural world ants of some species initially wander randomly and upon finding food return to their colony while laying down pheromone trails if other ants find such a path they are likely to stop travelling at random and instead follow the trail returning and reinforcing it if they eventually find food see ant communication
+
+over time however the pheromone trail starts to evaporate thus reducing its attractive strength the more time it takes for an ant to travel down the path and back again the more time the pheromones have to evaporate a short path by comparison is marched over more frequently and thus the pheromone density becomes higher on shorter paths than longer ones pheromone evaporation also has the advantage of avoiding the convergence to a locally optimal solution if there were no evaporation at all the paths chosen by the first ants would tend to be excessively attractive to the following ones in that case the exploration of the solution space would be constrained the influence of pheromone evaporation in real ant systems is unclear but it is very important in artificial systems
+
+the overall result is that when one ant finds a good i e short path from the colony to a food source other ants are more likely to follow that path and positive feedback eventually leads to many ants following a single path the idea of the ant colony algorithm is to mimic this behavior with simulated ants walking around the graph representing the problem to be solved
+
+new concepts are required since intelligence is no longer centralized but can be found throughout all minuscule objects anthropocentric concepts have been known to lead to the production of it systems in which data processing control units and calculating power are centralized these centralized units have continually increased their performance and can be compared to the human brain the model of the brain has become the ultimate vision of computers ambient networks of intelligent objects and sooner or later a new generation of information systems that are even more diffused and based on nanotechnology will profoundly change this concept small devices that can be compared to insects do not possess a high intelligence on their own indeed their intelligence can be classed as fairly limited it is for example impossible to integrate a high performance calculator with the power to solve any kind of mathematical problem into a biochip that is implanted into the human body or integrated in an intelligent tag designed to trace commercial articles however once those objects are interconnected they develop a form of intelligence that can be compared to a colony of ants or bees in the case of certain problems this type of intelligence can be superior to the reasoning of a centralized system similar to the brain
+
+nature offers several examples of how minuscule organisms if they all follow the same basic rule can create a form of collective intelligence on the macroscopic level colonies of social insects perfectly illustrate this model which greatly differs from human societies this model is based on the cooperation of independent units with simple and unpredictable behavior they move through their surrounding area to carry out certain tasks and only possess a very limited amount of information to do so a colony of ants for example represents numerous qualities that can also be applied to a network of ambient objects colonies of ants have a very high capacity to adapt themselves to changes in the environment as well as great strength in dealing with situations where one individual fails to carry out a given task this kind of flexibility would also be very useful for mobile networks of objects which are perpetually developing parcels of information that move from a computer to a digital object behave in the same way as ants would do they move through the network and pass from one node to the next with the objective of arriving at their final destination as quickly as possible
+
+pheromone based communication is one of the most effective ways of communication which is widely observed in nature pheromone is used by social insects such as
+bees ants and termites both for inter agent and agent swarm communications due to its feasibility artificial pheromones have been adopted in multi robot and swarm robotic systems pheromone based communication was implemented by different means such as chemical or physical rfid tags light sound ways however those implementations were not able to replicate all the aspects of pheromones as seen in nature
+
+using projected light was presented in a 2007 ieee paper by garnier simon et al as an experimental setup to study pheromone based communication with micro autonomous robots another study presented a system in which pheromones were implemented via a horizontal lcd screen on which the robots moved with the robots having downward facing light sensors to register the patterns beneath them
+
+in the ant colony optimization algorithms an artificial ant is a simple computational agent that searches for good solutions to a given optimization problem to apply an ant colony algorithm the optimization problem needs to be converted into the problem of finding the shortest path on a weighted graph in the first step of each iteration each ant stochastically constructs a solution i e the order in which the edges in the graph should be followed in the second step the paths found by the different ants are compared the last step consists of updating the pheromone levels on each edge
+
+each ant needs to construct a solution to move through the graph to select the next edge in its tour an ant will consider the length of each edge available from its current position as well as the corresponding pheromone level at each step of the algorithm each ant moves from a state
+
+
+
+x
+
+
+displaystyle x
+
+to state
+
+
+
+y
+
+
+displaystyle y
+
+corresponding to a more complete intermediate solution thus each ant
+
+
+
+k
+
+
+displaystyle k
+
+computes a set
+
+
+
+
+a
+
+k
+
+
+
+x
+
+
+
+displaystyle a_ k x
+
+of feasible expansions to its current state in each iteration and moves to one of these in probability for ant
+
+
+
+k
+
+
+displaystyle k
+
+the probability
+
+
+
+
+p
+
+x
+y
+
+
+k
+
+
+
+
+displaystyle p_ xy k
+
+of moving from state
+
+
+
+x
+
+
+displaystyle x
+
+to state
+
+
+
+y
+
+
+displaystyle y
+
+depends on the combination of two values the attractiveness
+
+
+
+
+η
+
+x
+y
+
+
+
+
+displaystyle eta _ xy
+
+of the move as computed by some heuristic indicating the a priori desirability of that move and the trail level
+
+
+
+
+τ
+
+x
+y
+
+
+
+
+displaystyle tau _ xy
+
+of the move indicating how proficient it has been in the past to make that particular move the trail level represents a posteriori indication of the desirability of that move
+
+in general the
+
+
+
+k
+
+
+displaystyle k
+
+th ant moves from state
+
+
+
+x
+
+
+displaystyle x
+
+to state
+
+
+
+y
+
+
+displaystyle y
+
+with probability
+
+where
+
+
+
+
+τ
+
+x
+y
+
+
+
+
+displaystyle tau _ xy
+
+is the amount of pheromone deposited for transition from state
+
+
+
+x
+
+
+displaystyle x
+
+to
+
+
+
+y
+
+
+displaystyle y
+
+
+
+
+
+α
+
+
+displaystyle alpha
+
+0 is a parameter to control the influence of
+
+
+
+
+τ
+
+x
+y
+
+
+
+
+displaystyle tau _ xy
+
+
+
+
+
+
+η
+
+x
+y
+
+
+
+
+displaystyle eta _ xy
+
+is the desirability of state transition
+
+
+
+x
+y
+
+
+displaystyle xy
+
+a priori knowledge typically
+
+
+
+1
+
+
+
+
+d
+
+x
+y
+
+
+
+
+displaystyle 1 d_ xy
+
+where
+
+
+
+d
+
+
+displaystyle d
+
+is the distance and
+
+
+
+β
+
+
+displaystyle beta
+
+1 is a parameter to control the influence of
+
+
+
+
+η
+
+x
+y
+
+
+
+
+displaystyle eta _ xy
+
+
+
+
+
+
+τ
+
+x
+z
+
+
+
+
+displaystyle tau _ xz
+
+and
+
+
+
+
+η
+
+x
+z
+
+
+
+
+displaystyle eta _ xz
+
+represent the trail level and attractiveness for the other possible state transitions
+
+trails are usually updated when all ants have completed their solution increasing or decreasing the level of trails corresponding to moves that were part of good or bad solutions respectively an example of a global pheromone updating rule is now
+
+where
+
+
+
+
+τ
+
+x
+y
+
+
+
+
+displaystyle tau _ xy
+
+is the amount of pheromone deposited for a state transition
+
+
+
+x
+y
+
+
+displaystyle xy
+
+
+
+
+
+ρ
+
+
+displaystyle rho
+
+is the pheromone evaporation coefficient
+
+
+
+m
+
+
+displaystyle m
+
+is the number of ants and
+
+
+
+δ
+
+τ
+
+x
+y
+
+
+k
+
+
+
+
+displaystyle delta tau _ xy k
+
+is the amount of pheromone deposited by
+
+
+
+k
+
+
+displaystyle k
+
+th ant typically given for a tsp problem with moves corresponding to arcs of the graph by
+
+where
+
+
+
+
+l
+
+k
+
+
+
+
+displaystyle l_ k
+
+is the cost of the
+
+
+
+k
+
+
+displaystyle k
+
+th ant s tour typically length and
+
+
+
+q
+
+
+displaystyle q
+
+is a constant
+
+here are some of the most popular variations of aco algorithms
+
+the ant system is the first aco algorithm this algorithm corresponds to the one presented above it was developed by dorigo
+
+in the ant colony system algorithm the original ant system was modified in three aspects
+
+in this algorithm the global best solution deposits pheromone on its trail after every iteration even if this trail has not been revisited along with all the other ants the elitist strategy has as its objective directing the search of all ants to construct a solution to contain links of the current best route
+
+this algorithm controls the maximum and minimum pheromone amounts on each trail only the global best tour or the iteration best tour are allowed to add pheromone to its trail to avoid stagnation of the search algorithm the range of possible pheromone amounts on each trail is limited to an interval τmax τmin all edges are initialized to τmax to force a higher exploration of solutions the trails are reinitialized to τmax when nearing stagnation
+
+all solutions are ranked according to their length only a fixed number of the best ants in this iteration are allowed to update their trials the amount of pheromone deposited is weighted for each solution such that solutions with shorter paths deposit more pheromone than the solutions with longer paths
+
+an ant colony system acs with communication strategies is developed the artificial ants are partitioned into several groups seven communication
+methods for updating the pheromone level between groups in acs are proposed and work on the traveling salesman problem
+
+
+the pheromone deposit mechanism of coac is to enable ants to search for solutions collaboratively and effectively by using an orthogonal design method ants in the feasible domain can explore their chosen regions rapidly and efficiently with enhanced global search capability and accuracy the orthogonal design method and the adaptive radius adjustment method can also be extended to other optimization algorithms for delivering wider advantages in solving practical problems
+
+it is a recursive form of ant system which divides the whole search domain into several sub domains and solves the objective on these subdomains the results from all the subdomains are compared and the best few of them are promoted for the next level the subdomains corresponding to the selected results are further subdivided and the process is repeated until an output of desired precision is obtained this method has been tested on ill posed geophysical inversion problems and works well
+
+for some versions of the algorithm it is possible to prove that it is convergent i e it is able to find the global optimum in finite time the first evidence of convergence for an ant colony algorithm was made in 2000 the graph based ant system algorithm and later on for the acs and mmas algorithms like most metaheuristics it is very difficult to estimate the theoretical speed of convergence a performance analysis of a continuous ant colony algorithm with respect to its various parameters edge selection strategy distance measure metric and pheromone evaporation rate showed that its performance and rate of convergence are sensitive to the chosen parameter values and especially to the value of the pheromone evaporation rate in 2004 zlochin and his colleagues showed that aco type algorithms are closely related to stochastic gradient descent cross entropy method and estimation of distribution algorithm they proposed an umbrella term model based search to describe this class of metaheuristics
+
+ant colony optimization algorithms have been applied to many combinatorial optimization problems ranging from quadratic assignment to protein folding or routing vehicles and a lot of derived methods have been adapted to dynamic problems in real variables stochastic problems multi targets and parallel implementations
+it has also been used to produce near optimal solutions to the travelling salesman problem they have an advantage over simulated annealing and genetic algorithm approaches of similar problems when the graph may change dynamically the ant colony algorithm can be run continuously and adapt to changes in real time this is of interest in network routing and urban transportation systems
+
+the first aco algorithm was called the ant system and it was aimed to solve the travelling salesman problem in which the goal is to find the shortest round trip to link a series of cities the general algorithm is relatively simple and based on a set of ants each making one of the possible round trips along the cities at each stage the ant chooses to move from one city to another according to some rules
+
+to optimize the form of antennas ant colony algorithms can be used as example can be considered antennas rfid tags based on ant colony algorithms aco loopback and unloopback vibrators 10 10
+
+the aco algorithm is used in image processing for image edge detection and edge linking
+
+the graph here is the 2 d image and the ants traverse from one pixel depositing pheromone the movement of ants from one pixel to another is directed by the local variation of the image s intensity values this movement causes the highest density of the pheromone to be deposited at the edges
+
+the following are the steps involved in edge detection using aco
+
+step 1 initialization randomly place
+
+
+
+k
+
+
+displaystyle k
+
+ants on the image
+
+
+
+
+i
+
+
+m
+
+1
+
+
+
+m
+
+2
+
+
+
+
+
+
+displaystyle i_ m_ 1 m_ 2
+
+where
+
+
+
+k
+
+
+
+m
+
+1
+
+
+
+
+m
+
+2
+
+
+
+
+
+
+
+1
+2
+
+
+
+
+
+
+displaystyle k m_ 1 m_ 2 tfrac 1 2
+
+pheromone matrix
+
+
+
+
+τ
+
+
+i
+
+j
+
+
+
+
+
+displaystyle tau _ i j
+
+are initialized with a random value the major challenge in the initialization process is determining the heuristic matrix
+
+there are various methods to determine the heuristic matrix for the below example the heuristic matrix was calculated based on the local statistics
+the local statistics at the pixel position
+
+
+
+
+i
+
+j
+
+
+
+displaystyle i j
+
+
+
+where
+
+
+
+i
+
+
+displaystyle i
+
+is the image of size
+
+
+
+
+m
+
+1
+
+
+
+
+m
+
+2
+
+
+
+
+displaystyle m_ 1 m_ 2
+
+
+
+is a normalization factor and
+
+
+
+
+
+f
+
+
+
+
+
+displaystyle f cdot
+
+can be calculated using the following functions
+
+the parameter
+
+
+
+λ
+
+
+displaystyle lambda
+
+in each of above functions adjusts the functions respective shapes
+
+step 2 construction process the ant s movement is based on 4 connected pixels or 8 connected pixels the probability with which the ant moves is given by the probability equation
+
+
+
+
+p
+
+x
+
+y
+
+
+
+
+displaystyle p_ x y
+
+
+
+step 3 and step 5 update process the pheromone matrix is updated twice in step 3 the trail of the ant given by
+
+
+
+
+τ
+
+
+x
+
+y
+
+
+
+
+
+displaystyle tau _ x y
+
+is updated where as in step 5 the evaporation rate of the trail is updated which is given by
+
+where
+
+
+
+ψ
+
+
+displaystyle psi
+
+is the pheromone decay coefficient
+
+
+
+0
+
+τ
+
+1
+
+
+displaystyle 0 tau 1
+
+
+
+step 7 decision process once the k ants have moved a fixed distance l for n iteration the decision whether it is an edge or not is based on the threshold t on the pheromone matrix τ threshold for the below example is calculated based on otsu s method
+
+image edge detected using aco the images below are generated using different functions given by the equation 1 to 4
+
+with an aco algorithm the shortest path in a graph between two points a and b is built from a combination of several paths it is not easy to give a precise definition of what algorithm is or is not an ant colony because the definition may vary according to the authors and uses broadly speaking ant colony algorithms are regarded as populated metaheuristics with each solution represented by an ant moving in the search space ants mark the best solutions and take account of previous markings to optimize their search they can be seen as probabilistic multi agent algorithms using a probability distribution to make the transition between each iteration in their versions for combinatorial problems they use an iterative construction of solutions according to some authors the thing which distinguishes aco algorithms from other relatives such as algorithms to estimate the distribution or particle swarm optimization is precisely their constructive aspect in combinatorial problems it is possible that the best solution eventually be found even though no ant would prove effective thus in the example of the travelling salesman problem it is not necessary that an ant actually travels the shortest route the shortest route can be built from the strongest segments of the best solutions however this definition can be problematic in the case of problems in real variables where no structure of neighbours exists the collective behaviour of social insects remains a source of inspiration for researchers the wide variety of algorithms for optimization or not seeking self organization in biological systems has led to the concept of swarm intelligence which is a very general framework in which ant colony algorithms fit
+
+there is in practice a large number of algorithms claiming to be ant colonies without always sharing the general framework of optimization by canonical ant colonies in practice the use of an exchange of information between ants via the environment a principle called stigmergy is deemed enough for an algorithm to belong to the class of ant colony algorithms this principle has led some authors to create the term value to organize methods and behavior based on search of food sorting larvae division of labour and cooperative transportation
+
+chronology of ant colony optimization algorithms

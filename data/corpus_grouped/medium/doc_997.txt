@@ -1,0 +1,32 @@
+nonparametric statistics is a type of statistical analysis that makes minimal assumptions about the underlying distribution of the data being studied often these models are infinite dimensional rather than finite dimensional as in parametric statistics nonparametric statistics can be used for descriptive statistics or statistical inference nonparametric tests are often used when the assumptions of parametric tests are evidently violated
+
+the term nonparametric statistics has been defined imprecisely in the following two ways among others
+
+the first meaning of nonparametric involves techniques that do not rely on data belonging to any particular parametric family of probability distributions
+these include among others
+
+an example is order statistics which are based on ordinal ranking of observations
+
+the discussion following is taken from kendall s advanced theory of statistics
+
+statistical hypotheses concern the behavior of observable random variables for example the hypothesis a that a normal distribution has a specified mean and variance is statistical so is the hypothesis b that it has a given mean but unspecified variance so is the hypothesis c that a distribution is of normal form with both mean and variance unspecified finally so is the hypothesis d that two unspecified continuous distributions are identical
+
+it will have been noticed that in the examples a and b the distribution underlying the observations was taken to be of a certain form the normal and the hypothesis was concerned entirely with the value of one or both of its parameters such a hypothesis for obvious reasons is called parametric
+
+hypothesis c was of a different nature as no parameter values are specified in the statement of the hypothesis we might reasonably call such a hypothesis non parametric hypothesis d is also non parametric but in addition it does not even specify the underlying form of the distribution and may now be reasonably termed distribution free notwithstanding these distinctions the statistical literature now commonly applies the label non parametric to test procedures that we have just termed distribution free thereby losing a useful classification
+
+the second meaning of non parametric involves techniques that do not assume that the structure of a model is fixed typically the model grows in size to accommodate the complexity of the data in these techniques individual variables are typically assumed to belong to parametric distributions and assumptions about the types of associations among variables are also made these techniques include among others
+
+non parametric methods are widely used for studying populations that have a ranked order such as movie reviews receiving one to five stars the use of non parametric methods may be necessary when data have a ranking but no clear numerical interpretation such as when assessing preferences in terms of levels of measurement non parametric methods result in ordinal data
+
+as non parametric methods make fewer assumptions their applicability is much more general than the corresponding parametric methods in particular they may be applied in situations where less is known about the application in question also due to the reliance on fewer assumptions non parametric methods are more robust
+
+non parametric methods are sometimes considered simpler to use and more robust than parametric methods even when the assumptions of parametric methods are justified this is due to their more general nature which may make them less susceptible to misuse and misunderstanding non parametric methods can be considered a conservative choice as they will work even when their assumptions are not met whereas parametric methods can produce misleading results when their assumptions are violated
+
+the wider applicability and increased robustness of non parametric tests comes at a cost in cases where a parametric test s assumptions are met non parametric tests have less statistical power in other words a larger sample size can be required to draw conclusions with the same degree of confidence
+
+non parametric models differ from parametric models in that the model structure is not specified a priori but is instead determined from data the term non parametric is not meant to imply that such models completely lack parameters but that the number and nature of the parameters are flexible and not fixed in advance
+
+non parametric or distribution free inferential statistical methods are mathematical procedures for statistical hypothesis testing which unlike parametric statistics make no assumptions about the probability distributions of the variables being assessed the most frequently used tests include
+
+early nonparametric statistics include the median 13th century or earlier use in estimation by edward wright 1599 see median history and the sign test by john arbuthnot 1710 in analyzing the human sex ratio at birth see sign test history

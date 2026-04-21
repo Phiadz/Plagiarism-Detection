@@ -1,0 +1,62 @@
+
+
+qlik klɪk formerly known as qliktech provides a data integration analytics and artificial intelligence platform the software company was founded in 1993 in lund sweden and is now based in king of prussia pennsylvania united states thoma bravo made the company private in 2016
+
+qlik data integration qdi includes tools such as qlik replicate for data replication qlik catalog for data organization qlik compose for automation of data lakes and data warehouses and qlik talend cloud for maintenance of data integrity qlik s ai program enables ai powered analytics natural language capabilities and visualizations qlik answers generates answers to questions from unstructured data sources it also includes automl for no code development of predictive models and tools for low latency data processing
+
+the company was founded in lund sweden in 1993 by björn berg and staffan gestrelius its swedish headquarters are still in lund the company s first product quikview now called qlikview was built to enable users to retrieve detailed data analysis from various systems måns hultman became ceo in 2000 and lars björk became cfo
+
+the first version of the product came out in 1994 and a patent application was made in 1995 quik in the original name of the product stood for quality understanding interaction and knowledge
+
+qlikview 2 came out in 1996 qlikview 3 in 1997 and qlikview 4 in 1999 in 1998 the company received funding from swedish investors handelsbanken and industrifonden
+
+the company focused on the area of business intelligence growing from 35 employees in 1999 to 70 in 2003 in 2004 the firm decided to expand internationally and moved the company headquarters to the u s while development stayed in lund that year it secured 12 5 million in venture capital funding from equity firms accel partners and jerusalem venture partners
+
+qlikview 7 was released in 2005 and the single user desktop tool was replaced with a server based web tool in 2006 the company had 44 million in revenue
+
+in 2007 lars björk became ceo
+
+as of april 2011 the company had a market capitalization over 2 billion in 2012 forbes listed it as one of america s top three fastest growing tech companies
+
+in 2012 qlik acquired expressor software for metadata management
+
+in 2013 the company opened an office in perth australia due to its large consumer base in that country in august 2015 the company expanded its research and development operations by opening an office in ottawa ontario
+
+in 2015 qlik acquired vizubi and its nprinting product
+
+in 2016 private equity firms bain capital permira and thoma bravo submitted offers to buy qlik in june the firm announced that it agreed to sell itself to thoma bravo for about 3 billion in 2017 ceo lars bjork transitioned his responsibilities to david murphy as interim ceo mike capone was named ceo in january 2018
+
+in 2017 qlik started working with philadelphia pennsylvania based thomas jefferson university and jefferson health the two worked together to use data to identify situations where healthcare officials could prescribe fewer opioids helping to combat the opioid epidemic in philadelphia
+
+in 2017 idevio geo analytics was acquired by qlik and data catalog company podium data in 2018 in 2019 the company acquired an ai natural language bot company crunch data who it had partnered with for 4 years prior to the acquisition crunch data was integrated into its insight advisor product
+
+in 2019 the company acquired data integration company attunity for 560m which expanded its footprint in the boston area
+
+in 2020 the company acquired knarr analytic for its real time collaboration and insight capture capabilities the same year the company acquired roxai for its ping alerting and intelligent automation software and blendr io for its data integration platform as a service ipaas to allow for data integration and automation to hundreds of saas based business applications
+qlik was used by the wrightington wigan and leigh nhs foundation trust nhs patient data during the covid 19 pandemic in the united kingdom
+
+in 2021 the company introduced qlik application automation which automates tasks and data workflows between qlik cloud and saas applications the same year the company acquired salt lake city based big squid a leading provider of no code automated machine learning the company also went on to acquire nodegraph a customizable metadata management solution to help expand its analytics data pipeline capabilities
+
+in 2022 qlik confidentially filed papers for ipo with the u s securities and exchange commission to go public
+
+in 2023 qlik acquired talend combining its data integration solutions with talend s data transformation quality and governance capabilities non primary source needed
+
+in december 2023 qlik acquired mozaic data which introduced a data product catalog to streamline data management
+
+in january 2024 qlik acquired kyndi which focused on natural language processing and generative ai to ameliorate the processing of unstructured data
+
+qlik s associative engine lets users do big data analytics combining a number of data sources so that associations and connections can be formed across the data the two main data analytics products qlik sense current cloud based software and qlikview legacy on premise product serve different purposes running on the same engine qlikview for analyzing static data while qlik sense allows concatenation of different data sources allowing drill down on an individual data record
+
+the qlik data analytics platform qda offers direct access to qlik s associative data engine through open and standard apis qlik data catalyst is an enterprise data catalog management product and qlik core is an analytics development platform built around qlik s associative engine and company authored open source libraries
+
+the qlik branch platform and open apis allow third party developers to create add ons that extend qlik sense s visualization capabilities some of the qlik sense extension producers include ancoresoft anychart applybi extendbi inphinity truechart and vizlib
+
+as in house add on products qlik geoanalytics provides mapping capabilities and built in support for geoanalytic use cases qlik datamarket provides access to a cloud based service with a variety of external data content that can be used to cross reference and augment users data and qlik connectors are tools that allow qlikview and qlik sense to interact with external data sources not accessible through normal odbc or ole db data connections
+
+the qlik data integration platform qdi includes qlik replicate for data replication and real time data ingestion qlik catalog for organizing data and qlik compose for data lakes and data warehouse automation qlik talend cloud introduces ai augmented data integration and quality capabilities
+
+qlik answers generates answers to questions from unstructured data sources
+
+on june 2 2016 private equity firm thoma bravo announced that it would acquire qlik in an all cash deal valued at approximately 3 billion the acquisition was completed in august 2016 thoma bravo paid 30 50 per share for qlik representing a 40 percent premium to the company s unaffected 10 day average stock price prior to march 3 2016 of 21 83
+
+in january 2022 zdnet reported that qlik had confidentially filed papers with the u s securities and exchange commission sec to go public again

@@ -1,0 +1,35 @@
+information quality iq is a contextual property of or a perspective to the content within information systems there exist two complementary yet partially conflicting definitions of high quality firstly information is considered high quality if it is fit for its intended purpose secondly it is deemed high quality if it conforms to specified requirements
+
+the primary distinction between these definitions is that juran s perspective focuses on the suitability of information for its intended purpose which can be measured by the success of its application even without direct access to or exact knowledge of the data for example a black box ai with access to english wikipedia can work well for users purposes but using estonian wikipedia fails for the same purposes given that the ai remains the same it can be concluded that english version data would be of higher quality in comparison to estonian version even without exact comparison of data contents and their properties in each version in contrast crosby emphasizes adherence to predefined specifications assuming specific criteria rather than measuring the success of its use for instance information in wikipedia could be proven to be good based on criteria such as existing peer validation and academic references even if the ai results are poor this approach falls into problems when data is not completely accessible or all quality properties cannot be known and measured leading to false impression of quality due to lacking and misleading metrics
+
+numerous iq frameworks and methodologies provide tangible approach to assess and measure dq iq in a robust and rigorous manner
+
+although the foundational definitions are usable for most everyday purposes specialists often use more complex models for information quality it has been suggested however that higher the quality the greater will be the confidence in meeting more general less specific contexts
+
+information quality is a measure of its fitness for use or conformance to requirements in this way quality is considered contextual and it can then vary across users and uses of the information the exact degree of quality is often described with dimensions such as accuracy timeliness completeness and similar scales although a huge amount of academic research has been directed to these dimensions there does not exist consensus on their definitions or practical usefulness
+
+historically richard wang and diane strong proposed a list of dimensions or elements used in assessing information quality is
+
+other authors propose similar but different lists of dimensions for analysis and emphasize measurement and reporting as information quality metrics larry english prefers the term characteristics to dimensions however a considerable amount of information quality research involves investigating and describing various categories of desirable attributes or dimensions of data research has recently shown the huge diversity of terms and classification structures used
+
+source
+
+authority refers to the expertise or recognized official status of a source consider the reputation of the author and publisher when working with legal or government information consider whether the source is the official provider of the information verifiability refers to the ability of a reader to verify the validity of the information irrespective of how authoritative the source is to verify the facts is part of the duty of care of the journalistic deontology as well as where possible to provide the sources of information so that they can be verified
+
+scope of coverage refers to the extent to which a source explores a topic consider time periods geography or jurisdiction and coverage of related or narrower topics
+
+composition and organization has to do with the ability of the information source to present its particular message in a coherent logically sequential manner
+
+objectivity is the bias or opinion expressed when a writer interprets or analyze facts consider the use of persuasive language the source s presentation of other viewpoints its reason for providing the information and advertising
+
+validity of some information has to do with the degree of obvious truthfulness which the information carries
+
+as much as uniqueness of a given piece of information is intuitive in meaning it also significantly implies not only the originating point of the information but also the manner in which it is presented and thus the perception which it conjures the essence of any piece of information we process consists to a large extent of those two elements
+
+timeliness refers to information that is current at the time of publication consider publication creation and revision dates beware of web site scripting that automatically reflects the current day s date on a page
+
+means that documented methods are capable of being used on the same data set to achieve a consistent result
+
+a number of major conferences relevant to information quality are held annually
+
+data related to information quality at wikidata

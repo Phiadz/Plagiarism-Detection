@@ -1,0 +1,15 @@
+in computer science computational learning theory or just learning theory is a subfield of artificial intelligence devoted to studying the design and analysis of machine learning algorithms
+
+theoretical results in machine learning often focus on a type of inductive learning known as supervised learning in supervised learning an algorithm is provided with labeled samples for instance the samples might be descriptions of mushrooms with labels indicating whether they are edible or not the algorithm uses these labeled samples to create a classifier this classifier assigns labels to new samples including those it has not previously encountered the goal of the supervised learning algorithm is to optimize performance metrics such as minimizing errors on new samples
+
+in addition to performance bounds computational learning theory studies the time complexity and feasibility of learning in
+computational learning theory a computation is considered feasible if it can be done in polynomial time there are two kinds of time
+complexity results
+
+negative results often rely on commonly believed but yet unproven assumptions citation needed such as
+
+there are several different approaches to computational learning theory based on making different assumptions about the inference principles used to generalise from limited data this includes different definitions of probability see frequency probability bayesian probability and different assumptions on the generation of samples citation needed the different approaches include
+
+while its primary goal is to understand learning abstractly computational learning theory has led to the development of practical algorithms for example pac theory inspired boosting vc theory led to support vector machines and bayesian inference led to belief networks
+
+a description of some of these publications is given at important publications in machine learning

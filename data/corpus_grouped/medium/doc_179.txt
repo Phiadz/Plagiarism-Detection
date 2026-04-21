@@ -1,0 +1,23 @@
+data farming is the process of using designed computational experiments to grow data which can then be analyzed using statistical and visualization techniques to obtain insight into complex systems these methods can be applied to any computational model
+
+data farming differs from data mining as the following metaphors indicate
+
+miners seek valuable nuggets of ore buried in the earth but have no control over what is out there or how hard it is to extract the nuggets from their surroundings similarly data miners seek to uncover valuable nuggets of information buried within massive amounts of data data mining techniques use statistical and graphical measures to try to identify interesting correlations or clusters in the data set
+
+farmers cultivate the land to maximize their yield they manipulate the environment to their advantage using irrigation pest control crop rotation fertilizer and more small scale designed experiments let them determine whether these treatments are effective similarly data farmers manipulate simulation models to their advantage using large scale designed experimentation to grow data from their models in a manner that easily lets them extract useful information the results can reveal root cause and effect relationships between the model input factors and the model responses in addition to rich graphical and statistical views of these relationships
+
+a nato modeling and simulation task group has documented the data farming process in the final report of msg 088
+here data farming uses collaborative processes in combining rapid scenario prototyping simulation modeling design of experiments high performance computing and analysis and visualization in an iterative loop of loops
+
+the science of design of experiments doe has been around for over a century pioneered by r a fisher for agricultural studies many of the classic experiment designs can be used in simulation studies however computational experiments have far fewer restrictions than do real world experiments in terms of costs number of factors time required ability to replicate ability to automate etc consequently a framework specifically oriented toward large scale simulation experiments is warranted
+
+people have been conducting computational experiments for as long as computers have been around the term data farming is more recent coined in 1998 in conjunction with the marine corp s project albert in which small agent based distillation models a type of stochastic simulation were created to capture specific military challenges these models were run thousands or millions of times at the maui high performance computer center and other facilities project albert analysts would work with the military subject matter experts to refine the models and interpret the results
+
+initially the use of brute force full factorial gridded designs meant that the simulations needed to run very quickly and the studies required high performance computing even so only a small number of factors at a limited number of levels could be investigated due to the curse of dimensionality
+
+the seed center for data farming at the naval postgraduate school also worked closely with project albert in model generation output analysis and the creation of new experimental designs to better leverage the computing capabilities at maui and other facilities recent breakthroughs in designs specifically developed for data farming can be found in
+among others
+
+a series of international data farming workshops have been held since 1998 by the seed center for data farming international data farming workshop 1 occurred in 1991 and since then 16 more workshops have taken place the workshops have seen a diverse array of representation from participating countries such as canada singapore mexico turkey and the united states
+
+the international data farming workshops operate through collaboration between various teams of experts the most recent workshop held in 2008 saw over 100 teams participating the teams of data farmers are assigned a specific area of study such as robotics homeland security and disaster relief different forms of data farming are experimented with and utilized by each group such as the pythagoras abm the logistics battle command model and the agent based sensor effector model absem

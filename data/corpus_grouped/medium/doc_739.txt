@@ -1,0 +1,21 @@
+the association for the advancement of artificial intelligence aaai is an international scientific society devoted to promote research in and responsible use of artificial intelligence ai aaai also aims to increase public understanding of ai improve the teaching and training of ai practitioners and provide guidance for research planners and funders concerning the importance and potential of current ai developments and future directions
+
+the organization was founded in 1979 under the name american association for artificial intelligence and changed its name in 2007 to association for the advancement of artificial intelligence it has in excess of 4 000 members worldwide citation needed in its early history the organization was presided over by notable figures in computer science such as allen newell edward feigenbaum marvin minsky and john mccarthy since july 2022 francesca rossi has been serving as president she will serve as president until july 2024 when president elect stephen smith will begin his term
+
+the aaai provides many services to the artificial intelligence community the aaai sponsors many conferences and symposia each year as well as providing support to 14 journals in the field of artificial intelligence aaai produces a quarterly publication ai magazine which seeks to publish significant new research and literature across the entire field of artificial intelligence and to help members to keep abreast of research outside their immediate specialties the magazine has been published continuously since 1980
+
+aaai organises the aaai conference on artificial intelligence which is considered to be one of the top conferences in the field of artificial intelligence other conferences include aaai acm conference on ai ethics and society aies artificial intelligence for interactive digital entertainment aiide international aaai conference on web and social media icwsm innovative applications of artificial intelligence iaai aaai conference on human computation and crowdsourcing hcomp aaai symposium on educational advances in artificial intelligence eaai and knowledge discovery and data mining conferences kdd
+
+in addition to aaai fellowship the aaai grants several other awards
+
+the acm aaai allen newell award is presented to an individual selected for career contributions that have breadth within computer science or that bridge computer science and other disciplines this endowed award is accompanied by a prize of 10 000 and is supported by the association for the advancement of artificial intelligence aaai association for computing machinery acm and by individual contributions
+
+past recipients
+
+the annual aaai eaai outstanding educator award was created in 2016 to honor a person or group of people who has made major contributions to ai education that provide long lasting benefits to the ai community
+
+past recipients
+
+the aaai squirrel ai award for artificial intelligence for the benefit of humanity is a 1 million award that recognizes the positive impacts of ai to meaningfully improve protect and enhance human life
+
+senior member status is designed to recognize aaai members who have achieved significant accomplishments within the field of artificial intelligence to be eligible for nomination for senior member candidates must be consecutive members of aaai for at least five years and have been active in the professional arena for at least ten years applications should include information that details the candidate s scholarship leadership and or professional service

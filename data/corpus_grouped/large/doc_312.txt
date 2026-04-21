@@ -1,0 +1,697 @@
+
+
+in economics utility is a measure of a certain person s satisfaction from a certain state of the world over time the term has been used with at least two meanings
+
+the relationship between these two kinds of utility functions has been a source of controversy among both economists and ethicists with most maintaining that the two are distinct but generally related
+
+consider a set of alternatives among which a person has a preference ordering a utility function represents that ordering if it is possible to assign a real number to each alternative in such a manner that alternative a is assigned a number greater than alternative b if and only if the individual prefers alternative a to alternative b in this situation someone who selects the most preferred alternative must also choose one that maximizes the associated utility function
+
+suppose james has utility function
+
+
+
+u
+
+
+
+x
+y
+
+
+
+
+displaystyle u sqrt xy
+
+such that
+
+
+
+x
+
+
+displaystyle x
+
+is the number of apples and
+
+
+
+y
+
+
+displaystyle y
+
+is the number of chocolates alternative a has
+
+
+
+x
+
+9
+
+
+displaystyle x 9
+
+apples and
+
+
+
+y
+
+16
+
+
+displaystyle y 16
+
+chocolates alternative b has
+
+
+
+x
+
+13
+
+
+displaystyle x 13
+
+apples and
+
+
+
+y
+
+13
+
+
+displaystyle y 13
+
+chocolates putting the values
+
+
+
+x
+
+y
+
+
+displaystyle x y
+
+into the utility function yields
+
+
+
+
+
+9
+
+16
+
+
+
+12
+
+
+displaystyle sqrt 9 times 16 12
+
+for alternative a and
+
+
+
+
+
+13
+
+13
+
+
+
+13
+
+
+displaystyle sqrt 13 times 13 13
+
+for b so james prefers alternative b in general economic terms a utility function ranks preferences concerning a set of goods and services
+
+gérard debreu derived the conditions required for a preference ordering to be representable by a utility function for a finite set of alternatives these require only that the preference ordering is complete so the individual can determine which of any two alternatives is preferred or that they are indifferent and that the preference order is transitive
+
+suppose the set of alternatives is not finite for example even if the number of goods is finite the quantity chosen can be any real number on an interval in that case a continuous utility function exists representing a consumer s preferences if and only if the consumer s preferences are complete transitive and continuous
+
+utility can be represented through sets of indifference curve which are level curves of the function itself and which plot the combination of commodities that an individual would accept to maintain a given level of satisfaction combining indifference curves with budget constraints allows for individual demand curves derivation
+
+in an indifference curve the vertical and horizontal axes represent an individual s consumption of commodity y and x respectively all the combinations of commodity x and y along the same indifference curve are regarded indifferently by individuals which means all the combinations along an indifference curve result in the same utility value
+
+individual and social utility can be construed as the value of a utility function and a social welfare function respectively when coupled with production or commodity constraints by some assumptions these functions can be used to analyze pareto efficiency such as illustrated by edgeworth boxes in contract curves such efficiency is a major concept in welfare economics
+
+while preferences are the conventional foundation of choice theory in microeconomics it is often convenient to represent preferences with a utility function let x be the consumption set the set of all mutually exclusive baskets the consumer could consume the consumer s utility function
+
+
+
+u
+
+x
+
+
+r
+
+
+
+displaystyle u colon x to mathbb r
+
+ranks each possible outcome in the consumption set if the consumer strictly prefers x to y or is indifferent between them then
+
+
+
+u
+
+x
+
+
+u
+
+y
+
+
+
+displaystyle u x geq u y
+
+
+
+for example suppose a consumer s consumption set is x nothing 1 apple 1 orange 1 apple and 1 orange 2 apples 2 oranges and his utility function is u nothing 0 u 1 apple 1 u 1 orange 2 u 1 apple and 1 orange 5 u 2 apples 2 and u 2 oranges 4 then this consumer prefers 1 orange to 1 apple but prefers one of each to 2 oranges
+
+in micro economic models there is usually a finite set of l commodities and a consumer may consume an arbitrary amount of each commodity this gives a consumption set of
+
+
+
+
+
+r
+
+
+
+
+
+l
+
+
+
+
+displaystyle mathbb r _ l
+
+and each package
+
+
+
+x
+
+
+
+r
+
+
+
+
+
+l
+
+
+
+
+displaystyle x in mathbb r _ l
+
+is a vector containing the amounts of each commodity for the example there are two commodities apples and oranges if we say apples are the first commodity and oranges the second then the consumption set is
+
+
+
+x
+
+
+
+r
+
+
+
+
+
+2
+
+
+
+
+displaystyle x mathbb r _ 2
+
+and u 0 0 0 u 1 0 1 u 0 1 2 u 1 1 5 u 2 0 2 u 0 2 4 as before for u to be a utility function on x however it must be defined for every package in x so now the function must be defined for fractional apples and oranges too one function that would fit these numbers is
+
+
+
+u
+
+
+x
+
+apples
+
+
+
+
+x
+
+oranges
+
+
+
+
+
+x
+
+apples
+
+
+
+2
+
+x
+
+oranges
+
+
+
+2
+
+x
+
+apples
+
+
+
+x
+
+oranges
+
+
+
+
+
+displaystyle u x_ text apples x_ text oranges x_ text apples 2x_ text oranges 2x_ text apples x_ text oranges
+
+
+
+preferences have three main properties
+
+assume an individual has two choices a and b by ranking the two choices one and only one of the following relationships is true an individual strictly prefers a a b an individual strictly prefers b b a an individual is indifferent between a and b a b
+either a b or b a or both for all a b
+
+individuals preferences are consistent over bundles if an individual prefers bundle a to bundle b and bundle b to bundle c then it can be assumed that the individual prefers bundle a to bundle c
+if a b and b c then a c for all a b c
+
+if bundle a contains all the goods that a bundle b contains but a also includes more of at least one good than b the individual prefers a over b if for example bundle a 1 apple 2 oranges and bundle b 1 apple 1 orange then a is preferred over b
+
+it was recognized that utility could not be measured or observed directly so instead economists devised a way to infer relative utilities from observed choice these revealed preferences as termed by paul samuelson were revealed e g in people s willingness to pay
+
+
+utility is assumed to be correlative to desire or want it has been argued already that desires cannot be measured directly but only indirectly by the outward phenomena which they cause and that in those cases with which economics is mainly concerned the measure is found by the price which a person is willing to pay for the fulfillment or satisfaction of his desire 78
+utility functions expressing utility as a function of the amounts of the various goods consumed are treated as either cardinal or ordinal depending on whether they are or are not interpreted as providing more information than simply the rank ordering of preferences among bundles of goods such as information concerning the strength of preferences
+
+cardinal utility states that the utilities obtained from consumption can be measured and ranked objectively and are representable by numbers there are fundamental assumptions of cardinal utility economic agents should be able to rank different bundles of goods based on their preferences or utilities and sort different transitions between two bundles of goods
+
+a cardinal utility function can be transformed to another utility function by a positive linear transformation multiplying by a positive number and adding some other number however both utility functions represent the same preferences
+
+when cardinal utility is assumed the magnitude of utility differences is treated as an ethically or behaviorally significant quantity for example suppose a cup of orange juice has utility of 120 utils a cup of tea has a utility of 80 utils and a cup of water has a utility of 40 utils with cardinal utility it can be concluded that the cup of orange juice is better than the cup of tea by the same amount by which the cup of tea is better than the cup of water this means that if a person has a cup of tea they would be willing to take any bet with a probability p greater than 5 of getting a cup of juice with a risk of getting a cup of water equal to 1 p one cannot conclude however that the cup of tea is two thirds of the goodness of the cup of juice because this conclusion would depend not only on magnitudes of utility differences but also on the zero of utility for example if the zero of utility were located at 40 then a cup of orange juice would be 160 utils more than zero a cup of tea 120 utils more than zero cardinal utility can be considered as the assumption that quantifiable characteristics such as height weight temperature etc can measure utility
+
+neoclassical economics has largely retreated from using cardinal utility functions as the basis of economic behavior a notable exception is in the context of analyzing choice with conditions of risk see below
+
+sometimes cardinal utility is used to aggregate utilities across persons to create a social welfare function
+
+instead of giving actual numbers over different bundles ordinal utilities are only the rankings of utilities received from different bundles of goods or services for example ordinal utility could tell that having two ice creams provide a greater utility to individuals in comparison to one ice cream but could not tell exactly how much extra utility received by the individual ordinal utility it does not require individuals to specify how much extra utility they received from the preferred bundle of goods or services in comparison to other bundles they are only needed to tell which bundles they prefer
+
+when ordinal utilities are used differences in utils values assumed by the utility function are treated as ethically or behaviorally meaningless the utility index encodes a full behavioral ordering between members of a choice set but tells nothing about the related strength of preferences for the above example it would only be possible to say that juice is preferred to tea to water thus ordinal utility utilizes comparisons such as preferred to no more less than etc
+
+if a function
+
+
+
+u
+
+x
+
+
+
+displaystyle u x
+
+is ordinal and non negative it is equivalent to the function
+
+
+
+u
+
+x
+
+
+
+2
+
+
+
+
+displaystyle u x 2
+
+because taking the square is an increasing monotone or monotonic transformation this means that the ordinal preference induced by these functions is the same although they are two different functions in contrast if
+
+
+
+u
+
+x
+
+
+
+displaystyle u x
+
+is cardinal it is not equivalent to
+
+
+
+u
+
+x
+
+
+
+2
+
+
+
+
+displaystyle u x 2
+
+
+
+in order to simplify calculations various alternative assumptions have been made concerning details of human preferences and these imply various alternative utility functions such as
+
+most utility functions used for modeling or theory are well behaved they are usually monotonic and quasi concave however it is possible for rational preferences not to be representable by a utility function an example is lexicographic preferences which are not continuous and cannot be represented by a continuous utility function
+
+economists distinguish between total utility and marginal utility total utility is the utility of an alternative an entire consumption bundle or situation in life the rate of change of utility from changing the quantity of one good consumed is termed the marginal utility of that good marginal utility therefore measures the slope of the utility function with respect to the changes of one good marginal utility usually decreases with consumption of the good the idea of diminishing marginal utility in calculus notation the marginal utility of good x is
+
+
+
+m
+
+u
+
+x
+
+
+
+
+
+
+
+u
+
+
+
+x
+
+
+
+
+
+displaystyle mu_ x frac partial u partial x
+
+when a good s marginal utility is positive additional consumption of it increases utility if zero the consumer is satiated and indifferent about consuming more if negative the consumer would pay to reduce his consumption
+
+rational individuals only consume additional units of goods if it increases the marginal utility however the law of diminishing marginal utility means an additional unit consumed brings a lower marginal utility than that carried by the previous unit consumed for example drinking one bottle of water makes a thirsty person satisfied as the consumption of water increases he may feel begin to feel bad which causes the marginal utility to decrease to zero or even become negative furthermore this is also used to analyze progressive taxes as the greater taxes can result in the loss of utility
+
+marginal rate of substitution is the absolute value of the slope of the indifference curve which measures how much an individual is willing to switch from one good to another using a mathematic equation
+
+
+
+m
+r
+s
+
+
+d
+
+
+x
+
+2
+
+
+
+
+
+d
+
+
+x
+
+1
+
+
+
+
+displaystyle mrs operatorname d x_ 2 operatorname d x_ 1
+
+keeping u x1 x2 constant thus mrs is how much an individual is willing to pay for consuming a greater amount of x1
+
+mrs is related to marginal utility the relationship between marginal utility and mrs is
+
+expected utility theory deals with the analysis of choices among risky projects with multiple possibly multidimensional outcomes
+
+the st petersburg paradox was first proposed by nicholas bernoulli in 1713 and solved by daniel bernoulli in 1738 although the swiss mathematician gabriel cramer proposed taking the expectation of a square root utility function of money in an 1728 letter to n bernoulli d bernoulli argued that the paradox could be resolved if decision makers displayed risk aversion and argued for a logarithmic cardinal utility function analysis of international survey data during the 21st century has shown that insofar as utility represents happiness as for utilitarianism it is indeed proportional to log of income
+
+the first important use of the expected utility theory was that of john von neumann and oskar morgenstern who used the assumption of expected utility maximization in their formulation of game theory
+
+in finding the probability weighted average of the utility from each possible outcome
+
+von neumann and morgenstern addressed situations in which the outcomes of choices are not known with certainty but have probabilities associated with them
+
+a notation for a lottery is as follows if options a and b have probability p and 1 p in the lottery we write it as a linear combination
+
+more generally for a lottery with many possible options
+
+where
+
+
+
+
+
+
+i
+
+
+
+p
+
+i
+
+
+
+1
+
+
+displaystyle sum _ i p_ i 1
+
+
+
+by making some reasonable assumptions about the way choices behave von neumann and morgenstern showed that if an agent can choose between the lotteries then this agent has a utility function such that the desirability of an arbitrary lottery can be computed as a linear combination of the utilities of its parts with the weights being their probabilities of occurring
+
+this is termed the expected utility theorem the required assumptions are four axioms about the properties of the agent s preference relation over simple lotteries which are lotteries with just two options writing
+
+
+
+b
+
+a
+
+
+displaystyle b preceq a
+
+to mean a is weakly preferred to b a is preferred at least as much as b the axioms are
+
+axioms 3 and 4 enable us to decide about the relative utilities of two assets or lotteries
+
+in more formal language a von neumann morgenstern utility function is a function from choices to the real numbers
+
+which assigns a real number to every outcome in a way that represents the agent s preferences over simple lotteries using the four assumptions mentioned above the agent will prefer a lottery
+
+
+
+
+l
+
+2
+
+
+
+
+displaystyle l_ 2
+
+to a lottery
+
+
+
+
+l
+
+1
+
+
+
+
+displaystyle l_ 1
+
+if and only if for the utility function characterizing that agent the expected utility of
+
+
+
+
+l
+
+2
+
+
+
+
+displaystyle l_ 2
+
+is greater than the expected utility of
+
+
+
+
+l
+
+1
+
+
+
+
+displaystyle l_ 1
+
+
+
+of all the axioms independence is the most often discarded a variety of generalized expected utility theories have arisen most of which omit or relax the independence axiom
+
+an indirect utility function gives the optimal attainable value of a given utility function which depends on the prices of the goods and the income or wealth level that the individual possesses
+
+one use of the indirect utility concept is the notion of the utility of money the indirect utility function for money is a nonlinear function that is bounded and asymmetric about the origin the utility function is concave in the positive region representing the phenomenon of diminishing marginal utility the boundedness represents the fact that beyond a certain amount money ceases being useful at all as the size of any economy at that time is itself bounded the asymmetry about the origin represents the fact that gaining and losing money can have radically different implications both for individuals and businesses the non linearity of the utility function for money has profound implications in decision making processes in situations where outcomes of choices influence utility by gains or losses of money which are the norm for most business settings the optimal choice for a given decision depends on the possible outcomes of all other decisions in the same time period
+
+individuals consumptions are constrained by their budget allowance the graph of budget line is a linear downward sloping line between x and y axes all the bundles of consumption under the budget line allow individuals to consume without using the whole budget as the total budget is greater than the total cost of bundles if only considers prices and quantities of two goods in one bundle a budget constraint could be formulated as
+
+
+
+
+p
+
+1
+
+
+
+x
+
+1
+
+
+
+
+p
+
+2
+
+
+
+x
+
+2
+
+
+
+y
+
+
+displaystyle p_ 1 x_ 1 p_ 2 x_ 2 y
+
+where
+
+
+
+
+p
+
+1
+
+
+
+
+displaystyle p_ 1
+
+and
+
+
+
+
+p
+
+2
+
+
+
+
+displaystyle p_ 2
+
+are prices of the two goods
+
+
+
+
+x
+
+1
+
+
+
+
+displaystyle x_ 1
+
+and
+
+
+
+
+x
+
+2
+
+
+
+
+displaystyle x_ 2
+
+are quantities of the two goods
+
+rational consumers wish to maximise their utility however as they have budget constraints a change of price would affect the quantity of demand there are two factors could explain this situation
+
+the concept of interpersonal comparisons of utility refers to the evaluation of satisfaction or well being across multiple individuals aiming to determine the relative levels of utility happiness or benefit experienced by each person this concept is widely regarded as problematic in economics as subjective well being lacks an objective metric making direct measurement and comparison between individuals inherently challenging
+
+the primary challenge lies in the inability to directly observe or access another individual s internal thoughts and emotions rendering it impossible to objectively determine whether one person experiences greater utility than another in a given context
+
+comparing utility between individuals typically depends on subjective judgments and ethical assumptions regarding the nature of well being or happiness making such analyses inherently normative rather than purely empirical
+
+despite the inherent difficulties certain economic theories particularly within welfare economics incorporate interpersonal comparisons of utility to assess the effects of policies on different population groups however such analyses are typically conducted with substantial caveats and methodological limitations
+
+utility is a subjective measure of satisfaction that differs among individuals based on personal values experiences and circumstances cultural background psychological factors and socio economic conditions influence how utility is perceived this variability complicates economic analyses as utility cannot be objectively measured or directly compared across different individuals
+
+it is argued that by being inherently subjective it is impossible to objectively quantify utility and compare individual levels of well being differences in personal preferences perceptions and circumstances prevent the establishment of a universal measurement standard as a result economic theories relying on interpersonal utility comparisons face significant methodological and philosophical challenges
+
+some argue that making interpersonal utility comparisons can raise ethical issues if it implies that some individuals happiness is inherently more valuable than others
+
+cambridge economist joan robinson famously criticized utility for being a circular concept utility is the quality in commodities that makes individuals want to buy them and the fact that individuals want to buy commodities shows that they have utility 48 robinson also stated that because the theory assumes that preferences are fixed this means that utility is not a testable assumption this is so because if we observe changes of peoples behavior in relation to a change in prices or a change in budget constraint we can never be sure to what extent the change in behavior was due to the change of price or budget constraint and how much was due to a change of preference unreliable source this criticism is similar to that of the philosopher hans albert who argued that the ceteris paribus all else equal conditions on which the marginalist theory of demand rested rendered the theory itself a meaningless tautology incapable of being tested experimentally unreliable source in essence a curve of demand and supply a theoretical line of quantity of a product which would have been offered or requested for given price is purely ontological and could never have been demonstrated empirically dubious discuss
+
+other questions of what arguments ought to be included in a utility function are difficult to answer yet seem necessary to understanding utility whether people gain utility from coherence of wants beliefs or a sense of duty is important to understanding their behavior in the utility organon likewise choosing between alternatives is itself a process of determining what to consider as alternatives a question of choice within uncertainty
+
+an evolutionary psychology theory is that utility may be better considered as due to preferences that maximized evolutionary fitness in the ancestral environment but not necessarily in the current one
+
+there are many empirical works trying to estimate the form of utility functions of agents with respect to money
+
+archived 30 october 2015 at the wayback machine possession and perhaps also task

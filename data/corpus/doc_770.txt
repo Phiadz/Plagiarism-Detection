@@ -1,0 +1,47 @@
+in theoretical computer science and mathematics the theory of computation is the branch that deals with what problems can be solved on a model of computation using an algorithm how efficiently they can be solved and to what degree e g approximate solutions versus precise ones the field is divided into three major branches automata theory and formal languages computability theory and computational complexity theory which are linked by the question what are the fundamental capabilities and limitations of computers
+
+in order to perform a rigorous study of computation computer scientists work with a mathematical abstraction of computers called a model of computation there are several models in use but the most commonly examined is the turing machine computer scientists study the turing machine because it is simple to formulate can be analyzed and used to prove results and because it represents what many consider the most powerful possible reasonable model of computation see church turing thesis it might seem that the potentially infinite memory capacity is an unrealizable attribute but any decidable problem solved by a turing machine will always require only a finite amount of memory so in principle any problem that can be solved decided by a turing machine can be solved by a computer that has a finite amount of memory
+
+the theory of computation can be considered the creation of models of all kinds in the field of computer science therefore mathematics and logic are used in the last century it separated from mathematics and became an independent academic discipline with its own conferences such as focs in 1960 and stoc in 1969 and its own awards such as the imu abacus medal established in 1981 as the rolf nevanlinna prize the gödel prize established in 1993 and the knuth prize established in 1996
+
+some pioneers of the theory of computation were ramon llull alonzo church kurt gödel alan turing stephen kleene rózsa péter john von neumann and claude shannon
+
+automata theory is the study of abstract machines or more appropriately abstract mathematical machines or systems and the computational problems that can be solved using these machines these abstract machines are called automata automata comes from the greek word αυτόματα which means that something is doing something by itself
+automata theory is also closely related to formal language theory as the automata are often classified by the class of formal languages they are able to recognize an automaton can be a finite representation of a formal language that may be an infinite set automata are used as theoretical models for computing machines and are used for proofs about computability
+
+formal language theory is a branch of mathematics concerned with describing languages as a set of operations over an alphabet it is closely linked with automata theory as automata are used to generate and recognize formal languages there are several classes of formal languages each allowing more complex language specification than the one before it i e chomsky hierarchy and each corresponding to a class of automata which recognizes it because automata are used as models for computation formal languages are the preferred mode of specification for any problem that must be computed
+
+computability theory deals primarily with the question of the extent to which a problem is solvable on a computer the statement that the halting problem cannot be solved by a turing machine is one of the most important results in computability theory as it is an example of a concrete problem that is both easy to formulate and impossible to solve using a turing machine much of computability theory builds on the halting problem result
+
+another important step in computability theory was rice s theorem which states that for all non trivial properties of partial functions it is undecidable whether a turing machine computes a partial function with that property
+
+computability theory is closely related to the branch of mathematical logic called recursion theory which removes the restriction of studying only models of computation which are reducible to the turing model many mathematicians and computational theorists who study recursion theory will refer to it as computability theory
+
+computational complexity theory considers not only whether a problem can be solved at all on a computer but also how efficiently the problem can be solved two major aspects are considered time complexity and space complexity which are respectively how many steps it takes to perform a computation and how much memory is required to perform that computation
+
+in order to analyze how much time and space a given algorithm requires computer scientists express the time or space required to solve the problem as a function of the size of the input problem for example finding a particular number in a long list of numbers becomes harder as the list of numbers grows larger if we say there are n numbers in the list then if the list is not sorted or indexed in any way we may have to look at every number in order to find the number we re seeking we thus say that in order to solve this problem the computer needs to perform a number of steps that grow linearly in the size of the problem
+
+to simplify this problem computer scientists have adopted big o notation which allows functions to be compared in a way that ensures that particular aspects of a machine s construction do not need to be considered but rather only the asymptotic behavior as problems become large so in our previous example we might say that the problem requires
+
+
+
+o
+
+n
+
+
+
+displaystyle o n
+
+steps to solve
+
+perhaps the most important open problem in all of computer science is the question of whether a certain broad class of problems denoted np can be solved efficiently this is discussed further at complexity classes p and np and p versus np problem is one of the seven millennium prize problems stated by the clay mathematics institute in 2000 the official problem description was given by turing award winner stephen cook
+
+aside from a turing machine other equivalent see church turing thesis models of computation are in use
+
+in addition to the general computational models some simpler computational models are useful for special restricted applications regular expressions for example specify string patterns in many contexts from office productivity software to programming languages another formalism mathematically equivalent to regular expressions finite automata are used in circuit design and in some kinds of problem solving context free grammars specify programming language syntax non deterministic pushdown automata are another formalism equivalent to context free grammars primitive recursive functions are a defined subclass of the recursive functions
+
+different models of computation have the ability to do different tasks one way to measure the power of a computational model is to study the class of formal languages that the model can generate in such a way to the chomsky hierarchy of languages is obtained
+
+central areas of the theory of computation automata computability and complexity
+there are many textbooks in this area this list is by necessity incomplete

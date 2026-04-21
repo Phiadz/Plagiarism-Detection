@@ -1,0 +1,41 @@
+
+
+seymour aubrey papert ˈpæpərt 29 february 1928 31 july 2016 was a south african born american mathematician computer scientist and educator who spent most of his career teaching and researching at the massachusetts institute of technology he was one of the pioneers of artificial intelligence and of the constructionist movement in education he was co inventor with wally feurzeig and cynthia solomon of the logo programming language
+
+born to a jewish family papert attended the university of the witwatersrand receiving a bachelor of arts degree in philosophy in 1949 followed by a phd in mathematics in 1952 he then went on to receive a second doctorate also in mathematics at the university of cambridge 1959 supervised by frank smithies
+
+papert worked as a researcher in a variety of places including st john s college cambridge the henri poincaré institute at the university of paris the university of geneva and the national physical laboratory in london before becoming a research associate at mit in 1963 he held this position until 1967 when he became professor of applied math and was made co director of the mit artificial intelligence laboratory by its founding director professor marvin minsky until 1981 he also served as cecil and ida green professor of education at mit from 1974 to 1981
+
+papert worked on learning theories and was known for focusing on the impact of new technologies on learning in general and in schools as learning organizations in particular
+
+at mit papert went on to create the epistemology and learning research group at the mit architecture machine group which later became the mit media lab here he was the developer of a theory on learning called constructionism built upon the work of jean piaget in constructivist learning theories papert had worked with piaget at the university of geneva from 1958 to 1963 and was one of piaget s protégés piaget himself once said that no one understands my ideas as well as papert papert has rethought how schools should work based on these theories of learning
+
+papert used piaget s work in his development of the logo programming language while at mit he created logo as a tool to improve the way children think and solve problems a small mobile robot called the logo turtle was developed and children were shown how to use it to solve simple problems in an environment of play a main purpose of the logo foundation research group is to strengthen the ability to learn knowledge papert insisted a simple language or program that children can learn like logo can also have advanced functionality for expert users
+
+as part of his work with technology papert has been a proponent of the knowledge machine he was one of the principals for the one laptop per child initiative to manufacture and distribute the children s machine in developing nations
+
+papert also collaborated with the construction toy manufacturer lego on their logo programmable lego mindstorms robotics kits which were named after his groundbreaking 1980 book
+
+a curated archive of papert s articles speeches and interviews may be found on a website dedicated to papert at the daily papert
+
+papert became a political and anti apartheid activist early in his life in south africa he subsequently chose self exile he was a leading figure in the revolutionary socialist circle around socialist review while living in london in the 1950s papert was also a prominent activist against south african apartheid policies during his university education
+
+papert was married to dona strauss and later to androula christofides henriques
+
+papert s third wife was mit professor sherry turkle and together they wrote the influential paper epistemological pluralism and the revaluation of the concrete
+
+in his final 24 years papert was married to suzanne massie who was a russian scholar and author of pavlovsk the life of a russian palace and land of the firebird
+
+papert then aged 78 received a serious brain injury when struck by a motor scooter on 5 december 2006 while crossing the street with colleague uri wilensky when they were both attending the 17th international commission on mathematical instruction icmi study conference in hanoi vietnam he underwent emergency surgery to remove a blood clot at the french hospital of hanoi before being transferred in a complex operation by swiss air ambulance rega archived 27 july 2019 at the wayback machine bombardier challenger jet to boston massachusetts where he spent approximately four weeks in intensive care he was moved to a hospital closer to his home in january 2007 but then developed sepsis which damaged a heart valve which was later replaced
+
+by 2008 he had returned home could think and communicate clearly and walk almost unaided but still had some complicated speech problems and was in receipt of extensive rehabilitation support his rehabilitation team used some of the very principles of experiential hands on learning that he had pioneered
+
+papert died at his home in blue hill maine on 31 july 2016
+
+papert s work has been used by other researchers in the fields of education and computer science he influenced the work of uri wilensky in the design of netlogo and collaborated with him on the study of knowledge restructurations as well as the work of andrea disessa and the development of dynaturtles in 1981 papert along with several others in the logo group at mit started logo computer systems inc lcsi of which he was board chair for over 20 years working with lcsi papert designed a number of award winning programs including logowriter and lego logo marketed as lego mindstorms he also influenced the research of idit harel caperton coauthoring articles and the book constructionism and chairing the advisory board of the company mamamedia he also influenced alan kay and the dynabook concept and worked with kay on various projects
+
+papert won a guggenheim fellowship in 1980 a marconi international fellowship in 1981 the software publishers association lifetime achievement award in 1994 and the smithsonian award from computerworld in 1997 papert has been called by marvin minsky the greatest of all living education theorists
+
+mit president l rafael reif summarized papert s lifetime of accomplishments with a mind of extraordinary range and creativity seymour papert helped revolutionize at least three fields from the study of how children make sense of the world to the development of artificial intelligence to the rich intersection of technology and learning the stamp he left on mit is profound today as mit continues to expand its reach and deepen its work in digital learning i am particularly grateful for seymour s groundbreaking vision and we hope to build on his ideas to open doors to learners of all ages around the world
+
+in 2016 papert s alma mater the university of the witwatersrand awarded him the degree of doctor of science in engineering honoris causa

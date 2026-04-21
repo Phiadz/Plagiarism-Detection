@@ -1,0 +1,1359 @@
+differential privacy dp is a mathematically rigorous framework for releasing statistical information about datasets while protecting the privacy of individual data subjects it enables a data holder to share aggregate patterns of the group while limiting information that is leaked about specific individuals this is done by injecting carefully calibrated noise into statistical computations such that the utility of the statistic is preserved while provably limiting what can be inferred about any individual in the dataset
+
+another way to describe differential privacy is as a constraint on the algorithms used to publish aggregate information about a statistical database which limits the disclosure of private information of records in the database for example differentially private algorithms are used by some government agencies to publish demographic information or other statistical aggregates while ensuring confidentiality of survey responses and by companies to collect information about user behavior while controlling what is visible even to internal analysts
+
+roughly an algorithm is differentially private if an observer seeing its output cannot tell whether a particular individual s information was used in the computation differential privacy is often discussed in the context of identifying individuals whose information may be in a database although it does not directly refer to identification and reidentification attacks differentially private algorithms provably resist such attacks
+
+the 2006 cynthia dwork frank mcsherry kobbi nissim and adam d smith article introduced the concept of ε differential privacy a mathematical definition for the privacy loss associated with any data release drawn from a statistical database here the term statistical database means a set of data that are collected under the pledge of confidentiality for the purpose of producing statistics that by their production do not compromise the privacy of those individuals who provided the data
+
+the definition of ε differential privacy requires that a change to one entry in a database only creates a small change in the probability distribution of the outputs of measurements as seen by the attacker the intuition for the definition of ε differential privacy is that a person s privacy cannot be compromised by a statistical release if their data are not in the database in differential privacy each individual is given roughly the same privacy that would result from having their data removed that is the statistical functions run on the database should not be substantially affected by the removal addition or change of any individual in the data
+
+how much any individual contributes to the result of a database query depends in part on how many people s data are involved in the query if the database contains data from a single person that person s data contributes 100 if the database contains data from a hundred people each person s data contributes just 1 the key insight of differential privacy is that as the query is made on the data of fewer and fewer people more noise needs to be added to the query result to produce the same amount of privacy hence the name of the 2006 paper calibrating noise to sensitivity in private data analysis
+
+let ε be a positive real number and
+
+
+
+
+
+a
+
+
+
+
+displaystyle mathcal a
+
+be a randomized algorithm that takes a dataset as input representing the actions of the trusted party holding the data let
+
+
+
+
+
+im
+
+
+
+
+
+a
+
+
+
+
+displaystyle textrm im mathcal a
+
+denote the image of
+
+
+
+
+
+a
+
+
+
+
+displaystyle mathcal a
+
+
+
+the algorithm
+
+
+
+
+
+a
+
+
+
+
+displaystyle mathcal a
+
+is said to provide ε δ differential privacy if for all datasets
+
+
+
+
+d
+
+1
+
+
+
+
+displaystyle d_ 1
+
+and
+
+
+
+
+d
+
+2
+
+
+
+
+displaystyle d_ 2
+
+that differ on a single element i e the data of one person and all subsets
+
+
+
+s
+
+
+displaystyle s
+
+of
+
+
+
+
+
+im
+
+
+
+
+
+a
+
+
+
+
+displaystyle textrm im mathcal a
+
+
+
+where the probability is taken over the randomness used by the algorithm this definition is sometimes called approximate differential privacy with pure differential privacy being a special case when
+
+
+
+δ
+
+0
+
+
+displaystyle delta 0
+
+in the latter case the algorithm is commonly said to satisfy ε differential privacy i e omitting
+
+
+
+δ
+
+0
+
+
+displaystyle delta 0
+
+citation needed
+
+differential privacy offers strong and robust guarantees that facilitate modular design and analysis of differentially private mechanisms due to its composability robustness to post processing and graceful degradation in the presence of correlated data citation needed
+
+according to this definition differential privacy is a condition on the release mechanism i e the trusted party releasing information about the dataset and not on the dataset itself intuitively this means that for any two datasets that are similar a given differentially private algorithm will behave approximately the same on both datasets the definition gives a strong guarantee that presence or absence of an individual will not affect the final output of the algorithm significantly
+
+for example assume we have a database of medical records
+
+
+
+
+d
+
+1
+
+
+
+
+displaystyle d_ 1
+
+where each record is a pair name x where
+
+
+
+x
+
+
+displaystyle x
+
+is a boolean denoting whether a person has diabetes or not for example
+
+now suppose a malicious user often termed an adversary wants to find whether chandler has diabetes or not suppose he also knows in which row of the database chandler resides now suppose the adversary is only allowed to use a particular form of query
+
+
+
+
+q
+
+i
+
+
+
+
+displaystyle q_ i
+
+that returns the partial sum of the first
+
+
+
+i
+
+
+displaystyle i
+
+rows of column
+
+
+
+x
+
+
+displaystyle x
+
+in the database in order to find chandler s diabetes status the adversary executes
+
+
+
+
+q
+
+5
+
+
+
+
+d
+
+1
+
+
+
+
+
+displaystyle q_ 5 d_ 1
+
+and
+
+
+
+
+q
+
+4
+
+
+
+
+d
+
+1
+
+
+
+
+
+displaystyle q_ 4 d_ 1
+
+then computes their difference in this example
+
+
+
+
+q
+
+5
+
+
+
+
+d
+
+1
+
+
+
+
+3
+
+
+displaystyle q_ 5 d_ 1 3
+
+and
+
+
+
+
+q
+
+4
+
+
+
+
+d
+
+1
+
+
+
+
+2
+
+
+displaystyle q_ 4 d_ 1 2
+
+so their difference is 1 this indicates that the has diabetes field in chandler s row must be 1 this example highlights how individual information can be compromised even without explicitly querying for the information of a specific individual
+
+continuing this example if we construct
+
+
+
+
+d
+
+2
+
+
+
+
+displaystyle d_ 2
+
+by replacing chandler 1 with chandler 0 then this malicious adversary will be able to distinguish
+
+
+
+
+d
+
+2
+
+
+
+
+displaystyle d_ 2
+
+from
+
+
+
+
+d
+
+1
+
+
+
+
+displaystyle d_ 1
+
+by computing
+
+
+
+
+q
+
+5
+
+
+
+
+q
+
+4
+
+
+
+
+displaystyle q_ 5 q_ 4
+
+for each dataset if the adversary were required to receive the values
+
+
+
+
+q
+
+i
+
+
+
+
+displaystyle q_ i
+
+via an
+
+
+
+ε
+
+
+displaystyle varepsilon
+
+differentially private algorithm for a sufficiently small
+
+
+
+ε
+
+
+displaystyle varepsilon
+
+then he or she would be unable to distinguish between the two datasets
+
+composability refers to the fact that the joint distribution of the outputs of possibly adaptively chosen differentially private mechanisms satisfies differential privacy
+
+the other important property for modular use of differential privacy is robustness to post processing this is defined to mean that for any deterministic or randomized function
+
+
+
+f
+
+
+displaystyle f
+
+defined over the image of the mechanism
+
+
+
+
+
+a
+
+
+
+
+displaystyle mathcal a
+
+if
+
+
+
+
+
+a
+
+
+
+
+displaystyle mathcal a
+
+satisfies ε differential privacy so does
+
+
+
+f
+
+
+
+a
+
+
+
+
+
+displaystyle f mathcal a
+
+
+
+the property of composition permits modular construction and analysis of differentially private mechanisms and motivates the concept of the privacy loss budget citation needed if all elements that access sensitive data of a complex mechanisms are separately differentially private so will be their combination followed by arbitrary post processing
+
+in general ε differential privacy is designed to protect the privacy between neighboring databases which differ only in one row this means that no adversary with arbitrary auxiliary information can know if one particular participant submitted their information however this is also extendable we may want to protect databases differing in
+
+
+
+c
+
+
+displaystyle c
+
+rows which amounts to an adversary with arbitrary auxiliary information knowing if
+
+
+
+c
+
+
+displaystyle c
+
+particular participants submitted their information this can be achieved because if
+
+
+
+c
+
+
+displaystyle c
+
+items change the probability dilation is bounded by
+
+
+
+exp
+
+
+ε
+c
+
+
+
+displaystyle exp varepsilon c
+
+instead of
+
+
+
+exp
+
+
+ε
+
+
+
+displaystyle exp varepsilon
+
+i e for d1 and d2 differing on
+
+
+
+c
+
+
+displaystyle c
+
+items
+
+
+
+pr
+
+
+
+a
+
+
+
+
+d
+
+1
+
+
+
+
+s
+
+
+exp
+
+
+ε
+c
+
+
+pr
+
+
+
+a
+
+
+
+
+d
+
+2
+
+
+
+
+s
+
+
+
+
+
+displaystyle pr mathcal a d_ 1 in s leq exp varepsilon c cdot pr mathcal a d_ 2 in s
+
+thus setting ε instead to
+
+
+
+ε
+
+
+
+c
+
+
+displaystyle varepsilon c
+
+achieves the desired result protection of
+
+
+
+c
+
+
+displaystyle c
+
+items in other words instead of having each item ε differentially private protected now every group of
+
+
+
+c
+
+
+displaystyle c
+
+items is ε differentially private protected and each item is
+
+
+
+
+ε
+
+
+
+c
+
+
+
+displaystyle varepsilon c
+
+differentially private protected
+
+one can think of differential privacy as bounding the error rates in a hypothesis test consider two hypotheses
+
+then there are two error rates
+
+ideal protection would imply that both error rates are equal but for a fixed ε δ setting an attacker can achieve the following rates
+
+since differential privacy is a probabilistic concept any differentially private mechanism is necessarily randomized some of these like the laplace mechanism described below rely on adding controlled noise to the function that we want to compute others like the exponential mechanism and posterior sampling sample from a problem dependent family of distributions instead
+
+an important definition with respect to ε differentially private mechanisms is sensitivity let
+
+
+
+d
+
+
+displaystyle d
+
+be a positive integer
+
+
+
+
+
+d
+
+
+
+
+displaystyle mathcal d
+
+be a collection of datasets and
+
+
+
+f
+
+
+
+d
+
+
+
+
+
+r
+
+
+d
+
+
+
+
+displaystyle f colon mathcal d rightarrow mathbb r d
+
+be a function one definition of the sensitivity of a function denoted
+
+
+
+δ
+f
+
+
+displaystyle delta f
+
+can be defined by
+
+
+
+δ
+f
+
+max
+
+f
+
+
+d
+
+1
+
+
+
+
+f
+
+
+d
+
+2
+
+
+
+
+
+
+1
+
+
+
+
+
+displaystyle delta f max lvert f d_ 1 f d_ 2 rvert _ 1
+
+where the maximum is over all pairs of datasets
+
+
+
+
+d
+
+1
+
+
+
+
+displaystyle d_ 1
+
+and
+
+
+
+
+d
+
+2
+
+
+
+
+displaystyle d_ 2
+
+in
+
+
+
+
+
+d
+
+
+
+
+displaystyle mathcal d
+
+differing in at most one element and
+
+
+
+
+
+
+
+
+1
+
+
+
+
+displaystyle lvert cdot rvert _ 1
+
+denotes the l1 norm in the example of the medical database below if we consider
+
+
+
+f
+
+
+displaystyle f
+
+to be the function
+
+
+
+
+q
+
+i
+
+
+
+
+displaystyle q_ i
+
+then the sensitivity of the function is one since changing any one of the entries in the database causes the output of the function to change by either zero or one this can be generalized to other metric spaces measures of distance and must be to make certain differentially private algorithms work including adding noise from the gaussian distribution which requires the l2 norm instead of the laplace distribution
+
+there are techniques which are described below using which we can create a differentially private algorithm for functions with parameters that vary depending on their sensitivity
+
+the laplace mechanism adds laplace noise i e noise from the laplace distribution which can be expressed by probability density function
+
+
+
+
+noise
+
+
+y
+
+
+exp
+
+
+
+
+
+
+y
+
+
+
+
+
+
+λ
+
+
+
+
+
+displaystyle text noise y propto exp y lambda
+
+which has mean zero and standard deviation
+
+
+
+
+
+2
+
+
+λ
+
+
+
+
+displaystyle sqrt 2 lambda
+
+now in our case we define the output function of
+
+
+
+
+
+a
+
+
+
+
+
+
+displaystyle mathcal a
+
+as a real valued function called as the transcript output by
+
+
+
+
+
+a
+
+
+
+
+
+
+displaystyle mathcal a
+
+as
+
+
+
+
+
+
+t
+
+
+
+
+a
+
+
+
+
+x
+
+
+f
+
+x
+
+
+y
+
+
+
+
+displaystyle mathcal t _ mathcal a x f x y
+
+where
+
+
+
+y
+
+
+lap
+
+
+λ
+
+
+
+
+
+
+
+displaystyle y sim text lap lambda
+
+and
+
+
+
+f
+
+
+
+
+displaystyle f
+
+is the original real valued query function we planned to execute on the database now clearly
+
+
+
+
+
+
+t
+
+
+
+
+a
+
+
+
+
+x
+
+
+
+
+
+displaystyle mathcal t _ mathcal a x
+
+can be considered to be a continuous random variable where
+
+which is at most
+
+
+
+
+e
+
+
+
+
+
+
+f
+
+
+d
+
+1
+
+
+
+
+f
+
+
+d
+
+2
+
+
+
+
+
+
+
+λ
+
+
+
+
+
+e
+
+
+
+δ
+
+f
+
+
+λ
+
+
+
+
+
+
+
+displaystyle e frac f d_ 1 f d_ 2 lambda leq e frac delta f lambda
+
+we can consider
+
+
+
+
+
+
+δ
+
+f
+
+
+λ
+
+
+
+
+
+
+displaystyle frac delta f lambda
+
+to be the privacy factor
+
+
+
+ε
+
+
+
+
+displaystyle varepsilon
+
+thus
+
+
+
+
+
+t
+
+
+
+
+
+
+displaystyle mathcal t
+
+follows a differentially private mechanism as can be seen from the definition above if we try to use this concept in our diabetes example then it follows from the above derived fact that in order to have
+
+
+
+
+
+a
+
+
+
+
+
+
+displaystyle mathcal a
+
+as the
+
+
+
+ε
+
+
+
+
+displaystyle varepsilon
+
+differential private algorithm we need to have
+
+
+
+λ
+
+1
+
+
+
+ε
+
+
+
+
+displaystyle lambda 1 varepsilon
+
+though we have used laplace noise here other forms of noise such as the gaussian noise can be employed but they may require a slight relaxation of the definition of differential privacy
+
+a simple example especially developed in the social sciences is to ask a person to answer the question do you own the attribute a according to the following procedure
+
+the seemingly redundant extra toss in the first case is needed in situations where just the act of tossing a coin may be observed by others even if the actual result stays hidden the confidentiality then arises from the refutability of the individual responses
+
+but overall these data with many responses are significant since positive responses are given to a quarter by people who do not have the attribute a and three quarters by people who actually possess it thus if p is the true proportion of people with a then we expect to obtain 1 4 1 p 3 4 p 1 4 p 2 positive responses hence it is possible to estimate p
+
+in particular if the attribute a is synonymous with illegal behavior then answering yes is not incriminating insofar as the person has a probability of a yes response whatever it may be
+
+although this example inspired by randomized response might be applicable to microdata i e releasing datasets with each individual response by definition differential privacy excludes microdata releases and is only applicable to queries i e aggregating individual responses into one result as this would violate the requirements more specifically the plausible deniability that a subject participated or not
+
+a transformation
+
+
+
+t
+
+
+displaystyle t
+
+is
+
+
+
+c
+
+
+displaystyle c
+
+stable if the hamming distance between
+
+
+
+t
+
+a
+
+
+
+displaystyle t a
+
+and
+
+
+
+t
+
+b
+
+
+
+displaystyle t b
+
+is at most
+
+
+
+c
+
+
+displaystyle c
+
+times the hamming distance between
+
+
+
+a
+
+
+displaystyle a
+
+and
+
+
+
+b
+
+
+displaystyle b
+
+for any two databases
+
+
+
+a
+
+b
+
+
+displaystyle a b
+
+citation needed if there is a mechanism
+
+
+
+m
+
+
+displaystyle m
+
+that is
+
+
+
+ε
+
+
+displaystyle varepsilon
+
+differentially private then the composite mechanism
+
+
+
+m
+
+t
+
+
+displaystyle m circ t
+
+is
+
+
+
+
+ε
+
+c
+
+
+
+displaystyle varepsilon times c
+
+differentially private
+
+this could be generalized to group privacy as the group size could be thought of as the hamming distance
+
+
+
+h
+
+
+displaystyle h
+
+between
+
+
+
+
+a
+
+
+displaystyle a
+
+and
+
+
+
+b
+
+
+displaystyle b
+
+where
+
+
+
+a
+
+
+displaystyle a
+
+contains the group and
+
+
+
+b
+
+
+displaystyle b
+
+does not in this case
+
+
+
+m
+
+t
+
+
+displaystyle m circ t
+
+is
+
+
+
+
+ε
+
+c
+
+h
+
+
+
+displaystyle varepsilon times c times h
+
+differentially private citation needed
+
+in 1977 tore dalenius formalized the mathematics of cell suppression tore dalenius was a swedish statistician who contributed to statistical privacy through his 1977 paper that revealed a key point about statistical databases which was that databases should not reveal information about an individual that is not otherwise accessible he also defined a typology for statistical disclosures
+
+in 1979 dorothy denning peter j denning and mayer d schwartz formalized the concept of a tracker an adversary that could learn the confidential contents of a statistical database by creating a series of targeted queries and remembering the results this and future research showed that privacy properties in a database could only be preserved by considering each new query in light of possibly all previous queries this line of work is sometimes called query privacy with the final result being that tracking the impact of a query on the privacy of individuals in the database was np hard citation needed
+
+in 2003 kobbi nissim and irit dinur demonstrated that it is impossible to publish arbitrary queries on a private statistical database without revealing some amount of private information and that the entire information content of the database can be revealed by publishing the results of a surprisingly small number of random queries far fewer than was implied by previous work the general phenomenon is known as the fundamental law of information recovery and its key insight namely that in the most general case privacy cannot be protected without injecting some amount of noise led to development of differential privacy citation needed
+
+in 2006 cynthia dwork frank mcsherry kobbi nissim and adam d smith published an article formalizing the amount of noise that needed to be added and proposing a generalized mechanism for doing so citation needed this paper also created the first formal definition of differential privacy their work was a co recipient of the 2016 tcc test of time award and the 2017 gödel prize
+
+since then subsequent research has shown that there are many ways to produce very accurate statistics from the database while still ensuring high levels of privacy
+
+to date there are over 12 real world deployments of differential privacy the most noteworthy being
+
+there are several public purpose considerations regarding differential privacy that are important to consider especially for policymakers and policy focused audiences interested in the social opportunities and risks of the technology
+
+because differential privacy techniques are implemented on real computers they are vulnerable to various attacks not possible to compensate for solely in the mathematics of the techniques themselves in addition to standard defects of software artifacts that can be identified using testing or fuzzing implementations of differentially private mechanisms may suffer from the following vulnerabilities

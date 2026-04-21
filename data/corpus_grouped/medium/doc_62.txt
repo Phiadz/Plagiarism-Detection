@@ -1,0 +1,25 @@
+
+
+the cross industry standard process for data mining known as crisp dm is an open standard process model that describes common approaches used by data mining experts it is the most widely used analytics model
+
+in 2015 ibm released a new methodology called analytics solutions unified method for data mining predictive analytics also known as asum dm which refines and extends crisp dm
+
+crisp dm was conceived in 1996 and became a european union project under the esprit funding initiative in 1997 the project was led by five companies integral solutions ltd isl teradata daimler ag ncr corporation and ohra an insurance company
+
+this core consortium brought different experiences to the project isl was later acquired and merged into spss the computer giant ncr corporation produced the teradata data warehouse and its own data mining software daimler benz had a significant data mining team ohra was starting to explore the potential use of data mining
+
+the first version of the methodology was presented at the 4th crisp dm sig workshop in brussels in march 1999 and published as a step by step data mining guide later that year
+
+between 2006 and 2008 a crisp dm 2 0 sig was formed and there were discussions about updating the crisp dm process model the current status of these efforts is not known however the original crisp dm org website cited in the reviews and the crisp dm 2 0 sig website are both no longer active
+
+while many non ibm data mining practitioners use crisp dm ibm is the primary corporation that currently uses the crisp dm process model it makes some of the old crisp dm documents available for download and it has incorporated it into its spss modeler product
+
+based on current research crisp dm is the most widely used form of data mining model because of its various advantages which solved the existing problems in the data mining industries some of the drawbacks of this model is that it does not perform project management activities the success of crisp dm is largely attributable to the fact that it is industry tool and application neutral
+
+crisp dm breaks the process of data mining into six major phases
+
+the sequence of the phases is not strict and moving back and forth between different phases is usually required the arrows in the process diagram indicate the most important and frequent dependencies between phases the outer circle in the diagram symbolizes the cyclic nature of data mining itself a data mining process continues after a solution has been deployed the lessons learned during the process can trigger new often more focused business questions and subsequent data mining processes will benefit from the experiences of previous ones
+
+polls conducted at the same website kdnuggets in 2002 2004 2007 and 2014 show that it was the leading methodology used by industry data miners who decided to respond to the survey the only other data mining approach named in these polls was semma however sas institute clearly states that semma is not a data mining methodology but rather a logical organization of the functional toolset of sas enterprise miner a review and critique of data mining process models in 2009 called the crisp dm the de facto standard for developing data mining and knowledge discovery projects other reviews of crisp dm and data mining process models include kurgan and musilek s 2006 review and azevedo and santos 2008 comparison of crisp dm and semma efforts to update the methodology started in 2006 but have as of june 2015 not led to a new version and the special interest group sig responsible along with the website has long disappeared see history of crisp dm
+
+in 2024 harvard business review published an updated framework bizml that is designed for greater relevance to business personnel and to be specific for machine learning projects in particular rather than for analytics data science or data mining projects in general

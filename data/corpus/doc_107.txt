@@ -1,0 +1,47 @@
+value of information voi or voi is the amount a decision maker would be willing to pay for information prior to making a decision
+
+voi is sometimes distinguished into value of perfect information also called value of clairvoyance voc and value of imperfect information they are closely related to the widely known expected value of perfect information evpi and expected value of sample information evsi note that voi is not necessarily equal to value of decision situation with perfect information value of current decision situation as commonly understood
+
+a simple example best illustrates the concept consider the decision situation with one decision for example deciding on a vacation activity and one uncertainty for example what will the weather condition be but we will only know the weather condition after we have decided and begun the vacation activity
+
+the above definition illustrates that the value of imperfect information of any uncertainty can always be framed as the value of perfect information i e voc of another uncertainty hence only the term voc will be used onwards
+
+consider a general decision situation having n decisions d1 d2 d3 dn and m uncertainties u1 u2 u3 um rationality assumption in standard individual decision making philosophy states that what is made or known are not forgotten i e the decision maker has perfect recall this assumption translates into the existence of a linear ordering of these decisions and uncertainties such that
+
+consider cases where the decision maker is enabled to know the outcome of some additional uncertainties earlier in his her decision situation i e some ui are moved to appear earlier in the ordering in such case voc is quantified as the highest price which the decision maker is willing to pay for all those moves
+
+the standard then is further generalized in team decision analysis framework where there is typically incomplete sharing of information among team members under the same decision situation in such case what is made or known might not be known in later decisions belonging to different team members i e there might not exist linear ordering of decisions and uncertainties satisfying perfect recall assumption voc thus captures the value of being able to know not only additional uncertainties but also additional decisions already made by other team members before making some other decisions in the team decision situation
+
+there are four characteristics of voi that always hold for any decision situation
+
+voc is derived strictly following its definition as the monetary amount that is big enough to just offset the additional benefit of getting more information in other words voc is calculated iteratively until
+
+a special case is when the decision maker is risk neutral where voc can be simply computed as
+
+this special case is how expected value of perfect information and expected value of sample information are calculated where risk neutrality is implicitly assumed for cases where the decision maker is risk averse or risk seeking this simple calculation does not necessarily yield the correct result and iterative calculation is the only way to ensure correctness
+
+decision trees and influence diagrams are most commonly used in representing and solving decision situations as well as associated voc calculation the influence diagram in particular is structured to accommodate team decision situations where incomplete sharing of information among team members can be represented and solved very efficiently while decision trees are not designed to accommodate team decision situations they can do so by augmenting them with information sets widely used in game trees
+
+voc is often illustrated using the example of paying for a consultant in a business transaction who may either be perfect expected value of perfect information or imperfect expected value of imperfect information
+
+in a typical consultant situation the consultant would be paid up to cost c for their information based on the expected cost e without the consultant and the revised cost f with the consultant s information in a perfect information scenario e can be defined as the sum product of the probability of a good outcome g times its cost k plus the probability of a bad outcome 1 g times its cost k k
+
+e gk 1 g k
+
+which is revised to reflect expected cost f of perfect information including consulting cost c the perfect information case assumes the bad outcome does not occur due to the perfect information consultant
+
+f g k c
+
+we then solve for values of c for which f e to determine when to pay the consultant
+
+in the case of a recursive decision tree we often have an additional cost m that results from correcting the error and the process restarts such that the expected cost will appear on both the left and right sides of our equations this is typical of hiring rehiring decisions or value chain decisions for which assembly line components must be replaced if erroneously ordered or installed
+
+e gk 1 g k m e
+
+f g k c
+
+if the consultant is imperfect with frequency f then the consultant cost is solved with the probability of error included
+
+f g k c 1 f g k c f f 1 g 1 f k c f 1 g f k c m f
+
+voi is also used to do an inspection and maintenance planning of the structures analyze to what extent the value associated with the information collected during the service life of engineered structures for example inspections in the context of integrity management is affected by not only measurement random errors but also biases systematic errors taking the dependency between the collections into account

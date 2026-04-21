@@ -1,0 +1,25 @@
+ai overviews is an artificial intelligence ai feature integrated into google search that produces ai generated summaries of search results the feature has been criticized for its accuracy and for reducing traffic to content websites
+
+ai overviews were first introduced as part of google s search generative experience sge which was unveiled at the google i o conference in may 2023 in may 2024 at google i o 2024 the feature was rebranded as ai overviews and launched in the united states the introduction of ai overviews was seen as a strategic move to compete with other generative ai advancements including openai s chatgpt
+
+by august 2024 ai overviews was rolled out to several other countries including the united kingdom india japan brazil mexico and indonesia with support for multiple languages in october 2024 google expanded the feature globally making it available in over 100 countries
+
+in december 2024 botify x demandsphere released findings stating that when ai overviews and featured snippets appear in the serp together they take up approximately 67 1 of the screen on desktop and 75 7 of the screen on mobile even if content is ranking in the 1 position it may not be visible to consumers depending on the other visual elements on the results page
+
+in march 2025 google started testing an ai mode where the search results page is ai generated the company was also considering adding advertisements to the ai mode as they already exist in ai overviews
+
+as of may 2025 ai overviews are now available in over 200 countries and territories and more than 40 languages
+
+the ai overviews feature uses large language models to generate summaries based on web content the overviews are designed to be concise providing a snapshot of relevant information on the queried topic google allows users to adjust the complexity of the language in the summaries offering both simplified and detailed options
+
+the overviews also include links to sources according to a june 2025 study by semrush the most cited source is quora followed by reddit
+
+early iterations of the feature faced criticism for inaccuracies including instances where erroneous or nonsensical content was generated depending on what is searched for the overview may also consist of hallucinated content such as when searching for idioms that do not exist in may 2024 google temporarily restricted the ai tool after it provided nonsensical and harmful suggestions such as telling users to eat rocks or apply glue on pizza concerns were also raised by content publishers who feared a decline in web traffic as users relied on the summaries instead of visiting source websites a google patent from 2026 raised the concern of webmasters that google could entirely replace the landing page of websites by an ai optimized copy of the website in its results
+
+furthermore there is apprehension about the ethical implications of ai driven content aggregation including its impact on intellectual property rights and the visibility of smaller content providers
+
+in response google has stated its commitment to improve content validation and refine the algorithms used to filter unreliable information google implemented measures to prioritize link placement within ai overviews aiming to balance user convenience with the needs of content creators in january 2026 google restricted ai overviews on certain health related searches following an investigation by the guardian
+
+on february 24 2025 chegg sued alphabet over the ai overviews feature claiming that it was leading to students preferring low quality unverified ai summaries thus violating antitrust law chegg also said it was considering either a sale or a take private transaction
+
+in september 2025 penske media corporation the publisher of rolling stone and the hollywood reporter sued google claiming that ai overviews illegally regurgitate content from their websites and drive off potential site visitors by always appearing on top of the search results while leaving little incentive to see the linked sources the company stated that the future of digital media and its integrity is threatened by google s current actions alleging that 20 of searches that link to penske owned websites show ai overviews and that the figure is expected to rise google spokesperson josé castañeda called the claims meritless and stated that ai overviews send traffic to a greater diversity of sites

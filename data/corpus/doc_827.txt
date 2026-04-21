@@ -1,0 +1,38 @@
+in the history of artificial intelligence ai neat and scruffy are two contrasting approaches to ai research the distinction was made in the 1970s and was a subject of discussion until the mid 1980s
+
+neats use algorithms based on a single formal paradigm such as logic mathematical optimization or neural networks neats verify their programs are correct via rigorous mathematical theory neat researchers and analysts tend to express the hope that this single formal paradigm can be extended and improved in order to achieve general intelligence and superintelligence
+
+scruffies use any number of different algorithms and methods to achieve intelligent behavior and rely on incremental testing to verify their programs scruffy programming requires large amounts of hand coding and knowledge engineering scruffy experts have argued that general intelligence can only be implemented by solving a large number of essentially unrelated problems and that there is no silver bullet that will allow programs to develop general intelligence autonomously
+
+john brockman compares the neat approach to physics in that it uses simple mathematical models as its foundation the scruffy approach is more biological in that much of the work involves studying and categorizing diverse phenomena a
+
+modern ai clarification needed has elements of both scruffy and neat approaches scruffy ai researchers in the 1990s applied mathematical rigor to their programs as neat experts did they also express the hope that there is a single paradigm a master algorithm that will cause general intelligence and superintelligence to emerge but modern ai also resembles the scruffies modern machine learning applications require a great deal of hand tuning and incremental testing while the general algorithm is mathematically rigorous accomplishing the specific goals of a particular application is not
+
+the distinction between neat and scruffy originated in the mid 1970s by roger schank schank used the terms to characterize the difference between his work on natural language processing which represented commonsense knowledge in the form of large amorphous semantic networks from the work of john mccarthy allen newell herbert a simon robert kowalski and others whose work was based on logic and formal extensions of logic schank described himself as an ai scruffy he made this distinction in linguistics arguing strongly against chomsky s view of language a
+
+the distinction was also partly geographical and cultural scruffy attributes were exemplified by ai research at mit under marvin minsky in the 1970s citation needed the laboratory was famously freewheeling and researchers often developed ai programs by spending long hours fine tuning programs until they showed the required behavior important and influential scruffy programs developed at mit included joseph weizenbaum s eliza which behaved as if it spoke english without any formal knowledge at all and terry winograd s b shrdlu which could successfully answer queries and carry out actions in a simplified world consisting of blocks and a robot arm shrdlu while successful could not be scaled up into a useful natural language processing system because it lacked a structured design maintaining a larger version of the program proved to be impossible i e it was too scruffy to be extended citation needed
+
+other ai laboratories of which the largest were stanford carnegie mellon university and the university of edinburgh focused on logic and formal problem solving as a basis for ai these institutions supported the work of john mccarthy herbert simon allen newell donald michie robert kowalski and other neats
+
+the contrast between mit s approach and other laboratories was also described by whom as a procedural declarative distinction citation needed programs like shrdlu were designed as agents that carried out actions they executed procedures other programs were designed as inference engines that manipulated formal statements or declarations about the world and translated these manipulations into actions
+
+in his 1983 presidential address to association for the advancement of artificial intelligence nils nilsson discussed the issue arguing that the field needed both he wrote much of the knowledge we want our programs to have can and should be represented declaratively in some kind of declarative logic like formalism ad hoc structures have their place but most of these come from the domain itself alex p pentland and martin fischler of sri international concurred about the anticipated role of deduction and logic like formalisms in future ai research but not to the extent that nilsson described
+
+the scruffy approach was applied to robotics by rodney brooks in the mid 1980s he advocated building robots that were as he put it fast cheap and out of control the title of a 1989 paper co authored with anita flynn unlike earlier robots such as shakey or the stanford cart they did not build up representations of the world by analyzing visual information with algorithms drawn from mathematical machine learning techniques and they did not plan their actions using formalizations based on logic such as the planner language they simply reacted to their sensors in a way that tended to help them survive and move
+
+douglas lenat s cyc project was initiated in 1984 one of earliest and most ambitious projects to capture all of human knowledge in machine readable form is a determinedly scruffy enterprise the cyc database contains millions of facts about all the complexities of the world each of which must be entered one at a time by knowledge engineers each of these entries is an ad hoc addition to the intelligence of the system
+
+in 1986 marvin minsky published the society of mind which advocated a view of intelligence and the mind as an interacting community of modules or agents that each handled different aspects of cognition where some modules were specialized for very specific tasks e g edge detection in the visual cortex and other modules were specialized to manage communication and prioritization e g planning and attention in the frontal lobes minsky presented this paradigm as a model of both biological human intelligence and as a blueprint for future work in ai
+
+this paradigm is explicitly scruffy in that it does not expect there to be a single algorithm that can be applied to all of the tasks involved in intelligent behavior minsky wrote
+
+what magical trick makes us intelligent the trick is that there is no trick the power of intelligence stems from our vast diversity not from any single perfect principle
+as of 1991 minsky was still publishing papers evaluating the relative advantages of the neat versus scruffy approaches e g logical versus analogical or symbolic versus connectionist or neat versus scruffy
+
+new statistical and mathematical approaches to ai were developed in the 1990s using highly developed formalisms such as mathematical optimization and neural networks pamela mccorduck wrote that as i write ai enjoys a neat hegemony people who believe that machine intelligence at least is best expressed in logical even mathematical terms this general trend towards more formal methods in ai was described as the victory of the neats by peter norvig and stuart russell in 2003
+
+however by 2021 russell and norvig had changed their minds deep learning networks and machine learning in general require extensive fine tuning they must be iteratively tested until they begin to show the desired behavior this is a scruffy methodology
+
+neats
+
+scruffies

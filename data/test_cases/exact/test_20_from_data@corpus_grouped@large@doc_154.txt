@@ -1,0 +1,1 @@
+entroid of its points this process condenses extensive datasets into a more compact set of representative points particularly beneficial in image and signal processing k means clustering aids in data reduction by replacing groups of data points with their centroids thereby preserving the core inform

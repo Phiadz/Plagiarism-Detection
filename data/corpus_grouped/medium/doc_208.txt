@@ -1,0 +1,80 @@
+evolutionary algorithms ea reproduce essential elements of biological evolution in a computer algorithm in order to solve difficult problems at least approximately for which no exact or satisfactory solution methods are known they are metaheuristics and population based bio inspired algorithms and evolutionary computation which itself are part of the field of computational intelligence the mechanisms of biological evolution that an ea mainly imitates are reproduction mutation recombination and selection candidate solutions to the optimization problem play the role of individuals in a population and the fitness function determines the quality of the solutions see also loss function evolution of the population then takes place after the repeated application of the above operators
+
+evolutionary algorithms often perform well approximating solutions to all types of problems because they ideally do not make any assumption about the underlying fitness landscape techniques from evolutionary algorithms applied to the modeling of biological evolution are generally limited to explorations of microevolution microevolutionary processes and planning models based upon cellular processes in most real applications of eas computational complexity is a prohibiting factor in fact this computational complexity is due to fitness function evaluation fitness approximation is one of the solutions to overcome this difficulty however seemingly simple ea can solve often complex problems therefore there may be no direct link between algorithm complexity and problem complexity
+
+the following is an example of a generic evolutionary algorithm
+
+similar techniques differ in genetic representation and other implementation details and the nature of the particular applied problem
+
+the following theoretical principles apply to all or almost all eas
+
+the no free lunch theorem of optimization states that all optimization strategies are equally effective when the set of all optimization problems is considered under the same condition no evolutionary algorithm is fundamentally better than another this can only be the case if the set of all problems is restricted this is exactly what is inevitably done in practice therefore to improve an ea it must exploit problem knowledge in some form e g by choosing a certain mutation strength or a problem adapted coding thus if two eas are compared this constraint is implied in addition an ea can use problem specific knowledge by for example not randomly generating the entire start population but creating some individuals through heuristics or other procedures another possibility to tailor an ea to a given problem domain is to involve suitable heuristics local search procedures or other problem related procedures in the process of generating the offspring this form of extension of an ea is also known as a memetic algorithm both extensions play a major role in practical applications as they can speed up the search process and make it more robust
+
+for eas in which in addition to the offspring at least the best individual of the parent generation is used to form the subsequent generation so called elitist eas there is a general proof of convergence under the condition that an optimum exists without loss of generality a maximum search is assumed for the proof
+
+from the property of elitist offspring acceptance and the existence of the optimum it follows that per generation
+
+
+
+k
+
+
+displaystyle k
+
+an improvement of the fitness
+
+
+
+f
+
+
+displaystyle f
+
+of the respective best individual
+
+
+
+
+x
+
+
+
+
+displaystyle x
+
+will occur with a probability
+
+
+
+p
+
+0
+
+
+displaystyle p 0
+
+thus
+
+i e the fitness values represent a monotonically non decreasing sequence which is bounded due to the existence of the optimum from this follows the convergence of the sequence against the optimum
+
+since the proof makes no statement about the speed of convergence it is of little help in practical applications of eas but it does justify the recommendation to use elitist eas however when using the usual panmictic population model elitist eas tend to converge prematurely more than non elitist ones in a panmictic population model mate selection see step 4 of the generic definition is such that every individual in the entire population is eligible as a mate in non panmictic populations selection is suitably restricted so that the dispersal speed of better individuals is reduced compared to panmictic ones thus the general risk of premature convergence of elitist eas can be significantly reduced by suitable population models that restrict mate selection
+
+with the theory of virtual alphabets david e goldberg showed in 1990 that by using a representation with real numbers an ea that uses classical recombination operators e g uniform or n point crossover cannot reach certain areas of the search space in contrast to a coding with binary numbers this results in the recommendation for eas with real representation to use arithmetic operators for recombination e g arithmetic mean or intermediate recombination with suitable operators real valued representations are more effective than binary ones contrary to earlier opinion
+
+a possible limitation according to whom of many evolutionary algorithms is their lack of a clear genotype phenotype distinction in nature the fertilized egg cell undergoes a complex process known as embryogenesis to become a mature phenotype this indirect encoding is believed to make the genetic search more robust i e reduce the probability of fatal mutations and also may improve the evolvability of the organism such indirect also known as generative or developmental encodings also enable evolution to exploit the regularity in the environment recent work in the field of artificial embryogeny or artificial developmental systems seeks to address these concerns and gene expression programming successfully explores a genotype phenotype system where the genotype consists of linear multigenic chromosomes of fixed length and the phenotype consists of multiple expression trees or computer programs of different sizes and shapes improper synthesis
+
+both method classes have in common that their individual search steps are determined by chance the main difference however is that eas like many other metaheuristics learn from past search steps and incorporate this experience into the execution of the next search steps in a method specific form with eas this is done firstly through the fitness based selection operators for partner choice and the formation of the next generation and secondly in the type of search steps in ea they start from a current solution and change it or they mix the information of two solutions in contrast when dicing out new solutions in monte carlo methods there is usually no connection to existing solutions
+
+if on the other hand the search space of a task is such that there is nothing to learn monte carlo methods are an appropriate tool as they do not contain any algorithmic overhead that attempts to draw suitable conclusions from the previous search an example of such tasks is the proverbial search for a needle in a haystack e g in the form of a flat hyper plane with a single narrow peak
+
+the areas in which evolutionary algorithms are practically used are almost unlimited and range from industry engineering complex scheduling agriculture robot movement planning and finance to research and art the application of an evolutionary algorithm requires some rethinking from the inexperienced user as the approach to a task using an ea is different from conventional exact methods and this is usually not part of the curriculum of engineers or other disciplines for example the fitness calculation must not only formulate the goal but also support the evolutionary search process towards it e g by rewarding improvements that do not yet lead to a better evaluation of the original quality criteria for example if peak utilisation of resources such as personnel deployment or energy consumption is to be avoided in a scheduling task it is not sufficient to assess the maximum utilisation rather the number and duration of exceedances of a still acceptable level should also be recorded in order to reward reductions below the actual maximum peak value there are therefore some publications that are aimed at the beginner and want to help avoiding beginner s mistakes as well as leading an application project to success this includes clarifying the fundamental question of when an ea should be used to solve a problem and when it is better not to
+
+there are some other proven and widely used methods of nature inspired global search techniques such as
+
+in addition many new nature inspired or metaphor guided algorithms have been proposed since the beginning of the 21st century for criticism of most publications on these see the remarks at the end of the introduction to the article on metaheuristics
+
+in 2020 google stated that their automl zero can successfully rediscover classic algorithms such as the concept of neural networks
+
+the computer simulations tierra and avida attempt to model macroevolutionary dynamics
+
+

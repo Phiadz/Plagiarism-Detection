@@ -1,0 +1,67 @@
+in information science an ontology encompasses a representation formal naming and definitions of the categories properties and relations between the concepts data or entities that pertain to one many or all domains of discourse more simply an ontology is a way of showing the properties of a subject area and how they are related by defining a set of terms and relational expressions that represent the entities in that subject area the field which studies ontologies so conceived is sometimes referred to as applied ontology
+
+every academic discipline or field in creating its terminology thereby lays the groundwork for an ontology each uses ontological assumptions to frame explicit theories research and applications improved ontologies may improve problem solving within that domain interoperability of data systems and discoverability of data translating research papers within every field is a problem made easier when experts from different countries maintain a controlled vocabulary of jargon between each of their languages for instance the definition and ontology of economics is a primary concern in marxist economics but also in other subfields of economics an example of economics relying on information science occurs in cases where a simulation or model is intended to enable economic decisions such as determining what capital assets are at risk and by how much see risk management
+
+what ontologies in both information science and philosophy have in common is the attempt to represent entities including both objects and events with all their interdependent properties and relations according to a system of categories in both fields there is considerable work on problems of ontology engineering e g quine and kripke in philosophy sowa and guarino in information science and debates concerning to what extent normative ontology is possible e g foundationalism and coherentism in philosophy bfo and cyc in artificial intelligence
+
+applied ontology is considered by some as a successor to prior work in philosophy however many current efforts are more concerned with establishing controlled vocabularies of narrow domains than with philosophical first principles or with questions such as the mode of existence of fixed essences or whether enduring objects e g perdurantism and endurantism may be ontologically more primary than processes artificial intelligence has retained considerable attention regarding applied ontology in subfields like natural language processing within machine translation and knowledge representation but ontology editors are being used often in a range of fields including biomedical informatics and industry such efforts often use ontology editing tools such as protégé
+
+ontology is a branch of philosophy and intersects areas such as metaphysics epistemology and philosophy of language as it considers how knowledge language and perception relate to the nature of reality metaphysics deals with questions like what exists and what is the nature of reality one of five traditional branches of philosophy metaphysics is concerned with exploring existence through properties entities and relations such as those between particulars and universals intrinsic and extrinsic properties or essence and existence metaphysics has been an ongoing topic of discussion since recorded history
+
+the compound word ontology combines onto from the greek ὄν on gen ὄντος ontos i e being that which is which is the present participle of the verb εἰμί eimí i e to be i am and λογία logia i e logical discourse see classical compounds for this type of word formation
+
+while the etymology is greek the oldest extant record of the word itself the neo latin form ontologia appeared in 1606 in the work ogdoas scholastica by jacob lorhard lorhardus and in 1613 in the lexicon philosophicum by rudolf göckel goclenius
+
+the first occurrence in english of ontology as recorded by the oed oxford english dictionary online edition 2008 came in archeologia philosophica nova or new principles of philosophy 1663 by gideon harvey
+
+since the mid 1970s researchers in the field of artificial intelligence ai have recognized that knowledge engineering is the key to building large and powerful ai systems citation needed ai researchers argued that they could create new ontologies as computational models that enable certain kinds of automated reasoning which was only marginally successful in the 1980s the ai community began to use the term ontology to refer to both a theory of a modeled world and a component of knowledge based systems in particular david powers introduced the word ontology to ai to refer to real world or robotic grounding publishing in 1990 literature reviews emphasizing grounded ontology in association with the call for papers for a aaai summer symposium machine learning of natural language and ontology with an expanded version published in sigart bulletin and included as a preface to the proceedings some researchers drawing inspiration from philosophical ontologies viewed computational ontology as a kind of applied philosophy
+
+
+in 1993 the widely cited web page and paper toward principles for the design of ontologies used for knowledge sharing by tom gruber used ontology as a technical term in computer science closely related to earlier idea of semantic networks and taxonomies gruber introduced the term as a specification of a conceptualization
+an ontology is a description like a formal specification of a program of the concepts and relationships that can formally exist for an agent or a community of agents this definition is consistent with the usage of ontology as set of concept definitions but more general and it is a different sense of the word than its use in philosophy
+
+attempting to distance ontologies from taxonomies and similar efforts in knowledge modeling that rely on classes and inheritance gruber stated 1993
+ontologies are often equated with taxonomic hierarchies of classes class definitions and the subsumption relation but ontologies need not be limited to these forms ontologies are also not limited to conservative definitions that is definitions in the traditional logic sense that only introduce terminology and do not add any knowledge about the world enderton 1972 to specify a conceptualization one needs to state axioms that do constrain the possible interpretations for the defined terms
+recent experimental ontology frameworks have also explored resonance based ai human co evolution structures such as iamf illumination ai matrix framework ontomotoos a meta operating system concept for ethical and ontological ai human co evolution and psrt phase structural reality theory across multi scale ontological layers though not yet widely adopted in academic discourse such models propose phased approaches to ethical harmonization and structural emergence
+
+as refinement of gruber s definition feilmayr and wöß 2016 stated an ontology is a formal explicit specification of a shared conceptualization that is characterized by high semantic expressiveness required for increased complexity
+
+contemporary ontologies share many structural similarities regardless of the language in which they are expressed most ontologies describe individuals instances classes concepts attributes and relations
+
+a domain ontology or domain specific ontology represents concepts which belong to a realm of the world such as biology or politics each domain ontology typically models domain specific definitions of terms for example the word card has many different meanings an ontology about the domain of poker would model the playing card meaning of the word while an ontology about the domain of computer hardware would model the punched card and video card meanings
+
+since domain ontologies are written by different people they represent concepts in very specific and unique ways and are often incompatible within the same project as systems that rely on domain ontologies expand they often need to merge domain ontologies by hand tuning each entity or using a combination of software merging and hand tuning this presents a challenge to the ontology designer different ontologies in the same domain arise due to different languages different intended usage of the ontologies and different perceptions of the domain based on cultural background education ideology etc citation needed
+
+at present merging ontologies that are not developed from a common upper ontology is a largely manual process and therefore time consuming and expensive domain ontologies that use the same upper ontology to provide a set of basic elements with which to specify the meanings of the domain ontology entities can be merged with less effort there are studies on generalized techniques for merging ontologies but this area of research is still ongoing and it is a recent event to see the issue sidestepped by having multiple domain ontologies using the same upper ontology like the obo foundry
+
+an upper ontology or foundation ontology is a model of the commonly shared relations and objects that are generally applicable across a wide range of domain ontologies it usually employs a core glossary that overarches the terms and associated object descriptions as they are used in various relevant domain ontologies
+
+standardized upper ontologies available for use include bfo dublin core gfo cyc sumo umbel and dolce wordnet has been considered an upper ontology by some and has been used as a linguistic tool for learning domain ontologies
+
+the gellish ontology is an example of a combination of an upper and a domain ontology
+
+a survey of ontology visualization methods is presented by katifori et al an updated survey of ontology visualization methods and tools was published by dudás et al the most established ontology visualization methods namely indented tree and graph visualization are evaluated by fu et al a visual language for ontologies represented in owl is specified by the visual notation for owl ontologies vowl
+
+ontology engineering also called ontology building is a set of tasks related to the development of ontologies for a particular domain it is a subfield of knowledge engineering that studies the ontology development process the ontology life cycle the methods and methodologies for building ontologies and the tools and languages that support them
+
+ontology engineering aims to make explicit the knowledge contained in software applications and organizational procedures for a particular domain ontology engineering offers a direction for overcoming semantic obstacles such as those related to the definitions of business terms and software classes known challenges with ontology engineering include
+
+ontology editors are applications designed to assist in the creation or manipulation of ontologies it is common for ontology editors to use one or more ontology languages
+
+aspects of ontology editors include visual navigation possibilities within the knowledge model inference engines and information extraction support for modules the import and export of foreign knowledge representation languages for ontology matching and the support of meta ontologies such as owl s dublin core etc
+
+ontology learning is the automatic or semi automatic creation of ontologies including extracting a domain s terms from natural language text as building ontologies manually is extremely labor intensive and time consuming there is great motivation to automate the process information extraction and text mining have been explored to automatically link ontologies to documents for example in the context of the biocreative challenges
+
+epistemological assumptions which in research asks what do you know or how do you know it creates the foundation researchers use when approaching a certain topic or area for potential research as epistemology is directly linked to knowledge and how we come about accepting certain truths individuals conducting academic research must understand what allows them to begin theory building simply epistemological assumptions force researchers to question how they arrive at the knowledge they have citation needed
+
+an ontology language is a formal language used to encode an ontology there are a number of such languages for ontologies both proprietary and standards based
+
+the w3c linking open data community project coordinates attempts to converge different ontologies into worldwide semantic web
+
+the development of ontologies has led to the emergence of services providing lists or directories of ontologies called ontology libraries
+
+the following are libraries of human selected ontologies
+
+the following are both directories and search engines
+
+in general ontologies can be used beneficially in several fields

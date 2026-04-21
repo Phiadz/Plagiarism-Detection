@@ -1,0 +1,311 @@
+negation as failure naf for short is a non monotonic inference rule in logic programming used to derive
+
+
+
+
+n
+o
+t
+
+
+p
+
+
+displaystyle mathrm not p
+
+i e that
+
+
+
+p
+
+
+displaystyle p
+
+is assumed not to hold from failure to derive
+
+
+
+p
+
+
+displaystyle p
+
+note that
+
+
+
+
+n
+o
+t
+
+
+p
+
+
+displaystyle mathrm not p
+
+can be different from the statement
+
+
+
+
+p
+
+
+displaystyle neg p
+
+of the logical negation of
+
+
+
+p
+
+
+displaystyle p
+
+depending on the completeness of the inference algorithm and thus also on the formal logic system
+
+negation as failure has been an important feature of logic programming since the earliest days of both planner and prolog in prolog it is usually implemented using prolog s extralogical constructs
+
+more generally this kind of negation is known as weak negation in contrast with the strong i e explicit provable negation
+
+in planner negation as failure could be implemented as follows
+
+which says that if an exhaustive search to prove p fails then assert p this states that proposition p shall be assumed as not true in any subsequent processing however planner not being based on a logical model a logical interpretation of the preceding remains obscure
+
+in pure prolog naf literals of the form
+
+
+
+
+n
+o
+t
+
+
+p
+
+
+displaystyle mathrm not p
+
+can occur in the body of clauses and can be used to derive other naf literals for example given only the four clauses
+
+naf derives
+
+
+
+
+n
+o
+t
+
+
+s
+
+
+displaystyle mathrm not s
+
+
+
+
+
+
+n
+o
+t
+
+
+r
+
+
+displaystyle mathrm not r
+
+and
+
+
+
+p
+
+
+displaystyle p
+
+as well as
+
+
+
+t
+
+
+displaystyle t
+
+and
+
+
+
+q
+
+
+displaystyle q
+
+
+
+the semantics of naf remained an open issue until 1978 when keith clark showed that it is correct with respect to the completion of the logic program where loosely speaking only and
+
+
+
+
+
+
+displaystyle leftarrow
+
+are interpreted as if and only if written as iff or
+
+
+
+
+
+
+displaystyle equiv
+
+
+
+for example the completion of the four clauses above is
+
+the naf inference rule simulates reasoning explicitly with the completion where both sides of the equivalence are negated and negation on the right hand side is distributed down to atomic formulae for example to show
+
+
+
+
+n
+o
+t
+
+
+p
+
+
+displaystyle mathrm not p
+
+naf simulates reasoning with the equivalences
+
+in the non propositional case the completion needs to be augmented with equality axioms to formalize the assumption that individuals with distinct names are distinct naf simulates this by failure of unification for example given only the two clauses
+
+naf derives
+
+
+
+
+n
+o
+t
+
+
+p
+
+c
+
+
+
+displaystyle mathrm not p c
+
+
+
+the completion of the program is
+
+augmented with unique names axioms and domain closure axioms
+
+the completion semantics is closely related both to circumscription and to the closed world assumption
+
+the completion semantics justifies interpreting the result
+
+
+
+
+n
+o
+t
+
+
+p
+
+
+displaystyle mathrm not p
+
+of a naf inference as the classical negation
+
+
+
+
+p
+
+
+displaystyle neg p
+
+of
+
+
+
+p
+
+
+displaystyle p
+
+however in 1987 michael gelfond showed that it is also possible to interpret
+
+
+
+
+n
+o
+t
+
+
+p
+
+
+displaystyle mathrm not p
+
+literally as
+
+
+
+p
+
+
+displaystyle p
+
+can not be shown
+
+
+
+p
+
+
+displaystyle p
+
+is not known or
+
+
+
+p
+
+
+displaystyle p
+
+is not believed as in autoepistemic logic the autoepistemic interpretation was developed further by gelfond and lifschitz in 1988 and is the basis of answer set programming
+
+the autoepistemic semantics of a pure prolog program p with naf literals is obtained by expanding p with a set of ground variable free naf literals δ that is stable in the sense that
+
+in other words a set of assumptions δ about what can not be shown is stable if and only if δ is the set of all sentences that truly can not be shown from the program p expanded by δ here because of the simple syntax of pure prolog programs implied by can be understood very simply as derivability using modus ponens and universal instantiation alone
+
+a program can have zero one or more stable expansions for example
+
+has no stable expansions
+
+has exactly one stable expansion δ not q
+
+has exactly two stable expansions δ1 not p and δ2 not q
+
+the autoepistemic interpretation of naf can be combined with classical negation as in extended logic programming and answer set programming combining the two negations it is possible to express for example

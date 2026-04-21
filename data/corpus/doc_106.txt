@@ -1,0 +1,14 @@
+a data infrastructure is a digital infrastructure promoting data sharing and consumption
+
+similarly to other infrastructures it is a structure needed for the operation of a society as well as the services and facilities necessary for an economy to function the data economy in this case
+
+there is an intense discussion at international level on e infrastructures and data infrastructure serving scientific work
+the european strategy forum on research infrastructures esfri presented the first european roadmap for large scale research infrastructures
+these are modeled as layered hardware and software systems which support sharing of a wide spectrum of resources spanning from networks storage computing resources and system level middleware software to structured information within collections archives and databases the e infrastructure reflection group e irg has proposed a similar vision
+in particular it envisions e infrastructures where the principles of global collaboration and shared resources are intended to encompass the sharing needs of all research activities
+
+in the framework of the joint information systems committee jisc e infrastructure programme e infrastructures are defined in terms of integration of networks grids data centers and collaborative environments and are intended to include supporting operation centers service registries credential delegation services certificate authorities training and help desk services the cyberinfrastructure programme launched by the us national science foundation nsf plans to develop new research environments in which advanced computational collaborative data acquisition and management services are made available to researchers connected through high performance networks
+
+more recently the vision for global research data infrastructures has been drawn by identifying a number of recommendations for developers of future research infrastructures
+this vision document highlighted the open issues affecting data infrastructures development both technical and organizational and identified future research directions
+besides these initiatives targeting generic infrastructures there are others oriented to specific domains e g the european commission promotes the inspire initiative for an e infrastructure oriented to the sharing of content and service resources of european countries in the ambit of geospatial datasets

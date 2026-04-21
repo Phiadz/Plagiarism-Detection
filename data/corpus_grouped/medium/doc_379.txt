@@ -1,0 +1,459 @@
+in mathematical optimization and decision theory a loss function or cost function sometimes also called an error function is a function that maps an event or values of one or more variables onto a real number intuitively representing some cost associated with the event an optimization problem seeks to minimize a loss function an objective function is either a loss function or its opposite in specific domains variously called a reward function a profit function a utility function a fitness function etc in which case it is to be maximized the loss function could include terms from several levels of the hierarchy
+
+in statistics typically a loss function is used for parameter estimation and the event in question is some function of the difference between estimated and true values for an instance of data the concept as old as laplace was reintroduced in statistics by abraham wald in the middle of the 20th century in the context of economics for example this is usually economic cost or regret in classification it is the penalty for an incorrect classification of an example in actuarial science it is used in an insurance context to model benefits paid over premiums particularly since the works of harald cramér in the 1920s in optimal control the loss is the penalty for failing to achieve a desired value in financial risk management the function is mapped to a monetary loss
+
+leonard j savage argued that using non bayesian methods such as minimax the loss function should be based on the idea of regret i e the loss associated with a decision should be the difference between the consequences of the best decision that could have been made under circumstances will be known and the decision that was in fact taken before they were known
+
+the use of a quadratic loss function is common for example when using least squares techniques it is often more mathematically tractable than other loss functions because of the properties of variances as well as being symmetric an error above the target causes the same loss as the same magnitude of error below the target if the target is
+
+
+
+t
+
+
+displaystyle t
+
+then a quadratic loss function is
+
+for some constant
+
+
+
+c
+
+
+displaystyle c
+
+the value of the constant makes no difference to a decision and can be ignored by setting it equal to 1 this is also known as the squared error loss sel
+
+many common statistics including t tests regression models design of experiments and much else use least squares methods applied using linear regression theory which is based on the quadratic loss function
+
+the quadratic loss function is also used in linear quadratic optimal control problems in these problems even in the absence of uncertainty it may not be possible to achieve the desired values of all target variables often loss is expressed as a quadratic form in the deviations of the variables of interest from their desired values this approach is tractable because it results in linear first order conditions in the context of stochastic control the expected value of the quadratic form is used the quadratic loss assigns more importance to outliers than to the true data due to its square nature so alternatives like the huber log cosh and smae further explanation needed losses are used when the data has many large outliers
+
+in statistics and decision theory a frequently used loss function is the 0 1 loss function
+
+in information theory this loss function is known as hamming distortion
+
+in many applications objective functions including loss functions as a particular case are determined by the problem formulation in other situations the decision maker s preference must be elicited and represented by a scalar valued function called also utility function in a form suitable for optimization the problem that ragnar frisch has highlighted in his nobel prize lecture
+the existing methods for constructing objective functions are collected in the proceedings of two dedicated conferences
+in particular andranik tangian showed that the most usable objective functions quadratic and additive are determined by a few indifference points he used this property in the models for constructing these objective functions from either ordinal or cardinal data that were elicited through computer assisted interviews with decision makers
+among other things he constructed objective functions to optimally distribute budgets for 16 westfalian universities
+and the european subsidies for equalizing unemployment rates among 271 german regions
+
+in some contexts the value of the loss function itself is a random quantity because it depends on the outcome of a random variable
+
+
+
+x
+
+
+displaystyle x
+
+
+
+both frequentist and bayesian statistical theory involve making a decision based on the expected value of the loss function however this quantity is defined differently under the two paradigms
+
+we first define the expected loss in the frequentist context it is obtained by taking the expected value with respect to the probability distribution
+
+
+
+
+p
+
+θ
+
+
+
+
+displaystyle p_ theta
+
+of the observed data
+
+
+
+x
+
+
+displaystyle x
+
+this is also referred to as the risk function of the decision rule
+
+
+
+δ
+
+
+displaystyle delta
+
+and the parameter
+
+
+
+θ
+
+
+displaystyle theta
+
+here the decision rule depends on the outcome of
+
+
+
+x
+
+
+displaystyle x
+
+the risk function is given by
+
+here
+
+
+
+θ
+
+
+displaystyle theta
+
+is a fixed but possibly unknown state of nature
+
+
+
+x
+
+
+displaystyle x
+
+is a vector of observations stochastically drawn from a population
+
+
+
+
+e
+
+θ
+
+
+
+
+displaystyle operatorname e _ theta
+
+is the expectation over all population values of
+
+
+
+x
+
+
+displaystyle x
+
+
+
+
+
+
+d
+
+
+p
+
+θ
+
+
+
+
+displaystyle mathrm d p_ theta
+
+is a probability measure over the event space of
+
+
+
+x
+
+
+displaystyle x
+
+parametrized by
+
+
+
+θ
+
+
+displaystyle theta
+
+and the integral is evaluated over the entire support of
+
+
+
+x
+
+
+displaystyle x
+
+
+
+in a bayesian approach the expectation is calculated using the prior distribution
+
+
+
+
+π
+
+
+
+
+
+
+displaystyle pi
+
+of the parameter
+
+
+
+θ
+
+
+displaystyle theta
+
+
+
+where
+
+
+
+m
+
+
+x
+
+
+
+
+displaystyle m mathbf x
+
+is known as the predictive likelihood wherein
+
+
+
+θ
+
+
+displaystyle theta
+
+has been integrated out
+
+
+
+
+π
+
+
+
+
+
+θ
+
+
+
+
+x
+
+
+
+
+displaystyle pi theta mathbf x
+
+is the posterior distribution and the order of integration has been changed one then should choose the action
+
+
+
+
+a
+
+
+
+
+
+
+displaystyle a
+
+which minimises this expected loss which is referred to as bayes risk
+in the latter equation the integrand inside
+
+
+
+
+d
+
+x
+
+
+displaystyle mathrm d x
+
+is known as the posterior risk and minimising it with respect to decision
+
+
+
+a
+
+
+displaystyle a
+
+also minimizes the overall bayes risk this optimal decision
+
+
+
+
+a
+
+
+
+
+
+
+displaystyle a
+
+is known as the bayes decision rule it minimises the average loss over all possible states of nature
+
+
+
+θ
+
+
+displaystyle theta
+
+over all possible probability weighted data outcomes one advantage of the bayesian approach is to that one need only choose the optimal action under the actual observed data to obtain a uniformly optimal one whereas choosing the actual frequentist optimal decision rule as a function of all possible observations is a much more difficult problem of equal importance though the bayes rule reflects consideration of loss outcomes under different states of nature
+
+
+
+θ
+
+
+displaystyle theta
+
+
+
+in economics decision making under uncertainty is often modelled using the von neumann morgenstern utility function of the uncertain variable of interest such as end of period wealth since the value of this variable is uncertain so is the value of the utility function it is the expected value of utility that is maximized
+
+a decision rule makes a choice using an optimality criterion some commonly used criteria are
+
+sound statistical practice requires selecting an estimator consistent with the actual acceptable variation experienced in the context of a particular applied problem thus in the applied use of loss functions selecting which statistical method to use to model an applied problem depends on knowing the losses that will be experienced from being wrong under the problem s particular circumstances
+
+a common example involves estimating location under typical statistical assumptions the mean or average is the statistic for estimating location that minimizes the expected loss experienced under the squared error loss function while the median is the estimator that minimizes expected loss experienced under the absolute difference loss function still different estimators would be optimal under other less common circumstances
+
+in economics when an agent is risk neutral the objective function is simply expressed as the expected value of a monetary quantity such as profit income or end of period wealth for risk averse or risk loving agents loss is measured as the negative of a utility function and the objective function to be optimized is the expected value of utility
+
+other measures of cost are possible for example mortality or morbidity in the field of public health or safety engineering
+
+for most optimization algorithms it is desirable to have a loss function that is globally continuous and differentiable
+
+two very commonly used loss functions are the squared loss
+
+
+
+l
+
+a
+
+
+
+a
+
+2
+
+
+
+
+displaystyle l a a 2
+
+and the absolute loss
+
+
+
+l
+
+a
+
+
+
+
+
+a
+
+
+
+
+
+displaystyle l a a
+
+however the absolute loss has the disadvantage that it is not differentiable at
+
+
+
+a
+
+0
+
+
+displaystyle a 0
+
+the squared loss has the disadvantage that it has the tendency to be dominated by outliers when summing over a set of
+
+
+
+a
+
+
+displaystyle a
+
+s as in
+
+
+
+
+
+
+i
+
+1
+
+
+n
+
+
+l
+
+
+a
+
+i
+
+
+
+
+
+textstyle sum _ i 1 n l a_ i
+
+the final sum tends to be the result of a few particularly large
+
+
+
+a
+
+
+displaystyle a
+
+values rather than an expression of the average
+
+
+
+a
+
+
+displaystyle a
+
+value
+
+the choice of a loss function is not arbitrary it is very restrictive and sometimes the loss function may be characterized by its desirable properties among the choice principles are for example the requirement of completeness of the class of symmetric statistics in the case of i i d observations the principle of complete information and some others
+
+w edwards deming and nassim nicholas taleb argue that empirical reality not nice mathematical properties should be the sole basis for selecting loss functions and real losses often are not mathematically nice and are not differentiable continuous symmetric etc for example a person who arrives before a plane gate closure can still make the plane but a person who arrives after cannot a discontinuity and asymmetry which makes arriving slightly late much more costly than arriving slightly early in drug dosing the cost of too little drug may be lack of efficacy while the cost of too much may be tolerable toxicity another example of asymmetry traffic pipes beams ecologies climates etc may tolerate increased load or stress with little noticeable change up to a point then become backed up or break catastrophically these situations deming and taleb argue are common in real life problems perhaps more common than classical smooth continuous symmetric differentials cases

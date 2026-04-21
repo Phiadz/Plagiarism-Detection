@@ -1,0 +1,10 @@
+
+in linguistics and natural language processing a corpus pl corpora or text corpus is a dataset consisting of natively digital and older digitalized language resources either annotated or unannotated annotated they have been used in corpus linguistics for statistical hypothesis testing checking occurrences or validating linguistic rules within a specific language territory
+
+a corpus may contain texts in a single language monolingual corpus or text data in multiple languages multilingual corpus in order to make the corpora more useful for doing linguistic research they are often subjected to a process known as annotation an example of annotating a corpus is part of speech tagging or pos tagging in which information about each word s part of speech verb noun adjective etc is added to the corpus in the form of tags another example is indicating the lemma base form of each word when the language of the corpus is not a working language of the researchers who use it interlinear glossing is used to make the annotation bilingual citation needed
+
+some corpora have further structured levels of analysis applied in particular smaller corpora may be fully parsed such corpora are usually called treebanks or parsed corpora the difficulty of ensuring that the entire corpus is completely and consistently annotated means that these corpora are usually smaller containing around one to three million words other levels of linguistic structured analysis are possible including annotations for morphology semantics and pragmatics citation needed
+
+corpora are the main knowledge base in corpus linguistics citation needed other notable areas of application include
+
+

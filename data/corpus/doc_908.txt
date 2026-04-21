@@ -1,0 +1,21 @@
+intelligent automation ia or intelligent process automation is a software term that refers to a combination of artificial intelligence ai and robotic process automation rpa companies use intelligent automation to cut costs and streamline tasks by using artificial intelligence powered robotic software to mitigate repetitive tasks as it accumulates data the system learns in an effort to improve its efficiency intelligent automation applications consist of but are not limited to pattern analysis data assembly and classification the term is similar to hyperautomation a concept identified by research group gartner as being one of the top technology trends of 2020
+
+intelligent automation applies the assembly line concept of breaking tasks into repetitive steps to improve business processes rather than having humans do each step intelligent automation can replace steps with an intelligent software robot or bot improving efficiency
+
+intelligent automation integrates robotic process automation rpa with artificial intelligence techniques such as machine learning natural language processing and computer vision enabling systems to interpret data make decisions and adapt to changing inputs modern platforms use a layered architecture combining workflow orchestration low code tools integration middleware and ai services to coordinate bots and data pipelines across organisational systems
+
+the technology is used to process unstructured content common real world applications include self driving cars self checkouts at grocery stores smart home assistants and appliances businesses can apply data and machine learning to build predictive analytics that react to consumer behavior changes or to implement rpa to improve manufacturing floor operations
+
+for example the technology has also been used to automate the workflow behind distributing covid 19 vaccines data provided by hospital systems electronic health records can be processed to identify and educate patients and schedule vaccinations
+
+intelligent automation can provide real time insights on profitability and efficiency however in an april 2022 survey by alchemmy despite three quarters of businesses acknowledging the importance of artificial intelligence to their future development just a quarter of business leaders 25 considered intelligent automation a game changer in understanding current performance 42 of ctos see shortage of talent as the main obstacle to implementing intelligent automation in their business while 36 of ceos see upskilling and professional development of existing workforce as the most significant adoption barrier
+
+ia is becoming increasingly accessible for firms of all sizes with this in mind it is expected to continue to grow rapidly in all industries this technology has the potential to change the workforce as it advances it will be able to perform increasingly complex and difficult tasks in addition this may expose certain workforce issues as well as change how tasks are allocated tools such as semrush s ai visibility toolkit and enterprise aio reflect these developments by analysing how entities are referenced and represented within responses produced by large language model based systems
+
+streamline processes
+
+customer service improvement
+
+flexibility
+
+this technology related article is a stub you can help wikipedia by adding missing information

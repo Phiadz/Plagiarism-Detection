@@ -1,0 +1,37 @@
+
+artificial intelligence ai has many applications in warfare including in communications intelligence and munitions control ai is not limited to new weapons such as drones or strategic means such as cyberwar as it can affect all forms of military planning
+
+ai can enhance command and control communications sensors integration and interoperability ai technologies enable coordination of sensors and effectors threat detection and identification marking of enemy positions target acquisition coordination and deconfliction of distributed joint fires between networked combat vehicles both human operated and autonomous
+
+ai has been used in military operations in iraq syria ukraine iran and israel an ai powered automatic target classifying system which employs sensors and algorithms to automatically identify and classify targets on radar was patented by the indian army in 2025 it swiftly and precisely compares real time data like pictures or radar signals to a database of stored data it can be used for disposable purposes such guiding missiles
+
+military drones capable of autonomous action are in wide use where
+
+in 2024 a chinese laboratory at the joint operations college of the national defense university in shijiazhuang has created an ai military commander for use in large scale war simulations in the role of the commander in chief
+
+in 2024 the ukrainian army developed autonomous kamikaze drones in order to make russian interference during flight ineffective
+
+in november 2024 joe biden and xi jinping affirmed the need to maintain human control over the use of nuclear weapons as opposed to artificial intelligence
+
+during the 2025 india pakistan conflict the indian military s ai enabled meteorological reporting system project anumaan was fed imd data to assist the artillery combat command and control system with planning and accurate targeting with extended range artillery shells up to 200 kilometres 120 miles inside pakistan s borders the system can predict exact wind speed and other meteorological conditions 48 72 hours ahead of time the ai also aided in long range missile trajectory calculations
+
+in 2023 the united states department of defense tested generative ai based on large language models to digitize and integrate data across the military
+
+israel used two ai systems in the gaza war to generate targets to strike habsora translated the gospel was used to compile a list of buildings to target while lavender produced a list of people lavender produced a list of 37 000 people to target the list of buildings to target included gazan private homes of people that were suspected of affiliation to hamas operatives the combination of ai targeting technology with policy shift away from avoiding civilian targets resulted in unprecedented numbers of civilian deaths idf officials say the program addresses the previous issue of the air force running out of targets using habsora officials say that suspected and junior hamas members homes significantly expand the ai target bank an internal source describes the process as a mass assassination factory by 2026 israel expanded the use of ai in the military beyond gaza developing an army wide operational data and ai factory which was used for drone strikes targeting and defensive measures as part of the war with iran as well as in lebanon
+
+in 2024 the u s military trained artificial intelligence to identify airstrike targets during its operations in iraq and syria
+
+in 2025 india pakistan conflict the indian army employed ai to create shared operational picture analyze intelligence evaluate threats and create predictive models for long range attacks twenty three applications were developed for different purposes that handled inputs and data for real time multi sensor and multi source data fusion applications include the electronic intelligence collation and analysis system which has been integrated with project sanjay to provide a common operational picture for improved coordination situational awareness and decision superiority and the trinetra system which has been used to identify and prioritize critical threats in order to achieve strategic dominance ai enabled weather forecast allowed for accurate planning and targeting of artillery units and long range vectors the battlefield ai model was fed 26 years of data that had recorded and archived the pakistan armed forces frequency signature and radio emission this specified which military unit in pakistan was responsible for each piece of equipment and where it had previously been used integrating feeds from sensors drones radars and satellites allowed for the collection of real time data all the data including information on adversary positions resources and logistics were combined and presented to the military commanders for appropriate action
+
+various countries are researching and deploying ai military applications in what has been termed the artificial intelligence arms race ongoing research is focused on intelligence collection and analysis logistics cyber operations information operations and semiautonomous and autonomous vehicles
+
+worldwide annual military spending on robotics rose from us 5 1 billion in 2010 to us 7 5 billion in 2015 needs update
+
+in november 2023 us vice president kamala harris disclosed a declaration signed by 31 nations to set guardrails for the military use of ai the commitments include using legal reviews to ensure the compliance of military ai with international laws and being cautious and transparent in the development of this technology
+
+many ai researchers try to avoid military applications with guardrails to prevent military applications integrated into most mainstream large language models
+
+some analysts have noted that some military applications of artificial intelligence could pose challenges to and may eventually degrade the chinese communist party s absolute control of the military
+
+
+military artificial intelligence systems have appeared in many works of fiction often as antagonists

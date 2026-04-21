@@ -1,0 +1,341 @@
+
+
+in computational science particle swarm optimization pso is a computational method that optimizes a problem by iteratively trying to improve a population of candidate solutions with regard to a given measure of quality it solves a problem through interactions among a population of candidate solutions dubbed particles moving the particles around in the search space according to simple mathematical formulae that adjust each particle s position and velocity each particle s movement is influenced by its own best known position so far and by the best known position in its topological neighborhood which may include the entire population if so specified vectors are updated as better positions are found this is expected to move the swarm toward good solutions
+
+pso is originally attributed to kennedy and eberhart and was first intended for simulating social behaviour as a stylized representation of the movement of organisms in a bird flock or fish school or the evolution of attitudes in a human population simulation of principles of social behavior was observed to be capable of solving hard mathematical problems the book by kennedy and eberhart describes many philosophical aspects of pso and swarm intelligence an extensive survey of pso applications is made by poli in 2017 a comprehensive review on theoretical and experimental works on pso was published by bonyadi and michalewicz
+
+pso is a metaheuristic as it makes few or no assumptions about the problem being optimized and can search very large spaces of candidate solutions also pso does not use the gradient of the problem being optimized which means pso does not require that the optimization problem be differentiable as is required by classic optimization methods such as gradient descent and quasi newton methods however metaheuristics such as pso do not guarantee an optimal solution is ever found
+
+a basic variant of the pso algorithm is initialized with a connected population called a swarm of candidate solutions called particles a candidate solution is a vector of numeric values which can be considered as coordinates of a point in a search space as an iteratively moving point it can be conceptualized as a particle the particles move around in the search space according to a few simple formulae each particle has some neighbors it is connected to where the neighborhood may be a few or all other population members the next position of a particle is stochastically determined by its own best so far position in the search space as well as the particle s best neighbor s best so far position when an improved position is discovered one that produces a better result in the objective function the best so far position of the particle is updated the process is repeated and by doing so it is expected but not guaranteed that a satisfactory solution will eventually be discovered
+
+formally let f ℝn ℝ be the cost function which must be minimized the function takes a candidate solution as an argument in the form of a vector of real numbers and produces a real number as output which indicates the objective function value of the given candidate solution the gradient of f is not known the goal is to find a solution a for which f a f b for all b in the search space which would mean a is the global minimum
+
+let s be the number of particles in the swarm each having a position xi ℝn in the search space and a velocity vi ℝn let pi be the best known position of particle i and let g be the best known position of the particle s neighborhood a basic pso algorithm to minimize the cost function is then
+
+the values blo and bup represent the lower and upper boundaries of the search space respectively the w parameter is the inertia weight the parameters φp and φg are often called cognitive coefficient and social coefficient
+
+the termination criterion can be the number of iterations performed or a solution where the adequate objective function value is found the parameters w φp and φg are selected by the practitioner and control the behaviour and efficacy of the pso method below
+
+the choice of pso parameters can have a large impact on optimization performance selecting pso parameters that yield good performance has therefore been the subject of much research
+
+to prevent divergence explosion the inertia weight must be smaller than 1 the two other parameters can be then derived thanks to the constriction approach or freely selected but the analyses suggest convergence domains to constrain them typical values are in
+
+
+
+
+1
+
+3
+
+
+
+displaystyle 1 3
+
+
+
+the pso parameters can also be tuned by using another overlaying optimizer a concept known as meta optimization or even fine tuned during the optimization e g by means of fuzzy logic
+
+parameters have also been tuned for various optimization scenarios
+
+the topology of the swarm defines the subset of particles with which each particle can exchange information the basic version of the algorithm uses the global topology as the swarm communication structure this topology allows all particles to communicate with all the other particles thus the whole swarm share the same best position g from a single particle however this approach might lead the swarm to be trapped into a local minimum thus different topologies have been used to control the flow of information among particles for instance in local topologies particles only share information with a subset of particles this subset can be a geometrical one for example the m nearest particles or more often a social one i e a set of particles that is not depending on any distance in such cases the pso variant is said to be local best vs global best for the basic pso
+
+a commonly used swarm topology is the ring in which each particle has just two neighbours but there are many others the topology is not necessarily static in fact since the topology is related to the diversity of communication of the particles some efforts have been done to create adaptive topologies spso apso stochastic star tribes cyber swarm and c pso
+
+by using the ring topology pso can attain generation level parallelism significantly enhancing the evolutionary speed
+
+there are several schools of thought as to why and how the pso algorithm can perform optimization
+
+as the system iterates and individuals learn from their neighbors the distances in the search space between a particle and its neighbor tend to become smaller thus the p and g terms in the formula become closer to one another and the particle takes shorter steps through the search space as the swarm converges on optimal regions that have been discovered if a new optimal region is found late in the search the algorithm is able to return to its exploratory behavior taking large steps again as particles adapt to the new discovery and gradually converging or clustering around optimal regions
+
+while the behavior of a single particle is easily conceptualized a particle by itself has no optimization ability at all the behavior of the swarm is more difficult to comprehend a common belief amongst researchers is that the swarm behaviour varies between exploratory behaviour that is searching a broader region of the search space and exploitative behaviour that is a locally oriented search so as to get closer to a possibly local optimum this school of thought has been prevalent since the inception of pso this school of thought contends that the pso algorithm and its parameters must be chosen so as to properly balance between exploration and exploitation to avoid premature convergence to a local optimum yet still ensure a good rate of convergence to the optimum this belief is the precursor of many pso variants see below
+
+another school of thought is that the behaviour of a pso swarm is not well understood in terms of how it affects actual optimization performance especially for higher dimensional search spaces and optimization problems that may be discontinuous noisy and time varying this school of thought merely tries to find pso algorithms and parameters that cause good performance regardless of how the swarm behaviour can be interpreted in relation to e g exploration and exploitation such studies have led to the simplification of the pso algorithm see below
+
+in relation to pso the word convergence typically refers to two different definitions
+
+convergence of the sequence of solutions has been investigated for pso these analyses have resulted in guidelines for selecting pso parameters that are believed to cause convergence to a point and prevent divergence of the swarm s particles particles do not move unboundedly and will converge to somewhere however the analyses were criticized by pedersen for being oversimplified as they assume the swarm has only one particle that it does not use stochastic variables and that the points of attraction that is the particle s best known position p and the swarm s best known position g remain constant throughout the optimization process however it was shown that these simplifications do not affect the boundaries found by these studies for parameter where the swarm is convergent considerable effort has been made in recent years to weaken the modeling assumption utilized during the stability analysis of pso with the most recent generalized result applying to numerous pso variants and utilized what was shown to be the minimal necessary modeling assumptions
+
+convergence to a local optimum has been analyzed for pso in and it has been proven that pso needs some modification to guarantee finding a local optimum
+
+this means that determining the convergence capabilities of different pso algorithms and parameters still depends on empirical results one attempt at addressing this issue is the development of an orthogonal learning strategy for an improved use of the information already existing in the relationship between p and g so as to form a leading converging exemplar and to be effective with any pso topology the aims are to improve the performance of pso overall including faster global convergence higher solution quality and stronger robustness however such studies do not provide theoretical evidence to actually prove their claims
+
+without the need for a trade off between convergence exploitation and divergence exploration an adaptive mechanism can be introduced adaptive particle swarm optimization apso features better search efficiency than standard pso apso can perform global search over the entire search space with a higher convergence speed it enables automatic control of the inertia weight acceleration coefficients and other algorithmic parameters at the run time thereby improving the search effectiveness and efficiency at the same time also apso can act on the globally best particle to jump out of the likely local optima however apso will introduce new algorithm parameters it does not introduce additional design or implementation complexity nonetheless
+
+besides through the utilization of a scale adaptive fitness evaluation mechanism pso can efficiently address computationally expensive optimization problems
+
+numerous variants of even a basic pso algorithm are possible for example there are different ways to initialize the particles and velocities e g start with zero velocities instead how to dampen the velocity only update pi and g after the entire swarm has been updated etc some of these choices and their possible performance impact have been discussed in the literature
+
+a series of standard implementations have been created by leading researchers intended for use both as a baseline for performance testing of improvements to the technique as well as to represent pso to the wider optimization community having a well known strictly defined standard algorithm provides a valuable point of comparison which can be used throughout the field of research to better test new advances the latest is standard pso 2011 spso 2011
+
+in addition some pso variants have been developed to solve large scale global optimization lsgo problems with more than 1000 dimensions representative variants include competitive swarm optimizer cso and level based learning swarm optimizer llso recently pso has also been extended to solve multi agent consensus based distributed optimization problems e g multi agent consensus based pso with adaptive internal and external learning masoie etc
+
+new and more sophisticated pso variants are also continually being introduced in an attempt to improve optimization performance there are certain trends in that research one is to make a hybrid optimization method using pso combined with other optimizers e g combined pso with biogeography based optimization and the incorporation of an effective learning method
+
+another research trend is to try to alleviate premature convergence that is optimization stagnation e g by reversing or perturbing the movement of the pso particles another approach to deal with premature convergence is the use of multiple swarms multi swarm optimization the multi swarm approach can also be used to implement multi objective optimization finally there are developments in adapting the behavioural parameters of pso during optimization
+
+another school of thought is that pso should be simplified as much as possible without impairing its performance a general concept often referred to as occam s razor simplifying pso was originally suggested by kennedy and has been studied more extensively where it appeared that optimization performance was improved and the parameters were easier to tune and they performed more consistently across different optimization problems
+
+another argument in favour of simplifying pso is that metaheuristics can only have their efficacy demonstrated empirically by doing computational experiments on a finite number of optimization problems this means a metaheuristic such as pso cannot be proven correct and this increases the risk of making errors in its description and implementation a good example of this presented a promising variant of a genetic algorithm another popular metaheuristic but it was later found to be defective as it was strongly biased in its optimization search towards similar values for different dimensions in the search space which happened to be the optimum of the benchmark problems considered this bias was because of a programming error and has now been fixed
+
+initialization of velocities may require extra inputs the bare bones pso variant has been proposed in 2003 by james kennedy and does not need to use velocity at all
+
+in this variant of pso one dispenses with the velocity of the particles and instead updates the positions of the particles using the following simple rule
+
+where
+
+
+
+
+
+
+
+x
+
+
+
+
+
+i
+
+
+
+
+displaystyle vec x _ i
+
+
+
+
+
+
+
+
+
+p
+
+
+
+
+
+i
+
+
+
+
+displaystyle vec p _ i
+
+are the position and the best position of the particle
+
+
+
+i
+
+
+displaystyle i
+
+
+
+
+
+
+
+
+g
+
+
+
+
+
+
+displaystyle vec g
+
+is the global best position
+
+
+
+g
+
+
+
+
+x
+
+
+
+
+
+σ
+
+
+
+displaystyle g vec x sigma
+
+is the normal distribution with the mean
+
+
+
+
+
+
+x
+
+
+
+
+
+
+displaystyle vec x
+
+and standard deviation
+
+
+
+σ
+
+
+displaystyle sigma
+
+and where
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+displaystyle dots
+
+signifies the norm of a vector
+
+another simpler variant is the accelerated particle swarm optimization apso which also does not need to use velocity and can speed up the convergence in many applications a simple demo code of apso is available
+
+in this variant of pso one dispenses with both the particle s velocity and the particle s best position the particle position is updated according to the following rule
+
+where
+
+
+
+
+
+
+u
+
+
+
+
+
+
+displaystyle vec u
+
+is a random uniformly distributed vector
+
+
+
+l
+
+
+displaystyle l
+
+is the typical length of the problem at hand and
+
+
+
+β
+
+0 1
+
+0 7
+
+
+displaystyle beta sim 0 1 0 7
+
+and
+
+
+
+α
+
+0 1
+
+0 5
+
+
+displaystyle alpha sim 0 1 0 5
+
+are the parameters of the method as a refinement of the method one can decrease
+
+
+
+α
+
+
+displaystyle alpha
+
+with each iteration
+
+
+
+
+α
+
+n
+
+
+
+
+α
+
+0
+
+
+
+γ
+
+n
+
+
+
+
+displaystyle alpha _ n alpha _ 0 gamma n
+
+where
+
+
+
+n
+
+
+displaystyle n
+
+is the number of the iteration and
+
+
+
+0
+
+γ
+
+1
+
+
+displaystyle 0 gamma 1
+
+is the decrease control parameter
+
+pso has also been applied to multi objective problems in which the objective function comparison takes pareto dominance into account when moving the pso particles and non dominated solutions are stored so as to approximate the pareto front
+
+as the pso equations given above work on real numbers a commonly used method to solve discrete problems is to map the discrete search space to a continuous domain to apply a classical pso and then to demap the result such a mapping can be very simple for example by just using rounded values or more sophisticated
+
+however it can be noted that the equations of movement make use of operators that perform four actions
+
+usually a position and a velocity are represented by n real numbers and these operators are simply and again but all these mathematical objects can be defined in a completely different way in order to cope with binary problems or more generally discrete ones or even combinatorial ones one approach is to redefine the operators based on sets

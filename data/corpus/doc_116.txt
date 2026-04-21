@@ -1,0 +1,49 @@
+in finance market data is price and other related data for a financial instrument reported by a trading venue such as a stock exchange market data allows traders and investors to know the latest price and see historical trends for instruments such as equities fixed income products derivatives and currencies
+
+the market data for a particular instrument would include the identifier of the instrument and where it was traded such as the ticker symbol and exchange code plus the latest bid and ask price and the time of the last trade it may also include other information such as volume traded bid and offer sizes and static data about the financial instrument that may have come from a variety of sources it is used in conjunction with the related financial reference data that is typically distributed ahead of market data there are a number of financial data vendors that specialize in collecting cleaning collating and distributing market data and this has become the most common way that traders and investors get access to market data
+
+delivery of price data from exchanges to users such as traders is highly time sensitive and involves specialized technologies designed to handle collection and throughput of massive data streams are used to distribute the information to traders and investors the speed that market data is distributed can become critical when trading systems are based on analyzing the data before others are able to such as in high frequency trading
+
+market price data is not only used in real time to make on the spot decisions about buying or selling but historical market data can also be used to project pricing trends and to calculate market risk on portfolios of investments that may be held by an individual or an institutional investor
+
+a typical equity market data message or business object furnished from nyse tsx or nasdaq might appear something like this
+
+the above example is an aggregation of different sources of data as quote data bid ask bid size ask size and trade data last sale last size volume are often generated over different data feeds
+
+delivery of price data from exchanges to users is highly time sensitive specialized software and hardware systems called ticker plants are designed to handle collection and throughput of massive data streams displaying prices for traders and feeding computerized trading systems fast enough to capture opportunities before markets change when stored historical market data is a type of time series data
+
+latency is the time lag in delivery of real time data i e the lower the latency the faster the data transmission speed processing of large amounts of data with minimal delay is low latency the delivery of data has increased in speed dramatically since 2010 with low latency delivery meaning delivery under 1 millisecond the competition for low latency data has intensified with the rise of algorithmic and high frequency trading and the need for competitive trade performance
+
+market data generally refers to either real time or delayed price quotations the term also includes static or reference data that is any type of data related to securities that is not changing in real time
+
+reference data includes identifier codes such as isin codes the exchange a security trades on end of day pricing name and address of the issuing company the terms of the security such as dividends or interest rate and maturity on a bond and the outstanding corporate actions such as pending stock splits or proxy votes related to the security
+
+while price data generally originates from the exchanges reference data generally originates from the issuer before investors and traders receive price or updated reference data financial data vendors may reformat organize and attempt to correct obvious outliers due to data feed or other real time collection based errors
+
+for consumers of market data which are primarily the financial institutions and industry utilities serving the capital markets the complexity of managing market data rose with the increase in the number of issued securities number of exchanges and the globalization of capital markets beyond the rising volume of data the continuing evolution of complex derivatives and indices along with new regulations designed to contain risk and protect markets and investors created more operational demands on market data management
+
+initially individual financial data vendors provided data for software applications in financial institutions that were specifically designed for one data feed thus giving that financial data vendor control of that area of operations next many of the larger investment banks and asset management firms started to design systems that would integrate market data into one central store this drove investments in large scale enterprise data management systems which collect normalize and integrate feeds from multiple financial data vendors with the goal of building a single version of the truth of data repository supporting every kind of operation throughout the institution beyond the operational efficiency gained this data consistency became increasingly necessary to enable compliance with regulatory requirements such as sarbanes oxley regulation nms and the basel 2 accord
+
+there are various industry bodies that focus on market data
+
+technology solutions for financial data management have evolved significantly over the past decade market data management has emerged from a niche discipline to a high priority issue for the capital markets industry and its regulators providers now offer a range of solutions including middleware and messaging tools software for data cleansing and reconciliation and scalable platforms capable of managing large volumes of reference data required for daily trading accounting settlement risk management and regulatory reporting
+
+the market data distribution platforms are designed to transport over the network large amounts of data from financial markets they are intended to respond to the fast changes on the financial markets compressing or representing data using specially designed protocols to increase throughput and or reduce latency most market data servers run on solaris or linux as main targets however some have versions for windows
+
+a typical usage can be a feed handler solution applications sources receive data from specific feed and connect to a server authority which accepts connections from clients destinations and redistributes data further when a client destination wants to subscribe for an instrument to open an instrument it sends a request to the server authority and if the server has not got the information in its cache it forwards the request to the source s each time a server authority receives updates for an instrument it sends them to all clients destinations subscribed for it
+
+notes
+
+market data requirements depend on the need for customization latency sensitivity and market depth
+
+customization how much operational control a firm has over its market data infrastructure
+
+latency sensitivity the measure of how important high speed market data is to a trading strategy
+
+market depth the volume of quotes in a market data feed
+
+there are 5 market data fee types charged by exchanges and financial data vendors these fees are access fees user fees non display fees redistribution fees and market data provider fees
+
+market data is expensive global expenditure yearly exceeds 50 billion and complex data variety functionality technology billing therefore it needs to be managed professionally professional market data management deals with issues such as
+
+financial data vendors typically also offer mobile applications that provide market data in real time to financial institutions and consumers

@@ -1,0 +1,181 @@
+statistical inference is the process of using data analysis to infer properties of an underlying probability distribution inferential statistical analysis infers properties of a population for example by testing hypotheses and deriving estimates it is assumed that the observed data set is sampled from a larger population
+
+inferential statistics can be contrasted with descriptive statistics descriptive statistics is solely concerned with properties of the observed data and it does not rest on the assumption that the data come from a larger population in machine learning the term inference is sometimes used instead to mean make a prediction by evaluating an already trained model in this context inferring properties of the model is referred to as training or learning rather than inference and using a model for prediction is referred to as inference instead of prediction see also predictive inference
+
+statistical inference makes propositions about a population using data drawn from the population with some form of sampling given a hypothesis about a population for which we wish to draw inferences statistical inference consists of first selecting a statistical model of the process that generates the data and second deducing propositions from the model
+
+konishi and kitagawa state the majority of the problems in statistical inference can be considered to be problems related to statistical modeling relatedly sir david cox has said how the translation from subject matter problem to statistical model is done is often the most critical part of an analysis
+
+the conclusion of a statistical inference is a statistical proposition some common forms of statistical proposition are the following
+
+any statistical inference requires some assumptions a statistical model is a set of assumptions concerning the generation of the observed data and similar data descriptions of statistical models usually emphasize the role of population quantities of interest about which we wish to draw inference descriptive statistics are typically used as a preliminary step before more formal inferences are drawn
+
+statisticians distinguish between three levels of modeling assumptions
+
+whatever level of assumption is made correctly calibrated inference in general requires these assumptions to be correct i e that the data generating mechanisms really have been correctly specified
+
+incorrect assumptions of simple random sampling can invalidate statistical inference more complex semi and fully parametric assumptions are also cause for concern for example incorrectly assuming the cox model can in some cases lead to faulty conclusions incorrect assumptions of normality in the population also invalidates some forms of regression based inference the use of any parametric model is viewed skeptically by most experts in sampling human populations most sampling statisticians when they deal with confidence intervals at all limit themselves to statements about estimators based on very large samples where the central limit theorem ensures that these estimators will have distributions that are nearly normal in particular a normal distribution would be a totally unrealistic and catastrophically unwise assumption to make if we were dealing with any kind of economic population here the central limit theorem states that the distribution of the sample mean for very large samples is approximately normally distributed if the distribution is not heavy tailed
+
+given the difficulty in specifying exact distributions of sample statistics many methods have been developed for approximating these
+
+with finite samples approximation results measure how close a limiting distribution approaches the statistic s sample distribution for example with 10 000 independent samples the normal distribution approximates to two digits of accuracy the distribution of the sample mean for many population distributions by the berry esseen theorem yet for many practical purposes the normal approximation provides a good approximation to the sample mean s distribution when there are 10 or more independent samples according to simulation studies and statisticians experience following kolmogorov s work in the 1950s advanced statistics uses approximation theory and functional analysis to quantify the error of approximation in this approach the metric geometry of probability distributions is studied this approach quantifies approximation error with for example the kullback leibler divergence bregman divergence and the hellinger distance
+
+with indefinitely large samples limiting results like the central limit theorem describe the sample statistic s limiting distribution if one exists limiting results are not statements about finite samples and indeed are irrelevant to finite samples however the asymptotic theory of limiting distributions is often invoked for work with finite samples for example limiting results are often invoked to justify the generalized method of moments and the use of generalized estimating equations which are popular in econometrics and biostatistics the magnitude of the difference between the limiting distribution and the true distribution formally the error of the approximation can be assessed using simulation the heuristic application of limiting results to finite samples is common practice in many applications especially with low dimensional models with log concave likelihoods such as with one parameter exponential families
+
+for a given dataset that was produced by a randomization design the randomization distribution of a statistic under the null hypothesis is defined by evaluating the test statistic for all of the plans that could have been generated by the randomization design in frequentist inference the randomization allows inferences to be based on the randomization distribution rather than a subjective model and this is important especially in survey sampling and design of experiments statistical inference from randomized studies is also more straightforward than many other situations in bayesian inference randomization is also of importance in survey sampling use of sampling without replacement ensures the exchangeability of the sample with the population in randomized experiments randomization warrants a missing at random assumption for covariate information
+
+objective randomization allows properly inductive procedures many statisticians prefer randomization based analysis of data that was generated by well defined randomization procedures however it is true that in fields of science with developed theoretical knowledge and experimental control randomized experiments may increase the costs of experimentation without improving the quality of inferences similarly results from randomized experiments are recommended by leading statistical authorities as allowing inferences with greater reliability than do observational studies of the same phenomena however a good observational study may be better than a bad randomized experiment
+
+the statistical analysis of a randomized experiment may be based on the randomization scheme stated in the experimental protocol and does not need a subjective model
+
+however at any time some hypotheses cannot be tested using objective statistical models which accurately describe randomized experiments or random samples in some cases such randomized studies are uneconomical or unethical
+
+it is standard practice to refer to a statistical model e g a linear or logistic models when analyzing data from randomized experiments however the randomization scheme guides the choice of a statistical model it is not possible to choose an appropriate model without knowing the randomization scheme seriously misleading results can be obtained analyzing data from randomized experiments while ignoring the experimental protocol common mistakes include forgetting the blocking used in an experiment and confusing repeated measurements on the same experimental unit with independent replicates of the treatment applied to different experimental units
+
+model free techniques provide a complement to model based methods which employ reductionist strategies of reality simplification the former combine evolve ensemble and train algorithms dynamically adapting to the contextual affinities of a process and learning the intrinsic characteristics of the observations
+
+for example model free simple linear regression is based either on
+
+in either case the model free randomization inference for features of the common conditional distribution
+
+
+
+
+d
+
+x
+
+
+
+
+
+
+
+displaystyle d_ x
+
+relies on some regularity conditions e g functional smoothness for instance model free randomization inference for the population feature conditional mean
+
+
+
+μ
+
+x
+
+
+e
+
+y
+
+
+
+x
+
+x
+
+
+
+displaystyle mu x e y x x
+
+can be consistently estimated via local averaging or local polynomial fitting under the assumption that
+
+
+
+μ
+
+x
+
+
+
+displaystyle mu x
+
+is smooth also relying on asymptotic normality or resampling we can construct confidence intervals for the population feature in this case the conditional mean
+
+
+
+μ
+
+x
+
+
+
+displaystyle mu x
+
+
+
+different schools of statistical inference have become established these schools or paradigms are not mutually exclusive and methods that work well under one paradigm often have attractive interpretations under other paradigms
+
+bandyopadhyay and forster describe four paradigms the classical or frequentist paradigm the bayesian paradigm the likelihoodist paradigm and the akaikean information criterion based paradigm
+
+this paradigm calibrates the plausibility of propositions by considering notional repeated sampling of a population distribution to produce datasets similar to the one at hand by considering the dataset s characteristics under repeated sampling the frequentist properties of a statistical proposition can be quantified although in practice this quantification may be challenging
+
+one interpretation of frequentist inference or classical inference is that it is applicable only in terms of frequency probability that is in terms of repeated sampling from a population however the approach of neyman develops these procedures in terms of pre experiment probabilities that is before undertaking an experiment one decides on a rule for coming to a conclusion such that the probability of being correct is controlled in a suitable way such a probability need not have a frequentist or repeated sampling interpretation in contrast bayesian inference works in terms of conditional probabilities i e probabilities conditional on the observed data compared to the marginal but conditioned on unknown parameters probabilities used in the frequentist approach
+
+the frequentist procedures of significance testing and confidence intervals can be constructed without regard to utility functions however some elements of frequentist statistics such as statistical decision theory do incorporate utility functions citation needed in particular frequentist developments of optimal inference such as minimum variance unbiased estimators or uniformly most powerful testing make use of loss functions which play the role of negative utility functions loss functions need not be explicitly stated for statistical theorists to prove that a statistical procedure has an optimality property however loss functions are often useful for stating optimality properties for example median unbiased estimators are optimal under absolute value loss functions in that they minimize expected loss and least squares estimators are optimal under squared error loss functions in that they minimize expected loss
+
+while statisticians using frequentist inference must choose for themselves the parameters of interest and the estimators test statistic to be used the absence of obviously explicit utilities and prior distributions has helped frequentist procedures to become widely viewed as objective
+
+the bayesian calculus describes degrees of belief using the language of probability beliefs are positive integrate into one and obey probability axioms bayesian inference uses the available posterior beliefs as the basis for making statistical propositions there are several different justifications for using the bayesian approach
+
+many informal bayesian inferences are based on intuitively reasonable summaries of the posterior for example the posterior mean median and mode highest posterior density intervals and bayes factors can all be motivated in this way while a user s utility function need not be stated for this sort of inference these summaries do all depend to some extent on stated prior beliefs and are generally viewed as subjective conclusions methods of prior construction which do not require external input have been proposed but not yet fully developed
+
+formally bayesian inference is calibrated with reference to an explicitly stated utility or loss function the bayes rule is the one which maximizes expected utility averaged over the posterior uncertainty formal bayesian inference therefore automatically provides optimal decisions in a decision theoretic sense given assumptions data and utility bayesian inference can be made for essentially any problem although not every statistical inference need have a bayesian interpretation analyses which are not formally bayesian can be logically incoherent a feature of bayesian procedures which use proper priors i e those integrable to one is that they are guaranteed to be coherent some advocates of bayesian inference assert that inference must take place in this decision theoretic framework and that bayesian inference should not conclude with the evaluation and summarization of posterior beliefs
+
+likelihood based inference is a paradigm used to estimate the parameters of a statistical model based on observed data likelihoodism approaches statistics by using the likelihood function denoted as
+
+
+
+l
+
+x
+
+
+
+θ
+
+
+
+displaystyle l x theta
+
+quantifies the probability of observing the given data
+
+
+
+x
+
+
+displaystyle x
+
+assuming a specific set of parameter values
+
+
+
+θ
+
+
+displaystyle theta
+
+in likelihood based inference the goal is to find the set of parameter values that maximizes the likelihood function or equivalently maximizes the probability of observing the given data
+
+the process of likelihood based inference usually involves the following steps
+
+the akaike information criterion aic is an estimator of the relative quality of statistical models for a given set of data given a collection of models for the data aic estimates the quality of each model relative to each of the other models thus aic provides a means for model selection
+
+aic is founded on information theory it offers an estimate of the relative information lost when a given model is used to represent the process that generated the data in doing so it deals with the trade off between the goodness of fit of the model and the simplicity of the model
+
+the minimum description length mdl principle has been developed from ideas in information theory and the theory of kolmogorov complexity the mdl principle selects statistical models that maximally compress the data inference proceeds without assuming counterfactual or non falsifiable data generating mechanisms or probability models for the data as might be done in frequentist or bayesian approaches
+
+however if a data generating mechanism does exist in reality then according to shannon s source coding theorem it provides the mdl description of the data on average and asymptotically in minimizing description length or descriptive complexity mdl estimation is similar to maximum likelihood estimation and maximum a posteriori estimation using maximum entropy bayesian priors however mdl avoids assuming that the underlying probability model is known the mdl principle can also be applied without assumptions that e g the data arose from independent sampling
+
+the mdl principle has been applied in communication coding theory in information theory in linear regression and in data mining
+
+the evaluation of mdl based inferential procedures often uses techniques or criteria from computational complexity theory
+
+fiducial inference was an approach to statistical inference based on fiducial probability also known as a fiducial distribution in subsequent work this approach has been called ill defined extremely limited in applicability and even fallacious however this argument is the same as that which shows that a so called confidence distribution is not a valid probability distribution and since this has not invalidated the application of confidence intervals it does not necessarily invalidate conclusions drawn from fiducial arguments an attempt was made to reinterpret the early work of fisher s fiducial argument as a special case of an inference theory using upper and lower probabilities
+
+developing ideas of fisher and of pitman from 1938 to 1939 george a barnard developed structural inference or pivotal inference an approach using invariant probabilities on group families barnard reformulated the arguments behind fiducial inference on a restricted class of models on which fiducial procedures would be well defined and useful donald a s fraser developed a general theory for structural inference based on group theory and applied this to linear models the theory formulated by fraser has close links to decision theory and bayesian statistics and can provide optimal frequentist decision rules if they exist
+
+the topics below are usually included in the area of statistical inference
+
+predictive inference is an approach to statistical inference that emphasizes the prediction of future observations based on past observations
+
+initially predictive inference was based on observable parameters and it was the main purpose of studying probability citation needed but it fell out of favor in the 20th century due to a new parametric approach pioneered by bruno de finetti the approach modeled phenomena as a physical system observed with error e g celestial mechanics de finetti s idea of exchangeability that future observations should behave like past observations came to the attention of the english speaking world with the 1974 translation from french of his 1937 paper and has since been propounded by such statisticians as seymour geisser

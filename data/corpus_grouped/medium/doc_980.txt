@@ -1,0 +1,165 @@
+the closed world assumption cwa in a formal system of logic used for knowledge representation is the presumption that a statement that is true is also known to be true therefore by the contrapositive what is not currently known to be true must be false the same name also refers to a logical formalization of this assumption by raymond reiter the opposite of the closed world assumption is the open world assumption owa stating that lack of knowledge does not imply falsity decisions on cwa vs owa determine the understanding of the actual semantics of a conceptual expression with the same notations of concepts a successful formalization of natural language semantics usually cannot avoid an explicit revelation of whether the implicit logical backgrounds are based on cwa or owa
+
+negation as failure is related to the closed world assumption as it amounts to believing false every predicate that cannot be proved to be true
+
+in the context of knowledge management the closed world assumption is used in at least two situations 1 when the knowledge base is known to be complete e g a corporate database containing records for every employee and 2 when the knowledge base is known to be incomplete but a best definite answer must be derived from incomplete information for example if a database contains the following table reporting editors who have worked on a given article a query on the people not having edited the article on formal logic is usually expected to return sarah johnson
+
+
+in the closed world assumption the table is assumed to be complete it lists all editor article relationships and sarah johnson is the only editor who has not edited the article on formal logic in contrast with the open world assumption the table is not assumed to contain all editor article tuples and the answer to who has not edited the formal logic article is unknown there is an unknown number of editors not listed in the table and an unknown number of articles edited by sarah johnson that are also not listed in the table
+
+the first formalization of the closed world assumption in formal logic consists in adding to the knowledge base the negation of the literals that are not currently entailed by it the result of this addition is always consistent if the knowledge base is in horn form but is not guaranteed to be consistent otherwise for example the knowledge base
+
+entails neither
+
+
+
+e
+n
+g
+l
+i
+s
+h
+
+f
+r
+e
+d
+
+
+
+displaystyle english fred
+
+nor
+
+
+
+i
+r
+i
+s
+h
+
+f
+r
+e
+d
+
+
+
+displaystyle irish fred
+
+
+
+adding the negation of these two literals to the knowledge base leads to
+
+which is inconsistent in other words this formalization of the closed world assumption sometimes turns a consistent knowledge base into an inconsistent one the closed world assumption does not introduce an inconsistency on a knowledge base
+
+
+
+k
+
+
+displaystyle k
+
+exactly when the intersection of all herbrand models of
+
+
+
+k
+
+
+displaystyle k
+
+is also a model of
+
+
+
+k
+
+
+displaystyle k
+
+in the propositional case this condition is equivalent to
+
+
+
+k
+
+
+displaystyle k
+
+having a single minimal model where a model is minimal if no other model has a subset of variables assigned to true
+
+alternative formalizations not suffering from this problem have been proposed in the following description the considered knowledge base
+
+
+
+k
+
+
+displaystyle k
+
+is assumed to be propositional in all cases the formalization of the closed world assumption is based on adding to
+
+
+
+k
+
+
+displaystyle k
+
+the negation of the formulae that are free for negation for
+
+
+
+k
+
+
+displaystyle k
+
+i e the formulae that can be assumed to be false in other words the closed world assumption applied to a knowledge base
+
+
+
+k
+
+
+displaystyle k
+
+generates the knowledge base
+
+the set
+
+
+
+f
+
+
+displaystyle f
+
+of formulae that are free for negation in
+
+
+
+k
+
+
+displaystyle k
+
+can be defined in different ways leading to different formalizations of the closed world assumption the following are the definitions of
+
+
+
+f
+
+
+displaystyle f
+
+being free for negation in the various formalizations
+
+the ecwa and the formalism of circumscription coincide on propositional theories the complexity of query answering checking whether a formula is entailed by another one under the closed world assumption is typically in the second level of the polynomial hierarchy for general formulae and ranges from p to conp for horn formulae checking whether the original closed world assumption introduces an inconsistency requires at most a logarithmic number of calls to an np oracle however the exact complexity of this problem is not currently known
+
+in situations where it is not possible to assume a closed world for all predicates yet some of them are known to be closed the partial closed world assumption can be used this regime considers knowledge bases generally to be open i e potentially incomplete yet allows to use completeness assertions to specify parts of the knowledge base that are closed
+
+the language of logic programs with strong negation allows us to postulate the closed world assumption for some statements and leave the other statements in the realm of the open world assumption an intermediate ground between owa and cwa is provided by the partial closed world assumption pcwa under the pcwa the knowledge base is generally treated under open world semantics yet it is possible to assert parts that should be treated under closed world semantics via completeness assertions the pcwa is especially needed for situations where the cwa is not applicable due to an open domain yet the owa is too credulous in allowing anything to be possibly true

@@ -1,0 +1,39 @@
+data editing is defined as the process involving the review and adjustment of collected survey data data editing helps define guidelines that will reduce potential bias and ensure consistent estimates leading to a clear analysis of the data set by correct inconsistent data using the methods later in this article the purpose is to control the quality of the collected data data editing can be performed manually with the assistance of a computer or a combination of both
+
+editing methods refer to a range of procedures and processes which are used for detecting and handling errors in data data editing is used with the goal to improve the quality of statistical data produced these modifications can greatly improve the quality of analytics created by aiming to detect and correct errors examples of different techniques to data editing such as micro editing macro editing selective editing or the different tools used to achieve data editing such as graphical editing and interactive editing
+
+the term interactive editing is commonly used for modern computer assisted manual editing most interactive data editing tools applied at national statistical institutes nsis allow one to check the specified edits during or after data entry and if necessary to correct erroneous data immediately several approaches can be followed to correct erroneous data
+
+interactive editing is a standard way to edit data it can be used to edit both categorical and continuous data interactive editing reduces the time frame needed to complete the cyclical process of review and adjustment interactive editing also requires an understanding of the data set and the possible results that would come from an analysis of the data
+
+selective editing is an umbrella term for several methods to identify the influential errors note 1 and outliers note 2 selective editing techniques aim to apply interactive editing to a well chosen subset of the records such that the limited time and resources available for interactive editing are allocated to those records where it has the most effect on the quality of the final estimates of published figures in selective editing data is split into two streams
+
+the critical stream consists of records that are more likely to contain influential errors these critical records are edited in a traditional interactive manner the records in the non critical stream which are unlikely to contain influential errors are not edited in a computer assisted manner
+
+data editing can be accomplished in many ways and primarily depends on the data set that is being explored
+
+the validity of a data set depends on the completeness of the responses provided by the respondents one method of data editing is to ensure that all responses are complete in fields that require a numerical or non numerical answer see the example below
+
+verifying that the data is unique is an important aspect of data editing to ensure that all data provided was only entered once this reduces the possibility for repeated data that could skew analytics reporting see the example below
+
+it is common to find outliers in data sets which as described before are values that do not fit a model of data well these extreme values can be found based on the distribution of data points from previous data series or parallel data series for the same data set the values can be considered erroneous and require further analysis for checking and determining the validity of the response see the example below
+
+logical consistency is the presence of logical relationships and interdependence between the variables this editing requires a certain understanding around the dataset and the ability to identify errors in data based on previous reports or information this type of data editing is used to account for the differences between data fields or variables see the example below
+
+there are two methods of macro editing
+
+this method is followed in almost every statistical agency before publication verifying whether figures to be published seems plausible this is accomplished by comparing quantities in publication tables with the same quantities in previous publications if an unusual value is observed a micro editing procedure is applied to the individual records and fields contributing to the suspicious quantity
+
+data available is used to characterize the distribution of the variables then all individual values are compared with the distribution records containing values that could be considered uncommon given the distribution are candidates for further inspection and possibly for editing
+
+in automatic editing records are edited by a computer without human intervention prior knowledge on the values of a single variable or a combination of variables can be formulated as a set of edit rules which specify or constrain the admissible values
+
+data editing has its limitations with the capacity and resources of any given study these determinants can have a positive or negative impact on the post analysis of the data set below are several determinants of data editing
+
+available resources
+
+available software
+
+data source
+
+coordination of data editing procedure

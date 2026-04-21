@@ -1,0 +1,137 @@
+
+data analysis is the process of inspecting cleansing transforming and modeling data with the goal of discovering useful information informing conclusions and supporting decision making data analysis has multiple facets and approaches encompassing diverse techniques under a variety of names and is used in different business science and social science domains in today s business world data analysis plays an important role in making decisions more scientific and helping businesses operate more effectively it is widely used in fields such as business analytics healthcare and artificial intelligence to extract meaningful insights from data
+
+data mining is a particular data analysis technique that focuses on statistical modeling and knowledge discovery for predictive rather than purely descriptive purposes while business intelligence covers data analysis that relies heavily on aggregation focusing mainly on business information in statistical applications data analysis can be divided into descriptive statistics exploratory data analysis eda and confirmatory data analysis cda eda focuses on discovering new features in the data while cda focuses on confirming or falsifying existing hypotheses predictive analytics focuses on the application of statistical models for predictive forecasting or classification while text analytics applies statistical linguistic and structural techniques to extract and classify information from textual sources a variety of unstructured data all of the above are varieties of data analysis
+
+data analysis is a process for obtaining raw data and subsequently converting it into information useful for decision making by users statistician john tukey defined data analysis in 1961 as
+procedures for analyzing data techniques for interpreting the results of such procedures ways of planning the gathering of data to make its analysis easier more precise or more accurate and all the machinery and results of mathematical statistics which apply to analyzing data
+there are several phases and they are iterative in that feedback from later phases may result in additional work in earlier phases
+
+the data is necessary as inputs to the analysis which is specified based upon the requirements of those directing the analytics or customers who will use the finished product of the analysis the general type of entity upon which the data will be collected is referred to as an experimental unit e g a person or population of people specific variables regarding a population e g age and income may be specified and obtained data may be numerical or categorical i e a text label for numbers
+
+data may be collected from a variety of sources a list of data sources are available for study research the requirements may be communicated by analysts to custodians of the data such as information technology personnel within an organization data collection or data gathering is the process of gathering and measuring information on targeted variables in an established system which then enables one to answer relevant questions and evaluate outcomes the data may also be collected from sensors in the environment including traffic cameras satellites recording devices etc it may also be obtained through interviews downloads from online sources or reading documentation
+
+data integration is a precursor to data analysis data when initially obtained must be processed or organized for analysis for instance this may involve placing data into rows and columns in a table format known as structured data for further analysis often through the use of spreadsheet e g excel or statistical software
+
+once processed and organized the data may be incomplete contain duplicates or contain errors the need for data cleaning will arise from problems in the way that the data is entered and stored data cleaning is the process of preventing and correcting these errors common tasks include record matching identifying inaccuracy of data overall quality of existing data deduplication and column segmentation
+
+such data problems can also be identified through a variety of analytical techniques for example with financial information the totals for particular variables may be compared against separately published numbers that are believed to be reliable unusual amounts above or below predetermined thresholds may also be reviewed there are several types of data cleaning that are dependent upon the type of data in the set this could be phone numbers email addresses employers or other values quantitative data methods for outlier detection can be used to get rid of data that appears to have a higher likelihood of being input incorrectly text data spell checkers can be used to lessen the amount of mistyped words however it is harder to tell if the words are contextually i e semantically and idiomatically correct
+
+once the datasets are cleaned they can then begin to be analyzed using exploratory data analysis the process of data exploration may result in additional data cleaning or additional requests for data thus the initialization of the iterative phases mentioned above descriptive statistics such as the average median and standard deviation are often used to broadly characterize the data data visualization is also used in which the analyst is able to examine the data in a graphical format in order to obtain additional insights about messages within the data
+
+mathematical formulas or mathematical models supported by algorithms may be applied to the data in order to identify relationships among the variables for example checking for correlation and by determining whether or not there is the presence of causality in general terms models may be developed to evaluate a specific variable based on other variable s contained within the dataset with some residual error depending on the implemented model s accuracy e g data model error
+
+inferential statistics utilizes techniques that measure the relationships between particular variables for example regression analysis may be used to model whether a change in advertising independent variable x provides an explanation for the variation in sales dependent variable y i e is y a function of x this can be described as y ax b error where the model is designed such that a and b minimize the error when the model predicts y for a given range of values of x
+
+a data product is a computer application that takes data inputs and generates outputs feeding them back into the environment it may be based on a model or algorithm for instance an application that analyzes data about customer purchase history and uses the results to recommend other purchases the customer might enjoy
+
+once data is analyzed it may be reported in many formats to the users of the analysis to support their requirements the users may have feedback which results in additional analysis
+
+when determining how to communicate the results the analyst may consider implementing a variety of data visualization techniques to help communicate the message more clearly and efficiently to the audience data visualization uses information displays graphics such as tables and charts to help communicate key messages contained in the data tables are a valuable tool by enabling the ability of a user to query and focus on specific numbers while charts e g bar charts or line charts may help explain the quantitative messages contained in the data
+
+stephen few described eight types of quantitative messages that users may attempt to communicate from a set of data including the associated graphs
+
+author jonathan koomey has recommended a series of best practices for understanding quantitative data these include
+
+for the variables under examination analysts typically obtain descriptive statistics such as the mean average median and standard deviation they may also analyze the distribution of the key variables to see how the individual values cluster around the mean
+
+mckinsey and company named a technique for breaking down a quantitative problem into its component parts called the mece principle mece means mutually exclusive and collectively exhaustive each layer can be broken down into its components each of the sub components must be mutually exclusive of each other and collectively add up to the layer above them for example profit by definition can be broken down into total revenue and total cost
+
+analysts may use robust statistical measurements to solve certain analytical problems hypothesis testing is used when a particular hypothesis about the true state of affairs is made by the analyst and data is gathered to determine whether that hypothesis is true or false for example the hypothesis might be that unemployment has no effect on inflation which relates to an economics concept called the phillips curve hypothesis testing involves considering the likelihood of type i and type ii errors which relate to whether the data supports accepting or rejecting the hypothesis
+
+regression analysis may be used when the analyst is trying to determine the extent to which independent variable x affects dependent variable y e g to what extent do changes in the unemployment rate x affect the inflation rate y
+
+necessary condition analysis nca may be used when the analyst is trying to determine the extent to which independent variable x allows variable y e g to what extent is a certain unemployment rate x necessary for a certain inflation rate y whereas multiple regression analysis uses additive logic where each x variable can produce the outcome and the x s can compensate for each other they are sufficient but not necessary necessary condition analysis nca uses necessity logic where one or more x variables allow the outcome to exist but may not produce it they are necessary but not sufficient each single necessary condition must be present and compensation is not possible
+
+users may have particular data points of interest within a data set as opposed to the general messaging outlined above such low level user analytic activities are presented in the following table the taxonomy can also be organized by three poles of activities retrieving values finding data points and arranging data points
+
+how long is the movie gone with the wind
+
+what comedies have won awards
+
+which funds underperformed the sp 500
+
+what is the gross income of all stores combined
+
+how many manufacturers of cars are there
+
+what director film has won the most awards
+
+what marvel studios film has the most recent release date
+
+rank the cereals by calories
+
+what is the range of car horsepowers
+
+what actresses are in the data set
+
+what is the age distribution of shoppers
+
+are there any outliers in protein
+
+is there a cluster of typical film lengths
+
+is there a correlation between country of origin and mpg
+
+do different genders have a preferred payment method
+
+is there a trend of increasing film length over the years
+
+barriers to effective analysis may exist among the analysts performing the data analysis or among the audience distinguishing fact from opinion cognitive biases and innumeracy are all challenges to sound data analysis
+
+you are entitled to your own opinion but you are not entitled to your own facts
+
+effective analysis requires obtaining relevant facts to answer questions support a conclusion or formal opinion or test hypotheses facts by definition are irrefutable meaning that any person involved in the analysis should be able to agree upon them the auditor of a public company must arrive at a formal opinion on whether financial statements of publicly traded corporations are fairly stated in all material respects this requires extensive analysis of factual data and evidence to support their opinion
+
+there are a variety of cognitive biases that can adversely affect analysis for example confirmation bias is the tendency to search for or interpret information in a way that confirms one s preconceptions in addition individuals may discredit information that does not support their views
+
+analysts may be trained specifically to be aware of these biases and how to overcome them in his book psychology of intelligence analysis retired cia analyst richards heuer wrote that analysts should clearly delineate their assumptions and chains of inference and specify the degree and source of the uncertainty involved in the conclusions he emphasized procedures to help surface and debate alternative points of view
+
+effective analysts are generally adept with a variety of numerical techniques however audiences may not have such literacy with numbers or numeracy they are said to be innumerate persons communicating the data may also be attempting to mislead or misinform deliberately using bad numerical techniques
+
+for example whether a number is rising or falling may not be the key factor more important may be the number relative to another number such as the size of government revenue or spending relative to the size of the economy gdp or the amount of cost relative to revenue in corporate financial statements this numerical technique is referred to as normalization or common sizing there are many such techniques employed by analysts whether adjusting for inflation i e comparing real vs nominal data or considering population increases demographics etc
+
+analysts may also analyze data under different assumptions or scenarios for example when analysts perform financial statement analysis they will often recast the financial statements under different assumptions to help arrive at an estimate of future cash flow which they then discount to present value based on some interest rate to determine the valuation of the company or its stock similarly the cbo analyzes the effects of various policy options on the government s revenue outlays and deficits creating alternative future scenarios for key measures
+
+analytics is the extensive use of data statistical and quantitative analysis explanatory and predictive models and fact based management to drive decisions and actions it is a subset of business intelligence which is a set of technologies and processes that uses data to understand and analyze business performance to drive decision making
+
+in education most educators have access to a data system for the purpose of analyzing student data these data systems present data to educators in an over the counter data format embedding labels supplemental documentation and a help system and making key package display and content decisions to improve the accuracy of educators data analyses
+
+this section contains rather technical explanations that may assist practitioners but are beyond the typical scope of a wikipedia article
+
+the most important distinction between the initial data analysis phase and the main analysis phase is that during initial data analysis one refrains from any analysis that is aimed at answering the original research question the initial data analysis phase is guided by the following four questions
+
+the quality of the data should be checked as early as possible data quality can be assessed in several ways using different types of analysis frequency counts descriptive statistics mean standard deviation median normality skewness kurtosis frequency histograms normal imputation is needed
+
+the quality of the measurement instruments should only be checked during the initial data analysis phase when this is not the focus or research question of the study one should check whether structure of measurement instruments corresponds to structure reported in the literature
+
+there are two ways to assess measurement quality
+
+after assessing the quality of the data and of the measurements one might decide to impute missing data or to perform initial transformations of one or more variables although this can also be done during the main analysis phase
+possible transformations of variables are
+
+one should check the success of the randomization procedure for instance by checking whether background and substantive variables are equally distributed within and across groups if the study did not need or use a randomization procedure one should check the success of the non random sampling for instance by checking whether all subgroups of the population of interest are represented in the sample other possible data distortions that should be checked are
+
+in any report or article the structure of the sample must be accurately described it is especially important to exactly determine the size of the subgroup when subgroup analyses will be performed during the main analysis phase the characteristics of the data sample can be assessed by looking at
+
+during the final stage the findings of the initial data analysis are documented and necessary preferable and possible corrective actions are taken also the original plan for the main data analyses can and should be specified in more detail or rewritten in order to do this several decisions about the main data analyses can and should be made
+
+several analyses can be used during the initial data analysis phase
+
+it is important to take the measurement levels of the variables into account for the analyses as special statistical techniques are available for each level
+
+in the main analysis phase analyses aimed at answering the research question are performed as well as any other relevant analysis needed to write the first draft of the research report
+
+in the main analysis phase either an exploratory or confirmatory approach can be adopted usually the approach is decided before data is collected in an exploratory analysis no clear hypothesis is stated before analysing the data and the data is searched for models that describe the data well in a confirmatory analysis clear hypotheses about the data are tested
+
+exploratory data analysis should be interpreted carefully when testing multiple models at once there is a high chance on finding at least one of them to be significant but this can be due to a type 1 error it is important to always adjust the significance level when testing multiple models with for example a bonferroni correction also one should not follow up an exploratory analysis with a confirmatory analysis in the same dataset an exploratory analysis is used to find ideas for a theory but not to test that theory as well when a model is found exploratory in a dataset then following up that analysis with a confirmatory analysis in the same dataset could simply mean that the results of the confirmatory analysis are due to the same type 1 error that resulted in the exploratory model in the first place the confirmatory analysis therefore will not be more informative than the original exploratory analysis
+
+it is important to obtain some indication about how generalizable the results are while this is often difficult to check one can look at the stability of the results are the results reliable and reproducible there are two main ways of doing that
+
+free software for data analysis include
+
+the typical data analysis workflow involves collecting data running analyses creating visualizations and writing reports however this workflow presents challenges including a separation between analysis scripts and data as well as a gap between analysis and documentation often the correct order of running scripts is only described informally or resides in the data scientist s memory the potential for losing this information creates issues for reproducibility
+
+to address these challenges it is essential to document analysis script content and workflow additionally overall documentation is crucial as well as providing reports that are understandable by both machines and humans and ensuring accurate representation of the analysis workflow even as scripts evolve
+
+different companies and organizations hold data analysis contests to encourage researchers to utilize their data or to solve a particular question using data analysis a few examples of well known international data analysis contests are

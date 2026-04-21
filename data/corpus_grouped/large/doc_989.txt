@@ -1,0 +1,1031 @@
+
+
+in mathematics equality is a relationship between two quantities or expressions stating that they have the same value or represent the same mathematical object equality between a and b is denoted with an equals sign as a b and read a equals b a written expression of equality is called an equation or identity depending on the context two objects that are not equal are said to be distinct
+
+equality is often considered a primitive notion meaning it is not formally defined but rather informally said to be a relation each thing bears to itself and nothing else this characterization is notably circular nothing else reflecting a general conceptual difficulty in fully characterizing the concept basic properties about equality like reflexivity symmetry and transitivity have been understood intuitively since at least the ancient greeks but were not symbolically stated as general properties of relations until the late 19th century by giuseppe peano other properties like substitution and function application weren t formally stated until the development of symbolic logic
+
+there are generally two ways that equality is formalized in mathematics through logic or through set theory in logic equality is a primitive predicate a statement that may have free variables with the reflexive property called the law of identity and the substitution property from those one can derive the rest of the properties usually needed for equality after the foundational crisis in mathematics at the turn of the 20th century set theory specifically zermelo fraenkel set theory became the most common foundation of mathematics in set theory any two sets are defined to be equal if they have all the same members this is called the axiom of extensionality
+
+in english the word equal is derived from the latin aequālis like comparable similar which itself stems from aequus level just the word entered middle english around the 14th century borrowed from old french equalité modern égalité more generally the interlingual synonyms of equal have been used more broadly throughout history see geometry
+
+before the 16th century there was no common symbol for equality and equality was usually expressed with a word such as aequales aequantur esgale faciunt ghelijck or gleich and sometimes by the abbreviated form aeq or simply æ and œ diophantus s use of ἴσ short for ἴσος ísos equals in arithmetica c 250 ad is considered one of the first uses of an equals sign
+
+the sign now universally accepted in mathematics for equality was first recorded by welsh mathematician robert recorde in the whetstone of witte 1557 just one year before his death the original form of the symbol was much wider than the present form in his book recorde explains his symbol as gemowe lines from the latin gemellus twin using two parallel lines to represent equality because he believed that no two things could be more equal
+
+recorde s symbol was not immediately popular after its introduction it wasn t used again in print until 1618 61 years later in an anonymous appendix in edward wright s english translation of descriptio by john napier it wasn t until 1631 that it received more than general recognition in england being adopted as the symbol for equality in a few influential works later used by several influential mathematicians most notably both isaac newton and gottfried leibniz and due to the prevalence of calculus at the time it quickly spread throughout the rest of europe
+
+the first three properties are generally attributed to giuseppe peano for being the first to explicitly state these as fundamental properties of equality in his arithmetices principia 1889 however the basic notions have always existed for example in euclid s elements c 300 bc he includes common notions things that are equal to the same thing are also equal to one another transitivity things that coincide with one another are equal to one another reflexivity along with some function application properties for addition and subtraction the function application property was also stated in peano s arithmetices principia however it had been common practice in algebra since at least diophantus c 250 ad the substitution property is generally attributed to gottfried leibniz c 1686 and often called leibniz s law
+
+an equation is a symbolic equality of two mathematical expressions connected with an equals sign algebra is the branch of mathematics concerned with equation solving the problem of finding values of some variable called unknown for which the specified equality is true each value of the unknown for which the equation holds is called a solution of the given equation also stated as satisfying the equation for example the equation
+
+
+
+
+x
+
+2
+
+
+
+6
+x
+
+5
+
+0
+
+
+displaystyle x 2 6x 5 0
+
+has the values
+
+
+
+x
+
+1
+
+
+displaystyle x 1
+
+and
+
+
+
+x
+
+5
+
+
+displaystyle x 5
+
+as its only solutions the terminology is used similarly for equations with several unknowns the set of solutions to an equation or system of equations is called its solution set
+
+in mathematics education students are taught to rely on concrete models and visualizations of equations including geometric analogies manipulatives including sticks or cups and function machines representing equations as flow diagrams one method uses balance scales as a pictorial approach to help students grasp basic problems of algebra the mass of some objects on the scale is unknown and represents variables solving an equation corresponds to adding and removing objects on both sides in such a way that the sides stay in balance until the only object remaining on one side is the object of unknown mass
+
+often equations are considered to be a statement or relation which can be true or false for example
+
+
+
+1
+
+1
+
+2
+
+
+displaystyle 1 1 2
+
+is true and
+
+
+
+1
+
+1
+
+3
+
+
+displaystyle 1 1 3
+
+is false equations with unknowns are considered conditionally true for example
+
+
+
+
+x
+
+2
+
+
+
+6
+x
+
+5
+
+0
+
+
+displaystyle x 2 6x 5 0
+
+is true when
+
+
+
+x
+
+1
+
+
+displaystyle x 1
+
+or
+
+
+
+x
+
+5
+
+
+
+displaystyle x 5
+
+and false otherwise there are several different terminologies for this in mathematical logic an equation is a binary predicate i e a logical statement that can have free variables which satisfies certain properties in computer science an equation is defined as a boolean valued expression or relational operator which returns 1 and 0 for true and false respectively
+
+an identity is an equality that is true for all values of its variables in a given domain an equation may sometimes mean an identity but more often than not it specifies a subset of the variable space to be the subset where the equation is true an example is
+
+
+
+
+
+
+x
+
+1
+
+
+
+
+
+
+x
+
+1
+
+
+
+
+
+x
+
+2
+
+
+
+2
+x
+
+1
+
+
+
+displaystyle left x 1 right left x 1 right x 2 2x 1
+
+which is true for each real number
+
+
+
+x
+
+
+
+displaystyle x
+
+there is no standard notation that distinguishes an equation from an identity or other use of the equality relation one has to guess an appropriate interpretation from the semantics of expressions and the context sometimes but not always an identity is written with a triple bar
+
+
+
+
+
+
+x
+
+1
+
+
+
+
+
+
+x
+
+1
+
+
+
+
+
+x
+
+2
+
+
+
+2
+x
+
+1
+
+
+displaystyle left x 1 right left x 1 right equiv x 2 2x 1
+
+this notation was introduced by bernhard riemann in his 1857 elliptische funktionen lectures published in 1899
+
+alternatively identities may be viewed as an equality of functions where instead of writing
+
+
+
+f
+
+a
+
+
+g
+
+a
+
+
+for all
+
+a
+
+
+
+displaystyle f a g a text for all a
+
+one may simply write
+
+
+
+f
+
+g
+
+
+
+displaystyle f g
+
+this is called the extensionality of functions in this sense the function application property refers to operators operations on a function space functions mapping between functions like composition or the derivative commonly used in operational calculus an identity can contain functions as unknowns which can be solved for similarly to a regular equation called a functional equation a functional equation involving derivatives is called a differential equation
+
+equations are often used to introduce new terms or symbols for constants assert equalities and introduce shorthand for complex expressions which is called equal by definition and often denoted with
+
+
+
+
+
+
+displaystyle
+
+it is similar to the concept of assignment of a variable in computer science for example
+
+
+
+
+e
+
+
+
+
+
+n
+
+0
+
+
+
+
+
+
+
+1
+
+n
+
+
+
+
+
+
+textstyle mathbb e sum _ n 0 infty frac 1 n
+
+defines euler s number and
+
+
+
+
+i
+
+2
+
+
+
+
+1
+
+
+displaystyle i 2 1
+
+is the defining property of the imaginary number
+
+
+
+i
+
+
+
+displaystyle i
+
+
+
+in mathematical logic this is called an extension by definition by equality which is a conservative extension to a formal system this is done by taking the equation defining the new constant symbol as a new axiom of the theory the first recorded symbolic use of equal by definition appeared in logica matematica 1894 by cesare burali forti an italian mathematician burali forti in his book used the notation
+
+
+
+
+
+
+def
+
+
+
+
+displaystyle _ text def
+
+
+
+equality is often considered a primitive notion informally said to be a relation each thing bears to itself and to no other thing this tradition can be traced at least as far back as aristotle who in his categories c 350 bc defines the notion of quantity in terms of a more primitive equality distinct from identity or similarity stating
+
+the most distinctive mark of quantity is that equality and inequality are predicated of it each of the aforesaid quantities is said to be equal or unequal for instance one solid is said to be equal or unequal to another number too and time can have these terms applied to them indeed can all those kinds of quantity that have been mentioned
+that which is not a quantity can by no means it would seem be termed equal or unequal to anything else one particular disposition or one particular quality such as whiteness is by no means compared with another in terms of equality and inequality but rather in terms of similarity thus it is the distinctive mark of quantity that it can be called equal and unequal translated by e m edghill
+aristotle had separate categories for quantities number length volume and qualities temperature density pressure now called intensive and extensive properties the scholastics particularly richard swineshead and other oxford calculators in the 14th century began seriously thinking about kinematics and quantitative treatment of qualities for example two flames have the same heat intensity if they produce the same effect on water e g warming vs boiling since two intensities could be shown to be equal and equality was considered the defining feature of quantities it meant those intensities were quantifiable
+
+the precursor to the substitution property of equality was first formulated by gottfried leibniz in his discourse on metaphysics 1686 stating roughly that no two distinct things can have all properties in common this has since broken into two principles the substitution property if
+
+
+
+x
+
+y
+
+
+
+displaystyle x y
+
+then any property of
+
+
+
+x
+
+
+displaystyle x
+
+is a property of
+
+
+
+y
+
+
+displaystyle y
+
+and its converse the identity of indiscernibles if
+
+
+
+x
+
+
+displaystyle x
+
+and
+
+
+
+y
+
+
+displaystyle y
+
+have all properties in common then
+
+
+
+x
+
+y
+
+
+displaystyle x y
+
+
+
+around the turn of the 20th century it would become necessary to have a more concrete description of equality in 1879 gottlob frege would publish his pioneering text begriffsschrift which would shift the focus of logic from aristotelian logic focused on classes of objects to being property based with what would grow to become modern predicate logic this was followed by a movement for describing mathematics in logical foundations called logicism this trend lead to the axiomatization of equality through the law of identity and the substitution property especially in mathematical logic and analytic philosophy
+
+later frege s foundations of arithmetic 1884 and basic laws of arithmetic 1893 1903 would attempt to derive the foundations of mathematics from the logical system developed in his begriffsschrift this would eventually be shown to be flawed by allowing russell s paradox and would contribute to the foundational crisis of mathematics the work of frege would eventually be resolved by a three volume work by bertrand russell and alfred whitehead known as principia mathematica 1910 1913 russell and whitehead s work would also introduce and formalize the leibniz law to symbolic logic wherein they claim it follows from their axiom of reducibility but credit leibniz for the idea
+
+function application is also sometimes included in the axioms of equality but isn t necessary as it can be deduced from the other two axioms and similarly for symmetry and transitivity see derivations of basic properties in first order logic these are axiom schemas usually see below each of which specify an infinite set of axioms if a theory has a predicate that satisfies the law of identity and substitution property it is common to say that it has equality or is a theory with equality
+
+the use of equality here somewhat of a misnomer in that any system with equality can be modeled by a theory without standard identity and with indiscernibles those two axioms are strong enough however to be isomorphic to a model with identity that is if a system has a predicate satisfying those axioms without standard equality there is a model of that system with standard equality this can be done by defining a new domain whose objects are the equivalence classes of the original equality if a model is interpreted to have equality then those properties are enough since if
+
+
+
+x
+
+
+displaystyle x
+
+has all the same properties as
+
+
+
+y
+
+
+
+displaystyle y
+
+and
+
+
+
+x
+
+
+displaystyle x
+
+has the property of being equal to
+
+
+
+x
+
+
+
+displaystyle x
+
+then
+
+
+
+y
+
+
+displaystyle y
+
+has the property of being equal to
+
+
+
+x
+
+
+
+displaystyle x
+
+
+
+as axioms one can deduce from the first using universal instantiation and the from second given
+
+
+
+a
+
+b
+
+
+displaystyle a b
+
+and
+
+
+
+ϕ
+
+a
+
+
+
+
+displaystyle phi a
+
+by using modus ponens twice alternatively each of these may be included in logic as rules of inference the first called equality introduction and the second equality elimination also called paramodulation used by some theoretical computer scientists like john alan robinson in their work on resolution and automated theorem proving
+
+the substitution property can produce false statements when applied naively for example if
+
+
+
+n
+
+
+displaystyle n
+
+denotes the number of planets in the solar system then the statement johannes kepler did not know that
+
+
+
+n
+
+6
+
+
+displaystyle n 6
+
+is true since uranus and neptune were discovered after his death however since
+
+
+
+n
+
+8
+
+
+displaystyle n 8
+
+applying the substitution property gives the statement johannes kepler did not know that
+
+
+
+8
+
+6
+
+
+displaystyle 8 6
+
+which is false the difference here is that while the expressions the number of planets and 8 refer to the same object their extension they have different meanings their intension thus the substitution property can only be guaranteed in extensional contexts which is guaranteed in modern mathematics by the axiom of extensionality
+
+set theory is the branch of mathematics that studies sets which can be informally described as collections of objects although objects of any kind can be collected into a set set theory as a branch of mathematics is mostly concerned with those that are relevant to mathematics as a whole
+sets are uniquely characterized by their elements this means that two sets that have precisely the same elements are equal they are the same set in a formalized set theory this is usually defined by an axiom called the axiom of extensionality
+
+for example using set builder notation the following states that the set of all integers
+
+
+
+
+
+z
+
+
+
+
+displaystyle mathbb z
+
+greater than 0 but not more than 3 is equal to the set containing only 1 2 and 3 despite the differences in formulation
+
+
+
+
+
+
+x
+
+
+z
+
+
+0
+
+x
+
+3
+
+
+
+1
+
+2
+
+3
+
+
+
+
+displaystyle x in mathbb z mid 0 x leq 3 1 2 3
+
+
+
+the term extensionality as used in axiom of extensionality has its roots in logic and grammar cf extension semantics in grammar an intensional definition describes the necessary and sufficient conditions for a term to apply to an object for example a platonic solid is a convex regular polyhedron in three dimensional euclidean space an extensional definition instead lists all objects where the term applies for example a platonic solid is one of the following tetrahedron cube octahedron dodecahedron or icosahedron in logic the extension of a predicate is the set of all objects for which the predicate is true further the logical principle of extensionality judges two objects to be equal if they satisfy the same external properties since by the axiom two sets are defined to be equal if they satisfy membership sets are extentional
+
+josé ferreirós credits richard dedekind for being the first to explicitly state the principle although he does not assert it as a definition
+
+it very frequently happens that different things a b c considered for any reason under a common point of view are collected together in the mind and one then says that they form a system s one calls the things a b c the elements of the system s they are contained in s conversely s consists of these elements such a system s or a collection a manifold a totality as an object of our thought is likewise a thing it is completely determined when for every thing it is determined whether it is an element of s or not
+
+richard dedekind 1888 translated by josé ferreirós
+around the turn of the 20th century mathematics faced several paradoxes and counter intuitive results for example russell s paradox showed a contradiction of naive set theory it was shown that the parallel postulate cannot be proved the existence of mathematical objects that cannot be computed or explicitly described and the existence of theorems of arithmetic that cannot be proved with peano arithmetic the result was a foundational crisis of mathematics
+
+the resolution of this crisis involved the rise of a new mathematical discipline called mathematical logic which studies formal logic within mathematics discoveries made during the 20th century stabilized the foundations of mathematics and produced a coherent framework valid for all branches of the discipline this framework is based on a systematic use of axiomatic method and on set theory specifically zermelo fraenkel set theory developed by ernst zermelo and abraham fraenkel this set theory and set theory in general is now considered the most common foundation of mathematics
+
+in first order logic with equality see axioms the axiom of extensionality states that two sets that contain the same elements are the same set
+
+the first two are given by the substitution property of equality from first order logic the last is a new axiom of the theory incorporating half of the work into the first order logic may be regarded as a mere matter of convenience as noted by azriel lévy
+
+the reason why we take up first order predicate calculus with equality is a matter of convenience by this we save the labor of defining equality and proving all its properties this burden is now assumed by the logic
+in first order logic without equality two sets are defined to be equal if they contain the same elements then the axiom of extensionality states that two equal sets are contained in the same sets
+
+or equivalently one may choose to define equality in a way that mimics the substitution property explicitly as the conjunction of all atomic formulas
+
+in either case the axiom of extensionality based on first order logic without equality states that sets which contain the same elements are always contained in the same sets
+
+
+
+
+
+
+z
+
+z
+
+x
+
+
+
+z
+
+y
+
+
+
+
+
+w
+
+x
+
+w
+
+
+
+y
+
+w
+
+
+
+
+displaystyle forall z z in x iff z in y implies forall w x in w iff y in w
+
+
+
+numerical analysis is the study of constructive methods and algorithms to find numerical approximations as opposed to symbolic manipulations of solutions to problems in mathematical analysis especially those which cannot be solved analytically
+
+calculations are likely to involve rounding errors and other approximation errors log tables slide rules and calculators produce approximate answers to all but the simplest calculations the results of computer calculations are normally an approximation expressed in a limited number of significant digits although they can be programmed to produce more precise results
+
+if approximate equality is viewed as a binary relation denoted by the symbol
+
+
+
+
+
+
+displaystyle approx
+
+between real numbers or other things any rigorous definition of it will not be an equivalence relation due to its not being transitive this is the case even when it is modeled as a fuzzy relation
+
+in computer science equality is expressed using relational operators on computers physical constraints fundamentally limit the level of precision with which numbers can be represented thus the real numbers are often approximated by floating point numbers each floating point number is represented as a significand comprising some fixed length sequence of digits in a given base which is scaled by some integer exponent of said base in effect enabling the radix point to float between each possible location in the significand this allows numbers spanning many orders of magnitude to be represented but only as fuzzy ranges of values that become less precise as they increase in magnitude in order to avoid losing precision it is common to represent real numbers on computers in the form of an expression that denotes the real number however the equality of two real numbers given by an expression is known to be undecidable specifically real numbers defined by expressions involving the integers the basic arithmetic operations the logarithm and the exponential function in other words there cannot exist any algorithm for deciding such an equality see richardson s theorem
+
+an equivalence relation is a mathematical relation that generalizes the idea of similarity or sameness it is defined on a set
+
+
+
+x
+
+
+displaystyle x
+
+as a binary relation
+
+
+
+
+
+
+displaystyle sim
+
+that satisfies the three properties reflexivity symmetry and transitivity reflexivity means that every element in
+
+
+
+x
+
+
+displaystyle x
+
+is equivalent to itself
+
+
+
+a
+
+a
+
+
+displaystyle a sim a
+
+for all
+
+
+
+a
+
+x
+
+
+displaystyle a in x
+
+symmetry requires that if one element is equivalent to another the reverse also holds
+
+
+
+a
+
+b
+
+
+
+b
+
+a
+
+
+displaystyle a sim b implies b sim a
+
+transitivity ensures that if one element is equivalent to a second and the second to a third then the first is equivalent to the third
+
+
+
+a
+
+b
+
+
+displaystyle a sim b
+
+and
+
+
+
+b
+
+c
+
+
+
+a
+
+c
+
+
+displaystyle b sim c implies a sim c
+
+these properties are enough to partition a set into disjoint equivalence classes conversely every partition defines an equivalence class
+
+the equivalence relation of equality is a special case as if restricted to a given set
+
+
+
+s
+
+
+
+displaystyle s
+
+it is the strictest possible equivalence relation on
+
+
+
+s
+
+
+displaystyle s
+
+specifically equality partitions a set into equivalence classes consisting of all singleton sets other equivalence relations since they re less restrictive generalize equality by identifying elements based on shared properties or transformations such as congruence in modular arithmetic or similarity in geometry
+
+in abstract algebra a congruence relation extends the idea of an equivalence relation to include the function application property that is given a set
+
+
+
+x
+
+
+
+displaystyle x
+
+and a set of operations on
+
+
+
+x
+
+
+
+displaystyle x
+
+then a congruence relation
+
+
+
+
+
+
+displaystyle sim
+
+has the property that
+
+
+
+a
+
+b
+
+
+
+f
+
+a
+
+
+f
+
+b
+
+
+
+displaystyle a sim b implies f a sim f b
+
+for all operations
+
+
+
+f
+
+
+displaystyle f
+
+here written as unary to avoid cumbersome notation but
+
+
+
+f
+
+
+displaystyle f
+
+may be of any arity a congruence relation on an algebraic structure such as a group ring or module is an equivalence relation that respects the operations defined on that structure
+
+in mathematics especially in abstract algebra and category theory it is common to deal with objects that already have some internal structure an isomorphism describes a kind of structure preserving correspondence between two objects establishing them as essentially identical in their structure or properties
+
+more formally an isomorphism is a bijective mapping or morphism
+
+
+
+f
+
+
+displaystyle f
+
+between two sets or structures
+
+
+
+a
+
+
+displaystyle a
+
+and
+
+
+
+b
+
+
+displaystyle b
+
+such that
+
+
+
+f
+
+
+displaystyle f
+
+and its inverse
+
+
+
+
+f
+
+
+1
+
+
+
+
+displaystyle f 1
+
+preserve the operations relations or functions defined on those structures this means that any operation or relation valid in
+
+
+
+a
+
+
+displaystyle a
+
+corresponds precisely to the operation or relation in
+
+
+
+b
+
+
+displaystyle b
+
+under the mapping for example in group theory a group isomorphism
+
+
+
+f
+
+g
+
+h
+
+
+displaystyle f g mapsto h
+
+satisfies
+
+
+
+f
+
+a
+
+b
+
+
+f
+
+a
+
+
+f
+
+b
+
+
+
+displaystyle f a b f a f b
+
+for all elements
+
+
+
+a
+
+b
+
+
+
+displaystyle a b
+
+where
+
+
+
+
+
+
+displaystyle
+
+denotes the group operation
+
+when two objects or systems are isomorphic they are considered indistinguishable in terms of their internal structure even though their elements or representations may differ for instance all cyclic groups of order
+
+
+
+
+
+
+displaystyle infty
+
+are isomorphic to the integers
+
+
+
+
+z
+
+
+
+
+displaystyle mathbb z
+
+with addition similarly in linear algebra two vector spaces are isomorphic if they have the same dimension as there exists a linear bijection between their elements
+
+the concept of isomorphism extends to numerous branches of mathematics including graph theory graph isomorphism topology homeomorphism and algebra group and ring isomorphisms among others isomorphisms facilitate the classification of mathematical entities and enable the transfer of results and techniques between similar systems bridging the gap between isomorphism and equality was one motivation for the development of category theory as well as for homotopy type theory and univalent foundations
+
+in geometry formally two figures are equal if they contain exactly the same points however historically geometric equality has always been taken to be much broader euclid and archimedes used equal ἴσος isos often referring to figures with the same area or those that could be cut and rearranged to form one another for example euclid stated the pythagorean theorem as the square on the hypotenuse is equal to the squares on the sides taken together and archimedes said that a circle is equal to the rectangle whose sides are the radius and half the circumference see area of a circle rearrangement proof
+
+this notion persisted until adrien marie legendre introduced the term equivalent in 1867 to describe figures of equal area and reserved equal to mean congruent the same shape and size or if one has the same shape and size as the mirror image of the other euclid s terminology continued in the work of david hilbert in his grundlagen der geometrie who further refined euclid s ideas by introducing the notions of polygons being divisibly equal zerlegungsgleich if they can be cut into finitely many triangles which are congruent and equal in content inhaltsgleichheit if one can add finitely many divisibly equal polygons to each such that the resulting polygons are divisibly equal
+
+after the rise of set theory around the 1960s there was a push for a reform in mathematics education called new math following andrey kolmogorov who in an effort to restructure russian geometry courses proposed presenting geometry through the lens of transformations and set theory since a figure was seen as a set of points it could only be equal to itself as a result of kolmogorov the term congruent became standard in schools for figures that were previously called equal which popularized the term
+
+while euclid addressed proportionality and figures of the same shape it was not until the 17th century that the concept of similarity was formalized in the modern sense similar figures are those that have the same shape but can differ in size they can be transformed into one another by scaling and congruence later a concept of equality of directed line segments equipollence was advanced by giusto bellavitis in 1835

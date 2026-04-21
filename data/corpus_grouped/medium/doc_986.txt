@@ -1,0 +1,176 @@
+depth first search dfs is an algorithm for traversing or searching tree or graph data structures the algorithm starts at the root node selecting some arbitrary node as the root node in the case of a graph and explores as far as possible along each branch before backtracking extra memory usually a stack is needed to keep track of the nodes discovered so far along a specified branch which helps in backtracking of the graph
+
+a version of depth first search was investigated in the 19th century by french mathematician charles pierre trémaux as a strategy for solving mazes
+
+the time and space analysis of dfs differs according to its application area in theoretical computer science dfs is typically used to traverse an entire graph and takes time
+
+
+
+o
+
+
+
+
+v
+
+
+
+
+
+
+
+e
+
+
+
+
+
+
+displaystyle o v e
+
+where
+
+
+
+
+
+
+v
+
+
+
+
+
+displaystyle v
+
+is the number of vertices and
+
+
+
+
+
+
+e
+
+
+
+
+
+displaystyle e
+
+the number of edges this is linear in the size of the graph in these applications it also uses space
+
+
+
+o
+
+
+
+
+v
+
+
+
+
+
+
+displaystyle o v
+
+in the worst case to store the stack of vertices on the current search path as well as the set of already visited vertices thus in this setting the time and space bounds are the same as for breadth first search and the choice of which of these two algorithms to use depends less on their complexity and more on the different properties of the vertex orderings the two algorithms produce
+
+for applications of dfs in relation to specific domains such as searching for solutions in artificial intelligence or web crawling the graph to be traversed is often either too large to visit in its entirety or infinite dfs may suffer from non termination in such cases search is only performed to a limited depth due to limited resources such as memory or disk space one typically does not use data structures to keep track of the set of all previously visited vertices when search is performed to a limited depth the time is still linear in terms of the number of expanded vertices and edges although this number is not the same as the size of the entire graph because some vertices may be searched more than once and others not at all but the space complexity of this variant of dfs is only proportional to the depth limit and as a result is much smaller than the space needed for searching to the same depth using breadth first search for such applications dfs also lends itself much better to heuristic methods for choosing a likely looking branch when an appropriate depth limit is not known a priori iterative deepening depth first search applies dfs repeatedly with a sequence of increasing limits in the artificial intelligence mode of analysis with a branching factor greater than one iterative deepening increases the running time by only a constant factor over the case in which the correct depth limit is known due to the geometric growth of the number of nodes per level
+
+dfs may also be used to collect a sample of graph nodes however incomplete dfs similarly to incomplete bfs is biased towards nodes of high degree
+
+for the following graph
+
+
+
+a depth first search starting at the node a assuming that the left edges in the shown graph are chosen before right edges and assuming the search remembers previously visited nodes and will not repeat them since this is a small graph will visit the nodes in the following order a b d f e c g the edges traversed in this search form a trémaux tree a structure with important applications in graph theory
+performing the same search without remembering previously visited nodes results in visiting the nodes in the order a b d f e a b d f e etc forever caught in the a b d f e cycle and never reaching c or g
+
+iterative deepening is one technique to avoid this infinite loop and would reach all nodes
+
+the result of a depth first search of a graph can be conveniently described in terms of a spanning tree of the vertices reached during the search based on this spanning tree the edges of the original graph can be divided into three classes forward edges which point from a node of the tree to one of its descendants back edges which point from a node to one of its ancestors and cross edges which do neither sometimes tree edges edges which belong to the spanning tree itself are classified separately from forward edges if the original graph is undirected then all of its edges are tree edges or back edges
+
+it is also possible to use depth first search to linearly order the vertices of a graph or tree there are four possible ways of doing this
+
+for binary trees there is additionally in ordering and reverse in ordering
+
+for example when searching the directed graph below beginning at node a the sequence of traversals is either a b d b a c a or a c d c a b a choosing to first visit b or c from a is up to the algorithm note that repeat visits in the form of backtracking to a node to check if it has still unvisited neighbors are included here even if it is found to have none thus the possible preorderings are a b d c and a c d b while the possible postorderings are d b c a and d c b a and the possible reverse postorderings are a c b d and a b c d
+
+reverse postordering produces a topological sorting of any directed acyclic graph this ordering is also useful in control flow analysis as it often represents a natural linearization of the control flows the graph above might represent the flow of control in the code fragment below and it is natural to consider this code in the order a b c d or a c b d but not natural to use the order a b d c or a c d b
+
+0
+
+a recursive implementation of dfs
+
+a non recursive implementation of dfs with worst case space complexity
+
+
+
+o
+
+
+
+
+e
+
+
+
+
+
+
+displaystyle o e
+
+with the possibility of duplicate vertices on the stack
+
+these two variations of dfs visit the neighbors of each vertex in the opposite order from each other the first neighbor of v visited by the recursive variation is the first one in the list of adjacent edges while in the iterative variation the first visited neighbor is the last one in the list of adjacent edges the recursive implementation will visit the nodes from the example graph in the following order a b d f e c g the non recursive implementation will visit the nodes as a e f b d c g
+
+the non recursive implementation is similar to breadth first search but differs from it in two ways
+
+if g is a tree replacing the queue of the breadth first search algorithm with a stack will yield a depth first search algorithm for general graphs replacing the stack of the iterative depth first search implementation with a queue would also produce a breadth first search algorithm although a somewhat nonstandard one
+
+another possible implementation of iterative depth first search uses a stack of iterators of the list of neighbors of a node instead of a stack of nodes this yields the same traversal as recursive dfs
+
+algorithms that use depth first search as a building block include
+
+the computational complexity of dfs was investigated by john reif more precisely given a graph
+
+
+
+g
+
+
+displaystyle g
+
+let
+
+
+
+o
+
+
+
+v
+
+1
+
+
+
+
+
+
+v
+
+n
+
+
+
+
+
+displaystyle o v_ 1 dots v_ n
+
+be the ordering computed by the standard recursive dfs algorithm this ordering is called the lexicographic depth first search ordering john reif considered the complexity of computing the lexicographic depth first search ordering given a graph and a source a decision version of the problem testing whether some vertex u occurs before some vertex v in this order is p complete meaning that it is a nightmare for parallel processing 189
+
+a depth first search ordering not necessarily the lexicographic one can be computed by a randomized parallel algorithm in the complexity class rnc as of 1997 it remained unknown whether a depth first traversal could be constructed by a deterministic parallel algorithm in the complexity class nc

@@ -1,0 +1,141 @@
+data retention defines the policies of persistent data and records management for meeting legal and business data archival requirements although sometimes interchangeable it is not to be confused with the data protection act 1998
+
+the different data retention policies weigh legal and privacy concerns economics and need to know concerns to determine the retention time archival rules data formats and the permissible means of storage access and encryption
+
+in the field of telecommunications data retention generally refers to the storage of call detail records cdrs of telephony and internet traffic and transaction data ipdrs by governments and commercial organisations in the case of government data retention the data that is stored is usually of telephone calls made and received emails sent and received and websites visited location data is also collected
+
+the primary objective in government data retention is traffic analysis and mass surveillance by analysing the retained data governments can identify the locations of individuals an individual s associates and the members of a group such as political opponents these activities may or may not be lawful depending on the constitutions and laws of each country in many jurisdictions access to these databases may be made by a government with little or no judicial oversight citation needed
+
+in the case of commercial data retention the data retained will usually be on transactions and web sites visited
+
+data retention also covers data collected by other means e g by automatic number plate recognition systems and held by government and commercial organisations
+
+a data retention policy is a recognized and proven protocol within an organization for retaining information for operational use while ensuring adherence to the laws and regulations concerning them the objectives of a data retention policy are to keep important information for future use or reference to organize information so it can be searched and accessed at a later date and to dispose of information that is no longer needed
+
+the data retention policies within an organization are a set of guidelines that describes which data will be archived how long it will be kept what happens to the data at the end of the retention period archive or destroy and other factors concerning the retention of the data
+
+a part of any effective data retention policy is the permanent deletion of the retained data achieving secure deletion of data by encrypting the data when stored and then deleting the encryption key after a specified retention period thus effectively deleting the data object and its copies stored in online and offline locations
+
+in 2015 the australian government introduced mandatory data retention laws that require data to be retained up to two years the scheme is estimated to cost at least au 400 million per year to implement working out to at least 16 per user per year it requires telecommunication providers and internet service providers isps to retain telephony internet and email metadata for two years accessible without a warrant and could possibly be used to target file sharing the attorney general has broad discretion on which agencies are allowed to access metadata including private agencies
+
+the greens were strongly opposed to the introduction of these laws citing privacy concerns and the increased prospect of speculative invoicing over alleged copyright infringement cases the labor party initially opposed as well but later agreed to passing the law after additional safeguards were put in place to afford journalists some protection
+
+on 15 march 2006 the european union adopted the data retention directive it required member states to ensure that communications providers retain data as specified in the directive for a period of between 6 months and 2 years in order to
+
+the data was required to be available to competent national authorities for the purpose of the investigation detection and prosecution of serious crime as defined by each member state in its national law
+
+the directive covered fixed telephony mobile telephony internet access email and voip member states were required to transpose it into national law within 18 months no later than september 2007 however they could if they wished postpone the application of the directive to internet access email and voip for a further 18 months after this date a majority of member states exercised this option all 28 eu states at the time notified the european commission about the transposition of the directive into their national law of these however germany and belgium had only transposed the legislation partially
+
+a report evaluating the directive was published by the european commission in april 2011 it concluded that data retention was a valuable tool for ensuring criminal justice and public protection but that it had achieved only limited harmonisation there were serious concerns from service providers about the compliance costs and from civil society organisations who claimed that mandatory data retention was an unacceptable infringement of the fundamental right to privacy and the protection of personal data according to eu law
+
+in response to the report on may 31 2011 the european data protection supervisor expressed some concerns on the european data retention directive underlining that the directive does not meet the requirements imposed by the fundamental rights to privacy and data protection
+
+in november 2012 answers to a parliamentary inquiry in the german bundestag revealed plans of some eu countries including france to extend data retention to chats and social media furthermore the german federal office for the protection of the constitution germany s domestic intelligence agency has confirmed that it has been working with the etsi li technical committee since 2003
+
+criticisms of the directive arose the council s legal services was reported to have stated in closed session that paragraph 59 of the european court of justice s ruling suggests that general and blanket data retention is no longer possible a legal opinion funded by the greens efa group in the european parliament finds that the blanket retention data of unsuspected persons generally violates the eu charter of fundamental rights both in regard to national telecommunications data retention laws and to similar eu data retention schemes pnr tftp tfts lea access to ees eurodac vis
+
+digital rights ireland brought the directive to the high court of ireland which then brought it further to the european court of justice of the european union the case was also joined by the constitutional court of austria the court on 8 april 2014 declared the directive 2006 24 ec invalid for violating fundamental rights stating that the directive interferes in a particularly serious manner with the fundamental rights to respect for private life and to the protection of personal data
+
+this led further to that the member states in various degrees abolished or modified their implementations of the directive since the swedish implementation of the directive was kept in a similar manner the swedish implementation was brought to the european court by the telecom provider tele2 and the case was merged with a similar case from the united kingdom initiated by three persons with intervention by open rights group privacy international and the law society of england and wales since the original directive no longer existed the basis for the judgment was an exception to the directive on privacy and electronic communications in its article 15 1 referring to the possibility to exceptionally apply data retention for fighting serious crime on the 21 of december 2016 the court ruled that the protection of privacy in the electronic communications sector must be interpreted as precluding national legislation which for the purpose of fighting crime provides for general and indiscriminate retention of all traffic and location data of all subscribers and registered users relating to all means of electronic communication blanket data retention was ruled out another time but the actual consequences all over the eu are varied and under discussion since then
+
+implementation of the directive was part of act no 259 2010 coll on electronic communications as later amended under art 97 3 telecommunication data are to be stored between 6 and 12 months the czech constitutional court has deemed the law unconstitutional and found it to be infringing on the peoples right to privacy
+
+as of july 2012 new legislation was on its way
+
+denmark has implemented the eu data retention directive and much more by logging all internet flow or sessions between operators and operators and consumers
+
+the german bundestag had implemented the directive in gesetz zur neuregelung der telekommunikationsüberwachung und anderer verdeckter ermittlungsmaßnahmen sowie zur umsetzung der richtlinie 2006 24 eg the law became valid on 1 january 2008 any communications data had to be retained for six months on 2 march 2010 the federal constitutional court of germany ruled the law unconstitutional as a violation of the guarantee of the secrecy of correspondence on 16 october 2015 a second law for shorter up to 10 weeks long data retention excluding email communication was passed by parliament however this act was ruled incompatible with german and european laws by an injunction of the higher administrative court of north rhine westphalia as a result on june 28 2017 three days before the planned start of data retention the federal network agency suspended the introduction of data retention until a final decision in the principle proceedings
+
+in july 2005 new legal requirements on data retention came into force in italy
+
+italy already required the retention of telephony traffic data for 48 months but without location data italy has adopted the eu directive on privacy and electronic communications 2002 but with an exemption to the requirement to erase traffic data
+
+the directive was transposed into law by law 32 2008 in december 2017 d3 defesa dos direitos digitais a portuguese digital rights organization presented a complaint to the justice ombudsman based on the case law of the court of justice of the european union following several opinions of the portuguese data protection authority in january 2019 the ombudsman issued an official recommendation to the justice ministry defending the need to change the national law in order to comply with the cjeu case law some weeks later in march the ombudsman received an answer by the minister of justice where the minister refused changes to the law as such in august 2019 the ombudsman decided to ask the portuguese constitutional court for a ruling on the constitutionality of the law in 2022 the portuguese constitutional court published its decision striking down law 32 2008 as unconstitutional among other things the court considered that an undifferentiated and generalized obligation to store all traffic and location data relating to all people did not respect the proportionality principle in response to this decision the parliament created a data retention working party which studied the subject for more than a year and held several hearings with experts in 2023 a law proposal was approved in the parliament however the president of the republic decided to make use of its prerogative of asking the constitutional court for a preventive rule before approving the law in this ruling the constitutional court once again decided against the proposed data retention regime for similar reasons as the law still required indiscriminate and general data retention of traffic and location data the diploma was returned to the parliament and did not become law in 2024 the parliament approved a new law proposal this time the president of the republic opted for not requesting a preventive rule from the constitutional court and so the law was published and entered into force the digital rights association d3 defesa dos direitos digitais maintains that the current law is still a violation of fundamental rights as it delegates core elements of a fundamental rights restriction to a special formation of the supreme court this makes it impossible to demonstrate the required proportionality of the restriction or to demonstrate how the data retention regime preserves the essential core of the restricted fundamental rights as it must
+
+the eu directive has been transposed into romanian law as well initially as law 298 2008 however the constitutional court of romania subsequently struck down the law in 2009 as violating constitutional rights the court held that the transposing act violated the constitutional rights of privacy of confidentiality in communications and of free speech the european commission has subsequently sued romania in 2011 for non implementation threatening romania with a fine of 30 000 euros per day the romanian parliament passed a new law in 2012 which was signed by president traian băsescu in june the law 82 2012 has been nicknamed big brother using the untranslated english expression by various romanian non governmental organizations opposing it on july 8 2014 this law too was declared unconstitutional by the constitutional court of romania
+
+slovakia has implemented the directive in act no 610 2003 coll on electronic communications as later amended telecommunication data are stored for six months in the case of data related to internet internet email and internet telephony art 59a 6 a and for 12 months in the case of other types of communication art 59a 6 b
+
+in april 2014 the slovak constitutional court preliminary suspended effectiveness of the slovak implementation of data retention directive and accepted the case for the further review in april 2015 constitutional court decided that some parts of slovak laws implementing dr directive are not in compliance with slovak constitution and convention for the protection of human rights and fundamental freedoms according to now invalid provisions of the electronic communications act the providers of electronic communications were obliged to store traffic data localization data and data about the communicating parties for a period of 6 months in the case internet email or voip communication or for a period of 12 months in case of other communication
+
+sweden implemented the eu s 2006 data retention directive in may 2012 and it was fined 3 million by the court of justice of the european union for its belated transposition the deadline was 15 september 2007 the directive allowed member states to determine the duration data is retained ranging from six months to two years the riksdag sweden s legislature opted for six months
+
+in april 2014 however the cjeu struck down the data retention directive following the judgement pts sweden s telecommunications regulator told swedish isps and telcos that they would no longer have to retain call records and internet metadata the swedish government initiated a one man investigation that stated that sweden could keep on with data retention after that the pts reversed course most of sweden s major telecommunications companies complied immediately though tele2 appealed this order before the administrative court in stockholm claiming that the swedish implementation should be reversed following the directive being declared unvalid including the fact that the swedish implementation went further than the directive including registration of failed telephone calls and the geographic endpoint of a mobile communications the appeal was rejected the one holdout isp bahnhof was given an order to comply by november 24 deadline or face a five million krona 680 000 fine
+
+tele2 appealed the first level court rejection to the swedish administrative court of appeal that sent the matter to the european court of justice of the european union that led to a judgement that once again invalidated blanket data retention of all communications of all citizens communications to combat crime see under european union above
+
+the data retention and investigatory powers act came into force in 2014 it is the answer by the united kingdom parliament after a declaration of invalidity was made by the court of justice of the european union in relation to directive 2006 24 ec in order to make provision about the retention of certain communications data
+in addition the purpose of the act is to
+
+the act is also to ensure that communication companies in the uk retain communications data so that it continues to be available when it is needed by law enforcement agencies and others to investigate committed crimes and protect the public data protection law requires data that isn t of use to be deleted this means that the intention of this act could be using data retention to acquire further policing powers using as the act make data retention mandatory
+
+an element of this act is the provision of the investigatory powers to be reported by 1 may 2015
+
+the data retention and investigatory powers act 2014 was referred to as the snooper s charter communications data bill theresa may a strong supporter of the parliament act said in a speech that if we parliament do not act we risk sleepwalking into a society in which crime can no longer be investigated and terrorists can plot their murderous schemes undisrupted
+
+the united kingdom parliament its new laws increasing the power of data retention is essential to tackling crime and protecting the public however not all agree and believe that the primary objective in the data retention by the government is mass surveillance
+
+after europe s highest court said the depth of data retention breaches citizens fundamental right to privacy and the uk created its own act it has led to the british government being accused of breaking the law by forcing telecoms and internet providers to retain records of phone calls texts and internet usage
+from this information governments can identify an individual s associates location group memberships political affiliations and other personal information
+
+in a television interview the eu advocate general pedro cruz villalón highlighted the risk that the retained data might be used illegally in ways that are potentially detrimental to privacy or more broadly fraudulent or even malicious
+
+the bodies that are able to access retained data in the united kingdom are listed in the regulation of investigatory powers act 2000 ripa these are the following
+
+however the regulation of investigatory powers act 2000 ripa also gives the home secretary powers to change the list of bodies with access to retained data through secondary legislation the list of authorised bodies now includes
+
+the justifications for accessing retained data in the uk are set out in the regulation of investigatory powers act 2000 ripa they include
+
+the eu s data retention directive has been implemented into norwegian law in 2011 but this will not be in effect before 1 january 2015
+
+a 2016 anti terrorist federal law 374 fz known as yarovaya law requires all telecommunication providers to store phone call text and email metadata as well as the actual voice recordings for up to 6 months messaging services like whatsapp are required to provide cryptographic backdoors to law enforcement the law has been widely criticized both in russia and abroad as an infringement of human rights and a waste of resources
+
+on 29 june 2010 the serbian parliament adopted the law on electronic communications according to which the operator must keep the data on electronic communications for 12 months this provision was criticized as unconstitutional by opposition parties and by ombudsman saša janković
+
+as from 7 july 2016 the swiss federal law about the surveillance of the post and telecommunications entered into force passed by the swiss government on 18 march 2016
+
+swiss mobile phone operators have to retain the following data for six months according to the büpf
+
+all isps must retain the following data for six months
+
+email application refers to smtp pop3 imap4 webmail and remail server
+
+switzerland only applies data retention to the largest isps with over 100 million chf in annual swiss sourced revenue this notably exempts derived communications providers such as protonmail a popular encrypted email service based in switzerland
+
+the national security agency nsa commonly records internet metadata for the whole planet for up to a year in its marina database where it is used for pattern of life analysis u s persons are not exempt because metadata are not considered data under us law section 702 of the fisa amendments act its equivalent for phone records is mainway the nsa records sms and similar text messages worldwide through dishfire
+
+various united states agencies leverage the voluntary data retention practised by many u s commercial organizations through programs such as prism and muscular
+
+amazon is known to retain extensive data on customer transactions google is also known to retain data on searches and other transactions if a company is based in the united states the federal bureau of investigation fbi can obtain access to such information by means of a national security letter nsl the electronic frontier foundation states that nsls are secret subpoenas issued directly by the fbi without any judicial oversight these secret subpoenas allow the fbi to demand that online service providers or ecommerce companies produce records of their customers transactions the fbi can issue nsls for information about people who haven t committed any crimes
+
+nsls are practically immune to judicial review they are accompanied by gag orders that allow no exception for talking to lawyers and provide no effective opportunity for the recipients to challenge them in court this secret subpoena authority which was expanded by the controversial usa patriot act could be applied to nearly any online service provider for practically any type of record without a court ever knowing the washington post has published a well researched article on the fbi s use of national security letters
+
+the united states does not have any isp mandatory data retention laws similar to the european data retention directive which was retroactively invalidated in 2014 by the court of justice of the european union some attempts to create mandatory retention legislation have failed
+
+while it is often argued that data retention is necessary to combat terrorism and other crimes there are still others who oppose data retention data retention may assist the police and security services to identify potential terrorists and their accomplices before or after an attack has taken place for example the authorities in spain and the united kingdom stated that retained telephony data made a significant contribution to police enquires into the 2004 madrid train bombings and the 2005 london bombings
+
+the opponents of data retention make the following arguments
+
+the current directive proposal see above would force isps to record the internet communications of its users the basic assumption is that this information can be used to identify with whom someone whether innocent citizen or terrorist communicated throughout a specific timespan believing that such as mandate would be useful is ignoring that some very committed community of crypto professionals has been preparing for such legislation for decades below are some strategies available today to anyone to protect themselves avoid such traces and render such expensive and legally dubious logging operations useless
+
+there are anonymizing proxies that provide slightly more private web access proxies must use https encryption in order to provide any level of protection at all unfortunately proxies require the user to place a large amount of trust in the proxy operator since they see everything the user does over http and may be subject to traffic analysis
+
+some p2p services like file transfer or voice over ip use other computers to allow communication between computers behind firewalls this means that trying to follow a call between two citizens might mistakenly identify a third citizen unaware of the communication
+
+for security conscious citizens with some basic technical knowledge tools like i2p the anonymous network tor mixmaster and the cryptography options integrated into any many modern mail clients can be employed
+
+i2p is an international peer to peer anonymizing network which aims at not only evading data retention but also at making spying by other parties impossible the structure is similar to the one tor see next paragraph uses but there are substantial differences it protects better against traffic analysis and offers strong anonymity and for net internal traffic end to end encryption due to unidirectional tunnels it is less prone to timing attacks than tor in i2p several services are available anonymous browsing anonymous e mails anonymous instant messenger anonymous file sharing and anonymous hosting of websites among others
+
+tor is a project of the u s non profit tor project to develop and improve an onion routing network to shield its users from traffic analysis mixmaster is a remailer service that allows anonymous email sending
+
+jap is a project very similar to tor it is designed to route web requests through several proxies to hide the end user s internet address tor support has been included into jap
+
+the arbeitskreis vorratsdatenspeicherung german working group on data retention is an association of civil rights campaigners data protection activists and internet users the arbeitskreis coordinates the campaign against the introduction of data retention in germany
+
+an analysis of federal crime agency bka statistics published on 27 january 2010 by civil liberties ngo ak vorrat revealed that data retention did not make a prosecution of serious crime any more effective
+
+as the eu commission is currently considering changes to the controversial eu data retention directive a coalition of more than 100 civil liberties data protection and human rights associations jurists trade unions and others are urging the commission to propose the repeal of the eu requirements regarding data retention in favour of a system of expedited preservation and targeted collection of traffic data
+
+in the united states the health insurance portability and accountability act hipaa requires covered entities to retain documentation of security policies procedures and actions for a minimum of six years from the date of creation or the date when the policy was last in effect whichever is later 45 cfr 164 530 j 45 cfr 164 530 administrative requirements legal information institute retrieved april 1 2026 this retention requirement applies to security risk assessments audit logs access records and incident response documentation
+
+the december 2024 hipaa security rule nprm proposed expanding retention mandates to require that regulated entities maintain audit trail records and access logs for a minimum period sufficient to support breach investigations and compliance audits hipaa security rule to strengthen the cybersecurity of electronic protected health information federal register january 6 2025 retrieved april 1 2026 state laws may impose additional or longer retention periods for medical records for example some states require retention of adult patient records for ten years after the last encounter medical record retention guide office of the national coordinator for health information technology retrieved april 1 2026 nist special publication 800 53 addresses records retention through the au 11 audit record retention control recommending organizations retain audit records for a defined period consistent with applicable regulations and organizational policies nist sp 800 53 rev 5 security and privacy controls national institute of standards and technology september 2020 retrieved april 1 2026

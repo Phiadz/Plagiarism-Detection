@@ -1,0 +1,340 @@
+in statistics the conditional probability table cpt is defined for a set of discrete and mutually dependent random variables to display conditional probabilities of a single variable with respect to the others i e the probability of each possible value of one variable if we know the values taken on by the other variables for example assume there are three random variables
+
+
+
+
+x
+
+1
+
+
+
+
+x
+
+2
+
+
+
+
+x
+
+3
+
+
+
+
+displaystyle x_ 1 x_ 2 x_ 3
+
+where each has
+
+
+
+k
+
+
+displaystyle k
+
+states then the conditional probability table of
+
+
+
+
+x
+
+1
+
+
+
+
+displaystyle x_ 1
+
+provides the conditional probability values
+
+
+
+p
+
+
+x
+
+1
+
+
+
+
+a
+
+k
+
+
+
+
+x
+
+2
+
+
+
+
+x
+
+3
+
+
+
+
+
+displaystyle p x_ 1 a_ k mid x_ 2 x_ 3
+
+where the vertical bar
+
+
+
+
+
+
+
+
+displaystyle
+
+means given the values of for each of the k possible values
+
+
+
+
+a
+
+k
+
+
+
+
+displaystyle a_ k
+
+of the variable
+
+
+
+
+x
+
+1
+
+
+
+
+displaystyle x_ 1
+
+and for each possible combination of values of
+
+
+
+
+x
+
+2
+
+
+
+
+
+x
+
+3
+
+
+
+
+
+displaystyle x_ 2 x_ 3
+
+this table has
+
+
+
+
+k
+
+3
+
+
+
+
+displaystyle k 3
+
+cells in general for
+
+
+
+m
+
+
+displaystyle m
+
+variables
+
+
+
+
+x
+
+1
+
+
+
+
+x
+
+2
+
+
+
+
+
+
+x
+
+m
+
+
+
+
+displaystyle x_ 1 x_ 2 ldots x_ m
+
+with
+
+
+
+
+k
+
+i
+
+
+
+
+displaystyle k_ i
+
+states for each variable
+
+
+
+
+x
+
+i
+
+
+
+
+
+displaystyle x_ i
+
+the cpt for any one of them has the number of cells equal to the product
+
+
+
+
+k
+
+1
+
+
+
+k
+
+2
+
+
+
+
+k
+
+m
+
+
+
+
+
+displaystyle k_ 1 k_ 2 cdots k_ m
+
+
+
+a conditional probability table can be put into matrix form as an example with only two variables the values of
+
+
+
+p
+
+
+x
+
+1
+
+
+
+
+a
+
+k
+
+
+
+
+x
+
+2
+
+
+
+
+b
+
+j
+
+
+
+
+
+t
+
+k
+j
+
+
+
+
+
+displaystyle p x_ 1 a_ k mid x_ 2 b_ j t_ kj
+
+with k and j ranging over k values create a k k matrix this matrix is a stochastic matrix since the columns sum to 1 i e
+
+
+
+
+
+
+k
+
+
+
+t
+
+k
+j
+
+
+
+1
+
+
+displaystyle sum _ k t_ kj 1
+
+for all j for example suppose that two binary variables x and y have the joint probability distribution given in this table
+
+each of the four central cells shows the probability of a particular combination of x and y values the first column sum is the probability that x 0 and y equals any of the values it can have that is the column sum 6 9 is the marginal probability that x 0 if we want to find the probability that y 0 given that x 0 we compute the fraction of the probabilities in the x 0 column that have the value y 0 which is 4 9 6 9 4 6 likewise in the same column we find that the probability that y 1 given that x 0 is 2 9 6 9 2 6 in the same way we can also find the conditional probabilities for y equalling 0 or 1 given that x 1 combining these pieces of information gives us this table of conditional probabilities for y
+
+with more than one conditioning variable the table would still have one row for each potential value of the variable whose conditional probabilities are to be given and there would be one column for each possible combination of values of the conditioning variables
+
+moreover the number of columns in the table could be substantially expanded to display the probabilities of the variable of interest conditional on specific values of only some rather than all of the other variables

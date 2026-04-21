@@ -1,0 +1,181 @@
+prolog is a logic programming language that has its origins in artificial intelligence automated theorem proving and computational linguistics
+
+prolog has its roots in first order logic a formal logic unlike many other programming languages prolog is intended primarily as a declarative programming language the program is a set of facts and rules which define relations a computation is initiated by running a query over the program
+
+prolog was one of the first logic programming languages and remains the most popular such language today with several free and commercial implementations available the language has been used for theorem proving expert systems term rewriting type systems automated planning and question answering as well as its original intended field of use natural language processing
+
+prolog is a turing complete general purpose programming language which is well suited for intelligent knowledge processing applications
+
+the name prolog was chosen by philippe roussel at the suggestion of his wife as an abbreviation for programmation en logique french for programming in logic it was created around 1972 by alain colmerauer with philippe roussel from the artificial intelligence group of the faculty of sciences of luminy of aix marseille ii university of france it was based on robert kowalski s procedural interpretation of horn clauses and it was motivated in part by the desire to reconcile the use of logic as a declarative knowledge representation language with the procedural representation of knowledge that was popular in north america in the late 1960s and early 1970s according to robert kowalski the first prolog system was developed in 1972 by colmerauer and phillipe roussel the first implementation of prolog was an interpreter written in fortran by gerard battani and henri meloni david h d warren took this interpreter to the university of edinburgh and there implemented an alternative front end which came to define the edinburgh prolog syntax used by most modern implementations warren also implemented the first compiler for prolog creating the influential dec 10 prolog in collaboration with fernando pereira warren later generalised the ideas behind dec 10 prolog to create the warren abstract machine wam
+
+european ai researchers favored prolog while americans favored lisp reportedly causing many nationalistic debates on the merits of the languages much of the modern development of prolog came from the impetus of the fifth generation computer systems project fgcs which developed a variant of prolog named kernel language for its first operating system
+
+pure prolog was originally restricted to the use of a resolution theorem prover with horn clauses of the form
+
+the application of the theorem prover treats such clauses as procedures
+
+pure prolog was soon extended however to include negation as failure in which negative conditions of the form not bi are shown by trying and failing to solve the corresponding positive conditions bi
+
+subsequent extensions of prolog by the original team introduced constraint logic programming abilities into the implementations
+
+although prolog is widely used in research and education prolog and other logic programming languages have not had a significant impact on the computer industry in general most applications are small by industrial standards with few exceeding 100 000 lines of code programming in the large is considered to be complex because not all prolog compilers support modules and there are compatibility problems between the module systems of the major prolog compilers portability of prolog code across implementations has also been a problem but developments since 2007 have meant the portability within the family of edinburgh quintus derived prolog implementations is good enough to allow for maintaining portable real world applications
+
+software developed in prolog has been criticised for having a high performance penalty compared to conventional programming languages in particular prolog s non deterministic evaluation strategy can be problematic when programming deterministic computations or when even using don t care non determinism where a single choice is made instead of backtracking over all possibilities cuts and other language constructs may have to be used to achieve desirable performance destroying one of prolog s main attractions the ability to run programs backwards and forwards
+
+prolog is not purely declarative because of constructs like the cut operator a procedural reading of a prolog program is needed to understand it the order of clauses in a prolog program is significant as the execution strategy of the language depends on it other logic programming languages such as datalog are truly declarative but restrict the language as a result many practical prolog programs are written to conform to prolog s depth first search order rather than as purely declarative logic programs
+
+prolog has been used in watson watson uses ibm s deepqa software and the apache uima unstructured information management architecture framework the system was written in various languages including java c and prolog and runs on the suse linux enterprise server 11 operating system using apache hadoop framework to provide distributed computing prolog is used for pattern matching over natural language parse trees the developers have stated we required a language in which we could conveniently express pattern matching rules over the parse trees and other annotations such as named entity recognition results and a technology that could execute these rules very efficiently we found that prolog was the ideal choice for the language due to its simplicity and expressiveness prolog is being used in the low code development platform genexus which is focused around ai citation needed open source graph database terminusdb is implemented in prolog terminusdb is designed for collaboratively building and curating knowledge graphs
+
+in prolog program logic is expressed in terms of relations and a computation is initiated by running a query over these relations relations and queries are constructed using prolog s single data type the term relations are defined by clauses given a query the prolog engine attempts to find a resolution refutation of the negated query if the negated query can be refuted i e an instantiation for all free variables is found that makes the union of clauses and the singleton set consisting of the negated query false it follows that the original query with the found instantiation applied is a logical consequence of the program this makes prolog and other logic programming languages particularly useful for database symbolic mathematics and language parsing applications because prolog allows impure predicates checking the truth value of certain special predicates may have some deliberate side effect such as printing a value to the screen because of this the programmer is permitted to use some amount of conventional imperative programming when the logical paradigm is inconvenient it has a purely logical subset called pure prolog as well as a number of extralogical features
+
+prolog s single data type is the term terms are either atoms numbers variables or compound terms note 1
+
+special cases of compound terms
+
+prolog programs describe relations defined by means of clauses pure prolog is restricted to horn clauses two types of horn clauses are used to define prolog programs rules and facts a rule is of the form
+
+and is read as head is true if body is true a rule s body consists of calls to predicates which are called the rule s goals the built in logical operator 2 meaning an arity 2 operator with name denotes conjunction of goals and 2 denotes disjunction conjunctions and disjunctions can only appear in the body not in the head of a rule
+
+clauses with empty bodies are called facts an example of a fact is
+
+which is equivalent to the rule
+
+the built in predicate true 0 is always true
+
+given the above fact one can ask
+
+is socrates a human
+
+what things are humans
+
+clauses with bodies are called rules an example of a rule is
+
+if we add that rule and ask what things are mortals
+
+
+a predicate or procedure definition is a collection of clauses whose heads have the same name and arity we use the notation name arity to refer to predicates a logic program is a set of predicates for example the following prolog program which defines some family relations has four predicates
+predicate father_child 2 has three clauses all of which are facts and predicate parent_child 2 has two clauses both are rules
+
+due to the relational nature of many built in predicates they can typically be used in several directions for example length 2 can be used to determine the length of a list length list l given a list list and to generate a list skeleton of a given length length x 5 and to generate both list skeletons and their lengths together length x l similarly append 3 can be used both to append two lists append lista listb x given lists lista and listb and to split a given list into parts append x y list given a list list for this reason a comparatively small set of library predicates suffices for many prolog programs
+
+as a general purpose language prolog also provides various built in predicates to perform routine activities like input output using graphics and otherwise communicating with the operating system these predicates are not given a relational meaning and are only useful for the side effects they exhibit on the system for example the predicate write 1 displays a term on the screen
+
+iterative algorithms can be implemented by means of recursive predicates
+
+
+consider the parent_child 2 predicate defined in the family relation program above the following prolog program defines the ancestor relation
+it expresses that x is an ancestor of y if x is parent of y or x is parent of an ancestor of y it is recursive because it is defined in terms of itself there is a call to predicate ancestor 2 in the body of the second clause
+
+execution of a prolog program is initiated by the user s posting of a single goal called the query logically the prolog engine tries to find a resolution refutation of the negated query the resolution method used by prolog is called sld resolution if the negated query can be refuted it follows that the query with the appropriate variable bindings in place is a logical consequence of the program in that case all generated variable bindings are reported to the user and the query is said to have succeeded operationally prolog s execution strategy can be thought of as a generalization of function calls in other languages one difference being that multiple clause heads can match a given call in that case the system creates a choice point unifies the goal with the clause head of the first alternative and continues with the goals of that first alternative if any goal fails in the course of executing the program all variable bindings that were made since the most recent choice point was created are undone and execution continues with the next alternative of that choice point this execution strategy is called chronological backtracking for example given the family relation program defined above the following query will be evaluated to true
+
+this is obtained as follows initially the only matching clause head for the query sibling sally erica is the first one so proving the query is equivalent to proving the body of that clause with the appropriate variable bindings in place i e the conjunction parent_child z sally parent_child z erica the next goal to be proved is the leftmost one of this conjunction i e parent_child z sally two clause heads match this goal the system creates a choice point and tries the first alternative whose body is father_child z sally this goal can be proved using the fact father_child tom sally so the binding z tom is generated and the next goal to be proved is the second part of the above conjunction parent_child tom erica again this can be proved by the corresponding fact since all goals could be proved the query succeeds since the query contained no variables no bindings are reported to the user a query with variables like
+
+enumerates all valid answers on backtracking
+
+notice that with the code as stated above the query sibling sally sally also succeeds one would insert additional goals to describe the relevant restrictions if desired
+
+the built in prolog predicate 1 provides negation as failure which allows for non monotonic reasoning the goal illegal x in the rule
+
+is evaluated as follows prolog attempts to prove illegal x if a proof for that goal can be found the original goal i e illegal x fails if no proof can be found the original goal succeeds therefore the 1 prefix operator is called the not provable operator since the query goal succeeds if goal is not provable this kind of negation is sound if its argument is ground i e contains no variables soundness is lost if the argument contains variables and the proof procedure is complete in particular the query legal x now cannot be used to enumerate all things that are legal
+
+in prolog loading code is referred to as consulting prolog can be used interactively by entering queries at the prolog prompt if there is no solution prolog writes no if a solution exists then it is printed if there are multiple solutions to the query then these can be requested by entering a semi colon there are guidelines on good programming practice to improve code efficiency readability and maintainability
+
+here follow some example programs written in prolog
+
+example of a basic query in a couple of popular prolog dialects
+
+this comparison shows the prompt vs and resolution status true vs yes false vs no can differ from one prolog implementation to another
+
+any computation can be expressed declaratively as a sequence of state transitions as an example an optimizing compiler with three optimization passes could be implemented as a relation between an initial program and its optimized form
+
+or equivalently using dcg notation
+
+the quicksort sorting algorithm relating a list to its sorted version
+
+a design pattern is a general reusable solution to a commonly occurring problem in software design some design patterns in prolog are skeletons techniques cliches program schemata logic description schemata and higher order programming
+
+a higher order predicate is a predicate that takes one or more other predicates as arguments although support for higher order programming takes prolog outside the domain of first order logic which does not allow quantification over predicates iso prolog now has some built in higher order predicates such as call 1 call 2 call 3 findall 3 setof 3 and bagof 3 furthermore since arbitrary prolog goals can be constructed and evaluated at run time it is easy to write higher order predicates like maplist 2 which applies an arbitrary predicate to each member of a given list and sublist 3 which filters elements that satisfy a given predicate also allowing for currying
+
+to convert solutions from temporal representation answer substitutions on backtracking to spatial representation terms prolog has various all solutions predicates that collect all answer substitutions of a given query in a list this can be used for list comprehension for example perfect numbers equal the sum of their proper divisors
+
+this can be used to enumerate perfect numbers and to check if a number is perfect
+
+as another example the predicate maplist applies a predicate p to all corresponding positions in a pair of lists
+
+when p is a predicate that for all x p x y unifies y with a single unique value maplist p xs ys is equivalent to applying the map function in functional programming as ys map function xs
+
+higher order programming style in prolog was pioneered in hilog and λprolog
+
+for programming in the large prolog provides a module system which is in the iso standard
+however while most prolog systems support structuring the code into modules virtually no implementation adheres to the modules part of the iso standard instead most prolog systems have decided to support as de facto module standard the quintus sicstus module system however further convenience predicates concerning modules are provided by some implementations only and often have subtle differences in their semantics
+
+some systems chose to implement module concepts as source to source compilation into base iso prolog as is the case of logtalk gnu prolog initially diverted from iso modules opting instead for contextual logic programming in which unit module loading and unloading can be made dynamically ciao designed a strict module system that while being basically compatible with the de facto standard used by other prolog systems is amenable to precise static analysis supports term hiding and facilitates programming in the large xsb takes a different approach and offers an atom based module system the latter two prolog systems allow controlling the visibility of terms in addition to that of predicates
+
+there is a special notation called definite clause grammars a rule defined via 2 instead of 2 is expanded by the preprocessor expand_term 2 a facility analogous to macros in other languages according to a few straightforward rewriting rules resulting in ordinary prolog clauses most notably the rewriting equips the predicate with two additional arguments which can be used to implicitly thread state around clarification needed analogous to monads in other languages definite clause grammars are often used to write parsers or list generators as they also provide a convenient interface to difference lists
+
+prolog is a homoiconic language and provides many facilities for reflective programming reflection its implicit execution strategy makes it possible to write a concise meta circular evaluator also called meta interpreter for pure prolog code
+
+where true represents an empty conjunction and clause head body unifies with clauses in the database of the form head body
+
+since prolog programs are themselves sequences of prolog terms 2 is an infix operator that are easily read and inspected using built in mechanisms like read 1 it is possible to write customized interpreters that augment prolog with domain specific features for example sterling and shapiro present a meta interpreter that performs reasoning with uncertainty reproduced here with slight modifications 330
+
+this interpreter uses a table of built in prolog predicates of the form 327
+
+and clauses represented as clause_cf head body certainty given those it can be called as solve goal certainty to execute goal and obtain a measure of certainty about the result
+
+pure prolog is based on a subset of first order predicate logic horn clauses which is turing complete turing completeness of prolog can be shown by using it to simulate a turing machine
+
+a simple example turing machine is specified by the facts
+
+this machine performs incrementation by one of a number in unary encoding it loops over any number of 1 cells and appends an additional 1 at the end example query and result
+
+this illustrates how any computation can be expressed declaratively as a sequence of state transitions implemented in prolog as a relation between successive states of interest
+
+the international organization for standardization iso prolog technical standard consists of two parts iso iec 13211 1 published in 1995 aims to standardize the existing practices of the many implementations of the core elements of prolog it has clarified aspects of the language that were previously ambiguous and leads to portable programs there are three corrigenda cor 1 2007 cor 2 2012 and cor 3 2017 iso iec 13211 2 published in 2000 adds support for modules to the standard the standard is maintained by the iso iec jtc1 sc22 wg17 working group ansi x3j17 is the us technical advisory group for the standard
+
+for efficiency prolog code is typically compiled to abstract machine code often influenced by the register based warren abstract machine instruction set some implementations employ abstract interpretation to derive type and mode information of predicates at compile time or compile to real machine code for high performance devising efficient implementation methods for prolog code is a field of active research in the logic programming community and various other execution methods are employed in some implementations these include clause binarization and stack based virtual machines citation needed
+
+prolog systems typically implement a well known optimization method called tail call optimization for deterministic predicates exhibiting tail recursion or more generally tail calls a clause s stack frame is discarded before performing a call in a tail position therefore deterministic tail recursive predicates are executed with constant stack space like loops in other languages
+
+finding clauses that are unifiable with a term in a query is linear in the number of clauses term indexing uses a data structure that enables sub linear time lookups indexing only affects program performance it does not affect semantics most prologs only use indexing on the first term as indexing on all terms is expensive but techniques based on field encoded words or superimposed codewords provide fast indexing across the full query and head
+
+some prolog systems such as win prolog and swi prolog now implement hashing to help handle large datasets more efficiently this tends to yield very large performance gains when working with large corpora such as wordnet
+
+some prolog systems b prolog xsb swi prolog yap and ciao implement a memoization method called tabling which frees the user from manually storing intermediate results tabling is a space time tradeoff execution time can be reduced by using more memory to store intermediate results
+
+subgoals encountered in a query evaluation are maintained in a table along with answers to these subgoals if a subgoal is re encountered the evaluation reuses information from the table rather than re performing resolution against program clauses
+tabling can be extended in various directions it can support recursive predicates through slg resolution or linear tabling in a multi threaded prolog system tabling results could be kept private to a thread or shared among all threads and in incremental tabling tabling might react to changes
+
+during the fifth generation computer systems project there were attempts to implement prolog in hardware with the aim of achieving faster execution with dedicated architectures furthermore prolog has a number of properties that may allow speed up through parallel execution a more recent approach has been to compile restricted prolog programs to a field programmable gate array however rapid progress in general purpose hardware has consistently overtaken more specialised architectures
+
+in 1982 computers operated at around 10 000 to 100 000 logical inferences per second lips the fgcs planned to produce computers operating at 0 1 to 1 glips the institute for new generation computer technology documents estimated that 1 lip took about 100 operations on a conventional computer the plan was to produce at the end of the project in 1992 a machine with 1000 processors achieving 1 glips implying at least 1 mlips per processor
+
+sega implemented prolog for use with the sega ai computer released for the japanese market in 1986 prolog was used for reading natural language inputs in the japanese language via a touch pad
+
+various implementations have been developed from prolog to extend logic programming abilities in many directions these include types modes constraint logic programming clp object oriented logic programming concurrency linear logic functional and higher order logic programming abilities plus interoperability with knowledge bases
+
+prolog is an untyped language attempts to introduce and extend prolog with types began in the 1980s and continue as of 2008 update type information is useful not only for type safety but also for reasoning about prolog programs
+
+the syntax of prolog does not specify which arguments of a predicate are inputs and which are outputs however this information is significant and it is recommended that it be included in the comments modes provide valuable information when reasoning about prolog programs and can also be used to accelerate execution
+
+constraint logic programming extends prolog to include concepts from constraint satisfaction a constraint logic program allows constraints in the body of clauses such as a x y x y 0 it is suited to large scale combinatorial optimisation problems and is thus useful for applications in industrial settings such as automated time tabling and production scheduling most prolog systems ship with at least one constraint solver for finite domains and often also with solvers for other domains like rational numbers
+
+flora 2 is an object oriented knowledge representation and reasoning system based on f logic and incorporates hilog transaction logic and defeasible reasoning
+
+logtalk is an object oriented logic programming language that can use most prolog implementations as a back end compiler as a multi paradigm language it includes support for both prototypes and classes
+
+oblog is a small portable object oriented extension to prolog by margaret mcdougall of edcaad university of edinburgh
+
+objlog was a frame based language combining objects and prolog ii from cnrs marseille france
+
+prolog was developed by logic programming associates and first released in 1989 for ms dos pcs support for other platforms was added and a second version was released in 1995 a book about prolog by chris moss was published by addison wesley in 1994
+
+visual prolog is a multi paradigm language with interfaces classes implementations and object expressions
+
+prolog systems that provide a graphics library are swi prolog visual prolog win prolog and b prolog
+
+prolog mpi is an open source swi prolog extension for distributed computing over the message passing interface also there are various concurrent prolog programming languages
+
+some prolog implementations notably visual prolog swi prolog and ciao support server side web programming with support for web protocols html and xml there are also extensions to support semantic web formats such as resource description framework and web ontology language prolog has also been suggested as a client side language in addition visual prolog supports json rpc and websockets
+
+frameworks exist which can bridge between prolog and other languages

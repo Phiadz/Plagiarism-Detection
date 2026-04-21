@@ -1,1 +1,0 @@
-Python string matching is a classic problem in algorithm design. KMP and Boyer-Moore are commonly used algorithms.

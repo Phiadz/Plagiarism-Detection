@@ -1,0 +1,13 @@
+a rational agent or rational being is a person or entity that always aims to perform optimal actions based on given premises and information a rational agent can be anything that makes decisions typically a person firm machine or software
+
+the concept of rational agents can be found in various disciplines such as artificial intelligence cognitive science decision theory economics ethics game theory and the study of practical reason
+
+in reference to economics rational agent refers to hypothetical consumers and how they make decisions in a free market this concept is one of the assumptions made in neoclassical economic theory the concept of economic rationality arises from a tradition of marginal analysis used in neoclassical economics the idea of a rational agent is important to the philosophy of utilitarianism as detailed by philosopher jeremy bentham s theory of the felicific calculus also known as the hedonistic calculus
+
+the action a rational agent takes depends on
+
+in game theory and classical economics it is often assumed that the actors people and firms are rational however the extent to which people and firms behave rationally is subject to debate economists often assume the models of rational choice theory and bounded rationality to formalize and predict the behavior of individuals and firms rational agents sometimes behave in manners that are counter intuitive to many people as in the traveler s dilemma
+
+neuroeconomics is a concept that uses neuroscience social psychology and other fields of science to better understand how people make decisions unlike rational agent theory neuroeconomics does not attempt to predict large scale human behavior but rather how individuals make decisions in case by case scenarios
+
+artificial intelligence has borrowed the term rational agents from economics to describe autonomous programs that are capable of goal directed behavior today there is a considerable overlap between ai research game theory and decision theory rational agents in ai are closely related to intelligent agents autonomous software programs that display intelligence

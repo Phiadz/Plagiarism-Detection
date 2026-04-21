@@ -1,0 +1,19 @@
+cynthia dwork born june 27 1958 citation needed is an american computer scientist renowned for her contributions to cryptography distributed computing and algorithmic fairness she is one of the inventors of differential privacy and proof of work
+
+dwork works at harvard university where she is gordon mckay professor of computer science radcliffe alumnae professor at the radcliffe institute for advanced study and affiliated professor at harvard law school and harvard s department of statistics
+
+dwork received her b s e from princeton university in 1979 graduating cum laude and receiving the charles ira young award for excellence in independent research
+dwork received her ph d from cornell university in 1983 for research supervised by john hopcroft
+
+dwork is known for her research placing privacy preserving data analysis on a mathematically rigorous foundation including the invention of differential privacy in the early to mid 2000s a strong privacy guarantee frequently permitting highly accurate data analysis the definition of differential privacy relies on the notion of indistinguishability of the outputs irrespective of whether an individual has contributed their data or not this is typically achieved by adding small amounts of noise either to the input data or to outputs of computations performed on the data she uses a systems based approach to studying fairness in algorithms including those used for placing ads dwork has also made contributions in cryptography and distributed computing and is a recipient of the edsger w dijkstra prize for her early work on the foundations of fault tolerant systems
+
+her contributions in cryptography include non malleable cryptography with danny dolev and moni naor in 1991 the first lattice based cryptosystem with miklós ajtai in 1997 which was also the first public key cryptosystem for which breaking a random instance is as hard as solving the hardest instance of the underlying mathematical problem worst case average case equivalence with naor she also first presented the idea of and a technique for combating e mail spam by requiring a proof of computational effort also known as proof of work a key technology underlying hashcash and bitcoin
+
+her publications include
+
+she was elected as a fellow of the american academy of arts and sciences aaas in 2008 as a member of the national academy of engineering in 2008 as a member of the national academy of sciences in 2014 as a fellow of the association for computing machinery acm in 2015 and as a member of the american philosophical society in 2016
+
+dwork received a number of awards for her work
+
+dwork is the daughter of american mathematician bernard dwork and sister of historian debórah dwork
+she has a black belt in taekwondo

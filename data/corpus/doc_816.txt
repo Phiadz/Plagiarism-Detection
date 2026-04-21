@@ -1,0 +1,99 @@
+
+
+the national institute of standards and technology nist is an agency of the united states department of commerce whose mission is to promote american innovation and industrial competitiveness nist s activities are organized into physical science laboratory programs that include nanoscale science and technology engineering information technology neutron research material measurement and physical measurement from 1901 to 1988 the agency was named the national bureau of standards
+
+the nist historic district was listed on the national register of historic places in 2021
+
+the articles of confederation ratified by the colonies in 1781 provided
+
+the united states in congress assembled shall also have the sole and exclusive right and power of regulating the alloy and value of coin struck by their own authority or by that of the respective states fixing the standards of weights and measures throughout the united states
+article 1 section 8 of the constitution of the united states ratified in 1789 granted these powers to the new congress the congress shall have power to coin money regulate the value thereof and of foreign coin and fix the standard of weights and measures
+
+in january 1790 president george washington in his first annual message to congress said uniformity in the currency weights and measures of the united states is an object of great importance and will i am persuaded be duly attended to
+
+on october 25 1791 washington again appealed to congress
+
+a uniformity of the weights and measures of the country is among the important objects submitted to you by the constitution and if it can be derived from a standard at once invariable and universal must be no less honorable to the public council than conducive to the public convenience
+in 1821 president john quincy adams declared weights and measures may be ranked among the necessities of life to every individual of human society nevertheless it was not until 1838 that the united states government adopted a uniform set of standards
+
+from 1830 until 1901 the role of overseeing weights and measures was carried out by the office of standard weights and measures which was part of the survey of the coast renamed the united states coast survey in 1836 and the united states coast and geodetic survey in 1878 in the united states department of the treasury
+
+in 1901 in response to a bill proposed by congressman james h southard r ohio the bureau of standards was founded with the mandate to provide standard weights and measures and to serve as the national physical laboratory for the united states southard had previously sponsored a bill for metric conversion of the united states
+
+president theodore roosevelt appointed samuel w stratton as the first director the budget for the first year of operation was 40 000 the bureau took custody of the copies of the kilogram and meter bars that were the standards for us measures and set up a program to provide metrology services for united states scientific and commercial users a laboratory site was constructed in washington dc and instruments were acquired from the national physical laboratories of europe in addition to weights and measures the bureau developed instruments for electrical units and for measurement of light in 1905 a meeting was called that would be the first national conference on weights and measures
+
+initially conceived as purely a metrology agency the bureau of standards was directed by herbert hoover to set up divisions to develop commercial standards for materials and products some of these standards were for products intended for government use but product standards also affected private sector consumption quality standards were developed for products including some types of clothing automobile brake systems and headlamps antifreeze and electrical safety during world war i the bureau worked on multiple problems related to war production even operating its own facility to produce optical glass when european supplies were cut off
+
+between the wars harry diamond of the bureau developed a blind approach radio aircraft landing system during world war ii military research and development was carried out including development of radio propagation forecast methods the proximity fuze and the standardized airframe used originally for project pigeon and shortly afterwards the autonomously radar guided bat anti ship guided bomb and the kingfisher family of torpedo carrying missiles
+
+in 1948 financed by the united states air force the bureau began design and construction of seac the standards eastern automatic computer the computer went into operation in may 1950 using a combination of vacuum tubes and solid state diode logic about the same time the standards western automatic computer was built at the los angeles office of the nbs by harry huskey and used for research there a mobile version dyseac was built for the signal corps in 1954
+
+due to a changing mission the national bureau of standards became the national institute of standards and technology in 1988 following the september 11 2001 attacks under the national construction safety team act ncst nist conducted the official investigation into the collapse of the world trade center buildings following the 2021 surfside condominium building collapse nist sent engineers to the site to investigate the cause of the collapse
+
+in 2019 nist launched a program named nist on a chip to decrease the size of instruments from lab machines to chip size applications include aircraft testing communication with satellites for navigation purposes and temperature and pressure
+
+in 2023 the biden administration began plans to create a u s ai safety institute within nist to coordinate ai safety matters according to the washington post nist is considered notoriously underfunded and understaffed which could present an obstacle to these efforts
+
+nist known between 1901 and 1988 as the national bureau of standards nbs is a measurement standards laboratory also known as the national metrological institute nmi which is a non regulatory agency of the united states department of commerce the institute s official mission is to
+
+promote u s innovation and industrial competitiveness by advancing measurement science standards and technology in ways that enhance economic security and improve our quality of life
+nist
+nist had an operating budget for fiscal year 2007 october 1 2006 september 30 2007 of about 843 3 million nist s 2009 budget was 992 million and it also received 610 million as part of the american recovery and reinvestment act nist employs about 2 900 scientists engineers technicians and support and administrative personnel about 1 800 nist associates guest researchers and engineers from american companies and foreign countries complement the staff nist partners with 1 400 manufacturing specialists and staff at nearly 350 affiliated centers around the country nist publishes the handbook 44 that provides the specifications tolerances and other technical requirements for weighing and measuring devices
+
+the congress of 1866 made use of the metric system in commerce a legally protected activity through the passage of metric act of 1866 in may 1875 17 out of 20 countries signed a document known as the metric convention or the treaty of the meter which established the international bureau of weights and measures under the control of an international committee elected by the general conference on weights and measures
+
+nist is headquartered in gaithersburg maryland and operates a facility in boulder colorado which was dedicated by president eisenhower in 1954 nist s activities are organized into laboratory programs and extramural programs effective october 2010 nist was realigned by reducing the number of nist laboratory units from ten to six nist laboratories include
+
+extramural programs include
+
+nist s boulder laboratories are known for housing nist f1 an atomic clock nist f1 serves as the source of the nation s official time from its measurement of the natural resonance frequency of cesium which defines the second nist broadcasts time signals via longwave radio station wwvb near fort collins colorado and shortwave radio stations wwv and wwvh located near fort collins and kekaha hawaii respectively
+
+nist also operates a neutron science user facility the nist center for neutron research ncnr the ncnr provides scientists access to a variety of neutron scattering instruments which they use in many research fields materials science fuel cells biotechnology etc
+
+the surf iii synchrotron ultraviolet radiation facility is a source of synchrotron radiation in continuous operation since 1961 surf iii now serves as the us national standard for source based radiometry throughout the generalized optical spectrum all nasa borne extreme ultraviolet observation instruments have been calibrated at surf since the 1970s and surf is used for the measurement and characterization of systems for extreme ultraviolet lithography
+
+the center for nanoscale science and technology cnst performs research in nanotechnology both through internal research efforts and by running a user accessible cleanroom nanomanufacturing facility this nanofab is equipped with tools for lithographic patterning and imaging e g electron microscopes and atomic force microscopes
+
+nist has seven standing committees
+
+as part of its mission nist supplies industry academia government and other users with over 1 300 standard reference materials srms these artifacts are certified as having specific characteristics or component content used as calibration standards for measuring equipment and procedures quality control benchmarks for industrial processes and experimental control samples
+
+nist publishes the handbook 44 each year after the annual meeting of the national conference on weights and measures ncwm each edition is developed through cooperation of the committee on specifications and tolerances of the ncwm and the weights and measures division wmd of nist the purpose of the book is a partial fulfillment of the statutory responsibility for cooperation with the states in securing uniformity of weights and measures laws and methods of inspection
+
+nist has been publishing various forms of what is now the handbook 44 since 1918 and began publication under the current name in 1949 the 2010 edition conforms to the concept of the primary use of the si metric measurements recommended by the omnibus foreign trade and competitiveness act of 1988
+
+nist is developing government wide identity document standards for federal employees and contractors to prevent unauthorized persons from gaining access to government buildings and computer systems
+
+in 2002 the national construction safety team act mandated nist to conduct an investigation into the collapse of the world trade center buildings 1 and 2 and the 47 story 7 world trade center the world trade center collapse investigation directed by lead investigator shyam sunder covered three aspects including a technical building and fire safety investigation to study the factors contributing to the probable cause of the collapses of the wtc towers wtc 1 and 2 and wtc 7 nist also established a research and development program to provide the technical basis for improved building and fire codes standards and practices and a dissemination and technical assistance program to engage leaders of the construction and building community in implementing proposed changes to practices standards and codes
+
+nist also is providing practical guidance and tools to better prepare facility owners contractors architects engineers emergency responders and regulatory authorities to respond to future disasters in november 2008 the investigation portion of the response plan was completed with the release of the final report on 7 world trade center the final report on the wtc towers including 30 recommendations for improving building and occupant safety was released in october 2005
+
+nist works in conjunction with the technical guidelines development committee of the election assistance commission to develop the voluntary voting system guidelines for voting machines and other election technology
+
+in february 2014 nist published the nist cybersecurity framework that serves as voluntary guidance for organizations to manage and reduce cybersecurity risk it was later amended and version 1 1 was published in april 2018 executive order 13800 strengthening the cybersecurity of federal networks and critical infrastructure made the framework mandatory for u s federal government agencies an extension to the nist cybersecurity framework is the cybersecurity maturity model cmmc which was introduced in 2019 though the origin of cmmc began with executive order 13556 on august 25 2025 the 48 cfr cmmc rule cleared regulatory review according to isi it published on september 10 2025
+
+it emphasizes the importance of implementing zero trust architecture zta which focuses on protecting resources over the network perimeter zta utilizes zero trust principles which include never trust always verify assume breach and least privileged access to safeguard users assets and resources since zta holds no implicit trust to users within the network perimeter authentication and authorization are performed at every stage of a digital transaction this reduces the risk of unauthorized access to resources
+
+nist released a draft of the csf 2 0 for public comment to november 4 2023 nist decided to update the framework to make it more applicable to small and medium size enterprises that use the framework as well as to accommodate the constantly changing nature of cybersecurity
+
+in august 2024 nist released a final set of encryption tools designed to withstand the attack of a quantum computer these post quantum encryption standards secure a wide range of electronic information from confidential email messages to e commerce transactions that propel the modern economy
+
+in may 2025 nist announced the moonlight data project to enhance satellite calibration by providing precise measurements of the moon s brightness the initiative aims to improve the accuracy of earth observation satellites supporting applications such as agriculture meteorology and environmental monitoring
+
+four scientific researchers at nist have been awarded nobel prizes for work in physics william daniel phillips in 1997 eric allin cornell in 2001 john lewis hall in 2005 and david jeffrey wineland in 2012 which is the largest number for any us government laboratory all four were recognized for their work related to laser cooling of atoms which is directly related to the development and advancement of the atomic clock
+
+in 2011 dan shechtman was awarded the nobel prize in chemistry for his work on quasicrystals in the metallurgy division from 1982 to 1984 john werner cahn was awarded the 2011 kyoto prize for materials science the national medal of science has been awarded to nist researchers cahn 1998 and wineland 2007 other notable people who have worked at nbs or nist include
+
+since 1989 the director of nist has been a presidential appointee and is confirmed by the united states senate since 1989 the average tenure of nist directors has fallen from 11 years to 2 years in duration since the 2011 reorganization of nist the director also holds the title of under secretary of commerce for standards and technology seventeen individuals have officially held the position in addition to seven acting directors who have served on a temporary basis
+
+nist holds patents on behalf of the federal government of the united states with at least one of them being custodial to protect public domain use such as one for a chip scale atomic clock developed by a nist team as part of a darpa competition
+
+in september 2013 both the guardian and the new york times reported that nist allowed the national security agency nsa to insert a cryptographically secure pseudorandom number generator called dual ec drbg into nist standard sp 800 90 that had a kleptographic backdoor that the nsa can use to covertly predict the future outputs of this pseudorandom number generator thereby allowing the surreptitious decryption of data both papers report that the nsa worked covertly to get its own version of sp 800 90 approved for worldwide use in 2006
+
+the whistle blowing document states that eventually nsa became the sole editor the reports confirm suspicions and technical grounds publicly raised by cryptographers in 2007 that the ec drbg could contain a kleptographic backdoor perhaps placed in the standard by nsa new archival link needed
+
+nist responded to the allegations stating that nist works to publish the strongest cryptographic standards possible and that it uses a transparent public process to rigorously vet our recommended standards the agency stated that there has been some confusion about the standards development process and the role of different organizations in it the national security agency nsa participates in the nist cryptography process because of its recognized expertise nist is also required by statute to consult with the nsa
+
+recognizing the concerns expressed the agency reopened the public comment period for the sp800 90 publications promising that if vulnerabilities are found in these or any other nist standards we will work with the cryptographic community to address them as quickly as possible due to public concern of this cryptovirology attack nist rescinded the ec drbg algorithm from the nist sp 800 90 standard
+
+in addition to these journals nist and the national bureau of standards before it has a robust technical reports publishing arm nist technical reports are published in several dozen series which cover a wide range of topics from computer technology to construction to aspects of standardization including weights measures and reference data in addition to technical reports nist scientists publish many journal and conference papers each year an database of these along with more recent technical reports can be found on the nist website
