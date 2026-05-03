@@ -4,6 +4,7 @@ import csv
 import json
 import os
 import random
+import re
 import threading
 import time
 from pathlib import Path
@@ -22,10 +23,6 @@ from utils.text_normalizer import normalize_text
 from utils.timer import Timer
 
 
-MISSING_PATTERN_TITLE = "Missing pattern"
-MISSING_PATTERN_MSG = "Please enter a pattern to search."
-
-
 class MainWindow:
     def __init__(self) -> None:
         self.root = tk.Tk()
@@ -38,14 +35,20 @@ class MainWindow:
         self.manual_corpus_files: list[str] = []
         self.folder_corpus_files: list[str] = []
 
-        self.pattern_var = tk.StringVar()
         self.algorithm_var = tk.StringVar(value="kmp")
         self.result_var = tk.StringVar(value="No analysis yet")
         self.last_run_result: dict[str, float | int | str] | None = None
         self.last_compare_results: list[dict[str, float | int | str]] = []
         self.last_corpus_results: list[dict[str, float | int | str]] = []
         self.corpus_folder: str | None = None
-        self.text_widget: tk.Text | None = None
+        
+        self.mode_var = tk.StringVar(value="Auto Plagiarism (Chunking)")
+        self.pattern_var = tk.StringVar(value="")
+        self.corpus_view_var = tk.StringVar(value="")
+        self.corpus_combobox: ttk.Combobox | None = None
+        
+        self.suspect_text_widget: tk.Text | None = None
+        self.corpus_text_widget: tk.Text | None = None
 
         # --- Benchmark Variables ---
         self.benchmark_test_dir = tk.StringVar(value="Not selected")
@@ -68,12 +71,30 @@ class MainWindow:
 
     def _refresh_corpus_selection(self) -> None:
         self.corpus_files = self._merge_corpus_files()
+        if hasattr(self, 'corpus_combobox') and self.corpus_combobox:
+            self.corpus_combobox['values'] = self.corpus_files
+            if self.corpus_files and not self.corpus_view_var.get():
+                self.corpus_combobox.current(0)
+                self._on_corpus_view_select()
+                
         self.result_var.set(
             "Corpus selected | "
             f"manual: {len(self.manual_corpus_files)} | "
             f"folder: {len(self.folder_corpus_files)} | "
             f"total unique: {len(self.corpus_files)}"
         )
+
+    def _on_corpus_view_select(self, event=None) -> None:
+        selected_file = self.corpus_view_var.get()
+        if not selected_file: return
+        try:
+            content = read_text_file(selected_file)
+            if self.corpus_text_widget:
+                self.corpus_text_widget.delete("1.0", tk.END)
+                self.corpus_text_widget.insert(tk.END, content)
+                self.corpus_text_widget.tag_remove("match", "1.0", tk.END)
+        except Exception as e:
+            messagebox.showerror("Error", f"Could not read corpus file: {e}")
 
     def _normalize_with_map(self, text: str) -> tuple[str, list[int]]:
         normalized_chars: list[str] = []
@@ -99,6 +120,17 @@ class MainWindow:
 
         return "".join(normalized_chars), index_map
 
+    def _chunk_text(self, text: str, chunk_size: int = 10) -> list[tuple[str, int, int]]:
+        chunks = []
+        # Tách văn bản thành các từ, gom thành cụm (chunk_size từ / block)
+        words = list(re.finditer(r'\S+', text))
+        for i in range(0, len(words), chunk_size):
+            chunk_words = words[i:i + chunk_size]
+            start_idx = chunk_words[0].start()
+            end_idx = chunk_words[-1].end()
+            chunks.append((text[start_idx:end_idx], start_idx, end_idx))
+        return chunks
+
     def setup_ui(self) -> None:
         # Tách tab Notebook
         notebook = ttk.Notebook(self.root)
@@ -117,11 +149,9 @@ class MainWindow:
         top = ttk.Frame(self.tab_interactive, padding=10)
         top.pack(fill=tk.X)
 
-        ttk.Button(top, text="Upload Text File", command=self._on_upload).pack(side=tk.LEFT)
+        ttk.Button(top, text="Upload Suspect Document", command=self._on_upload).pack(side=tk.LEFT)
         ttk.Button(top, text="Select Corpus Files", command=self._on_select_corpus).pack(side=tk.LEFT, padx=(8, 0))
         ttk.Button(top, text="Select Corpus Folder", command=self._on_select_corpus_folder).pack(side=tk.LEFT, padx=(8, 0))
-        ttk.Label(top, text="Pattern:").pack(side=tk.LEFT, padx=(12, 4))
-        ttk.Entry(top, textvariable=self.pattern_var, width=30).pack(side=tk.LEFT)
 
         algo_box = ttk.Combobox(
             top,
@@ -137,29 +167,88 @@ class MainWindow:
         ttk.Button(top, text="Rank Corpus", command=self._on_rank_corpus).pack(side=tk.LEFT, padx=(8, 0))
         ttk.Button(top, text="Export Result", command=self._on_export).pack(side=tk.LEFT, padx=(8, 0))
 
-        text_frame = ttk.Frame(self.tab_interactive)
-        text_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+        # --- New Control Bar ---
+        control_bar = ttk.Frame(self.tab_interactive, padding=10)
+        control_bar.pack(fill=tk.X)
 
-        y_scroll = ttk.Scrollbar(text_frame, orient=tk.VERTICAL)
-        x_scroll = ttk.Scrollbar(text_frame, orient=tk.HORIZONTAL)
+        ttk.Label(control_bar, text="Mode:").pack(side=tk.LEFT)
+        mode_box = ttk.Combobox(
+            control_bar,
+            textvariable=self.mode_var,
+            values=["Pattern Match (Manual)", "Auto Plagiarism (Chunking)"],
+            width=25,
+            state="readonly"
+        )
+        mode_box.pack(side=tk.LEFT, padx=(5, 15))
+        
+        ttk.Label(control_bar, text="Pattern:").pack(side=tk.LEFT)
+        ttk.Entry(control_bar, textvariable=self.pattern_var, width=30).pack(side=tk.LEFT, padx=(5, 15))
 
-        self.text_widget = tk.Text(
-            text_frame,
+        ttk.Label(control_bar, text="View Corpus:").pack(side=tk.LEFT)
+        self.corpus_combobox = ttk.Combobox(
+            control_bar,
+            textvariable=self.corpus_view_var,
+            values=[],
+            width=40,
+            state="readonly"
+        )
+        self.corpus_combobox.pack(side=tk.LEFT, padx=(5, 0))
+        self.corpus_combobox.bind("<<ComboboxSelected>>", self._on_corpus_view_select)
+        # -----------------------
+
+        paned_window = ttk.PanedWindow(self.tab_interactive, orient=tk.HORIZONTAL)
+        paned_window.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+
+        # Left Frame: Suspect Document
+        suspect_frame = ttk.LabelFrame(paned_window, text="Suspect Document")
+        paned_window.add(suspect_frame, weight=1)
+
+        y_scroll_susp = ttk.Scrollbar(suspect_frame, orient=tk.VERTICAL)
+        x_scroll_susp = ttk.Scrollbar(suspect_frame, orient=tk.HORIZONTAL)
+
+        self.suspect_text_widget = tk.Text(
+            suspect_frame,
             wrap=tk.NONE,
             font=("Consolas", 11),
-            yscrollcommand=y_scroll.set,
-            xscrollcommand=x_scroll.set,
+            yscrollcommand=y_scroll_susp.set,
+            xscrollcommand=x_scroll_susp.set,
         )
-        y_scroll.config(command=self.text_widget.yview)
-        x_scroll.config(command=self.text_widget.xview)
+        y_scroll_susp.config(command=self.suspect_text_widget.yview)
+        x_scroll_susp.config(command=self.suspect_text_widget.xview)
 
-        self.text_widget.grid(row=0, column=0, sticky="nsew")
-        y_scroll.grid(row=0, column=1, sticky="ns")
-        x_scroll.grid(row=1, column=0, sticky="ew")
-        text_frame.rowconfigure(0, weight=1)
-        text_frame.columnconfigure(0, weight=1)
+        self.suspect_text_widget.grid(row=0, column=0, sticky="nsew")
+        y_scroll_susp.grid(row=0, column=1, sticky="ns")
+        x_scroll_susp.grid(row=1, column=0, sticky="ew")
+        suspect_frame.rowconfigure(0, weight=1)
+        suspect_frame.columnconfigure(0, weight=1)
 
-        self.text_widget.tag_config("match", background="#FFE08A")
+        self.suspect_text_widget.tag_config("match", background="#FFE08A")
+
+        # Right Frame: Corpus Document
+        corpus_frame = ttk.LabelFrame(paned_window, text="Corpus Document")
+        paned_window.add(corpus_frame, weight=1)
+
+        y_scroll_corp = ttk.Scrollbar(corpus_frame, orient=tk.VERTICAL)
+        x_scroll_corp = ttk.Scrollbar(corpus_frame, orient=tk.HORIZONTAL)
+
+        self.corpus_text_widget = tk.Text(
+            corpus_frame,
+            wrap=tk.NONE,
+            font=("Consolas", 11),
+            yscrollcommand=y_scroll_corp.set,
+            xscrollcommand=x_scroll_corp.set,
+        )
+        y_scroll_corp.config(command=self.corpus_text_widget.yview)
+        x_scroll_corp.config(command=self.corpus_text_widget.xview)
+
+        self.corpus_text_widget.grid(row=0, column=0, sticky="nsew")
+        y_scroll_corp.grid(row=0, column=1, sticky="ns")
+        x_scroll_corp.grid(row=1, column=0, sticky="ew")
+        corpus_frame.rowconfigure(0, weight=1)
+        corpus_frame.columnconfigure(0, weight=1)
+
+        self.corpus_text_widget.tag_config("match", background="#FFE08A")
+
         ttk.Label(self.tab_interactive, textvariable=self.result_var, anchor="w").pack(fill=tk.X, padx=10, pady=(0, 10))
 
     def _setup_benchmark_tab(self) -> None:
@@ -198,7 +287,7 @@ class MainWindow:
     # --- Interactive Tab Methods ---
     def _on_upload(self) -> None:
         file_path = filedialog.askopenfilename(
-            title="Select text file",
+            title="Select suspect document",
             filetypes=[("Text files", "*.txt"), ("All files", "*.*")],
         )
         if not file_path:
@@ -206,9 +295,18 @@ class MainWindow:
 
         try:
             self.text_content = read_text_file(file_path)
-            if self.text_widget:
-                self.text_widget.delete("1.0", tk.END)
-                self.text_widget.insert(tk.END, self.text_content)
+            if self.suspect_text_widget:
+                self.suspect_text_widget.delete("1.0", tk.END)
+                self.suspect_text_widget.insert(tk.END, self.text_content)
+                self.suspect_text_widget.tag_remove("match", "1.0", tk.END)
+            if self.corpus_text_widget:
+                self.corpus_text_widget.delete("1.0", tk.END)
+                self.corpus_text_widget.tag_remove("match", "1.0", tk.END)
+                
+            # Triger read corpus view selected if any
+            if self.corpus_view_var.get():
+                self._on_corpus_view_select()
+                
             self.result_var.set(f"Loaded: {file_path}")
         except Exception as exc:
             messagebox.showerror("Read error", str(exc))
@@ -245,17 +343,218 @@ class MainWindow:
 
     def _on_run(self) -> None:
         if not self.text_content:
-            messagebox.showwarning("Missing text", "Please upload a text file first.")
+            messagebox.showwarning("Missing document", "Please upload a suspect document first.")
             return
 
-        pattern = normalize_text(self.pattern_var.get())
-        if not pattern:
-            messagebox.showwarning(MISSING_PATTERN_TITLE, MISSING_PATTERN_MSG)
-            return
-
-        text, index_map = self._normalize_with_map(self.text_content)
+        mode = self.mode_var.get()
         algorithm = self.algorithm_var.get()
 
+        if mode == "Pattern Match (Manual)":
+            pattern = self.pattern_var.get().strip()
+            if not pattern:
+                messagebox.showwarning("Missing pattern", "Please enter a pattern to search.")
+                return
+            
+            selected_corpus = self.corpus_view_var.get()
+            if not selected_corpus:
+                messagebox.showwarning("Missing corpus", "Please select a corpus file to compare against.")
+                return
+                
+            self.result_var.set("Running Pattern Match... Please wait.")
+            threading.Thread(target=self._run_pattern_match_thread, args=(algorithm, pattern, selected_corpus), daemon=True).start()
+            
+        else: # Auto Plagiarism (Chunking)
+            if not self.corpus_files:
+                messagebox.showwarning("Missing corpus", "Please select corpus files or folder first.")
+                return
+
+            chunks = self._chunk_text(self.text_content, chunk_size=10)
+            if not chunks:
+                messagebox.showinfo("Analysis", "No valid text found to chunk in suspect document.")
+                return
+
+            selected_corpus = self.corpus_view_var.get()
+            if not selected_corpus:
+                messagebox.showwarning("Missing corpus", "Please select a corpus file to compare against.")
+                return
+
+            self.result_var.set("Running Auto Plagiarism (Chunking)... Please wait.")
+            threading.Thread(target=self._run_auto_chunking_thread, args=(algorithm, chunks, selected_corpus), daemon=True).start()
+
+    def _run_pattern_match_thread(self, algorithm: str, pattern_raw: str, corpus_path: str) -> None:
+        search_map = {
+            "brute_force": brute_force_search,
+            "kmp": kmp_search,
+            "rabin_karp": rabin_karp_search,
+            "boyer_moore": boyer_moore_search,
+        }
+        search_fn = search_map[algorithm]
+        
+        timer = Timer()
+        timer.start()
+
+        # 1. Search in Suspect
+        susp_norm, susp_map = self._normalize_with_map(self.text_content)
+        pattern_norm = normalize_text(pattern_raw)
+        
+        susp_matches = []
+        if pattern_norm:
+            m_susp = search_fn(pattern_norm, susp_norm)
+            if m_susp:
+                for m_idx in m_susp:
+                    m_len = len(pattern_norm)
+                    if m_idx + m_len - 1 < len(susp_map):
+                        start_raw = susp_map[m_idx]
+                        end_raw = susp_map[m_idx + m_len - 1] + 1
+                        susp_matches.append((start_raw, end_raw))
+
+        # 2. Search in Corpus
+        corp_matches = []
+        try:
+            c_text = read_text_file(corpus_path)
+            c_norm, c_map = self._normalize_with_map(c_text)
+            if pattern_norm:
+                m_corp = search_fn(pattern_norm, c_norm)
+                if m_corp:
+                    for m_idx in m_corp:
+                        m_len = len(pattern_norm)
+                        if m_idx + m_len - 1 < len(c_map):
+                            start_raw = c_map[m_idx]
+                            end_raw = c_map[m_idx + m_len - 1] + 1
+                            corp_matches.append((start_raw, end_raw))
+        except Exception:
+            pass
+            
+        elapsed_ms = timer.stop()
+
+        def update_ui() -> None:
+            self._highlight_intervals(susp_matches, self.suspect_text_widget)
+            self._highlight_intervals(corp_matches, self.corpus_text_widget)
+            self.result_var.set(f"Pattern Match | Found {len(susp_matches)} in Suspect, {len(corp_matches)} in Corpus | Time: {elapsed_ms:.2f}ms")
+            
+            self.last_run_result = {
+                "algorithm": algorithm,
+                "matches": len(susp_matches) + len(corp_matches),
+                "elapsed_ms": elapsed_ms,
+                "similarity": 0.0,
+                "pattern": pattern_raw,
+                "text_len": len(self.text_content),
+            }
+            self.last_compare_results = []
+            self.last_corpus_results = []
+            
+        self.root.after(0, update_ui)
+
+    def _run_auto_chunking_thread(self, algorithm: str, chunks: list[tuple[str, int, int]], corpus_path: str) -> None:
+        search_map = {
+            "brute_force": brute_force_search,
+            "kmp": kmp_search,
+            "rabin_karp": rabin_karp_search,
+            "boyer_moore": boyer_moore_search,
+        }
+        search_fn = search_map[algorithm]
+        
+        try:
+            c_text = read_text_file(corpus_path)
+            c_norm, c_map = self._normalize_with_map(c_text)
+        except Exception as e:
+            self.root.after(0, lambda: messagebox.showwarning("Corpus Error", f"Could not read corpus file: {e}"))
+            return
+            
+        timer = Timer()
+        timer.start()
+
+        susp_matched_intervals = []
+        corp_matched_intervals = []
+        total_matches = 0
+
+        for chunk, start_raw, end_raw in chunks:
+            norm_chunk = normalize_text(chunk)
+            if not norm_chunk: continue
+            
+            matches = search_fn(norm_chunk, c_norm)
+            if matches:
+                susp_matched_intervals.append((start_raw, end_raw))
+                total_matches += len(matches)
+                for m_idx in matches:
+                    m_len = len(norm_chunk)
+                    if m_idx + m_len - 1 < len(c_map):
+                        c_start = c_map[m_idx]
+                        c_end = c_map[m_idx + m_len - 1] + 1
+                        corp_matched_intervals.append((c_start, c_end))
+
+        elapsed_ms = timer.stop()
+        
+        unique_susp_intervals = sorted(list(set(susp_matched_intervals)))
+        matched_chars = sum(end - start for start, end in unique_susp_intervals)
+        total_chars = max(1, len(self.text_content))
+        similarity = (matched_chars / total_chars) * 100
+        
+        def update_ui() -> None:
+            self._highlight_intervals(unique_susp_intervals, self.suspect_text_widget)
+            self._highlight_intervals(corp_matched_intervals, self.corpus_text_widget)
+            self.result_var.set(f"Auto Plagiarism | Similarity with {Path(corpus_path).name}: {similarity:.2f}% | Time: {elapsed_ms:.2f}ms")
+            
+            self.last_run_result = {
+                "algorithm": algorithm,
+                "matches": total_matches,
+                "elapsed_ms": elapsed_ms,
+                "similarity": similarity,
+                "pattern": f"Chunked ({len(chunks)} chunks)",
+                "text_len": total_chars,
+            }
+            self.last_compare_results = []
+            self.last_corpus_results = []
+            
+        self.root.after(0, update_ui)
+
+    def _on_compare(self) -> None:
+        if not self.corpus_files:
+            messagebox.showwarning("Missing corpus", "Please select corpus files or folder first.")
+            return
+
+        mode = self.mode_var.get()
+        
+        if mode == "Pattern Match (Manual)":
+            pattern = self.pattern_var.get().strip()
+            if not pattern:
+                messagebox.showwarning("Missing pattern", "Please enter a pattern to compare.")
+                return
+            self.result_var.set("Comparing algorithms (Pattern)... Please wait.")
+            threading.Thread(target=self._compare_pattern_thread, args=(pattern,), daemon=True).start()
+        else:
+            if not self.text_content:
+                messagebox.showwarning("Missing document", "Please upload a suspect document first.")
+                return
+            chunks = self._chunk_text(self.text_content, chunk_size=10)
+            if not chunks:
+                messagebox.showinfo("Analysis", "No valid text found to chunk in suspect document.")
+                return
+            self.result_var.set("Comparing algorithms (Chunking)... Please wait.")
+            threading.Thread(target=self._compare_chunking_thread, args=(chunks,), daemon=True).start()
+
+    def _compare_pattern_thread(self, pattern_raw: str) -> None:
+        corpus_data = []
+        for corpus_path in self.corpus_files:
+            try:
+                c_text = read_text_file(corpus_path)
+                c_norm, _ = self._normalize_with_map(c_text)
+                corpus_data.append((corpus_path, c_norm))
+            except Exception:
+                continue
+
+        if not corpus_data:
+            self.root.after(0, lambda: messagebox.showwarning("Corpus Error", "Could not read any corpus files."))
+            self.root.after(0, lambda: self.result_var.set("Comparison failed."))
+            return
+
+        pattern_norm = normalize_text(pattern_raw)
+        if not pattern_norm:
+            self.root.after(0, lambda: messagebox.showwarning("Invalid Pattern", "Pattern is empty after normalization."))
+            self.root.after(0, lambda: self.result_var.set("Comparison failed."))
+            return
+
+        results: list[dict[str, float | int | str]] = []
         search_map = {
             "brute_force": brute_force_search,
             "kmp": kmp_search,
@@ -263,37 +562,76 @@ class MainWindow:
             "boyer_moore": boyer_moore_search,
         }
 
-        timer = Timer()
-        timer.start()
-        matches = search_map[algorithm](pattern, text)
-        elapsed_ms = timer.stop()
-        similarity = (len(matches) * len(pattern) / max(1, len(text))) * 100
+        all_algo_intervals = {}
+        
+        susp_norm, susp_map = None, None
+        if self.text_content:
+            susp_norm, susp_map = self._normalize_with_map(self.text_content)
 
-        self._highlight_matches(matches, len(pattern), index_map=index_map)
-        self.last_run_result = {
-            "algorithm": algorithm,
-            "matches": len(matches),
-            "elapsed_ms": elapsed_ms,
-            "similarity": similarity,
-            "pattern": pattern,
-            "text_len": len(text),
-        }
-        self.last_compare_results = []
-        self.last_corpus_results = []
-        self.result_var.set(format_result_summary(algorithm, len(matches), elapsed_ms, len(pattern), len(text)))
+        for name, search_fn in search_map.items():
+            timer = Timer()
+            timer.start()
 
-    def _on_compare(self) -> None:
-        if not self.text_content:
-            messagebox.showwarning("Missing text", "Please upload a text file first.")
+            total_matches = 0
+            for _, c_norm in corpus_data:
+                matches = search_fn(pattern_norm, c_norm)
+                if matches:
+                    total_matches += len(matches)
+
+            elapsed_ms = timer.stop()
+
+            unique_intervals = []
+            if susp_norm and susp_map:
+                susp_matches = search_fn(pattern_norm, susp_norm)
+                if susp_matches:
+                    for m_idx in susp_matches:
+                        m_len = len(pattern_norm)
+                        if m_idx + m_len - 1 < len(susp_map):
+                            start_raw = susp_map[m_idx]
+                            end_raw = susp_map[m_idx + m_len - 1] + 1
+                            unique_intervals.append((start_raw, end_raw))
+            all_algo_intervals[name] = unique_intervals
+
+            similarity = 100.0 if total_matches > 0 else 0.0
+
+            results.append(
+                {
+                    "algorithm": name,
+                    "matches": total_matches,
+                    "elapsed_ms": elapsed_ms,
+                    "similarity": similarity,
+                }
+            )
+
+        def update_ui() -> None:
+            selected_algo = self.algorithm_var.get()
+            if selected_algo in all_algo_intervals and self.suspect_text_widget:
+                self._highlight_intervals(all_algo_intervals[selected_algo], self.suspect_text_widget)
+
+            self.last_compare_results = results
+            self.last_run_result = None
+            self.last_corpus_results = []
+            self.result_var.set(format_compare_summary(results))
+
+        self.root.after(0, update_ui)
+
+    def _compare_chunking_thread(self, chunks: list[tuple[str, int, int]]) -> None:
+        corpus_data = []
+        for corpus_path in self.corpus_files:
+            try:
+                c_text = read_text_file(corpus_path)
+                c_norm, _ = self._normalize_with_map(c_text)
+                corpus_data.append((corpus_path, c_norm))
+            except Exception:
+                continue
+
+        if not corpus_data:
+            self.root.after(0, lambda: messagebox.showwarning("Corpus Error", "Could not read any corpus files."))
+            self.root.after(0, lambda: self.result_var.set("Comparison failed."))
             return
 
-        pattern = normalize_text(self.pattern_var.get())
-        if not pattern:
-            messagebox.showwarning(MISSING_PATTERN_TITLE, MISSING_PATTERN_MSG)
-            return
-
-        text, index_map = self._normalize_with_map(self.text_content)
         results: list[dict[str, float | int | str]] = []
+        all_algo_intervals = {}
 
         search_map = {
             "brute_force": brute_force_search,
@@ -305,39 +643,183 @@ class MainWindow:
         for name, search_fn in search_map.items():
             timer = Timer()
             timer.start()
-            matches = search_fn(pattern, text)
+
+            matched_intervals = []
+            total_matches = 0
+
+            for chunk, start_raw, end_raw in chunks:
+                norm_chunk = normalize_text(chunk)
+                if not norm_chunk: continue
+
+                chunk_matched = False
+                for _, c_norm in corpus_data:
+                    matches = search_fn(norm_chunk, c_norm)
+                    if matches:
+                        chunk_matched = True
+                        total_matches += len(matches)
+
+                if chunk_matched:
+                    matched_intervals.append((start_raw, end_raw))
+
             elapsed_ms = timer.stop()
-            similarity = (len(matches) * len(pattern) / max(1, len(text))) * 100
+
+            unique_intervals = sorted(list(set(matched_intervals)))
+            matched_chars = sum(end - start for start, end in unique_intervals)
+            similarity = (matched_chars / max(1, len(self.text_content))) * 100
+
+            all_algo_intervals[name] = unique_intervals
+
             results.append(
                 {
                     "algorithm": name,
-                    "matches": len(matches),
+                    "matches": total_matches,
                     "elapsed_ms": elapsed_ms,
                     "similarity": similarity,
                 }
             )
 
-        selected = self.algorithm_var.get()
-        selected_row = next((r for r in results if r["algorithm"] == selected), None)
-        if selected_row is not None:
-            self._highlight_matches(search_map[selected](pattern, text), len(pattern), index_map=index_map)
+        def update_ui() -> None:
+            selected_algo = self.algorithm_var.get()
+            if selected_algo in all_algo_intervals:
+                self._highlight_intervals(all_algo_intervals[selected_algo], self.suspect_text_widget)
 
-        self.last_compare_results = results
-        self.last_run_result = None
-        self.last_corpus_results = []
-        self.result_var.set(format_compare_summary(results))
+            self.last_compare_results = results
+            self.last_run_result = None
+            self.last_corpus_results = []
+            self.result_var.set(format_compare_summary(results))
+
+        self.root.after(0, update_ui)
 
     def _on_rank_corpus(self) -> None:
         if not self.corpus_files:
             messagebox.showwarning("Missing corpus", "Please select corpus files first.")
             return
 
-        pattern = normalize_text(self.pattern_var.get())
-        if not pattern:
-            messagebox.showwarning(MISSING_PATTERN_TITLE, MISSING_PATTERN_MSG)
+        mode = self.mode_var.get()
+        algorithm = self.algorithm_var.get()
+
+        if mode == "Pattern Match (Manual)":
+            pattern = self.pattern_var.get().strip()
+            if not pattern:
+                messagebox.showwarning("Missing pattern", "Please enter a pattern to search.")
+                return
+            self.result_var.set("Ranking corpus (Pattern)... Please wait.")
+            threading.Thread(target=self._rank_corpus_pattern_thread, args=(algorithm, pattern), daemon=True).start()
+        else:
+            if not self.text_content:
+                messagebox.showwarning("Missing document", "Please upload a suspect document first.")
+                return
+            chunks = self._chunk_text(self.text_content, chunk_size=10)
+            if not chunks:
+                messagebox.showinfo("Analysis", "No valid text found to chunk in suspect document.")
+                return
+            self.result_var.set("Ranking corpus (Chunking)... Please wait.")
+            threading.Thread(target=self._rank_corpus_chunking_thread, args=(algorithm, chunks), daemon=True).start()
+
+    def _rank_corpus_pattern_thread(self, algorithm: str, pattern_raw: str) -> None:
+        search_map = {
+            "brute_force": brute_force_search,
+            "kmp": kmp_search,
+            "rabin_karp": rabin_karp_search,
+            "boyer_moore": boyer_moore_search,
+        }
+        search_fn = search_map[algorithm]
+        pattern_norm = normalize_text(pattern_raw)
+
+        if not pattern_norm:
+            self.root.after(0, lambda: messagebox.showwarning("Invalid Pattern", "Pattern is empty after normalization."))
+            self.root.after(0, lambda: self.result_var.set("Ranking failed."))
             return
 
-        algorithm = self.algorithm_var.get()
+        results: list[dict[str, float | int | str]] = []
+        for corpus_path in self.corpus_files:
+            try:
+                text_raw = read_text_file(corpus_path)
+                c_norm, _ = self._normalize_with_map(text_raw)
+            except Exception:
+                continue
+
+            timer = Timer()
+            timer.start()
+            
+            matches = search_fn(pattern_norm, c_norm)
+            total_matches_for_corpus = len(matches) if matches else 0
+
+            elapsed_ms = timer.stop()
+
+            # For pattern matching, similarity could just be proportional to matches, or 100% if > 0.
+            # We calculate a ratio per 1000 characters as a pseudo similarity, but capped at 100.
+            ratio = (total_matches_for_corpus * len(pattern_norm) / max(1, len(c_norm))) * 100
+            similarity = min(100.0, ratio)
+
+            results.append(
+                {
+                    "algorithm": algorithm,
+                    "file_path": corpus_path,
+                    "file_name": Path(corpus_path).name,
+                    "matches": total_matches_for_corpus,
+                    "elapsed_ms": elapsed_ms,
+                    "similarity": similarity,
+                }
+            )
+
+        def update_ui() -> None:
+            if not results:
+                messagebox.showwarning("No result", "Could not analyze selected corpus files.")
+                self.result_var.set("Ranking failed.")
+                return
+
+            results.sort(key=lambda item: (-int(item["matches"]), float(item["elapsed_ms"])))
+
+            if results:
+                top = results[0]
+                try:
+                    top_c_text = read_text_file(str(top["file_path"]))
+                    top_c_norm, top_c_map = self._normalize_with_map(top_c_text)
+                    
+                    if self.corpus_text_widget:
+                        self.corpus_text_widget.delete("1.0", tk.END)
+                        self.corpus_text_widget.insert(tk.END, top_c_text)
+                        
+                        if self.corpus_combobox and str(top["file_path"]) in self.corpus_combobox['values']:
+                            self.corpus_view_var.set(str(top["file_path"]))
+
+                    corpus_matched_intervals = []
+                    matches = search_fn(pattern_norm, top_c_norm)
+                    if matches:
+                        for m_idx in matches:
+                            m_len = len(pattern_norm)
+                            if m_idx + m_len - 1 < len(top_c_map):
+                                c_start = top_c_map[m_idx]
+                                c_end = top_c_map[m_idx + m_len - 1] + 1
+                                corpus_matched_intervals.append((c_start, c_end))
+
+                    self._highlight_intervals(corpus_matched_intervals, self.corpus_text_widget)
+                    
+                    if self.text_content:
+                        susp_norm, susp_map = self._normalize_with_map(self.text_content)
+                        susp_matches = search_fn(pattern_norm, susp_norm)
+                        susp_intervals = []
+                        if susp_matches:
+                            for m_idx in susp_matches:
+                                m_len = len(pattern_norm)
+                                if m_idx + m_len - 1 < len(susp_map):
+                                    start_raw = susp_map[m_idx]
+                                    end_raw = susp_map[m_idx + m_len - 1] + 1
+                                    susp_intervals.append((start_raw, end_raw))
+                        self._highlight_intervals(susp_intervals, self.suspect_text_widget)
+
+                except Exception:
+                    pass
+
+            self.last_corpus_results = results
+            self.last_compare_results = []
+            self.last_run_result = None
+            self.result_var.set(format_corpus_top_summary(results, top_n=5))
+
+        self.root.after(0, update_ui)
+
+    def _rank_corpus_chunking_thread(self, algorithm: str, chunks: list[tuple[str, int, int]]) -> None:
         search_map = {
             "brute_force": brute_force_search,
             "kmp": kmp_search,
@@ -350,15 +832,31 @@ class MainWindow:
         for corpus_path in self.corpus_files:
             try:
                 text_raw = read_text_file(corpus_path)
-                text, _ = self._normalize_with_map(text_raw)
+                c_norm, _ = self._normalize_with_map(text_raw)
             except Exception:
                 continue
 
             timer = Timer()
             timer.start()
-            matches = search_fn(pattern, text)
+            
+            matched_intervals_for_corpus = []
+            total_matches_for_corpus = 0
+
+            for chunk, start_raw, end_raw in chunks:
+                norm_chunk = normalize_text(chunk)
+                if not norm_chunk: continue
+                
+                matches = search_fn(norm_chunk, c_norm)
+                if matches:
+                    matched_intervals_for_corpus.append((start_raw, end_raw))
+                    total_matches_for_corpus += len(matches)
+
             elapsed_ms = timer.stop()
-            similarity = (len(matches) * len(pattern) / max(1, len(text))) * 100
+
+            unique_intervals = sorted(list(set(matched_intervals_for_corpus)))
+            matched_chars = sum(end - start for start, end in unique_intervals)
+            similarity = (matched_chars / max(1, len(self.text_content))) * 100
+
             similarity = min(100.0, similarity)
 
             results.append(
@@ -366,34 +864,60 @@ class MainWindow:
                     "algorithm": algorithm,
                     "file_path": corpus_path,
                     "file_name": Path(corpus_path).name,
-                    "matches": len(matches),
+                    "matches": total_matches_for_corpus,
                     "elapsed_ms": elapsed_ms,
                     "similarity": similarity,
                 }
             )
 
-        if not results:
-            messagebox.showwarning("No result", "Could not analyze selected corpus files.")
-            return
+        def update_ui() -> None:
+            if not results:
+                messagebox.showwarning("No result", "Could not analyze selected corpus files.")
+                self.result_var.set("Ranking failed.")
+                return
 
-        results.sort(key=lambda item: (-float(item["similarity"]), -int(item["matches"]), float(item["elapsed_ms"])))
+            results.sort(key=lambda item: (-float(item["similarity"]), -int(item["matches"]), float(item["elapsed_ms"])))
 
-        top = results[0]
-        try:
-            top_text_raw = read_text_file(str(top["file_path"]))
-            top_text, top_index_map = self._normalize_with_map(top_text_raw)
-            top_matches = search_fn(pattern, top_text)
-            if self.text_widget:
-                self.text_widget.delete("1.0", tk.END)
-                self.text_widget.insert(tk.END, top_text_raw)
-            self._highlight_matches(top_matches, len(pattern), index_map=top_index_map)
-        except Exception:
-            pass
+            if results:
+                top = results[0]
+                try:
+                    top_c_text = read_text_file(str(top["file_path"]))
+                    top_c_norm, top_c_map = self._normalize_with_map(top_c_text)
+                    
+                    if self.corpus_text_widget:
+                        self.corpus_text_widget.delete("1.0", tk.END)
+                        self.corpus_text_widget.insert(tk.END, top_c_text)
+                        
+                        if self.corpus_combobox and str(top["file_path"]) in self.corpus_combobox['values']:
+                            self.corpus_view_var.set(str(top["file_path"]))
 
-        self.last_corpus_results = results
-        self.last_compare_results = []
-        self.last_run_result = None
-        self.result_var.set(format_corpus_top_summary(results, top_n=5))
+                    top_matched_intervals = []
+                    corpus_matched_intervals = []
+                    for chunk, start_raw, end_raw in chunks:
+                        norm_chunk = normalize_text(chunk)
+                        if not norm_chunk: continue
+                        
+                        matches = search_fn(norm_chunk, top_c_norm)
+                        if matches:
+                            top_matched_intervals.append((start_raw, end_raw))
+                            for m_idx in matches:
+                                m_len = len(norm_chunk)
+                                if m_idx + m_len - 1 < len(top_c_map):
+                                    c_start = top_c_map[m_idx]
+                                    c_end = top_c_map[m_idx + m_len - 1] + 1
+                                    corpus_matched_intervals.append((c_start, c_end))
+
+                    self._highlight_intervals(top_matched_intervals, self.suspect_text_widget)
+                    self._highlight_intervals(corpus_matched_intervals, self.corpus_text_widget)
+                except Exception:
+                    pass
+
+            self.last_corpus_results = results
+            self.last_compare_results = []
+            self.last_run_result = None
+            self.result_var.set(format_corpus_top_summary(results, top_n=5))
+
+        self.root.after(0, update_ui)
 
     def _on_export(self) -> None:
         if not self.last_run_result and not self.last_compare_results and not self.last_corpus_results:
@@ -455,30 +979,15 @@ class MainWindow:
         with open(file_path, "w", encoding="utf-8") as output:
             json.dump(payload, output, ensure_ascii=False, indent=2)
 
-    def _highlight_matches(self, matches: list[int], pattern_len: int, index_map: list[int] | None = None) -> None:
-        if not self.text_widget:
+    def _highlight_intervals(self, intervals: list[tuple[int, int]], widget: tk.Text | None = None) -> None:
+        target_widget = widget if widget else self.suspect_text_widget
+        if not target_widget:
             return
-        self.text_widget.tag_remove("match", "1.0", tk.END)
-
-        if pattern_len <= 0:
-            return
-
-        if index_map is None:
-            for pos in matches:
-                start = f"1.0+{pos}c"
-                end = f"1.0+{pos + pattern_len}c"
-                self.text_widget.tag_add("match", start, end)
-            return
-
-        for pos in matches:
-            end_pos = pos + pattern_len - 1
-            if pos < 0 or end_pos >= len(index_map):
-                continue
-            start_raw = index_map[pos]
-            end_raw_exclusive = index_map[end_pos] + 1
-            start = f"1.0+{start_raw}c"
-            end = f"1.0+{end_raw_exclusive}c"
-            self.text_widget.tag_add("match", start, end)
+        target_widget.tag_remove("match", "1.0", tk.END)
+        for start_raw, end_raw in intervals:
+            start_idx = f"1.0+{start_raw}c"
+            end_idx = f"1.0+{end_raw}c"
+            target_widget.tag_add("match", start_idx, end_idx)
 
     # --- Benchmark Tab Methods ---
     def _on_select_benchmark_test(self) -> None:
